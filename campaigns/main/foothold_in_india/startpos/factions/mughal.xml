@@ -139,9 +139,7 @@
   <xml_include path="character/mughal-middle_east_missionary-0002.xml"/>
   <xml_include path="character/mughal-minister-0003.xml"/>
   <xml_include path="character/mughal-assassin-0002.xml"/>
-  <xml_include path="character/mughal-General-0002.xml"/>
   <xml_include path="character/mughal-minister-0004.xml"/>
-  <xml_include path="character/mughal-colonel-0004.xml"/>
   <xml_include path="character/mughal-minister-0005.xml"/>
   <xml_include path="character/mughal-minister-0006.xml"/>
   <xml_include path="character/mughal-minister-0007.xml"/>
@@ -159,13 +157,17 @@
   <xml_include path="army/mughal-0002.xml"/>
   <xml_include path="army/mughal-0003.xml"/>
   <xml_include path="army/mughal-0004.xml"/>
-  <xml_include path="army/mughal-0005.xml"/>
-  <xml_include path="army/mughal-0006.xml"/>
   <xml_include path="army/mughal-0007.xml"/>
  </ary>
  <ary type="MORGUE"/>
  <u4_ary>585536488</u4_ary><!-- Governor ID For Each Theatre -->
  <no/>
+ <rec type="CAMPAIGN_SHROUD">
+  <xml_include path="quadtree/mughal-mughal-0001.xml"/>
+  <xml_include path="quadtree/mughal-mughal-0002.xml"/>
+  <xml_include path="quadtree/mughal-mughal-0003.xml"/>
+  <yes/>
+ </rec>
  <s>rel_islamic</s><!-- Religion -->
  <no/>
  <rec type="FORT_UPGRADE_MANAGER">
