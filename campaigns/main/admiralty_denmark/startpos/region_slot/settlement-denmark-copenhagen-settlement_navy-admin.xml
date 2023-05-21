@@ -1,10 +1,9 @@
 <?xml version="1.0"?>
-<rec type="ROAD_SLOT">
- <yes/>
+<rec type="REGION_SLOT_ARRAY">
  <rec type="REGION_SLOT">
   <rec type="SIEGEABLE_GARRISON_RESIDENCE">
    <garrison_residence>583182736</garrison_residence><!-- Faction ID -->
-   <u>586823248</u><!-- Building Slot ID -->
+   <u>586820561</u><!-- Building Slot ID -->
    <u>0</u>
    <u>0</u>
    <u>0</u>
@@ -25,18 +24,18 @@
   </rec>
   <rec type="BUILDING_MANAGER">
    <yes/>
-   <building health="100" name="basic_roads" faction="denmark" government="gov_constitutional_monarchy"/>
+   <building health="100" name="admiralty" faction="denmark" government="gov_constitutional_monarchy"/>
    <no/>
   </rec>
-  <u>586823248</u><!-- Building Slot ID -->
-  <s>settlement:denmark:copenhagen:settlement_road</s><!-- Building Slot Name -->
+  <u>586820561</u><!-- Building Slot ID -->
+  <s>settlement:denmark:copenhagen:settlement_navy-admin</s><!-- Building Slot Name -->
   <i>0</i>
   <i>0</i>
-  <v2x x="84.3543376922607" y="393.292907714844"/>
+  <v2x x="83.5445976257324" y="393.839996337891"/>
   <i>0</i><!-- 1=Meagre 2=Low 3=Average 4=High 5=Abundant Yeilds For Commodities -->
   <i>5</i><!-- 1=Very Poor 2=Poor 3=Growing 4=Prosperous 5=Wealthy For Town/Port/Road/Wall -->
   <no/><!-- Town or Port Emerged -->
-  <i>-1</i><!-- Commodities = 0; Town/Port/Road/Wall = 1 -->
+  <i>1</i><!-- Commodities = 0; Town/Port/Road/Wall = 1 -->
   <i>1</i><!-- Commodities = 2; Town/Port/Road/Wall = 1 -->
   <u>4294967295</u><!-- 4294967295 Trade/Finance ID -->
   <u>0</u><!-- Town Or Port Emergence Order -->
