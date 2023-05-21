@@ -2,8 +2,8 @@
 <rec type="CHARACTER_ARRAY">
  <rec type="CHARACTER">
   <rec type="LOCOMOTABLE">
-   <v2x x="543.7000122070312" y="117.5"/>
-   <v2x x="543.7000122070312" y="117.5"/>
+   <v2x x="624.280029296875" y="166.8699951171875"/>
+   <v2x x="624.280029296875" y="166.8699951171875"/>
    <flt>3.1415927410125732</flt><!-- Character Facing Direction -->
    <flt>3.1415927410125732</flt><!-- Character Facing Direction -->
    <flt>0.0</flt>
@@ -20,23 +20,23 @@
   </rec>
   <rec type="CHARACTER_DETAILS">
    <traits>
-    C_General_Coward=1
-    C_General_Defender_Bad=4
+    C_General_Good_Field_Commander=6
+    C_General_Brave=4
     C_General_India_Good=4
    </traits>
-   <loc>names_name_names_mughalZulfikar</loc>
-   <loc>names_name_names_mughalKhan</loc>
+   <loc>names_name_names_englishAnthony</loc>
+   <loc>names_name_names_englishBrown</loc>
    <loc/>
    <s/><!-- Head Of State -->
    <date>summer 1637</date>
    <date/>
    <i>0</i>
-   <portrait_details card="ui/portraits/indian/Cards/general/old/025.tga" info="ui/portraits/indian/Info/general/old/025.jpg" number="25"/>
-   <s>mughal</s>
+   <portrait_details card="ui/portraits/european/Cards/general/old/003.tga" info="ui/portraits/european/Info/general/old/003.jpg" number="3"/>
+   <s>britain</s>
    <u>582865192</u><!-- Character ID -->
    <agent_ancillaries/>
    <agent_attributes>
-    command_land=2
+    command_land=5
     command_sea=-1
     duelling_pistols=-1
     duelling_swords=-1
@@ -69,7 +69,7 @@
     dummy=0
    </agent_attribute_bonuses>
    <no/>
-   <loc>agent_culture_details_onscreen_name_Generalindian</loc>
+   <loc>agent_culture_details_onscreen_name_Generaleuropean</loc>
   </rec>
   <i>582865192</i><!-- Character ID -->
   <s>General</s><!-- Character Type -->
