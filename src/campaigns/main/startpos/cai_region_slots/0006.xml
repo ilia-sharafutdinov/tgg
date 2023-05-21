@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<rec type="CAI_WORLD_REGION_SLOTS">
+ <owned_indirect>317</owned_indirect><!-- CAI_WORLD_REGIONS = Settlement AI ID. CAI_WORLD_REGION_SLOTS = Region AI ID. CAI_WORLD_CHARACTERS = Faction AI ID -->
+ <cai_situated x="235.71185302734375" y="170.60604858398438" region_id="317" theatre_id="34" area_id="13"/>
+ <rec type="CAI_BDI_COMPONENT_PROPERTY_SET">
+  <u>0</u>
+ </rec>
+ <u>1453</u><!-- Region Slot AI ID -->
+ <flt>100.0</flt>
+ <flt>100.0</flt>
+ <flt>0.0</flt>
+ <flt>100.0</flt>
+ <u>1</u>
+ <no/>
+ <u4_ary/>
+ <u4_ary>9720 0 11105 0 11106 0 11123 0 16235 0 18795 0 20763 0 24323 0 26418 0 28089 0 29313 0 33094 0 35357 0 40977 0 42883 0 45602 0 47725 0 51315 0 52630 0 54816 0 56618 0 58486 0 61076 0 62836 0 64996 0 66363 0 67639 0 68981 0 70235 0 71537 0 74381 0 77860 0</u4_ary><!-- BDI Information -->
+ <u>0</u>
+ <u>32</u>
+ <u4_ary/>
+ <u4_ary>9720 16 11105 4 11106 15 11123 7855 16235 14776 18795 17709 20763 19731 24323 22835 26418 25839 28089 27366 29313 29187 33094 32078 35357 34218 40977 40550 42883 41858 45602 45208 47725 46897 51315 50886 52630 52209 54816 54263 56618 56123 58486 58101 61076 60154 62836 61943 64996 64585 66363 65914 67639 67253 68981 68542 70235 69858 71537 71136 74381 73957 77860 76911</u4_ary><!-- BDI Information -->
+ <ary type="CAI_BDI_COMPONENT_BLOCK_OWNS"/>
+ <u>0</u>
+ <u>0</u>
+ <u4_ary/>
+ <u4_ary/>
+ <u4_ary/>
+ <u4_ary>9683 9685 9717 9720 11105 11106 11123 16235 18795 20763 24323 26418 28089 29313 33094 35357 40977 42883 45602 47725 51315 52630 54816 56618 58486 61076 62836 64996 66363 67639 68981 70235 71537 74381 77860</u4_ary><!-- BDI Information -->
+ <no/>
+ <u>0</u>
+ <no/>
+ <rec type="CAI_GARRISONABLE">
+  <u>0</u><!-- Character Resource AI ID -->
+  <u>0</u>
+  <u4_ary/><!-- Character Resource AI IDs -->
+  <u4_ary/>
+  <u>0</u>
+ </rec>
+ <rec type="CAI_THREATENED_GARRISONABLE">
+  <no/>
+ </rec>
+ <rec type="CAI_REGION_SLOT">
+  <i>1</i>
+  <u>1452</u><!-- Building Slot AI ID -->
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <no/><!-- True = Port, False = Town (ports have extra set of coordinates for their sea part following) -->
+ </rec>
+</rec>

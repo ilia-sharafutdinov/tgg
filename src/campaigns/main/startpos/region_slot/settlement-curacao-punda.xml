@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<rec type="SETTLEMENT">
+ <rec type="SIEGEABLE_GARRISON_RESIDENCE">
+  <garrison_residence>580632584</garrison_residence><!-- Faction ID -->
+  <u>587227720</u><!-- Building Slot ID -->
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <i>0</i>
+  <no/>
+  <no/>
+  <no/>
+  <v2x x="-489.8321838378906" y="86.61607360839844"/>
+  <u>580724152</u><!-- Army ID -->
+  <u4_ary/>
+  <u4_ary/><!-- Character ID Of Garrison -->
+  <rec type="LINE_OF_SIGHT">
+   <yes/>
+   <v2 x="-495.0" y="81.25"/>
+   <v2 x="-483.75" y="92.5"/>
+   <xml_include path="quadtree/settlement-curacao-punda-0001.xml"/>
+  </rec>
+  <no/>
+  <ary type="FORTIFICATIONS_BLOCK"/>
+ </rec>
+ <loc>start_pos_settlements_onscreen_name_settlement:curacao:punda147</loc>
+ <i>2</i>
+ <s>settlement:curacao:punda</s><!-- DB Table Campaign_map_settlements -->
+ <i>587227720</i><!-- Settlement ID -->
+ <s>settlement:curacao:punda</s><!-- DB Table Campaign_map_settlements -->
+</rec>

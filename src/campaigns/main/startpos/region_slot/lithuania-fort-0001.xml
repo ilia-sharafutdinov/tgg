@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<rec type="FORT_ARRAY">
+ <i>581200456</i>
+ <rec type="SIEGEABLE_GARRISON_RESIDENCE">
+  <garrison_residence>581200456</garrison_residence><!-- Faction ID -->
+  <u>591645384</u><!-- Building Slot ID -->
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <i>0</i>
+  <no/>
+  <no/>
+  <no/>
+  <v2x x="163.47000122070312" y="390.2200012207031"/>
+  <u>591646648</u><!-- Army ID -->
+  <u4_ary/>
+  <u4_ary/><!-- Character ID Of Garrison -->
+  <rec type="LINE_OF_SIGHT">
+   <yes/>
+   <v2 x="157.5" y="385.0"/>
+   <v2 x="168.75" y="396.25"/>
+   <xml_include path="quadtree/lithuania-0002.xml"/>
+  </rec>
+  <no/>
+  <ary type="FORTIFICATIONS_BLOCK">
+   <rec type="FORTIFICATIONS_BLOCK">
+    <rec type="FORTIFICATION_DAMAGE_INFO" version="1">
+     <ary type="HIT_POINTS_BLOCK"/>
+     <flt>1.0</flt>
+     <u>4</u>
+    </rec>
+   </rec>
+  </ary>
+ </rec>
+ <rec type="FORT">
+  <v2x x="163.47000122070312" y="390.2200012207031"/>
+  <i>1</i>
+  <loc>start_pos_forts_fort_name_2114878533</loc>
+  <s>2114878533</s>
+  <i>591645384</i><!-- Fort Building Slot ID -->
+  <i>581200456</i><!-- Faction ID -->
+ </rec>
+</rec>

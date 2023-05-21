@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<rec type="REGION">
+ <s>gujarat</s><!-- Region Name -->
+ <xml_include path="population/gujarat.xml"/>
+ <traits/>
+ <rec type="REGION_SLOT_MANAGER">
+  <ary type="REGION_SLOT_ARRAY">
+   <xml_include path="region_slot/settlement-gujarat-ahmedabad-settlement_army-admin.xml"/>
+   <xml_include path="region_slot/settlement-gujarat-ahmedabad-settlement_ordnance.xml"/>
+   <xml_include path="region_slot/settlement-gujarat-ahmedabad-settlement_government.xml"/>
+   <xml_include path="region_slot/settlement-gujarat-ahmedabad-settlement_culture.xml"/>
+   <xml_include path="region_slot/india_highlands-gujarat-southeast.xml"/>
+   <xml_include path="region_slot/wheat-gujarat-south.xml"/>
+   <xml_include path="region_slot/port-gujarat-surat.xml"/>
+   <xml_include path="region_slot/port-gujarat-porbandar.xml"/>
+   <xml_include path="region_slot/town-gujarat-baroda.xml"/>
+  </ary>
+  <xml_include path="region_slot/gujarat-road.xml"/>
+  <xml_include path="region_slot/gujarat-walls.xml"/>
+ </rec>
+ <i>581433840</i><!-- Region ID -->
+ <xml_include path="region_slot/settlement-gujarat-ahmedabad.xml"/>
+ <u>0</u>
+ <no/>
+ <no/>
+ <u>0</u><!-- Subsistence Agricultural (SA) -->
+ <u>450</u><!-- Industrial Wealth Plus (SA) -->
+ <u>450</u><!-- Industrial Wealth Plus (SA) Minus Trading Losses -->
+ <u>0</u><!-- Town Wealth -->
+ <u>0</u><!-- Minimum Town Wealth -->
+ <u>0</u><!-- Town Wealth -->
+ <i>-7</i><!-- Town Monetary Growth -->
+ <u>0</u>
+ <u>0</u>
+ <no/><!-- Exempt From Tax -->
+ <u>581839776</u><!-- Controlling Faction ID -->
+ <rec type="LINE_OF_SIGHT">
+  <yes/>
+  <v2 x="477.5" y="131.25"/>
+  <v2 x="543.75" y="182.5"/>
+  <xml_include path="quadtree/gujarat-0001.xml"/>
+ </rec>
+ <u>585536488</u><!-- Governor ID -->
+ <s>india</s><!-- Theatre -->
+ <s>maratha_rebels</s><!-- Emergent Nation -->
+ <s>Maratha Rebels</s><!-- Region Rebels -->
+ <s>sc_indian_hindu</s><!-- Region Culture For Types Of Buildings -->
+ <rec type="REGION_RECRUITMENT_MANAGER">
+  <ary type="REGION_RECRUITMENT_ITEM_ARRAY"/>
+  <no/>
+  <i>585723152</i>
+ </rec>
+ <no/>
+ <u4_ary>0 0 0 0 0 0 0 0</u4_ary>
+ <u4_ary>0 0 0 0 0 0 0 0</u4_ary>
+ <u4_ary>0 0 0 0 0 0 0 0</u4_ary>
+ <u4_ary>99 297 396 50 248 248 248 148</u4_ary>
+ <bool_ary>0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0</bool_ary>
+ <i4_ary/>
+ <ary type="RELIGIOUS_MISSION_BUILDING_ARRAY"/>
+ <ary type="FORT_ARRAY"/>
+ <resources_array>
+  global
+  islam
+  india
+  colonial_euro_factions
+  rajput
+  hindu
+  camels
+ </resources_array>
+ <s/><!-- Latest Constuction -->
+ <u>10</u><!-- One Of These 5/10/15/20/25/30/40 Amount Of Prestige When Conquered -->
+ <u>4218418516</u><!-- Region Array. From Top To Bottom. 1st 62 Regions 881206575. 2nd 15 Regions 1771634741. 3rd 32 Regions 1928099569. 4th 28 Regions 688200897. Why???? -->
+ <loc>regions_onscreen_gujarat</loc>
+ <flt>-0.0013270393246784806</flt>
+</rec>

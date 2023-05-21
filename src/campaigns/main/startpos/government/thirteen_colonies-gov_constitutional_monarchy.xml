@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<rec type="GOVERNMENT">
+ <i>582013920</i><!-- Government ID -->
+ <s>gov_constitutional_monarchy</s>
+ <i>0</i><!-- Government Popularity -->
+ <ary type="POSTS_ARRAY">
+  <rec type="POSTS_ARRAY">
+   <rec type="CHARACTER_POST">
+    <i>582014224</i><!-- Cabinet ID -->
+    <s>finance</s><!-- Cabinet Title -->
+    <u>582067440</u><!-- Character ID -->
+    <no/><!-- Governor -->
+    <i>582013920</i><!-- Government ID -->
+   </rec>
+  </rec>
+  <rec type="POSTS_ARRAY">
+   <rec type="CHARACTER_POST">
+    <i>582014320</i><!-- Cabinet ID -->
+    <s>faction_leader</s><!-- Cabinet Title -->
+    <u>582056392</u><!-- Character ID -->
+    <no/><!-- Governor -->
+    <i>582013920</i><!-- Government ID -->
+   </rec>
+  </rec>
+  <rec type="POSTS_ARRAY">
+   <rec type="CHARACTER_POST">
+    <i>582014416</i><!-- Cabinet ID -->
+    <s>navy</s><!-- Cabinet Title -->
+    <u>588939840</u><!-- Character ID -->
+    <no/><!-- Governor -->
+    <i>582013920</i><!-- Government ID -->
+   </rec>
+  </rec>
+  <rec type="POSTS_ARRAY">
+   <rec type="CHARACTER_POST">
+    <i>582014600</i><!-- Cabinet ID -->
+    <s>accident</s><!-- Cabinet Title -->
+    <u>588941864</u><!-- Character ID -->
+    <no/><!-- Governor -->
+    <i>582013920</i><!-- Government ID -->
+   </rec>
+  </rec>
+  <rec type="POSTS_ARRAY">
+   <rec type="CHARACTER_POST">
+    <i>582014696</i><!-- Cabinet ID -->
+    <s>justice</s><!-- Cabinet Title -->
+    <u>588943840</u><!-- Character ID -->
+    <no/><!-- Governor -->
+    <i>582013920</i><!-- Government ID -->
+   </rec>
+  </rec>
+  <rec type="POSTS_ARRAY">
+   <rec type="CHARACTER_POST">
+    <i>582014896</i><!-- Cabinet ID -->
+    <s>army</s><!-- Cabinet Title -->
+    <u>588945816</u><!-- Character ID -->
+    <no/><!-- Governor -->
+    <i>582013920</i><!-- Government ID -->
+   </rec>
+  </rec>
+  <rec type="POSTS_ARRAY">
+   <rec type="CHARACTER_POST">
+    <i>582014992</i><!-- Cabinet ID -->
+    <s>head_of_government</s><!-- Cabinet Title -->
+    <u>588947792</u><!-- Character ID -->
+    <no/><!-- Governor -->
+    <i>582013920</i><!-- Government ID -->
+   </rec>
+  </rec>
+  <rec type="POSTS_ARRAY">
+   <rec type="CHARACTER_POST">
+    <i>585513880</i><!-- Cabinet ID -->
+    <s>governor_america</s><!-- Cabinet Title -->
+    <u>588949768</u><!-- Character ID -->
+    <yes/><!-- Governor -->
+    <rec type="GOVERNORSHIP">
+     <gov_taxes level_lower="2" level_upper="2" rate_lower="15" rate_upper="15"/>
+     <i>585513976</i><!-- Governor ID -->
+     <u4_ary>585501008 586035080 586063768 586123832 580571160 586655768 586783552</u4_ary><!-- Region IDs -->
+     <u>581977584</u><!-- Faction ID -->
+     <no/>
+     <no/>
+    </rec>
+    <i>582013920</i><!-- Government ID -->
+   </rec>
+  </rec>
+ </ary>
+ <gov_constitutional_monarchy minister_changes="0" had_elections="no" elections_due="10"/>
+</rec>

@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<rec type="CAI_WORLD_REGION_SLOTS">
+ <owned_indirect>905</owned_indirect><!-- CAI_WORLD_REGIONS = Settlement AI ID. CAI_WORLD_REGION_SLOTS = Region AI ID. CAI_WORLD_CHARACTERS = Faction AI ID -->
+ <cai_situated x="-132.66970825195312" y="452.71868896484375" region_id="905" theatre_id="34" area_id="12"/>
+ <rec type="CAI_BDI_COMPONENT_PROPERTY_SET">
+  <u>0</u>
+ </rec>
+ <u>2718</u><!-- Region Slot AI ID -->
+ <flt>100.0</flt>
+ <flt>100.0</flt>
+ <flt>0.0</flt>
+ <flt>100.0</flt>
+ <u>1</u>
+ <no/>
+ <u4_ary/>
+ <u4_ary>12226 0 12231 0 12234 0 16952 0 19434 0 22567 0 25063 0 27204 0 28942 0 31176 0 33845 0 36042 0 41795 0 43606 0 46446 0 48486 0 52131 0 53460 0 54451 0 57439 0 59329 0 61812 0 63579 0 65810 0 67180 0 68485 0 69797 0 71084 0 72372 0 75206 0 78603 0</u4_ary><!-- BDI Information -->
+ <u>0</u>
+ <u>31</u>
+ <u4_ary/>
+ <u4_ary>12226 4 12231 16 12234 7855 16952 14776 19434 17709 22567 19731 25063 22835 27204 25839 28942 27366 31176 29187 33845 32078 36042 34218 41795 40550 43606 41858 46446 45208 48486 46897 52131 50886 53460 52209 54451 54263 57439 56123 59329 58101 61812 60154 63579 61943 65810 64585 67180 65914 68485 67253 69797 68542 71084 69858 72372 71136 75206 73957 78603 76911</u4_ary><!-- BDI Information -->
+ <ary type="CAI_BDI_COMPONENT_BLOCK_OWNS"/>
+ <u>0</u>
+ <u>0</u>
+ <u4_ary/>
+ <u4_ary/>
+ <u4_ary/>
+ <u4_ary>12226 12230 12231 12232 12233 12234 16952 19434 22567 25063 27204 28942 31176 33845 36042 41795 43606 46446 48486 52131 53460 54451 57439 59329 61812 63579 65810 67180 68485 69797 71084 72372 75206 78603</u4_ary><!-- BDI Information -->
+ <no/>
+ <u>0</u>
+ <no/>
+ <rec type="CAI_GARRISONABLE">
+  <u>0</u><!-- Character Resource AI ID -->
+  <u>0</u>
+  <u4_ary/><!-- Character Resource AI IDs -->
+  <u4_ary/>
+  <u>0</u>
+ </rec>
+ <rec type="CAI_THREATENED_GARRISONABLE">
+  <no/>
+ </rec>
+ <rec type="CAI_REGION_SLOT">
+  <i>1</i>
+  <u>2717</u><!-- Building Slot AI ID -->
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <no/><!-- True = Port, False = Town (ports have extra set of coordinates for their sea part following) -->
+ </rec>
+</rec>

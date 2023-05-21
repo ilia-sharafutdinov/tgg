@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<rec type="REGION">
+ <s>algiers</s><!-- Region Name -->
+ <xml_include path="population/algiers.xml"/>
+ <traits/>
+ <rec type="REGION_SLOT_MANAGER">
+  <ary type="REGION_SLOT_ARRAY">
+   <xml_include path="region_slot/settlement-algiers-algiers-settlement_minor.xml"/>
+   <xml_include path="region_slot/iron-algiers-zaccar.xml"/>
+   <xml_include path="region_slot/sheep-algiers-tizi-ouzou.xml"/>
+   <xml_include path="region_slot/port-algiers-oran.xml"/>
+   <xml_include path="region_slot/town-algiers-bejaia.xml"/>
+   <xml_include path="region_slot/port-algiers-annaba.xml"/>
+  </ary>
+  <xml_include path="region_slot/algiers-road.xml"/>
+  <xml_include path="region_slot/algiers-walls.xml"/>
+ </rec>
+ <i>586713720</i><!-- Region ID -->
+ <xml_include path="region_slot/settlement-algiers-algiers.xml"/>
+ <u>1</u>
+ <yes/>
+ <no/>
+ <u>125</u><!-- Subsistence Agricultural (SA) -->
+ <u>1325</u><!-- Industrial Wealth Plus (SA) -->
+ <u>1325</u><!-- Industrial Wealth Plus (SA) Minus Trading Losses -->
+ <u>0</u><!-- Town Wealth -->
+ <u>0</u><!-- Minimum Town Wealth -->
+ <u>0</u><!-- Town Wealth -->
+ <i>-6</i><!-- Town Monetary Growth -->
+ <u>0</u>
+ <u>0</u>
+ <no/><!-- Exempt From Tax -->
+ <u>585298704</u><!-- Controlling Faction ID -->
+ <rec type="LINE_OF_SIGHT">
+  <yes/>
+  <v2 x="-28.75" y="213.75"/>
+  <v2 x="68.75" y="273.75"/>
+  <xml_include path="quadtree/algiers-0001.xml"/>
+ </rec>
+ <u>585697456</u><!-- Governor ID -->
+ <s>europe</s><!-- Theatre -->
+ <s>barbary_states</s><!-- Emergent Nation -->
+ <s>Algerian Rebels</s><!-- Region Rebels -->
+ <s>sc_mideast_islamic</s><!-- Region Culture For Types Of Buildings -->
+ <rec type="REGION_RECRUITMENT_MANAGER">
+  <ary type="REGION_RECRUITMENT_ITEM_ARRAY"/>
+  <no/>
+  <i>586722160</i>
+ </rec>
+ <no/>
+ <u4_ary>0 0 0 0 0 0 0 0</u4_ary>
+ <u4_ary>0 0 0 0 0 0 0 0</u4_ary>
+ <u4_ary>0 0 0 0 0 0 0 0</u4_ary>
+ <u4_ary>292 875 1166 146 729 729 729 437</u4_ary>
+ <bool_ary>0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1</bool_ary>
+ <i4_ary/>
+ <ary type="RELIGIOUS_MISSION_BUILDING_ARRAY"/>
+ <ary type="FORT_ARRAY"/>
+ <resources_array>
+  global
+  colonial_euro_factions
+  camels
+  galleys
+  north_africa
+  africa_west_indies
+  dahomey
+  desert
+  med_coast
+ </resources_array>
+ <s/><!-- Latest Constuction -->
+ <u>5</u><!-- One Of These 5/10/15/20/25/30/40 Amount Of Prestige When Conquered -->
+ <u>4218418516</u><!-- Region Array. From Top To Bottom. 1st 62 Regions 881206575. 2nd 15 Regions 1771634741. 3rd 32 Regions 1928099569. 4th 28 Regions 688200897. Why???? -->
+ <loc>regions_onscreen_algiers</loc>
+ <flt>-0.0013270393246784806</flt>
+</rec>

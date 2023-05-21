@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<rec type="REGION">
+ <s>spain</s><!-- Region Name -->
+ <xml_include path="population/spain.xml"/>
+ <traits/>
+ <rec type="REGION_SLOT_MANAGER">
+  <ary type="REGION_SLOT_ARRAY">
+   <xml_include path="region_slot/settlement-spain-madrid-settlement_army-admin.xml"/>
+   <xml_include path="region_slot/settlement-spain-madrid-settlement_government.xml"/>
+   <xml_include path="region_slot/settlement-spain-madrid-settlement_culture.xml"/>
+   <xml_include path="region_slot/settlement-spain-madrid-settlement_navy-admin.xml"/>
+   <xml_include path="region_slot/settlement-spain-madrid-settlement_ordnance.xml"/>
+   <xml_include path="region_slot/wheat-spain-ebro.xml"/>
+   <xml_include path="region_slot/wheat-spain-seville.xml"/>
+   <xml_include path="region_slot/iron-spain-cantabria.xml"/>
+   <xml_include path="region_slot/wine-spain-central.xml"/>
+   <xml_include path="region_slot/town-spain-barcelona.xml"/>
+   <xml_include path="region_slot/port-spain-bilbao.xml"/>
+   <xml_include path="region_slot/town-spain-salamanca.xml"/>
+   <xml_include path="region_slot/town-spain-granada.xml"/>
+   <xml_include path="region_slot/port-spain-cadiz.xml"/>
+   <xml_include path="region_slot/town-spain-cordoba.xml"/>
+   <xml_include path="region_slot/town-spain-sevilla.xml"/>
+   <xml_include path="region_slot/port-spain-cartagena.xml"/>
+   <xml_include path="region_slot/port-spain-palma_de_mallorca.xml"/>
+   <xml_include path="region_slot/town-spain-andorra.xml"/>
+  </ary>
+  <xml_include path="region_slot/spain-road.xml"/>
+  <xml_include path="region_slot/spain-walls.xml"/>
+ </rec>
+ <i>587360568</i><!-- Region ID -->
+ <xml_include path="region_slot/settlement-spain-madrid.xml"/>
+ <u>1</u>
+ <no/>
+ <no/>
+ <u>250</u><!-- Subsistence Agricultural (SA) -->
+ <u>3075</u><!-- Industrial Wealth Plus (SA) -->
+ <u>3075</u><!-- Industrial Wealth Plus (SA) Minus Trading Losses -->
+ <u>250</u><!-- Town Wealth -->
+ <u>250</u><!-- Minimum Town Wealth -->
+ <u>250</u><!-- Town Wealth -->
+ <i>3</i><!-- Town Monetary Growth -->
+ <u>0</u>
+ <u>0</u>
+ <no/><!-- Exempt From Tax -->
+ <u>580832984</u><!-- Controlling Faction ID -->
+ <rec type="LINE_OF_SIGHT">
+  <yes/>
+  <v2 x="-76.25" y="247.5"/>
+  <v2 x="41.25" y="321.25"/>
+  <xml_include path="quadtree/spain-0001.xml"/>
+ </rec>
+ <u>585662224</u><!-- Governor ID -->
+ <s>europe</s><!-- Theatre -->
+ <s>spain</s><!-- Emergent Nation -->
+ <s>Spanish Rebels</s><!-- Region Rebels -->
+ <s>sc_european_south</s><!-- Region Culture For Types Of Buildings -->
+ <rec type="REGION_RECRUITMENT_MANAGER">
+  <ary type="REGION_RECRUITMENT_ITEM_ARRAY"/>
+  <no/>
+  <i>580272080</i>
+ </rec>
+ <no/>
+ <u4_ary>0 0 0 0 0 0 0 0</u4_ary>
+ <u4_ary>0 0 0 0 0 0 0 0</u4_ary>
+ <u4_ary>0 0 0 0 0 0 0 0</u4_ary>
+ <u4_ary>690 2037 2709 353 1699 1691 1699 1027</u4_ary>
+ <bool_ary>0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 1</bool_ary>
+ <i4_ary/>
+ <ary type="RELIGIOUS_MISSION_BUILDING_ARRAY"/>
+ <ary type="FORT_ARRAY"/>
+ <resources_array>
+  peninsula
+  europe
+  spain
+  spain_home_regions
+  global
+  middle_east_and_europe
+  displaced_irish
+ </resources_array>
+ <s/><!-- Latest Constuction -->
+ <u>40</u><!-- One Of These 5/10/15/20/25/30/40 Amount Of Prestige When Conquered -->
+ <u>1605441764</u><!-- Region Array. From Top To Bottom. 1st 62 Regions 881206575. 2nd 15 Regions 1771634741. 3rd 32 Regions 1928099569. 4th 28 Regions 688200897. Why???? -->
+ <loc>regions_onscreen_spain</loc>
+ <flt>-0.0013270393246784806</flt>
+</rec>

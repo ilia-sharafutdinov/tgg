@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<rec type="REGION">
+ <s>hannover</s><!-- Region Name -->
+ <xml_include path="population/hannover.xml"/>
+ <traits/>
+ <rec type="REGION_SLOT_MANAGER">
+  <ary type="REGION_SLOT_ARRAY">
+   <xml_include path="region_slot/settlement-hannover-hannover-settlement_minor.xml"/>
+   <xml_include path="region_slot/town-hannover-braunschweig.xml"/>
+   <xml_include path="region_slot/town-hannover-hamburg.xml"/>
+   <xml_include path="region_slot/port-hannover-cuxhaven.xml"/>
+  </ary>
+  <xml_include path="region_slot/hannover-road.xml"/>
+  <xml_include path="region_slot/hannover-walls.xml"/>
+ </rec>
+ <i>585492656</i><!-- Region ID -->
+ <xml_include path="region_slot/settlement-hannover-hannover.xml"/>
+ <u>1</u>
+ <no/>
+ <no/>
+ <u>750</u><!-- Subsistence Agricultural (SA) -->
+ <u>1950</u><!-- Industrial Wealth Plus (SA) -->
+ <u>1950</u><!-- Industrial Wealth Plus (SA) Minus Trading Losses -->
+ <u>375</u><!-- Town Wealth -->
+ <u>375</u><!-- Minimum Town Wealth -->
+ <u>375</u><!-- Town Wealth -->
+ <i>2</i><!-- Town Monetary Growth -->
+ <u>0</u>
+ <u>0</u>
+ <no/><!-- Exempt From Tax -->
+ <u>583045160</u><!-- Controlling Faction ID -->
+ <rec type="LINE_OF_SIGHT">
+  <yes/>
+  <v2 x="37.5" y="351.25"/>
+  <v2 x="90.0" y="395.0"/>
+  <xml_include path="quadtree/hannover-0001.xml"/>
+ </rec>
+ <u>585499872</u><!-- Governor ID -->
+ <s>europe</s><!-- Theatre -->
+ <s>hannover</s><!-- Emergent Nation -->
+ <s>Hannoverian Rebels</s><!-- Region Rebels -->
+ <s>sc_european_west</s><!-- Region Culture For Types Of Buildings -->
+ <rec type="REGION_RECRUITMENT_MANAGER">
+  <ary type="REGION_RECRUITMENT_ITEM_ARRAY"/>
+  <no/>
+  <i>585500024</i>
+ </rec>
+ <no/>
+ <u4_ary>0 0 0 0 0 0 0 0</u4_ary>
+ <u4_ary>0 0 0 0 0 0 0 0</u4_ary>
+ <u4_ary>0 0 0 0 0 0 0 0</u4_ary>
+ <u4_ary>446 1295 1720 234 1082 1072 1082 659</u4_ary>
+ <bool_ary>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</bool_ary>
+ <i4_ary/>
+ <ary type="RELIGIOUS_MISSION_BUILDING_ARRAY"/>
+ <ary type="FORT_ARRAY"/>
+ <resources_array>
+  europe
+  global
+  middle_east_and_europe
+ </resources_array>
+ <s/><!-- Latest Constuction -->
+ <u>10</u><!-- One Of These 5/10/15/20/25/30/40 Amount Of Prestige When Conquered -->
+ <u>4218418516</u><!-- Region Array. From Top To Bottom. 1st 62 Regions 881206575. 2nd 15 Regions 1771634741. 3rd 32 Regions 1928099569. 4th 28 Regions 688200897. Why???? -->
+ <loc>regions_onscreen_hannover</loc>
+ <flt>-0.0013270393246784806</flt>
+</rec>

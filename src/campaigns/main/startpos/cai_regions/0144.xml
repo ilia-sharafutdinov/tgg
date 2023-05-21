@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<rec type="CAI_WORLD_REGIONS">
+ <owned_indirect>2953</owned_indirect><!-- CAI_WORLD_REGIONS = Settlement AI ID. CAI_WORLD_REGION_SLOTS = Region AI ID. CAI_WORLD_CHARACTERS = Faction AI ID -->
+ <rec type="CAI_BDI_COMPONENT_PROPERTY_SET">
+  <u>0</u>
+ </rec>
+ <u>959</u><!-- Region AI ID -->
+ <flt>100.0</flt>
+ <flt>100.0</flt>
+ <flt>0.0</flt>
+ <flt>100.0</flt>
+ <u>1</u>
+ <no/>
+ <u4_ary/>
+ <u4_ary>12438 0 16197 0 21508 0 21993 0 25338 0 31451 0 35315 0 36675 0 42852 0 46806 0 47690 0 49021 0 49048 0 49049 0 49076 0 49515 0 49674 0 49854 1 49551 1 49902 0 49903 0 49904 0 49905 0 49906 0 50212 0 49543 1 55961 0 57910 0 61041 0 62801 0 77800 0 79598 0</u4_ary><!-- BDI Information -->
+ <u>0</u>
+ <u>32</u>
+ <u4_ary/>
+ <u4_ary>12438 7863 16197 14784 21508 19739 21993 4 25338 22843 31451 29195 35315 34226 36675 15 42852 41866 46806 45216 47690 46905 49021 48545 49048 48546 49049 48562 49076 48560 49515 49674 48553 49854 49551 49902 49903 49904 49905 49906 50212 48551 49543 55961 54271 57910 56131 61041 60162 62801 61951 77800 76919 79598 78766</u4_ary><!-- BDI Information -->
+ <ary type="CAI_BDI_COMPONENT_BLOCK_OWNS"/>
+ <u>0</u>
+ <u>0</u>
+ <u4_ary/>
+ <u4_ary/>
+ <u4_ary/>
+ <u4_ary>7427 12439 12438 16197 21508 21993 21995 21997 21999 25338 31451 35315 36676 42852 46806 47690 48589 49021 49047 49129 49547 49515 49674 49853 49902 49903 49904 49905 49906 50212 55961 57910 61041 62801 77800 79598</u4_ary><!-- BDI Information -->
+ <no/>
+ <u>0</u>
+ <no/>
+ <rec type="CAI_REGION">
+  <u4_ary>35</u4_ary><!-- Theatre IDs -->
+  <u4_ary>960</u4_ary><!-- HLCIS IDs -->
+  <u>2953</u><!-- Settlement AI ID -->
+  <u4_ary>2955 2957 2959 2961 2963 2965</u4_ary><!-- Region Slot AI IDs Of Region Slots In This Region -->
+  <flt>523.93994</flt><!-- X Coordinate -->
+  <flt>174.48999</flt><!-- Y Coordinate -->
+  <u4_ary>2966</u4_ary>
+  <u4_ary>7208 7212 7215 7216 7217</u4_ary><!-- Boundary IDs -->
+  <no/>
+  <u4_ary>6296 6322</u4_ary><!-- Character Resource AI IDs -->
+  <s>rajpootana</s><!-- Region Name -->
+  <u>586851848</u><!-- Region ID -->
+  <u>7487</u><!-- Governor AI ID -->
+  <u4_ary/><!-- Faction AI IDs -->
+ </rec>
+</rec>

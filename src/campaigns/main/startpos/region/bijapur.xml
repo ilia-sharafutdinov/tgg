@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<rec type="REGION">
+ <s>bijapur</s><!-- Region Name -->
+ <xml_include path="population/bijapur.xml"/>
+ <traits/>
+ <rec type="REGION_SLOT_MANAGER">
+  <ary type="REGION_SLOT_ARRAY">
+   <xml_include path="region_slot/settlement-bijapur-satara-settlement_army-admin.xml"/>
+   <xml_include path="region_slot/settlement-bijapur-satara-settlement_government.xml"/>
+   <xml_include path="region_slot/settlement-bijapur-satara-settlement_culture.xml"/>
+   <xml_include path="region_slot/settlement-bijapur-satara-settlement_navy-admin.xml"/>
+   <xml_include path="region_slot/settlement-bijapur-satara-settlement_ordnance.xml"/>
+   <xml_include path="region_slot/rice-bijapur-coastnorth.xml"/>
+   <xml_include path="region_slot/india_highlands-bijapur-east.xml"/>
+   <xml_include path="region_slot/town-bijapur-kolhapur.xml"/>
+   <xml_include path="region_slot/town-bijapur-bijapur.xml"/>
+   <xml_include path="region_slot/port-bijapur-vengurla.xml"/>
+  </ary>
+  <xml_include path="region_slot/bijapur-road.xml"/>
+  <xml_include path="region_slot/bijapur-walls.xml"/>
+ </rec>
+ <i>586271592</i><!-- Region ID -->
+ <xml_include path="region_slot/settlement-bijapur-satara.xml"/>
+ <u>1</u>
+ <no/>
+ <no/>
+ <u>1000</u><!-- Subsistence Agricultural (SA) -->
+ <u>2352</u><!-- Industrial Wealth Plus (SA) -->
+ <u>2352</u><!-- Industrial Wealth Plus (SA) Minus Trading Losses -->
+ <u>1250</u><!-- Town Wealth -->
+ <u>1250</u><!-- Minimum Town Wealth -->
+ <u>1250</u><!-- Town Wealth -->
+ <i>1</i><!-- Town Monetary Growth -->
+ <u>0</u>
+ <u>0</u>
+ <no/><!-- Exempt From Tax -->
+ <u>581007760</u><!-- Controlling Faction ID -->
+ <rec type="LINE_OF_SIGHT">
+  <yes/>
+  <v2 x="508.75" y="97.5"/>
+  <v2 x="562.5" y="141.25"/>
+  <xml_include path="quadtree/bijapur-0001.xml"/>
+ </rec>
+ <u>586283464</u><!-- Governor ID -->
+ <s>india</s><!-- Theatre -->
+ <s>maratha</s><!-- Emergent Nation -->
+ <s>Maratha Rebels</s><!-- Region Rebels -->
+ <s>sc_indian_hindu</s><!-- Region Culture For Types Of Buildings -->
+ <rec type="REGION_RECRUITMENT_MANAGER">
+  <ary type="REGION_RECRUITMENT_ITEM_ARRAY"/>
+  <no/>
+  <i>586284080</i>
+ </rec>
+ <no/>
+ <u4_ary>0 0 0 0 0 0 0 0</u4_ary>
+ <u4_ary>0 0 0 0 0 0 0 0</u4_ary>
+ <u4_ary>0 0 0 0 0 22 0 0</u4_ary>
+ <u4_ary>537 1533 2032 288 1284 1266 1284 786</u4_ary>
+ <bool_ary>1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</bool_ary>
+ <i4_ary/>
+ <ary type="RELIGIOUS_MISSION_BUILDING_ARRAY"/>
+ <ary type="FORT_ARRAY">
+  <xml_include path="region_slot/bijapur-fort-0001.xml"/>
+ </ary>
+ <resources_array>
+  india
+  global
+  camels
+  hindu
+  islam
+  colonial_euro_factions
+ </resources_array>
+ <s/><!-- Latest Constuction -->
+ <u>20</u><!-- One Of These 5/10/15/20/25/30/40 Amount Of Prestige When Conquered -->
+ <u>4218418516</u><!-- Region Array. From Top To Bottom. 1st 62 Regions 881206575. 2nd 15 Regions 1771634741. 3rd 32 Regions 1928099569. 4th 28 Regions 688200897. Why???? -->
+ <loc>regions_onscreen_bijapur</loc>
+ <flt>-0.0013270393246784806</flt>
+</rec>

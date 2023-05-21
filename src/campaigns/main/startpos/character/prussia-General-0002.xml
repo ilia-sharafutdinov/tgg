@@ -1,0 +1,164 @@
+<?xml version="1.0"?>
+<rec type="CHARACTER_ARRAY">
+ <rec type="CHARACTER">
+  <rec type="LOCOMOTABLE">
+   <v2x x="138.6699981689453" y="381.8699951171875"/>
+   <v2x x="138.6699981689453" y="381.8699951171875"/>
+   <flt>3.1415927410125732</flt><!-- Character Facing Direction -->
+   <flt>3.1415927410125732</flt><!-- Character Facing Direction -->
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <i>26</i><!-- Movement Points Left -->
+   <i>22</i><!-- Movement Points Total -->
+   <no/>
+   <i>0</i>
+   <i>0</i>
+   <angle>0.0</angle>
+   <u>12</u>
+   <u>0</u>
+   <flt>0.0</flt>
+  </rec>
+  <rec type="CHARACTER_DETAILS">
+   <traits>
+    C_General_Brave=2
+    C_General_Attacker_Good=3
+    C_General_Good_Field_Commander=3
+    C_General_Martinet=1
+    C_General_of_Infantry=6
+   </traits>
+   <loc>names_name_names_prussianAlexander</loc>
+   <loc>names_name_names_prussianzu_Dohna-Schlobitten</loc>
+   <loc/>
+   <s/><!-- Head Of State -->
+   <date>summer 1661</date>
+   <date/>
+   <i>0</i>
+   <portrait_details card="ui/portraits/european/Cards/general/young/264.tga" info="ui/portraits/european/Info/general/young/264.jpg" number="264"/>
+   <s>prussia</s>
+   <u>581188032</u><!-- Character ID -->
+   <agent_ancillaries/>
+   <agent_attributes>
+    command_land=4
+    command_sea=-1
+    duelling_pistols=-1
+    duelling_swords=-1
+    management=-1
+    subterfuge=-1
+    research=-1
+    zeal=-1
+    land_defence_engineering=-1
+    land_siege_engineering=-1
+    morale_land=1
+    morale_sea=-1
+    movement_points_land=1
+    trade=-1
+   </agent_attributes>
+   <ary type="AgentAbilities">
+    <agent_ability ability="can_assassinate" level="-1" attribute=""/>
+    <agent_ability ability="can_convert" level="-1" attribute=""/>
+    <agent_ability ability="can_build_religious" level="-1" attribute=""/>
+    <agent_ability ability="can_build_fort" level="1" attribute="command_land"/>
+    <agent_ability ability="can_sabotage" level="-1" attribute=""/>
+    <agent_ability ability="can_spy" level="-1" attribute=""/>
+    <agent_ability ability="can_duel" level="-1" attribute=""/>
+    <agent_ability ability="can_receive_duel" level="-1" attribute=""/>
+    <agent_ability ability="can_research" level="-1" attribute=""/>
+    <agent_ability ability="can_attack_land" level="1" attribute="command_land"/>
+    <agent_ability ability="can_attack_naval" level="-1" attribute=""/>
+    <agent_ability ability="can_sabotage_army" level="-1" attribute=""/>
+   </ary>
+   <agent_attribute_bonuses>
+    dummy=0
+   </agent_attribute_bonuses>
+   <no/>
+   <loc>agent_culture_details_onscreen_name_Generaleuropean</loc>
+  </rec>
+  <i>581188032</i><!-- Character ID -->
+  <s>General</s><!-- Character Type -->
+  <u>581194328</u><!-- Army ID -->
+  <u>581195200</u><!-- Unit ID -->
+  <u>0</u>
+  <u>0</u><!-- Character In Building Slot ID -->
+  <u>0</u><!-- Cabinet ID -->
+  <no/>
+  <no/><!-- Government Opposition -->
+  <v2x_ary>
+   144.04107093811035,383.0
+   144.0,383.0991554260254
+   144.0,383.3756294250488
+   143.8171262741089,383.8171262741089
+   143.46993923187256,383.96093559265137
+   143.4510097503662,384.0
+   143.37562942504883,384.0
+   143.3181495666504,384.0
+   143.2599630355835,383.72111892700195
+   142.9307098388672,383.4939126968384
+   142.10326862335205,383.624942779541
+   142.0,383.64129543304443
+   140.0234498977661,383.9542932510376
+   140.0,383.9482955932617
+   138.0,383.436806678772
+   137.60631561279297,383.3361234664917
+   136.76691818237305,382.0
+   136.75864601135254,381.9868326187134
+   136.7012586593628,381.0921506881714
+   137.44827556610107,380.44843196868896
+   138.0,380.2834663391113
+   138.94805145263672,380.0
+   139.15997791290283,379.9366340637207
+   140.0,378.7433433532715
+   140.28561210632324,378.3376178741455
+   141.808123588562,378.1033697128296
+   142.0,378.15604305267334
+   142.4356689453125,378.2756404876709
+   142.53609943389893,378.518102645874
+   142.61284732818604,378.70339012145996
+   142.67158317565918,378.7285165786743
+   142.68825817108154,378.68825817108154
+   143.0,378.55913162231445
+   143.31174182891846,378.68825817108154
+   143.44086837768555,379.0
+   143.31174182891846,379.31174182891846
+   143.2482213973999,379.3380527496338
+   143.48922443389893,380.0
+   143.55878257751465,380.0
+   143.65012741088867,380.0
+   143.71452713012695,380.0266752243042
+   143.8975248336792,380.1024751663208
+   144.0,380.3498725891113
+   144.0,381.0
+   144.0,381.6501274108887
+   143.8975248336792,381.8975248336792
+   143.65012741088867,382.0
+   143.55878257751465,382.0
+   143.48922443389893,382.0
+   143.47433853149414,382.0408868789673
+   143.8171262741089,382.1828737258911
+   144.0,382.6243705749512
+   144.0,382.9439477920532
+  </v2x_ary>
+  <rec type="LINE_OF_SIGHT">
+   <yes/>
+   <v2 x="127.5" y="371.25"/>
+   <v2 x="148.75" y="392.5"/>
+   <xml_include path="quadtree/prussia-General-0002.xml"/>
+  </rec>
+  <no/>
+  <u>0</u>
+  <no/>
+  <flt>10.0</flt><!-- 10 - Land Leader / 15 - Navy Leader -->
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <no/>
+  <no/>
+  <u>0</u>
+  <no/>
+  <u>0</u>
+  <no/>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+ </rec>
+</rec>

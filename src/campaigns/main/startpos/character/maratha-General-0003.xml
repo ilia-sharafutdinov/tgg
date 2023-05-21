@@ -1,0 +1,184 @@
+<?xml version="1.0"?>
+<rec type="CHARACTER_ARRAY">
+ <rec type="CHARACTER">
+  <rec type="LOCOMOTABLE">
+   <v2x x="540.9000244140625" y="131.5"/>
+   <v2x x="540.9000244140625" y="131.5"/>
+   <flt>3.1415927410125732</flt><!-- Character Facing Direction -->
+   <flt>3.1415927410125732</flt><!-- Character Facing Direction -->
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <i>26</i><!-- Movement Points Left -->
+   <i>25</i><!-- Movement Points Total -->
+   <no/>
+   <i>0</i>
+   <i>0</i>
+   <angle>0.0</angle>
+   <u>12</u>
+   <u>0</u>
+   <flt>0.0</flt>
+  </rec>
+  <rec type="CHARACTER_DETAILS">
+   <traits>
+    C_General_Good_Field_Commander=3
+    C_General_Attacker_Good=12
+    C_General_Ambush_Good=6
+   </traits>
+   <loc>names_name_names_indian_hinduJainil</loc>
+   <loc>names_name_names_indian_hinduRawat</loc>
+   <loc/>
+   <s/><!-- Head Of State -->
+   <date>summer 1669</date>
+   <date/>
+   <i>0</i>
+   <portrait_details card="ui/portraits/indian/Cards/general/young/074.tga" info="ui/portraits/indian/Info/general/young/074.jpg" number="74"/>
+   <s>maratha</s>
+   <u>581967024</u><!-- Character ID -->
+   <agent_ancillaries>
+    Ancillary_Army_Surgeon
+   </agent_ancillaries>
+   <agent_attributes>
+    command_land=4
+    command_sea=-1
+    duelling_pistols=-1
+    duelling_swords=-1
+    management=-1
+    subterfuge=-1
+    research=-1
+    zeal=-1
+    land_defence_engineering=-1
+    land_siege_engineering=-1
+    morale_land=1
+    morale_sea=-1
+    movement_points_land=1
+    trade=-1
+   </agent_attributes>
+   <ary type="AgentAbilities">
+    <agent_ability ability="can_assassinate" level="-1" attribute=""/>
+    <agent_ability ability="can_convert" level="-1" attribute=""/>
+    <agent_ability ability="can_build_religious" level="-1" attribute=""/>
+    <agent_ability ability="can_build_fort" level="1" attribute="command_land"/>
+    <agent_ability ability="can_sabotage" level="-1" attribute=""/>
+    <agent_ability ability="can_spy" level="-1" attribute=""/>
+    <agent_ability ability="can_duel" level="-1" attribute=""/>
+    <agent_ability ability="can_receive_duel" level="-1" attribute=""/>
+    <agent_ability ability="can_research" level="-1" attribute=""/>
+    <agent_ability ability="can_attack_land" level="1" attribute="command_land"/>
+    <agent_ability ability="can_attack_naval" level="-1" attribute=""/>
+    <agent_ability ability="can_sabotage_army" level="-1" attribute=""/>
+   </ary>
+   <agent_attribute_bonuses>
+    dummy=0
+   </agent_attribute_bonuses>
+   <no/>
+   <loc>agent_culture_details_onscreen_name_Generalindian</loc>
+  </rec>
+  <i>581967024</i><!-- Character ID -->
+  <s>General</s><!-- Character Type -->
+  <u>581972088</u><!-- Army ID -->
+  <u>581973296</u><!-- Unit ID -->
+  <u>0</u>
+  <u>0</u><!-- Character In Building Slot ID -->
+  <u>0</u><!-- Cabinet ID -->
+  <no/>
+  <no/><!-- Government Opposition -->
+  <v2x_ary>
+   544.0,133.02006435394287
+   543.712984085083,133.712984085083
+   543.0200643539429,134.0
+   543.0,134.0
+   542.9799356460571,134.0
+   542.287015914917,133.712984085083
+   542.2677383422852,133.66644287109375
+   542.2103300094604,133.6912956237793
+   542.0824613571167,134.0
+   542.0583095550537,134.0583095550537
+   542.0,134.0824613571167
+   541.6095714569092,134.2441806793213
+   541.712984085083,134.287015914917
+   542.0,134.97993564605713
+   542.0,135.0
+   542.0,135.02006435394287
+   541.712984085083,135.712984085083
+   541.0200643539429,136.0
+   541.0,136.0
+   540.9799356460571,136.0
+   540.287015914917,135.712984085083
+   540.0,135.02006435394287
+   540.0,135.0
+   540.0,134.97993564605713
+   540.287015914917,134.287015914917
+   540.3904285430908,134.2441806793213
+   540.0,134.0824613571167
+   539.9416904449463,134.0583095550537
+   539.9175386428833,134.0
+   539.833797454834,133.7978286743164
+   539.8232622146606,133.82326221466064
+   539.396577835083,134.0
+   539.0,134.0
+   538.603422164917,134.0
+   538.1767377853394,133.82326221466064
+   538.0,133.396577835083
+   538.0,133.0
+   538.0,132.603422164917
+   538.1767377853394,132.17673778533936
+   538.2723588943481,132.13712978363037
+   538.2124166488647,132.0
+   538.0,132.0
+   538.0,131.2195520401001
+   537.9543075561523,131.0
+   538.0,130.60518836975098
+   538.0,130.0
+   538.2124166488647,130.0
+   538.464882850647,129.42243480682373
+   538.7561359405518,128.75613594055176
+   539.2511110305786,128.54185390472412
+   540.0,128.21764945983887
+   540.0,128.06552600860596
+   540.9971771240234,128.00018501281738
+   540.9976243972778,128.0
+   541.0,128.0
+   541.0023756027222,128.0
+   541.0050058364868,128.00108909606934
+   542.0,128.21764945983887
+   542.0,128.4631052017212
+   542.0,128.99762439727783
+   542.0,129.0
+   542.0,129.00237560272217
+   542.0,129.46863269805908
+   543.4410285949707,129.3169174194336
+   543.5137815475464,129.3796262741089
+   543.7823505401611,130.0
+   544.0,130.0
+   544.0,132.0
+   543.7823505401611,132.0
+   543.6664428710938,132.26773834228516
+   543.712984085083,132.287015914917
+   544.0,132.97993564605713
+   544.0,133.0
+  </v2x_ary>
+  <rec type="LINE_OF_SIGHT">
+   <yes/>
+   <v2 x="530.0" y="121.25"/>
+   <v2 x="551.25" y="142.5"/>
+   <xml_include path="quadtree/maratha-General-0003.xml"/>
+  </rec>
+  <no/>
+  <u>0</u>
+  <no/>
+  <flt>10.0</flt><!-- 10 - Land Leader / 15 - Navy Leader -->
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <yes/>
+  <no/>
+  <u>0</u>
+  <no/>
+  <u>0</u>
+  <no/>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+ </rec>
+</rec>

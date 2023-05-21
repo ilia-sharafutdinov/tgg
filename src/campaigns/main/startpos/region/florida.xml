@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<rec type="REGION">
+ <s>florida</s><!-- Region Name -->
+ <xml_include path="population/florida.xml"/>
+ <traits/>
+ <rec type="REGION_SLOT_MANAGER">
+  <ary type="REGION_SLOT_ARRAY">
+   <xml_include path="region_slot/settlement-florida-st_augustine-settlement_minor.xml"/>
+   <xml_include path="region_slot/southern_usa-florida-north.xml"/>
+   <xml_include path="region_slot/caribbean-florida-south.xml"/>
+   <xml_include path="region_slot/corn-florida-north.xml"/>
+   <xml_include path="region_slot/port-florida-pensacola.xml"/>
+   <xml_include path="region_slot/town-florida-st_marks.xml"/>
+   <xml_include path="region_slot/town-florida-tequesta_mission.xml"/>
+  </ary>
+  <xml_include path="region_slot/florida-road.xml"/>
+  <xml_include path="region_slot/florida-walls.xml"/>
+ </rec>
+ <i>586475080</i><!-- Region ID -->
+ <xml_include path="region_slot/settlement-florida-st_augustine.xml"/>
+ <u>0</u>
+ <no/>
+ <no/>
+ <u>0</u><!-- Subsistence Agricultural (SA) -->
+ <u>52</u><!-- Industrial Wealth Plus (SA) -->
+ <u>52</u><!-- Industrial Wealth Plus (SA) Minus Trading Losses -->
+ <u>0</u><!-- Town Wealth -->
+ <u>0</u><!-- Minimum Town Wealth -->
+ <u>0</u><!-- Town Wealth -->
+ <i>-8</i><!-- Town Monetary Growth -->
+ <u>0</u>
+ <u>0</u>
+ <no/><!-- Exempt From Tax -->
+ <u>580832984</u><!-- Controlling Faction ID -->
+ <rec type="LINE_OF_SIGHT">
+  <yes/>
+  <v2 x="-632.5" y="163.75"/>
+  <v2 x="-557.5" y="240.0"/>
+  <xml_include path="quadtree/florida-0001.xml"/>
+ </rec>
+ <u>585735136</u><!-- Governor ID -->
+ <s>america</s><!-- Theatre -->
+ <s>amerind_rebels</s><!-- Emergent Nation -->
+ <s>Calusa Rebels</s><!-- Region Rebels -->
+ <s>sc_european_south</s><!-- Region Culture For Types Of Buildings -->
+ <rec type="REGION_RECRUITMENT_MANAGER">
+  <ary type="REGION_RECRUITMENT_ITEM_ARRAY"/>
+  <no/>
+  <i>586495464</i>
+ </rec>
+ <no/>
+ <u4_ary>0 0 0 0 0 0 0 0</u4_ary>
+ <u4_ary>0 0 0 0 0 0 0 0</u4_ary>
+ <u4_ary>0 0 22 0 0 0 0 0</u4_ary>
+ <u4_ary>0 0 0 0 0 0 0 0</u4_ary>
+ <bool_ary>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</bool_ary>
+ <i4_ary/>
+ <ary type="RELIGIOUS_MISSION_BUILDING_ARRAY"/>
+ <ary type="FORT_ARRAY"/>
+ <resources_array>
+  americas
+  africa_west_indies
+  colonial_euro_factions
+  global
+  americas_coastal
+  usa
+  displaced_scots
+ </resources_array>
+ <s/><!-- Latest Constuction -->
+ <u>5</u><!-- One Of These 5/10/15/20/25/30/40 Amount Of Prestige When Conquered -->
+ <u>4218418516</u><!-- Region Array. From Top To Bottom. 1st 62 Regions 881206575. 2nd 15 Regions 1771634741. 3rd 32 Regions 1928099569. 4th 28 Regions 688200897. Why???? -->
+ <loc>regions_onscreen_florida</loc>
+ <flt>-0.0013270393246784806</flt>
+</rec>

@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<rec type="REGION">
+ <s>cuba</s><!-- Region Name -->
+ <xml_include path="population/cuba.xml"/>
+ <traits/>
+ <rec type="REGION_SLOT_MANAGER">
+  <ary type="REGION_SLOT_ARRAY">
+   <xml_include path="region_slot/settlement-cuba-la_habana-settlement_minor.xml"/>
+   <xml_include path="region_slot/cuba-cuba-central.xml"/>
+   <xml_include path="region_slot/corn-cuba-west.xml"/>
+   <xml_include path="region_slot/caribbean-cuba-central.xml"/>
+   <xml_include path="region_slot/cuba-cuba-havana.xml"/>
+   <xml_include path="region_slot/port-cuba-santiago_de_cuba.xml"/>
+   <xml_include path="region_slot/town-cuba-puerto_principe.xml"/>
+   <xml_include path="region_slot/port-cuba-holguin.xml"/>
+  </ary>
+  <xml_include path="region_slot/cuba-road.xml"/>
+  <xml_include path="region_slot/cuba-walls.xml"/>
+ </rec>
+ <i>586723176</i><!-- Region ID -->
+ <xml_include path="region_slot/settlement-cuba-la_habana.xml"/>
+ <u>0</u>
+ <no/>
+ <no/>
+ <u>0</u><!-- Subsistence Agricultural (SA) -->
+ <u>594</u><!-- Industrial Wealth Plus (SA) -->
+ <u>594</u><!-- Industrial Wealth Plus (SA) Minus Trading Losses -->
+ <u>0</u><!-- Town Wealth -->
+ <u>0</u><!-- Minimum Town Wealth -->
+ <u>0</u><!-- Town Wealth -->
+ <i>-7</i><!-- Town Monetary Growth -->
+ <u>0</u>
+ <u>0</u>
+ <no/><!-- Exempt From Tax -->
+ <u>580832984</u><!-- Controlling Faction ID -->
+ <rec type="LINE_OF_SIGHT">
+  <yes/>
+  <v2 x="-613.75" y="130.0"/>
+  <v2 x="-516.25" y="176.25"/>
+  <xml_include path="quadtree/cuba-0001.xml"/>
+ </rec>
+ <u>585735136</u><!-- Governor ID -->
+ <s>america</s><!-- Theatre -->
+ <s>pirates</s><!-- Emergent Nation -->
+ <s>Pirate Rebels</s><!-- Region Rebels -->
+ <s>sc_european_south</s><!-- Region Culture For Types Of Buildings -->
+ <rec type="REGION_RECRUITMENT_MANAGER">
+  <ary type="REGION_RECRUITMENT_ITEM_ARRAY"/>
+  <no/>
+  <i>586747552</i>
+ </rec>
+ <no/>
+ <u4_ary>0 0 0 0 0 0 0 0</u4_ary>
+ <u4_ary>0 0 0 0 0 0 0 0</u4_ary>
+ <u4_ary>0 60 26 0 0 0 0 0</u4_ary>
+ <u4_ary>88 264 352 44 220 220 220 132</u4_ary>
+ <bool_ary>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0</bool_ary>
+ <i4_ary/>
+ <ary type="RELIGIOUS_MISSION_BUILDING_ARRAY"/>
+ <ary type="FORT_ARRAY"/>
+ <resources_array>
+  global
+  americas_coastal
+  africa_west_indies
+  colonial_euro_factions
+  west_indies
+ </resources_array>
+ <s/><!-- Latest Constuction -->
+ <u>5</u><!-- One Of These 5/10/15/20/25/30/40 Amount Of Prestige When Conquered -->
+ <u>4218418516</u><!-- Region Array. From Top To Bottom. 1st 62 Regions 881206575. 2nd 15 Regions 1771634741. 3rd 32 Regions 1928099569. 4th 28 Regions 688200897. Why???? -->
+ <loc>regions_onscreen_cuba</loc>
+ <flt>-0.0013270393246784806</flt>
+</rec>

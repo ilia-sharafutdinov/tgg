@@ -1,0 +1,190 @@
+<?xml version="1.0"?>
+<rec type="CHARACTER_ARRAY">
+ <rec type="CHARACTER">
+  <rec type="LOCOMOTABLE">
+   <v2x x="-489.4530029296875" y="345.7449951171875"/>
+   <v2x x="-489.4530029296875" y="345.7449951171875"/>
+   <flt>1.5707963705062866</flt><!-- Character Facing Direction -->
+   <flt>1.5707963705062866</flt><!-- Character Facing Direction -->
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <i>90</i><!-- Movement Points Left -->
+   <i>83</i><!-- Movement Points Total -->
+   <no/>
+   <i>0</i>
+   <i>0</i>
+   <angle>0.0</angle>
+   <u>12</u>
+   <u>0</u>
+   <flt>0.0</flt>
+  </rec>
+  <rec type="CHARACTER_DETAILS">
+   <traits>
+    C_Admiral_Cruisers=2
+    C_Admiral_Blockade_Runner_Good=1
+   </traits>
+   <loc>names_name_names_frenchVictor-Marie</loc>
+   <loc>names_name_names_frenchd&apos;Estrées</loc>
+   <loc/>
+   <s/><!-- Head Of State -->
+   <date>summer 1660</date>
+   <date/>
+   <i>0</i>
+   <portrait_details card="ui/portraits/european/Cards/general/young/136.tga" info="ui/portraits/european/Info/general/young/136.jpg" number="136"/>
+   <s>france</s>
+   <u>573959576</u><!-- Character ID -->
+   <agent_ancillaries>
+    Ancillary_Navy_Flag_Lieutenant
+   </agent_ancillaries>
+   <agent_attributes>
+    command_land=-1
+    command_sea=2
+    duelling_pistols=-1
+    duelling_swords=-1
+    management=-1
+    subterfuge=-1
+    research=-1
+    zeal=-1
+    land_defence_engineering=-1
+    land_siege_engineering=-1
+    morale_land=-1
+    morale_sea=-1
+    movement_points_land=-1
+    trade=-1
+   </agent_attributes>
+   <ary type="AgentAbilities">
+    <agent_ability ability="can_assassinate" level="-1" attribute=""/>
+    <agent_ability ability="can_convert" level="-1" attribute=""/>
+    <agent_ability ability="can_build_religious" level="-1" attribute=""/>
+    <agent_ability ability="can_build_fort" level="-1" attribute=""/>
+    <agent_ability ability="can_sabotage" level="-1" attribute=""/>
+    <agent_ability ability="can_spy" level="-1" attribute=""/>
+    <agent_ability ability="can_duel" level="-1" attribute=""/>
+    <agent_ability ability="can_receive_duel" level="-1" attribute=""/>
+    <agent_ability ability="can_research" level="-1" attribute=""/>
+    <agent_ability ability="can_attack_land" level="-1" attribute=""/>
+    <agent_ability ability="can_attack_naval" level="1" attribute="command_sea"/>
+    <agent_ability ability="can_sabotage_army" level="-1" attribute=""/>
+   </ary>
+   <agent_attribute_bonuses>
+    dummy=0
+   </agent_attribute_bonuses>
+   <no/>
+   <loc>agent_culture_details_onscreen_name_admiraleuropean</loc>
+  </rec>
+  <i>573959576</i><!-- Character ID -->
+  <s>admiral</s><!-- Character Type -->
+  <u>573964320</u><!-- Army ID -->
+  <u>573963144</u><!-- Unit ID -->
+  <u>0</u>
+  <u>0</u><!-- Character In Building Slot ID -->
+  <u>0</u><!-- Cabinet ID -->
+  <no/>
+  <no/><!-- Government Opposition -->
+  <v2x_ary>
+   -479.0107822418213,348.23686599731445
+   -479.25084018707275,348.73835372924805
+   -479.18275928497314,349.0
+   -479.6458959579468,350.0
+   -479.747181892395,350.2149124145508
+   -480.0,350.19194984436035
+   -480.0097417831421,350.1910648345947
+   -480.0601053237915,350.197527885437
+   -480.12220096588135,350.2054967880249
+   -481.0706386566162,350.32720947265625
+   -481.36434268951416,350.2842597961426
+   -481.87923526763916,350.2089653015137
+   -482.0,350.19130516052246
+   -483.3082056045532,350.0
+   -483.7206983566284,349.939679145813
+   -484.0,349.74117279052734
+   -484.0642557144165,349.6955041885376
+   -484.1700277328491,349.31251335144043
+   -484.7640743255615,348.8246879577637
+   -486.0,348.47527503967285
+   -487.33940410614014,348.09660816192627
+   -487.4209499359131,348.0
+   -488.0,347.31399631500244
+   -488.10867500305176,347.18524837493896
+   -489.0221061706543,347.0531949996948
+   -489.74024200439453,346.620569229126
+   -490.0,346.4605360031128
+   -490.56486892700195,346.1125297546387
+   -490.5979423522949,346.0
+   -490.7284154891968,345.5560722351074
+   -491.31742668151855,344.90905952453613
+   -491.98536014556885,344.61833572387695
+   -492.0,344.5859670639038
+   -492.26502799987793,344.0
+   -492.4309244155884,343.6332082748413
+   -493.23475646972656,343.01747035980225
+   -493.6122741699219,343.4673767089844
+   -494.0,343.142014503479
+   -495.0677185058594,342.24603271484375
+   -494.86126232147217,342.0
+   -494.74537563323975,341.8618984222412
+   -495.4199056625366,341.5982131958008
+   -495.879433631897,341.05071926116943
+   -496.0,340.8946542739868
+   -496.69115447998047,340.0
+   -496.72653579711914,339.9542016983032
+   -496.8643550872803,339.81881046295166
+   -497.0824098587036,339.6045970916748
+   -497.8237609863281,338.8763065338135
+   -497.960241317749,338.74223041534424
+   -497.93871688842773,338.06128311157227
+   -497.8088026046753,338.0571765899658
+   -497.46945095062256,338.31945514678955
+   -496.6239833831787,338.97290229797363
+   -496.53071117401123,339.0449905395508
+   -496.21816062927246,339.2249002456665
+   -496.0,339.35047817230225
+   -495.64528942108154,339.55465602874756
+   -495.1746025085449,340.0
+   -495.0085039138794,340.1571559906006
+   -494.0,340.876953125
+   -492.42650604248047,342.0
+   -492.0,342.3044090270996
+   -491.47327518463135,342.68034744262695
+   -490.2981595993042,343.77327060699463
+   -490.0,343.94209480285645
+   -489.8977336883545,344.0
+   -488.9321069717407,344.5467586517334
+   -488.0,344.8889055252075
+   -487.9942970275879,344.89099884033203
+   -487.06474685668945,345.44262409210205
+   -486.0,345.94039249420166
+   -485.87249755859375,346.0
+   -485.182430267334,346.32260608673096
+   -484.0,346.6951265335083
+   -482.0,347.3252191543579
+   -480.145302772522,347.90953540802
+   -480.0,347.9514579772949
+   -479.83175468444824,348.0
+   -479.41140365600586,348.1212787628174
+  </v2x_ary>
+  <rec type="LINE_OF_SIGHT">
+   <yes/>
+   <v2 x="-505.0" y="330.0"/>
+   <v2 x="-473.75" y="361.25"/>
+   <xml_include path="quadtree/france-admiral-0001.xml"/>
+  </rec>
+  <no/>
+  <u>0</u>
+  <no/>
+  <flt>15.0</flt><!-- 10 - Land Leader / 15 - Navy Leader -->
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <no/>
+  <no/>
+  <u>0</u>
+  <no/>
+  <u>0</u>
+  <no/>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+ </rec>
+</rec>

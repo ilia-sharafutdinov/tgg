@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<rec type="CAI_WORLD_REGIONS">
+ <owned_indirect>1530</owned_indirect><!-- CAI_WORLD_REGIONS = Settlement AI ID. CAI_WORLD_REGION_SLOTS = Region AI ID. CAI_WORLD_CHARACTERS = Faction AI ID -->
+ <rec type="CAI_BDI_COMPONENT_PROPERTY_SET">
+  <u>0</u>
+ </rec>
+ <u>523</u><!-- Region AI ID -->
+ <flt>100.0</flt>
+ <flt>100.0</flt>
+ <flt>0.0</flt>
+ <flt>100.0</flt>
+ <u>1</u>
+ <no/>
+ <u4_ary/>
+ <u4_ary>8726 0 11251 0 11302 0 11311 0 15960 0 20847 0 20875 0 25177 0 29657 0 31330 0 35090 0 42056 0 42209 0 42210 0 42316 0 43809 0 43848 0 43849 0 43850 0 43851 0 43852 0 43858 0 43811 1 43915 0 46614 0 47419 0 49043 0 55779 0 57729 0 60799 0 62546 0 77533 0 79306 0</u4_ary><!-- BDI Information -->
+ <u>0</u>
+ <u>33</u>
+ <u4_ary/>
+ <u4_ary>8726 14 11251 7863 11302 7882 11311 4 15960 14784 20847 19739 20875 19758 25177 22843 29657 15 31330 29195 35090 34226 42056 41866 42209 41867 42210 41883 42316 43809 43848 43849 43850 43851 43852 43858 41874 43811 43915 41872 46614 45216 47419 46905 49043 48545 55779 54271 57729 56131 60799 60162 62546 61951 77533 76919 79306 78766</u4_ary><!-- BDI Information -->
+ <ary type="CAI_BDI_COMPONENT_BLOCK_OWNS"/>
+ <u>0</u>
+ <u>0</u>
+ <u4_ary/>
+ <u4_ary/>
+ <u4_ary/>
+ <u4_ary>7383 7427 7349 8726 11252 11251 11311 11313 11315 15960 20847 25177 29658 31330 35090 42056 42208 42342 42316 42428 43848 43849 43850 43851 43852 43858 43915 46614 47419 49043 55779 57729 60799 62546 77533 79306</u4_ary><!-- BDI Information -->
+ <no/>
+ <u>0</u>
+ <no/>
+ <rec type="CAI_REGION">
+  <u4_ary>34 35</u4_ary><!-- Theatre IDs -->
+  <u4_ary>524 525 526 527 528 529</u4_ary><!-- HLCIS IDs -->
+  <u>1530</u><!-- Settlement AI ID -->
+  <u4_ary>1532 1534 1536</u4_ary><!-- Region Slot AI IDs Of Region Slots In This Region -->
+  <flt>432.84003</flt><!-- X Coordinate -->
+  <flt>209.73999</flt><!-- Y Coordinate -->
+  <u4_ary/>
+  <u4_ary>6924 6973 6977 6978 6979</u4_ary><!-- Boundary IDs -->
+  <yes/>
+  <u4_ary/><!-- Character Resource AI IDs -->
+  <s>baluchistan</s><!-- Region Name -->
+  <u>587322560</u><!-- Region ID -->
+  <u>7482</u><!-- Governor AI ID -->
+  <u4_ary/><!-- Faction AI IDs -->
+ </rec>
+</rec>

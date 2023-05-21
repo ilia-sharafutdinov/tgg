@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<rec type="SETTLEMENT">
+ <rec type="SIEGEABLE_GARRISON_RESIDENCE">
+  <garrison_residence>581863440</garrison_residence><!-- Faction ID -->
+  <u>587056480</u><!-- Building Slot ID -->
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <i>0</i>
+  <no/>
+  <no/>
+  <no/>
+  <v2x x="210.56907653808594" y="423.3047790527344"/>
+  <u>580991368</u><!-- Army ID -->
+  <u4_ary/>
+  <u4_ary/><!-- Character ID Of Garrison -->
+  <rec type="LINE_OF_SIGHT">
+   <yes/>
+   <v2 x="205.0" y="417.5"/>
+   <v2 x="216.25" y="428.75"/>
+   <xml_include path="quadtree/settlement-ingria-st_petersburg-0001.xml"/>
+  </rec>
+  <no/>
+  <ary type="FORTIFICATIONS_BLOCK"/>
+ </rec>
+ <loc>start_pos_settlements_onscreen_name_settlement:ingria:st_petersburg78</loc>
+ <i>4</i>
+ <s>settlement:ingria:st_petersburg</s><!-- DB Table Campaign_map_settlements -->
+ <i>587056480</i><!-- Settlement ID -->
+ <s>settlement:ingria:st_petersburg</s><!-- DB Table Campaign_map_settlements -->
+</rec>

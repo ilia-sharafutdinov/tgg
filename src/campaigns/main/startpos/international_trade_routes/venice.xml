@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<rec type="INTERNATIONAL_TRADE_ROUTES">
+ <s>venice</s>
+ <ary type="FACTION_INTERNATIONAL_TRADE_ROUTES_ARRAY">
+  <rec type="FACTION_INTERNATIONAL_TRADE_ROUTES_ARRAY">
+   <rec type="INTERNATIONAL_TRADE_ROUTE">
+    <u>2</u><!-- Number Of Connections -->
+    <i>585872360</i><!-- Region ID Of Home Faction -->
+    <v2 x="0.0" y="0.0"/>
+    <u>246</u><!-- Port OR Settlement Indice Start Point (venice) -->
+    <u>156</u><!-- Port OR Settlement Indice End Point (austria) -->
+    <no/><!-- Trading Over Sea -->
+    <i>580945232</i><!-- Region ID Of Trading Faction -->
+    <v2 x="0.0" y="0.0"/>
+    <u>4294967295</u>
+    <u>4294967295</u>
+    <no/><!-- Trading Over Sea -->
+    <no/>
+    <u4_ary>0 0 0 0 0 0 0 0</u4_ary><!-- Commodities Quantity -->
+    <u>302</u>
+    <u>0</u>
+    <u>0</u>
+    <u>302</u>
+    <u>0</u>
+    <u>0</u>
+    <u>0</u>
+    <u4_ary>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</u4_ary><!-- Resources Quantity -->
+    <u>0</u>
+    <i>637792392</i>
+   </rec>
+   <u>637792392</u><!-- Route ID -->
+  </rec>
+  <rec type="FACTION_INTERNATIONAL_TRADE_ROUTES_ARRAY">
+   <rec type="INTERNATIONAL_TRADE_ROUTE">
+    <u>2</u><!-- Number Of Connections -->
+    <i>585872360</i><!-- Region ID Of Home Faction -->
+    <v2 x="0.0" y="0.0"/>
+    <u>117</u><!-- Port OR Settlement Indice Start Point (port:venice:chioggia) -->
+    <u>37</u><!-- Port OR Settlement Indice End Point (port:rumelia:thessaloniki) -->
+    <yes/><!-- Trading Over Sea -->
+    <i>587072072</i><!-- Region ID Of Home Faction -->
+    <v2 x="0.0" y="0.0"/>
+    <u>4294967295</u>
+    <u>4294967295</u>
+    <no/><!-- Trading Over Sea -->
+    <yes/>
+    <u4_ary>0 0 0 0 0 0 0 0</u4_ary><!-- Commodities Quantity -->
+    <u>323</u>
+    <u>0</u>
+    <u>0</u>
+    <u>323</u>
+    <u>0</u>
+    <u>0</u>
+    <u>0</u>
+    <u4_ary>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</u4_ary><!-- Resources Quantity -->
+    <u>0</u>
+    <i>637792524</i>
+   </rec>
+   <u>637792524</u><!-- Route ID -->
+  </rec>
+ </ary>
+</rec>

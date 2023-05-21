@@ -1,0 +1,182 @@
+<?xml version="1.0"?>
+<rec type="CHARACTER_ARRAY">
+ <rec type="CHARACTER">
+  <rec type="LOCOMOTABLE">
+   <v2x x="210.1300048828125" y="431.32000732421875"/>
+   <v2x x="210.1300048828125" y="431.32000732421875"/>
+   <flt>3.1415927410125732</flt><!-- Character Facing Direction -->
+   <flt>3.1415927410125732</flt><!-- Character Facing Direction -->
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <i>25</i><!-- Movement Points Left -->
+   <i>28</i><!-- Movement Points Total -->
+   <no/>
+   <i>0</i>
+   <i>0</i>
+   <angle>0.0</angle>
+   <u>12</u>
+   <u>0</u>
+   <flt>0.0</flt>
+  </rec>
+  <rec type="CHARACTER_DETAILS">
+   <traits/>
+   <loc>names_name_names_swedishAdam</loc>
+   <loc>names_name_names_swedishThorkelin</loc>
+   <loc/>
+   <s/><!-- Head Of State -->
+   <date>summer 1667</date>
+   <date/>
+   <i>0</i>
+   <portrait_details/>
+   <s>sweden</s>
+   <u>591665056</u><!-- Character ID -->
+   <agent_ancillaries/>
+   <agent_attributes>
+    command_land=0
+    command_sea=-1
+    duelling_pistols=-1
+    duelling_swords=-1
+    management=-1
+    subterfuge=-1
+    research=-1
+    zeal=-1
+    land_defence_engineering=-1
+    land_siege_engineering=-1
+    morale_land=-1
+    morale_sea=-1
+    movement_points_land=-1
+    trade=-1
+   </agent_attributes>
+   <ary type="AgentAbilities">
+    <agent_ability ability="can_assassinate" level="-1" attribute=""/>
+    <agent_ability ability="can_convert" level="-1" attribute=""/>
+    <agent_ability ability="can_build_religious" level="-1" attribute=""/>
+    <agent_ability ability="can_build_fort" level="-1" attribute=""/>
+    <agent_ability ability="can_sabotage" level="-1" attribute=""/>
+    <agent_ability ability="can_spy" level="-1" attribute=""/>
+    <agent_ability ability="can_duel" level="-1" attribute=""/>
+    <agent_ability ability="can_receive_duel" level="-1" attribute=""/>
+    <agent_ability ability="can_research" level="-1" attribute=""/>
+    <agent_ability ability="can_attack_land" level="1" attribute="command_land"/>
+    <agent_ability ability="can_attack_naval" level="-1" attribute=""/>
+    <agent_ability ability="can_sabotage_army" level="-1" attribute=""/>
+   </ary>
+   <agent_attribute_bonuses>
+    dummy=0
+   </agent_attribute_bonuses>
+   <no/>
+   <loc>agent_culture_details_onscreen_name_coloneleuropean</loc>
+  </rec>
+  <i>591665056</i><!-- Character ID -->
+  <s>colonel</s><!-- Character Type -->
+  <u>591664640</u><!-- Army ID -->
+  <u>591664304</u><!-- Unit ID -->
+  <u>0</u>
+  <u>0</u><!-- Character In Building Slot ID -->
+  <u>0</u><!-- Cabinet ID -->
+  <no/>
+  <no/><!-- Government Opposition -->
+  <v2x_ary>
+   216.69292640686035,430.6718997955322
+   216.37897205352783,431.6030082702637
+   216.4731559753418,431.87061309814453
+   216.42029762268066,432.0
+   216.29318046569824,432.29318046569824
+   216.0,432.41461849212646
+   215.96509742736816,432.42907524108887
+   216.0,432.51333808898926
+   216.0,432.6181449890137
+   215.82913494110107,432.7518482208252
+   214.716290473938,433.62266063690186
+   214.6320457458496,433.67316341400146
+   214.29356384277344,433.87607765197754
+   214.25296592712402,433.89214992523193
+   214.15035343170166,433.84964656829834
+   214.08709812164307,433.6969347000122
+   214.0,433.70073413848877
+   214.0,433.99230098724365
+   213.98055267333984,434.0
+   212.35586738586426,434.0
+   212.0,433.8702440261841
+   211.94222259521484,433.84917736053467
+   210.0,433.6712312698364
+   209.99971294403076,433.67120456695557
+   208.0,433.84673500061035
+   206.96113300323486,433.9379243850708
+   206.8401279449463,434.0
+   206.0,434.0
+   206.0,432.4644422531128
+   205.6704568862915,432.3295431137085
+   205.5668182373047,432.0
+   205.18910026550293,431.6480407714844
+   205.0,431.72636795043945
+   204.48637866973877,431.51362133026123
+   204.27363204956055,431.0
+   204.37921524047852,430.74509620666504
+   204.48637866973877,430.48637866973877
+   204.7778024673462,430.36566829681396
+   204.8641481399536,430.1729259490967
+   204.9416160583496,430.0
+   205.12162113189697,429.58759689331055
+   205.49845123291016,429.55895805358887
+   205.7575044631958,429.53926944732666
+   206.0,429.37706565856934
+   206.88176727294922,428.7872562408447
+   208.0,428.9448585510254
+   209.95670223236084,429.2206335067749
+   210.0,429.22200298309326
+   212.0,429.2852487564087
+   212.64515018463135,429.30565071105957
+   213.57758331298828,429.05116844177246
+   213.97829055786133,428.31680393218994
+   213.98224925994873,428.3095483779907
+   214.0,428.3016424179077
+   214.10752296447754,428.253755569458
+   214.23607921600342,428.19650173187256
+   214.4484338760376,428.1019105911255
+   214.67722129821777,428.0
+   214.68950653076172,428.0
+   214.8008155822754,428.0
+   215.0,427.91749572753906
+   215.11695384979248,427.96593952178955
+   215.1991844177246,428.0
+   215.48666191101074,428.0
+   215.49460315704346,428.0
+   215.49660968780518,428.0041208267212
+   215.51886749267578,428.0133399963379
+   215.84964656829834,428.15035343170166
+   216.0,428.51333808898926
+   216.0,428.8008155822754
+   216.08250427246094,429.0
+   216.0,429.1991844177246
+   216.0,429.48666191101074
+   215.96509742736816,429.57092475891113
+   216.0,429.58538150787354
+   216.29318046569824,429.70681953430176
+   216.41461849212646,430.0
+  </v2x_ary>
+  <rec type="LINE_OF_SIGHT">
+   <yes/>
+   <v2 x="200.0" y="421.25"/>
+   <v2 x="221.25" y="442.5"/>
+   <xml_include path="quadtree/sweden-colonel-0003.xml"/>
+  </rec>
+  <no/>
+  <u>0</u>
+  <no/>
+  <flt>10.0</flt><!-- 10 - Land Leader / 15 - Navy Leader -->
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <no/>
+  <no/>
+  <u>0</u>
+  <no/>
+  <u>0</u>
+  <no/>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+ </rec>
+</rec>

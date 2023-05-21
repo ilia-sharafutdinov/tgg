@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<rec type="CAI_WORLD_REGION_SLOTS">
+ <owned_indirect>1195</owned_indirect><!-- CAI_WORLD_REGIONS = Settlement AI ID. CAI_WORLD_REGION_SLOTS = Region AI ID. CAI_WORLD_CHARACTERS = Faction AI ID -->
+ <cai_situated x="-507.94281005859375" y="294.87103271484375" region_id="1195" theatre_id="33" area_id="20"/>
+ <rec type="CAI_BDI_COMPONENT_PROPERTY_SET">
+  <u>0</u>
+ </rec>
+ <u>3439</u><!-- Region Slot AI ID -->
+ <flt>100.0</flt>
+ <flt>100.0</flt>
+ <flt>0.0</flt>
+ <flt>100.0</flt>
+ <u>1</u>
+ <no/>
+ <u4_ary/>
+ <u4_ary>10195 0 14355 0 14356 0 14367 0 17185 0 20603 0 24208 0 37421 0 39170 0 40232 0 45040 0 54141 0 60028 0 64399 0 73500 0 79871 0</u4_ary><!-- BDI Information -->
+ <u>0</u>
+ <u>16</u>
+ <u4_ary/>
+ <u4_ary>10195 16 14355 4 14356 15 14367 7855 17185 14776 20603 19731 24208 22835 37421 37235 39170 38470 40232 39346 45040 44280 54141 53519 60028 59400 64399 63678 73500 72816 79871 78758</u4_ary><!-- BDI Information -->
+ <ary type="CAI_BDI_COMPONENT_BLOCK_OWNS"/>
+ <u>0</u>
+ <u>0</u>
+ <u4_ary/>
+ <u4_ary/>
+ <u4_ary/>
+ <u4_ary>10139 10169 10170 10173 10175 10176 10177 10178 10182 10183 10191 10192 10193 10194 10195 10196 10197 10198 10201 10202 10217 10218 10219 10220 10221 10222 10223 10224 10225 10226 10227 10228 10230 10231 10232 10233 10234 10235 10239 10240 10241 10243 10244 14355 14356 14367 17185 20603 24208 37421 39170 40232 45040 54141 60028 64399 73500 79871</u4_ary><!-- BDI Information -->
+ <no/>
+ <u>0</u>
+ <no/>
+ <rec type="CAI_GARRISONABLE">
+  <u>0</u><!-- Character Resource AI ID -->
+  <u>0</u>
+  <u4_ary/><!-- Character Resource AI IDs -->
+  <u4_ary/>
+  <u>0</u>
+ </rec>
+ <rec type="CAI_THREATENED_GARRISONABLE">
+  <no/>
+ </rec>
+ <rec type="CAI_REGION_SLOT">
+  <i>1</i>
+  <u>3438</u><!-- Building Slot AI ID -->
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <yes/><!-- True = Port, False = Town (ports have extra set of coordinates for their sea part following) -->
+  <cai_situated x="-507.5545959472656" y="293.4221496582031" region_id="998" theatre_id="33" area_id="33"/>
+ </rec>
+</rec>

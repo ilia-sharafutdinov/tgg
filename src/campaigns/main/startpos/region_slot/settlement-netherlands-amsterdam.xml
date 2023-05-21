@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<rec type="SETTLEMENT">
+ <rec type="SIEGEABLE_GARRISON_RESIDENCE">
+  <garrison_residence>580632584</garrison_residence><!-- Faction ID -->
+  <u>586600840</u><!-- Building Slot ID -->
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <i>0</i>
+  <no/>
+  <no/>
+  <no/>
+  <v2x x="35.91815185546875" y="373.49066162109375"/>
+  <u>580740072</u><!-- Army ID -->
+  <u4_ary/>
+  <u4_ary/><!-- Character ID Of Garrison -->
+  <rec type="LINE_OF_SIGHT">
+   <yes/>
+   <v2 x="30.0" y="367.5"/>
+   <v2 x="41.25" y="378.75"/>
+   <xml_include path="quadtree/settlement-netherlands-amsterdam-0001.xml"/>
+  </rec>
+  <no/>
+  <ary type="FORTIFICATIONS_BLOCK"/>
+ </rec>
+ <loc>start_pos_settlements_onscreen_name_settlement:netherlands:amsterdam88</loc>
+ <i>5</i>
+ <s>settlement:netherlands:amsterdam</s><!-- DB Table Campaign_map_settlements -->
+ <i>586600840</i><!-- Settlement ID -->
+ <s>settlement:netherlands:amsterdam</s><!-- DB Table Campaign_map_settlements -->
+</rec>

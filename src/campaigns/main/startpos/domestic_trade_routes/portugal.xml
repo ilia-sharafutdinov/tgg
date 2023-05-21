@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<rec type="DOMESTIC_TRADE_ROUTES">
+ <s>portugal</s>
+ <ary type="FACTION_DOMESTIC_TRADE_ROUTES_ARRAY">
+  <rec type="FACTION_DOMESTIC_TRADE_ROUTES_ARRAY">
+   <rec type="DOMESTIC_TRADE_ROUTE">
+    <no/>
+    <s>2113354257</s><!-- Region Name. If 836795134 - Straits Of Madagascar. If 2113354257 - Ivory Coast. If 1197997136 - Coast Of Brazil. If -1133129049 - East Indies. -->
+    <v2 x="40.062034606933594" y="29.754108428955078"/>
+    <u>2</u><!-- Number Of Connections -->
+    <i>0</i>
+    <v2 x="40.062034606933594" y="29.754108428955078"/>
+    <u>273</u><!-- Port OR Settlement Indice Start Point (Trade Nodes For 4 Trading Theatres (267 to 286)) -->
+    <u>43</u><!-- Port OR Settlement Indice End Point (port:portugal:porto) -->
+    <yes/>
+    <i>586837072</i>
+    <v2 x="0.0" y="0.0"/>
+    <u>4294967295</u>
+    <u>4294967295</u>
+    <no/>
+    <yes/>
+    <u4_ary>0 0 0 46 0 0 0 0</u4_ary><!-- Commodities Quantity -->
+    <u>583268040</u>
+    <i>644878152</i>
+   </rec>
+   <u>644878152</u><!-- Route ID -->
+  </rec>
+  <rec type="FACTION_DOMESTIC_TRADE_ROUTES_ARRAY">
+   <rec type="DOMESTIC_TRADE_ROUTE">
+    <no/>
+    <s>1197997136</s><!-- Region Name. If 836795134 - Straits Of Madagascar. If 2113354257 - Ivory Coast. If 1197997136 - Coast Of Brazil. If -1133129049 - East Indies. -->
+    <v2 x="-321.49164" y="-171.01558"/>
+    <u>2</u><!-- Number Of Connections -->
+    <i>0</i>
+    <v2 x="-321.49164" y="-171.01558"/>
+    <u>268</u><!-- Port OR Settlement Indice Start Point (Trade Nodes For 4 Trading Theatres (267 to 286)) -->
+    <u>43</u><!-- Port OR Settlement Indice End Point (port:portugal:porto) -->
+    <yes/>
+    <i>586837072</i>
+    <v2 x="0.0" y="0.0"/>
+    <u>4294967295</u>
+    <u>4294967295</u>
+    <no/>
+    <yes/>
+    <u4_ary>0 0 34 0 0 0 0 0</u4_ary><!-- Commodities Quantity -->
+    <u>583268040</u>
+    <i>644878256</i>
+   </rec>
+   <u>644878256</u><!-- Route ID -->
+  </rec>
+ </ary>
+</rec>

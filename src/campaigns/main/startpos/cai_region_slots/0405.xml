@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<rec type="CAI_WORLD_REGION_SLOTS">
+ <owned_indirect>873</owned_indirect><!-- CAI_WORLD_REGIONS = Settlement AI ID. CAI_WORLD_REGION_SLOTS = Region AI ID. CAI_WORLD_CHARACTERS = Faction AI ID -->
+ <cai_situated x="74.87797546386719" y="449.70526123046875" region_id="873" theatre_id="34" area_id="13"/>
+ <rec type="CAI_BDI_COMPONENT_PROPERTY_SET">
+  <u>0</u>
+ </rec>
+ <u>2638</u><!-- Region Slot AI ID -->
+ <flt>100.0</flt>
+ <flt>100.0</flt>
+ <flt>0.0</flt>
+ <flt>100.0</flt>
+ <u>1</u>
+ <no/>
+ <u4_ary/>
+ <u4_ary>9463 0 12186 0 12187 0 12207 0 16823 0 19310 0 22438 0 24933 0 27080 0 28836 0 31078 0 33745 0 34708 0 41662 0 43477 0 46316 0 48357 0 51998 0 53329 0 54446 0 57309 0 59196 0 61683 0 63450 0 65677 0 67047 0 68352 0 69664 0 70951 0 72250 0 75073 0 78474 0</u4_ary><!-- BDI Information -->
+ <u>0</u>
+ <u>32</u>
+ <u4_ary/>
+ <u4_ary>9463 16 12186 4 12187 15 12207 7855 16823 14776 19310 17709 22438 19731 24933 22835 27080 25839 28836 27366 31078 29187 33745 32078 34708 34218 41662 40550 43477 41858 46316 45208 48357 46897 51998 50886 53329 52209 54446 54263 57309 56123 59196 58101 61683 60154 63450 61943 65677 64585 67047 65914 68352 67253 69664 68542 70951 69858 72250 71136 75073 73957 78474 76911</u4_ary><!-- BDI Information -->
+ <ary type="CAI_BDI_COMPONENT_BLOCK_OWNS"/>
+ <u>0</u>
+ <u>0</u>
+ <u4_ary/>
+ <u4_ary/>
+ <u4_ary/>
+ <u4_ary>9339 9340 9365 9366 9368 9369 9370 9371 9372 9375 9405 9462 9463 9489 12186 12187 12207 16823 19310 22438 24933 27080 28836 31078 33745 34708 41662 43477 46316 48357 51998 53329 54446 57309 59196 61683 63450 65677 67047 68352 69664 70951 72250 75073 78474</u4_ary><!-- BDI Information -->
+ <no/>
+ <u>0</u>
+ <no/>
+ <rec type="CAI_GARRISONABLE">
+  <u>0</u><!-- Character Resource AI ID -->
+  <u>0</u>
+  <u4_ary/><!-- Character Resource AI IDs -->
+  <u4_ary/>
+  <u>0</u>
+ </rec>
+ <rec type="CAI_THREATENED_GARRISONABLE">
+  <no/>
+ </rec>
+ <rec type="CAI_REGION_SLOT">
+  <i>1</i>
+  <u>2637</u><!-- Building Slot AI ID -->
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <no/><!-- True = Port, False = Town (ports have extra set of coordinates for their sea part following) -->
+ </rec>
+</rec>

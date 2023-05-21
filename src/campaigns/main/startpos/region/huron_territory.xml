@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<rec type="REGION">
+ <s>huron_territory</s><!-- Region Name -->
+ <xml_include path="population/huron_territory.xml"/>
+ <traits/>
+ <rec type="REGION_SLOT_MANAGER">
+  <ary type="REGION_SLOT_ARRAY">
+   <xml_include path="region_slot/settlement-huron_territory-fort_sault_ste-marie-settlement_minor.xml"/>
+   <xml_include path="region_slot/fur-huron_territory-north.xml"/>
+   <xml_include path="region_slot/gold-huron_territory-west.xml"/>
+   <xml_include path="region_slot/town-huron_territory-longlac.xml"/>
+   <xml_include path="region_slot/town-huron_territory-kapuskasing.xml"/>
+  </ary>
+  <xml_include path="region_slot/huron_territory-road.xml"/>
+  <xml_include path="region_slot/huron_territory-walls.xml"/>
+ </rec>
+ <i>586421120</i><!-- Region ID -->
+ <xml_include path="region_slot/settlement-huron_territory-fort_sault_ste-marie.xml"/>
+ <u>0</u>
+ <no/>
+ <no/>
+ <u>0</u><!-- Subsistence Agricultural (SA) -->
+ <u>46</u><!-- Industrial Wealth Plus (SA) -->
+ <u>46</u><!-- Industrial Wealth Plus (SA) Minus Trading Losses -->
+ <u>0</u><!-- Town Wealth -->
+ <u>0</u><!-- Minimum Town Wealth -->
+ <u>0</u><!-- Town Wealth -->
+ <i>-8</i><!-- Town Monetary Growth -->
+ <u>0</u>
+ <u>0</u>
+ <no/><!-- Exempt From Tax -->
+ <u>584365704</u><!-- Controlling Faction ID -->
+ <rec type="LINE_OF_SIGHT">
+  <yes/>
+  <v2 x="-633.75" y="312.5"/>
+  <v2 x="-550.0" y="371.25"/>
+  <xml_include path="quadtree/huron_territory-0001.xml"/>
+ </rec>
+ <u>585749976</u><!-- Governor ID -->
+ <s>america</s><!-- Theatre -->
+ <s>huron</s><!-- Emergent Nation -->
+ <s>Huron Rebels</s><!-- Region Rebels -->
+ <s>sc_tribal_american</s><!-- Region Culture For Types Of Buildings -->
+ <rec type="REGION_RECRUITMENT_MANAGER">
+  <ary type="REGION_RECRUITMENT_ITEM_ARRAY"/>
+  <no/>
+  <i>586428944</i>
+ </rec>
+ <no/>
+ <u4_ary>0 0 0 0 0 0 0 0</u4_ary>
+ <u4_ary>0 0 0 0 0 0 0 0</u4_ary>
+ <u4_ary>0 0 0 0 0 0 0 26</u4_ary>
+ <u4_ary>0 0 0 0 0 0 0 0</u4_ary>
+ <bool_ary>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</bool_ary>
+ <i4_ary/>
+ <ary type="RELIGIOUS_MISSION_BUILDING_ARRAY"/>
+ <ary type="FORT_ARRAY"/>
+ <resources_array>
+  displaced_scots
+  global
+  americas_inland
+  usa
+  colonial_euro_factions
+  africa_west_indies
+  americas
+ </resources_array>
+ <s/><!-- Latest Constuction -->
+ <u>5</u><!-- One Of These 5/10/15/20/25/30/40 Amount Of Prestige When Conquered -->
+ <u>4218418516</u><!-- Region Array. From Top To Bottom. 1st 62 Regions 881206575. 2nd 15 Regions 1771634741. 3rd 32 Regions 1928099569. 4th 28 Regions 688200897. Why???? -->
+ <loc>regions_onscreen_huron_territory</loc>
+ <flt>-0.0013270393246784806</flt>
+</rec>

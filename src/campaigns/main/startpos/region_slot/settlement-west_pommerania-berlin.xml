@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<rec type="SETTLEMENT">
+ <rec type="SIEGEABLE_GARRISON_RESIDENCE">
+  <garrison_residence>580345112</garrison_residence><!-- Faction ID -->
+  <u>586108848</u><!-- Building Slot ID -->
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <i>0</i>
+  <no/>
+  <no/>
+  <no/>
+  <v2x x="94.76274108886719" y="374.4250183105469"/>
+  <u>581174760</u><!-- Army ID -->
+  <u4_ary/>
+  <u4_ary/><!-- Character ID Of Garrison -->
+  <rec type="LINE_OF_SIGHT">
+   <yes/>
+   <v2 x="88.75" y="368.75"/>
+   <v2 x="100.0" y="380.0"/>
+   <xml_include path="quadtree/settlement-west_pommerania-berlin-0001.xml"/>
+  </rec>
+  <no/>
+  <ary type="FORTIFICATIONS_BLOCK"/>
+ </rec>
+ <loc>start_pos_settlements_onscreen_name_settlement:west_pommerania:berlin53</loc>
+ <i>5</i>
+ <s>settlement:west_pommerania:berlin</s><!-- DB Table Campaign_map_settlements -->
+ <i>586108848</i><!-- Settlement ID -->
+ <s>settlement:west_pommerania:berlin</s><!-- DB Table Campaign_map_settlements -->
+</rec>

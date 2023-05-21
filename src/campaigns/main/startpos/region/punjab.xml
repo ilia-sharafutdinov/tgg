@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<rec type="REGION">
+ <s>punjab</s><!-- Region Name -->
+ <xml_include path="population/punjab.xml"/>
+ <traits/>
+ <rec type="REGION_SLOT_MANAGER">
+  <ary type="REGION_SLOT_ARRAY">
+   <xml_include path="region_slot/settlement-punjab-lahore-settlement_army-admin.xml"/>
+   <xml_include path="region_slot/settlement-punjab-lahore-settlement_ordnance.xml"/>
+   <xml_include path="region_slot/settlement-punjab-lahore-settlement_government.xml"/>
+   <xml_include path="region_slot/settlement-punjab-lahore-settlement_culture.xml"/>
+   <xml_include path="region_slot/iron-punjab-west.xml"/>
+   <xml_include path="region_slot/rice-punjab-central2.xml"/>
+   <xml_include path="region_slot/gold-punjab-central.xml"/>
+   <xml_include path="region_slot/wheat-punjab-south.xml"/>
+   <xml_include path="region_slot/town-punjab-khanpur.xml"/>
+   <xml_include path="region_slot/town-punjab-kasur.xml"/>
+   <xml_include path="region_slot/town-punjab-rawalpindi.xml"/>
+   <xml_include path="region_slot/town-punjab-multan.xml"/>
+  </ary>
+  <xml_include path="region_slot/punjab-road.xml"/>
+  <xml_include path="region_slot/punjab-walls.xml"/>
+ </rec>
+ <i>587196328</i><!-- Region ID -->
+ <xml_include path="region_slot/settlement-punjab-lahore.xml"/>
+ <u>1</u>
+ <no/>
+ <no/>
+ <u>0</u><!-- Subsistence Agricultural (SA) -->
+ <u>3050</u><!-- Industrial Wealth Plus (SA) -->
+ <u>3050</u><!-- Industrial Wealth Plus (SA) Minus Trading Losses -->
+ <u>0</u><!-- Town Wealth -->
+ <u>0</u><!-- Minimum Town Wealth -->
+ <u>0</u><!-- Town Wealth -->
+ <i>-5</i><!-- Town Monetary Growth -->
+ <u>0</u>
+ <u>0</u>
+ <no/><!-- Exempt From Tax -->
+ <u>581839776</u><!-- Controlling Faction ID -->
+ <rec type="LINE_OF_SIGHT">
+  <yes/>
+  <v2 x="473.75" y="181.25"/>
+  <v2 x="555.0" y="253.75"/>
+  <xml_include path="quadtree/punjab-0001.xml"/>
+ </rec>
+ <u>585536488</u><!-- Governor ID -->
+ <s>india</s><!-- Theatre -->
+ <s>punjab</s><!-- Emergent Nation -->
+ <s>Sikh Rebels</s><!-- Region Rebels -->
+ <s>sc_indian_hindu</s><!-- Region Culture For Types Of Buildings -->
+ <rec type="REGION_RECRUITMENT_MANAGER">
+  <ary type="REGION_RECRUITMENT_ITEM_ARRAY"/>
+  <no/>
+  <i>587209536</i>
+ </rec>
+ <no/>
+ <u4_ary>0 0 0 0 0 0 0 0</u4_ary>
+ <u4_ary>0 0 0 0 0 0 0 0</u4_ary>
+ <u4_ary>0 0 0 0 0 0 0 0</u4_ary>
+ <u4_ary>671 2013 2684 336 1678 1678 1678 1007</u4_ary>
+ <bool_ary>1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1</bool_ary>
+ <i4_ary/>
+ <ary type="RELIGIOUS_MISSION_BUILDING_ARRAY"/>
+ <ary type="FORT_ARRAY"/>
+ <resources_array>
+  global
+  camels
+  islam
+  colonial_euro_factions
+  india
+  sikh
+ </resources_array>
+ <s/><!-- Latest Constuction -->
+ <u>15</u><!-- One Of These 5/10/15/20/25/30/40 Amount Of Prestige When Conquered -->
+ <u>1605441764</u><!-- Region Array. From Top To Bottom. 1st 62 Regions 881206575. 2nd 15 Regions 1771634741. 3rd 32 Regions 1928099569. 4th 28 Regions 688200897. Why???? -->
+ <loc>regions_onscreen_punjab</loc>
+ <flt>-0.0013270393246784806</flt>
+</rec>

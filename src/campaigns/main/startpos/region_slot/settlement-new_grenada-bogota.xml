@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<rec type="SETTLEMENT">
+ <rec type="SIEGEABLE_GARRISON_RESIDENCE">
+  <garrison_residence>582170000</garrison_residence><!-- Faction ID -->
+  <u>587341976</u><!-- Building Slot ID -->
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <i>0</i>
+  <no/>
+  <no/>
+  <no/>
+  <v2x x="-528.8693237304688" y="34.00953674316406"/>
+  <u>582255616</u><!-- Army ID -->
+  <u4_ary/>
+  <u4_ary/><!-- Character ID Of Garrison -->
+  <rec type="LINE_OF_SIGHT">
+   <yes/>
+   <v2 x="-535.0" y="28.75"/>
+   <v2 x="-523.75" y="40.0"/>
+   <xml_include path="quadtree/settlement-new_grenada-bogota-0001.xml"/>
+  </rec>
+  <no/>
+  <ary type="FORTIFICATIONS_BLOCK"/>
+ </rec>
+ <loc>start_pos_settlements_onscreen_name_settlement:new_grenada:bogota182</loc>
+ <i>3</i>
+ <s>settlement:new_grenada:bogota</s><!-- DB Table Campaign_map_settlements -->
+ <i>587341976</i><!-- Settlement ID -->
+ <s>settlement:new_grenada:bogota</s><!-- DB Table Campaign_map_settlements -->
+</rec>

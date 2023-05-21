@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<rec type="SETTLEMENT">
+ <rec type="SIEGEABLE_GARRISON_RESIDENCE">
+  <garrison_residence>584533640</garrison_residence><!-- Faction ID -->
+  <u>587284592</u><!-- Building Slot ID -->
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <i>0</i>
+  <no/>
+  <no/>
+  <no/>
+  <v2x x="96.05448913574219" y="364.34893798828125"/>
+  <u>584608528</u><!-- Army ID -->
+  <u4_ary/>
+  <u4_ary/><!-- Character ID Of Garrison -->
+  <rec type="LINE_OF_SIGHT">
+   <yes/>
+   <v2 x="90.0" y="358.75"/>
+   <v2 x="101.25" y="370.0"/>
+   <xml_include path="quadtree/settlement-saxony-dresden-0001.xml"/>
+  </rec>
+  <no/>
+  <ary type="FORTIFICATIONS_BLOCK"/>
+ </rec>
+ <loc>start_pos_settlements_onscreen_name_settlement:saxony:dresden18</loc>
+ <i>4</i>
+ <s>settlement:saxony:dresden</s><!-- DB Table Campaign_map_settlements -->
+ <i>587284592</i><!-- Settlement ID -->
+ <s>settlement:saxony:dresden</s><!-- DB Table Campaign_map_settlements -->
+</rec>

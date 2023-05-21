@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<rec type="REGION">
+ <s>hindustan</s><!-- Region Name -->
+ <xml_include path="population/hindustan.xml"/>
+ <traits/>
+ <rec type="REGION_SLOT_MANAGER">
+  <ary type="REGION_SLOT_ARRAY">
+   <xml_include path="region_slot/settlement-hindustan-agra-settlement_army-admin.xml"/>
+   <xml_include path="region_slot/settlement-hindustan-agra-settlement_ordnance.xml"/>
+   <xml_include path="region_slot/settlement-hindustan-agra-settlement_government.xml"/>
+   <xml_include path="region_slot/settlement-hindustan-agra-settlement_culture.xml"/>
+   <xml_include path="region_slot/india_highlands-hindustan-north.xml"/>
+   <xml_include path="region_slot/rice-hindustan-agra.xml"/>
+   <xml_include path="region_slot/wheat-hindustan-west.xml"/>
+   <xml_include path="region_slot/tropical_humid-hindustan-central.xml"/>
+   <xml_include path="region_slot/rice-hindustan-east.xml"/>
+   <xml_include path="region_slot/town-hindustan-gwalior.xml"/>
+   <xml_include path="region_slot/town-hindustan-benares.xml"/>
+   <xml_include path="region_slot/town-hindustan-sitapur.xml"/>
+   <xml_include path="region_slot/town-hindustan-faizabad.xml"/>
+   <xml_include path="region_slot/town-hindustan-delhi.xml"/>
+  </ary>
+  <xml_include path="region_slot/hindustan-road.xml"/>
+  <xml_include path="region_slot/hindustan-walls.xml"/>
+ </rec>
+ <i>586246152</i><!-- Region ID -->
+ <xml_include path="region_slot/settlement-hindustan-agra.xml"/>
+ <u>1</u>
+ <no/>
+ <no/>
+ <u>500</u><!-- Subsistence Agricultural (SA) -->
+ <u>1661</u><!-- Industrial Wealth Plus (SA) -->
+ <u>1661</u><!-- Industrial Wealth Plus (SA) Minus Trading Losses -->
+ <u>250</u><!-- Town Wealth -->
+ <u>250</u><!-- Minimum Town Wealth -->
+ <u>250</u><!-- Town Wealth -->
+ <i>3</i><!-- Town Monetary Growth -->
+ <u>0</u>
+ <u>0</u>
+ <no/><!-- Exempt From Tax -->
+ <u>581839776</u><!-- Controlling Faction ID -->
+ <rec type="LINE_OF_SIGHT">
+  <yes/>
+  <v2 x="522.5" y="161.25"/>
+  <v2 x="620.0" y="235.0"/>
+  <xml_include path="quadtree/hindustan-0001.xml"/>
+ </rec>
+ <u>585536488</u><!-- Governor ID -->
+ <s>india</s><!-- Theatre -->
+ <s>mughal</s><!-- Emergent Nation -->
+ <s>Mughal Rebels</s><!-- Region Rebels -->
+ <s>sc_indian_hindu</s><!-- Region Culture For Types Of Buildings -->
+ <rec type="REGION_RECRUITMENT_MANAGER">
+  <ary type="REGION_RECRUITMENT_ITEM_ARRAY"/>
+  <no/>
+  <i>586270904</i>
+ </rec>
+ <no/>
+ <u4_ary>0 0 0 0 0 0 0 0</u4_ary>
+ <u4_ary>0 0 0 0 0 0 0 0</u4_ary>
+ <u4_ary>0 0 15 0 0 0 0 0</u4_ary>
+ <u4_ary>371 1079 1433 194 902 894 902 548</u4_ary>
+ <bool_ary>0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0</bool_ary>
+ <i4_ary/>
+ <ary type="RELIGIOUS_MISSION_BUILDING_ARRAY"/>
+ <ary type="FORT_ARRAY"/>
+ <resources_array>
+  global
+  islam
+  sikh
+  colonial_euro_factions
+  india
+  camels
+ </resources_array>
+ <s/><!-- Latest Constuction -->
+ <u>40</u><!-- One Of These 5/10/15/20/25/30/40 Amount Of Prestige When Conquered -->
+ <u>4218418516</u><!-- Region Array. From Top To Bottom. 1st 62 Regions 881206575. 2nd 15 Regions 1771634741. 3rd 32 Regions 1928099569. 4th 28 Regions 688200897. Why???? -->
+ <loc>regions_onscreen_hindustan</loc>
+ <flt>-0.0013270393246784806</flt>
+</rec>

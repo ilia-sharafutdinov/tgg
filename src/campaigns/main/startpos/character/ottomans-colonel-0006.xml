@@ -1,0 +1,179 @@
+<?xml version="1.0"?>
+<rec type="CHARACTER_ARRAY">
+ <rec type="CHARACTER">
+  <rec type="LOCOMOTABLE">
+   <v2x x="164.52999877929688" y="325.4200134277344"/>
+   <v2x x="164.52999877929688" y="325.4200134277344"/>
+   <flt>3.1415927410125732</flt><!-- Character Facing Direction -->
+   <flt>3.1415927410125732</flt><!-- Character Facing Direction -->
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <i>25</i><!-- Movement Points Left -->
+   <i>24</i><!-- Movement Points Total -->
+   <no/>
+   <i>0</i>
+   <i>0</i>
+   <angle>0.0</angle>
+   <u>12</u>
+   <u>0</u>
+   <flt>0.0</flt>
+  </rec>
+  <rec type="CHARACTER_DETAILS">
+   <traits/>
+   <loc>names_name_names_ottomanKepci</loc>
+   <loc>names_name_names_ottomanKadri</loc>
+   <loc/>
+   <s/><!-- Head Of State -->
+   <date>summer 1678</date>
+   <date/>
+   <i>0</i>
+   <portrait_details/>
+   <s>ottomans</s>
+   <u>591659560</u><!-- Character ID -->
+   <agent_ancillaries/>
+   <agent_attributes>
+    command_land=0
+    command_sea=-1
+    duelling_pistols=-1
+    duelling_swords=-1
+    management=-1
+    subterfuge=-1
+    research=-1
+    zeal=-1
+    land_defence_engineering=-1
+    land_siege_engineering=-1
+    morale_land=-1
+    morale_sea=-1
+    movement_points_land=-1
+    trade=-1
+   </agent_attributes>
+   <ary type="AgentAbilities">
+    <agent_ability ability="can_assassinate" level="-1" attribute=""/>
+    <agent_ability ability="can_convert" level="-1" attribute=""/>
+    <agent_ability ability="can_build_religious" level="-1" attribute=""/>
+    <agent_ability ability="can_build_fort" level="-1" attribute=""/>
+    <agent_ability ability="can_sabotage" level="-1" attribute=""/>
+    <agent_ability ability="can_spy" level="-1" attribute=""/>
+    <agent_ability ability="can_duel" level="-1" attribute=""/>
+    <agent_ability ability="can_receive_duel" level="-1" attribute=""/>
+    <agent_ability ability="can_research" level="-1" attribute=""/>
+    <agent_ability ability="can_attack_land" level="1" attribute="command_land"/>
+    <agent_ability ability="can_attack_naval" level="-1" attribute=""/>
+    <agent_ability ability="can_sabotage_army" level="-1" attribute=""/>
+   </ary>
+   <agent_attribute_bonuses>
+    dummy=0
+   </agent_attribute_bonuses>
+   <no/>
+   <loc>agent_culture_details_onscreen_name_colonelmiddle_east</loc>
+  </rec>
+  <i>591659560</i><!-- Character ID -->
+  <s>colonel</s><!-- Character Type -->
+  <u>591659144</u><!-- Army ID -->
+  <u>591658808</u><!-- Unit ID -->
+  <u>0</u>
+  <u>0</u><!-- Character In Building Slot ID -->
+  <u>0</u><!-- Cabinet ID -->
+  <no/>
+  <no/><!-- Government Opposition -->
+  <v2x_ary>
+   166.49125480651855,323.2600450515747
+   166.43114185333252,323.3500099182129
+   166.3955478668213,323.49175548553467
+   166.3448839187622,324.0
+   166.2507095336914,324.9447298049927
+   166.19173526763916,325.42341899871826
+   166.14770889282227,325.78077507019043
+   166.1131248474121,325.8307991027832
+   166.0,325.9944305419922
+   165.99615001678467,326.0
+   165.2890739440918,327.0227642059326
+   164.93000411987305,327.1735076904297
+   164.0,327.05352687835693
+   162.77093315124512,326.89496421813965
+   162.48344230651855,327.0547218322754
+   162.05210971832275,328.0
+   162.0,328.1141996383667
+   161.88874053955078,328.35802841186523
+   161.57639503479004,328.5560779571533
+   160.66882514953613,329.13154125213623
+   160.37213611602783,329.31966400146484
+   160.239727973938,329.0
+   160.46240520477295,328.46240520477295
+   160.61536026000977,328.39904975891113
+   160.5862331390381,328.0
+   160.0,328.0
+   160.0,327.2741947174072
+   160.0359697341919,327.23559188842773
+   160.3407793045044,326.90845584869385
+   160.482741355896,326.0
+   160.5021104812622,325.87605381011963
+   160.04310703277588,324.9759063720703
+   160.0,324.9024715423584
+   160.0,324.0
+   160.0,322.0
+   160.2069969177246,322.0
+   160.55501747131348,322.0
+   160.61355590820312,321.96083641052246
+   161.0,321.70229625701904
+   161.2525806427002,322.0
+   161.47253894805908,322.0
+   161.67610263824463,321.67610263824463
+   162.0,321.5149965286255
+   162.01161575317383,321.51470375061035
+   162.0,321.48666191101074
+   162.0,321.0
+   162.0,320.51333808898926
+   162.15035343170166,320.15035343170166
+   162.51333808898926,320.0
+   163.0,320.0
+   163.12862586975098,320.0
+   163.48666191101074,320.0
+   163.84964656829834,320.15035343170166
+   163.9558925628662,320.4068546295166
+   164.0,320.51333808898926
+   164.0,320.42872047424316
+   164.0,320.0
+   164.75312614440918,320.0
+   164.96071815490723,319.8977937698364
+   165.0,319.8784532546997
+   165.28277492523193,320.0
+   166.0,320.0
+   166.0,321.08970642089844
+   166.0,321.2794723510742
+   165.62736797332764,321.39763164520264
+   165.61184787750244,321.44743251800537
+   165.6787052154541,321.5336637496948
+   165.91486740112305,321.8381299972534
+   165.92834949493408,321.8337516784668
+   165.9094114303589,321.8697109222412
+   165.93296241760254,321.94941329956055
+   165.9479103088379,322.0
+   166.0,322.1762809753418
+   166.26156520843506,323.061466217041
+  </v2x_ary>
+  <rec type="LINE_OF_SIGHT">
+   <yes/>
+   <v2 x="153.75" y="315.0"/>
+   <v2 x="175.0" y="336.25"/>
+   <xml_include path="quadtree/ottomans-colonel-0006.xml"/>
+  </rec>
+  <no/>
+  <u>0</u>
+  <no/>
+  <flt>10.0</flt><!-- 10 - Land Leader / 15 - Navy Leader -->
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <no/>
+  <no/>
+  <u>0</u>
+  <no/>
+  <u>0</u>
+  <no/>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+ </rec>
+</rec>
