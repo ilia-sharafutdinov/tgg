@@ -1,0 +1,236 @@
+<?xml version="1.0"?>
+<rec type="FACTION">
+ <ancillary_uniqueness_monitor>
+  Ancillary_Great_Composer
+  Ancillary_Government_Architect
+ </ancillary_uniqueness_monitor>
+ <rec type="CAMPAIGN_PLAYER_SETUP">
+  <victory_conditions year="0" region_count="0" prestige_victory="no" campaign_type="4 (Unplayable)"/>
+  <rec type="CAMPAIGN_PLAYER_SETUP_INGAME_MODIFIABLES">
+   <i>0</i>
+   <i>0</i>
+   <i>0</i>
+   <no/>
+  </rec>
+  <s>mughal</s>
+  <no/>
+  <yes/><!-- Playable -->
+  <no/>
+ </rec>
+ <rec type="FACTION_ECONOMICS">
+  <ary type="history">
+   <rec type="history">
+    <rec type="ECONOMICS_DATA">
+     <i4_ary>0 0 0 0 0</i4_ary>
+     <i4_ary>0 0 1814</i4_ary>
+     <i4_ary>0 0 0 3000</i4_ary>
+     <i4_ary>0</i4_ary>
+     <i4_ary>0 0 0 0 0</i4_ary>
+     <i4_ary>0 2800 0 0 0 0 0</i4_ary>
+    </rec>
+   </rec>
+  </ary>
+  <i>12000</i>
+  <bin6>01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01</bin6>
+  <u>0</u>
+ </rec>
+ <xml_include path="diplomacy/mughal.xml"/>
+ <rec type="ARMY_REINFORCEMENT_MANAGER">
+  <ary type="CHARACTER_REINFORCEMENTS_ARRAY"/>
+  <ary type="UNIT_REINFORCEMENTS_ARRAY"/>
+ </rec>
+ <xml_include path="government/mughal-gov_absolute_monarchy.xml"/>
+ <xml_include path="family/mughal.xml"/>
+ <i>581839776</i><!-- Faction ID -->
+ <s>mughal</s><!-- Faction Name -->
+ <s>Mughal Empire</s><!-- On Screen Name -->
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>28</u>
+  <u>2256361515</u>
+  <u2_ary>26 24 1</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>72</u>
+  <u>3859259284</u>
+  <u2_ary>33 46 31 61 26 70 54 34 21 65 44 55 37 60 14 16 28 64 8 27 29 0 56 66 48 49 63 62 38 25 36 42 7 52 53 45 22 11 40 58 35 5 57 1 71 39 47 9 68 23 3 50 24 13 15 6 10 30 67 19 51 32 17 4 43 2 12 20 41 69 59 18</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>9</u>
+  <u>3463240423</u>
+  <u2_ary>4 0 1 6 2 3 8 5 7</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>2983791702</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>13</u>
+  <u>2848573180</u>
+  <u2_ary>4</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>3461742332</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>2949704034</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>19</u>
+  <u>2985230192</u>
+  <u2_ary>15 1 0 5 16 10 14 17 18 12 8 2 3 6 13 9 7 11 4</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>13</u>
+  <u>2396385618</u>
+  <u2_ary>10 6 3 1 4 9 7 5 0 8 2</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>729438361</u>
+  <u2_ary/>
+ </rec>
+ <yes/>
+ <rec type="LAND_UNIT_NAME_ALLOCATOR">
+  <ary type="LAND_UNIT_NAMES_MAP">
+   <xml_include path="unit_name_alloc/mughal-land-0001.xml"/>
+   <xml_include path="unit_name_alloc/mughal-land-0002.xml"/>
+   <xml_include path="unit_name_alloc/mughal-land-0003.xml"/>
+   <xml_include path="unit_name_alloc/mughal-land-0004.xml"/>
+   <xml_include path="unit_name_alloc/mughal-land-0005.xml"/>
+   <xml_include path="unit_name_alloc/mughal-land-0006.xml"/>
+   <xml_include path="unit_name_alloc/mughal-land-0007.xml"/>
+   <xml_include path="unit_name_alloc/mughal-land-0008.xml"/>
+   <xml_include path="unit_name_alloc/mughal-land-0009.xml"/>
+   <xml_include path="unit_name_alloc/mughal-land-0010.xml"/>
+   <xml_include path="unit_name_alloc/mughal-land-0011.xml"/>
+   <xml_include path="unit_name_alloc/mughal-land-0012.xml"/>
+   <xml_include path="unit_name_alloc/mughal-land-0013.xml"/>
+   <xml_include path="unit_name_alloc/mughal-land-0014.xml"/>
+   <xml_include path="unit_name_alloc/mughal-land-0015.xml"/>
+   <xml_include path="unit_name_alloc/mughal-land-0016.xml"/>
+   <xml_include path="unit_name_alloc/mughal-land-0017.xml"/>
+   <xml_include path="unit_name_alloc/mughal-land-0018.xml"/>
+   <xml_include path="unit_name_alloc/mughal-land-0019.xml"/>
+   <xml_include path="unit_name_alloc/mughal-land-0020.xml"/>
+   <xml_include path="unit_name_alloc/mughal-land-0021.xml"/>
+   <xml_include path="unit_name_alloc/mughal-land-0022.xml"/>
+   <xml_include path="unit_name_alloc/mughal-land-0023.xml"/>
+  </ary>
+ </rec>
+ <yes/>
+ <xml_include path="unit_name_alloc/mughal-naval-0001.xml"/>
+ <yes/><!-- True - Major, False - Minor -->
+ <ary type="CHARACTER_ARRAY">
+  <xml_include path="character/mughal-Eastern_Scholar-0001.xml"/>
+  <xml_include path="character/mughal-General-0001.xml"/>
+  <xml_include path="character/mughal-colonel-0001.xml"/>
+  <xml_include path="character/mughal-colonel-0002.xml"/>
+  <xml_include path="character/mughal-assassin-0001.xml"/>
+  <xml_include path="character/mughal-minister-0001.xml"/>
+  <xml_include path="character/mughal-middle_east_missionary-0001.xml"/>
+  <xml_include path="character/mughal-Eastern_Scholar-0002.xml"/>
+  <xml_include path="character/mughal-minister-0002.xml"/>
+  <xml_include path="character/mughal-colonel-0003.xml"/>
+  <xml_include path="character/mughal-middle_east_missionary-0002.xml"/>
+  <xml_include path="character/mughal-minister-0003.xml"/>
+  <xml_include path="character/mughal-assassin-0002.xml"/>
+  <xml_include path="character/mughal-General-0002.xml"/>
+  <xml_include path="character/mughal-minister-0004.xml"/>
+  <xml_include path="character/mughal-colonel-0004.xml"/>
+  <xml_include path="character/mughal-minister-0005.xml"/>
+  <xml_include path="character/mughal-minister-0006.xml"/>
+  <xml_include path="character/mughal-minister-0007.xml"/>
+  <xml_include path="character/mughal-minister-0008.xml"/>
+  <xml_include path="character/mughal-minister-0009.xml"/>
+  <xml_include path="character/mughal-minister-0010.xml"/>
+  <xml_include path="character/mughal-minister-0011.xml"/>
+  <xml_include path="character/mughal-minister-0012.xml"/>
+  <xml_include path="character/mughal-minister-0013.xml"/>
+  <xml_include path="character/mughal-colonel-0005.xml"/>
+ </ary>
+ <xml_include path="technology/mughal-mughal.xml"/>
+ <ary type="ARMY_ARRAY">
+  <xml_include path="army/mughal-0001.xml"/>
+  <xml_include path="army/mughal-0002.xml"/>
+  <xml_include path="army/mughal-0003.xml"/>
+  <xml_include path="army/mughal-0004.xml"/>
+  <xml_include path="army/mughal-0005.xml"/>
+  <xml_include path="army/mughal-0006.xml"/>
+  <xml_include path="army/mughal-0007.xml"/>
+ </ary>
+ <ary type="MORGUE"/>
+ <u4_ary>585536488</u4_ary><!-- Governor ID For Each Theatre -->
+ <no/>
+ <s>rel_islamic</s><!-- Religion -->
+ <no/>
+ <rec type="FORT_UPGRADE_MANAGER">
+  <ary type="FORT_UPGRADES_ARRAY"/>
+ </rec>
+ <rec type="FORT_UPGRADE_MANAGER">
+  <ary type="FORT_REPAIRS_ARRAY"/>
+ </rec>
+ <i>586246152</i><!-- Current Capital ID Else 0 If Faction Destroyed -->
+ <i>586246152</i><!-- Original Capital ID -->
+ <ary type="EXPOSED_CHARACTERS"/>
+ <no/>
+ <rec type="PRESTIGE">
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <u>160</u>
+ </rec>
+ <no/><!-- Emergent -->
+ <u>0</u>
+ <bool_ary>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</bool_ary>
+ <i>2800</i><!-- Army Upkeep -->
+ <i>0</i><!-- Navy Upkeep -->
+ <s>FULL</s><!-- Campaign AI Manager Behaviour (patch.pack) -->
+ <s>non_euro</s><!-- Campaign AI Personalities (patch.pack) -->
+ <flag_and_colours path="data\ui\flags\mughal" color1="#606b1b" color2="#e79a0f" color3="#5a7320"/>
+ <flag_and_colours path="data\ui\flags\mughal_republic" color1="#606b1b" color2="#e79a0f" color3="#5a7320"/>
+ <rec type="CAMPAIGN_BONUS_VALUES">
+  <ary type="CAMPAIGN_BONUS_VALUE_BLOCK">
+   <campaign_bonus_0 subtype="2" value="1.0" agent="Eastern_Scholar"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="rake"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="assassin"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="gentleman"/>
+  </ary>
+ </rec>
+ <rec type="CAMPAIGN_BONUS_VALUES">
+  <ary type="CAMPAIGN_BONUS_VALUE_BLOCK">
+   <campaign_bonus_0 subtype="2" value="1.0" agent="Eastern_Scholar"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="rake"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="assassin"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="gentleman"/>
+  </ary>
+ </rec>
+ <i>0</i><!-- Protectorate ID -->
+ <no/>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <no/>
+ <yes/>
+ <no/>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <no/>
+ <no/>
+ <u>0</u>
+ <no/>
+ <no/>
+</rec>
