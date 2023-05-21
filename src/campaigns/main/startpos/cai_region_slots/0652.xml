@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<rec type="CAI_WORLD_REGION_SLOTS">
+ <owned_indirect>1164</owned_indirect><!-- CAI_WORLD_REGIONS = Settlement AI ID. CAI_WORLD_REGION_SLOTS = Region AI ID. CAI_WORLD_CHARACTERS = Faction AI ID -->
+ <cai_situated x="-541.1204833984375" y="293.7206115722656" region_id="1164" theatre_id="33" area_id="20"/>
+ <rec type="CAI_BDI_COMPONENT_PROPERTY_SET">
+  <u>0</u>
+ </rec>
+ <u>3374</u><!-- Region Slot AI ID -->
+ <flt>100.0</flt>
+ <flt>100.0</flt>
+ <flt>0.0</flt>
+ <flt>100.0</flt>
+ <u>1</u>
+ <no/>
+ <u4_ary/>
+ <u4_ary>10191 0 14293 0 14300 0 17163 0 20557 0 24171 0 37398 0 38416 1 39133 0 40195 0 45010 0 54104 0 59991 0 64362 0 73463 0 79834 0</u4_ary><!-- BDI Information -->
+ <u>0</u>
+ <u>16</u>
+ <u4_ary/>
+ <u4_ary>10191 16 14293 4 14300 7855 17163 14776 20557 19731 24171 22835 37398 37235 38416 37251 39133 38470 40195 39346 45010 44280 54104 53519 59991 59400 64362 63678 73463 72816 79834 78758</u4_ary><!-- BDI Information -->
+ <ary type="CAI_BDI_COMPONENT_BLOCK_OWNS"/>
+ <u>0</u>
+ <u>0</u>
+ <u4_ary/>
+ <u4_ary/>
+ <u4_ary/>
+ <u4_ary>10138 10139 10140 10142 10162 10164 10169 10170 10171 10172 10173 10174 10175 10176 10177 10178 10180 10182 10183 10187 10188 10189 10191 10192 10193 10194 10195 10196 10197 10198 10199 10200 10201 10202 10215 10216 10217 10218 10219 10220 10221 10222 10223 10225 10227 10229 10230 10231 10232 10233 10239 10240 10241 14293 14300 17163 20557 24171 37398 39133 40195 45010 54104 59991 64362 73463 79834</u4_ary><!-- BDI Information -->
+ <no/>
+ <u>0</u>
+ <no/>
+ <rec type="CAI_GARRISONABLE">
+  <u>0</u><!-- Character Resource AI ID -->
+  <u>0</u>
+  <u4_ary/><!-- Character Resource AI IDs -->
+  <u4_ary/>
+  <u>0</u>
+ </rec>
+ <rec type="CAI_THREATENED_GARRISONABLE">
+  <no/>
+ </rec>
+ <rec type="CAI_REGION_SLOT">
+  <i>1</i>
+  <u>3373</u><!-- Building Slot AI ID -->
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <no/><!-- True = Port, False = Town (ports have extra set of coordinates for their sea part following) -->
+ </rec>
+</rec>

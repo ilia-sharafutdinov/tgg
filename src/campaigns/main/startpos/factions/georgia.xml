@@ -1,0 +1,217 @@
+<?xml version="1.0"?>
+<rec type="FACTION">
+ <ancillary_uniqueness_monitor/>
+ <rec type="CAMPAIGN_PLAYER_SETUP">
+  <victory_conditions year="0" region_count="0" prestige_victory="no" campaign_type="4 (Unplayable)"/>
+  <rec type="CAMPAIGN_PLAYER_SETUP_INGAME_MODIFIABLES">
+   <i>0</i>
+   <i>0</i>
+   <i>0</i>
+   <no/>
+  </rec>
+  <s>georgia</s>
+  <no/>
+  <yes/><!-- Playable -->
+  <no/>
+ </rec>
+ <rec type="FACTION_ECONOMICS">
+  <ary type="history">
+   <rec type="history">
+    <rec type="ECONOMICS_DATA">
+     <i4_ary>0 0 0 0 0</i4_ary>
+     <i4_ary>0 0 177</i4_ary>
+     <i4_ary>0 0 0 1750</i4_ary>
+     <i4_ary>0</i4_ary>
+     <i4_ary>0 0 0 0 0</i4_ary>
+     <i4_ary>0 0 0 0 0 0 0</i4_ary>
+    </rec>
+   </rec>
+  </ary>
+  <i>7500</i>
+  <bin6>01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01</bin6>
+  <u>0</u>
+ </rec>
+ <xml_include path="diplomacy/georgia.xml"/>
+ <rec type="ARMY_REINFORCEMENT_MANAGER">
+  <ary type="CHARACTER_REINFORCEMENTS_ARRAY"/>
+  <ary type="UNIT_REINFORCEMENTS_ARRAY"/>
+ </rec>
+ <xml_include path="government/georgia-gov_absolute_monarchy.xml"/>
+ <xml_include path="family/georgia.xml"/>
+ <i>582699544</i><!-- Faction ID -->
+ <s>georgia</s><!-- Faction Name -->
+ <s>Georgia</s><!-- On Screen Name -->
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>150</u>
+  <u>3976383996</u>
+  <u2_ary>48 66 94 123 143 106 148 110 2 138 52 38 146 17 24 12 119 26 6 0 60 128 20 142 79 140 69 90 75 139 86 129 41 67 28 124 127 32 113 149 101 36 117 136 102 144 73 116 81 84 9 111 80 103 43 58 54 18 4 107 16 22 56 70 34 62 83 118 114 125 147 31 93 92 145 30 25 7 63 40 53 1 91 88 100 105 85 99 78 51 126 50 47 76 8 61 39 21 42 97 141 89 108 137 10 46 14 98 33 35 112 122 11 3 57 121 65 120 45 131 134 135 95 29 74 82 55 27 15 19 49 71 72 64 68</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>131</u>
+  <u>679454130</u>
+  <u2_ary>19 116 104 62 103 39 123 95 112 89 57 2 74 120 5 17 87 128 88 33 114 6 58 35 43 92 85 7 23 10 96 42 26 84 50 109 41 9 77 18 30 66 28 47 99 76 38 64 34 71 13 44 97 40 51 32 100 72 111 127 68 55 56 45 130 63 79 36 54 117 119 94 20 31 124 98 60 24 80 16 21 107 125 118 90 37 129 106 53 78 105 49 0 73 48 4 102 121 61 115 3 27 46 14 11 1 67 110 82 70 122 75 81 12 126 108 83 65 101 93 86 29 69 59 25 52 8 113 22 15 91</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>1409571675</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>790098851</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>630</u>
+  <u>3501857574</u>
+  <u2_ary>56 202 139 362 276 118 331 227 600 161 335 444 273 251 438 310 89 170 141 211 97 590 373 297 388 134 269 174 535 70 507 350 496 329 321 320 577 609 154 187 601 249 497 448 162 266 72 552 361 319 334 83 363 536 294 55 412 81 379 559 197 122 501 190 248 259 481 119 247 413 47 419 405 386 610 618 140 523 584 155 226 185 553 542 539 142 146 411 471 196 479 143 69 562 199 360 54 208 498 51 368 103 582 49 5 327 453 150 258 123 87 22 41 431 491 565 397 568 223 415 157 11 548 576 527 322 346 60 583 173 79 45 290 427 467 351 543 213 293 228 622 26 578 468 239 508 591 343 461 352 116 520 521 569 169 365 454 112 580 561 59 303 189 348 264 332 589 207 340 482 130 308 377 451 629 402 611 101 531 23 262 104 387 317 160 396 58 315 596 309 132 608 194 288 597 0 607 84 192 20 272 32 541 457 404 495 513 522 400 452 242 131 369 120 137 3 50 462 66 338 88 48 499 217 218 209 384 222 82 465 421 311 43 506 24 403 588 313 356 550 63 623 529 127 566 9 57 620 117 172 603 136 254 287 138 305 485 391 163 292 30 158 440 587 401 291 65 243 7 316 221 428 39 62 579 124 8 238 380 205 78 534 538 235 19 281 224 128 563 439 389 286 544 74 383 109 61 289 437 2 558 282 423 567 502 314 14 125 18 503 267 323 456 385 144 511 271 530 53 442 345 504 298 318 99 126 37 220 344 414 279 528 86 436 307 184 193 519 195 337 515 410 106 557 430 602 156 180 159 21 463 478 301 490 619 263 135 628 203 90 556 111 374 575 52 10 133 492 449 533 399 38 206 354 474 326 40 393 299 510 175 549 171 261 545 100 234 459 270 418 336 94 29 425 627 42 176 486 27 105 324 240 71 102 613 598 229 392 17 168 44 621 253 353 214 407 107 274 188 76 167 25 28 252 487 573 33 540 255 364 560 417 555 342 200 460 489 230 225 302 493 551 446 469 15 395 408 181 526 398 12 295 441 250 483 367 426 64 115 455 204 35 546 359 330 98 572 4 349 108 625 260 505 231 198 422 149 179 85 306 517 447 595 1 216 16 378 592 341 514 518 36 547 75 604 355 606 574 429 304 381 382 464 219 420 178 114 357 80 376 593 375 68 532 571 265 372 183 283 509 110 215 434 93 445 182 473 232 296 488 210 275 152 233 516 312 339 96 416 268 366 34 624 347 278 358 390 599 394 432 244 443 494 147 145 245 6 148 433 236 570 186 424 406 13 241 153 477 615 614 151 554 67 585 212 237 524 91 475 177 586 512 450 409 246 612 458 201 284 328 46 300 594 277 73 480 166 92 525 466 500 435 484 164 616 605 256 121 537 191 325 129 626 280 370</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>2912037746</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>992460338</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>10</u>
+  <u>3021886016</u>
+  <u2_ary>3 7 2 5 9 6 4 0 1 8</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>7</u>
+  <u>1248086671</u>
+  <u2_ary>4 5 6 0 3</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>2369514791</u>
+  <u2_ary/>
+ </rec>
+ <yes/>
+ <rec type="LAND_UNIT_NAME_ALLOCATOR">
+  <ary type="LAND_UNIT_NAMES_MAP">
+   <xml_include path="unit_name_alloc/georgia-land-0001.xml"/>
+   <xml_include path="unit_name_alloc/georgia-land-0002.xml"/>
+   <xml_include path="unit_name_alloc/georgia-land-0003.xml"/>
+   <xml_include path="unit_name_alloc/georgia-land-0004.xml"/>
+   <xml_include path="unit_name_alloc/georgia-land-0005.xml"/>
+   <xml_include path="unit_name_alloc/georgia-land-0006.xml"/>
+   <xml_include path="unit_name_alloc/georgia-land-0007.xml"/>
+   <xml_include path="unit_name_alloc/georgia-land-0008.xml"/>
+   <xml_include path="unit_name_alloc/georgia-land-0009.xml"/>
+   <xml_include path="unit_name_alloc/georgia-land-0010.xml"/>
+   <xml_include path="unit_name_alloc/georgia-land-0011.xml"/>
+   <xml_include path="unit_name_alloc/georgia-land-0012.xml"/>
+   <xml_include path="unit_name_alloc/georgia-land-0013.xml"/>
+   <xml_include path="unit_name_alloc/georgia-land-0014.xml"/>
+   <xml_include path="unit_name_alloc/georgia-land-0015.xml"/>
+   <xml_include path="unit_name_alloc/georgia-land-0016.xml"/>
+   <xml_include path="unit_name_alloc/georgia-land-0017.xml"/>
+   <xml_include path="unit_name_alloc/georgia-land-0018.xml"/>
+   <xml_include path="unit_name_alloc/georgia-land-0019.xml"/>
+   <xml_include path="unit_name_alloc/georgia-land-0020.xml"/>
+   <xml_include path="unit_name_alloc/georgia-land-0021.xml"/>
+   <xml_include path="unit_name_alloc/georgia-land-0022.xml"/>
+   <xml_include path="unit_name_alloc/georgia-land-0023.xml"/>
+  </ary>
+ </rec>
+ <yes/>
+ <xml_include path="unit_name_alloc/georgia-naval-0001.xml"/>
+ <no/><!-- True - Major, False - Minor -->
+ <ary type="CHARACTER_ARRAY">
+  <xml_include path="character/georgia-General-0001.xml"/>
+  <xml_include path="character/georgia-minister-0001.xml"/>
+  <xml_include path="character/georgia-rake-0001.xml"/>
+  <xml_include path="character/georgia-gentleman-0001.xml"/>
+  <xml_include path="character/georgia-minister-0002.xml"/>
+  <xml_include path="character/georgia-minister-0003.xml"/>
+  <xml_include path="character/georgia-minister-0004.xml"/>
+  <xml_include path="character/georgia-minister-0005.xml"/>
+  <xml_include path="character/georgia-minister-0006.xml"/>
+  <xml_include path="character/georgia-minister-0007.xml"/>
+  <xml_include path="character/georgia-minister-0008.xml"/>
+  <xml_include path="character/georgia-minister-0009.xml"/>
+  <xml_include path="character/georgia-minister-0010.xml"/>
+  <xml_include path="character/georgia-minister-0011.xml"/>
+  <xml_include path="character/georgia-minister-0012.xml"/>
+  <xml_include path="character/georgia-minister-0013.xml"/>
+ </ary>
+ <xml_include path="technology/georgia-georgia.xml"/>
+ <ary type="ARMY_ARRAY">
+  <xml_include path="army/georgia-0001.xml"/>
+ </ary>
+ <ary type="MORGUE"/>
+ <u4_ary>586522392</u4_ary><!-- Governor ID For Each Theatre -->
+ <no/>
+ <s>rel_orthodox</s><!-- Religion -->
+ <no/>
+ <rec type="FORT_UPGRADE_MANAGER">
+  <ary type="FORT_UPGRADES_ARRAY"/>
+ </rec>
+ <rec type="FORT_UPGRADE_MANAGER">
+  <ary type="FORT_REPAIRS_ARRAY"/>
+ </rec>
+ <i>586514312</i><!-- Current Capital ID Else 0 If Faction Destroyed -->
+ <i>586514312</i><!-- Original Capital ID -->
+ <ary type="EXPOSED_CHARACTERS"/>
+ <no/>
+ <rec type="PRESTIGE">
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <u>10</u>
+ </rec>
+ <no/><!-- Emergent -->
+ <u>0</u>
+ <bool_ary>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</bool_ary>
+ <i>0</i><!-- Army Upkeep -->
+ <i>0</i><!-- Navy Upkeep -->
+ <s>MAINTAINANCE</s><!-- Campaign AI Manager Behaviour (patch.pack) -->
+ <s>default</s><!-- Campaign AI Personalities (patch.pack) -->
+ <flag_and_colours path="data\ui\flags\georgia" color1="#b8b8b8" color2="#d6001a" color3="#ffffff"/>
+ <flag_and_colours path="data\ui\flags\georgia" color1="#b8b8b8" color2="#d6001a" color3="#ffffff"/>
+ <rec type="CAMPAIGN_BONUS_VALUES">
+  <ary type="CAMPAIGN_BONUS_VALUE_BLOCK">
+   <campaign_bonus_0 subtype="2" value="1.0" agent="Eastern_Scholar"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="rake"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="assassin"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="gentleman"/>
+  </ary>
+ </rec>
+ <rec type="CAMPAIGN_BONUS_VALUES">
+  <ary type="CAMPAIGN_BONUS_VALUE_BLOCK">
+   <campaign_bonus_0 subtype="2" value="1.0" agent="Eastern_Scholar"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="rake"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="assassin"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="gentleman"/>
+  </ary>
+ </rec>
+ <i>0</i><!-- Protectorate ID -->
+ <no/>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <no/>
+ <yes/>
+ <no/>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <no/>
+ <no/>
+ <u>0</u>
+ <no/>
+ <no/>
+</rec>

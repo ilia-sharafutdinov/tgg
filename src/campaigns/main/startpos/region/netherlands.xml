@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<rec type="REGION">
+ <s>netherlands</s><!-- Region Name -->
+ <xml_include path="population/netherlands.xml"/>
+ <traits/>
+ <rec type="REGION_SLOT_MANAGER">
+  <ary type="REGION_SLOT_ARRAY">
+   <xml_include path="region_slot/settlement-netherlands-amsterdam-settlement_army-admin.xml"/>
+   <xml_include path="region_slot/settlement-netherlands-amsterdam-settlement_government.xml"/>
+   <xml_include path="region_slot/settlement-netherlands-amsterdam-settlement_culture.xml"/>
+   <xml_include path="region_slot/settlement-netherlands-amsterdam-settlement_navy-admin.xml"/>
+   <xml_include path="region_slot/settlement-netherlands-amsterdam-settlement_ordnance.xml"/>
+   <xml_include path="region_slot/wheat-netherlands-north.xml"/>
+   <xml_include path="region_slot/sheep-netherlands-south.xml"/>
+   <xml_include path="region_slot/town-netherlands-den_haag.xml"/>
+   <xml_include path="region_slot/port-netherlands-rotterdam.xml"/>
+   <xml_include path="region_slot/town-netherlands-utrecht.xml"/>
+  </ary>
+  <xml_include path="region_slot/netherlands-road.xml"/>
+  <xml_include path="region_slot/netherlands-walls.xml"/>
+ </rec>
+ <i>586591216</i><!-- Region ID -->
+ <xml_include path="region_slot/settlement-netherlands-amsterdam.xml"/>
+ <u>1</u>
+ <no/>
+ <no/>
+ <u>250</u><!-- Subsistence Agricultural (SA) -->
+ <u>2050</u><!-- Industrial Wealth Plus (SA) -->
+ <u>2050</u><!-- Industrial Wealth Plus (SA) Minus Trading Losses -->
+ <u>500</u><!-- Town Wealth -->
+ <u>500</u><!-- Minimum Town Wealth -->
+ <u>500</u><!-- Town Wealth -->
+ <i>3</i><!-- Town Monetary Growth -->
+ <u>0</u>
+ <u>0</u>
+ <no/><!-- Exempt From Tax -->
+ <u>580632584</u><!-- Controlling Faction ID -->
+ <rec type="LINE_OF_SIGHT">
+  <yes/>
+  <v2 x="16.25" y="356.25"/>
+  <v2 x="60.0" y="392.5"/>
+  <xml_include path="quadtree/netherlands-0001.xml"/>
+ </rec>
+ <u>586599968</u><!-- Governor ID -->
+ <s>europe</s><!-- Theatre -->
+ <s>netherlands</s><!-- Emergent Nation -->
+ <s>Dutch Rebels</s><!-- Region Rebels -->
+ <s>sc_european_west</s><!-- Region Culture For Types Of Buildings -->
+ <rec type="REGION_RECRUITMENT_MANAGER">
+  <ary type="REGION_RECRUITMENT_ITEM_ARRAY"/>
+  <no/>
+  <i>586600672</i>
+ </rec>
+ <no/>
+ <u4_ary>0 0 0 0 0 0 0 0</u4_ary>
+ <u4_ary>0 0 0 0 0 0 0 0</u4_ary>
+ <u4_ary>0 0 0 0 0 0 0 0</u4_ary>
+ <u4_ary>470 1363 1809 248 1140 1129 1140 693</u4_ary>
+ <bool_ary>0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</bool_ary>
+ <i4_ary/>
+ <ary type="RELIGIOUS_MISSION_BUILDING_ARRAY"/>
+ <ary type="FORT_ARRAY"/>
+ <resources_array>
+  europe
+  global
+  holland_home_regions
+  middle_east_and_europe
+ </resources_array>
+ <s/><!-- Latest Constuction -->
+ <u>40</u><!-- One Of These 5/10/15/20/25/30/40 Amount Of Prestige When Conquered -->
+ <u>4218418516</u><!-- Region Array. From Top To Bottom. 1st 62 Regions 881206575. 2nd 15 Regions 1771634741. 3rd 32 Regions 1928099569. 4th 28 Regions 688200897. Why???? -->
+ <loc>regions_onscreen_netherlands</loc>
+ <flt>-0.0013270393246784806</flt>
+</rec>

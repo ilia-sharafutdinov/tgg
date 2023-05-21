@@ -1,0 +1,187 @@
+<?xml version="1.0"?>
+<rec type="CHARACTER_ARRAY">
+ <rec type="CHARACTER">
+  <rec type="LOCOMOTABLE">
+   <v2x x="527.4459838867188" y="110.04899597167969"/>
+   <v2x x="527.4459838867188" y="110.04899597167969"/>
+   <flt>3.1415927410125732</flt><!-- Character Facing Direction -->
+   <flt>3.1415927410125732</flt><!-- Character Facing Direction -->
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <i>26</i><!-- Movement Points Left -->
+   <i>22</i><!-- Movement Points Total -->
+   <no/>
+   <i>0</i>
+   <i>0</i>
+   <angle>0.0</angle>
+   <u>12</u>
+   <u>0</u>
+   <flt>0.0</flt>
+  </rec>
+  <rec type="CHARACTER_DETAILS">
+   <traits>
+    C_General_Brave=2
+    C_General_Good_Field_Commander=1
+   </traits>
+   <loc>names_name_names_portugueseLuis</loc>
+   <loc>names_name_names_portugueseCarvalho</loc>
+   <loc/>
+   <s/><!-- Head Of State -->
+   <date>summer 1664</date>
+   <date/>
+   <i>0</i>
+   <portrait_details card="ui/portraits/european/Cards/general/young/279.tga" info="ui/portraits/european/Info/general/young/279.jpg" number="279"/>
+   <s>portugal</s>
+   <u>583357600</u><!-- Character ID -->
+   <agent_ancillaries/>
+   <agent_attributes>
+    command_land=3
+    command_sea=-1
+    duelling_pistols=-1
+    duelling_swords=-1
+    management=-1
+    subterfuge=-1
+    research=-1
+    zeal=-1
+    land_defence_engineering=-1
+    land_siege_engineering=-1
+    morale_land=1
+    morale_sea=-1
+    movement_points_land=1
+    trade=-1
+   </agent_attributes>
+   <ary type="AgentAbilities">
+    <agent_ability ability="can_assassinate" level="-1" attribute=""/>
+    <agent_ability ability="can_convert" level="-1" attribute=""/>
+    <agent_ability ability="can_build_religious" level="-1" attribute=""/>
+    <agent_ability ability="can_build_fort" level="1" attribute="command_land"/>
+    <agent_ability ability="can_sabotage" level="-1" attribute=""/>
+    <agent_ability ability="can_spy" level="-1" attribute=""/>
+    <agent_ability ability="can_duel" level="-1" attribute=""/>
+    <agent_ability ability="can_receive_duel" level="-1" attribute=""/>
+    <agent_ability ability="can_research" level="-1" attribute=""/>
+    <agent_ability ability="can_attack_land" level="1" attribute="command_land"/>
+    <agent_ability ability="can_attack_naval" level="-1" attribute=""/>
+    <agent_ability ability="can_sabotage_army" level="-1" attribute=""/>
+   </ary>
+   <agent_attribute_bonuses>
+    dummy=0
+   </agent_attribute_bonuses>
+   <no/>
+   <loc>agent_culture_details_onscreen_name_Generaleuropean</loc>
+  </rec>
+  <i>583357600</i><!-- Character ID -->
+  <s>General</s><!-- Character Type -->
+  <u>583361416</u><!-- Army ID -->
+  <u>583362184</u><!-- Unit ID -->
+  <u>0</u>
+  <u>0</u><!-- Character In Building Slot ID -->
+  <u>0</u><!-- Cabinet ID -->
+  <no/>
+  <no/><!-- Government Opposition -->
+  <v2x_ary>
+   532.4167652130127,108.18172931671143
+   532.0,108.56224822998047
+   531.3001413345337,109.20123958587646
+   530.9720106124878,109.74027633666992
+   530.813925743103,110.0
+   530.2172317504883,110.98033332824707
+   530.0,111.25188827514648
+   529.7006282806396,111.62612533569336
+   529.4015436172485,112.0
+   529.0600090026855,112.42694091796875
+   528.0,113.25138187408447
+   527.6793804168701,113.5007495880127
+   527.2613563537598,113.8258752822876
+   527.0384912490845,113.99921226501465
+   527.0376596450806,114.0
+   526.298095703125,114.70062637329102
+   526.0,114.98302459716797
+   525.6452779769897,115.31906700134277
+   525.3539381027222,115.44124126434326
+   524.7677335739136,115.68706798553467
+   524.7168731689453,115.7083969116211
+   524.5698337554932,115.7700605392456
+   524.2659139633179,115.8975133895874
+   524.1503534317017,115.84964656829834
+   524.0016660690308,115.49068355560303
+   524.0,115.48986434936523
+   523.2950172424316,115.18865394592285
+   523.2638645172119,115.26386451721191
+   523.0,115.37315940856934
+   522.9430122375488,115.34955501556396
+   523.0054416656494,115.20122146606445
+   523.0574941635132,115.08717060089111
+   523.2250452041626,114.72005653381348
+   523.5536794662476,114.0
+   523.5693025588989,113.96576881408691
+   523.6386957168579,113.81372451782227
+   524.0,113.05202770233154
+   524.499020576477,112.0
+   524.6999959945679,111.57630634307861
+   525.4347982406616,110.24672317504883
+   525.5782251358032,110.0
+   526.0,109.27446174621582
+   526.2808208465576,108.79139137268066
+   526.5092144012451,108.39850997924805
+   526.4669370651245,108.0
+   526.4551868438721,107.88923931121826
+   526.4070243835449,107.43525981903076
+   527.3753271102905,106.28613185882568
+   527.5030536651611,106.0
+   527.682258605957,105.59854698181152
+   527.8241081237793,105.28077697753906
+   528.0,105.09308338165283
+   528.1361379623413,104.94781112670898
+   528.3825302124023,105.06249237060547
+   528.2688398361206,105.27035331726074
+   528.0820684432983,105.61184406280518
+   528.0819864273071,105.61584091186523
+   529.0,105.24429893493652
+   530.0,105.65850925445557
+   530.2414712905884,105.75852870941162
+   530.3160400390625,105.93855476379395
+   530.3160400390625,106.0
+   530.3414907455444,106.0
+   530.3848609924316,106.10470581054688
+   530.4281120300293,106.11647319793701
+   530.709303855896,106.0
+   530.9773616790771,106.0
+   531.0,105.9906234741211
+   531.01731300354,106.0
+   531.290696144104,106.0
+   531.7922506332397,106.20774936676025
+   532.0,106.709303855896
+   532.0,106.87164115905762
+   532.0,106.98268699645996
+   532.0093765258789,107.0
+   532.0,107.02263832092285
+   532.0,107.290696144104
+   531.883526802063,107.5718879699707
+   531.8952941894531,107.61513900756836
+   532.0,107.65850925445557
+   532.2414712905884,107.75852870941162
+   532.3414907455444,108.0
+  </v2x_ary>
+  <rec type="LINE_OF_SIGHT">
+   <no/>
+  </rec>
+  <no/>
+  <u>0</u>
+  <no/>
+  <flt>10.0</flt><!-- 10 - Land Leader / 15 - Navy Leader -->
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <no/>
+  <no/>
+  <u>0</u>
+  <no/>
+  <u>0</u>
+  <no/>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+ </rec>
+</rec>

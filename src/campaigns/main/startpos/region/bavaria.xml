@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<rec type="REGION">
+ <s>bavaria</s><!-- Region Name -->
+ <xml_include path="population/bavaria.xml"/>
+ <traits/>
+ <rec type="REGION_SLOT_MANAGER">
+  <ary type="REGION_SLOT_ARRAY">
+   <xml_include path="region_slot/settlement-bavaria-munich-settlement_army-admin.xml"/>
+   <xml_include path="region_slot/settlement-bavaria-munich-settlement_ordnance.xml"/>
+   <xml_include path="region_slot/settlement-bavaria-munich-settlement_government.xml"/>
+   <xml_include path="region_slot/settlement-bavaria-munich-settlement_culture.xml"/>
+   <xml_include path="region_slot/iron-bavaria-east.xml"/>
+   <xml_include path="region_slot/town-bavaria-augsburg.xml"/>
+   <xml_include path="region_slot/town-bavaria-nurnberg.xml"/>
+   <xml_include path="region_slot/town-bavaria-coburg.xml"/>
+  </ary>
+  <xml_include path="region_slot/bavaria-road.xml"/>
+  <xml_include path="region_slot/bavaria-walls.xml"/>
+ </rec>
+ <i>586350576</i><!-- Region ID -->
+ <xml_include path="region_slot/settlement-bavaria-munich.xml"/>
+ <u>1</u>
+ <no/>
+ <no/>
+ <u>750</u><!-- Subsistence Agricultural (SA) -->
+ <u>2225</u><!-- Industrial Wealth Plus (SA) -->
+ <u>2225</u><!-- Industrial Wealth Plus (SA) Minus Trading Losses -->
+ <u>375</u><!-- Town Wealth -->
+ <u>375</u><!-- Minimum Town Wealth -->
+ <u>375</u><!-- Town Wealth -->
+ <i>-2</i><!-- Town Monetary Growth -->
+ <u>0</u>
+ <u>0</u>
+ <no/><!-- Exempt From Tax -->
+ <u>582526944</u><!-- Controlling Faction ID -->
+ <rec type="LINE_OF_SIGHT">
+  <yes/>
+  <v2 x="55.0" y="326.25"/>
+  <v2 x="110.0" y="370.0"/>
+  <xml_include path="quadtree/bavaria-0001.xml"/>
+ </rec>
+ <u>586360968</u><!-- Governor ID -->
+ <s>europe</s><!-- Theatre -->
+ <s>bavaria</s><!-- Emergent Nation -->
+ <s>Bavarian Rebels</s><!-- Region Rebels -->
+ <s>sc_european_west</s><!-- Region Culture For Types Of Buildings -->
+ <rec type="REGION_RECRUITMENT_MANAGER">
+  <ary type="REGION_RECRUITMENT_ITEM_ARRAY"/>
+  <no/>
+  <i>586361120</i>
+ </rec>
+ <no/>
+ <u4_ary>0 0 0 0 0 0 0 0</u4_ary>
+ <u4_ary>0 0 0 0 0 0 0 0</u4_ary>
+ <u4_ary>0 0 0 0 0 0 0 0</u4_ary>
+ <u4_ary>507 1476 1962 264 1234 1224 1234 749</u4_ary>
+ <bool_ary>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1</bool_ary>
+ <i4_ary/>
+ <ary type="RELIGIOUS_MISSION_BUILDING_ARRAY"/>
+ <ary type="FORT_ARRAY"/>
+ <resources_array>
+  global
+  middle_east_and_europe
+  europe
+ </resources_array>
+ <s/><!-- Latest Constuction -->
+ <u>20</u><!-- One Of These 5/10/15/20/25/30/40 Amount Of Prestige When Conquered -->
+ <u>4218418516</u><!-- Region Array. From Top To Bottom. 1st 62 Regions 881206575. 2nd 15 Regions 1771634741. 3rd 32 Regions 1928099569. 4th 28 Regions 688200897. Why???? -->
+ <loc>regions_onscreen_bavaria</loc>
+ <flt>-0.0013270393246784806</flt>
+</rec>

@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<rec type="CAI_WORLD_REGION_SLOTS">
+ <owned_indirect>887</owned_indirect><!-- CAI_WORLD_REGIONS = Settlement AI ID. CAI_WORLD_REGION_SLOTS = Region AI ID. CAI_WORLD_CHARACTERS = Faction AI ID -->
+ <cai_situated x="313.895263671875" y="467.20745849609375" region_id="887" theatre_id="34" area_id="13"/>
+ <rec type="CAI_BDI_COMPONENT_PROPERTY_SET">
+  <u>0</u>
+ </rec>
+ <u>2679</u><!-- Region Slot AI ID -->
+ <flt>100.0</flt>
+ <flt>100.0</flt>
+ <flt>0.0</flt>
+ <flt>100.0</flt>
+ <u>1</u>
+ <no/>
+ <u4_ary/>
+ <u4_ary>9761 0 13900 0 13909 0 16938 0 19420 0 22553 0 25049 0 27190 0 28928 0 29921 0 32323 0 36028 0 41781 0 43592 0 46432 0 48472 0 52117 0 53446 0 55601 0 57425 0 59315 0 61798 0 63565 0 65796 0 67166 0 68471 0 69783 0 71070 0 72358 0 75192 0 78589 0</u4_ary><!-- BDI Information -->
+ <u>0</u>
+ <u>31</u>
+ <u4_ary/>
+ <u4_ary>9761 16 13900 4 13909 7855 16938 14776 19420 17709 22553 19731 25049 22835 27190 25839 28928 27366 29921 29187 32323 32078 36028 34218 41781 40550 43592 41858 46432 45208 48472 46897 52117 50886 53446 52209 55601 54263 57425 56123 59315 58101 61798 60154 63565 61943 65796 64585 67166 65914 68471 67253 69783 68542 71070 69858 72358 71136 75192 73957 78589 76911</u4_ary><!-- BDI Information -->
+ <ary type="CAI_BDI_COMPONENT_BLOCK_OWNS"/>
+ <u>0</u>
+ <u>0</u>
+ <u4_ary/>
+ <u4_ary/>
+ <u4_ary/>
+ <u4_ary>9725 9734 9761 13900 13909 16938 19420 22553 25049 27190 28928 29921 32323 36028 41781 43592 46432 48472 52117 53446 55601 57425 59315 61798 63565 65796 67166 68471 69783 71070 72358 75192 78589</u4_ary><!-- BDI Information -->
+ <no/>
+ <u>0</u>
+ <no/>
+ <rec type="CAI_GARRISONABLE">
+  <u>0</u><!-- Character Resource AI ID -->
+  <u>0</u>
+  <u4_ary/><!-- Character Resource AI IDs -->
+  <u4_ary/>
+  <u>0</u>
+ </rec>
+ <rec type="CAI_THREATENED_GARRISONABLE">
+  <no/>
+ </rec>
+ <rec type="CAI_REGION_SLOT">
+  <i>1</i>
+  <u>2678</u><!-- Building Slot AI ID -->
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <no/><!-- True = Port, False = Town (ports have extra set of coordinates for their sea part following) -->
+ </rec>
+</rec>

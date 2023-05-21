@@ -1,0 +1,182 @@
+<?xml version="1.0"?>
+<rec type="CHARACTER_ARRAY">
+ <rec type="CHARACTER">
+  <rec type="LOCOMOTABLE">
+   <v2x x="-392.391357421875" y="40.37837219238281"/>
+   <v2x x="-392.391357421875" y="40.37837219238281"/>
+   <flt>3.1415927410125732</flt><!-- Character Facing Direction -->
+   <flt>3.1415927410125732</flt><!-- Character Facing Direction -->
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <i>25</i><!-- Movement Points Left -->
+   <i>24</i><!-- Movement Points Total -->
+   <no/>
+   <i>0</i>
+   <i>0</i>
+   <angle>0.0</angle>
+   <u>12</u>
+   <u>0</u>
+   <flt>0.0</flt>
+  </rec>
+  <rec type="CHARACTER_DETAILS">
+   <traits/>
+   <loc>names_name_names_dutchKoenraad</loc>
+   <loc>names_name_names_dutchCornelissen</loc>
+   <loc/>
+   <s/><!-- Head Of State -->
+   <date>summer 1668</date>
+   <date/>
+   <i>0</i>
+   <portrait_details/>
+   <s>netherlands</s>
+   <u>580749472</u><!-- Character ID -->
+   <agent_ancillaries/>
+   <agent_attributes>
+    command_land=0
+    command_sea=-1
+    duelling_pistols=-1
+    duelling_swords=-1
+    management=-1
+    subterfuge=-1
+    research=-1
+    zeal=-1
+    land_defence_engineering=-1
+    land_siege_engineering=-1
+    morale_land=-1
+    morale_sea=-1
+    movement_points_land=-1
+    trade=-1
+   </agent_attributes>
+   <ary type="AgentAbilities">
+    <agent_ability ability="can_assassinate" level="-1" attribute=""/>
+    <agent_ability ability="can_convert" level="-1" attribute=""/>
+    <agent_ability ability="can_build_religious" level="-1" attribute=""/>
+    <agent_ability ability="can_build_fort" level="-1" attribute=""/>
+    <agent_ability ability="can_sabotage" level="-1" attribute=""/>
+    <agent_ability ability="can_spy" level="-1" attribute=""/>
+    <agent_ability ability="can_duel" level="-1" attribute=""/>
+    <agent_ability ability="can_receive_duel" level="-1" attribute=""/>
+    <agent_ability ability="can_research" level="-1" attribute=""/>
+    <agent_ability ability="can_attack_land" level="1" attribute="command_land"/>
+    <agent_ability ability="can_attack_naval" level="-1" attribute=""/>
+    <agent_ability ability="can_sabotage_army" level="-1" attribute=""/>
+   </ary>
+   <agent_attribute_bonuses>
+    dummy=0
+   </agent_attribute_bonuses>
+   <no/>
+   <loc>agent_culture_details_onscreen_name_coloneleuropean</loc>
+  </rec>
+  <i>580749472</i><!-- Character ID -->
+  <s>colonel</s><!-- Character Type -->
+  <u>580751520</u><!-- Army ID -->
+  <u>580751184</u><!-- Unit ID -->
+  <u>0</u>
+  <u>0</u><!-- Character In Building Slot ID -->
+  <u>0</u><!-- Cabinet ID -->
+  <no/>
+  <no/><!-- Government Opposition -->
+  <v2x_ary>
+   -386.6615390777588,41.0
+   -386.7606716156006,41.239328384399414
+   -387.0,41.33846092224121
+   -387.01548767089844,41.332045555114746
+   -387.2849416732788,42.0
+   -387.37578773498535,42.197383880615234
+   -387.8309907913208,42.44453239440918
+   -387.9652967453003,42.517452239990234
+   -388.0,42.513689041137695
+   -389.16332054138184,42.38754940032959
+   -389.9295873641968,42.145626068115234
+   -390.0,42.1473445892334
+   -391.36162185668945,42.180580139160156
+   -392.0,42.32048320770264
+   -392.6385316848755,42.46041965484619
+   -393.4708728790283,42.9912633895874
+   -394.0,42.995057106018066
+   -394.97616958618164,43.002055168151855
+   -396.0,42.894840240478516
+   -396.3410921096802,42.859121322631836
+   -396.72579765319824,42.715250968933105
+   -397.04776191711426,42.594844818115234
+   -397.10695362091064,42.479291915893555
+   -397.35247135162354,42.0
+   -397.46091079711914,41.78830814361572
+   -398.0,41.77634239196777
+   -398.0,41.48994827270508
+   -398.0,41.253610610961914
+   -398.8288288116455,41.0
+   -398.81422328948975,40.97723865509033
+   -398.187162399292,40.0
+   -398.130259513855,39.86974048614502
+   -398.0,39.821410179138184
+   -397.9523763656616,39.790443420410156
+   -397.92466926574707,39.66852569580078
+   -398.0,39.48666191101074
+   -398.0,39.0
+   -398.0,38.51333808898926
+   -397.84964656829834,38.15035343170166
+   -397.48666191101074,38.0
+   -397.27244663238525,38.0
+   -397.2296447753906,38.0
+   -397.2296447753906,37.50714302062988
+   -397.1944389343262,37.41629505157471
+   -397.1069860458374,37.32884502410889
+   -396.67115116119385,36.89302349090576
+   -396.6411838531494,36.863057136535645
+   -396.4789047241211,36.81510543823242
+   -396.0,36.81510543823242
+   -396.0,36.72456741333008
+   -396.0,36.26836585998535
+   -395.9213972091675,36.07860279083252
+   -395.73163414001465,36.0
+   -395.0,36.0
+   -394.458701133728,36.0
+   -394.00678062438965,36.25199604034424
+   -394.0,36.26836585998535
+   -394.0,36.25577735900879
+   -393.7670431137085,36.38567638397217
+   -392.0,36.7390832901001
+   -391.874698638916,36.764142990112305
+   -390.30035495758057,36.65557289123535
+   -390.0,36.48165512084961
+   -390.0,37.71014404296875
+   -389.79504013061523,37.795040130615234
+   -389.71014404296875,38.0
+   -388.3291015625,38.0
+   -388.0,38.0
+   -388.0,38.34821701049805
+   -387.72593212127686,38.94018745422363
+   -387.69824028015137,39.0
+   -387.84760761260986,39.38316345214844
+   -387.5103187561035,39.510318756103516
+   -387.3227415084839,40.0
+   -387.0260992050171,40.67234992980957
+   -387.0,40.66153907775879
+   -386.7606716156006,40.760671615600586
+  </v2x_ary>
+  <rec type="LINE_OF_SIGHT">
+   <yes/>
+   <v2 x="-402.5" y="30.0"/>
+   <v2 x="-381.25" y="51.25"/>
+   <xml_include path="quadtree/netherlands-colonel-0002.xml"/>
+  </rec>
+  <no/>
+  <u>0</u>
+  <no/>
+  <flt>10.0</flt><!-- 10 - Land Leader / 15 - Navy Leader -->
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <no/>
+  <no/>
+  <u>0</u>
+  <no/>
+  <u>0</u>
+  <no/>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+ </rec>
+</rec>

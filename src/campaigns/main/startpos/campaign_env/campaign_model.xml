@@ -1,0 +1,154 @@
+<?xml version="1.0"?>
+<rec type="CAMPAIGN_MODEL">
+ <rec type="CAMPAIGN_MAP_DATA">
+  <s>campaign_maps/global_map</s>
+  <s/>
+  <s>global_map</s>
+  <yes/>
+ </rec>
+ <u>1232648655</u>
+ <rand_seed>3016723848</rand_seed>
+ <rec type="CAMPAIGN_CALENDAR">
+  <u>2</u>
+  <u>0</u>
+  <date>summer 1700</date>
+  <u>0</u>
+ </rec>
+ <xml_include path="campaign_env/world.xml"/>
+ <no/>
+ <rec type="LOCOMOTION_MANAGER">
+  <i4_ary/>
+  <ary type="Forward Dependencies"/>
+  <ary type="Reverse Dependencies"/>
+ </rec>
+ <rec type="PENDING_BATTLE">
+  <i>0</i>
+  <i>0</i>
+  <i>0</i>
+  <i>0</i>
+  <u>0</u>
+  <no/>
+  <no/>
+  <u>0</u>
+  <no/>
+  <no/>
+  <ary type="READY_TO_FIGHT"/>
+  <ary type="READY_FOR_ORDERS"/>
+  <ary type="PLAYER_LIST"/>
+  <no/>
+  <no/>
+  <no/>
+  <no/>
+  <no/>
+  <yes/>
+  <yes/>
+  <no/>
+  <no/>
+  <no/>
+  <i>-1</i>
+ </rec>
+ <rec type="HISTORICAL_EVENT_MANAGER">
+  <ary type="TRIGGERED_DYNAMIC_EVENT_ARRAY"/>
+ </rec>
+ <rec type="HISTORICAL_CHARACTER_MANAGER">
+  <ary type="CREATED_CHARACTER_ARRAY"/>
+ </rec>
+ <xml_include path="cai_interface/cai.xml"/>
+ <xml_include path="campaign_env/trade_manager.xml"/>
+ <xml_include path="campaign_env/marker_manager.xml"/>
+ <ary type="PORTRAIT_ALLOCATOR">
+  <xml_include path="campaign_env/portraits-european.xml"/>
+  <xml_include path="campaign_env/portraits-indian.xml"/>
+  <xml_include path="campaign_env/portraits-PIR_pirates.xml"/>
+  <xml_include path="campaign_env/portraits-tribal_playable.xml"/>
+  <xml_include path="campaign_env/portraits-PIR_natives.xml"/>
+  <xml_include path="campaign_env/portraits-middle_east.xml"/>
+  <xml_include path="campaign_env/portraits-tribal.xml"/>
+  <xml_include path="campaign_env/portraits-PIR_european.xml"/>
+ </ary>
+ <xml_include path="campaign-pathfinder/0001.xml"/>
+ <rec type="EPISODIC_RESTRICTIONS">
+  <ary type="BUILDING_RESTRICTIONS"/>
+  <ary type="UNIT_RESTRICTIONS"/>
+  <ary type="VISIBILITY_TRIGGER"/>
+  <ary type="LOCATION_TRIGGER"/>
+  <ary type="TIME_TRIGGER"/>
+  <ary type="ATTACK_OF_OPPORTUNITY"/>
+  <no/>
+  <no/>
+  <no/>
+  <flt>-1280.0</flt>
+  <flt>-640.0</flt>
+  <flt>1280.0</flt>
+  <flt>640.0</flt>
+  <flt>0.5</flt>
+  <flt>1.0</flt>
+  <s/>
+  <asc/>
+  <no/>
+  <yes/>
+  <yes/>
+  <ary type="LUA"/>
+ </rec>
+ <ary type="CULTURE_UNIT_CLASS_MAPPING">
+  <rec type="CULTURE_UNIT_CLASS_MAPPING">
+   <s>european</s>
+   <bool_ary>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</bool_ary>
+  </rec>
+  <rec type="CULTURE_UNIT_CLASS_MAPPING">
+   <s>indian</s>
+   <bool_ary>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</bool_ary>
+  </rec>
+  <rec type="CULTURE_UNIT_CLASS_MAPPING">
+   <s>PIR_pirates</s>
+   <bool_ary>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</bool_ary>
+  </rec>
+  <rec type="CULTURE_UNIT_CLASS_MAPPING">
+   <s>tribal_playable</s>
+   <bool_ary>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</bool_ary>
+  </rec>
+  <rec type="CULTURE_UNIT_CLASS_MAPPING">
+   <s>PIR_natives</s>
+   <bool_ary>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</bool_ary>
+  </rec>
+  <rec type="CULTURE_UNIT_CLASS_MAPPING">
+   <s>middle_east</s>
+   <bool_ary>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</bool_ary>
+  </rec>
+  <rec type="CULTURE_UNIT_CLASS_MAPPING">
+   <s>tribal</s>
+   <bool_ary>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</bool_ary>
+  </rec>
+  <rec type="CULTURE_UNIT_CLASS_MAPPING">
+   <s>PIR_european</s>
+   <bool_ary>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</bool_ary>
+  </rec>
+ </ary>
+ <yes/>
+ <no/>
+ <yes/>
+ <ary type="OSMOSIS_CULTURES">
+  <rec type="OSMOSIS_CULTURES">
+   <s>european</s>
+  </rec>
+ </ary>
+ <u>103134</u>
+ <flt>1.0</flt>
+ <u>20</u>
+ <u>14</u>
+ <rec type="TURN_TIMER">
+  <flt>0.0</flt>
+  <i>-1</i>
+  <i>-1</i>
+ </rec>
+ <ary type="CAMPAIGN_DIRECTOR">
+  <rec type="CAMPAIGN_DIRECTOR">
+   <rec type="CDIR_INTERFACE">
+    <u>7845</u>
+    <ary type="CDIR_INTERFACE_AUTORESOLVER_MODIFIERS"/>
+    <ary type="CDIR_INTERFACE_REGION_OWNERSHIP_CHANGES"/>
+   </rec>
+   <no/>
+  </rec>
+ </ary>
+</rec>

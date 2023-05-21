@@ -1,0 +1,237 @@
+<?xml version="1.0"?>
+<rec type="FACTION">
+ <ancillary_uniqueness_monitor/>
+ <rec type="CAMPAIGN_PLAYER_SETUP">
+  <victory_conditions year="0" region_count="0" prestige_victory="no" campaign_type="4 (Unplayable)"/>
+  <rec type="CAMPAIGN_PLAYER_SETUP_INGAME_MODIFIABLES">
+   <i>0</i>
+   <i>0</i>
+   <i>0</i>
+   <no/>
+  </rec>
+  <s>poland_lithuania</s>
+  <no/>
+  <yes/><!-- Playable -->
+  <no/>
+ </rec>
+ <rec type="FACTION_ECONOMICS">
+  <ary type="history">
+   <rec type="history">
+    <rec type="ECONOMICS_DATA">
+     <i4_ary>0 0 0 0 0</i4_ary>
+     <i4_ary>0 0 881</i4_ary>
+     <i4_ary>0 0 52 3000</i4_ary>
+     <i4_ary>0</i4_ary>
+     <i4_ary>0 0 0 0 0</i4_ary>
+     <i4_ary>0 2520 0 0 0 0 0</i4_ary>
+    </rec>
+   </rec>
+  </ary>
+  <i>6000</i>
+  <bin6>01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01</bin6>
+  <u>0</u>
+ </rec>
+ <xml_include path="diplomacy/poland_lithuania.xml"/>
+ <rec type="ARMY_REINFORCEMENT_MANAGER">
+  <ary type="CHARACTER_REINFORCEMENTS_ARRAY"/>
+  <ary type="UNIT_REINFORCEMENTS_ARRAY"/>
+ </rec>
+ <xml_include path="government/poland_lithuania-gov_constitutional_monarchy.xml"/>
+ <xml_include path="family/poland_lithuania.xml"/>
+ <rec type="CAMPAIGN_MISSION_MANAGER">
+  <no/>
+  <ary type="MISSIONS"/>
+ </rec>
+ <i>581200456</i><!-- Faction ID -->
+ <s>poland_lithuania</s><!-- Faction Name -->
+ <s>Poland-Lithuania</s><!-- On Screen Name -->
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>212</u>
+  <u>2942332781</u>
+  <u2_ary>120 37 113 19 123 31 200 96 169 8 27 128 180 75 168 173 137 11 116 194 87 35 91 125 47 1 145 13 210 195 80 157 21 49 73 201 78 50 9 90 15 71 178 32 77 6 18 146 62 101 147 0 72 28 172 188 38 204 61 107 5 58 170 131 205 206 51 106 133 34 142 175 127 202 2 53 121 10 82 156 136 158 76 63 110 154 4 81 97 79 48 181 166 55 102 45 46 140 129 191 171 65 148 159 60 112 84 69 193 93 162 179 132 152 66 17 54 192 144 183 174 165 196 88 203 12 143 115 24 124 43 29 3 64 155 150 23 109 94 74 186 209 126 40 185 7 16 86 208 92 57 139 42 118 100 117 190 103 98 119 160 177 83 189 198 105 59 161 182 20 111 114 52 149 187 199 104 25 39 95 151 184 41 30 68 70 163 26 197 135 211 164</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>162</u>
+  <u>26560068</u>
+  <u2_ary>114 61 26 47 30 52 115 144 119 21 128 89 86 35 161 49 92 51 105 82 23 13 96 81 69 137 117 157 118 39 100 6 50 91 20 108 66 153 22 142 41 12 19 29 15 71 88 68 63 10 149 60 151 126 160 87 53 33 106 70 146 132 133 84 67 159 141 45 113 79 99 129 57 80 104 121 54 131 102 55 124 136 135 97 38 103 18 111 76 95 90 145 107 134 58 44 11 34 158 74 62 31 127 72 156 93 140 1 83 73 56 25 150 143 75 65 130 46 9 139 36 138 77 148 0 32 112 42 59 110 101 17 5 14 94 43 16 78 109 155 154 120 28 37 64 116 4 125 98 8 3 85 147 48 122 152 123 27 40 2 24 7</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>2</u>
+  <u>1268417906</u>
+  <u2_ary>1 0</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>79480880</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>637</u>
+  <u>3568689231</u>
+  <u2_ary>32 433 531 110 438 413 180 480 562 411 451 601 515 508 188 522 265 182 253 119 406 629 588 149 618 345 146 496 498 584 355 143 42 487 287 314 244 97 484 358 71 420 437 231 369 351 631 209 308 414 516 466 239 78 291 8 113 576 333 478 609 336 632 552 141 59 282 360 191 483 164 203 356 560 464 429 273 505 92 115 493 249 628 2 511 608 573 37 127 381 301 48 262 540 430 599 86 563 558 636 206 165 242 272 581 547 104 145 417 263 278 218 394 215 325 138 572 386 479 596 405 567 363 132 534 425 469 241 525 569 364 285 168 18 454 178 90 432 20 347 50 247 396 470 111 359 447 434 169 126 117 418 112 535 503 257 443 343 556 67 353 571 1 24 212 352 489 521 279 84 300 380 465 10 190 372 398 150 615 577 346 73 171 229 625 40 134 449 235 374 415 75 290 47 237 311 303 228 328 13 589 163 55 500 574 33 246 582 34 243 252 603 424 559 181 14 102 334 341 331 195 633 536 586 69 412 101 120 238 440 317 329 299 544 9 284 486 426 189 605 12 509 365 382 49 310 95 621 23 542 442 456 258 590 269 513 172 565 321 225 114 507 87 368 533 156 63 289 361 587 142 35 338 339 88 38 606 491 26 103 607 98 166 595 255 379 77 0 350 323 270 518 304 39 192 271 462 185 635 551 468 44 476 564 128 93 17 30 373 157 527 622 230 537 211 612 393 248 455 400 514 108 268 162 198 60 458 566 174 176 422 388 240 130 410 136 7 439 387 82 254 99 555 196 407 619 384 593 57 199 441 217 519 70 216 549 286 167 357 219 3 213 624 452 25 72 122 208 22 583 450 158 543 19 528 58 204 62 611 197 472 123 68 144 266 194 107 578 64 210 297 205 306 27 617 250 53 133 488 74 294 614 66 233 316 354 109 517 183 492 416 408 54 585 376 510 610 475 106 125 29 152 397 616 315 371 293 267 495 421 302 467 274 65 494 550 236 623 207 568 313 76 61 482 281 11 337 220 153 342 326 224 175 318 481 391 36 499 245 259 506 105 485 428 201 340 592 6 579 436 15 129 526 140 232 91 155 45 575 148 392 226 594 561 121 154 597 335 275 634 620 56 261 139 151 570 234 131 170 348 377 604 385 580 444 116 332 161 4 51 202 471 52 431 591 349 366 173 298 214 46 375 448 309 251 409 41 446 383 186 539 100 222 404 389 530 423 538 553 147 288 305 557 322 28 223 280 419 474 344 546 457 327 296 545 504 43 295 459 160 362 435 399 83 277 445 319 221 184 529 256 177 320 600 135 390 403 276 554 463 613 461 312 523 532 541 307 21 502 401 378 627 31 598 367 520 16 370 324 193 260 460 5 89 453 94 548 96 427 626 602 501 200 497 473 524 137</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>7</u>
+  <u>123721970</u>
+  <u2_ary>4 6 1 0 2 5 3</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>1346104625</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>15</u>
+  <u>1152542062</u>
+  <u2_ary>13 3 5 11 10 12 0 4 2 9 8 1 6 7 14</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>4</u>
+  <u>635332242</u>
+  <u2_ary>0 2</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>6</u>
+  <u>3148522111</u>
+  <u2_ary>0 4 2 3 1 5</u2_ary>
+ </rec>
+ <yes/>
+ <rec type="LAND_UNIT_NAME_ALLOCATOR">
+  <ary type="LAND_UNIT_NAMES_MAP">
+   <xml_include path="unit_name_alloc/poland_lithuania-land-0001.xml"/>
+   <xml_include path="unit_name_alloc/poland_lithuania-land-0002.xml"/>
+   <xml_include path="unit_name_alloc/poland_lithuania-land-0003.xml"/>
+   <xml_include path="unit_name_alloc/poland_lithuania-land-0004.xml"/>
+   <xml_include path="unit_name_alloc/poland_lithuania-land-0005.xml"/>
+   <xml_include path="unit_name_alloc/poland_lithuania-land-0006.xml"/>
+   <xml_include path="unit_name_alloc/poland_lithuania-land-0007.xml"/>
+   <xml_include path="unit_name_alloc/poland_lithuania-land-0008.xml"/>
+   <xml_include path="unit_name_alloc/poland_lithuania-land-0009.xml"/>
+   <xml_include path="unit_name_alloc/poland_lithuania-land-0010.xml"/>
+   <xml_include path="unit_name_alloc/poland_lithuania-land-0011.xml"/>
+   <xml_include path="unit_name_alloc/poland_lithuania-land-0012.xml"/>
+   <xml_include path="unit_name_alloc/poland_lithuania-land-0013.xml"/>
+   <xml_include path="unit_name_alloc/poland_lithuania-land-0014.xml"/>
+   <xml_include path="unit_name_alloc/poland_lithuania-land-0015.xml"/>
+   <xml_include path="unit_name_alloc/poland_lithuania-land-0016.xml"/>
+   <xml_include path="unit_name_alloc/poland_lithuania-land-0017.xml"/>
+   <xml_include path="unit_name_alloc/poland_lithuania-land-0018.xml"/>
+   <xml_include path="unit_name_alloc/poland_lithuania-land-0019.xml"/>
+   <xml_include path="unit_name_alloc/poland_lithuania-land-0020.xml"/>
+   <xml_include path="unit_name_alloc/poland_lithuania-land-0021.xml"/>
+   <xml_include path="unit_name_alloc/poland_lithuania-land-0022.xml"/>
+   <xml_include path="unit_name_alloc/poland_lithuania-land-0023.xml"/>
+  </ary>
+ </rec>
+ <yes/>
+ <xml_include path="unit_name_alloc/poland_lithuania-naval-0001.xml"/>
+ <yes/><!-- True - Major, False - Minor -->
+ <ary type="CHARACTER_ARRAY">
+  <xml_include path="character/poland_lithuania-minister-0001.xml"/>
+  <xml_include path="character/poland_lithuania-catholic_missionary-0001.xml"/>
+  <xml_include path="character/poland_lithuania-minister-0002.xml"/>
+  <xml_include path="character/poland_lithuania-gentleman-0001.xml"/>
+  <xml_include path="character/poland_lithuania-rake-0001.xml"/>
+  <xml_include path="character/poland_lithuania-minister-0003.xml"/>
+  <xml_include path="character/poland_lithuania-minister-0004.xml"/>
+  <xml_include path="character/poland_lithuania-General-0001.xml"/>
+  <xml_include path="character/poland_lithuania-General-0002.xml"/>
+  <xml_include path="character/poland_lithuania-General-0003.xml"/>
+  <xml_include path="character/poland_lithuania-minister-0005.xml"/>
+  <xml_include path="character/poland_lithuania-minister-0006.xml"/>
+  <xml_include path="character/poland_lithuania-minister-0007.xml"/>
+  <xml_include path="character/poland_lithuania-minister-0008.xml"/>
+  <xml_include path="character/poland_lithuania-minister-0009.xml"/>
+  <xml_include path="character/poland_lithuania-minister-0010.xml"/>
+  <xml_include path="character/poland_lithuania-minister-0011.xml"/>
+  <xml_include path="character/poland_lithuania-minister-0012.xml"/>
+  <xml_include path="character/poland_lithuania-minister-0013.xml"/>
+  <xml_include path="character/poland_lithuania-colonel-0001.xml"/>
+  <xml_include path="character/poland_lithuania-colonel-0002.xml"/>
+ </ary>
+ <xml_include path="technology/poland_lithuania-poland_lithuania.xml"/>
+ <ary type="ARMY_ARRAY">
+  <xml_include path="army/poland_lithuania-0001.xml"/>
+  <xml_include path="army/poland_lithuania-0002.xml"/>
+  <xml_include path="army/poland_lithuania-0003.xml"/>
+  <xml_include path="army/poland_lithuania-0004.xml"/>
+  <xml_include path="army/poland_lithuania-0005.xml"/>
+ </ary>
+ <ary type="MORGUE"/>
+ <u4_ary>586032144</u4_ary><!-- Governor ID For Each Theatre -->
+ <yes/>
+ <rec type="CAMPAIGN_SHROUD">
+  <xml_include path="quadtree/poland_lithuania-poland_lithuania-0001.xml"/>
+  <xml_include path="quadtree/poland_lithuania-poland_lithuania-0002.xml"/>
+  <xml_include path="quadtree/poland_lithuania-poland_lithuania-0003.xml"/>
+  <yes/>
+ </rec>
+ <s>rel_catholic</s><!-- Religion -->
+ <yes/>
+ <victory_conditions year="0" region_count="0" prestige_victory="no" campaign_type="4 (Unplayable)"/>
+ <rec type="FORT_UPGRADE_MANAGER">
+  <ary type="FORT_UPGRADES_ARRAY"/>
+ </rec>
+ <rec type="FORT_UPGRADE_MANAGER">
+  <ary type="FORT_REPAIRS_ARRAY"/>
+ </rec>
+ <i>586806608</i><!-- Current Capital ID Else 0 If Faction Destroyed -->
+ <i>586806608</i><!-- Original Capital ID -->
+ <ary type="EXPOSED_CHARACTERS"/>
+ <no/>
+ <rec type="PRESTIGE">
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <u>10</u>
+  <u>0</u>
+  <u>0</u>
+  <u>3</u>
+  <u>90</u>
+ </rec>
+ <no/><!-- Emergent -->
+ <u>0</u>
+ <bool_ary>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</bool_ary>
+ <i>2520</i><!-- Army Upkeep -->
+ <i>0</i><!-- Navy Upkeep -->
+ <s>FULL</s><!-- Campaign AI Manager Behaviour (patch.pack) -->
+ <s>continental_progressive</s><!-- Campaign AI Personalities (patch.pack) -->
+ <flag_and_colours path="data\ui\flags\poland_lithuania" color1="#a03038" color2="#eedaa1" color3="#d42b3d"/>
+ <flag_and_colours path="data\ui\flags\poland_republic" color1="#a03038" color2="#eedaa1" color3="#d42b3d"/>
+ <rec type="CAMPAIGN_BONUS_VALUES">
+  <ary type="CAMPAIGN_BONUS_VALUE_BLOCK">
+   <campaign_bonus_0 subtype="2" value="1.0" agent="Eastern_Scholar"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="rake"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="assassin"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="gentleman"/>
+  </ary>
+ </rec>
+ <rec type="CAMPAIGN_BONUS_VALUES">
+  <ary type="CAMPAIGN_BONUS_VALUE_BLOCK">
+   <campaign_bonus_0 subtype="2" value="1.0" agent="Eastern_Scholar"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="rake"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="assassin"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="gentleman"/>
+  </ary>
+ </rec>
+ <i>0</i><!-- Protectorate ID -->
+ <no/>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <no/>
+ <yes/>
+ <no/>
+ <i>10</i>
+ <i>0</i>
+ <i>3</i>
+ <i>0</i>
+ <no/>
+ <no/>
+ <u>0</u>
+ <no/>
+ <no/>
+</rec>

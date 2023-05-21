@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<rec type="REGION">
+ <s>syria</s><!-- Region Name -->
+ <xml_include path="population/syria.xml"/>
+ <traits/>
+ <rec type="REGION_SLOT_MANAGER">
+  <ary type="REGION_SLOT_ARRAY">
+   <xml_include path="region_slot/settlement-syria-damascus-settlement_army-admin.xml"/>
+   <xml_include path="region_slot/settlement-syria-damascus-settlement_ordnance.xml"/>
+   <xml_include path="region_slot/settlement-syria-damascus-settlement_government.xml"/>
+   <xml_include path="region_slot/settlement-syria-damascus-settlement_culture.xml"/>
+   <xml_include path="region_slot/iron-syria-cyprus.xml"/>
+   <xml_include path="region_slot/egypt-syria-north.xml"/>
+   <xml_include path="region_slot/port-syria-limassol.xml"/>
+   <xml_include path="region_slot/port-syria-beirut.xml"/>
+   <xml_include path="region_slot/port-syria-latakia.xml"/>
+   <xml_include path="region_slot/town-syria-aleppo.xml"/>
+  </ary>
+  <xml_include path="region_slot/syria-road.xml"/>
+  <xml_include path="region_slot/syria-walls.xml"/>
+ </rec>
+ <i>587390968</i><!-- Region ID -->
+ <xml_include path="region_slot/settlement-syria-damascus.xml"/>
+ <u>1</u>
+ <no/>
+ <no/>
+ <u>0</u><!-- Subsistence Agricultural (SA) -->
+ <u>1761</u><!-- Industrial Wealth Plus (SA) -->
+ <u>1761</u><!-- Industrial Wealth Plus (SA) Minus Trading Losses -->
+ <u>0</u><!-- Town Wealth -->
+ <u>0</u><!-- Minimum Town Wealth -->
+ <u>0</u><!-- Town Wealth -->
+ <i>0</i><!-- Town Monetary Growth -->
+ <u>0</u>
+ <u>0</u>
+ <no/><!-- Exempt From Tax -->
+ <u>581334784</u><!-- Controlling Faction ID -->
+ <rec type="LINE_OF_SIGHT">
+  <yes/>
+  <v2 x="218.75" y="211.25"/>
+  <v2 x="317.5" y="281.25"/>
+  <xml_include path="quadtree/syria-0001.xml"/>
+ </rec>
+ <u>585706776</u><!-- Governor ID -->
+ <s>europe</s><!-- Theatre -->
+ <s>ottoman_rebels</s><!-- Emergent Nation -->
+ <s>Syrian Rebels</s><!-- Region Rebels -->
+ <s>sc_mideast_islamic</s><!-- Region Culture For Types Of Buildings -->
+ <rec type="REGION_RECRUITMENT_MANAGER">
+  <ary type="REGION_RECRUITMENT_ITEM_ARRAY"/>
+  <no/>
+  <i>585914728</i>
+ </rec>
+ <no/>
+ <u4_ary>0 0 0 0 0 0 0 0</u4_ary>
+ <u4_ary>0 0 0 0 0 0 0 0</u4_ary>
+ <u4_ary>0 0 0 0 0 15 0 0</u4_ary>
+ <u4_ary>380 1138 1518 190 949 949 949 569</u4_ary>
+ <bool_ary>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1</bool_ary>
+ <i4_ary/>
+ <ary type="RELIGIOUS_MISSION_BUILDING_ARRAY"/>
+ <ary type="FORT_ARRAY"/>
+ <resources_array>
+  colonial_euro_factions
+  africa_west_indies
+  galleys
+  desert
+  med_coast
+  middle_east_and_europe
+  camels
+  kurds
+  middle_east
+  global
+ </resources_array>
+ <s/><!-- Latest Constuction -->
+ <u>10</u><!-- One Of These 5/10/15/20/25/30/40 Amount Of Prestige When Conquered -->
+ <u>1605441764</u><!-- Region Array. From Top To Bottom. 1st 62 Regions 881206575. 2nd 15 Regions 1771634741. 3rd 32 Regions 1928099569. 4th 28 Regions 688200897. Why???? -->
+ <loc>regions_onscreen_syria</loc>
+ <flt>-0.0013270393246784806</flt>
+</rec>

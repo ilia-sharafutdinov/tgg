@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<rec type="REGION">
+ <s>greece</s><!-- Region Name -->
+ <xml_include path="population/greece.xml"/>
+ <traits/>
+ <rec type="REGION_SLOT_MANAGER">
+  <ary type="REGION_SLOT_ARRAY">
+   <xml_include path="region_slot/settlement-greece-athens-settlement_army-admin.xml"/>
+   <xml_include path="region_slot/settlement-greece-athens-settlement_ordnance.xml"/>
+   <xml_include path="region_slot/settlement-greece-athens-settlement_government.xml"/>
+   <xml_include path="region_slot/settlement-greece-athens-settlement_culture.xml"/>
+   <xml_include path="region_slot/sheep-greece-west.xml"/>
+   <xml_include path="region_slot/wine-greece-athens.xml"/>
+   <xml_include path="region_slot/wine-greece-central.xml"/>
+   <xml_include path="region_slot/town-greece-larissa.xml"/>
+   <xml_include path="region_slot/town-greece-ioannia.xml"/>
+   <xml_include path="region_slot/port-greece-heraklion.xml"/>
+   <xml_include path="region_slot/port-greece-piraeus.xml"/>
+  </ary>
+  <xml_include path="region_slot/greece-road.xml"/>
+  <xml_include path="region_slot/greece-walls.xml"/>
+ </rec>
+ <i>587140784</i><!-- Region ID -->
+ <xml_include path="region_slot/settlement-greece-athens.xml"/>
+ <u>1</u>
+ <no/>
+ <no/>
+ <u>250</u><!-- Subsistence Agricultural (SA) -->
+ <u>1600</u><!-- Industrial Wealth Plus (SA) -->
+ <u>1600</u><!-- Industrial Wealth Plus (SA) Minus Trading Losses -->
+ <u>0</u><!-- Town Wealth -->
+ <u>0</u><!-- Minimum Town Wealth -->
+ <u>0</u><!-- Town Wealth -->
+ <i>-1</i><!-- Town Monetary Growth -->
+ <u>0</u>
+ <u>0</u>
+ <no/><!-- Exempt From Tax -->
+ <u>581334784</u><!-- Controlling Faction ID -->
+ <rec type="LINE_OF_SIGHT">
+  <yes/>
+  <v2 x="127.5" y="237.5"/>
+  <v2 x="197.5" y="306.25"/>
+  <xml_include path="quadtree/greece-0001.xml"/>
+ </rec>
+ <u>585706776</u><!-- Governor ID -->
+ <s>europe</s><!-- Theatre -->
+ <s>greece</s><!-- Emergent Nation -->
+ <s>Greek Rebels</s><!-- Region Rebels -->
+ <s>sc_european_south</s><!-- Region Culture For Types Of Buildings -->
+ <rec type="REGION_RECRUITMENT_MANAGER">
+  <ary type="REGION_RECRUITMENT_ITEM_ARRAY"/>
+  <no/>
+  <i>587157424</i>
+ </rec>
+ <no/>
+ <u4_ary>0 0 0 0 0 0 0 0</u4_ary>
+ <u4_ary>0 0 0 0 0 0 0 0</u4_ary>
+ <u4_ary>0 0 0 0 0 0 0 0</u4_ary>
+ <u4_ary>352 1056 1408 176 880 880 880 528</u4_ary>
+ <bool_ary>0 1 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0</bool_ary>
+ <i4_ary/>
+ <ary type="RELIGIOUS_MISSION_BUILDING_ARRAY"/>
+ <ary type="FORT_ARRAY"/>
+ <resources_array>
+  middle_east_and_europe
+  europe
+  galleys
+  med_coast
+  global
+  middle_east
+ </resources_array>
+ <s/><!-- Latest Constuction -->
+ <u>10</u><!-- One Of These 5/10/15/20/25/30/40 Amount Of Prestige When Conquered -->
+ <u>1605441764</u><!-- Region Array. From Top To Bottom. 1st 62 Regions 881206575. 2nd 15 Regions 1771634741. 3rd 32 Regions 1928099569. 4th 28 Regions 688200897. Why???? -->
+ <loc>regions_onscreen_greece</loc>
+ <flt>-0.0013270393246784806</flt>
+</rec>

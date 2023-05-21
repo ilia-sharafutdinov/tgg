@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<rec type="REGION">
+ <s>moldavia</s><!-- Region Name -->
+ <xml_include path="population/moldavia.xml"/>
+ <traits/>
+ <rec type="REGION_SLOT_MANAGER">
+  <ary type="REGION_SLOT_ARRAY">
+   <xml_include path="region_slot/settlement-moldavia-iasi-settlement_minor.xml"/>
+   <xml_include path="region_slot/wheat-moldavia-southeast.xml"/>
+   <xml_include path="region_slot/iron-moldavia-carpatians.xml"/>
+   <xml_include path="region_slot/town-moldavia-tighina.xml"/>
+  </ary>
+  <xml_include path="region_slot/moldavia-road.xml"/>
+  <xml_include path="region_slot/moldavia-walls.xml"/>
+ </rec>
+ <i>587164552</i><!-- Region ID -->
+ <xml_include path="region_slot/settlement-moldavia-iasi.xml"/>
+ <u>1</u>
+ <no/>
+ <no/>
+ <u>0</u><!-- Subsistence Agricultural (SA) -->
+ <u>850</u><!-- Industrial Wealth Plus (SA) -->
+ <u>850</u><!-- Industrial Wealth Plus (SA) Minus Trading Losses -->
+ <u>0</u><!-- Town Wealth -->
+ <u>0</u><!-- Minimum Town Wealth -->
+ <u>0</u><!-- Town Wealth -->
+ <i>-6</i><!-- Town Monetary Growth -->
+ <u>0</u>
+ <u>0</u>
+ <no/><!-- Exempt From Tax -->
+ <u>581334784</u><!-- Controlling Faction ID -->
+ <rec type="LINE_OF_SIGHT">
+  <yes/>
+  <v2 x="168.75" y="311.25"/>
+  <v2 x="230.0" y="355.0"/>
+  <xml_include path="quadtree/moldavia-0001.xml"/>
+ </rec>
+ <u>585706776</u><!-- Governor ID -->
+ <s>europe</s><!-- Theatre -->
+ <s>slavic_rebels</s><!-- Emergent Nation -->
+ <s>Moldavian Rebels</s><!-- Region Rebels -->
+ <s>sc_european_east</s><!-- Region Culture For Types Of Buildings -->
+ <rec type="REGION_RECRUITMENT_MANAGER">
+  <ary type="REGION_RECRUITMENT_ITEM_ARRAY"/>
+  <no/>
+  <i>587176736</i>
+ </rec>
+ <no/>
+ <u4_ary>0 0 0 0 0 0 0 0</u4_ary>
+ <u4_ary>0 0 0 0 0 0 0 0</u4_ary>
+ <u4_ary>0 0 0 0 0 0 0 0</u4_ary>
+ <u4_ary>187 561 748 94 468 468 468 280</u4_ary>
+ <bool_ary>0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1</bool_ary>
+ <i4_ary/>
+ <ary type="RELIGIOUS_MISSION_BUILDING_ARRAY"/>
+ <ary type="FORT_ARRAY"/>
+ <resources_array>
+  middle_east
+  middle_east_and_europe
+  global
+  galleys
+  med_coast
+  europe
+ </resources_array>
+ <s/><!-- Latest Constuction -->
+ <u>5</u><!-- One Of These 5/10/15/20/25/30/40 Amount Of Prestige When Conquered -->
+ <u>1605441764</u><!-- Region Array. From Top To Bottom. 1st 62 Regions 881206575. 2nd 15 Regions 1771634741. 3rd 32 Regions 1928099569. 4th 28 Regions 688200897. Why???? -->
+ <loc>regions_onscreen_moldavia</loc>
+ <flt>-0.0013270393246784806</flt>
+</rec>

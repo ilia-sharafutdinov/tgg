@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<rec type="CAI_WORLD_REGION_SLOTS">
+ <owned_indirect>715</owned_indirect><!-- CAI_WORLD_REGIONS = Settlement AI ID. CAI_WORLD_REGION_SLOTS = Region AI ID. CAI_WORLD_CHARACTERS = Faction AI ID -->
+ <cai_situated x="196.8565216064453" y="303.64599609375" region_id="715" theatre_id="34" area_id="13"/>
+ <rec type="CAI_BDI_COMPONENT_PROPERTY_SET">
+  <u>0</u>
+ </rec>
+ <u>2028</u><!-- Region Slot AI ID -->
+ <flt>100.0</flt>
+ <flt>100.0</flt>
+ <flt>0.0</flt>
+ <flt>100.0</flt>
+ <u>1</u>
+ <no/>
+ <u4_ary/>
+ <u4_ary>9612 0 12004 0 12005 0 12018 0 16674 0 18368 0 21273 0 24775 0 26928 0 27991 0 29484 0 33646 0 35833 0 41504 0 43328 0 46158 0 48208 0 51840 0 53171 0 55350 0 57151 0 59052 0 61534 0 63301 0 65519 0 66889 0 68202 0 69506 0 70798 0 72100 0 74915 0 78325 0</u4_ary><!-- BDI Information -->
+ <u>0</u>
+ <u>32</u>
+ <u4_ary/>
+ <u4_ary>9612 16 12004 4 12005 15 12018 7855 16674 14776 18368 17709 21273 19731 24775 22835 26928 25839 27991 27366 29484 29187 33646 32078 35833 34218 41504 40550 43328 41858 46158 45208 48208 46897 51840 50886 53171 52209 55350 54263 57151 56123 59052 58101 61534 60154 63301 61943 65519 64585 66889 65914 68202 67253 69506 68542 70798 69858 72100 71136 74915 73957 78325 76911</u4_ary><!-- BDI Information -->
+ <ary type="CAI_BDI_COMPONENT_BLOCK_OWNS"/>
+ <u>0</u>
+ <u>0</u>
+ <u4_ary/>
+ <u4_ary/>
+ <u4_ary/>
+ <u4_ary>9522 9523 9528 9529 9530 9531 9534 9565 9566 9567 9568 9569 9570 9571 9573 9575 9580 9582 9583 9586 9590 9591 9602 9603 9604 9605 9606 9607 9611 9612 9613 9614 9615 9617 9630 9633 9634 9635 9636 9648 9652 9655 9657 9658 12004 12005 12018 16674 18368 21273 24775 26928 27991 29484 33646 35833 41504 43328 46158 48208 51840 53171 55350 57151 59052 61534 63301 65519 66889 68202 69506 70798 72100 74915 78325</u4_ary><!-- BDI Information -->
+ <no/>
+ <u>0</u>
+ <no/>
+ <rec type="CAI_GARRISONABLE">
+  <u>0</u><!-- Character Resource AI ID -->
+  <u>0</u>
+  <u4_ary/><!-- Character Resource AI IDs -->
+  <u4_ary/>
+  <u>0</u>
+ </rec>
+ <rec type="CAI_THREATENED_GARRISONABLE">
+  <no/>
+ </rec>
+ <rec type="CAI_REGION_SLOT">
+  <i>1</i>
+  <u>2027</u><!-- Building Slot AI ID -->
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <yes/><!-- True = Port, False = Town (ports have extra set of coordinates for their sea part following) -->
+  <cai_situated x="197.73594665527344" y="302.43084716796875" region_id="663" theatre_id="34" area_id="30"/>
+ </rec>
+</rec>

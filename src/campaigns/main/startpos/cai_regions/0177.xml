@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<rec type="CAI_WORLD_REGIONS">
+ <owned_indirect>3273</owned_indirect><!-- CAI_WORLD_REGIONS = Settlement AI ID. CAI_WORLD_REGION_SLOTS = Region AI ID. CAI_WORLD_CHARACTERS = Faction AI ID -->
+ <rec type="CAI_BDI_COMPONENT_PROPERTY_SET">
+  <u>0</u>
+ </rec>
+ <u>1118</u><!-- Region AI ID -->
+ <flt>100.0</flt>
+ <flt>100.0</flt>
+ <flt>0.0</flt>
+ <flt>100.0</flt>
+ <u>1</u>
+ <no/>
+ <u4_ary/>
+ <u4_ary>8261 0 10851 0 14155 0 15908 0 20463 0 23357 0 23454 0 31249 0 34994 0 38628 0 38629 0 38631 0 38814 0 38852 1 39258 0 39259 0 39260 0 39261 0 39262 0 39270 1 39316 0 38834 1 38840 1 38836 1 39337 0 38844 1 42511 0 46522 0 47322 0 55687 0 57637 0 59540 0 60702 0 62449 0 63853 0 77443 0 79208 0</u4_ary><!-- BDI Information -->
+ <u>0</u>
+ <u>37</u>
+ <u4_ary/>
+ <u4_ary>8261 14 10851 7863 14155 4 15908 14784 20463 19739 23357 15 23454 22843 31249 29195 34994 34226 38628 38479 38629 38495 38631 38478 38814 38852 39258 39259 39260 39261 39262 39270 39316 38486 38834 38840 38836 39337 38484 38844 42511 41866 46522 45216 47322 46905 55687 54271 57637 56131 59540 59408 60702 60162 62449 61951 63853 63686 77443 76919 79208 78766</u4_ary><!-- BDI Information -->
+ <ary type="CAI_BDI_COMPONENT_BLOCK_OWNS"/>
+ <u>0</u>
+ <u>0</u>
+ <u4_ary/>
+ <u4_ary/>
+ <u4_ary/>
+ <u4_ary>7448 7449 7447 7445 7443 7430 8261 10852 10851 14155 14157 14159 14161 15908 20463 23358 23454 31249 34994 38627 38631 38848 38814 38892 39258 39259 39260 39261 39262 39263 39264 39269 39316 39337 42511 46522 47322 55687 57637 59540 60702 62449 63853 77443 79208</u4_ary><!-- BDI Information -->
+ <no/>
+ <u>0</u>
+ <no/>
+ <rec type="CAI_REGION">
+  <u4_ary>33</u4_ary><!-- Theatre IDs -->
+  <u4_ary>1119 1120 1121 1122</u4_ary><!-- HLCIS IDs -->
+  <u>3273</u><!-- Settlement AI ID -->
+  <u4_ary>3275 3277 3279 3281 3283 3285</u4_ary><!-- Region Slot AI IDs Of Region Slots In This Region -->
+  <flt>-635.85638</flt><!-- X Coordinate -->
+  <flt>212.87781</flt><!-- Y Coordinate -->
+  <u4_ary/>
+  <u4_ary>7279 7282 7286 7290 7291 7292</u4_ary><!-- Boundary IDs -->
+  <yes/>
+  <u4_ary>6033 6040</u4_ary><!-- Character Resource AI IDs -->
+  <s>lower_louisiana</s><!-- Region Name -->
+  <u>585671432</u><!-- Region ID -->
+  <u>7478</u><!-- Governor AI ID -->
+  <u4_ary/><!-- Faction AI IDs -->
+ </rec>
+</rec>

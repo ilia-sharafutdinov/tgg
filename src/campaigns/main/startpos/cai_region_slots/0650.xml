@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<rec type="CAI_WORLD_REGION_SLOTS">
+ <owned_indirect>1158</owned_indirect><!-- CAI_WORLD_REGIONS = Settlement AI ID. CAI_WORLD_REGION_SLOTS = Region AI ID. CAI_WORLD_CHARACTERS = Faction AI ID -->
+ <cai_situated x="-542.857666015625" y="264.443115234375" region_id="1158" theatre_id="33" area_id="20"/>
+ <rec type="CAI_BDI_COMPONENT_PROPERTY_SET">
+  <u>0</u>
+ </rec>
+ <u>3362</u><!-- Region Slot AI ID -->
+ <flt>100.0</flt>
+ <flt>100.0</flt>
+ <flt>0.0</flt>
+ <flt>100.0</flt>
+ <u>1</u>
+ <no/>
+ <u4_ary/>
+ <u4_ary>10139 0 14271 0 14272 0 14284 0 17158 0 20541 0 24163 0 37386 0 39125 0 40187 0 45005 0 54096 0 59983 0 64354 0 73456 0 79828 0</u4_ary><!-- BDI Information -->
+ <u>0</u>
+ <u>16</u>
+ <u4_ary/>
+ <u4_ary>10139 16 14271 4 14272 15 14284 7855 17158 14776 20541 19731 24163 22835 37386 37235 39125 38470 40187 39346 45005 44280 54096 53519 59983 59400 64354 63678 73456 72816 79828 78758</u4_ary><!-- BDI Information -->
+ <ary type="CAI_BDI_COMPONENT_BLOCK_OWNS"/>
+ <u>0</u>
+ <u>0</u>
+ <u4_ary/>
+ <u4_ary/>
+ <u4_ary/>
+ <u4_ary>10110 10111 10119 10121 10127 10128 10129 10133 10134 10135 10138 10139 10140 10142 10143 10162 10164 10169 10170 10171 10172 10173 10174 10175 10176 10177 10178 10180 10182 10183 10187 10188 10189 10191 10192 10193 10194 10195 10196 10197 14271 14272 14284 17158 20541 24163 37386 39125 40187 45005 54096 59983 64354 73456 79828</u4_ary><!-- BDI Information -->
+ <no/>
+ <u>0</u>
+ <no/>
+ <rec type="CAI_GARRISONABLE">
+  <u>0</u><!-- Character Resource AI ID -->
+  <u>0</u>
+  <u4_ary/><!-- Character Resource AI IDs -->
+  <u4_ary/>
+  <u>0</u>
+ </rec>
+ <rec type="CAI_THREATENED_GARRISONABLE">
+  <no/>
+ </rec>
+ <rec type="CAI_REGION_SLOT">
+  <i>1</i>
+  <u>3361</u><!-- Building Slot AI ID -->
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <yes/><!-- True = Port, False = Town (ports have extra set of coordinates for their sea part following) -->
+  <cai_situated x="-541.3832397460938" y="264.1672058105469" region_id="998" theatre_id="33" area_id="33"/>
+ </rec>
+</rec>

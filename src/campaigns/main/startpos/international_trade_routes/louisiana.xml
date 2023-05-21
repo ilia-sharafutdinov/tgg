@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<rec type="INTERNATIONAL_TRADE_ROUTES">
+ <s>louisiana</s>
+ <ary type="FACTION_INTERNATIONAL_TRADE_ROUTES_ARRAY">
+  <rec type="FACTION_INTERNATIONAL_TRADE_ROUTES_ARRAY">
+   <rec type="INTERNATIONAL_TRADE_ROUTE">
+    <u>2</u><!-- Number Of Connections -->
+    <i>585671432</i><!-- Region ID Of Home Faction -->
+    <v2 x="0.0" y="0.0"/>
+    <u>8</u><!-- Port OR Settlement Indice Start Point (port:lower_louisiana:mobile) -->
+    <u>120</u><!-- Port OR Settlement Indice End Point (port:france:le_havre) -->
+    <yes/><!-- Trading Over Sea -->
+    <i>586862336</i><!-- Region ID Of Home Faction -->
+    <v2 x="0.0" y="0.0"/>
+    <u>4294967295</u>
+    <u>4294967295</u>
+    <no/><!-- Trading Over Sea -->
+    <yes/>
+    <u4_ary>0 17 0 0 0 0 0 0</u4_ary><!-- Commodities Quantity -->
+    <u>494</u>
+    <u>187</u>
+    <u>0</u>
+    <u>307</u>
+    <u>0</u>
+    <u>0</u>
+    <u>0</u>
+    <u4_ary>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</u4_ary><!-- Resources Quantity -->
+    <u>0</u>
+    <i>638776264</i>
+   </rec>
+   <u>638776264</u><!-- Route ID -->
+  </rec>
+  <rec type="FACTION_INTERNATIONAL_TRADE_ROUTES_ARRAY">
+   <rec type="INTERNATIONAL_TRADE_ROUTE">
+    <u>2</u><!-- Number Of Connections -->
+    <i>585671432</i><!-- Region ID Of Home Faction -->
+    <v2 x="0.0" y="0.0"/>
+    <u>192</u><!-- Port OR Settlement Indice Start Point (lower_louisiana) -->
+    <u>167</u><!-- Port OR Settlement Indice End Point (cherokee_territory) -->
+    <no/><!-- Trading Over Sea -->
+    <i>580126976</i><!-- Region ID Of Trading Faction -->
+    <v2 x="0.0" y="0.0"/>
+    <u>4294967295</u>
+    <u>4294967295</u>
+    <no/><!-- Trading Over Sea -->
+    <no/>
+    <u4_ary>0 2 0 0 0 0 0 0</u4_ary><!-- Commodities Quantity -->
+    <u>215</u>
+    <u>22</u>
+    <u>0</u>
+    <u>193</u>
+    <u>0</u>
+    <u>0</u>
+    <u>0</u>
+    <u4_ary>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</u4_ary><!-- Resources Quantity -->
+    <u>0</u>
+    <i>638776396</i>
+   </rec>
+   <u>638776396</u><!-- Route ID -->
+  </rec>
+ </ary>
+</rec>

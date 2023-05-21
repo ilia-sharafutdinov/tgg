@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<rec type="SETTLEMENT">
+ <rec type="SIEGEABLE_GARRISON_RESIDENCE">
+  <garrison_residence>580345112</garrison_residence><!-- Faction ID -->
+  <u>585805592</u><!-- Building Slot ID -->
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <i>0</i>
+  <no/>
+  <no/>
+  <no/>
+  <v2x x="145.02792358398438" y="387.1843566894531"/>
+  <u>581145320</u><!-- Army ID -->
+  <u4_ary/>
+  <u4_ary/><!-- Character ID Of Garrison -->
+  <rec type="LINE_OF_SIGHT">
+   <yes/>
+   <v2 x="140.0" y="381.25"/>
+   <v2 x="151.25" y="392.5"/>
+   <xml_include path="quadtree/settlement-prussia-konigsberg-0001.xml"/>
+  </rec>
+  <no/>
+  <ary type="FORTIFICATIONS_BLOCK"/>
+ </rec>
+ <loc>start_pos_settlements_onscreen_name_settlement:prussia:konigsberg96</loc>
+ <i>5</i>
+ <s>settlement:prussia:konigsberg</s><!-- DB Table Campaign_map_settlements -->
+ <i>585805592</i><!-- Settlement ID -->
+ <s>settlement:prussia:konigsberg</s><!-- DB Table Campaign_map_settlements -->
+</rec>

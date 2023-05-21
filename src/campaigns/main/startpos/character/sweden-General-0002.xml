@@ -1,0 +1,199 @@
+<?xml version="1.0"?>
+<rec type="CHARACTER_ARRAY">
+ <rec type="CHARACTER">
+  <rec type="LOCOMOTABLE">
+   <v2x x="204.9199981689453" y="421.80999755859375"/>
+   <v2x x="204.9199981689453" y="421.80999755859375"/>
+   <flt>3.1415927410125732</flt><!-- Character Facing Direction -->
+   <flt>3.1415927410125732</flt><!-- Character Facing Direction -->
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <i>26</i><!-- Movement Points Left -->
+   <i>23</i><!-- Movement Points Total -->
+   <no/>
+   <i>0</i>
+   <i>0</i>
+   <angle>0.0</angle>
+   <u>12</u>
+   <u>0</u>
+   <flt>0.0</flt>
+  </rec>
+  <rec type="CHARACTER_DETAILS">
+   <traits>
+    C_General_Scout=4
+    C_General_Defender_Bad=8
+    C_General_of_Infantry=3
+   </traits>
+   <loc>names_name_names_swedishAdam_Ludwig</loc>
+   <loc>names_name_names_swedishLewenhaupt</loc>
+   <loc/>
+   <s/><!-- Head Of State -->
+   <date>summer 1659</date>
+   <date/>
+   <i>0</i>
+   <portrait_details card="ui/portraits/european/Cards/general/young/285.tga" info="ui/portraits/european/Info/general/young/285.jpg" number="285"/>
+   <s>sweden</s>
+   <u>580951952</u><!-- Character ID -->
+   <agent_ancillaries/>
+   <agent_attributes>
+    command_land=2
+    command_sea=-1
+    duelling_pistols=-1
+    duelling_swords=-1
+    management=-1
+    subterfuge=-1
+    research=-1
+    zeal=-1
+    land_defence_engineering=-1
+    land_siege_engineering=-1
+    morale_land=1
+    morale_sea=-1
+    movement_points_land=1
+    trade=-1
+   </agent_attributes>
+   <ary type="AgentAbilities">
+    <agent_ability ability="can_assassinate" level="-1" attribute=""/>
+    <agent_ability ability="can_convert" level="-1" attribute=""/>
+    <agent_ability ability="can_build_religious" level="-1" attribute=""/>
+    <agent_ability ability="can_build_fort" level="1" attribute="command_land"/>
+    <agent_ability ability="can_sabotage" level="-1" attribute=""/>
+    <agent_ability ability="can_spy" level="-1" attribute=""/>
+    <agent_ability ability="can_duel" level="-1" attribute=""/>
+    <agent_ability ability="can_receive_duel" level="-1" attribute=""/>
+    <agent_ability ability="can_research" level="-1" attribute=""/>
+    <agent_ability ability="can_attack_land" level="1" attribute="command_land"/>
+    <agent_ability ability="can_attack_naval" level="-1" attribute=""/>
+    <agent_ability ability="can_sabotage_army" level="-1" attribute=""/>
+   </ary>
+   <agent_attribute_bonuses>
+    dummy=0
+   </agent_attribute_bonuses>
+   <no/>
+   <loc>agent_culture_details_onscreen_name_Generaleuropean</loc>
+  </rec>
+  <i>580951952</i><!-- Character ID -->
+  <s>General</s><!-- Character Type -->
+  <u>580957760</u><!-- Army ID -->
+  <u>580958440</u><!-- Unit ID -->
+  <u>0</u>
+  <u>0</u><!-- Character In Building Slot ID -->
+  <u>0</u><!-- Cabinet ID -->
+  <no/>
+  <no/><!-- Government Opposition -->
+  <v2x_ary>
+   210.2342758178711,423.0
+   210.0,423.5655975341797
+   210.0,423.8933801651001
+   209.96877098083496,423.96877098083496
+   209.8933801651001,424.0
+   209.65428733825684,424.0
+   209.38825798034668,424.6297359466553
+   209.5416259765625,425.0
+   209.41393280029297,425.3082809448242
+   209.38298797607422,425.3829879760742
+   209.0,425.5416259765625
+   208.65583419799805,425.39906883239746
+   208.1508026123047,425.6341609954834
+   208.0,425.59313678741455
+   207.4137201309204,425.4336452484131
+   206.6664457321167,424.74381160736084
+   206.55897426605225,424.18707752227783
+   206.55591106414795,424.17120838165283
+   206.55297470092773,424.1861095428467
+   206.5175323486328,424.3659973144531
+   206.0,424.2640323638916
+   204.6598720550537,424.0
+   204.6533660888672,423.99871826171875
+   204.69261264801025,423.7995271682739
+   204.31375122070312,424.0
+   204.0,424.1660203933716
+   203.16705322265625,424.6067714691162
+   203.07032203674316,424.7280282974243
+   203.03521251678467,424.4381561279297
+   202.33447647094727,424.0
+   202.1044044494629,423.85614013671875
+   202.0,423.85614013671875
+   200.59563636779785,423.85614013671875
+   200.38158798217773,424.0
+   200.2971830368042,424.0
+   200.57679843902588,423.63592052459717
+   200.05945682525635,422.4582176208496
+   200.0,422.4403715133667
+   199.87552070617676,422.40300846099854
+   199.9893684387207,422.1281518936157
+   199.906268119812,422.093731880188
+   199.8674440383911,422.0
+   199.80572891235352,421.8510055541992
+   199.641996383667,421.4557161331177
+   199.45323371887207,421.0
+   200.0,420.5772361755371
+   200.0,420.3533477783203
+   200.0,420.0
+   201.0678367614746,420.0
+   201.1451530456543,419.82836627960205
+   201.0,419.8884906768799
+   200.37174129486084,419.62825870513916
+   200.11150932312012,419.0
+   200.37174129486084,418.37174129486084
+   200.39380645751953,418.3626012802124
+   201.65483379364014,418.43589878082275
+   201.88849067687988,419.0
+   201.81388473510742,419.18011474609375
+   202.0,419.1078681945801
+   202.0,418.4559621810913
+   202.72103691101074,418.4978723526001
+   204.0,419.0231523513794
+   204.10336589813232,419.0656051635742
+   205.0329418182373,419.0155916213989
+   206.0,418.9383354187012
+   207.63526916503906,418.8076982498169
+   207.9262342453003,418.7844533920288
+   208.0,418.6890859603882
+   208.0,419.1398448944092
+   208.40230655670166,419.30466651916504
+   208.27610969543457,419.0
+   208.48813152313232,418.4881315231323
+   209.0,418.27610969543457
+   209.51186847686768,418.4881315231323
+   209.6151580810547,418.7374963760376
+   209.72389030456543,419.0
+   209.51186847686768,419.5118684768677
+   209.0,419.72389030456543
+   208.74269008636475,419.6173095703125
+   208.69646739959717,419.5981636047363
+   208.7043981552124,419.6173095703125
+   208.86291217803955,420.0
+   210.0,420.0
+   210.0,421.0293188095093
+   210.0,422.0
+   209.96201992034912,422.0
+   209.9277000427246,422.01421642303467
+   209.96877098083496,422.03122901916504
+   210.0,422.1066198348999
+   210.0,422.45127964019775
+  </v2x_ary>
+  <rec type="LINE_OF_SIGHT">
+   <yes/>
+   <v2 x="193.75" y="411.25"/>
+   <v2 x="215.0" y="432.5"/>
+   <xml_include path="quadtree/sweden-General-0002.xml"/>
+  </rec>
+  <no/>
+  <u>0</u>
+  <no/>
+  <flt>10.0</flt><!-- 10 - Land Leader / 15 - Navy Leader -->
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <no/>
+  <no/>
+  <u>0</u>
+  <no/>
+  <u>0</u>
+  <no/>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+ </rec>
+</rec>

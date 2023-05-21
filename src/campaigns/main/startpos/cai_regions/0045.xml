@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<rec type="CAI_WORLD_REGIONS">
+ <owned_indirect>1543</owned_indirect><!-- CAI_WORLD_REGIONS = Settlement AI ID. CAI_WORLD_REGION_SLOTS = Region AI ID. CAI_WORLD_CHARACTERS = Faction AI ID -->
+ <rec type="CAI_BDI_COMPONENT_PROPERTY_SET">
+  <u>0</u>
+ </rec>
+ <u>530</u><!-- Region AI ID -->
+ <flt>100.0</flt>
+ <flt>100.0</flt>
+ <flt>0.0</flt>
+ <flt>100.0</flt>
+ <u>1</u>
+ <no/>
+ <u4_ary/>
+ <u4_ary>11184 0 11329 0 11332 0 15962 0 20805 0 20892 0 25179 0 29671 0 31332 0 35092 0 42602 0 46616 0 47421 0 55781 0 57731 0 60801 0 62548 0 77067 0 77230 0 77231 0 77285 0 78641 0 78670 0 78671 0 78672 0 78673 0 78674 0 78643 1 78745 0 78747 0 79308 0</u4_ary><!-- BDI Information -->
+ <u>0</u>
+ <u>31</u>
+ <u4_ary/>
+ <u4_ary>11184 7863 11329 7882 11332 4 15962 14784 20805 19739 20892 19758 25179 22843 29671 15 31332 29195 35092 34226 42602 41866 46616 45216 47421 46905 55781 54271 57731 56131 60801 60162 62548 61951 77067 76919 77230 76920 77231 76936 77285 78641 78670 78671 78672 78673 78674 78643 78745 76927 78747 76925 79308 78766</u4_ary><!-- BDI Information -->
+ <ary type="CAI_BDI_COMPONENT_BLOCK_OWNS"/>
+ <u>0</u>
+ <u>0</u>
+ <u4_ary/>
+ <u4_ary/>
+ <u4_ary/>
+ <u4_ary>7381 7362 11185 11184 11332 11334 11336 11338 15962 20805 25179 29672 31332 35092 42602 46616 47421 55781 57731 60801 62548 77067 77229 77311 77354 78670 78671 78672 78673 78674 78745 77285 78747 79308</u4_ary><!-- BDI Information -->
+ <no/>
+ <u>0</u>
+ <no/>
+ <rec type="CAI_REGION">
+  <u4_ary>34</u4_ary><!-- Theatre IDs -->
+  <u4_ary>531 532</u4_ary><!-- HLCIS IDs -->
+  <u>1543</u><!-- Settlement AI ID -->
+  <u4_ary>1545 1547 1549 1551 1553</u4_ary><!-- Region Slot AI IDs Of Region Slots In This Region -->
+  <flt>70.37781</flt><!-- X Coordinate -->
+  <flt>261.40424</flt><!-- Y Coordinate -->
+  <u4_ary/>
+  <u4_ary>6964 6980 6981</u4_ary><!-- Boundary IDs -->
+  <yes/>
+  <u4_ary>6834</u4_ary><!-- Character Resource AI IDs -->
+  <s>tunis</s><!-- Region Name -->
+  <u>585839272</u><!-- Region ID -->
+  <u>7508</u><!-- Governor AI ID -->
+  <u4_ary/><!-- Faction AI IDs -->
+ </rec>
+</rec>

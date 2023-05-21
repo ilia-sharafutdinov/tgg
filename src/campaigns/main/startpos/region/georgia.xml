@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<rec type="REGION">
+ <s>georgia</s><!-- Region Name -->
+ <xml_include path="population/georgia.xml"/>
+ <traits/>
+ <rec type="REGION_SLOT_MANAGER">
+  <ary type="REGION_SLOT_ARRAY">
+   <xml_include path="region_slot/settlement-georgia-tbilisi-settlement_minor.xml"/>
+   <xml_include path="region_slot/sheep-georgia-mingrelia.xml"/>
+   <xml_include path="region_slot/fur-georgia-dusheti.xml"/>
+   <xml_include path="region_slot/port-georgia-batomi.xml"/>
+   <xml_include path="region_slot/town-georgia-suhumkale.xml"/>
+  </ary>
+  <xml_include path="region_slot/georgia-road.xml"/>
+  <xml_include path="region_slot/georgia-walls.xml"/>
+ </rec>
+ <i>586514312</i><!-- Region ID -->
+ <xml_include path="region_slot/settlement-georgia-tbilisi.xml"/>
+ <u>0</u>
+ <no/>
+ <no/>
+ <u>250</u><!-- Subsistence Agricultural (SA) -->
+ <u>450</u><!-- Industrial Wealth Plus (SA) -->
+ <u>450</u><!-- Industrial Wealth Plus (SA) Minus Trading Losses -->
+ <u>250</u><!-- Town Wealth -->
+ <u>250</u><!-- Minimum Town Wealth -->
+ <u>250</u><!-- Town Wealth -->
+ <i>-8</i><!-- Town Monetary Growth -->
+ <u>0</u>
+ <u>0</u>
+ <no/><!-- Exempt From Tax -->
+ <u>582699544</u><!-- Controlling Faction ID -->
+ <rec type="LINE_OF_SIGHT">
+  <yes/>
+  <v2 x="272.5" y="278.75"/>
+  <v2 x="338.75" y="322.5"/>
+  <xml_include path="quadtree/georgia-0001.xml"/>
+ </rec>
+ <u>586522392</u><!-- Governor ID -->
+ <s>europe</s><!-- Theatre -->
+ <s>georgia</s><!-- Emergent Nation -->
+ <s>Georgian Rebels</s><!-- Region Rebels -->
+ <s>sc_european_east</s><!-- Region Culture For Types Of Buildings -->
+ <rec type="REGION_RECRUITMENT_MANAGER">
+  <ary type="REGION_RECRUITMENT_ITEM_ARRAY"/>
+  <no/>
+  <i>586522544</i>
+ </rec>
+ <no/>
+ <u4_ary>0 0 0 0 0 0 0 0</u4_ary>
+ <u4_ary>0 0 0 0 0 0 0 0</u4_ary>
+ <u4_ary>0 0 0 0 0 0 0 0</u4_ary>
+ <u4_ary>112 304 399 65 256 248 256 160</u4_ary>
+ <bool_ary>0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</bool_ary>
+ <i4_ary/>
+ <ary type="RELIGIOUS_MISSION_BUILDING_ARRAY"/>
+ <ary type="FORT_ARRAY"/>
+ <resources_array>
+  middle_east_and_europe
+  tatars
+  galleys
+  europe
+  global
+  middle_east
+ </resources_array>
+ <s/><!-- Latest Constuction -->
+ <u>10</u><!-- One Of These 5/10/15/20/25/30/40 Amount Of Prestige When Conquered -->
+ <u>4218418516</u><!-- Region Array. From Top To Bottom. 1st 62 Regions 881206575. 2nd 15 Regions 1771634741. 3rd 32 Regions 1928099569. 4th 28 Regions 688200897. Why???? -->
+ <loc>regions_onscreen_georgia</loc>
+ <flt>-0.0013270393246784806</flt>
+</rec>

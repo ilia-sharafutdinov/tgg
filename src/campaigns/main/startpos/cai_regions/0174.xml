@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<rec type="CAI_WORLD_REGIONS">
+ <owned_indirect>3253</owned_indirect><!-- CAI_WORLD_REGIONS = Settlement AI ID. CAI_WORLD_REGION_SLOTS = Region AI ID. CAI_WORLD_CHARACTERS = Faction AI ID -->
+ <rec type="CAI_BDI_COMPONENT_PROPERTY_SET">
+  <u>0</u>
+ </rec>
+ <u>1107</u><!-- Region AI ID -->
+ <flt>100.0</flt>
+ <flt>100.0</flt>
+ <flt>0.0</flt>
+ <flt>100.0</flt>
+ <u>1</u>
+ <no/>
+ <u4_ary/>
+ <u4_ary>8578 0 12860 0 14127 0 15902 0 20374 0 20486 0 25108 0 31243 0 34988 0 38638 0 38796 0 39749 0 42505 0 46516 0 47316 0 55681 0 57631 0 59530 0 59531 0 59533 0 59705 0 60115 0 60116 0 60117 0 60118 0 60119 0 59735 1 60147 0 59723 1 60150 0 59727 1 60696 0 62443 0 77437 0 79202 0</u4_ary><!-- BDI Information -->
+ <u>0</u>
+ <u>35</u>
+ <u4_ary/>
+ <u4_ary>8578 14 12860 7863 14127 4 15902 14784 20374 19739 20486 19758 25108 22843 31243 29195 34988 34226 38638 38478 38796 15 39749 39354 42505 41866 46516 45216 47316 46905 55681 54271 57631 56131 59530 59409 59531 59425 59533 59408 59705 60115 60116 60117 60118 60119 59735 60147 59416 59723 60150 59414 59727 60696 60162 62443 61951 77437 76919 79202 78766</u4_ary><!-- BDI Information -->
+ <ary type="CAI_BDI_COMPONENT_BLOCK_OWNS"/>
+ <u>0</u>
+ <u>0</u>
+ <u4_ary/>
+ <u4_ary/>
+ <u4_ary/>
+ <u4_ary>7445 7448 7447 7433 7430 8578 12861 12860 14127 14129 14131 15902 20374 25108 31243 34988 38638 38797 39749 40380 42505 46516 47316 55681 57631 59529 59533 59731 59705 59738 59741 59742 60115 60116 60117 60118 60119 60147 60150 60696 62443 77437 79202</u4_ary><!-- BDI Information -->
+ <no/>
+ <u>0</u>
+ <no/>
+ <rec type="CAI_REGION">
+  <u4_ary>33</u4_ary><!-- Theatre IDs -->
+  <u4_ary>1108 1109</u4_ary><!-- HLCIS IDs -->
+  <u>3253</u><!-- Settlement AI ID -->
+  <u4_ary>3255 3257 3259 3261</u4_ary><!-- Region Slot AI IDs Of Region Slots In This Region -->
+  <flt>-699.59998</flt><!-- X Coordinate -->
+  <flt>208.64996</flt><!-- Y Coordinate -->
+  <u4_ary/>
+  <u4_ary>7274 7276 7286 7287</u4_ary><!-- Boundary IDs -->
+  <yes/>
+  <u4_ary>6065 6528</u4_ary><!-- Character Resource AI IDs -->
+  <s>tejas</s><!-- Region Name -->
+  <u>585856016</u><!-- Region ID -->
+  <u>7496</u><!-- Governor AI ID -->
+  <u4_ary>1277</u4_ary><!-- Faction AI IDs -->
+ </rec>
+</rec>

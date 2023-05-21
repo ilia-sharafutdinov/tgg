@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<rec type="CAI_WORLD_REGIONS">
+ <owned_indirect>2260</owned_indirect><!-- CAI_WORLD_REGIONS = Settlement AI ID. CAI_WORLD_REGION_SLOTS = Region AI ID. CAI_WORLD_CHARACTERS = Faction AI ID -->
+ <rec type="CAI_BDI_COMPONENT_PROPERTY_SET">
+  <u>0</u>
+ </rec>
+ <u>779</u><!-- Region AI ID -->
+ <flt>100.0</flt>
+ <flt>100.0</flt>
+ <flt>0.0</flt>
+ <flt>100.0</flt>
+ <u>1</u>
+ <no/>
+ <u4_ary/>
+ <u4_ary>8345 0 12927 0 13310 0 16062 0 17857 0 18031 0 18251 0 18252 0 18271 0 18496 0 18498 0 18662 0 19580 0 19581 0 19582 0 19583 0 19584 0 19710 0 21558 0 25243 0 26068 0 27618 0 27624 0 27858 0 29056 1 31380 0 35225 0 42716 0 46708 0 47552 0 55876 0 57822 0 60905 0 62663 0 64804 0 74153 0 77662 0 79456 0</u4_ary><!-- BDI Information -->
+ <u>0</u>
+ <u>38</u>
+ <u4_ary/>
+ <u4_ary>8345 14 12927 7863 13310 4 16062 14784 17857 15 18031 17717 18251 17718 18252 17734 18271 17732 18496 18498 17723 18662 19580 19581 19582 19583 19584 19710 17725 21558 19739 25243 22843 26068 25847 27618 27374 27624 27625 27858 27393 29056 31380 29195 35225 34226 42716 41866 46708 45216 47552 46905 55876 54271 57822 56131 60905 60162 62663 61951 64804 64593 74153 73965 77662 76919 79456 78766</u4_ary><!-- BDI Information -->
+ <ary type="CAI_BDI_COMPONENT_BLOCK_OWNS"/>
+ <u>0</u>
+ <u>0</u>
+ <u4_ary/>
+ <u4_ary/>
+ <u4_ary/>
+ <u4_ary>7399 7412 7411 7406 8345 12928 12927 13310 13312 13314 16062 17761 17858 18031 18250 18466 18491 18498 18692 18662 19496 19580 19581 19582 19583 19584 19710 21558 25243 26068 26382 27418 27618 27624 29056 31380 35225 42716 46708 47552 55876 57822 60905 62663 64804 74153 77662 79456</u4_ary><!-- BDI Information -->
+ <no/>
+ <u>0</u>
+ <no/>
+ <rec type="CAI_REGION">
+  <u4_ary>34</u4_ary><!-- Theatre IDs -->
+  <u4_ary>780 781 782 783 784</u4_ary><!-- HLCIS IDs -->
+  <u>2260</u><!-- Settlement AI ID -->
+  <u4_ary>2262 2264 2266 2268</u4_ary><!-- Region Slot AI IDs Of Region Slots In This Region -->
+  <flt>102.67601</flt><!-- X Coordinate -->
+  <flt>357.25296</flt><!-- Y Coordinate -->
+  <u4_ary/>
+  <u4_ary>7067 7083 7091 7115 7116 7117</u4_ary><!-- Boundary IDs -->
+  <no/>
+  <u4_ary/><!-- Character Resource AI IDs -->
+  <s>bohemia</s><!-- Region Name -->
+  <u>586643928</u><!-- Region ID -->
+  <u>7465</u><!-- Governor AI ID -->
+  <u4_ary>1280</u4_ary><!-- Faction AI IDs -->
+ </rec>
+</rec>

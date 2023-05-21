@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<rec type="REGION">
+ <s>bashkira</s><!-- Region Name -->
+ <xml_include path="population/bashkira.xml"/>
+ <traits/>
+ <rec type="REGION_SLOT_MANAGER">
+  <ary type="REGION_SLOT_ARRAY">
+   <xml_include path="region_slot/settlement-bashkira-ufa-settlement_minor.xml"/>
+   <xml_include path="region_slot/sheep-bashkira-orenburg.xml"/>
+   <xml_include path="region_slot/wheat-bashkira-togliatti.xml"/>
+   <xml_include path="region_slot/fur-bashkira-urals.xml"/>
+   <xml_include path="region_slot/town-bashkira-orenburg.xml"/>
+  </ary>
+  <xml_include path="region_slot/bashkira-road.xml"/>
+  <xml_include path="region_slot/bashkira-walls.xml"/>
+ </rec>
+ <i>586221512</i><!-- Region ID -->
+ <xml_include path="region_slot/settlement-bashkira-ufa.xml"/>
+ <u>0</u>
+ <no/>
+ <no/>
+ <u>125</u><!-- Subsistence Agricultural (SA) -->
+ <u>159</u><!-- Industrial Wealth Plus (SA) -->
+ <u>159</u><!-- Industrial Wealth Plus (SA) Minus Trading Losses -->
+ <u>0</u><!-- Town Wealth -->
+ <u>0</u><!-- Minimum Town Wealth -->
+ <u>0</u><!-- Town Wealth -->
+ <i>-8</i><!-- Town Monetary Growth -->
+ <u>0</u>
+ <u>0</u>
+ <no/><!-- Exempt From Tax -->
+ <u>581507672</u><!-- Controlling Faction ID -->
+ <rec type="LINE_OF_SIGHT">
+  <yes/>
+  <v2 x="341.25" y="355.0"/>
+  <v2 x="437.5" y="417.5"/>
+  <xml_include path="quadtree/bashkira-0001.xml"/>
+ </rec>
+ <u>585526040</u><!-- Governor ID -->
+ <s>europe</s><!-- Theatre -->
+ <s>cossack_rebels</s><!-- Emergent Nation -->
+ <s>Bashkiri Rebels</s><!-- Region Rebels -->
+ <s>sc_european_east</s><!-- Region Culture For Types Of Buildings -->
+ <rec type="REGION_RECRUITMENT_MANAGER">
+  <ary type="REGION_RECRUITMENT_ITEM_ARRAY"/>
+  <no/>
+  <i>585683528</i>
+ </rec>
+ <no/>
+ <u4_ary>0 0 0 0 0 0 0 0</u4_ary>
+ <u4_ary>0 0 0 0 0 0 0 0</u4_ary>
+ <u4_ary>0 0 0 0 0 0 0 19</u4_ary>
+ <u4_ary>28 82 110 14 69 69 69 41</u4_ary>
+ <bool_ary>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</bool_ary>
+ <i4_ary/>
+ <ary type="RELIGIOUS_MISSION_BUILDING_ARRAY"/>
+ <ary type="FORT_ARRAY"/>
+ <resources_array>
+  europe
+  middle_east_and_europe
+  global
+  russia_home_regions
+  steppes
+ </resources_array>
+ <s/><!-- Latest Constuction -->
+ <u>5</u><!-- One Of These 5/10/15/20/25/30/40 Amount Of Prestige When Conquered -->
+ <u>4218418516</u><!-- Region Array. From Top To Bottom. 1st 62 Regions 881206575. 2nd 15 Regions 1771634741. 3rd 32 Regions 1928099569. 4th 28 Regions 688200897. Why???? -->
+ <loc>regions_onscreen_bashkira</loc>
+ <flt>-0.0013270393246784806</flt>
+</rec>

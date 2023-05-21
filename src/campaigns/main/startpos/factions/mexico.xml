@@ -1,0 +1,198 @@
+<?xml version="1.0"?>
+<rec type="FACTION">
+ <ancillary_uniqueness_monitor/>
+ <rec type="CAMPAIGN_PLAYER_SETUP">
+  <victory_conditions year="0" region_count="0" prestige_victory="no" campaign_type="4 (Unplayable)"/>
+  <rec type="CAMPAIGN_PLAYER_SETUP_INGAME_MODIFIABLES">
+   <i>0</i>
+   <i>0</i>
+   <i>0</i>
+   <no/>
+  </rec>
+  <s>mexico</s>
+  <no/>
+  <no/><!-- Playable -->
+  <no/>
+ </rec>
+ <rec type="FACTION_ECONOMICS">
+  <ary type="history">
+   <rec type="history">
+    <rec type="ECONOMICS_DATA">
+     <i4_ary>0 0 0 0 0</i4_ary>
+     <i4_ary>0 0 0</i4_ary>
+     <i4_ary>0 0 0 1750</i4_ary>
+     <i4_ary>0</i4_ary>
+     <i4_ary>0 0 0 0 0</i4_ary>
+     <i4_ary>0 0 0 0 0 0 0</i4_ary>
+    </rec>
+   </rec>
+  </ary>
+  <i>7500</i>
+  <bin6>01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01</bin6>
+  <u>0</u>
+ </rec>
+ <xml_include path="diplomacy/mexico.xml"/>
+ <rec type="ARMY_REINFORCEMENT_MANAGER">
+  <ary type="CHARACTER_REINFORCEMENTS_ARRAY"/>
+  <ary type="UNIT_REINFORCEMENTS_ARRAY"/>
+ </rec>
+ <xml_include path="government/mexico-gov_absolute_monarchy.xml"/>
+ <xml_include path="family/mexico.xml"/>
+ <i>585159200</i><!-- Faction ID -->
+ <s>mexico</s><!-- Faction Name -->
+ <s>México</s><!-- On Screen Name -->
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>243</u>
+  <u>2450685319</u>
+  <u2_ary>202 171 92 96 236 59 103 232 28 230 88 165 184 50 130 6 53 31 174 189 86 219 200 70 162 156 206 216 118 102 117 221 20 112 239 180 27 14 97 155 192 81 18 177 169 141 105 9 101 157 226 201 179 158 91 186 80 173 167 135 83 42 78 29 36 136 154 49 178 44 127 242 218 160 2 3 237 62 140 57 48 191 63 40 68 33 119 132 61 144 115 32 241 93 10 143 203 224 56 64 89 17 109 168 22 199 133 46 87 90 0 11 182 197 228 116 66 72 214 74 193 128 23 139 240 47 95 58 5 41 107 188 181 60 79 134 238 30 114 138 215 77 235 210 126 209 163 99 149 125 21 7 8 190 51 196 13 98 45 195 15 231 212 82 108 65 145 176 217 19 152 233 67 183 124 227 43 55 54 234 110 76 37 146 208 213 187 207 150 35 39 75 220 229 223 73 71 205 84 69 185 170 121 211 164 131 194 34 151 25 148 120 161 129 204 106 153 100 12 104 159 26 4 175 172 94 52 24 222 1 142 137 113 85</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>92</u>
+  <u>199387761</u>
+  <u2_ary>60 9 1 40 57 12 80 63 29 22 19 91 47 44 90 49 61 59 79 71 50 31 81 77 87 75 76 64 2 73 15 32 48 17 46 54 62 55 51 38 52 65 21 27 67 4 58 33 30 34 8 72 6 74 23 42 10 69 20 84 68 3 37 70 11 89 28 83 7 24 0 43 41 39 56 5 18 16 25 14 45 85 86 35 26 82 13 88 78</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>3</u>
+  <u>2814293406</u>
+  <u2_ary>0 1 2</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>119715324</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>172</u>
+  <u>4051348147</u>
+  <u2_ary>163 11 80 91 150 151 126 148 155 54 99 138 70 47 76 85 66 132 169 32 22 77 0 63 147 48 136 31 154 29 113 88 142 93 64 57 53 98 25 58 50 102 106 112 124 130 135 36 105 128 96 46 131 42 39 101 27 168 73 127 45 107 82 17 28 129 15 12 62 24 108 125 37 94 10 71 158 84 86 149 89 72 139 3 41 8 40 160 2 16 55 103 116 156 20 13 146 38 95 111 74 61 56 97 19 43 9 100 60 87 164 123 51 90 121 161 119 83 7 65 69 44 141 78 157 49 109 144 171 30 81 137 34 4 79 6 117 153 166 170 33 104 165 5 122 133 162 67 21 68 114 23 167 18 115 152 120 159 26 143 134 35 52 1 140 59 14 92 118 145 110 75</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>11</u>
+  <u>1049875423</u>
+  <u2_ary>5 8 1 2 10 4 7 3 6 9 0</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>185417315</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>81</u>
+  <u>2959394220</u>
+  <u2_ary>68 24 67 27 22 37 29 40 70 66 19 16 76 71 13 43 6 10 5 20 32 8 79 58 73 50 30 28 64 57 55 78 26 1 9 15 4 49 39 23 62 48 75 31 59 33 11 18 36 2 77 25 51 61 47 65 3 38 46 72 12 63 53 52 14 60 0 42 35 17 69 7 44 80 45 41 54 34 56 74 21</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>1518230678</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>3902823125</u>
+  <u2_ary/>
+ </rec>
+ <yes/>
+ <rec type="LAND_UNIT_NAME_ALLOCATOR">
+  <ary type="LAND_UNIT_NAMES_MAP">
+   <xml_include path="unit_name_alloc/mexico-land-0001.xml"/>
+   <xml_include path="unit_name_alloc/mexico-land-0002.xml"/>
+   <xml_include path="unit_name_alloc/mexico-land-0003.xml"/>
+   <xml_include path="unit_name_alloc/mexico-land-0004.xml"/>
+   <xml_include path="unit_name_alloc/mexico-land-0005.xml"/>
+   <xml_include path="unit_name_alloc/mexico-land-0006.xml"/>
+   <xml_include path="unit_name_alloc/mexico-land-0007.xml"/>
+   <xml_include path="unit_name_alloc/mexico-land-0008.xml"/>
+   <xml_include path="unit_name_alloc/mexico-land-0009.xml"/>
+   <xml_include path="unit_name_alloc/mexico-land-0010.xml"/>
+   <xml_include path="unit_name_alloc/mexico-land-0011.xml"/>
+   <xml_include path="unit_name_alloc/mexico-land-0012.xml"/>
+   <xml_include path="unit_name_alloc/mexico-land-0013.xml"/>
+   <xml_include path="unit_name_alloc/mexico-land-0014.xml"/>
+   <xml_include path="unit_name_alloc/mexico-land-0015.xml"/>
+   <xml_include path="unit_name_alloc/mexico-land-0016.xml"/>
+   <xml_include path="unit_name_alloc/mexico-land-0017.xml"/>
+   <xml_include path="unit_name_alloc/mexico-land-0018.xml"/>
+   <xml_include path="unit_name_alloc/mexico-land-0019.xml"/>
+   <xml_include path="unit_name_alloc/mexico-land-0020.xml"/>
+   <xml_include path="unit_name_alloc/mexico-land-0021.xml"/>
+   <xml_include path="unit_name_alloc/mexico-land-0022.xml"/>
+   <xml_include path="unit_name_alloc/mexico-land-0023.xml"/>
+  </ary>
+ </rec>
+ <yes/>
+ <xml_include path="unit_name_alloc/mexico-naval-0001.xml"/>
+ <no/><!-- True - Major, False - Minor -->
+ <ary type="CHARACTER_ARRAY"/>
+ <xml_include path="technology/mexico-mexico.xml"/>
+ <ary type="ARMY_ARRAY"/>
+ <ary type="MORGUE"/>
+ <u4_ary/><!-- Governor ID For Each Theatre -->
+ <no/>
+ <s>rel_catholic</s><!-- Religion -->
+ <no/>
+ <rec type="FORT_UPGRADE_MANAGER">
+  <ary type="FORT_UPGRADES_ARRAY"/>
+ </rec>
+ <rec type="FORT_UPGRADE_MANAGER">
+  <ary type="FORT_REPAIRS_ARRAY"/>
+ </rec>
+ <i>0</i><!-- Current Capital ID Else 0 If Faction Destroyed -->
+ <i>0</i><!-- Original Capital ID -->
+ <ary type="EXPOSED_CHARACTERS"/>
+ <no/>
+ <rec type="PRESTIGE">
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+ </rec>
+ <yes/><!-- Emergent -->
+ <u>0</u>
+ <bool_ary>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</bool_ary>
+ <i>0</i><!-- Army Upkeep -->
+ <i>0</i><!-- Navy Upkeep -->
+ <s>MAINTAINANCE</s><!-- Campaign AI Manager Behaviour (patch.pack) -->
+ <s>default</s><!-- Campaign AI Personalities (patch.pack) -->
+ <flag_and_colours path="data\ui\flags\mexico" color1="#0b4224" color2="#a40001" color3="#eecf59"/>
+ <flag_and_colours path="data\ui\flags\mexico" color1="#0b4224" color2="#a40001" color3="#eecf59"/>
+ <rec type="CAMPAIGN_BONUS_VALUES">
+  <ary type="CAMPAIGN_BONUS_VALUE_BLOCK">
+   <campaign_bonus_0 subtype="2" value="1.0" agent="Eastern_Scholar"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="rake"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="assassin"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="gentleman"/>
+  </ary>
+ </rec>
+ <rec type="CAMPAIGN_BONUS_VALUES">
+  <ary type="CAMPAIGN_BONUS_VALUE_BLOCK">
+   <campaign_bonus_0 subtype="2" value="1.0" agent="Eastern_Scholar"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="rake"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="assassin"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="gentleman"/>
+  </ary>
+ </rec>
+ <i>0</i><!-- Protectorate ID -->
+ <no/>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <no/>
+ <yes/>
+ <no/>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <no/>
+ <no/>
+ <u>0</u>
+ <no/>
+ <no/>
+</rec>

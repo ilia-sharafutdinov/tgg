@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<rec type="REGION">
+ <s>morocco</s><!-- Region Name -->
+ <xml_include path="population/morocco.xml"/>
+ <traits/>
+ <rec type="REGION_SLOT_MANAGER">
+  <ary type="REGION_SLOT_ARRAY">
+   <xml_include path="region_slot/settlement-morocco-tangier-settlement_army-admin.xml"/>
+   <xml_include path="region_slot/settlement-morocco-tangier-settlement_ordnance.xml"/>
+   <xml_include path="region_slot/settlement-morocco-tangier-settlement_government.xml"/>
+   <xml_include path="region_slot/settlement-morocco-tangier-settlement_culture.xml"/>
+   <xml_include path="region_slot/wheat-morocco-guercif.xml"/>
+   <xml_include path="region_slot/sheep-morocco-meknes.xml"/>
+   <xml_include path="region_slot/iron-morocco-imini.xml"/>
+   <xml_include path="region_slot/port-morocco-casabranca.xml"/>
+   <xml_include path="region_slot/town-morocco-fes.xml"/>
+   <xml_include path="region_slot/town-morocco-marrakech.xml"/>
+   <xml_include path="region_slot/port-morocco-agadir.xml"/>
+  </ary>
+  <xml_include path="region_slot/morocco-road.xml"/>
+  <xml_include path="region_slot/morocco-walls.xml"/>
+ </rec>
+ <i>585575768</i><!-- Region ID -->
+ <xml_include path="region_slot/settlement-morocco-tangier.xml"/>
+ <u>1</u>
+ <no/>
+ <no/>
+ <u>750</u><!-- Subsistence Agricultural (SA) -->
+ <u>2400</u><!-- Industrial Wealth Plus (SA) -->
+ <u>2400</u><!-- Industrial Wealth Plus (SA) Minus Trading Losses -->
+ <u>375</u><!-- Town Wealth -->
+ <u>375</u><!-- Minimum Town Wealth -->
+ <u>375</u><!-- Town Wealth -->
+ <i>-1</i><!-- Town Monetary Growth -->
+ <u>0</u>
+ <u>0</u>
+ <no/><!-- Exempt From Tax -->
+ <u>581675592</u><!-- Controlling Faction ID -->
+ <rec type="LINE_OF_SIGHT">
+  <yes/>
+  <v2 x="-123.75" y="158.75"/>
+  <v2 x="-1.25" y="265.0"/>
+  <xml_include path="quadtree/morocco-0001.xml"/>
+ </rec>
+ <u>585595336</u><!-- Governor ID -->
+ <s>europe</s><!-- Theatre -->
+ <s>morocco</s><!-- Emergent Nation -->
+ <s>Moroccan Rebels</s><!-- Region Rebels -->
+ <s>sc_mideast_islamic</s><!-- Region Culture For Types Of Buildings -->
+ <rec type="REGION_RECRUITMENT_MANAGER">
+  <ary type="REGION_RECRUITMENT_ITEM_ARRAY"/>
+  <no/>
+  <i>585595488</i>
+ </rec>
+ <no/>
+ <u4_ary>0 0 0 0 0 0 0 0</u4_ary>
+ <u4_ary>0 0 0 0 0 0 0 0</u4_ary>
+ <u4_ary>0 0 0 0 0 0 0 0</u4_ary>
+ <u4_ary>545 1592 2116 283 1330 1320 1330 807</u4_ary>
+ <bool_ary>0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1</bool_ary>
+ <i4_ary/>
+ <ary type="RELIGIOUS_MISSION_BUILDING_ARRAY"/>
+ <ary type="FORT_ARRAY"/>
+ <resources_array>
+  camels
+  dahomey
+  desert
+  colonial_euro_factions
+  global
+  med_coast
+  north_africa
+  galleys
+  africa_west_indies
+ </resources_array>
+ <s/><!-- Latest Constuction -->
+ <u>10</u><!-- One Of These 5/10/15/20/25/30/40 Amount Of Prestige When Conquered -->
+ <u>4218418516</u><!-- Region Array. From Top To Bottom. 1st 62 Regions 881206575. 2nd 15 Regions 1771634741. 3rd 32 Regions 1928099569. 4th 28 Regions 688200897. Why???? -->
+ <loc>regions_onscreen_morocco</loc>
+ <flt>-0.0013270393246784806</flt>
+</rec>

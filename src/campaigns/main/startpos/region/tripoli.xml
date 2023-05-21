@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<rec type="REGION">
+ <s>tripoli</s><!-- Region Name -->
+ <xml_include path="population/tripoli.xml"/>
+ <traits/>
+ <rec type="REGION_SLOT_MANAGER">
+  <ary type="REGION_SLOT_ARRAY">
+   <xml_include path="region_slot/settlement-tripoli-tripoli-settlement_minor.xml"/>
+   <xml_include path="region_slot/town-tripoli-misratah.xml"/>
+   <xml_include path="region_slot/port-tripoli-surt.xml"/>
+   <xml_include path="region_slot/town-tripoli-benghazi.xml"/>
+  </ary>
+  <xml_include path="region_slot/tripoli-road.xml"/>
+  <xml_include path="region_slot/tripoli-walls.xml"/>
+ </rec>
+ <i>585690280</i><!-- Region ID -->
+ <xml_include path="region_slot/settlement-tripoli-tripoli.xml"/>
+ <u>1</u>
+ <no/>
+ <no/>
+ <u>0</u><!-- Subsistence Agricultural (SA) -->
+ <u>200</u><!-- Industrial Wealth Plus (SA) -->
+ <u>200</u><!-- Industrial Wealth Plus (SA) Minus Trading Losses -->
+ <u>0</u><!-- Town Wealth -->
+ <u>0</u><!-- Minimum Town Wealth -->
+ <u>0</u><!-- Town Wealth -->
+ <i>-5</i><!-- Town Monetary Growth -->
+ <u>0</u>
+ <u>0</u>
+ <no/><!-- Exempt From Tax -->
+ <u>585298704</u><!-- Controlling Faction ID -->
+ <rec type="LINE_OF_SIGHT">
+  <yes/>
+  <v2 x="73.75" y="185.0"/>
+  <v2 x="180.0" y="245.0"/>
+  <xml_include path="quadtree/tripoli-0001.xml"/>
+ </rec>
+ <u>585697456</u><!-- Governor ID -->
+ <s>europe</s><!-- Theatre -->
+ <s>barbary_states</s><!-- Emergent Nation -->
+ <s>Libyan Rebels</s><!-- Region Rebels -->
+ <s>sc_mideast_islamic</s><!-- Region Culture For Types Of Buildings -->
+ <rec type="REGION_RECRUITMENT_MANAGER">
+  <ary type="REGION_RECRUITMENT_ITEM_ARRAY"/>
+  <no/>
+  <i>585697608</i>
+ </rec>
+ <no/>
+ <u4_ary>0 0 0 0 0 0 0 0</u4_ary>
+ <u4_ary>0 0 0 0 0 0 0 0</u4_ary>
+ <u4_ary>0 0 0 0 0 0 0 0</u4_ary>
+ <u4_ary>44 132 176 22 110 110 110 66</u4_ary>
+ <bool_ary>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</bool_ary>
+ <i4_ary/>
+ <ary type="RELIGIOUS_MISSION_BUILDING_ARRAY"/>
+ <ary type="FORT_ARRAY"/>
+ <resources_array>
+  desert
+  med_coast
+  camels
+  north_africa
+  africa_west_indies
+  galleys
+  colonial_euro_factions
+  global
+ </resources_array>
+ <s/><!-- Latest Constuction -->
+ <u>10</u><!-- One Of These 5/10/15/20/25/30/40 Amount Of Prestige When Conquered -->
+ <u>4218418516</u><!-- Region Array. From Top To Bottom. 1st 62 Regions 881206575. 2nd 15 Regions 1771634741. 3rd 32 Regions 1928099569. 4th 28 Regions 688200897. Why???? -->
+ <loc>regions_onscreen_tripoli</loc>
+ <flt>-0.0013270393246784806</flt>
+</rec>

@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<rec type="CAI_WORLD_REGIONS">
+ <owned_indirect>3080</owned_indirect><!-- CAI_WORLD_REGIONS = Settlement AI ID. CAI_WORLD_REGION_SLOTS = Region AI ID. CAI_WORLD_CHARACTERS = Faction AI ID -->
+ <rec type="CAI_BDI_COMPONENT_PROPERTY_SET">
+  <u>0</u>
+ </rec>
+ <u>1043</u><!-- Region AI ID -->
+ <flt>100.0</flt>
+ <flt>100.0</flt>
+ <flt>0.0</flt>
+ <flt>100.0</flt>
+ <u>1</u>
+ <no/>
+ <u4_ary/>
+ <u4_ary>12841 0 13993 0 15870 0 20292 0 20311 0 25089 0 31211 0 34953 0 39473 0 39565 0 39726 0 39727 0 39808 0 40419 0 40420 0 40421 0 40422 0 40423 0 39837 1 40532 0 39826 1 40540 0 39830 1 42470 0 46481 0 47281 0 55646 0 57596 0 60661 0 62408 0 77402 0 79171 0</u4_ary><!-- BDI Information -->
+ <u>0</u>
+ <u>32</u>
+ <u4_ary/>
+ <u4_ary>12841 7863 13993 4 15870 14784 20292 19739 20311 19758 25089 22843 31211 29195 34953 34226 39473 15 39565 39354 39726 39355 39727 39371 39808 40419 40420 40421 40422 40423 39837 40532 39362 39826 40540 39360 39830 42470 41866 46481 45216 47281 46905 55646 54271 57596 56131 60661 60162 62408 61951 77402 76919 79171 78766</u4_ary><!-- BDI Information -->
+ <ary type="CAI_BDI_COMPONENT_BLOCK_OWNS"/>
+ <u>0</u>
+ <u>0</u>
+ <u4_ary/>
+ <u4_ary/>
+ <u4_ary/>
+ <u4_ary>7433 7430 12842 12841 13993 13995 13997 13999 15870 20292 25089 31211 34953 39474 39565 39725 39834 39808 39994 40419 40420 40421 40422 40423 40532 40540 42470 46481 47281 55646 57596 60661 62408 77402 79171</u4_ary><!-- BDI Information -->
+ <no/>
+ <u>0</u>
+ <no/>
+ <rec type="CAI_REGION">
+  <u4_ary>33</u4_ary><!-- Theatre IDs -->
+  <u4_ary>1044 1045 1046 1047 1048 1049 1050</u4_ary><!-- HLCIS IDs -->
+  <u>3080</u><!-- Settlement AI ID -->
+  <u4_ary>3082 3084 3086 3088 3090 3092</u4_ary><!-- Region Slot AI IDs Of Region Slots In This Region -->
+  <flt>-475.28033</flt><!-- X Coordinate -->
+  <flt>72.91182</flt><!-- Y Coordinate -->
+  <u4_ary/>
+  <u4_ary>7251 7268</u4_ary><!-- Boundary IDs -->
+  <yes/>
+  <u4_ary>6067</u4_ary><!-- Character Resource AI IDs -->
+  <s>new_andalusia</s><!-- Region Name -->
+  <u>586156376</u><!-- Region ID -->
+  <u>7479</u><!-- Governor AI ID -->
+  <u4_ary>1274</u4_ary><!-- Faction AI IDs -->
+ </rec>
+</rec>

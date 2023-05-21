@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<rec type="SETTLEMENT">
+ <rec type="SIEGEABLE_GARRISON_RESIDENCE">
+  <garrison_residence>580473672</garrison_residence><!-- Faction ID -->
+  <u>587241040</u><!-- Building Slot ID -->
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <i>0</i>
+  <no/>
+  <no/>
+  <no/>
+  <v2x x="122.53782653808594" y="343.7196044921875"/>
+  <u>580589816</u><!-- Army ID -->
+  <u4_ary/>
+  <u4_ary/><!-- Character ID Of Garrison -->
+  <rec type="LINE_OF_SIGHT">
+   <yes/>
+   <v2 x="117.5" y="337.5"/>
+   <v2 x="128.75" y="348.75"/>
+   <xml_include path="quadtree/settlement-hungary-pressburg-0001.xml"/>
+  </rec>
+  <no/>
+  <ary type="FORTIFICATIONS_BLOCK"/>
+ </rec>
+ <loc>start_pos_settlements_onscreen_name_settlement:hungary:pressburg77</loc>
+ <i>3</i>
+ <s>settlement:hungary:pressburg</s><!-- DB Table Campaign_map_settlements -->
+ <i>587241040</i><!-- Settlement ID -->
+ <s>settlement:hungary:pressburg</s><!-- DB Table Campaign_map_settlements -->
+</rec>

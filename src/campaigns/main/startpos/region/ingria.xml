@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<rec type="REGION">
+ <s>ingria</s><!-- Region Name -->
+ <xml_include path="population/ingria.xml"/>
+ <traits/>
+ <rec type="REGION_SLOT_MANAGER">
+  <ary type="REGION_SLOT_ARRAY">
+   <xml_include path="region_slot/settlement-ingria-st_petersburg-settlement_army-admin.xml"/>
+   <xml_include path="region_slot/settlement-ingria-st_petersburg-settlement_government.xml"/>
+   <xml_include path="region_slot/settlement-ingria-st_petersburg-settlement_culture.xml"/>
+   <xml_include path="region_slot/settlement-ingria-st_petersburg-settlement_navy-admin.xml"/>
+   <xml_include path="region_slot/settlement-ingria-st_petersburg-settlement_ordnance.xml"/>
+   <xml_include path="region_slot/wheat-ingria-central.xml"/>
+   <xml_include path="region_slot/timber-ingria-st_petersburg.xml"/>
+   <xml_include path="region_slot/port-ingria-staraya_ladoga.xml"/>
+   <xml_include path="region_slot/port-ingria-kronstadt.xml"/>
+   <xml_include path="region_slot/town-ingria-luga.xml"/>
+  </ary>
+  <xml_include path="region_slot/ingria-road.xml"/>
+  <xml_include path="region_slot/ingria-walls.xml"/>
+ </rec>
+ <i>587052376</i><!-- Region ID -->
+ <xml_include path="region_slot/settlement-ingria-st_petersburg.xml"/>
+ <u>1</u>
+ <no/>
+ <no/>
+ <u>250</u><!-- Subsistence Agricultural (SA) -->
+ <u>875</u><!-- Industrial Wealth Plus (SA) -->
+ <u>875</u><!-- Industrial Wealth Plus (SA) Minus Trading Losses -->
+ <u>500</u><!-- Town Wealth -->
+ <u>500</u><!-- Minimum Town Wealth -->
+ <u>500</u><!-- Town Wealth -->
+ <i>-6</i><!-- Town Monetary Growth -->
+ <u>0</u>
+ <u>0</u>
+ <no/><!-- Exempt From Tax -->
+ <u>581863440</u><!-- Controlling Faction ID -->
+ <rec type="LINE_OF_SIGHT">
+  <yes/>
+  <v2 x="185.0" y="406.25"/>
+  <v2 x="242.5" y="438.75"/>
+  <xml_include path="quadtree/ingria-0001.xml"/>
+ </rec>
+ <u>585828520</u><!-- Governor ID -->
+ <s>europe</s><!-- Theatre -->
+ <s>slavic_rebels</s><!-- Emergent Nation -->
+ <s>Ingrian Rebels</s><!-- Region Rebels -->
+ <s>sc_european_north</s><!-- Region Culture For Types Of Buildings -->
+ <rec type="REGION_RECRUITMENT_MANAGER">
+  <ary type="REGION_RECRUITMENT_ITEM_ARRAY"/>
+  <no/>
+  <i>587060392</i>
+ </rec>
+ <no/>
+ <u4_ary>0 0 0 0 0 0 0 0</u4_ary>
+ <u4_ary>0 0 0 0 0 0 0 0</u4_ary>
+ <u4_ary>0 0 0 0 0 0 0 0</u4_ary>
+ <u4_ary>212 588 775 118 493 481 493 306</u4_ary>
+ <bool_ary>0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0</bool_ary>
+ <i4_ary/>
+ <ary type="RELIGIOUS_MISSION_BUILDING_ARRAY"/>
+ <ary type="FORT_ARRAY"/>
+ <resources_array>
+  sweden_home_regions
+  global
+  europe
+  galleys
+ </resources_array>
+ <s/><!-- Latest Constuction -->
+ <u>10</u><!-- One Of These 5/10/15/20/25/30/40 Amount Of Prestige When Conquered -->
+ <u>1605441764</u><!-- Region Array. From Top To Bottom. 1st 62 Regions 881206575. 2nd 15 Regions 1771634741. 3rd 32 Regions 1928099569. 4th 28 Regions 688200897. Why???? -->
+ <loc>regions_onscreen_ingria</loc>
+ <flt>-0.0013270393246784806</flt>
+</rec>

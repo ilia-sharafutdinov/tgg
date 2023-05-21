@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<rec type="REGION">
+ <s>scotland</s><!-- Region Name -->
+ <xml_include path="population/scotland.xml"/>
+ <traits/>
+ <rec type="REGION_SLOT_MANAGER">
+  <ary type="REGION_SLOT_ARRAY">
+   <xml_include path="region_slot/settlement-scotland-edinburgh-settlement_army-admin.xml"/>
+   <xml_include path="region_slot/settlement-scotland-edinburgh-settlement_ordnance.xml"/>
+   <xml_include path="region_slot/settlement-scotland-edinburgh-settlement_government.xml"/>
+   <xml_include path="region_slot/settlement-scotland-edinburgh-settlement_culture.xml"/>
+   <xml_include path="region_slot/sheep-scotland-highlands_east.xml"/>
+   <xml_include path="region_slot/port-scotland-glasgow.xml"/>
+   <xml_include path="region_slot/town-scotland-dundee.xml"/>
+   <xml_include path="region_slot/town-scotland-inverness.xml"/>
+  </ary>
+  <xml_include path="region_slot/scotland-road.xml"/>
+  <xml_include path="region_slot/scotland-walls.xml"/>
+ </rec>
+ <i>587285112</i><!-- Region ID -->
+ <xml_include path="region_slot/settlement-scotland-edinburgh.xml"/>
+ <u>1</u>
+ <no/>
+ <no/>
+ <u>1250</u><!-- Subsistence Agricultural (SA) -->
+ <u>1725</u><!-- Industrial Wealth Plus (SA) -->
+ <u>1725</u><!-- Industrial Wealth Plus (SA) Minus Trading Losses -->
+ <u>1000</u><!-- Town Wealth -->
+ <u>1000</u><!-- Minimum Town Wealth -->
+ <u>1000</u><!-- Town Wealth -->
+ <i>-5</i><!-- Town Monetary Growth -->
+ <u>0</u>
+ <u>0</u>
+ <no/><!-- Exempt From Tax -->
+ <u>580018960</u><!-- Controlling Faction ID -->
+ <rec type="LINE_OF_SIGHT">
+  <yes/>
+  <v2 x="-63.75" y="377.5"/>
+  <v2 x="0.0" y="432.5"/>
+  <xml_include path="quadtree/scotland-0001.xml"/>
+ </rec>
+ <u>586390992</u><!-- Governor ID -->
+ <s>europe</s><!-- Theatre -->
+ <s>scotland</s><!-- Emergent Nation -->
+ <s>Scottish Rebels</s><!-- Region Rebels -->
+ <s>sc_european_west</s><!-- Region Culture For Types Of Buildings -->
+ <rec type="REGION_RECRUITMENT_MANAGER">
+  <ary type="REGION_RECRUITMENT_ITEM_ARRAY"/>
+  <no/>
+  <i>580190096</i>
+ </rec>
+ <no/>
+ <u4_ary>0 0 0 0 0 0 0 0</u4_ary>
+ <u4_ary>0 0 0 0 0 0 0 0</u4_ary>
+ <u4_ary>0 0 0 0 0 0 0 0</u4_ary>
+ <u4_ary>407 1152 1525 221 966 949 966 593</u4_ary>
+ <bool_ary>0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</bool_ary>
+ <i4_ary/>
+ <ary type="RELIGIOUS_MISSION_BUILDING_ARRAY"/>
+ <ary type="FORT_ARRAY"/>
+ <resources_array>
+  global
+  scotland
+  britain_home_regions
+  europe
+  middle_east_and_europe
+  scots
+ </resources_array>
+ <s/><!-- Latest Constuction -->
+ <u>15</u><!-- One Of These 5/10/15/20/25/30/40 Amount Of Prestige When Conquered -->
+ <u>1605441764</u><!-- Region Array. From Top To Bottom. 1st 62 Regions 881206575. 2nd 15 Regions 1771634741. 3rd 32 Regions 1928099569. 4th 28 Regions 688200897. Why???? -->
+ <loc>regions_onscreen_scotland</loc>
+ <flt>-0.0013270393246784806</flt>
+</rec>

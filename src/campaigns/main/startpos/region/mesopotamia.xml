@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<rec type="REGION">
+ <s>mesopotamia</s><!-- Region Name -->
+ <xml_include path="population/mesopotamia.xml"/>
+ <traits/>
+ <rec type="REGION_SLOT_MANAGER">
+  <ary type="REGION_SLOT_ARRAY">
+   <xml_include path="region_slot/settlement-mesopotamia-baghdad-settlement_army-admin.xml"/>
+   <xml_include path="region_slot/settlement-mesopotamia-baghdad-settlement_ordnance.xml"/>
+   <xml_include path="region_slot/settlement-mesopotamia-baghdad-settlement_government.xml"/>
+   <xml_include path="region_slot/settlement-mesopotamia-baghdad-settlement_culture.xml"/>
+   <xml_include path="region_slot/egypt-mesopotamia-kirkuk.xml"/>
+   <xml_include path="region_slot/wheat-mesopotamia-baghdad.xml"/>
+   <xml_include path="region_slot/town-mesopotamia-erbil.xml"/>
+   <xml_include path="region_slot/port-mesopotamia-basra.xml"/>
+   <xml_include path="region_slot/town-mesopotamia-kut.xml"/>
+   <xml_include path="region_slot/town-mesopotamia-najaf.xml"/>
+   <xml_include path="region_slot/town-mesopotamia-mosul.xml"/>
+  </ary>
+  <xml_include path="region_slot/mesopotamia-road.xml"/>
+  <xml_include path="region_slot/mesopotamia-walls.xml"/>
+ </rec>
+ <i>587251568</i><!-- Region ID -->
+ <xml_include path="region_slot/settlement-mesopotamia-baghdad.xml"/>
+ <u>1</u>
+ <no/>
+ <no/>
+ <u>125</u><!-- Subsistence Agricultural (SA) -->
+ <u>861</u><!-- Industrial Wealth Plus (SA) -->
+ <u>861</u><!-- Industrial Wealth Plus (SA) Minus Trading Losses -->
+ <u>0</u><!-- Town Wealth -->
+ <u>0</u><!-- Minimum Town Wealth -->
+ <u>0</u><!-- Town Wealth -->
+ <i>0</i><!-- Town Monetary Growth -->
+ <u>0</u>
+ <u>0</u>
+ <no/><!-- Exempt From Tax -->
+ <u>581334784</u><!-- Controlling Faction ID -->
+ <rec type="LINE_OF_SIGHT">
+  <yes/>
+  <v2 x="281.25" y="195.0"/>
+  <v2 x="362.5" y="282.5"/>
+  <xml_include path="quadtree/mesopotamia-0001.xml"/>
+ </rec>
+ <u>585706776</u><!-- Governor ID -->
+ <s>europe</s><!-- Theatre -->
+ <s>mamelukes</s><!-- Emergent Nation -->
+ <s>Mameluke Rebels</s><!-- Region Rebels -->
+ <s>sc_mideast_islamic</s><!-- Region Culture For Types Of Buildings -->
+ <rec type="REGION_RECRUITMENT_MANAGER">
+  <ary type="REGION_RECRUITMENT_ITEM_ARRAY"/>
+  <no/>
+  <i>587278088</i>
+ </rec>
+ <no/>
+ <u4_ary>0 0 0 0 0 0 0 0</u4_ary>
+ <u4_ary>0 0 0 0 0 0 0 0</u4_ary>
+ <u4_ary>0 0 0 0 0 15 0 0</u4_ary>
+ <u4_ary>182 544 726 91 454 454 454 272</u4_ary>
+ <bool_ary>0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0</bool_ary>
+ <i4_ary/>
+ <ary type="RELIGIOUS_MISSION_BUILDING_ARRAY"/>
+ <ary type="FORT_ARRAY"/>
+ <resources_array>
+  global
+  camels
+  desert
+  colonial_euro_factions
+  middle_east_and_europe
+  kurds
+  africa_west_indies
+  middle_east
+ </resources_array>
+ <s/><!-- Latest Constuction -->
+ <u>10</u><!-- One Of These 5/10/15/20/25/30/40 Amount Of Prestige When Conquered -->
+ <u>1605441764</u><!-- Region Array. From Top To Bottom. 1st 62 Regions 881206575. 2nd 15 Regions 1771634741. 3rd 32 Regions 1928099569. 4th 28 Regions 688200897. Why???? -->
+ <loc>regions_onscreen_mesopotamia</loc>
+ <flt>-0.0013270393246784806</flt>
+</rec>

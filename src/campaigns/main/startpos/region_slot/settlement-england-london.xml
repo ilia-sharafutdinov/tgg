@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<rec type="SETTLEMENT">
+ <rec type="SIEGEABLE_GARRISON_RESIDENCE">
+  <garrison_residence>580018960</garrison_residence><!-- Faction ID -->
+  <u>586391776</u><!-- Building Slot ID -->
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <i>0</i>
+  <no/>
+  <no/>
+  <no/>
+  <v2x x="0.7747945785522461" y="366.7189025878906"/>
+  <u>580145408</u><!-- Army ID -->
+  <u4_ary/>
+  <u4_ary/><!-- Character ID Of Garrison -->
+  <rec type="LINE_OF_SIGHT">
+   <yes/>
+   <v2 x="-5.0" y="361.25"/>
+   <v2 x="6.25" y="372.5"/>
+   <xml_include path="quadtree/settlement-england-london-0001.xml"/>
+  </rec>
+  <no/>
+  <ary type="FORTIFICATIONS_BLOCK"/>
+ </rec>
+ <loc>start_pos_settlements_onscreen_name_settlement:england:london8</loc>
+ <i>5</i>
+ <s>settlement:england:london</s><!-- DB Table Campaign_map_settlements -->
+ <i>586391776</i><!-- Settlement ID -->
+ <s>settlement:england:london</s><!-- DB Table Campaign_map_settlements -->
+</rec>

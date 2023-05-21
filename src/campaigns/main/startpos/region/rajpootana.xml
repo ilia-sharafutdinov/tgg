@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<rec type="REGION">
+ <s>rajpootana</s><!-- Region Name -->
+ <xml_include path="population/rajpootana.xml"/>
+ <traits/>
+ <rec type="REGION_SLOT_MANAGER">
+  <ary type="REGION_SLOT_ARRAY">
+   <xml_include path="region_slot/settlement-rajpootana-udaipur-settlement_minor.xml"/>
+   <xml_include path="region_slot/iron-rajpootana-south.xml"/>
+   <xml_include path="region_slot/wheat-rajpootana-north.xml"/>
+   <xml_include path="region_slot/india_highlands-rajpootana-west.xml"/>
+   <xml_include path="region_slot/town-rajpootana-jodhpur.xml"/>
+   <xml_include path="region_slot/town-rajpootana-jeypore.xml"/>
+   <xml_include path="region_slot/town-rajpootana-shahpura.xml"/>
+  </ary>
+  <xml_include path="region_slot/rajpootana-road.xml"/>
+  <xml_include path="region_slot/rajpootana-walls.xml"/>
+ </rec>
+ <i>586851848</i><!-- Region ID -->
+ <xml_include path="region_slot/settlement-rajpootana-udaipur.xml"/>
+ <u>1</u>
+ <no/>
+ <no/>
+ <u>0</u><!-- Subsistence Agricultural (SA) -->
+ <u>1491</u><!-- Industrial Wealth Plus (SA) -->
+ <u>1491</u><!-- Industrial Wealth Plus (SA) Minus Trading Losses -->
+ <u>0</u><!-- Town Wealth -->
+ <u>0</u><!-- Minimum Town Wealth -->
+ <u>0</u><!-- Town Wealth -->
+ <i>-2</i><!-- Town Monetary Growth -->
+ <u>0</u>
+ <u>0</u>
+ <no/><!-- Exempt From Tax -->
+ <u>581839776</u><!-- Controlling Faction ID -->
+ <rec type="LINE_OF_SIGHT">
+  <yes/>
+  <v2 x="487.5" y="152.5"/>
+  <v2 x="560.0" y="216.25"/>
+  <xml_include path="quadtree/rajpootana-0001.xml"/>
+ </rec>
+ <u>585536488</u><!-- Governor ID -->
+ <s>india</s><!-- Theatre -->
+ <s>maratha_rebels</s><!-- Emergent Nation -->
+ <s>Maratha Rebels</s><!-- Region Rebels -->
+ <s>sc_indian_hindu</s><!-- Region Culture For Types Of Buildings -->
+ <rec type="REGION_RECRUITMENT_MANAGER">
+  <ary type="REGION_RECRUITMENT_ITEM_ARRAY"/>
+  <no/>
+  <i>586270696</i>
+ </rec>
+ <no/>
+ <u4_ary>0 0 0 0 0 0 0 0</u4_ary>
+ <u4_ary>0 0 0 0 0 0 0 0</u4_ary>
+ <u4_ary>0 0 0 0 19 0 0 0</u4_ary>
+ <u4_ary>319 957 1276 160 798 798 798 479</u4_ary>
+ <bool_ary>0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1</bool_ary>
+ <i4_ary/>
+ <ary type="RELIGIOUS_MISSION_BUILDING_ARRAY"/>
+ <ary type="FORT_ARRAY">
+  <xml_include path="region_slot/rajpootana-fort-0001.xml"/>
+ </ary>
+ <resources_array>
+  camels
+  india
+  colonial_euro_factions
+  desert
+  global
+  rajput
+  islam
+  sikh
+ </resources_array>
+ <s/><!-- Latest Constuction -->
+ <u>10</u><!-- One Of These 5/10/15/20/25/30/40 Amount Of Prestige When Conquered -->
+ <u>4218418516</u><!-- Region Array. From Top To Bottom. 1st 62 Regions 881206575. 2nd 15 Regions 1771634741. 3rd 32 Regions 1928099569. 4th 28 Regions 688200897. Why???? -->
+ <loc>regions_onscreen_rajpootana</loc>
+ <flt>-0.0013270393246784806</flt>
+</rec>

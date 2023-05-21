@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<rec type="CAI_WORLD_RESOURCE_MOBILES">
+ <owned_direct>1274</owned_direct><!-- Faction AI ID -->
+ <cai_situated x="876.923095703125" y="-70.0838851928711" region_id="297" theatre_id="27" area_id="28"/>
+ <rec type="CAI_BDI_COMPONENT_PROPERTY_SET">
+  <u>0</u>
+ </rec>
+ <u>5596</u><!-- Character Resource AI ID -->
+ <flt>100.0</flt>
+ <flt>100.0</flt>
+ <flt>0.0</flt>
+ <flt>100.0</flt>
+ <u>1</u>
+ <no/>
+ <u4_ary/>
+ <u4_ary>8225 0 21662 0 21664 0 21663 0 21667 1 21668 1 19817 3 21810 0 21811 1 21797 3 22588 0 22611 0 22653 0 79118 0 79117 0 79116 1</u4_ary><!-- BDI Information -->
+ <u>0</u>
+ <u>16</u><!-- HLCIS ID -->
+ <u4_ary/>
+ <u4_ary>8225 10 21662 19773 21664 19739 21663 21667 21668 19775 19817 21810 21811 21797 22588 18 22611 19764 22653 19769 79118 78766 79117 78800 79116</u4_ary><!-- BDI Information -->
+ <ary type="CAI_BDI_COMPONENT_BLOCK_OWNS">
+  <rec type="CAI_BDI_COMPONENT_BLOCK_OWNS">
+   <u>21668</u><!-- BDI Information -->
+   <u>5596</u><!-- Character Resource AI ID -->
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <u>0</u>
+  </rec>
+  <rec type="CAI_BDI_COMPONENT_BLOCK_OWNS">
+   <u>21811</u><!-- BDI Information -->
+   <u>5596</u><!-- Character Resource AI ID -->
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <u>0</u>
+  </rec>
+ </ary>
+ <u>2</u>
+ <u>0</u>
+ <u4_ary>21668 21811</u4_ary><!-- BDI Information -->
+ <u4_ary/>
+ <u4_ary/>
+ <u4_ary>8225 21810 22588 22653</u4_ary><!-- BDI Information -->
+ <no/>
+ <u>0</u>
+ <no/>
+ <rec type="CAI_RESOURCE_MOBILE">
+  <u>5595</u><!-- Character AI ID -->
+  <u>0</u><!-- Settlement AI ID -->
+  <u>0</u><!-- Settlement Character AI ID -->
+  <ary type="CAI_RESOURCE_MOBILE_SIEGE_INFORMATION"/>
+  <u4_ary>5595</u4_ary><!-- Character AI IDs -->
+  <u4_ary>5597 5598 5599 5600 5601 5602 5603</u4_ary><!-- Character Unit AI IDs -->
+  <no/>
+  <no/>
+  <no/>
+  <u>0</u>
+  <u>580807536</u><!-- Army ID -->
+  <u4_ary/>
+  <u>0</u>
+  <u>0</u>
+  <u4_ary/>
+  <u4_ary>7623</u4_ary><!-- Sea Grid ID -->
+  <u>31</u>
+ </rec>
+</rec>

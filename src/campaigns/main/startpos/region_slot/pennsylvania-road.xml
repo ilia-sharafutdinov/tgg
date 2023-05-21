@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<rec type="ROAD_SLOT">
+ <yes/>
+ <rec type="REGION_SLOT">
+  <rec type="SIEGEABLE_GARRISON_RESIDENCE">
+   <garrison_residence>581977584</garrison_residence><!-- Faction ID -->
+   <u>586784744</u><!-- Building Slot ID -->
+   <u>0</u>
+   <u>0</u>
+   <u>0</u>
+   <u>0</u>
+   <i>0</i>
+   <no/>
+   <no/>
+   <no/>
+   <v2x x="0.0" y="0.0"/>
+   <u>0</u><!-- Army ID -->
+   <u4_ary/>
+   <u4_ary/><!-- Character ID Of Garrison -->
+   <rec type="LINE_OF_SIGHT">
+    <no/>
+   </rec>
+   <no/>
+   <ary type="FORTIFICATIONS_BLOCK"/>
+  </rec>
+  <rec type="BUILDING_MANAGER">
+   <yes/>
+   <building health="100" name="basic_roads" faction="thirteen_colonies" government="gov_constitutional_monarchy"/>
+   <no/>
+  </rec>
+  <u>586784744</u><!-- Building Slot ID -->
+  <s>settlement:pennsylvania:philadelphia:settlement_road</s><!-- Building Slot Name -->
+  <i>0</i>
+  <i>0</i>
+  <v2x x="-535.8465576171875" y="284.6348876953125"/>
+  <i>0</i><!-- 1=Meagre 2=Low 3=Average 4=High 5=Abundant Yeilds For Commodities -->
+  <i>1</i><!-- 1=Very Poor 2=Poor 3=Growing 4=Prosperous 5=Wealthy For Town/Port/Road/Wall -->
+  <no/><!-- Town or Port Emerged -->
+  <i>-1</i><!-- Commodities = 0; Town/Port/Road/Wall = 1 -->
+  <i>1</i><!-- Commodities = 2; Town/Port/Road/Wall = 1 -->
+  <u>4294967295</u><!-- 4294967295 Trade/Finance ID -->
+  <u>0</u><!-- Town Or Port Emergence Order -->
+  <no/><!-- Available To Build -->
+  <no/>
+ </rec>
+</rec>
