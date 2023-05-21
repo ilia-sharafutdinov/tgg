@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>denmark</s>
+ <asc>land</asc>
+ <v2 x="57.47194290161133" y="381.5737"/>
+ <v2 x="90.08854" y="410.71265"/>
+ <ary type="areas">
+  <xml_include path="area-1/denmark-0000.xml"/>
+  <xml_include path="area-1/denmark-0001.xml"/>
+ </ary>
+ <i>2</i>
+ <rec type="settlement_and_slots">
+  <v2 x="84.31595" y="394.62332"/>
+  <v2_ary>
+   82.31077,394.60825
+   82.91811,393.142
+   84.38437,392.53464
+   85.85063,393.142
+   86.45798,394.60825
+   85.85063,396.07449
+   84.38437,396.68185
+   82.91811,396.07449
+  </v2_ary>
+  <ary type="slot_descriptions">
+   <xml_include path="slot/settlement-denmark-copenhagen-settlement_army-admin.xml"/>
+   <xml_include path="slot/settlement-denmark-copenhagen-settlement_ordnance.xml"/>
+   <xml_include path="slot/settlement-denmark-copenhagen-settlement_government.xml"/>
+   <xml_include path="slot/settlement-denmark-copenhagen-settlement_culture.xml"/>
+   <xml_include path="slot/settlement-denmark-copenhagen-settlement_road.xml"/>
+   <xml_include path="slot/settlement-denmark-copenhagen-settlement_fortification.xml"/>
+   <xml_include path="slot/wheat-denmark-south.xml"/>
+   <xml_include path="slot/sheep-denmark-north.xml"/>
+   <xml_include path="slot/port-denmark-husum.xml"/>
+   <xml_include path="slot/port-denmark-lubeck.xml"/>
+   <xml_include path="slot/port-denmark-aarhus.xml"/>
+   <xml_include path="slot/town-denmark-odense.xml"/>
+   <xml_include path="slot/town-denmark-aalborg.xml"/>
+   <xml_include path="slot/town-denmark-schleswig.xml"/>
+  </ary>
+  <rec type="roads">
+   <ary type="links"/>
+  </rec>
+  <rec type="railways">
+   <ary type="links"/>
+  </rec>
+  <rec type="canals">
+   <ary type="links"/>
+  </rec>
+ </rec>
+</rec>
