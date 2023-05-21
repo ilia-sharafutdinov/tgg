@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>muscovy</s>
+ <asc>land</asc>
+ <v2 x="196.27422" y="367.42279"/>
+ <v2 x="327.15619" y="434.32297"/>
+ <ary type="areas">
+  <xml_include path="area-1/muscovy-0000.xml"/>
+  <xml_include path="area-1/muscovy-0001.xml"/>
+  <xml_include path="area-1/muscovy-0002.xml"/>
+  <xml_include path="area-1/muscovy-0003.xml"/>
+  <xml_include path="area-1/muscovy-0004.xml"/>
+ </ary>
+ <i>2</i>
+ <rec type="settlement_and_slots">
+  <v2 x="267.14899" y="395.00204"/>
+  <v2_ary>
+   269.47321,394.03049
+   269.42529,395.95801
+   268.14963,397.23367
+   266.23984,397.25153
+   264.94556,395.95724
+   264.91861,394.06488
+   266.25635,392.72714
+   268.16656,392.72385
+  </v2_ary>
+  <ary type="slot_descriptions">
+   <xml_include path="slot/settlement-muscovy-moscow-settlement_army-admin.xml"/>
+   <xml_include path="slot/settlement-muscovy-moscow-settlement_government.xml"/>
+   <xml_include path="slot/settlement-muscovy-moscow-settlement_culture.xml"/>
+   <xml_include path="slot/settlement-muscovy-moscow-settlement_navy-admin.xml"/>
+   <xml_include path="slot/settlement-muscovy-moscow-settlement_ordnance.xml"/>
+   <xml_include path="slot/settlement-muscovy-moscow-settlement_road.xml"/>
+   <xml_include path="slot/settlement-muscovy-moscow-settlement_fortification.xml"/>
+   <xml_include path="slot/wheat-muscovy-tula.xml"/>
+   <xml_include path="slot/sheep-muscovy-velikiye_luki.xml"/>
+   <xml_include path="slot/iron-muscovy-bryansk.xml"/>
+   <xml_include path="slot/wheat-muscovy-saransk.xml"/>
+   <xml_include path="slot/timber-muscovy-borovichi.xml"/>
+   <xml_include path="slot/town-muscovy-smolensk.xml"/>
+   <xml_include path="slot/town-muscovy-nizhny_novgorod.xml"/>
+   <xml_include path="slot/town-muscovy-bryansk.xml"/>
+   <xml_include path="slot/town-muscovy-pereslavl-ryazansky.xml"/>
+   <xml_include path="slot/town-muscovy-yaroslavl.xml"/>
+   <xml_include path="slot/town-muscovy-vishniy_volochek.xml"/>
+   <xml_include path="slot/town-muscovy-rybinsk.xml"/>
+   <xml_include path="slot/town-muscovy-velikiy_novgorod.xml"/>
+  </ary>
+  <rec type="roads">
+   <ary type="links"/>
+  </rec>
+  <rec type="railways">
+   <ary type="links"/>
+  </rec>
+  <rec type="canals">
+   <ary type="links"/>
+  </rec>
+ </rec>
+</rec>

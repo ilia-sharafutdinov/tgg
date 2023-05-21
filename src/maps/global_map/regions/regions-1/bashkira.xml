@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>bashkira</s>
+ <asc>land</asc>
+ <v2 x="352.42059" y="365.58954"/>
+ <v2 x="427.35516" y="407.11816"/>
+ <ary type="areas">
+  <xml_include path="area-1/bashkira-0000.xml"/>
+  <xml_include path="area-1/bashkira-0001.xml"/>
+  <xml_include path="area-1/bashkira-0002.xml"/>
+ </ary>
+ <i>2</i>
+ <rec type="settlement_and_slots">
+  <v2 x="397.48001" y="387.90399"/>
+  <v2_ary>
+   397.48001,389.60126
+   395.78275,387.90399
+   397.48001,386.20673
+   399.17728,387.90399
+  </v2_ary>
+  <ary type="slot_descriptions">
+   <xml_include path="slot/settlement-bashkira-ufa-settlement_minor.xml"/>
+   <xml_include path="slot/settlement-bashkira-ufa-settlement_fortification.xml"/>
+   <xml_include path="slot/settlement-bashkira-ufa-settlement_road.xml"/>
+   <xml_include path="slot/sheep-bashkira-orenburg.xml"/>
+   <xml_include path="slot/wheat-bashkira-togliatti.xml"/>
+   <xml_include path="slot/fur-bashkira-urals.xml"/>
+   <xml_include path="slot/town-bashkira-orenburg.xml"/>
+  </ary>
+  <rec type="roads">
+   <ary type="links"/>
+  </rec>
+  <rec type="railways">
+   <ary type="links"/>
+  </rec>
+  <rec type="canals">
+   <ary type="links"/>
+  </rec>
+ </rec>
+</rec>

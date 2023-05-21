@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>french_guyana</s>
+ <asc>land</asc>
+ <v2 x="-382.67755" y="16.220504760742188"/>
+ <v2 x="-362.17477" y="40.0"/>
+ <ary type="areas">
+  <xml_include path="area-1/french_guyana-0000.xml"/>
+  <xml_include path="area-1/french_guyana-0001.xml"/>
+ </ary>
+ <i>1</i>
+ <rec type="settlement_and_slots">
+  <v2 x="-372.04596" y="32.76261520385742"/>
+  <v2_ary>
+   -372.04596,34.45988464355469
+   -373.74323,32.76261520385742
+   -372.04596,31.06534767150879
+   -370.34869,32.76261520385742
+  </v2_ary>
+  <ary type="slot_descriptions">
+   <xml_include path="slot/settlement-french_guyana-cayenne-settlement_minor.xml"/>
+   <xml_include path="slot/settlement-french_guyana-cayenne-settlement_fortification.xml"/>
+   <xml_include path="slot/settlement-french_guyana-cayenne-settlement_road.xml"/>
+   <xml_include path="slot/gold-french_guyana-south.xml"/>
+   <xml_include path="slot/tropical_humid-french_guyana-north.xml"/>
+   <xml_include path="slot/port-french_guyana-sinnamary.xml"/>
+  </ary>
+  <rec type="roads">
+   <ary type="links"/>
+  </rec>
+  <rec type="railways">
+   <ary type="links"/>
+  </rec>
+  <rec type="canals">
+   <ary type="links"/>
+  </rec>
+ </rec>
+</rec>

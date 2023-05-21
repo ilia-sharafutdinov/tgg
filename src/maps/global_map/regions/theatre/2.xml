@@ -1,0 +1,280 @@
+<?xml version="1.0"?>
+<rec type="theatres">
+ <rec type="theatre">
+  <s>2</s>
+  <v2 x="-180.0" y="140.0"/>
+  <v2 x="440.0" y="520.0"/>
+  <no/>
+  <climate_map pgm="maps/climate_map-0005.pgm"/>
+  <climate_map pgm="maps/climate_map-0006.pgm"/>
+  <wind_map sea_phillips_constant="0.007307223975658417" pgm="maps/wind_map-0003.pgm"/>
+  <ary type="transition_areas">
+   <rec type="transition_areas">
+    <u>6</u>
+    <v2 x="-180.0" y="360.0"/>
+    <v2 x="-160.0" y="440.0"/>
+    <flt>0.0</flt>
+    <ary type="transition_links">
+     <rec type="transition_links">
+      <flt>0.0</flt>
+      <u>1</u><!-- Turns Needed -->
+      <u>1</u><!-- Destination Theatre -->
+      <u>2</u><!-- Area Inside Destination Theatre -->
+     </rec>
+     <rec type="transition_links">
+      <flt>0.0</flt>
+      <u>2</u><!-- Turns Needed -->
+      <u>5</u><!-- Destination Theatre -->
+      <u>2</u><!-- Area Inside Destination Theatre -->
+     </rec>
+     <rec type="transition_links">
+      <flt>0.0</flt>
+      <u>2</u><!-- Turns Needed -->
+      <u>4</u><!-- Destination Theatre -->
+      <u>0</u><!-- Area Inside Destination Theatre -->
+     </rec>
+     <rec type="transition_links">
+      <flt>0.0</flt>
+      <u>2</u><!-- Turns Needed -->
+      <u>3</u><!-- Destination Theatre -->
+      <u>0</u><!-- Area Inside Destination Theatre -->
+     </rec>
+     <rec type="transition_links">
+      <flt>0.0</flt>
+      <u>2</u><!-- Turns Needed -->
+      <u>0</u><!-- Destination Theatre -->
+      <u>1</u><!-- Area Inside Destination Theatre -->
+     </rec>
+     <rec type="transition_links">
+      <flt>0.0</flt>
+      <u>2</u><!-- Turns Needed -->
+      <u>6</u><!-- Destination Theatre -->
+      <u>0</u><!-- Area Inside Destination Theatre -->
+     </rec>
+    </ary>
+   </rec>
+   <rec type="transition_areas">
+    <u>7</u>
+    <v2 x="-180.0" y="260.0"/>
+    <v2 x="-160.0" y="300.0"/>
+    <flt>0.0</flt>
+    <ary type="transition_links">
+     <rec type="transition_links">
+      <flt>0.0</flt>
+      <u>1</u><!-- Turns Needed -->
+      <u>1</u><!-- Destination Theatre -->
+      <u>3</u><!-- Area Inside Destination Theatre -->
+     </rec>
+     <rec type="transition_links">
+      <flt>0.0</flt>
+      <u>2</u><!-- Turns Needed -->
+      <u>5</u><!-- Destination Theatre -->
+      <u>2</u><!-- Area Inside Destination Theatre -->
+     </rec>
+     <rec type="transition_links">
+      <flt>0.0</flt>
+      <u>2</u><!-- Turns Needed -->
+      <u>4</u><!-- Destination Theatre -->
+      <u>0</u><!-- Area Inside Destination Theatre -->
+     </rec>
+     <rec type="transition_links">
+      <flt>0.0</flt>
+      <u>2</u><!-- Turns Needed -->
+      <u>3</u><!-- Destination Theatre -->
+      <u>0</u><!-- Area Inside Destination Theatre -->
+     </rec>
+     <rec type="transition_links">
+      <flt>0.0</flt>
+      <u>2</u><!-- Turns Needed -->
+      <u>0</u><!-- Destination Theatre -->
+      <u>1</u><!-- Area Inside Destination Theatre -->
+     </rec>
+     <rec type="transition_links">
+      <flt>0.0</flt>
+      <u>2</u><!-- Turns Needed -->
+      <u>6</u><!-- Destination Theatre -->
+      <u>0</u><!-- Area Inside Destination Theatre -->
+     </rec>
+    </ary>
+   </rec>
+   <rec type="transition_areas">
+    <u>8</u>
+    <v2 x="-180.0" y="180.0"/>
+    <v2 x="-160.0" y="220.0"/>
+    <flt>0.0</flt>
+    <ary type="transition_links">
+     <rec type="transition_links">
+      <flt>0.0</flt>
+      <u>1</u><!-- Turns Needed -->
+      <u>5</u><!-- Destination Theatre -->
+      <u>2</u><!-- Area Inside Destination Theatre -->
+     </rec>
+     <rec type="transition_links">
+      <flt>0.0</flt>
+      <u>2</u><!-- Turns Needed -->
+      <u>1</u><!-- Destination Theatre -->
+      <u>4</u><!-- Area Inside Destination Theatre -->
+     </rec>
+     <rec type="transition_links">
+      <flt>0.0</flt>
+      <u>2</u><!-- Turns Needed -->
+      <u>1</u><!-- Destination Theatre -->
+      <u>4</u><!-- Area Inside Destination Theatre -->
+     </rec>
+     <rec type="transition_links">
+      <flt>0.0</flt>
+      <u>2</u><!-- Turns Needed -->
+      <u>5</u><!-- Destination Theatre -->
+      <u>1</u><!-- Area Inside Destination Theatre -->
+     </rec>
+     <rec type="transition_links">
+      <flt>0.0</flt>
+      <u>2</u><!-- Turns Needed -->
+      <u>5</u><!-- Destination Theatre -->
+      <u>3</u><!-- Area Inside Destination Theatre -->
+     </rec>
+     <rec type="transition_links">
+      <flt>0.0</flt>
+      <u>2</u><!-- Turns Needed -->
+      <u>5</u><!-- Destination Theatre -->
+      <u>4</u><!-- Area Inside Destination Theatre -->
+     </rec>
+     <rec type="transition_links">
+      <flt>0.0</flt>
+      <u>2</u><!-- Turns Needed -->
+      <u>0</u><!-- Destination Theatre -->
+      <u>0</u><!-- Area Inside Destination Theatre -->
+     </rec>
+     <rec type="transition_links">
+      <flt>0.0</flt>
+      <u>2</u><!-- Turns Needed -->
+      <u>4</u><!-- Destination Theatre -->
+      <u>0</u><!-- Area Inside Destination Theatre -->
+     </rec>
+     <rec type="transition_links">
+      <flt>0.0</flt>
+      <u>2</u><!-- Turns Needed -->
+      <u>3</u><!-- Destination Theatre -->
+      <u>0</u><!-- Area Inside Destination Theatre -->
+     </rec>
+     <rec type="transition_links">
+      <flt>0.0</flt>
+      <u>2</u><!-- Turns Needed -->
+      <u>0</u><!-- Destination Theatre -->
+      <u>1</u><!-- Area Inside Destination Theatre -->
+     </rec>
+     <rec type="transition_links">
+      <flt>0.0</flt>
+      <u>2</u><!-- Turns Needed -->
+      <u>5</u><!-- Destination Theatre -->
+      <u>0</u><!-- Area Inside Destination Theatre -->
+     </rec>
+    </ary>
+   </rec>
+   <rec type="transition_areas">
+    <u>9</u>
+    <v2 x="-180.0" y="140.0"/>
+    <v2 x="-115.0" y="160.0"/>
+    <flt>0.0</flt>
+    <ary type="transition_links">
+     <rec type="transition_links">
+      <flt>0.0</flt>
+      <u>1</u><!-- Turns Needed -->
+      <u>6</u><!-- Destination Theatre -->
+      <u>0</u><!-- Area Inside Destination Theatre -->
+     </rec>
+     <rec type="transition_links">
+      <flt>0.0</flt>
+      <u>2</u><!-- Turns Needed -->
+      <u>5</u><!-- Destination Theatre -->
+      <u>2</u><!-- Area Inside Destination Theatre -->
+     </rec>
+     <rec type="transition_links">
+      <flt>0.0</flt>
+      <u>2</u><!-- Turns Needed -->
+      <u>1</u><!-- Destination Theatre -->
+      <u>4</u><!-- Area Inside Destination Theatre -->
+     </rec>
+     <rec type="transition_links">
+      <flt>0.0</flt>
+      <u>2</u><!-- Turns Needed -->
+      <u>6</u><!-- Destination Theatre -->
+      <u>1</u><!-- Area Inside Destination Theatre -->
+     </rec>
+     <rec type="transition_links">
+      <flt>0.0</flt>
+      <u>2</u><!-- Turns Needed -->
+      <u>6</u><!-- Destination Theatre -->
+      <u>2</u><!-- Area Inside Destination Theatre -->
+     </rec>
+     <rec type="transition_links">
+      <flt>0.0</flt>
+      <u>2</u><!-- Turns Needed -->
+      <u>4</u><!-- Destination Theatre -->
+      <u>0</u><!-- Area Inside Destination Theatre -->
+     </rec>
+     <rec type="transition_links">
+      <flt>0.0</flt>
+      <u>2</u><!-- Turns Needed -->
+      <u>4</u><!-- Destination Theatre -->
+      <u>1</u><!-- Area Inside Destination Theatre -->
+     </rec>
+     <rec type="transition_links">
+      <flt>0.0</flt>
+      <u>2</u><!-- Turns Needed -->
+      <u>3</u><!-- Destination Theatre -->
+      <u>0</u><!-- Area Inside Destination Theatre -->
+     </rec>
+     <rec type="transition_links">
+      <flt>0.0</flt>
+      <u>2</u><!-- Turns Needed -->
+      <u>3</u><!-- Destination Theatre -->
+      <u>1</u><!-- Area Inside Destination Theatre -->
+     </rec>
+     <rec type="transition_links">
+      <flt>0.0</flt>
+      <u>2</u><!-- Turns Needed -->
+      <u>0</u><!-- Destination Theatre -->
+      <u>1</u><!-- Area Inside Destination Theatre -->
+     </rec>
+     <rec type="transition_links">
+      <flt>0.0</flt>
+      <u>2</u><!-- Turns Needed -->
+      <u>0</u><!-- Destination Theatre -->
+      <u>0</u><!-- Area Inside Destination Theatre -->
+     </rec>
+     <rec type="transition_links">
+      <flt>0.0</flt>
+      <u>2</u><!-- Turns Needed -->
+      <u>1</u><!-- Destination Theatre -->
+      <u>0</u><!-- Area Inside Destination Theatre -->
+     </rec>
+     <rec type="transition_links">
+      <flt>0.0</flt>
+      <u>2</u><!-- Turns Needed -->
+      <u>1</u><!-- Destination Theatre -->
+      <u>1</u><!-- Area Inside Destination Theatre -->
+     </rec>
+     <rec type="transition_links">
+      <flt>0.0</flt>
+      <u>2</u><!-- Turns Needed -->
+      <u>4</u><!-- Destination Theatre -->
+      <u>0</u><!-- Area Inside Destination Theatre -->
+     </rec>
+     <rec type="transition_links">
+      <flt>0.0</flt>
+      <u>2</u><!-- Turns Needed -->
+      <u>3</u><!-- Destination Theatre -->
+      <u>0</u><!-- Area Inside Destination Theatre -->
+     </rec>
+     <rec type="transition_links">
+      <flt>0.0</flt>
+      <u>2</u><!-- Turns Needed -->
+      <u>0</u><!-- Destination Theatre -->
+      <u>1</u><!-- Area Inside Destination Theatre -->
+     </rec>
+    </ary>
+   </rec>
+  </ary>
+ </rec>
+</rec>

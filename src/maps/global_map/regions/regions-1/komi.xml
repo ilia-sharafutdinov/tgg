@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>komi</s>
+ <asc>land</asc>
+ <v2 x="313.90491" y="394.99985"/>
+ <v2 x="412.50391" y="443.7446"/>
+ <ary type="areas">
+  <xml_include path="area-1/komi-0000.xml"/>
+  <xml_include path="area-1/komi-0001.xml"/>
+  <xml_include path="area-1/komi-0002.xml"/>
+  <xml_include path="area-1/komi-0003.xml"/>
+  <xml_include path="area-1/komi-0004.xml"/>
+  <xml_include path="area-1/komi-0005.xml"/>
+  <xml_include path="area-1/komi-0006.xml"/>
+  <xml_include path="area-1/komi-0007.xml"/>
+ </ary>
+ <i>2</i>
+ <rec type="settlement_and_slots">
+  <v2 x="360.90399" y="436.905"/>
+  <v2_ary>
+   360.90399,438.60226
+   359.20673,436.905
+   360.90399,435.20773
+   362.60126,436.905
+  </v2_ary>
+  <ary type="slot_descriptions">
+   <xml_include path="slot/settlement-komi-ust_sysolsk-settlement_minor.xml"/>
+   <xml_include path="slot/settlement-komi-ust_sysolsk-settlement_fortification.xml"/>
+   <xml_include path="slot/settlement-komi-ust_sysolsk-settlement_road.xml"/>
+   <xml_include path="slot/town-komi-perm.xml"/>
+  </ary>
+  <rec type="roads">
+   <ary type="links"/>
+  </rec>
+  <rec type="railways">
+   <ary type="links"/>
+  </rec>
+  <rec type="canals">
+   <ary type="links"/>
+  </rec>
+ </rec>
+</rec>

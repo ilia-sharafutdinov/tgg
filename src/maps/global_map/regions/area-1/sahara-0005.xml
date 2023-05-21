@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<rec type="areas">
+ <no/><!-- Land Bridge -->
+ <no/><!-- English Channel Coast -->
+ <no/><!-- Passable -->
+ <v2 x="259.99957" y="129.61758"/>
+ <v2 x="267.59332" y="133.29462"/>
+ <u2>181</u2><!-- Adjoning Passable Areas ID -->
+ <rec type="faces">
+  <u4_ary>
+   41734 <!-- 267.16248 133.29462-->
+   40938 <!-- 267.59332 133.04784-->
+   41480 <!-- 259.99957 129.61758-->
+  </u4_ary>
+ </rec>
+ <ary type="outlines">
+  <rec type="outlines">
+   <yes/>
+   <v2 x="259.99957" y="129.61758"/>
+   <v2 x="267.59332" y="133.29462"/>
+   <u4_ary>
+    41480 <!-- 259.99957 129.61758-->
+    40938 <!-- 267.59332 133.04784-->
+    41734 <!-- 267.16248 133.29462-->
+   </u4_ary>
+   <ary type="connectivity">
+    <connectivity region="9 (central_africa)" area="0" from="0" to="0"/>
+    <connectivity region="25 (red_sea)" area="0" from="1" to="1"/>
+    <connectivity region="14 (sahara)" area="0" from="2" to="2"/>
+   </ary>
+  </rec>
+ </ary>
+ <u2>286</u2><!-- Impassable Land Areas ID (65535=Passable) -->
+ <u2>104</u2><!-- Island ID (65535=Navigable, 104=ETW Mainland) -->
+</rec>

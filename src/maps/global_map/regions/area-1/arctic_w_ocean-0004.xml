@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<rec type="areas">
+ <no/><!-- Land Bridge -->
+ <no/><!-- English Channel Coast -->
+ <no/><!-- Passable -->
+ <v2 x="-478.28931" y="462.84048"/>
+ <v2 x="-469.11981" y="471.81784"/>
+ <u2>727</u2><!-- Adjoning Passable Areas ID -->
+ <rec type="faces">
+  <u4_ary>
+   47590 <!-- -472.88562 462.84048-->
+   46379 <!-- -478.28931 468.06271-->
+   41053 <!-- -469.11981 469.91541-->
+   46379 <!-- -478.28931 468.06271-->
+   45802 <!-- -477.578 471.81784-->
+   41053 <!-- -469.11981 469.91541-->
+  </u4_ary>
+ </rec>
+ <ary type="outlines">
+  <rec type="outlines">
+   <yes/>
+   <v2 x="-478.28931" y="462.84048"/>
+   <v2 x="-469.11981" y="471.81784"/>
+   <u4_ary>
+    41053 <!-- -469.11981 469.91541-->
+    45802 <!-- -477.578 471.81784-->
+    46379 <!-- -478.28931 468.06271-->
+    47590 <!-- -472.88562 462.84048-->
+   </u4_ary>
+   <ary type="connectivity">
+    <connectivity region="152 (beaver_territory)" area="11" from="0" to="2"/>
+    <connectivity region="153 (arctic_w_ocean)" area="0" from="3" to="3"/>
+   </ary>
+  </rec>
+ </ary>
+ <u2>286</u2><!-- Impassable Land Areas ID (65535=Passable) -->
+ <u2>104</u2><!-- Island ID (65535=Navigable, 104=ETW Mainland) -->
+</rec>

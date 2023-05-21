@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>cherokee_territory</s>
+ <asc>land</asc>
+ <v2 x="-648.23517" y="222.94179"/>
+ <v2 x="-585.00061" y="270.94461"/>
+ <ary type="areas">
+  <xml_include path="area-1/cherokee_territory-0000.xml"/>
+  <xml_include path="area-1/cherokee_territory-0001.xml"/>
+  <xml_include path="area-1/cherokee_territory-0002.xml"/>
+  <xml_include path="area-1/cherokee_territory-0003.xml"/>
+  <xml_include path="area-1/cherokee_territory-0004.xml"/>
+  <xml_include path="area-1/cherokee_territory-0005.xml"/>
+  <xml_include path="area-1/cherokee_territory-0006.xml"/>
+  <xml_include path="area-1/cherokee_territory-0007.xml"/>
+ </ary>
+ <i>1</i>
+ <rec type="settlement_and_slots">
+  <v2 x="-603.35229" y="252.21465"/>
+  <v2_ary>
+   -603.35229,253.91191
+   -605.04956,252.21465
+   -603.35229,250.51738
+   -601.65503,252.21465
+  </v2_ary>
+  <ary type="slot_descriptions">
+   <xml_include path="slot/settlement-cherokee_territory-tellico-settlement_minor.xml"/>
+   <xml_include path="slot/settlement-cherokee_territory-tellico-settlement_fortification.xml"/>
+   <xml_include path="slot/settlement-cherokee_territory-tellico-settlement_road.xml"/>
+   <xml_include path="slot/southern_usa-cherokee_territory-south.xml"/>
+   <xml_include path="slot/iron-cherokee_territory-northeast.xml"/>
+   <xml_include path="slot/corn-cherokee_territory-north.xml"/>
+   <xml_include path="slot/town-cherokee_territory-autiamique.xml"/>
+   <xml_include path="slot/town-cherokee_territory-tuckabatchee.xml"/>
+   <xml_include path="slot/town-cherokee_territory-casseta.xml"/>
+  </ary>
+  <rec type="roads">
+   <ary type="links"/>
+  </rec>
+  <rec type="railways">
+   <ary type="links"/>
+  </rec>
+  <rec type="canals">
+   <ary type="links"/>
+  </rec>
+ </rec>
+</rec>

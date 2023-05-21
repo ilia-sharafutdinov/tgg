@@ -1,0 +1,3599 @@
+<?xml version="1.0"?>
+<esf magic="43982 0 1232717722">
+ <node_types>
+  <node_type name="CAI_SEA_GRID_ROOT"/>
+ </node_types>
+ <sea_grids>
+  <theatre_sea_grid factor="75.0" maxx="-340.0" maxy="460.0" minx="-760.0" miny="0.0" name="1">
+   <sea_grid_row>
+    <sea_grid_cell area_id="0" maxx="-685.0" maxy="75.0" minx="-760.0" miny="0.0">
+     <sea_grid_lands/>
+     <sea_grid_seas>
+      pacific_ocean
+      impassable
+     </sea_grid_seas>
+     <sea_grid_ports/>
+     <sea_grid_numbers/>
+    </sea_grid_cell>
+    <sea_grid_cell area_id="1" maxx="-610.0" maxy="75.0" minx="-685.0" miny="0.0">
+     <sea_grid_lands>
+      panama
+     </sea_grid_lands>
+     <sea_grid_seas>
+      pacific_ocean
+      impassable
+     </sea_grid_seas>
+     <sea_grid_ports/>
+     <sea_grid_numbers/>
+    </sea_grid_cell>
+    <sea_grid_cell area_id="2" maxx="-535.0" maxy="75.0" minx="-610.0" miny="0.0">
+     <sea_grid_lands>
+      all
+      amazonas
+      new_grenada
+      panama
+     </sea_grid_lands>
+     <sea_grid_seas>
+      pacific_ocean
+      impassable
+      the_caribbean_sea
+     </sea_grid_seas>
+     <sea_grid_ports/>
+     <sea_grid_numbers>
+      462 463 464 465 473 474 475 799 1126 1605
+     </sea_grid_numbers>
+    </sea_grid_cell>
+    <sea_grid_cell area_id="3" maxx="-460.0" maxy="75.0" minx="-535.0" miny="0.0">
+     <sea_grid_lands>
+      lakes
+      all
+      amazonas
+      new_grenada
+      new_andalusia
+     </sea_grid_lands>
+     <sea_grid_seas>
+      the_caribbean_sea
+     </sea_grid_seas>
+     <sea_grid_ports/>
+     <sea_grid_numbers>
+      401 402 794 799 874 1126 1187 1256
+     </sea_grid_numbers>
+    </sea_grid_cell>
+    <sea_grid_cell area_id="4" maxx="-385.0" maxy="75.0" minx="-460.0" miny="0.0">
+     <sea_grid_lands>
+      amazonas
+      dutch_guyana
+      new_andalusia
+      trinidad_tobago
+     </sea_grid_lands>
+     <sea_grid_seas>
+      atlantic_ocean_w
+      the_caribbean_sea
+     </sea_grid_seas>
+     <sea_grid_ports>
+      port:dutch_guyana:demerara
+     </sea_grid_ports>
+     <sea_grid_numbers>
+      327 328 329 330 333 745 1294
+     </sea_grid_numbers>
+    </sea_grid_cell>
+    <sea_grid_cell area_id="5" maxx="-310.0" maxy="75.0" minx="-385.0" miny="0.0">
+     <sea_grid_lands>
+      amazonas
+      french_guyana
+      dutch_guyana
+     </sea_grid_lands>
+     <sea_grid_seas>
+      atlantic_ocean_sw
+      atlantic_ocean_w
+     </sea_grid_seas>
+     <sea_grid_ports>
+      port:french_guyana:sinnamary
+     </sea_grid_ports>
+     <sea_grid_numbers>
+      185 326 327 331 332 1231
+     </sea_grid_numbers>
+    </sea_grid_cell>
+   </sea_grid_row>
+   <sea_grid_row>
+    <sea_grid_cell area_id="6" maxx="-685.0" maxy="150.0" minx="-760.0" miny="75.0">
+     <sea_grid_lands>
+      new_spain
+      wilderness_mexico
+     </sea_grid_lands>
+     <sea_grid_seas>
+      pacific_ocean
+      impassable
+      gulf_of_mexico
+     </sea_grid_seas>
+     <sea_grid_ports/>
+     <sea_grid_numbers>
+      838 1502
+     </sea_grid_numbers>
+    </sea_grid_cell>
+    <sea_grid_cell area_id="7" maxx="-610.0" maxy="150.0" minx="-685.0" miny="75.0">
+     <sea_grid_lands>
+      lakes
+      guatemala
+      new_spain
+     </sea_grid_lands>
+     <sea_grid_seas>
+      pacific_ocean
+      the_caribbean_sea
+      gulf_of_mexico
+     </sea_grid_seas>
+     <sea_grid_ports>
+      port:new_spain:veracruz
+     </sea_grid_ports>
+     <sea_grid_numbers>
+      466 471 472 479 480 481 482 495 496 507 508 509 510 521 766 768 1358 1642
+     </sea_grid_numbers>
+    </sea_grid_cell>
+    <sea_grid_cell area_id="8" maxx="-535.0" maxy="150.0" minx="-610.0" miny="75.0">
+     <sea_grid_lands>
+      lakes
+      new_grenada
+      panama
+      guatemala
+      jamaica
+      cuba
+     </sea_grid_lands>
+     <sea_grid_seas>
+      pacific_ocean
+      the_caribbean_sea
+     </sea_grid_seas>
+     <sea_grid_ports>
+      port:new_grenada:cartagena
+      port:jamaica:kingston
+      port:cuba:santiago_de_cuba
+     </sea_grid_ports>
+     <sea_grid_numbers>
+      340 341 343 428 429 462 465 467 468 469 470 471 475 476 593 594 595 1161 1463 1569
+     </sea_grid_numbers>
+    </sea_grid_cell>
+    <sea_grid_cell area_id="9" maxx="-460.0" maxy="150.0" minx="-535.0" miny="75.0">
+     <sea_grid_lands>
+      lakes
+      all
+      new_grenada
+      new_andalusia
+      curacao
+      hispaniola
+      cuba
+     </sea_grid_lands>
+     <sea_grid_seas>
+      the_caribbean_sea
+     </sea_grid_seas>
+     <sea_grid_ports>
+      port:curacao:otrobanda
+      port:hispaniola:port-de-paix
+     </sea_grid_ports>
+     <sea_grid_numbers>
+      337 338 339 340 342 343 344 345 346 347 348 349 350 388 389 390 391 399 400 401 402 403 404 405 406 423 424 425 426 427 430 460 461 462 477 478 511 512 513 514 515 516 517 519 593 594 595 620 621 743 1018 1088 1256 1319 1383 1483 1556 1627
+     </sea_grid_numbers>
+    </sea_grid_cell>
+    <sea_grid_cell area_id="10" maxx="-385.0" maxy="150.0" minx="-460.0" miny="75.0">
+     <sea_grid_lands>
+      new_andalusia
+      windward_islands
+      leeward_islands
+      trinidad_tobago
+     </sea_grid_lands>
+     <sea_grid_seas>
+      atlantic_ocean_w
+      the_caribbean_sea
+     </sea_grid_seas>
+     <sea_grid_ports>
+      port:windward_islands:barbados
+      port:leeward_islands:guadeloupe
+      port:trinidad_tobago:puerto_de_espana
+     </sea_grid_ports>
+     <sea_grid_numbers>
+      333 334 335 336 337 388 392 393 394 395 396 397 398 421 422 423 518 519 520 619 1294
+     </sea_grid_numbers>
+    </sea_grid_cell>
+    <sea_grid_cell area_id="11" maxx="-310.0" maxy="150.0" minx="-385.0" miny="75.0">
+     <sea_grid_lands/>
+     <sea_grid_seas>
+      atlantic_ocean_w
+     </sea_grid_seas>
+     <sea_grid_ports/>
+     <sea_grid_numbers/>
+    </sea_grid_cell>
+   </sea_grid_row>
+   <sea_grid_row>
+    <sea_grid_cell area_id="12" maxx="-685.0" maxy="225.0" minx="-760.0" miny="150.0">
+     <sea_grid_lands>
+      all
+      western_plain
+      new_spain
+      wilderness_mexico
+      tejas
+      new_mexico
+      wilderness_tejas
+     </sea_grid_lands>
+     <sea_grid_seas>
+      pacific_ocean
+      impassable
+      gulf_of_mexico
+     </sea_grid_seas>
+     <sea_grid_ports/>
+     <sea_grid_numbers>
+      482 483 484 485 503 504 505 506 838 840 910 982 1054 1061 1132 1202 1437 1448 1509 1574
+     </sea_grid_numbers>
+    </sea_grid_cell>
+    <sea_grid_cell area_id="13" maxx="-610.0" maxy="225.0" minx="-685.0" miny="150.0">
+     <sea_grid_lands>
+      all
+      new_spain
+      florida
+      tejas
+      lower_louisiana
+      cherokee_territory
+     </sea_grid_lands>
+     <sea_grid_seas>
+      the_caribbean_sea
+      gulf_of_mexico
+     </sea_grid_seas>
+     <sea_grid_ports>
+      port:lower_louisiana:mobile
+     </sea_grid_ports>
+     <sea_grid_numbers>
+      482 485 486 487 488 489 492 493 494 495 496 499 500 501 502 504 853 927 997 1019 1036 1185 1233 1254 1295 1317 1381 1437 1520
+     </sea_grid_numbers>
+    </sea_grid_cell>
+    <sea_grid_cell area_id="14" maxx="-535.0" maxy="225.0" minx="-610.0" miny="150.0">
+     <sea_grid_lands>
+      cuba
+      florida
+      bahamas
+      cherokee_territory
+      georgia_usa
+     </sea_grid_lands>
+     <sea_grid_seas>
+      atlantic_ocean_w
+      atlantic_ocean_nw
+      the_caribbean_sea
+      gulf_of_mexico
+     </sea_grid_seas>
+     <sea_grid_ports>
+      port:bahamas:grand_bahama
+     </sea_grid_ports>
+     <sea_grid_numbers>
+      351 352 353 354 355 356 357 430 431 432 433 434 435 436 458 459 489 490 491 492 497 498 1019 1232 1458 1463 1526 1534 1596
+     </sea_grid_numbers>
+    </sea_grid_cell>
+    <sea_grid_cell area_id="15" maxx="-460.0" maxy="225.0" minx="-535.0" miny="150.0">
+     <sea_grid_lands>
+      bahamas
+     </sea_grid_lands>
+     <sea_grid_seas>
+      atlantic_ocean_w
+      atlantic_ocean_nw
+      the_caribbean_sea
+     </sea_grid_seas>
+     <sea_grid_ports/>
+     <sea_grid_numbers>
+      430 517 621
+     </sea_grid_numbers>
+    </sea_grid_cell>
+    <sea_grid_cell area_id="16" maxx="-385.0" maxy="225.0" minx="-460.0" miny="150.0">
+     <sea_grid_lands/>
+     <sea_grid_seas>
+      atlantic_ocean_w
+      atlantic_ocean_nw
+      the_caribbean_sea
+     </sea_grid_seas>
+     <sea_grid_ports/>
+     <sea_grid_numbers>
+      323 517 520 621
+     </sea_grid_numbers>
+    </sea_grid_cell>
+    <sea_grid_cell area_id="17" maxx="-310.0" maxy="225.0" minx="-385.0" miny="150.0">
+     <sea_grid_lands/>
+     <sea_grid_seas>
+      atlantic_ocean_w
+     </sea_grid_seas>
+     <sea_grid_ports/>
+     <sea_grid_numbers>
+      323
+     </sea_grid_numbers>
+    </sea_grid_cell>
+   </sea_grid_row>
+   <sea_grid_row>
+    <sea_grid_cell area_id="18" maxx="-685.0" maxy="300.0" minx="-760.0" miny="225.0">
+     <sea_grid_lands/>
+     <sea_grid_seas/>
+     <sea_grid_ports/>
+     <sea_grid_numbers/>
+    </sea_grid_cell>
+    <sea_grid_cell area_id="19" maxx="-610.0" maxy="300.0" minx="-685.0" miny="225.0">
+     <sea_grid_lands>
+      all
+      florida
+      tejas
+      wilderness_tejas
+      lower_louisiana
+      cherokee_territory
+      wilderness_great_plains
+      upper_louisiana
+      kaintuck_territory
+      michigan_territory
+     </sea_grid_lands>
+     <sea_grid_seas>
+      great_lakes
+     </sea_grid_seas>
+     <sea_grid_ports/>
+     <sea_grid_numbers>
+      728 760 875 1228 1295 1370 1441 1513 1520 1580 1584 1603 1672
+     </sea_grid_numbers>
+    </sea_grid_cell>
+    <sea_grid_cell area_id="20" maxx="-535.0" maxy="300.0" minx="-610.0" miny="225.0">
+     <sea_grid_lands>
+      all
+      florida
+      cherokee_territory
+      georgia_usa
+      carolinas
+      upper_louisiana
+      kaintuck_territory
+      virginia
+      pennsylvania
+      maryland
+      michigan_territory
+      algonquin_territory
+      new_york
+      ontario
+     </sea_grid_lands>
+     <sea_grid_seas>
+      atlantic_ocean_nw
+      the_caribbean_sea
+      great_lakes
+     </sea_grid_seas>
+     <sea_grid_ports/>
+     <sea_grid_numbers>
+      357 358 359 360 437 438 439 440 441 735 740 748 780 782 805 807 812 832 855 880 885 905 929 942 954 959 977 999 1012 1026 1031 1069 1082 1095 1100 1140 1163 1168 1172 1239 1243 1263 1296 1304 1305 1308 1311 1329 1367 1370 1372 1375 1395 1409 1430 1443 1466 1480 1511 1515 1520 1537 1553 1582 1586 1596 1607 1624 1651 1654 1663 1680 1731 1732 1733
+     </sea_grid_numbers>
+    </sea_grid_cell>
+    <sea_grid_cell area_id="21" maxx="-460.0" maxy="300.0" minx="-535.0" miny="225.0">
+     <sea_grid_lands>
+      all
+      virginia
+      pennsylvania
+      maryland
+      new_york
+      new_england
+     </sea_grid_lands>
+     <sea_grid_seas>
+      atlantic_ocean_nw
+     </sea_grid_seas>
+     <sea_grid_ports>
+      port:new_york:new_york
+      port:new_england:plymouth
+     </sea_grid_ports>
+     <sea_grid_numbers>
+      360 361 362 363 364 365 407 440 441 442 443 444 445 446 447 448 449 890 961 965 1033 1055 1097 1125 1141 1196 1201 1212 1245 1269 1278 1305 1391 1400 1607 1734 1735 1736
+     </sea_grid_numbers>
+    </sea_grid_cell>
+    <sea_grid_cell area_id="22" maxx="-385.0" maxy="300.0" minx="-460.0" miny="225.0">
+     <sea_grid_lands/>
+     <sea_grid_seas>
+      atlantic_ocean_w
+      atlantic_ocean_nw
+     </sea_grid_seas>
+     <sea_grid_ports/>
+     <sea_grid_numbers/>
+    </sea_grid_cell>
+    <sea_grid_cell area_id="23" maxx="-310.0" maxy="300.0" minx="-385.0" miny="225.0">
+     <sea_grid_lands/>
+     <sea_grid_seas>
+      atlantic_ocean_w
+      atlantic_ocean_nw
+      the_caribbean_sea
+     </sea_grid_seas>
+     <sea_grid_ports/>
+     <sea_grid_numbers/>
+    </sea_grid_cell>
+   </sea_grid_row>
+   <sea_grid_row>
+    <sea_grid_cell area_id="24" maxx="-685.0" maxy="375.0" minx="-760.0" miny="300.0">
+     <sea_grid_lands>
+      all
+      western_plain
+      beaver_territory
+      wilderness_great_plains
+      great_plains
+      wilderness_hudsonsbay
+     </sea_grid_lands>
+     <sea_grid_seas>
+      great_lakes
+     </sea_grid_seas>
+     <sea_grid_ports/>
+     <sea_grid_numbers>
+      1228
+     </sea_grid_numbers>
+    </sea_grid_cell>
+    <sea_grid_cell area_id="25" maxx="-610.0" maxy="375.0" minx="-685.0" miny="300.0">
+     <sea_grid_lands>
+      all
+      wilderness_great_plains
+      michigan_territory
+      great_plains
+      wilderness_hudsonsbay
+      huron_territory
+     </sea_grid_lands>
+     <sea_grid_seas>
+      great_lakes
+     </sea_grid_seas>
+     <sea_grid_ports/>
+     <sea_grid_numbers/>
+    </sea_grid_cell>
+    <sea_grid_cell area_id="26" maxx="-535.0" maxy="375.0" minx="-610.0" miny="300.0">
+     <sea_grid_lands>
+      all
+      wilderness_great_plains
+      michigan_territory
+      algonquin_territory
+      new_york
+      ontario
+      iroquois_territory
+      wilderness_hudsonsbay
+      huron_territory
+      new_france
+      wilderness_canada
+      ruperts_land
+     </sea_grid_lands>
+     <sea_grid_seas>
+      atlantic_ocean_nw
+      hudson_bay
+      great_lakes
+     </sea_grid_seas>
+     <sea_grid_ports>
+      port:ruperts_land:fort_albany
+     </sea_grid_ports>
+     <sea_grid_numbers>
+      533 697 726 746 810 883 957 1029 1048 1090 1100 1117 1190 1308 1310 1368 1439 1649 1707 1708 1709
+     </sea_grid_numbers>
+    </sea_grid_cell>
+    <sea_grid_cell area_id="27" maxx="-460.0" maxy="375.0" minx="-535.0" miny="300.0">
+     <sea_grid_lands>
+      all
+      new_york
+      new_england
+      ontario
+      iroquois_territory
+      maine
+      acadia
+      new_france
+      wilderness_canada
+     </sea_grid_lands>
+     <sea_grid_seas>
+      atlantic_ocean_nw
+     </sea_grid_seas>
+     <sea_grid_ports>
+      port:new_france:tadoussac
+     </sea_grid_ports>
+     <sea_grid_numbers>
+      365 366 367 368 369 370 387 407 448 449 450 451 452 453 698 742 765 809 814 882 887 956 985 1020 1028 1029 1033 1055 1067 1090 1098 1102 1138 1170 1174 1209 1240 1241 1245 1247 1306 1359 1555 1588 1626 1656 1666
+     </sea_grid_numbers>
+    </sea_grid_cell>
+    <sea_grid_cell area_id="28" maxx="-385.0" maxy="375.0" minx="-460.0" miny="300.0">
+     <sea_grid_lands>
+      acadia
+      new_france
+      wilderness_canada
+      newfoundland
+      labrador
+     </sea_grid_lands>
+     <sea_grid_seas>
+      atlantic_ocean_nw
+     </sea_grid_seas>
+     <sea_grid_ports/>
+     <sea_grid_numbers>
+      370 371 372 373 374 375 379 380 381 382 383 384 385 386 387 454 455 522 529 530 738 809 913 985 1247 1656 1682 1683 1684
+     </sea_grid_numbers>
+    </sea_grid_cell>
+    <sea_grid_cell area_id="29" maxx="-310.0" maxy="375.0" minx="-385.0" miny="300.0">
+     <sea_grid_lands>
+      newfoundland
+     </sea_grid_lands>
+     <sea_grid_seas>
+      atlantic_ocean_nw
+     </sea_grid_seas>
+     <sea_grid_ports>
+      port:newfoundland:st_johns
+     </sea_grid_ports>
+     <sea_grid_numbers>
+      375 376 377 378 379 381 456 457 1653
+     </sea_grid_numbers>
+    </sea_grid_cell>
+   </sea_grid_row>
+   <sea_grid_row>
+    <sea_grid_cell area_id="30" maxx="-685.0" maxy="450.0" minx="-760.0" miny="375.0">
+     <sea_grid_lands>
+      beaver_territory
+      great_plains
+      wilderness_hudsonsbay
+     </sea_grid_lands>
+     <sea_grid_seas>
+      great_lakes
+     </sea_grid_seas>
+     <sea_grid_ports/>
+     <sea_grid_numbers/>
+    </sea_grid_cell>
+    <sea_grid_cell area_id="31" maxx="-610.0" maxy="450.0" minx="-685.0" miny="375.0">
+     <sea_grid_lands>
+      beaver_territory
+      wilderness_hudsonsbay
+      northwest_territories
+     </sea_grid_lands>
+     <sea_grid_seas>
+      hudson_bay
+     </sea_grid_seas>
+     <sea_grid_ports/>
+     <sea_grid_numbers>
+      528 725
+     </sea_grid_numbers>
+    </sea_grid_cell>
+    <sea_grid_cell area_id="32" maxx="-535.0" maxy="450.0" minx="-610.0" miny="375.0">
+     <sea_grid_lands>
+      beaver_territory
+      wilderness_hudsonsbay
+      wilderness_canada
+      ruperts_land
+     </sea_grid_lands>
+     <sea_grid_seas>
+      arctic_w_ocean
+      hudson_bay
+     </sea_grid_seas>
+     <sea_grid_ports/>
+     <sea_grid_numbers>
+      524 525 526 527 528 533 534 535
+     </sea_grid_numbers>
+    </sea_grid_cell>
+    <sea_grid_cell area_id="33" maxx="-460.0" maxy="450.0" minx="-535.0" miny="375.0">
+     <sea_grid_lands>
+      beaver_territory
+      wilderness_canada
+     </sea_grid_lands>
+     <sea_grid_seas>
+      arctic_w_ocean
+     </sea_grid_seas>
+     <sea_grid_ports/>
+     <sea_grid_numbers>
+      524
+     </sea_grid_numbers>
+    </sea_grid_cell>
+    <sea_grid_cell area_id="34" maxx="-385.0" maxy="450.0" minx="-460.0" miny="375.0">
+     <sea_grid_lands>
+      beaver_territory
+      wilderness_canada
+      labrador
+     </sea_grid_lands>
+     <sea_grid_seas>
+      atlantic_ocean_nw
+      arctic_w_ocean
+     </sea_grid_seas>
+     <sea_grid_ports/>
+     <sea_grid_numbers>
+      522 523 524 529 530 531 532 738 818
+     </sea_grid_numbers>
+    </sea_grid_cell>
+    <sea_grid_cell area_id="35" maxx="-310.0" maxy="450.0" minx="-385.0" miny="375.0">
+     <sea_grid_lands>
+      greenland
+     </sea_grid_lands>
+     <sea_grid_seas>
+      atlantic_ocean_nw
+      arctic_w_ocean
+     </sea_grid_seas>
+     <sea_grid_ports/>
+     <sea_grid_numbers/>
+    </sea_grid_cell>
+   </sea_grid_row>
+   <sea_grid_row>
+    <sea_grid_cell area_id="36" maxx="-685.0" maxy="525.0" minx="-760.0" miny="450.0">
+     <sea_grid_lands/>
+     <sea_grid_seas/>
+     <sea_grid_ports/>
+     <sea_grid_numbers/>
+    </sea_grid_cell>
+    <sea_grid_cell area_id="37" maxx="-610.0" maxy="525.0" minx="-685.0" miny="450.0">
+     <sea_grid_lands>
+      beaver_territory
+     </sea_grid_lands>
+     <sea_grid_seas>
+      arctic_w_ocean
+      hudson_bay
+     </sea_grid_seas>
+     <sea_grid_ports/>
+     <sea_grid_numbers/>
+    </sea_grid_cell>
+    <sea_grid_cell area_id="38" maxx="-535.0" maxy="525.0" minx="-610.0" miny="450.0">
+     <sea_grid_lands>
+      beaver_territory
+     </sea_grid_lands>
+     <sea_grid_seas>
+      arctic_w_ocean
+      hudson_bay
+     </sea_grid_seas>
+     <sea_grid_ports/>
+     <sea_grid_numbers/>
+    </sea_grid_cell>
+    <sea_grid_cell area_id="39" maxx="-460.0" maxy="525.0" minx="-535.0" miny="450.0">
+     <sea_grid_lands>
+      beaver_territory
+     </sea_grid_lands>
+     <sea_grid_seas>
+      arctic_w_ocean
+     </sea_grid_seas>
+     <sea_grid_ports/>
+     <sea_grid_numbers/>
+    </sea_grid_cell>
+    <sea_grid_cell area_id="40" maxx="-385.0" maxy="525.0" minx="-460.0" miny="450.0">
+     <sea_grid_lands>
+      greenland
+      beaver_territory
+     </sea_grid_lands>
+     <sea_grid_seas>
+      arctic_w_ocean
+     </sea_grid_seas>
+     <sea_grid_ports/>
+     <sea_grid_numbers/>
+    </sea_grid_cell>
+    <sea_grid_cell area_id="41" maxx="-310.0" maxy="525.0" minx="-385.0" miny="450.0">
+     <sea_grid_lands>
+      greenland
+     </sea_grid_lands>
+     <sea_grid_seas>
+      arctic_w_ocean
+     </sea_grid_seas>
+     <sea_grid_ports/>
+     <sea_grid_numbers/>
+    </sea_grid_cell>
+   </sea_grid_row>
+   <sea_grid_connections>
+    <sea_grid_connection area1="0" area2="1" value="0.0"/>
+    <sea_grid_connection area1="0" area2="2" value="0.0"/>
+    <sea_grid_connection area1="0" area2="3" value="-1.0"/>
+    <sea_grid_connection area1="0" area2="4" value="-1.0"/>
+    <sea_grid_connection area1="0" area2="5" value="-1.0"/>
+    <sea_grid_connection area1="0" area2="6" value="0.0"/>
+    <sea_grid_connection area1="0" area2="7" value="0.0"/>
+    <sea_grid_connection area1="0" area2="8" value="-1.0"/>
+    <sea_grid_connection area1="0" area2="9" value="-1.0"/>
+    <sea_grid_connection area1="0" area2="10" value="-1.0"/>
+    <sea_grid_connection area1="0" area2="11" value="-1.0"/>
+    <sea_grid_connection area1="0" area2="12" value="-1.0"/>
+    <sea_grid_connection area1="0" area2="13" value="-1.0"/>
+    <sea_grid_connection area1="0" area2="14" value="-1.0"/>
+    <sea_grid_connection area1="0" area2="15" value="-1.0"/>
+    <sea_grid_connection area1="0" area2="16" value="-1.0"/>
+    <sea_grid_connection area1="0" area2="17" value="-1.0"/>
+    <sea_grid_connection area1="0" area2="19" value="-1.0"/>
+    <sea_grid_connection area1="0" area2="20" value="-1.0"/>
+    <sea_grid_connection area1="0" area2="21" value="-1.0"/>
+    <sea_grid_connection area1="0" area2="22" value="-1.0"/>
+    <sea_grid_connection area1="0" area2="23" value="-1.0"/>
+    <sea_grid_connection area1="0" area2="24" value="-1.0"/>
+    <sea_grid_connection area1="0" area2="25" value="-1.0"/>
+    <sea_grid_connection area1="0" area2="26" value="-1.0"/>
+    <sea_grid_connection area1="0" area2="27" value="-1.0"/>
+    <sea_grid_connection area1="0" area2="28" value="-1.0"/>
+    <sea_grid_connection area1="0" area2="29" value="-1.0"/>
+    <sea_grid_connection area1="0" area2="30" value="-1.0"/>
+    <sea_grid_connection area1="0" area2="31" value="-1.0"/>
+    <sea_grid_connection area1="0" area2="32" value="-1.0"/>
+    <sea_grid_connection area1="0" area2="33" value="-1.0"/>
+    <sea_grid_connection area1="0" area2="34" value="-1.0"/>
+    <sea_grid_connection area1="0" area2="35" value="-1.0"/>
+    <sea_grid_connection area1="0" area2="37" value="-1.0"/>
+    <sea_grid_connection area1="0" area2="38" value="-1.0"/>
+    <sea_grid_connection area1="0" area2="39" value="-1.0"/>
+    <sea_grid_connection area1="0" area2="40" value="-1.0"/>
+    <sea_grid_connection area1="0" area2="41" value="-1.0"/>
+    <sea_grid_connection area1="1" area2="2" value="0.0"/>
+    <sea_grid_connection area1="1" area2="3" value="-1.0"/>
+    <sea_grid_connection area1="1" area2="4" value="-1.0"/>
+    <sea_grid_connection area1="1" area2="5" value="-1.0"/>
+    <sea_grid_connection area1="1" area2="6" value="0.0"/>
+    <sea_grid_connection area1="1" area2="7" value="0.0"/>
+    <sea_grid_connection area1="1" area2="8" value="-1.0"/>
+    <sea_grid_connection area1="1" area2="9" value="-1.0"/>
+    <sea_grid_connection area1="1" area2="10" value="-1.0"/>
+    <sea_grid_connection area1="1" area2="11" value="-1.0"/>
+    <sea_grid_connection area1="1" area2="12" value="-1.0"/>
+    <sea_grid_connection area1="1" area2="13" value="-1.0"/>
+    <sea_grid_connection area1="1" area2="14" value="-1.0"/>
+    <sea_grid_connection area1="1" area2="15" value="-1.0"/>
+    <sea_grid_connection area1="1" area2="16" value="-1.0"/>
+    <sea_grid_connection area1="1" area2="17" value="-1.0"/>
+    <sea_grid_connection area1="1" area2="19" value="-1.0"/>
+    <sea_grid_connection area1="1" area2="20" value="-1.0"/>
+    <sea_grid_connection area1="1" area2="21" value="-1.0"/>
+    <sea_grid_connection area1="1" area2="22" value="-1.0"/>
+    <sea_grid_connection area1="1" area2="23" value="-1.0"/>
+    <sea_grid_connection area1="1" area2="24" value="-1.0"/>
+    <sea_grid_connection area1="1" area2="25" value="-1.0"/>
+    <sea_grid_connection area1="1" area2="26" value="-1.0"/>
+    <sea_grid_connection area1="1" area2="27" value="-1.0"/>
+    <sea_grid_connection area1="1" area2="28" value="-1.0"/>
+    <sea_grid_connection area1="1" area2="29" value="-1.0"/>
+    <sea_grid_connection area1="1" area2="30" value="-1.0"/>
+    <sea_grid_connection area1="1" area2="31" value="-1.0"/>
+    <sea_grid_connection area1="1" area2="32" value="-1.0"/>
+    <sea_grid_connection area1="1" area2="33" value="-1.0"/>
+    <sea_grid_connection area1="1" area2="34" value="-1.0"/>
+    <sea_grid_connection area1="1" area2="35" value="-1.0"/>
+    <sea_grid_connection area1="1" area2="37" value="-1.0"/>
+    <sea_grid_connection area1="1" area2="38" value="-1.0"/>
+    <sea_grid_connection area1="1" area2="39" value="-1.0"/>
+    <sea_grid_connection area1="1" area2="40" value="-1.0"/>
+    <sea_grid_connection area1="1" area2="41" value="-1.0"/>
+    <sea_grid_connection area1="2" area2="3" value="-1.0"/>
+    <sea_grid_connection area1="2" area2="4" value="-1.0"/>
+    <sea_grid_connection area1="2" area2="5" value="-1.0"/>
+    <sea_grid_connection area1="2" area2="6" value="0.0"/>
+    <sea_grid_connection area1="2" area2="7" value="0.0"/>
+    <sea_grid_connection area1="2" area2="8" value="-1.0"/>
+    <sea_grid_connection area1="2" area2="9" value="-1.0"/>
+    <sea_grid_connection area1="2" area2="10" value="-1.0"/>
+    <sea_grid_connection area1="2" area2="11" value="-1.0"/>
+    <sea_grid_connection area1="2" area2="12" value="-1.0"/>
+    <sea_grid_connection area1="2" area2="13" value="-1.0"/>
+    <sea_grid_connection area1="2" area2="14" value="-1.0"/>
+    <sea_grid_connection area1="2" area2="15" value="-1.0"/>
+    <sea_grid_connection area1="2" area2="16" value="-1.0"/>
+    <sea_grid_connection area1="2" area2="17" value="-1.0"/>
+    <sea_grid_connection area1="2" area2="19" value="-1.0"/>
+    <sea_grid_connection area1="2" area2="20" value="-1.0"/>
+    <sea_grid_connection area1="2" area2="21" value="-1.0"/>
+    <sea_grid_connection area1="2" area2="22" value="-1.0"/>
+    <sea_grid_connection area1="2" area2="23" value="-1.0"/>
+    <sea_grid_connection area1="2" area2="24" value="-1.0"/>
+    <sea_grid_connection area1="2" area2="25" value="-1.0"/>
+    <sea_grid_connection area1="2" area2="26" value="-1.0"/>
+    <sea_grid_connection area1="2" area2="27" value="-1.0"/>
+    <sea_grid_connection area1="2" area2="28" value="-1.0"/>
+    <sea_grid_connection area1="2" area2="29" value="-1.0"/>
+    <sea_grid_connection area1="2" area2="30" value="-1.0"/>
+    <sea_grid_connection area1="2" area2="31" value="-1.0"/>
+    <sea_grid_connection area1="2" area2="32" value="-1.0"/>
+    <sea_grid_connection area1="2" area2="33" value="-1.0"/>
+    <sea_grid_connection area1="2" area2="34" value="-1.0"/>
+    <sea_grid_connection area1="2" area2="35" value="-1.0"/>
+    <sea_grid_connection area1="2" area2="37" value="-1.0"/>
+    <sea_grid_connection area1="2" area2="38" value="-1.0"/>
+    <sea_grid_connection area1="2" area2="39" value="-1.0"/>
+    <sea_grid_connection area1="2" area2="40" value="-1.0"/>
+    <sea_grid_connection area1="2" area2="41" value="-1.0"/>
+    <sea_grid_connection area1="3" area2="4" value="106.43311"/>
+    <sea_grid_connection area1="3" area2="5" value="106.43311"/>
+    <sea_grid_connection area1="3" area2="6" value="-1.0"/>
+    <sea_grid_connection area1="3" area2="7" value="-1.0"/>
+    <sea_grid_connection area1="3" area2="8" value="0.0"/>
+    <sea_grid_connection area1="3" area2="9" value="0.0"/>
+    <sea_grid_connection area1="3" area2="10" value="0.0"/>
+    <sea_grid_connection area1="3" area2="11" value="106.43311"/>
+    <sea_grid_connection area1="3" area2="12" value="203.64758"/>
+    <sea_grid_connection area1="3" area2="13" value="203.64758"/>
+    <sea_grid_connection area1="3" area2="14" value="0.0"/>
+    <sea_grid_connection area1="3" area2="15" value="106.43311"/>
+    <sea_grid_connection area1="3" area2="16" value="106.43311"/>
+    <sea_grid_connection area1="3" area2="17" value="106.43311"/>
+    <sea_grid_connection area1="3" area2="19" value="495.83493"/>
+    <sea_grid_connection area1="3" area2="20" value="348.85568"/>
+    <sea_grid_connection area1="3" area2="21" value="348.85568"/>
+    <sea_grid_connection area1="3" area2="22" value="348.85568"/>
+    <sea_grid_connection area1="3" area2="23" value="348.85568"/>
+    <sea_grid_connection area1="3" area2="24" value="495.83493"/>
+    <sea_grid_connection area1="3" area2="25" value="495.83493"/>
+    <sea_grid_connection area1="3" area2="26" value="495.83493"/>
+    <sea_grid_connection area1="3" area2="27" value="242.42258"/>
+    <sea_grid_connection area1="3" area2="28" value="348.85568"/>
+    <sea_grid_connection area1="3" area2="29" value="348.85568"/>
+    <sea_grid_connection area1="3" area2="30" value="495.83493"/>
+    <sea_grid_connection area1="3" area2="31" value="994.12616"/>
+    <sea_grid_connection area1="3" area2="32" value="994.12616"/>
+    <sea_grid_connection area1="3" area2="33" value="621.4906"/>
+    <sea_grid_connection area1="3" area2="34" value="242.42258"/>
+    <sea_grid_connection area1="3" area2="35" value="242.42258"/>
+    <sea_grid_connection area1="3" area2="37" value="994.12616"/>
+    <sea_grid_connection area1="3" area2="38" value="621.4906"/>
+    <sea_grid_connection area1="3" area2="39" value="621.4906"/>
+    <sea_grid_connection area1="3" area2="40" value="621.4906"/>
+    <sea_grid_connection area1="3" area2="41" value="621.4906"/>
+    <sea_grid_connection area1="4" area2="5" value="0.0"/>
+    <sea_grid_connection area1="4" area2="6" value="-1.0"/>
+    <sea_grid_connection area1="4" area2="7" value="-1.0"/>
+    <sea_grid_connection area1="4" area2="8" value="127.35569"/>
+    <sea_grid_connection area1="4" area2="9" value="127.35569"/>
+    <sea_grid_connection area1="4" area2="10" value="127.35569"/>
+    <sea_grid_connection area1="4" area2="11" value="0.0"/>
+    <sea_grid_connection area1="4" area2="12" value="381.20798"/>
+    <sea_grid_connection area1="4" area2="13" value="381.20798"/>
+    <sea_grid_connection area1="4" area2="14" value="127.35569"/>
+    <sea_grid_connection area1="4" area2="15" value="0.0"/>
+    <sea_grid_connection area1="4" area2="16" value="0.0"/>
+    <sea_grid_connection area1="4" area2="17" value="0.0"/>
+    <sea_grid_connection area1="4" area2="19" value="688.15741"/>
+    <sea_grid_connection area1="4" area2="20" value="397.81833"/>
+    <sea_grid_connection area1="4" area2="21" value="397.81833"/>
+    <sea_grid_connection area1="4" area2="22" value="397.81833"/>
+    <sea_grid_connection area1="4" area2="23" value="397.81833"/>
+    <sea_grid_connection area1="4" area2="24" value="688.15741"/>
+    <sea_grid_connection area1="4" area2="25" value="688.15741"/>
+    <sea_grid_connection area1="4" area2="26" value="688.15741"/>
+    <sea_grid_connection area1="4" area2="27" value="397.81833"/>
+    <sea_grid_connection area1="4" area2="28" value="397.81833"/>
+    <sea_grid_connection area1="4" area2="29" value="397.81833"/>
+    <sea_grid_connection area1="4" area2="30" value="688.15741"/>
+    <sea_grid_connection area1="4" area2="31" value="1089.16602"/>
+    <sea_grid_connection area1="4" area2="32" value="1089.16602"/>
+    <sea_grid_connection area1="4" area2="33" value="679.03845"/>
+    <sea_grid_connection area1="4" area2="34" value="270.46265"/>
+    <sea_grid_connection area1="4" area2="35" value="270.46265"/>
+    <sea_grid_connection area1="4" area2="37" value="1089.16602"/>
+    <sea_grid_connection area1="4" area2="38" value="679.03845"/>
+    <sea_grid_connection area1="4" area2="39" value="679.03845"/>
+    <sea_grid_connection area1="4" area2="40" value="679.03845"/>
+    <sea_grid_connection area1="4" area2="41" value="679.03845"/>
+    <sea_grid_connection area1="5" area2="6" value="-1.0"/>
+    <sea_grid_connection area1="5" area2="7" value="-1.0"/>
+    <sea_grid_connection area1="5" area2="8" value="193.88358"/>
+    <sea_grid_connection area1="5" area2="9" value="193.88358"/>
+    <sea_grid_connection area1="5" area2="10" value="193.88358"/>
+    <sea_grid_connection area1="5" area2="11" value="0.0"/>
+    <sea_grid_connection area1="5" area2="12" value="514.94751"/>
+    <sea_grid_connection area1="5" area2="13" value="514.94751"/>
+    <sea_grid_connection area1="5" area2="14" value="193.88358"/>
+    <sea_grid_connection area1="5" area2="15" value="0.0"/>
+    <sea_grid_connection area1="5" area2="16" value="0.0"/>
+    <sea_grid_connection area1="5" area2="17" value="0.0"/>
+    <sea_grid_connection area1="5" area2="19" value="848.10834"/>
+    <sea_grid_connection area1="5" area2="20" value="506.32687"/>
+    <sea_grid_connection area1="5" area2="21" value="506.32687"/>
+    <sea_grid_connection area1="5" area2="22" value="506.32687"/>
+    <sea_grid_connection area1="5" area2="23" value="506.32687"/>
+    <sea_grid_connection area1="5" area2="24" value="848.10834"/>
+    <sea_grid_connection area1="5" area2="25" value="848.10834"/>
+    <sea_grid_connection area1="5" area2="26" value="848.10834"/>
+    <sea_grid_connection area1="5" area2="27" value="506.32687"/>
+    <sea_grid_connection area1="5" area2="28" value="506.32687"/>
+    <sea_grid_connection area1="5" area2="29" value="506.32687"/>
+    <sea_grid_connection area1="5" area2="30" value="848.10834"/>
+    <sea_grid_connection area1="5" area2="31" value="1222.26257"/>
+    <sea_grid_connection area1="5" area2="32" value="1416.14612"/>
+    <sea_grid_connection area1="5" area2="33" value="761.70349"/>
+    <sea_grid_connection area1="5" area2="34" value="312.4433"/>
+    <sea_grid_connection area1="5" area2="35" value="312.4433"/>
+    <sea_grid_connection area1="5" area2="37" value="1222.26257"/>
+    <sea_grid_connection area1="5" area2="38" value="761.70349"/>
+    <sea_grid_connection area1="5" area2="39" value="761.70349"/>
+    <sea_grid_connection area1="5" area2="40" value="761.70349"/>
+    <sea_grid_connection area1="5" area2="41" value="761.70349"/>
+    <sea_grid_connection area1="6" area2="7" value="0.0"/>
+    <sea_grid_connection area1="6" area2="8" value="-1.0"/>
+    <sea_grid_connection area1="6" area2="9" value="-1.0"/>
+    <sea_grid_connection area1="6" area2="10" value="-1.0"/>
+    <sea_grid_connection area1="6" area2="11" value="-1.0"/>
+    <sea_grid_connection area1="6" area2="12" value="-1.0"/>
+    <sea_grid_connection area1="6" area2="13" value="-1.0"/>
+    <sea_grid_connection area1="6" area2="14" value="-1.0"/>
+    <sea_grid_connection area1="6" area2="15" value="-1.0"/>
+    <sea_grid_connection area1="6" area2="16" value="-1.0"/>
+    <sea_grid_connection area1="6" area2="17" value="-1.0"/>
+    <sea_grid_connection area1="6" area2="19" value="-1.0"/>
+    <sea_grid_connection area1="6" area2="20" value="-1.0"/>
+    <sea_grid_connection area1="6" area2="21" value="-1.0"/>
+    <sea_grid_connection area1="6" area2="22" value="-1.0"/>
+    <sea_grid_connection area1="6" area2="23" value="-1.0"/>
+    <sea_grid_connection area1="6" area2="24" value="-1.0"/>
+    <sea_grid_connection area1="6" area2="25" value="-1.0"/>
+    <sea_grid_connection area1="6" area2="26" value="-1.0"/>
+    <sea_grid_connection area1="6" area2="27" value="-1.0"/>
+    <sea_grid_connection area1="6" area2="28" value="-1.0"/>
+    <sea_grid_connection area1="6" area2="29" value="-1.0"/>
+    <sea_grid_connection area1="6" area2="30" value="-1.0"/>
+    <sea_grid_connection area1="6" area2="31" value="-1.0"/>
+    <sea_grid_connection area1="6" area2="32" value="-1.0"/>
+    <sea_grid_connection area1="6" area2="33" value="-1.0"/>
+    <sea_grid_connection area1="6" area2="34" value="-1.0"/>
+    <sea_grid_connection area1="6" area2="35" value="-1.0"/>
+    <sea_grid_connection area1="6" area2="37" value="-1.0"/>
+    <sea_grid_connection area1="6" area2="38" value="-1.0"/>
+    <sea_grid_connection area1="6" area2="39" value="-1.0"/>
+    <sea_grid_connection area1="6" area2="40" value="-1.0"/>
+    <sea_grid_connection area1="6" area2="41" value="-1.0"/>
+    <sea_grid_connection area1="7" area2="8" value="-1.0"/>
+    <sea_grid_connection area1="7" area2="9" value="-1.0"/>
+    <sea_grid_connection area1="7" area2="10" value="-1.0"/>
+    <sea_grid_connection area1="7" area2="11" value="-1.0"/>
+    <sea_grid_connection area1="7" area2="12" value="-1.0"/>
+    <sea_grid_connection area1="7" area2="13" value="-1.0"/>
+    <sea_grid_connection area1="7" area2="14" value="-1.0"/>
+    <sea_grid_connection area1="7" area2="15" value="-1.0"/>
+    <sea_grid_connection area1="7" area2="16" value="-1.0"/>
+    <sea_grid_connection area1="7" area2="17" value="-1.0"/>
+    <sea_grid_connection area1="7" area2="19" value="-1.0"/>
+    <sea_grid_connection area1="7" area2="20" value="-1.0"/>
+    <sea_grid_connection area1="7" area2="21" value="-1.0"/>
+    <sea_grid_connection area1="7" area2="22" value="-1.0"/>
+    <sea_grid_connection area1="7" area2="23" value="-1.0"/>
+    <sea_grid_connection area1="7" area2="24" value="-1.0"/>
+    <sea_grid_connection area1="7" area2="25" value="-1.0"/>
+    <sea_grid_connection area1="7" area2="26" value="-1.0"/>
+    <sea_grid_connection area1="7" area2="27" value="-1.0"/>
+    <sea_grid_connection area1="7" area2="28" value="-1.0"/>
+    <sea_grid_connection area1="7" area2="29" value="-1.0"/>
+    <sea_grid_connection area1="7" area2="30" value="-1.0"/>
+    <sea_grid_connection area1="7" area2="31" value="-1.0"/>
+    <sea_grid_connection area1="7" area2="32" value="-1.0"/>
+    <sea_grid_connection area1="7" area2="33" value="-1.0"/>
+    <sea_grid_connection area1="7" area2="34" value="-1.0"/>
+    <sea_grid_connection area1="7" area2="35" value="-1.0"/>
+    <sea_grid_connection area1="7" area2="37" value="-1.0"/>
+    <sea_grid_connection area1="7" area2="38" value="-1.0"/>
+    <sea_grid_connection area1="7" area2="39" value="-1.0"/>
+    <sea_grid_connection area1="7" area2="40" value="-1.0"/>
+    <sea_grid_connection area1="7" area2="41" value="-1.0"/>
+    <sea_grid_connection area1="8" area2="9" value="0.0"/>
+    <sea_grid_connection area1="8" area2="10" value="0.0"/>
+    <sea_grid_connection area1="8" area2="11" value="202.3681"/>
+    <sea_grid_connection area1="8" area2="12" value="89.37350463867188"/>
+    <sea_grid_connection area1="8" area2="13" value="89.37350463867188"/>
+    <sea_grid_connection area1="8" area2="14" value="0.0"/>
+    <sea_grid_connection area1="8" area2="15" value="202.3681"/>
+    <sea_grid_connection area1="8" area2="16" value="202.3681"/>
+    <sea_grid_connection area1="8" area2="17" value="202.3681"/>
+    <sea_grid_connection area1="8" area2="19" value="418.5481"/>
+    <sea_grid_connection area1="8" area2="20" value="219.18391"/>
+    <sea_grid_connection area1="8" area2="21" value="219.18391"/>
+    <sea_grid_connection area1="8" area2="22" value="219.18391"/>
+    <sea_grid_connection area1="8" area2="23" value="219.18391"/>
+    <sea_grid_connection area1="8" area2="24" value="418.5481"/>
+    <sea_grid_connection area1="8" area2="25" value="418.5481"/>
+    <sea_grid_connection area1="8" area2="26" value="418.5481"/>
+    <sea_grid_connection area1="8" area2="27" value="219.18391"/>
+    <sea_grid_connection area1="8" area2="28" value="219.18391"/>
+    <sea_grid_connection area1="8" area2="29" value="219.18391"/>
+    <sea_grid_connection area1="8" area2="30" value="418.5481"/>
+    <sea_grid_connection area1="8" area2="31" value="862.487"/>
+    <sea_grid_connection area1="8" area2="32" value="862.487"/>
+    <sea_grid_connection area1="8" area2="33" value="556.34186"/>
+    <sea_grid_connection area1="8" area2="34" value="219.18391"/>
+    <sea_grid_connection area1="8" area2="35" value="219.18391"/>
+    <sea_grid_connection area1="8" area2="37" value="862.487"/>
+    <sea_grid_connection area1="8" area2="38" value="556.34186"/>
+    <sea_grid_connection area1="8" area2="39" value="556.34186"/>
+    <sea_grid_connection area1="8" area2="40" value="556.34186"/>
+    <sea_grid_connection area1="8" area2="41" value="556.34186"/>
+    <sea_grid_connection area1="9" area2="10" value="0.0"/>
+    <sea_grid_connection area1="9" area2="11" value="128.02519"/>
+    <sea_grid_connection area1="9" area2="12" value="153.51852"/>
+    <sea_grid_connection area1="9" area2="13" value="153.51852"/>
+    <sea_grid_connection area1="9" area2="14" value="0.0"/>
+    <sea_grid_connection area1="9" area2="15" value="128.02519"/>
+    <sea_grid_connection area1="9" area2="16" value="128.02519"/>
+    <sea_grid_connection area1="9" area2="17" value="128.02519"/>
+    <sea_grid_connection area1="9" area2="19" value="409.09241"/>
+    <sea_grid_connection area1="9" area2="20" value="203.19934"/>
+    <sea_grid_connection area1="9" area2="21" value="203.19934"/>
+    <sea_grid_connection area1="9" area2="22" value="203.19934"/>
+    <sea_grid_connection area1="9" area2="23" value="203.19934"/>
+    <sea_grid_connection area1="9" area2="24" value="409.09241"/>
+    <sea_grid_connection area1="9" area2="25" value="409.09241"/>
+    <sea_grid_connection area1="9" area2="26" value="409.09241"/>
+    <sea_grid_connection area1="9" area2="27" value="203.19934"/>
+    <sea_grid_connection area1="9" area2="28" value="203.19934"/>
+    <sea_grid_connection area1="9" area2="29" value="203.19934"/>
+    <sea_grid_connection area1="9" area2="30" value="409.09241"/>
+    <sea_grid_connection area1="9" area2="31" value="863.48572"/>
+    <sea_grid_connection area1="9" area2="32" value="863.48572"/>
+    <sea_grid_connection area1="9" area2="33" value="539.65442"/>
+    <sea_grid_connection area1="9" area2="34" value="203.19934"/>
+    <sea_grid_connection area1="9" area2="35" value="203.19934"/>
+    <sea_grid_connection area1="9" area2="37" value="863.48572"/>
+    <sea_grid_connection area1="9" area2="38" value="539.65442"/>
+    <sea_grid_connection area1="9" area2="39" value="539.65442"/>
+    <sea_grid_connection area1="9" area2="40" value="539.65442"/>
+    <sea_grid_connection area1="9" area2="41" value="539.65442"/>
+    <sea_grid_connection area1="10" area2="11" value="55.48023"/>
+    <sea_grid_connection area1="10" area2="12" value="224.49556"/>
+    <sea_grid_connection area1="10" area2="13" value="224.49556"/>
+    <sea_grid_connection area1="10" area2="14" value="0.0"/>
+    <sea_grid_connection area1="10" area2="15" value="55.48023"/>
+    <sea_grid_connection area1="10" area2="16" value="55.48023"/>
+    <sea_grid_connection area1="10" area2="17" value="55.48023"/>
+    <sea_grid_connection area1="10" area2="19" value="451.23273"/>
+    <sea_grid_connection area1="10" area2="20" value="213.98215"/>
+    <sea_grid_connection area1="10" area2="21" value="213.98215"/>
+    <sea_grid_connection area1="10" area2="22" value="213.98215"/>
+    <sea_grid_connection area1="10" area2="23" value="213.98215"/>
+    <sea_grid_connection area1="10" area2="24" value="451.23273"/>
+    <sea_grid_connection area1="10" area2="25" value="451.23273"/>
+    <sea_grid_connection area1="10" area2="26" value="451.23273"/>
+    <sea_grid_connection area1="10" area2="27" value="213.98215"/>
+    <sea_grid_connection area1="10" area2="28" value="213.98215"/>
+    <sea_grid_connection area1="10" area2="29" value="213.98215"/>
+    <sea_grid_connection area1="10" area2="30" value="451.23273"/>
+    <sea_grid_connection area1="10" area2="31" value="922.82129"/>
+    <sea_grid_connection area1="10" area2="32" value="922.82129"/>
+    <sea_grid_connection area1="10" area2="33" value="566.08801"/>
+    <sea_grid_connection area1="10" area2="34" value="213.98215"/>
+    <sea_grid_connection area1="10" area2="35" value="213.98215"/>
+    <sea_grid_connection area1="10" area2="37" value="922.82129"/>
+    <sea_grid_connection area1="10" area2="38" value="566.08801"/>
+    <sea_grid_connection area1="10" area2="39" value="566.08801"/>
+    <sea_grid_connection area1="10" area2="40" value="566.08801"/>
+    <sea_grid_connection area1="10" area2="41" value="566.08801"/>
+    <sea_grid_connection area1="11" area2="12" value="471.53192"/>
+    <sea_grid_connection area1="11" area2="13" value="471.53192"/>
+    <sea_grid_connection area1="11" area2="14" value="174.07841"/>
+    <sea_grid_connection area1="11" area2="15" value="0.0"/>
+    <sea_grid_connection area1="11" area2="16" value="0.0"/>
+    <sea_grid_connection area1="11" area2="17" value="0.0"/>
+    <sea_grid_connection area1="11" area2="19" value="533.43188"/>
+    <sea_grid_connection area1="11" area2="20" value="248.06601"/>
+    <sea_grid_connection area1="11" area2="21" value="248.06601"/>
+    <sea_grid_connection area1="11" area2="22" value="248.06601"/>
+    <sea_grid_connection area1="11" area2="23" value="248.06601"/>
+    <sea_grid_connection area1="11" area2="24" value="533.43188"/>
+    <sea_grid_connection area1="11" area2="25" value="533.43188"/>
+    <sea_grid_connection area1="11" area2="26" value="533.43188"/>
+    <sea_grid_connection area1="11" area2="27" value="248.06601"/>
+    <sea_grid_connection area1="11" area2="28" value="248.06601"/>
+    <sea_grid_connection area1="11" area2="29" value="248.06601"/>
+    <sea_grid_connection area1="11" area2="30" value="533.43188"/>
+    <sea_grid_connection area1="11" area2="31" value="1031.29614"/>
+    <sea_grid_connection area1="11" area2="32" value="1031.29614"/>
+    <sea_grid_connection area1="11" area2="33" value="630.17212"/>
+    <sea_grid_connection area1="11" area2="34" value="248.06601"/>
+    <sea_grid_connection area1="11" area2="35" value="248.06601"/>
+    <sea_grid_connection area1="11" area2="37" value="1031.29614"/>
+    <sea_grid_connection area1="11" area2="38" value="630.17212"/>
+    <sea_grid_connection area1="11" area2="39" value="630.17212"/>
+    <sea_grid_connection area1="11" area2="40" value="630.17212"/>
+    <sea_grid_connection area1="11" area2="41" value="630.17212"/>
+    <sea_grid_connection area1="12" area2="13" value="0.0"/>
+    <sea_grid_connection area1="12" area2="14" value="175.80524"/>
+    <sea_grid_connection area1="12" area2="15" value="494.12534"/>
+    <sea_grid_connection area1="12" area2="16" value="494.12534"/>
+    <sea_grid_connection area1="12" area2="17" value="494.12534"/>
+    <sea_grid_connection area1="12" area2="19" value="590.04718"/>
+    <sea_grid_connection area1="12" area2="20" value="409.1048"/>
+    <sea_grid_connection area1="12" area2="21" value="409.1048"/>
+    <sea_grid_connection area1="12" area2="22" value="409.1048"/>
+    <sea_grid_connection area1="12" area2="23" value="409.1048"/>
+    <sea_grid_connection area1="12" area2="24" value="590.04718"/>
+    <sea_grid_connection area1="12" area2="25" value="590.04718"/>
+    <sea_grid_connection area1="12" area2="26" value="590.04718"/>
+    <sea_grid_connection area1="12" area2="27" value="409.1048"/>
+    <sea_grid_connection area1="12" area2="28" value="409.1048"/>
+    <sea_grid_connection area1="12" area2="29" value="409.1048"/>
+    <sea_grid_connection area1="12" area2="30" value="590.04718"/>
+    <sea_grid_connection area1="12" area2="31" value="951.72632"/>
+    <sea_grid_connection area1="12" area2="32" value="951.72632"/>
+    <sea_grid_connection area1="12" area2="33" value="710.60071"/>
+    <sea_grid_connection area1="12" area2="34" value="409.1048"/>
+    <sea_grid_connection area1="12" area2="35" value="409.1048"/>
+    <sea_grid_connection area1="12" area2="37" value="951.72632"/>
+    <sea_grid_connection area1="12" area2="38" value="710.60071"/>
+    <sea_grid_connection area1="12" area2="39" value="710.60071"/>
+    <sea_grid_connection area1="12" area2="40" value="710.60071"/>
+    <sea_grid_connection area1="12" area2="41" value="710.60071"/>
+    <sea_grid_connection area1="13" area2="14" value="141.52959"/>
+    <sea_grid_connection area1="13" area2="15" value="422.95935"/>
+    <sea_grid_connection area1="13" area2="16" value="422.95935"/>
+    <sea_grid_connection area1="13" area2="17" value="422.95935"/>
+    <sea_grid_connection area1="13" area2="19" value="500.15552"/>
+    <sea_grid_connection area1="13" area2="20" value="344.52991"/>
+    <sea_grid_connection area1="13" area2="21" value="344.52991"/>
+    <sea_grid_connection area1="13" area2="22" value="344.52991"/>
+    <sea_grid_connection area1="13" area2="23" value="344.52991"/>
+    <sea_grid_connection area1="13" area2="24" value="500.15552"/>
+    <sea_grid_connection area1="13" area2="25" value="500.15552"/>
+    <sea_grid_connection area1="13" area2="26" value="500.15552"/>
+    <sea_grid_connection area1="13" area2="27" value="344.52991"/>
+    <sea_grid_connection area1="13" area2="28" value="344.52991"/>
+    <sea_grid_connection area1="13" area2="29" value="344.52991"/>
+    <sea_grid_connection area1="13" area2="30" value="500.15552"/>
+    <sea_grid_connection area1="13" area2="31" value="860.9137"/>
+    <sea_grid_connection area1="13" area2="32" value="860.9137"/>
+    <sea_grid_connection area1="13" area2="33" value="628.81726"/>
+    <sea_grid_connection area1="13" area2="34" value="344.52991"/>
+    <sea_grid_connection area1="13" area2="35" value="344.52991"/>
+    <sea_grid_connection area1="13" area2="37" value="860.9137"/>
+    <sea_grid_connection area1="13" area2="38" value="628.81726"/>
+    <sea_grid_connection area1="13" area2="39" value="628.81726"/>
+    <sea_grid_connection area1="13" area2="40" value="628.81726"/>
+    <sea_grid_connection area1="13" area2="41" value="628.81726"/>
+    <sea_grid_connection area1="14" area2="15" value="199.26064"/>
+    <sea_grid_connection area1="14" area2="16" value="199.26064"/>
+    <sea_grid_connection area1="14" area2="17" value="199.26064"/>
+    <sea_grid_connection area1="14" area2="19" value="271.29041"/>
+    <sea_grid_connection area1="14" area2="20" value="147.47314"/>
+    <sea_grid_connection area1="14" area2="21" value="147.47314"/>
+    <sea_grid_connection area1="14" area2="22" value="147.47314"/>
+    <sea_grid_connection area1="14" area2="23" value="147.47314"/>
+    <sea_grid_connection area1="14" area2="24" value="271.29041"/>
+    <sea_grid_connection area1="14" area2="25" value="271.29041"/>
+    <sea_grid_connection area1="14" area2="26" value="271.29041"/>
+    <sea_grid_connection area1="14" area2="27" value="147.47314"/>
+    <sea_grid_connection area1="14" area2="28" value="147.47314"/>
+    <sea_grid_connection area1="14" area2="29" value="147.47314"/>
+    <sea_grid_connection area1="14" area2="30" value="271.29041"/>
+    <sea_grid_connection area1="14" area2="31" value="642.58209"/>
+    <sea_grid_connection area1="14" area2="32" value="642.58209"/>
+    <sea_grid_connection area1="14" area2="33" value="409.048"/>
+    <sea_grid_connection area1="14" area2="34" value="147.47314"/>
+    <sea_grid_connection area1="14" area2="35" value="147.47314"/>
+    <sea_grid_connection area1="14" area2="37" value="642.58209"/>
+    <sea_grid_connection area1="14" area2="38" value="409.048"/>
+    <sea_grid_connection area1="14" area2="39" value="409.048"/>
+    <sea_grid_connection area1="14" area2="40" value="409.048"/>
+    <sea_grid_connection area1="14" area2="41" value="409.048"/>
+    <sea_grid_connection area1="15" area2="16" value="0.0"/>
+    <sea_grid_connection area1="15" area2="17" value="0.0"/>
+    <sea_grid_connection area1="15" area2="19" value="263.41412"/>
+    <sea_grid_connection area1="15" area2="20" value="128.28055"/>
+    <sea_grid_connection area1="15" area2="21" value="128.28055"/>
+    <sea_grid_connection area1="15" area2="22" value="128.28055"/>
+    <sea_grid_connection area1="15" area2="23" value="128.28055"/>
+    <sea_grid_connection area1="15" area2="24" value="263.41412"/>
+    <sea_grid_connection area1="15" area2="25" value="263.41412"/>
+    <sea_grid_connection area1="15" area2="26" value="263.41412"/>
+    <sea_grid_connection area1="15" area2="27" value="128.28055"/>
+    <sea_grid_connection area1="15" area2="28" value="128.28055"/>
+    <sea_grid_connection area1="15" area2="29" value="128.28055"/>
+    <sea_grid_connection area1="15" area2="30" value="263.41412"/>
+    <sea_grid_connection area1="15" area2="31" value="644.99902"/>
+    <sea_grid_connection area1="15" area2="32" value="644.99902"/>
+    <sea_grid_connection area1="15" area2="33" value="390.23923"/>
+    <sea_grid_connection area1="15" area2="34" value="128.28055"/>
+    <sea_grid_connection area1="15" area2="35" value="128.28055"/>
+    <sea_grid_connection area1="15" area2="37" value="644.99902"/>
+    <sea_grid_connection area1="15" area2="38" value="390.23923"/>
+    <sea_grid_connection area1="15" area2="39" value="390.23923"/>
+    <sea_grid_connection area1="15" area2="40" value="390.23923"/>
+    <sea_grid_connection area1="15" area2="41" value="390.23923"/>
+    <sea_grid_connection area1="16" area2="17" value="0.0"/>
+    <sea_grid_connection area1="16" area2="19" value="324.07956"/>
+    <sea_grid_connection area1="16" area2="20" value="144.75595"/>
+    <sea_grid_connection area1="16" area2="21" value="144.75595"/>
+    <sea_grid_connection area1="16" area2="22" value="144.75595"/>
+    <sea_grid_connection area1="16" area2="23" value="144.75595"/>
+    <sea_grid_connection area1="16" area2="24" value="324.07956"/>
+    <sea_grid_connection area1="16" area2="25" value="324.07956"/>
+    <sea_grid_connection area1="16" area2="26" value="324.07956"/>
+    <sea_grid_connection area1="16" area2="27" value="144.75595"/>
+    <sea_grid_connection area1="16" area2="28" value="144.75595"/>
+    <sea_grid_connection area1="16" area2="29" value="144.75595"/>
+    <sea_grid_connection area1="16" area2="30" value="324.07956"/>
+    <sea_grid_connection area1="16" area2="31" value="721.99036"/>
+    <sea_grid_connection area1="16" area2="32" value="721.99036"/>
+    <sea_grid_connection area1="16" area2="33" value="426.534"/>
+    <sea_grid_connection area1="16" area2="34" value="144.75595"/>
+    <sea_grid_connection area1="16" area2="35" value="144.75595"/>
+    <sea_grid_connection area1="16" area2="37" value="721.99036"/>
+    <sea_grid_connection area1="16" area2="38" value="426.534"/>
+    <sea_grid_connection area1="16" area2="39" value="426.534"/>
+    <sea_grid_connection area1="16" area2="40" value="426.534"/>
+    <sea_grid_connection area1="16" area2="41" value="426.534"/>
+    <sea_grid_connection area1="17" area2="19" value="430.9595"/>
+    <sea_grid_connection area1="17" area2="20" value="191.57941"/>
+    <sea_grid_connection area1="17" area2="21" value="191.57941"/>
+    <sea_grid_connection area1="17" area2="22" value="191.57941"/>
+    <sea_grid_connection area1="17" area2="23" value="191.57941"/>
+    <sea_grid_connection area1="17" area2="24" value="430.9595"/>
+    <sea_grid_connection area1="17" area2="25" value="430.9595"/>
+    <sea_grid_connection area1="17" area2="26" value="430.9595"/>
+    <sea_grid_connection area1="17" area2="27" value="191.57941"/>
+    <sea_grid_connection area1="17" area2="28" value="191.57941"/>
+    <sea_grid_connection area1="17" area2="29" value="191.57941"/>
+    <sea_grid_connection area1="17" area2="30" value="430.9595"/>
+    <sea_grid_connection area1="17" area2="31" value="857.81201"/>
+    <sea_grid_connection area1="17" area2="32" value="857.81201"/>
+    <sea_grid_connection area1="17" area2="33" value="510.05298"/>
+    <sea_grid_connection area1="17" area2="34" value="191.57941"/>
+    <sea_grid_connection area1="17" area2="35" value="191.57941"/>
+    <sea_grid_connection area1="17" area2="37" value="857.81201"/>
+    <sea_grid_connection area1="17" area2="38" value="510.05298"/>
+    <sea_grid_connection area1="17" area2="39" value="510.05298"/>
+    <sea_grid_connection area1="17" area2="40" value="510.05298"/>
+    <sea_grid_connection area1="17" area2="41" value="510.05298"/>
+    <sea_grid_connection area1="19" area2="20" value="-1.0"/>
+    <sea_grid_connection area1="19" area2="21" value="-1.0"/>
+    <sea_grid_connection area1="19" area2="22" value="-1.0"/>
+    <sea_grid_connection area1="19" area2="23" value="-1.0"/>
+    <sea_grid_connection area1="19" area2="24" value="0.0"/>
+    <sea_grid_connection area1="19" area2="25" value="0.0"/>
+    <sea_grid_connection area1="19" area2="26" value="0.0"/>
+    <sea_grid_connection area1="19" area2="27" value="-1.0"/>
+    <sea_grid_connection area1="19" area2="28" value="-1.0"/>
+    <sea_grid_connection area1="19" area2="29" value="-1.0"/>
+    <sea_grid_connection area1="19" area2="30" value="0.0"/>
+    <sea_grid_connection area1="19" area2="31" value="-1.0"/>
+    <sea_grid_connection area1="19" area2="32" value="-1.0"/>
+    <sea_grid_connection area1="19" area2="33" value="-1.0"/>
+    <sea_grid_connection area1="19" area2="34" value="-1.0"/>
+    <sea_grid_connection area1="19" area2="35" value="-1.0"/>
+    <sea_grid_connection area1="19" area2="37" value="-1.0"/>
+    <sea_grid_connection area1="19" area2="38" value="-1.0"/>
+    <sea_grid_connection area1="19" area2="39" value="-1.0"/>
+    <sea_grid_connection area1="19" area2="40" value="-1.0"/>
+    <sea_grid_connection area1="19" area2="41" value="-1.0"/>
+    <sea_grid_connection area1="20" area2="21" value="0.0"/>
+    <sea_grid_connection area1="20" area2="22" value="0.0"/>
+    <sea_grid_connection area1="20" area2="23" value="0.0"/>
+    <sea_grid_connection area1="20" area2="24" value="77.21276"/>
+    <sea_grid_connection area1="20" area2="25" value="77.21276"/>
+    <sea_grid_connection area1="20" area2="26" value="77.21276"/>
+    <sea_grid_connection area1="20" area2="27" value="0.0"/>
+    <sea_grid_connection area1="20" area2="28" value="0.0"/>
+    <sea_grid_connection area1="20" area2="29" value="0.0"/>
+    <sea_grid_connection area1="20" area2="30" value="77.21276"/>
+    <sea_grid_connection area1="20" area2="31" value="402.92157"/>
+    <sea_grid_connection area1="20" area2="32" value="402.92157"/>
+    <sea_grid_connection area1="20" area2="33" value="215.10931"/>
+    <sea_grid_connection area1="20" area2="34" value="0.0"/>
+    <sea_grid_connection area1="20" area2="35" value="0.0"/>
+    <sea_grid_connection area1="20" area2="37" value="402.92157"/>
+    <sea_grid_connection area1="20" area2="38" value="215.10931"/>
+    <sea_grid_connection area1="20" area2="39" value="215.10931"/>
+    <sea_grid_connection area1="20" area2="40" value="215.10931"/>
+    <sea_grid_connection area1="20" area2="41" value="215.10931"/>
+    <sea_grid_connection area1="21" area2="22" value="0.0"/>
+    <sea_grid_connection area1="21" area2="23" value="0.0"/>
+    <sea_grid_connection area1="21" area2="24" value="73.34998"/>
+    <sea_grid_connection area1="21" area2="25" value="73.34998"/>
+    <sea_grid_connection area1="21" area2="26" value="73.34998"/>
+    <sea_grid_connection area1="21" area2="27" value="0.0"/>
+    <sea_grid_connection area1="21" area2="28" value="0.0"/>
+    <sea_grid_connection area1="21" area2="29" value="0.0"/>
+    <sea_grid_connection area1="21" area2="30" value="73.34998"/>
+    <sea_grid_connection area1="21" area2="31" value="378.09598"/>
+    <sea_grid_connection area1="21" area2="32" value="378.09598"/>
+    <sea_grid_connection area1="21" area2="33" value="187.86353"/>
+    <sea_grid_connection area1="21" area2="34" value="0.0"/>
+    <sea_grid_connection area1="21" area2="35" value="0.0"/>
+    <sea_grid_connection area1="21" area2="37" value="378.09598"/>
+    <sea_grid_connection area1="21" area2="38" value="187.86353"/>
+    <sea_grid_connection area1="21" area2="39" value="187.86353"/>
+    <sea_grid_connection area1="21" area2="40" value="187.86353"/>
+    <sea_grid_connection area1="21" area2="41" value="187.86353"/>
+    <sea_grid_connection area1="22" area2="23" value="0.0"/>
+    <sea_grid_connection area1="22" area2="24" value="138.83838"/>
+    <sea_grid_connection area1="22" area2="25" value="138.83838"/>
+    <sea_grid_connection area1="22" area2="26" value="138.83838"/>
+    <sea_grid_connection area1="22" area2="27" value="0.0"/>
+    <sea_grid_connection area1="22" area2="28" value="0.0"/>
+    <sea_grid_connection area1="22" area2="29" value="0.0"/>
+    <sea_grid_connection area1="22" area2="30" value="138.83838"/>
+    <sea_grid_connection area1="22" area2="31" value="456.67108"/>
+    <sea_grid_connection area1="22" area2="32" value="456.67108"/>
+    <sea_grid_connection area1="22" area2="33" value="214.63744"/>
+    <sea_grid_connection area1="22" area2="34" value="0.0"/>
+    <sea_grid_connection area1="22" area2="35" value="0.0"/>
+    <sea_grid_connection area1="22" area2="37" value="456.67108"/>
+    <sea_grid_connection area1="22" area2="38" value="214.63744"/>
+    <sea_grid_connection area1="22" area2="39" value="214.63744"/>
+    <sea_grid_connection area1="22" area2="40" value="214.63744"/>
+    <sea_grid_connection area1="22" area2="41" value="214.63744"/>
+    <sea_grid_connection area1="23" area2="24" value="210.7652"/>
+    <sea_grid_connection area1="23" area2="25" value="210.7652"/>
+    <sea_grid_connection area1="23" area2="26" value="210.7652"/>
+    <sea_grid_connection area1="23" area2="27" value="0.0"/>
+    <sea_grid_connection area1="23" area2="28" value="0.0"/>
+    <sea_grid_connection area1="23" area2="29" value="0.0"/>
+    <sea_grid_connection area1="23" area2="30" value="210.7652"/>
+    <sea_grid_connection area1="23" area2="31" value="564.63269"/>
+    <sea_grid_connection area1="23" area2="32" value="564.63269"/>
+    <sea_grid_connection area1="23" area2="33" value="260.95163"/>
+    <sea_grid_connection area1="23" area2="34" value="0.0"/>
+    <sea_grid_connection area1="23" area2="35" value="0.0"/>
+    <sea_grid_connection area1="23" area2="37" value="564.63269"/>
+    <sea_grid_connection area1="23" area2="38" value="260.95163"/>
+    <sea_grid_connection area1="23" area2="39" value="260.95163"/>
+    <sea_grid_connection area1="23" area2="40" value="260.95163"/>
+    <sea_grid_connection area1="23" area2="41" value="260.95163"/>
+    <sea_grid_connection area1="24" area2="25" value="0.0"/>
+    <sea_grid_connection area1="24" area2="26" value="0.0"/>
+    <sea_grid_connection area1="24" area2="27" value="-1.0"/>
+    <sea_grid_connection area1="24" area2="28" value="-1.0"/>
+    <sea_grid_connection area1="24" area2="29" value="-1.0"/>
+    <sea_grid_connection area1="24" area2="30" value="0.0"/>
+    <sea_grid_connection area1="24" area2="31" value="-1.0"/>
+    <sea_grid_connection area1="24" area2="32" value="-1.0"/>
+    <sea_grid_connection area1="24" area2="33" value="-1.0"/>
+    <sea_grid_connection area1="24" area2="34" value="-1.0"/>
+    <sea_grid_connection area1="24" area2="35" value="-1.0"/>
+    <sea_grid_connection area1="24" area2="37" value="-1.0"/>
+    <sea_grid_connection area1="24" area2="38" value="-1.0"/>
+    <sea_grid_connection area1="24" area2="39" value="-1.0"/>
+    <sea_grid_connection area1="24" area2="40" value="-1.0"/>
+    <sea_grid_connection area1="24" area2="41" value="-1.0"/>
+    <sea_grid_connection area1="25" area2="26" value="0.0"/>
+    <sea_grid_connection area1="25" area2="27" value="-1.0"/>
+    <sea_grid_connection area1="25" area2="28" value="-1.0"/>
+    <sea_grid_connection area1="25" area2="29" value="-1.0"/>
+    <sea_grid_connection area1="25" area2="30" value="0.0"/>
+    <sea_grid_connection area1="25" area2="31" value="-1.0"/>
+    <sea_grid_connection area1="25" area2="32" value="-1.0"/>
+    <sea_grid_connection area1="25" area2="33" value="-1.0"/>
+    <sea_grid_connection area1="25" area2="34" value="-1.0"/>
+    <sea_grid_connection area1="25" area2="35" value="-1.0"/>
+    <sea_grid_connection area1="25" area2="37" value="-1.0"/>
+    <sea_grid_connection area1="25" area2="38" value="-1.0"/>
+    <sea_grid_connection area1="25" area2="39" value="-1.0"/>
+    <sea_grid_connection area1="25" area2="40" value="-1.0"/>
+    <sea_grid_connection area1="25" area2="41" value="-1.0"/>
+    <sea_grid_connection area1="26" area2="27" value="-1.0"/>
+    <sea_grid_connection area1="26" area2="28" value="-1.0"/>
+    <sea_grid_connection area1="26" area2="29" value="-1.0"/>
+    <sea_grid_connection area1="26" area2="30" value="0.0"/>
+    <sea_grid_connection area1="26" area2="31" value="-1.0"/>
+    <sea_grid_connection area1="26" area2="32" value="-1.0"/>
+    <sea_grid_connection area1="26" area2="33" value="-1.0"/>
+    <sea_grid_connection area1="26" area2="34" value="-1.0"/>
+    <sea_grid_connection area1="26" area2="35" value="-1.0"/>
+    <sea_grid_connection area1="26" area2="37" value="-1.0"/>
+    <sea_grid_connection area1="26" area2="38" value="-1.0"/>
+    <sea_grid_connection area1="26" area2="39" value="-1.0"/>
+    <sea_grid_connection area1="26" area2="40" value="-1.0"/>
+    <sea_grid_connection area1="26" area2="41" value="-1.0"/>
+    <sea_grid_connection area1="27" area2="28" value="0.0"/>
+    <sea_grid_connection area1="27" area2="29" value="0.0"/>
+    <sea_grid_connection area1="27" area2="30" value="73.88004"/>
+    <sea_grid_connection area1="27" area2="31" value="249.13419"/>
+    <sea_grid_connection area1="27" area2="32" value="249.13419"/>
+    <sea_grid_connection area1="27" area2="33" value="109.43465423583984"/>
+    <sea_grid_connection area1="27" area2="34" value="0.0"/>
+    <sea_grid_connection area1="27" area2="35" value="0.0"/>
+    <sea_grid_connection area1="27" area2="37" value="249.13419"/>
+    <sea_grid_connection area1="27" area2="38" value="109.43465423583984"/>
+    <sea_grid_connection area1="27" area2="39" value="109.43465423583984"/>
+    <sea_grid_connection area1="27" area2="40" value="109.43465423583984"/>
+    <sea_grid_connection area1="27" area2="41" value="109.43465423583984"/>
+    <sea_grid_connection area1="28" area2="29" value="0.0"/>
+    <sea_grid_connection area1="28" area2="30" value="132.83534"/>
+    <sea_grid_connection area1="28" area2="31" value="357.65677"/>
+    <sea_grid_connection area1="28" area2="32" value="357.65677"/>
+    <sea_grid_connection area1="28" area2="33" value="154.8857"/>
+    <sea_grid_connection area1="28" area2="34" value="0.0"/>
+    <sea_grid_connection area1="28" area2="35" value="0.0"/>
+    <sea_grid_connection area1="28" area2="37" value="357.65677"/>
+    <sea_grid_connection area1="28" area2="38" value="154.8857"/>
+    <sea_grid_connection area1="28" area2="39" value="154.8857"/>
+    <sea_grid_connection area1="28" area2="40" value="154.8857"/>
+    <sea_grid_connection area1="28" area2="41" value="154.8857"/>
+    <sea_grid_connection area1="29" area2="30" value="206.86011"/>
+    <sea_grid_connection area1="29" area2="31" value="487.93274"/>
+    <sea_grid_connection area1="29" area2="32" value="487.93274"/>
+    <sea_grid_connection area1="29" area2="33" value="214.51364"/>
+    <sea_grid_connection area1="29" area2="34" value="0.0"/>
+    <sea_grid_connection area1="29" area2="35" value="0.0"/>
+    <sea_grid_connection area1="29" area2="37" value="487.93274"/>
+    <sea_grid_connection area1="29" area2="38" value="214.51364"/>
+    <sea_grid_connection area1="29" area2="39" value="214.51364"/>
+    <sea_grid_connection area1="29" area2="40" value="214.51364"/>
+    <sea_grid_connection area1="29" area2="41" value="214.51364"/>
+    <sea_grid_connection area1="30" area2="31" value="-1.0"/>
+    <sea_grid_connection area1="30" area2="32" value="-1.0"/>
+    <sea_grid_connection area1="30" area2="33" value="-1.0"/>
+    <sea_grid_connection area1="30" area2="34" value="-1.0"/>
+    <sea_grid_connection area1="30" area2="35" value="-1.0"/>
+    <sea_grid_connection area1="30" area2="37" value="-1.0"/>
+    <sea_grid_connection area1="30" area2="38" value="-1.0"/>
+    <sea_grid_connection area1="30" area2="39" value="-1.0"/>
+    <sea_grid_connection area1="30" area2="40" value="-1.0"/>
+    <sea_grid_connection area1="30" area2="41" value="-1.0"/>
+    <sea_grid_connection area1="31" area2="32" value="0.0"/>
+    <sea_grid_connection area1="31" area2="33" value="120.74913"/>
+    <sea_grid_connection area1="31" area2="34" value="305.70026"/>
+    <sea_grid_connection area1="31" area2="35" value="305.70026"/>
+    <sea_grid_connection area1="31" area2="37" value="0.0"/>
+    <sea_grid_connection area1="31" area2="38" value="120.74913"/>
+    <sea_grid_connection area1="31" area2="39" value="120.74913"/>
+    <sea_grid_connection area1="31" area2="40" value="120.74913"/>
+    <sea_grid_connection area1="31" area2="41" value="120.74913"/>
+    <sea_grid_connection area1="32" area2="33" value="53.44977569580078"/>
+    <sea_grid_connection area1="32" area2="34" value="180.7498"/>
+    <sea_grid_connection area1="32" area2="35" value="180.7498"/>
+    <sea_grid_connection area1="32" area2="37" value="0.0"/>
+    <sea_grid_connection area1="32" area2="38" value="53.44977569580078"/>
+    <sea_grid_connection area1="32" area2="39" value="53.44977569580078"/>
+    <sea_grid_connection area1="32" area2="40" value="53.44977569580078"/>
+    <sea_grid_connection area1="32" area2="41" value="53.44977569580078"/>
+    <sea_grid_connection area1="33" area2="34" value="106.33086395263672"/>
+    <sea_grid_connection area1="33" area2="35" value="106.33086395263672"/>
+    <sea_grid_connection area1="33" area2="37" value="121.27669"/>
+    <sea_grid_connection area1="33" area2="38" value="0.0"/>
+    <sea_grid_connection area1="33" area2="39" value="0.0"/>
+    <sea_grid_connection area1="33" area2="40" value="0.0"/>
+    <sea_grid_connection area1="33" area2="41" value="0.0"/>
+    <sea_grid_connection area1="34" area2="35" value="0.0"/>
+    <sea_grid_connection area1="34" area2="37" value="301.53732"/>
+    <sea_grid_connection area1="34" area2="38" value="114.71673583984375"/>
+    <sea_grid_connection area1="34" area2="39" value="114.71673583984375"/>
+    <sea_grid_connection area1="34" area2="40" value="114.71673583984375"/>
+    <sea_grid_connection area1="34" area2="41" value="114.71673583984375"/>
+    <sea_grid_connection area1="35" area2="37" value="449.38928"/>
+    <sea_grid_connection area1="35" area2="38" value="187.58052"/>
+    <sea_grid_connection area1="35" area2="39" value="187.58052"/>
+    <sea_grid_connection area1="35" area2="40" value="187.58052"/>
+    <sea_grid_connection area1="35" area2="41" value="187.58052"/>
+    <sea_grid_connection area1="37" area2="38" value="106.31843566894531"/>
+    <sea_grid_connection area1="37" area2="39" value="106.31843566894531"/>
+    <sea_grid_connection area1="37" area2="40" value="106.31843566894531"/>
+    <sea_grid_connection area1="37" area2="41" value="106.31843566894531"/>
+    <sea_grid_connection area1="38" area2="39" value="0.0"/>
+    <sea_grid_connection area1="38" area2="40" value="0.0"/>
+    <sea_grid_connection area1="38" area2="41" value="0.0"/>
+    <sea_grid_connection area1="39" area2="40" value="0.0"/>
+    <sea_grid_connection area1="39" area2="41" value="0.0"/>
+    <sea_grid_connection area1="40" area2="41" value="0.0"/>
+   </sea_grid_connections>
+  </theatre_sea_grid>
+  <theatre_sea_grid factor="75.0" maxx="440.0" maxy="520.0" minx="-180.0" miny="140.0" name="2">
+   <sea_grid_row>
+    <sea_grid_cell area_id="42" maxx="-105.0" maxy="215.0" minx="-180.0" miny="140.0">
+     <sea_grid_lands>
+      unexplorable
+      sahara
+      morocco
+     </sea_grid_lands>
+     <sea_grid_seas>
+      atlantic_ocean_se
+      atlantic_ocean_sw
+      atlantic_ocean_e
+      ivory_coast
+     </sea_grid_seas>
+     <sea_grid_ports/>
+     <sea_grid_numbers>
+      175
+     </sea_grid_numbers>
+    </sea_grid_cell>
+    <sea_grid_cell area_id="43" maxx="-30.0" maxy="215.0" minx="-105.0" miny="140.0">
+     <sea_grid_lands>
+      unexplorable
+      sahara
+      morocco
+     </sea_grid_lands>
+     <sea_grid_seas>
+      atlantic_ocean_se
+      atlantic_ocean_e
+      ivory_coast
+     </sea_grid_seas>
+     <sea_grid_ports/>
+     <sea_grid_numbers>
+      175
+     </sea_grid_numbers>
+    </sea_grid_cell>
+    <sea_grid_cell area_id="44" maxx="45.0" maxy="215.0" minx="-30.0" miny="140.0">
+     <sea_grid_lands/>
+     <sea_grid_seas/>
+     <sea_grid_ports/>
+     <sea_grid_numbers/>
+    </sea_grid_cell>
+    <sea_grid_cell area_id="45" maxx="120.0" maxy="215.0" minx="45.0" miny="140.0">
+     <sea_grid_lands/>
+     <sea_grid_seas/>
+     <sea_grid_ports/>
+     <sea_grid_numbers/>
+    </sea_grid_cell>
+    <sea_grid_cell area_id="46" maxx="195.0" maxy="215.0" minx="120.0" miny="140.0">
+     <sea_grid_lands/>
+     <sea_grid_seas/>
+     <sea_grid_ports/>
+     <sea_grid_numbers/>
+    </sea_grid_cell>
+    <sea_grid_cell area_id="47" maxx="270.0" maxy="215.0" minx="195.0" miny="140.0">
+     <sea_grid_lands>
+      central_africa
+      arabia
+      sahara
+      egypt
+      all
+      palestine
+      wilderness_arabia
+     </sea_grid_lands>
+     <sea_grid_seas>
+      red_sea
+     </sea_grid_seas>
+     <sea_grid_ports/>
+     <sea_grid_numbers>
+      713 1647
+     </sea_grid_numbers>
+    </sea_grid_cell>
+    <sea_grid_cell area_id="48" maxx="345.0" maxy="215.0" minx="270.0" miny="140.0">
+     <sea_grid_lands>
+      central_africa
+      east_africa
+      arabia
+      all
+      wilderness_arabia
+      mesopotamia
+     </sea_grid_lands>
+     <sea_grid_seas>
+      arabian_sea
+      red_sea
+      persian_gulf
+     </sea_grid_seas>
+     <sea_grid_ports>
+      port:mesopotamia:basra
+     </sea_grid_ports>
+     <sea_grid_numbers>
+      554 1445
+     </sea_grid_numbers>
+    </sea_grid_cell>
+    <sea_grid_cell area_id="49" maxx="420.0" maxy="215.0" minx="345.0" miny="140.0">
+     <sea_grid_lands>
+      east_africa
+      arabia
+      lakes
+      all
+      wilderness_arabia
+      persia
+      baluchistan
+      mesopotamia
+     </sea_grid_lands>
+     <sea_grid_seas>
+      arabian_sea
+      persian_gulf
+     </sea_grid_seas>
+     <sea_grid_ports>
+      port:persia:bandar_abbas
+     </sea_grid_ports>
+     <sea_grid_numbers>
+      551 552 553 554 555 556 755 770 1023 1167 1237 1302 1678
+     </sea_grid_numbers>
+    </sea_grid_cell>
+    <sea_grid_cell area_id="50" maxx="495.0" maxy="215.0" minx="420.0" miny="140.0">
+     <sea_grid_lands>
+      arabia
+      all
+      persia
+      baluchistan
+      afghanistan
+      gujarat
+      sindh
+      punjab
+     </sea_grid_lands>
+     <sea_grid_seas>
+      arabian_sea
+     </sea_grid_seas>
+     <sea_grid_ports/>
+     <sea_grid_numbers>
+      183 543 544 545 546 548 549 550 551 557 558 559 560 739 770 1188 1244 1612
+     </sea_grid_numbers>
+    </sea_grid_cell>
+   </sea_grid_row>
+   <sea_grid_row>
+    <sea_grid_cell area_id="51" maxx="-105.0" maxy="290.0" minx="-180.0" miny="215.0">
+     <sea_grid_lands>
+      unexplorable
+     </sea_grid_lands>
+     <sea_grid_seas>
+      atlantic_ocean_e
+      atlantic_ocean_ne
+     </sea_grid_seas>
+     <sea_grid_ports/>
+     <sea_grid_numbers>
+      606
+     </sea_grid_numbers>
+    </sea_grid_cell>
+    <sea_grid_cell area_id="52" maxx="-30.0" maxy="290.0" minx="-105.0" miny="215.0">
+     <sea_grid_lands>
+      all
+      morocco
+      spain
+      portugal
+      gibraltar
+     </sea_grid_lands>
+     <sea_grid_seas>
+      atlantic_ocean_e
+      mediterranean_sea
+     </sea_grid_seas>
+     <sea_grid_ports>
+      port:morocco:agadir
+      port:spain:cadiz
+      port:gibraltar:sandy_bay
+     </sea_grid_ports>
+     <sea_grid_numbers>
+      161 162 163 164 165 166 167 168 169 170 171 172 174 175 176 177 178 179 180 181 599 600 606 705 716 776 795 849 858 891 914 923 932 943 993 1002 1128 1195 1236 1262 1301 1321 1404 1419 1429 1492 1549 1577 1609 1613 1620 1659 1677 1685
+     </sea_grid_numbers>
+    </sea_grid_cell>
+    <sea_grid_cell area_id="53" maxx="45.0" maxy="290.0" minx="-30.0" miny="215.0">
+     <sea_grid_lands>
+      sahara
+      all
+      morocco
+      algiers
+      spain
+     </sea_grid_lands>
+     <sea_grid_seas>
+      mediterranean_sea
+     </sea_grid_seas>
+     <sea_grid_ports>
+      port:algiers:oran
+      port:spain:cartagena
+     </sea_grid_ports>
+     <sea_grid_numbers>
+      19 134 136 147 148 149 150 151 152 153 154 155 156 157 161 603 604 605 841 914 986 1063 1134 1152 1205 1222 1236 1286 1350 1413 1467 1485 1538 1559 1577 1640
+     </sea_grid_numbers>
+    </sea_grid_cell>
+    <sea_grid_cell area_id="54" maxx="120.0" maxy="290.0" minx="45.0" miny="215.0">
+     <sea_grid_lands>
+      sahara
+      tripoli
+      tunis
+      algiers
+      malta
+      sardinia
+      naples
+     </sea_grid_lands>
+     <sea_grid_seas>
+      mediterranean_sea
+     </sea_grid_seas>
+     <sea_grid_ports>
+      port:tripoli:surt
+      port:tunis:safaqis
+      port:malta:marsaxlokk
+     </sea_grid_ports>
+     <sea_grid_numbers>
+      16 17 18 19 21 22 23 24 25 26 27 28 29 33 34 35 36 37 38 39 40 91 92 93 94 123 131 132 133 134 135 136 137 144 145 158 159 160 695 813 866 940 1010 1027 1079 1096 1152 1331 1360 1431 1478 1490 1503 1505 1551 1622 1648 1686 1687
+     </sea_grid_numbers>
+    </sea_grid_cell>
+    <sea_grid_cell area_id="55" maxx="195.0" maxy="290.0" minx="120.0" miny="215.0">
+     <sea_grid_lands>
+      egypt
+      tripoli
+      morea
+      greece
+      anatolia
+      naples
+      rumelia
+     </sea_grid_lands>
+     <sea_grid_seas>
+      mediterranean_sea
+      adriatic_sea
+     </sea_grid_seas>
+     <sea_grid_ports>
+      port:greece:piraeus
+      port:anatolia:izmir
+      port:rumelia:thessaloniki
+     </sea_grid_ports>
+     <sea_grid_numbers>
+      0 10 15 16 20 22 41 42 43 44 45 46 47 48 49 52 53 54 55 56 57 58 59 60 61 62 87 88 89 90 91 95 96 97 98 99 100 101 102 103 104 324 325 408 409 410 411 601 741 779 791 822 866 996 1027 1056 1085 1106 1137 1227 1291 1355 1435 1495 1552 1568 1594 1623 1637 1655 1662 1670
+     </sea_grid_numbers>
+    </sea_grid_cell>
+    <sea_grid_cell area_id="56" maxx="270.0" maxy="290.0" minx="195.0" miny="215.0">
+     <sea_grid_lands>
+      lakes
+      egypt
+      all
+      palestine
+      wilderness_arabia
+      syria
+      anatolia
+     </sea_grid_lands>
+     <sea_grid_seas>
+      mediterranean_sea
+     </sea_grid_seas>
+     <sea_grid_ports>
+      port:palestine:gaza
+      port:syria:limassol
+      port:syria:beirut
+      port:syria:latakia
+      port:anatolia:antalya
+     </sea_grid_ports>
+     <sea_grid_numbers>
+      0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 50 51 62 124 410 411 412 413 414 415 416 417 418 419 420 602 713 733 777 783 842 850 915 987 994 1064 1081 1085 1135 1155 1178 1194 1206 1225 1246 1248 1288 1339 1352 1406 1421 1457 1468 1477 1494 1517 1539 1550 1566 1587 1647 1655 1660 1674
+     </sea_grid_numbers>
+    </sea_grid_cell>
+    <sea_grid_cell area_id="57" maxx="345.0" maxy="290.0" minx="270.0" miny="215.0">
+     <sea_grid_lands/>
+     <sea_grid_seas/>
+     <sea_grid_ports/>
+     <sea_grid_numbers/>
+    </sea_grid_cell>
+    <sea_grid_cell area_id="58" maxx="420.0" maxy="290.0" minx="345.0" miny="215.0">
+     <sea_grid_lands>
+      persia
+      mesopotamia
+      azerbaijan
+      wilderness_khiva
+     </sea_grid_lands>
+     <sea_grid_seas>
+      persian_gulf
+      caspian_sea
+     </sea_grid_seas>
+     <sea_grid_ports/>
+     <sea_grid_numbers>
+      755 775 827 847 878 899 900 921 951 972 1043 1101 1668
+     </sea_grid_numbers>
+    </sea_grid_cell>
+    <sea_grid_cell area_id="59" maxx="495.0" maxy="290.0" minx="420.0" miny="215.0">
+     <sea_grid_lands/>
+     <sea_grid_seas/>
+     <sea_grid_ports/>
+     <sea_grid_numbers/>
+    </sea_grid_cell>
+   </sea_grid_row>
+   <sea_grid_row>
+    <sea_grid_cell area_id="60" maxx="-105.0" maxy="365.0" minx="-180.0" miny="290.0">
+     <sea_grid_lands/>
+     <sea_grid_seas>
+      atlantic_ocean_e
+      atlantic_ocean_ne
+     </sea_grid_seas>
+     <sea_grid_ports/>
+     <sea_grid_numbers/>
+    </sea_grid_cell>
+    <sea_grid_cell area_id="61" maxx="-30.0" maxy="365.0" minx="-105.0" miny="290.0">
+     <sea_grid_lands>
+      all
+      spain
+      portugal
+      france
+      england
+     </sea_grid_lands>
+     <sea_grid_seas>
+      atlantic_ocean_e
+      atlantic_ocean_ne
+      bay_of_biscay
+      english_channel
+      irish_sea
+     </sea_grid_seas>
+     <sea_grid_ports>
+      port:portugal:porto
+      port:france:brest
+     </sea_grid_ports>
+     <sea_grid_numbers>
+      172 173 174 186 187 189 190 193 194 195 206 207 224 225 226 227 228 720 914 1057 1128 1321
+     </sea_grid_numbers>
+    </sea_grid_cell>
+    <sea_grid_cell area_id="62" maxx="45.0" maxy="365.0" minx="-30.0" miny="290.0">
+     <sea_grid_lands>
+      lakes
+      all
+      spain
+      france
+      savoy
+      england
+      alsace
+      rhineland
+      flanders
+     </sea_grid_lands>
+     <sea_grid_seas>
+      atlantic_ocean_ne
+      mediterranean_sea
+      bay_of_biscay
+      english_channel
+      north_sea
+     </sea_grid_seas>
+     <sea_grid_ports>
+      port:france:le_havre
+      port:england:portsmouth
+     </sea_grid_ports>
+     <sea_grid_numbers>
+      146 147 187 188 189 191 192 195 196 197 198 199 208 209 210 211 212 213 214 226 262 263 605 702 720 769 786 797 808 841 843 860 869 892 916 934 948 988 1004 1013 1058 1073 1083 1129 1145 1146 1162 1175 1216 1230 1264 1290 1293 1327 1373 1393 1407 1469 1473 1500 1501 1538 1540 1544 1561 1616 1631 1645 1710 1711 1712 1722 1723 1724
+     </sea_grid_numbers>
+    </sea_grid_cell>
+    <sea_grid_cell area_id="63" maxx="120.0" maxy="365.0" minx="45.0" miny="290.0">
+     <sea_grid_lands>
+      lakes
+      all
+      sardinia
+      naples
+      corsica
+      the_papal_states
+      france
+      savoy
+      genoa
+      austria
+      central_italy
+      croatia
+      bosnia
+      alps
+      milan
+      venice
+      bavaria
+      wurttemberg
+      hungary
+      alsace
+      rhineland
+      flanders
+      bohemia
+      saxony
+      silesia
+      hannover
+      west_pommerania
+     </sea_grid_lands>
+     <sea_grid_seas>
+      mediterranean_sea
+      adriatic_sea
+     </sea_grid_seas>
+     <sea_grid_ports>
+      port:the_papal_states:ravenna
+      port:savoy:niece
+      port:genoa:imperia
+      port:austria:triest
+      port:venice:chioggia
+     </sea_grid_ports>
+     <sea_grid_numbers>
+      30 31 32 106 107 108 110 111 112 113 114 115 116 117 118 119 120 121 122 125 126 127 128 129 130 131 138 139 140 141 142 143 144 146 159 160 263 701 704 708 723 727 753 763 774 785 787 788 819 820 835 859 862 871 881 898 919 925 933 936 953 955 980 990 995 1003 1006 1013 1037 1052 1059 1062 1065 1072 1076 1087 1092 1111 1122 1131 1133 1136 1145 1149 1150 1156 1160 1169 1177 1183 1197 1200 1207 1219 1221 1226 1251 1265 1268 1274 1281 1284 1285 1289 1345 1348 1353 1363 1402 1416 1422 1423 1427 1444 1456 1488 1490 1506 1510 1516 1525 1560 1562 1563 1567 1575 1595 1617 1630 1632 1633 1650 1681 1691 1719 1720 1721
+     </sea_grid_numbers>
+    </sea_grid_cell>
+    <sea_grid_cell area_id="64" maxx="195.0" maxy="365.0" minx="120.0" miny="290.0">
+     <sea_grid_lands>
+      lakes
+      all
+      greece
+      naples
+      rumelia
+      croatia
+      bosnia
+      serbia
+      bulgaria
+      hungary
+      transylvania
+      moldavia
+      bohemia
+      silesia
+      galicia
+      belarus
+      poland
+     </sea_grid_lands>
+     <sea_grid_seas>
+      mediterranean_sea
+      adriatic_sea
+     </sea_grid_seas>
+     <sea_grid_ports>
+      port:bosnia:ragusa
+     </sea_grid_ports>
+     <sea_grid_numbers>
+      104 105 108 109 711 714 715 719 722 724 751 781 789 792 793 798 806 825 848 852 854 861 864 867 872 879 894 898 922 926 928 935 938 946 968 983 992 998 1005 1008 1014 1016 1017 1040 1051 1066 1074 1077 1084 1086 1121 1147 1157 1159 1182 1204 1208 1210 1217 1229 1250 1251 1259 1270 1272 1314 1315 1325 1335 1337 1357 1378 1379 1389 1401 1424 1452 1495 1499 1507 1524 1548 1560 1571 1579 1619 1621 1632 1634 1637 1639 1657 1664
+     </sea_grid_numbers>
+    </sea_grid_cell>
+    <sea_grid_cell area_id="65" maxx="270.0" maxy="365.0" minx="195.0" miny="290.0">
+     <sea_grid_lands>
+      all
+      anatolia
+      rumelia
+      bulgaria
+      crimea
+      don_voisko
+      moldavia
+      tatariya
+      galicia
+      belarus
+      ukraine
+     </sea_grid_lands>
+     <sea_grid_seas>
+      mediterranean_sea
+      black_sea
+     </sea_grid_seas>
+     <sea_grid_ports>
+      port:crimea:sevastopol
+     </sea_grid_ports>
+     <sea_grid_numbers>
+      62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 700 719 722 747 793 816 825 868 870 872 896 911 924 944 949 971 1014 1021 1166 1178 1184 1253 1275 1277 1318 1341 1343 1382 1410 1451 1453 1468 1481 1523 1554 1593 1608 1625 1676 1688 1689
+     </sea_grid_numbers>
+    </sea_grid_cell>
+    <sea_grid_cell area_id="66" maxx="345.0" maxy="365.0" minx="270.0" miny="290.0">
+     <sea_grid_lands>
+      lakes
+      all
+      anatolia
+      azerbaijan
+      armenia
+      georgia
+      chechenya-dagestan
+      crimea
+      don_voisko
+      tatariya
+      astrakhan
+      ukraine
+     </sea_grid_lands>
+     <sea_grid_seas>
+      caspian_sea
+      black_sea
+     </sea_grid_seas>
+     <sea_grid_ports/>
+     <sea_grid_numbers>
+      74 744 758 830 889 897 903 960 963 970 1035 1042 1043 1091 1104 1107 1112 1113 1164 1186 1255 1376 1397 1470 1593 1667 1713 1714 1715 1725 1726 1727
+     </sea_grid_numbers>
+    </sea_grid_cell>
+    <sea_grid_cell area_id="67" maxx="420.0" maxy="365.0" minx="345.0" miny="290.0">
+     <sea_grid_lands>
+      turkoman
+      lakes
+      all
+      azerbaijan
+      wilderness_khiva
+      chechenya-dagestan
+      astrakhan
+     </sea_grid_lands>
+     <sea_grid_seas>
+      caspian_sea
+     </sea_grid_seas>
+     <sea_grid_ports/>
+     <sea_grid_numbers>
+      1043 1164
+     </sea_grid_numbers>
+    </sea_grid_cell>
+    <sea_grid_cell area_id="68" maxx="495.0" maxy="365.0" minx="420.0" miny="290.0">
+     <sea_grid_lands/>
+     <sea_grid_seas/>
+     <sea_grid_ports/>
+     <sea_grid_numbers/>
+    </sea_grid_cell>
+   </sea_grid_row>
+   <sea_grid_row>
+    <sea_grid_cell area_id="69" maxx="-105.0" maxy="440.0" minx="-180.0" miny="365.0">
+     <sea_grid_lands/>
+     <sea_grid_seas>
+      atlantic_ocean_ne
+     </sea_grid_seas>
+     <sea_grid_ports/>
+     <sea_grid_numbers>
+      256
+     </sea_grid_numbers>
+    </sea_grid_cell>
+    <sea_grid_cell area_id="70" maxx="-30.0" maxy="440.0" minx="-105.0" miny="365.0">
+     <sea_grid_lands>
+      lakes
+      england
+      ireland
+      scotland
+     </sea_grid_lands>
+     <sea_grid_seas>
+      atlantic_ocean_ne
+      irish_sea
+      north_sea
+     </sea_grid_seas>
+     <sea_grid_ports>
+      port:ireland:waterford
+      port:scotland:glasgow
+     </sea_grid_ports>
+     <sea_grid_numbers>
+      225 226 228 229 230 231 232 233 234 235 236 237 244 245 246 247 248 249 250 251 252 253 801 912 984
+     </sea_grid_numbers>
+    </sea_grid_cell>
+    <sea_grid_cell area_id="71" maxx="45.0" maxy="440.0" minx="-30.0" miny="365.0">
+     <sea_grid_lands>
+      all
+      england
+      rhineland
+      flanders
+      netherlands
+      scotland
+      norway
+     </sea_grid_lands>
+     <sea_grid_seas>
+      atlantic_ocean_ne
+      english_channel
+      irish_sea
+      north_sea
+     </sea_grid_seas>
+     <sea_grid_ports>
+      port:england:london
+      port:flanders:antwerp
+      port:netherlands:rotterdam
+      port:norway:bergen
+     </sea_grid_ports>
+     <sea_grid_numbers>
+      199 200 201 204 205 214 215 216 217 218 219 226 237 238 239 240 241 242 243 249 250 252 268 269 270 271 272 273 274 275 276 277 321 596 597 598 703 707 731 756 767 771 828 839 892 901 912 948 966 974 1038 1046 1071 1089 1109 1115 1127 1144 1215 1354 1373 1385 1465 1496 1501 1531 1536 1573 1601 1611 1641 1645
+     </sea_grid_numbers>
+    </sea_grid_cell>
+    <sea_grid_cell area_id="72" maxx="120.0" maxy="440.0" minx="45.0" miny="365.0">
+     <sea_grid_lands>
+      lakes
+      all
+      rhineland
+      saxony
+      silesia
+      hannover
+      netherlands
+      west_pommerania
+      west_prussia
+      denmark
+      sweden
+      norway
+     </sea_grid_lands>
+     <sea_grid_seas>
+      north_sea
+      baltic_sea
+     </sea_grid_seas>
+     <sea_grid_ports>
+      port:west_pommerania:rostock
+      port:denmark:aarhus
+      port:sweden:malmo
+     </sea_grid_ports>
+     <sea_grid_numbers>
+      202 203 205 220 221 222 223 264 265 266 267 268 278 279 280 281 282 283 284 285 286 287 288 289 290 291 292 293 294 295 296 297 298 299 696 709 712 721 727 729 772 778 784 800 837 844 846 851 857 863 873 908 917 920 931 937 945 981 991 1007 1009 1053 1078 1130 1148 1151 1154 1179 1180 1198 1218 1220 1224 1238 1252 1266 1273 1281 1283 1303 1328 1334 1338 1347 1349 1351 1354 1364 1366 1394 1399 1403 1412 1415 1417 1420 1438 1447 1471 1472 1484 1487 1489 1493 1522 1542 1546 1558 1560 1565 1581 1592 1614 1615 1629 1635 1636 1661 1679 1691 1702 1703 1704 1705 1706
+     </sea_grid_numbers>
+    </sea_grid_cell>
+    <sea_grid_cell area_id="73" maxx="195.0" maxy="440.0" minx="120.0" miny="365.0">
+     <sea_grid_lands>
+      lakes
+      all
+      silesia
+      belarus
+      west_pommerania
+      west_prussia
+      poland
+      prussia
+      lithuania
+      sweden
+      courland
+      estonia_and_livonia
+      finland
+     </sea_grid_lands>
+     <sea_grid_seas>
+      baltic_sea
+     </sea_grid_seas>
+     <sea_grid_ports>
+      port:sweden:visby
+     </sea_grid_ports>
+     <sea_grid_numbers>
+      299 300 301 302 303 304 305 306 307 308 309 310 311 312 313 314 315 316 317 318 319 320 622 623 624 625 626 627 710 717 729 736 750 773 790 823 845 865 876 918 939 941 947 964 969 1001 1011 1015 1024 1041 1068 1070 1080 1094 1103 1105 1123 1139 1143 1147 1153 1179 1193 1214 1217 1223 1249 1252 1267 1276 1280 1282 1287 1292 1316 1330 1332 1340 1344 1346 1356 1380 1405 1411 1414 1418 1426 1454 1464 1475 1476 1482 1486 1491 1498 1535 1543 1547 1564 1572 1606 1618 1690 1728 1729 1730
+     </sea_grid_numbers>
+    </sea_grid_cell>
+    <sea_grid_cell area_id="74" maxx="270.0" maxy="440.0" minx="195.0" miny="365.0">
+     <sea_grid_lands>
+      lakes
+      all
+      belarus
+      ukraine
+      lithuania
+      muscovy
+      estonia_and_livonia
+      ingria
+      arkhangelsk
+      finland
+      karelia
+     </sea_grid_lands>
+     <sea_grid_seas>
+      baltic_sea
+     </sea_grid_seas>
+     <sea_grid_ports>
+      port:ingria:staraya_ladoga
+     </sea_grid_ports>
+     <sea_grid_numbers>
+      607 608 609 610 626 699 718 752 764 796 836 876 895 909 918 989 1060 1120 1166 1181 1249 1313 1342 1377 1408 1450 1479 1521 1527 1570 1638 1643 1665 1675 1692 1693 1694 1695 1696 1716 1717 1718
+     </sea_grid_numbers>
+    </sea_grid_cell>
+    <sea_grid_cell area_id="75" maxx="345.0" maxy="440.0" minx="270.0" miny="365.0">
+     <sea_grid_lands/>
+     <sea_grid_seas/>
+     <sea_grid_ports/>
+     <sea_grid_numbers/>
+    </sea_grid_cell>
+    <sea_grid_cell area_id="76" maxx="420.0" maxy="440.0" minx="345.0" miny="365.0">
+     <sea_grid_lands/>
+     <sea_grid_seas/>
+     <sea_grid_ports/>
+     <sea_grid_numbers/>
+    </sea_grid_cell>
+    <sea_grid_cell area_id="77" maxx="495.0" maxy="440.0" minx="420.0" miny="365.0">
+     <sea_grid_lands/>
+     <sea_grid_seas/>
+     <sea_grid_ports/>
+     <sea_grid_numbers/>
+    </sea_grid_cell>
+   </sea_grid_row>
+   <sea_grid_row>
+    <sea_grid_cell area_id="78" maxx="-105.0" maxy="515.0" minx="-180.0" miny="440.0">
+     <sea_grid_lands>
+      greenland
+      iceland
+     </sea_grid_lands>
+     <sea_grid_seas>
+      atlantic_ocean_ne
+      arctic_ocean
+      impassable
+      greenland_sea
+     </sea_grid_seas>
+     <sea_grid_ports>
+      port:iceland:akureyri
+     </sea_grid_ports>
+     <sea_grid_numbers>
+      255 256 257 258 261 1199 1425
+     </sea_grid_numbers>
+    </sea_grid_cell>
+    <sea_grid_cell area_id="79" maxx="-30.0" maxy="515.0" minx="-105.0" miny="440.0">
+     <sea_grid_lands>
+      iceland
+     </sea_grid_lands>
+     <sea_grid_seas>
+      atlantic_ocean_ne
+      arctic_ocean
+      impassable
+      greenland_sea
+      norwegian_sea
+     </sea_grid_seas>
+     <sea_grid_ports/>
+     <sea_grid_numbers>
+      253 254 255 257 258 259 260 261
+     </sea_grid_numbers>
+    </sea_grid_cell>
+    <sea_grid_cell area_id="80" maxx="45.0" maxy="515.0" minx="-30.0" miny="440.0">
+     <sea_grid_lands>
+      norway
+     </sea_grid_lands>
+     <sea_grid_seas>
+      atlantic_ocean_ne
+      arctic_ocean
+      impassable
+      north_sea
+      norwegian_sea
+     </sea_grid_seas>
+     <sea_grid_ports/>
+     <sea_grid_numbers>
+      321
+     </sea_grid_numbers>
+    </sea_grid_cell>
+    <sea_grid_cell area_id="81" maxx="120.0" maxy="515.0" minx="45.0" miny="440.0">
+     <sea_grid_lands>
+      sweden
+      norway
+     </sea_grid_lands>
+     <sea_grid_seas>
+      arctic_ocean
+      impassable
+      norwegian_sea
+     </sea_grid_seas>
+     <sea_grid_ports/>
+     <sea_grid_numbers>
+      321
+     </sea_grid_numbers>
+    </sea_grid_cell>
+    <sea_grid_cell area_id="82" maxx="195.0" maxy="515.0" minx="120.0" miny="440.0">
+     <sea_grid_lands>
+      sweden
+      norway
+      finland
+     </sea_grid_lands>
+     <sea_grid_seas>
+      impassable
+      baltic_sea
+      norwegian_sea
+     </sea_grid_seas>
+     <sea_grid_ports/>
+     <sea_grid_numbers>
+      313 321 729 964 1034 1396 1474
+     </sea_grid_numbers>
+    </sea_grid_cell>
+    <sea_grid_cell area_id="83" maxx="270.0" maxy="515.0" minx="195.0" miny="440.0">
+     <sea_grid_lands>
+      lakes
+      sweden
+      norway
+      arkhangelsk
+      finland
+      karelia
+     </sea_grid_lands>
+     <sea_grid_seas>
+      arctic_ocean
+      impassable
+      norwegian_sea
+     </sea_grid_seas>
+     <sea_grid_ports/>
+     <sea_grid_numbers>
+      321 322 824 1211
+     </sea_grid_numbers>
+    </sea_grid_cell>
+    <sea_grid_cell area_id="84" maxx="345.0" maxy="515.0" minx="270.0" miny="440.0">
+     <sea_grid_lands>
+      unexplorable
+      siberia
+      arkhangelsk
+      karelia
+     </sea_grid_lands>
+     <sea_grid_seas>
+      arctic_ocean
+      impassable
+     </sea_grid_seas>
+     <sea_grid_ports/>
+     <sea_grid_numbers>
+      1519
+     </sea_grid_numbers>
+    </sea_grid_cell>
+    <sea_grid_cell area_id="85" maxx="420.0" maxy="515.0" minx="345.0" miny="440.0">
+     <sea_grid_lands/>
+     <sea_grid_seas/>
+     <sea_grid_ports/>
+     <sea_grid_numbers/>
+    </sea_grid_cell>
+    <sea_grid_cell area_id="86" maxx="495.0" maxy="515.0" minx="420.0" miny="440.0">
+     <sea_grid_lands/>
+     <sea_grid_seas/>
+     <sea_grid_ports/>
+     <sea_grid_numbers/>
+    </sea_grid_cell>
+   </sea_grid_row>
+   <sea_grid_row>
+    <sea_grid_cell area_id="87" maxx="-105.0" maxy="590.0" minx="-180.0" miny="515.0">
+     <sea_grid_lands/>
+     <sea_grid_seas/>
+     <sea_grid_ports/>
+     <sea_grid_numbers/>
+    </sea_grid_cell>
+    <sea_grid_cell area_id="88" maxx="-30.0" maxy="590.0" minx="-105.0" miny="515.0">
+     <sea_grid_lands>
+      greenland
+     </sea_grid_lands>
+     <sea_grid_seas>
+      arctic_ocean
+      impassable
+     </sea_grid_seas>
+     <sea_grid_ports/>
+     <sea_grid_numbers/>
+    </sea_grid_cell>
+    <sea_grid_cell area_id="89" maxx="45.0" maxy="590.0" minx="-30.0" miny="515.0">
+     <sea_grid_lands/>
+     <sea_grid_seas>
+      arctic_ocean
+      impassable
+     </sea_grid_seas>
+     <sea_grid_ports/>
+     <sea_grid_numbers/>
+    </sea_grid_cell>
+    <sea_grid_cell area_id="90" maxx="120.0" maxy="590.0" minx="45.0" miny="515.0">
+     <sea_grid_lands>
+      unexplorable
+     </sea_grid_lands>
+     <sea_grid_seas>
+      arctic_ocean
+      impassable
+      norwegian_sea
+     </sea_grid_seas>
+     <sea_grid_ports/>
+     <sea_grid_numbers/>
+    </sea_grid_cell>
+    <sea_grid_cell area_id="91" maxx="195.0" maxy="590.0" minx="120.0" miny="515.0">
+     <sea_grid_lands>
+      unexplorable
+     </sea_grid_lands>
+     <sea_grid_seas>
+      arctic_ocean
+      impassable
+      norwegian_sea
+     </sea_grid_seas>
+     <sea_grid_ports/>
+     <sea_grid_numbers/>
+    </sea_grid_cell>
+    <sea_grid_cell area_id="92" maxx="270.0" maxy="590.0" minx="195.0" miny="515.0">
+     <sea_grid_lands/>
+     <sea_grid_seas>
+      arctic_ocean
+      impassable
+      norwegian_sea
+     </sea_grid_seas>
+     <sea_grid_ports/>
+     <sea_grid_numbers/>
+    </sea_grid_cell>
+    <sea_grid_cell area_id="93" maxx="345.0" maxy="590.0" minx="270.0" miny="515.0">
+     <sea_grid_lands/>
+     <sea_grid_seas>
+      arctic_ocean
+      impassable
+     </sea_grid_seas>
+     <sea_grid_ports/>
+     <sea_grid_numbers/>
+    </sea_grid_cell>
+    <sea_grid_cell area_id="94" maxx="420.0" maxy="590.0" minx="345.0" miny="515.0">
+     <sea_grid_lands/>
+     <sea_grid_seas/>
+     <sea_grid_ports/>
+     <sea_grid_numbers/>
+    </sea_grid_cell>
+    <sea_grid_cell area_id="95" maxx="495.0" maxy="590.0" minx="420.0" miny="515.0">
+     <sea_grid_lands/>
+     <sea_grid_seas/>
+     <sea_grid_ports/>
+     <sea_grid_numbers/>
+    </sea_grid_cell>
+   </sea_grid_row>
+   <sea_grid_connections>
+    <sea_grid_connection area1="42" area2="43" value="0.0"/>
+    <sea_grid_connection area1="42" area2="47" value="-1.0"/>
+    <sea_grid_connection area1="42" area2="48" value="-1.0"/>
+    <sea_grid_connection area1="42" area2="49" value="-1.0"/>
+    <sea_grid_connection area1="42" area2="50" value="-1.0"/>
+    <sea_grid_connection area1="42" area2="51" value="0.0"/>
+    <sea_grid_connection area1="42" area2="52" value="0.0"/>
+    <sea_grid_connection area1="42" area2="53" value="192.14751"/>
+    <sea_grid_connection area1="42" area2="54" value="192.14751"/>
+    <sea_grid_connection area1="42" area2="55" value="192.14751"/>
+    <sea_grid_connection area1="42" area2="56" value="192.14751"/>
+    <sea_grid_connection area1="42" area2="58" value="-1.0"/>
+    <sea_grid_connection area1="42" area2="60" value="213.93269"/>
+    <sea_grid_connection area1="42" area2="61" value="213.93269"/>
+    <sea_grid_connection area1="42" area2="62" value="401.80762"/>
+    <sea_grid_connection area1="42" area2="63" value="477.78748"/>
+    <sea_grid_connection area1="42" area2="64" value="477.78748"/>
+    <sea_grid_connection area1="42" area2="65" value="599.12463"/>
+    <sea_grid_connection area1="42" area2="66" value="599.12463"/>
+    <sea_grid_connection area1="42" area2="67" value="-1.0"/>
+    <sea_grid_connection area1="42" area2="69" value="213.93269"/>
+    <sea_grid_connection area1="42" area2="70" value="213.93269"/>
+    <sea_grid_connection area1="42" area2="71" value="713.35974"/>
+    <sea_grid_connection area1="42" area2="72" value="1094.88757"/>
+    <sea_grid_connection area1="42" area2="73" value="876.60803"/>
+    <sea_grid_connection area1="42" area2="74" value="876.60803"/>
+    <sea_grid_connection area1="42" area2="78" value="521.29803"/>
+    <sea_grid_connection area1="42" area2="79" value="213.93269"/>
+    <sea_grid_connection area1="42" area2="80" value="1202.72717"/>
+    <sea_grid_connection area1="42" area2="81" value="842.37756"/>
+    <sea_grid_connection area1="42" area2="82" value="876.60803"/>
+    <sea_grid_connection area1="42" area2="83" value="1394.78894"/>
+    <sea_grid_connection area1="42" area2="84" value="1394.78894"/>
+    <sea_grid_connection area1="42" area2="88" value="855.42981"/>
+    <sea_grid_connection area1="42" area2="89" value="855.42981"/>
+    <sea_grid_connection area1="42" area2="90" value="855.42981"/>
+    <sea_grid_connection area1="42" area2="91" value="561.23004"/>
+    <sea_grid_connection area1="42" area2="92" value="561.23004"/>
+    <sea_grid_connection area1="42" area2="93" value="1394.78894"/>
+    <sea_grid_connection area1="43" area2="47" value="-1.0"/>
+    <sea_grid_connection area1="43" area2="48" value="-1.0"/>
+    <sea_grid_connection area1="43" area2="49" value="-1.0"/>
+    <sea_grid_connection area1="43" area2="50" value="-1.0"/>
+    <sea_grid_connection area1="43" area2="51" value="0.0"/>
+    <sea_grid_connection area1="43" area2="52" value="0.0"/>
+    <sea_grid_connection area1="43" area2="53" value="141.96767"/>
+    <sea_grid_connection area1="43" area2="54" value="141.96767"/>
+    <sea_grid_connection area1="43" area2="55" value="141.96767"/>
+    <sea_grid_connection area1="43" area2="56" value="141.96767"/>
+    <sea_grid_connection area1="43" area2="58" value="-1.0"/>
+    <sea_grid_connection area1="43" area2="60" value="195.49255"/>
+    <sea_grid_connection area1="43" area2="61" value="195.49255"/>
+    <sea_grid_connection area1="43" area2="62" value="342.25076"/>
+    <sea_grid_connection area1="43" area2="63" value="377.30386"/>
+    <sea_grid_connection area1="43" area2="64" value="377.30386"/>
+    <sea_grid_connection area1="43" area2="65" value="498.50482"/>
+    <sea_grid_connection area1="43" area2="66" value="498.50482"/>
+    <sea_grid_connection area1="43" area2="67" value="-1.0"/>
+    <sea_grid_connection area1="43" area2="69" value="195.49255"/>
+    <sea_grid_connection area1="43" area2="70" value="195.49255"/>
+    <sea_grid_connection area1="43" area2="71" value="613.47089"/>
+    <sea_grid_connection area1="43" area2="72" value="947.60974"/>
+    <sea_grid_connection area1="43" area2="73" value="769.63135"/>
+    <sea_grid_connection area1="43" area2="74" value="769.63135"/>
+    <sea_grid_connection area1="43" area2="78" value="484.51077"/>
+    <sea_grid_connection area1="43" area2="79" value="195.49255"/>
+    <sea_grid_connection area1="43" area2="80" value="1100.78857"/>
+    <sea_grid_connection area1="43" area2="81" value="744.73413"/>
+    <sea_grid_connection area1="43" area2="82" value="769.63135"/>
+    <sea_grid_connection area1="43" area2="83" value="1229.74854"/>
+    <sea_grid_connection area1="43" area2="84" value="1229.74854"/>
+    <sea_grid_connection area1="43" area2="88" value="791.54688"/>
+    <sea_grid_connection area1="43" area2="89" value="791.54688"/>
+    <sea_grid_connection area1="43" area2="90" value="791.54688"/>
+    <sea_grid_connection area1="43" area2="91" value="504.73419"/>
+    <sea_grid_connection area1="43" area2="92" value="504.73419"/>
+    <sea_grid_connection area1="43" area2="93" value="1229.74854"/>
+    <sea_grid_connection area1="47" area2="48" value="0.0"/>
+    <sea_grid_connection area1="47" area2="49" value="-1.0"/>
+    <sea_grid_connection area1="47" area2="50" value="-1.0"/>
+    <sea_grid_connection area1="47" area2="51" value="-1.0"/>
+    <sea_grid_connection area1="47" area2="52" value="-1.0"/>
+    <sea_grid_connection area1="47" area2="53" value="-1.0"/>
+    <sea_grid_connection area1="47" area2="54" value="-1.0"/>
+    <sea_grid_connection area1="47" area2="55" value="-1.0"/>
+    <sea_grid_connection area1="47" area2="56" value="-1.0"/>
+    <sea_grid_connection area1="47" area2="58" value="-1.0"/>
+    <sea_grid_connection area1="47" area2="60" value="-1.0"/>
+    <sea_grid_connection area1="47" area2="61" value="-1.0"/>
+    <sea_grid_connection area1="47" area2="62" value="-1.0"/>
+    <sea_grid_connection area1="47" area2="63" value="-1.0"/>
+    <sea_grid_connection area1="47" area2="64" value="-1.0"/>
+    <sea_grid_connection area1="47" area2="65" value="-1.0"/>
+    <sea_grid_connection area1="47" area2="66" value="-1.0"/>
+    <sea_grid_connection area1="47" area2="67" value="-1.0"/>
+    <sea_grid_connection area1="47" area2="69" value="-1.0"/>
+    <sea_grid_connection area1="47" area2="70" value="-1.0"/>
+    <sea_grid_connection area1="47" area2="71" value="-1.0"/>
+    <sea_grid_connection area1="47" area2="72" value="-1.0"/>
+    <sea_grid_connection area1="47" area2="73" value="-1.0"/>
+    <sea_grid_connection area1="47" area2="74" value="-1.0"/>
+    <sea_grid_connection area1="47" area2="78" value="-1.0"/>
+    <sea_grid_connection area1="47" area2="79" value="-1.0"/>
+    <sea_grid_connection area1="47" area2="80" value="-1.0"/>
+    <sea_grid_connection area1="47" area2="81" value="-1.0"/>
+    <sea_grid_connection area1="47" area2="82" value="-1.0"/>
+    <sea_grid_connection area1="47" area2="83" value="-1.0"/>
+    <sea_grid_connection area1="47" area2="84" value="-1.0"/>
+    <sea_grid_connection area1="47" area2="88" value="-1.0"/>
+    <sea_grid_connection area1="47" area2="89" value="-1.0"/>
+    <sea_grid_connection area1="47" area2="90" value="-1.0"/>
+    <sea_grid_connection area1="47" area2="91" value="-1.0"/>
+    <sea_grid_connection area1="47" area2="92" value="-1.0"/>
+    <sea_grid_connection area1="47" area2="93" value="-1.0"/>
+    <sea_grid_connection area1="48" area2="49" value="-1.0"/>
+    <sea_grid_connection area1="48" area2="50" value="-1.0"/>
+    <sea_grid_connection area1="48" area2="51" value="-1.0"/>
+    <sea_grid_connection area1="48" area2="52" value="-1.0"/>
+    <sea_grid_connection area1="48" area2="53" value="-1.0"/>
+    <sea_grid_connection area1="48" area2="54" value="-1.0"/>
+    <sea_grid_connection area1="48" area2="55" value="-1.0"/>
+    <sea_grid_connection area1="48" area2="56" value="-1.0"/>
+    <sea_grid_connection area1="48" area2="58" value="-1.0"/>
+    <sea_grid_connection area1="48" area2="60" value="-1.0"/>
+    <sea_grid_connection area1="48" area2="61" value="-1.0"/>
+    <sea_grid_connection area1="48" area2="62" value="-1.0"/>
+    <sea_grid_connection area1="48" area2="63" value="-1.0"/>
+    <sea_grid_connection area1="48" area2="64" value="-1.0"/>
+    <sea_grid_connection area1="48" area2="65" value="-1.0"/>
+    <sea_grid_connection area1="48" area2="66" value="-1.0"/>
+    <sea_grid_connection area1="48" area2="67" value="-1.0"/>
+    <sea_grid_connection area1="48" area2="69" value="-1.0"/>
+    <sea_grid_connection area1="48" area2="70" value="-1.0"/>
+    <sea_grid_connection area1="48" area2="71" value="-1.0"/>
+    <sea_grid_connection area1="48" area2="72" value="-1.0"/>
+    <sea_grid_connection area1="48" area2="73" value="-1.0"/>
+    <sea_grid_connection area1="48" area2="74" value="-1.0"/>
+    <sea_grid_connection area1="48" area2="78" value="-1.0"/>
+    <sea_grid_connection area1="48" area2="79" value="-1.0"/>
+    <sea_grid_connection area1="48" area2="80" value="-1.0"/>
+    <sea_grid_connection area1="48" area2="81" value="-1.0"/>
+    <sea_grid_connection area1="48" area2="82" value="-1.0"/>
+    <sea_grid_connection area1="48" area2="83" value="-1.0"/>
+    <sea_grid_connection area1="48" area2="84" value="-1.0"/>
+    <sea_grid_connection area1="48" area2="88" value="-1.0"/>
+    <sea_grid_connection area1="48" area2="89" value="-1.0"/>
+    <sea_grid_connection area1="48" area2="90" value="-1.0"/>
+    <sea_grid_connection area1="48" area2="91" value="-1.0"/>
+    <sea_grid_connection area1="48" area2="92" value="-1.0"/>
+    <sea_grid_connection area1="48" area2="93" value="-1.0"/>
+    <sea_grid_connection area1="49" area2="50" value="100.05559"/>
+    <sea_grid_connection area1="49" area2="51" value="-1.0"/>
+    <sea_grid_connection area1="49" area2="52" value="-1.0"/>
+    <sea_grid_connection area1="49" area2="53" value="-1.0"/>
+    <sea_grid_connection area1="49" area2="54" value="-1.0"/>
+    <sea_grid_connection area1="49" area2="55" value="-1.0"/>
+    <sea_grid_connection area1="49" area2="56" value="-1.0"/>
+    <sea_grid_connection area1="49" area2="58" value="-1.0"/>
+    <sea_grid_connection area1="49" area2="60" value="-1.0"/>
+    <sea_grid_connection area1="49" area2="61" value="-1.0"/>
+    <sea_grid_connection area1="49" area2="62" value="-1.0"/>
+    <sea_grid_connection area1="49" area2="63" value="-1.0"/>
+    <sea_grid_connection area1="49" area2="64" value="-1.0"/>
+    <sea_grid_connection area1="49" area2="65" value="-1.0"/>
+    <sea_grid_connection area1="49" area2="66" value="-1.0"/>
+    <sea_grid_connection area1="49" area2="67" value="-1.0"/>
+    <sea_grid_connection area1="49" area2="69" value="-1.0"/>
+    <sea_grid_connection area1="49" area2="70" value="-1.0"/>
+    <sea_grid_connection area1="49" area2="71" value="-1.0"/>
+    <sea_grid_connection area1="49" area2="72" value="-1.0"/>
+    <sea_grid_connection area1="49" area2="73" value="-1.0"/>
+    <sea_grid_connection area1="49" area2="74" value="-1.0"/>
+    <sea_grid_connection area1="49" area2="78" value="-1.0"/>
+    <sea_grid_connection area1="49" area2="79" value="-1.0"/>
+    <sea_grid_connection area1="49" area2="80" value="-1.0"/>
+    <sea_grid_connection area1="49" area2="81" value="-1.0"/>
+    <sea_grid_connection area1="49" area2="82" value="-1.0"/>
+    <sea_grid_connection area1="49" area2="83" value="-1.0"/>
+    <sea_grid_connection area1="49" area2="84" value="-1.0"/>
+    <sea_grid_connection area1="49" area2="88" value="-1.0"/>
+    <sea_grid_connection area1="49" area2="89" value="-1.0"/>
+    <sea_grid_connection area1="49" area2="90" value="-1.0"/>
+    <sea_grid_connection area1="49" area2="91" value="-1.0"/>
+    <sea_grid_connection area1="49" area2="92" value="-1.0"/>
+    <sea_grid_connection area1="49" area2="93" value="-1.0"/>
+    <sea_grid_connection area1="50" area2="51" value="-1.0"/>
+    <sea_grid_connection area1="50" area2="52" value="-1.0"/>
+    <sea_grid_connection area1="50" area2="53" value="-1.0"/>
+    <sea_grid_connection area1="50" area2="54" value="-1.0"/>
+    <sea_grid_connection area1="50" area2="55" value="-1.0"/>
+    <sea_grid_connection area1="50" area2="56" value="-1.0"/>
+    <sea_grid_connection area1="50" area2="58" value="-1.0"/>
+    <sea_grid_connection area1="50" area2="60" value="-1.0"/>
+    <sea_grid_connection area1="50" area2="61" value="-1.0"/>
+    <sea_grid_connection area1="50" area2="62" value="-1.0"/>
+    <sea_grid_connection area1="50" area2="63" value="-1.0"/>
+    <sea_grid_connection area1="50" area2="64" value="-1.0"/>
+    <sea_grid_connection area1="50" area2="65" value="-1.0"/>
+    <sea_grid_connection area1="50" area2="66" value="-1.0"/>
+    <sea_grid_connection area1="50" area2="67" value="-1.0"/>
+    <sea_grid_connection area1="50" area2="69" value="-1.0"/>
+    <sea_grid_connection area1="50" area2="70" value="-1.0"/>
+    <sea_grid_connection area1="50" area2="71" value="-1.0"/>
+    <sea_grid_connection area1="50" area2="72" value="-1.0"/>
+    <sea_grid_connection area1="50" area2="73" value="-1.0"/>
+    <sea_grid_connection area1="50" area2="74" value="-1.0"/>
+    <sea_grid_connection area1="50" area2="78" value="-1.0"/>
+    <sea_grid_connection area1="50" area2="79" value="-1.0"/>
+    <sea_grid_connection area1="50" area2="80" value="-1.0"/>
+    <sea_grid_connection area1="50" area2="81" value="-1.0"/>
+    <sea_grid_connection area1="50" area2="82" value="-1.0"/>
+    <sea_grid_connection area1="50" area2="83" value="-1.0"/>
+    <sea_grid_connection area1="50" area2="84" value="-1.0"/>
+    <sea_grid_connection area1="50" area2="88" value="-1.0"/>
+    <sea_grid_connection area1="50" area2="89" value="-1.0"/>
+    <sea_grid_connection area1="50" area2="90" value="-1.0"/>
+    <sea_grid_connection area1="50" area2="91" value="-1.0"/>
+    <sea_grid_connection area1="50" area2="92" value="-1.0"/>
+    <sea_grid_connection area1="50" area2="93" value="-1.0"/>
+    <sea_grid_connection area1="51" area2="52" value="0.0"/>
+    <sea_grid_connection area1="51" area2="53" value="171.34917"/>
+    <sea_grid_connection area1="51" area2="54" value="171.34917"/>
+    <sea_grid_connection area1="51" area2="55" value="171.34917"/>
+    <sea_grid_connection area1="51" area2="56" value="171.34917"/>
+    <sea_grid_connection area1="51" area2="58" value="-1.0"/>
+    <sea_grid_connection area1="51" area2="60" value="139.57892"/>
+    <sea_grid_connection area1="51" area2="61" value="139.57892"/>
+    <sea_grid_connection area1="51" area2="62" value="275.80481"/>
+    <sea_grid_connection area1="51" area2="63" value="432.66418"/>
+    <sea_grid_connection area1="51" area2="64" value="432.66418"/>
+    <sea_grid_connection area1="51" area2="65" value="559.76154"/>
+    <sea_grid_connection area1="51" area2="66" value="559.76154"/>
+    <sea_grid_connection area1="51" area2="67" value="-1.0"/>
+    <sea_grid_connection area1="51" area2="69" value="139.57892"/>
+    <sea_grid_connection area1="51" area2="70" value="139.57892"/>
+    <sea_grid_connection area1="51" area2="71" value="527.30914"/>
+    <sea_grid_connection area1="51" area2="72" value="864.84045"/>
+    <sea_grid_connection area1="51" area2="73" value="701.83923"/>
+    <sea_grid_connection area1="51" area2="74" value="701.83923"/>
+    <sea_grid_connection area1="51" area2="78" value="372.18152"/>
+    <sea_grid_connection area1="51" area2="79" value="139.57892"/>
+    <sea_grid_connection area1="51" area2="80" value="919.10315"/>
+    <sea_grid_connection area1="51" area2="81" value="649.08118"/>
+    <sea_grid_connection area1="51" area2="82" value="701.83923"/>
+    <sea_grid_connection area1="51" area2="83" value="1074.23071"/>
+    <sea_grid_connection area1="51" area2="84" value="1074.23071"/>
+    <sea_grid_connection area1="51" area2="88" value="634.32983"/>
+    <sea_grid_connection area1="51" area2="89" value="634.32983"/>
+    <sea_grid_connection area1="51" area2="90" value="634.32983"/>
+    <sea_grid_connection area1="51" area2="91" value="424.3522"/>
+    <sea_grid_connection area1="51" area2="92" value="424.3522"/>
+    <sea_grid_connection area1="51" area2="93" value="1074.23071"/>
+    <sea_grid_connection area1="52" area2="53" value="96.727"/>
+    <sea_grid_connection area1="52" area2="54" value="96.727"/>
+    <sea_grid_connection area1="52" area2="55" value="96.727"/>
+    <sea_grid_connection area1="52" area2="56" value="96.727"/>
+    <sea_grid_connection area1="52" area2="58" value="-1.0"/>
+    <sea_grid_connection area1="52" area2="60" value="147.35448"/>
+    <sea_grid_connection area1="52" area2="61" value="147.35448"/>
+    <sea_grid_connection area1="52" area2="62" value="231.23373"/>
+    <sea_grid_connection area1="52" area2="63" value="285.06967"/>
+    <sea_grid_connection area1="52" area2="64" value="285.06967"/>
+    <sea_grid_connection area1="52" area2="65" value="411.28842"/>
+    <sea_grid_connection area1="52" area2="66" value="411.28842"/>
+    <sea_grid_connection area1="52" area2="67" value="-1.0"/>
+    <sea_grid_connection area1="52" area2="69" value="147.35448"/>
+    <sea_grid_connection area1="52" area2="70" value="147.35448"/>
+    <sea_grid_connection area1="52" area2="71" value="439.66077"/>
+    <sea_grid_connection area1="52" area2="72" value="715.55054"/>
+    <sea_grid_connection area1="52" area2="73" value="600.46155"/>
+    <sea_grid_connection area1="52" area2="74" value="600.46155"/>
+    <sea_grid_connection area1="52" area2="78" value="385.13913"/>
+    <sea_grid_connection area1="52" area2="79" value="147.35448"/>
+    <sea_grid_connection area1="52" area2="80" value="880.34125"/>
+    <sea_grid_connection area1="52" area2="81" value="570.99506"/>
+    <sea_grid_connection area1="52" area2="82" value="600.46155"/>
+    <sea_grid_connection area1="52" area2="83" value="934.86292"/>
+    <sea_grid_connection area1="52" area2="84" value="934.86292"/>
+    <sea_grid_connection area1="52" area2="88" value="633.91791"/>
+    <sea_grid_connection area1="52" area2="89" value="633.91791"/>
+    <sea_grid_connection area1="52" area2="90" value="633.91791"/>
+    <sea_grid_connection area1="52" area2="91" value="393.77783"/>
+    <sea_grid_connection area1="52" area2="92" value="393.77783"/>
+    <sea_grid_connection area1="52" area2="93" value="934.86292"/>
+    <sea_grid_connection area1="53" area2="54" value="0.0"/>
+    <sea_grid_connection area1="53" area2="55" value="0.0"/>
+    <sea_grid_connection area1="53" area2="56" value="0.0"/>
+    <sea_grid_connection area1="53" area2="58" value="-1.0"/>
+    <sea_grid_connection area1="53" area2="60" value="321.75958"/>
+    <sea_grid_connection area1="53" area2="61" value="321.75958"/>
+    <sea_grid_connection area1="53" area2="62" value="395.66864"/>
+    <sea_grid_connection area1="53" area2="63" value="114.18544"/>
+    <sea_grid_connection area1="53" area2="64" value="114.18544"/>
+    <sea_grid_connection area1="53" area2="65" value="239.22557"/>
+    <sea_grid_connection area1="53" area2="66" value="239.22557"/>
+    <sea_grid_connection area1="53" area2="67" value="-1.0"/>
+    <sea_grid_connection area1="53" area2="69" value="321.75958"/>
+    <sea_grid_connection area1="53" area2="70" value="321.75958"/>
+    <sea_grid_connection area1="53" area2="71" value="562.50159"/>
+    <sea_grid_connection area1="53" area2="72" value="777.88379"/>
+    <sea_grid_connection area1="53" area2="73" value="681.30219"/>
+    <sea_grid_connection area1="53" area2="74" value="681.30219"/>
+    <sea_grid_connection area1="53" area2="78" value="578.61353"/>
+    <sea_grid_connection area1="53" area2="79" value="321.75958"/>
+    <sea_grid_connection area1="53" area2="80" value="1044.92017"/>
+    <sea_grid_connection area1="53" area2="81" value="683.75977"/>
+    <sea_grid_connection area1="53" area2="82" value="681.30219"/>
+    <sea_grid_connection area1="53" area2="83" value="1028.80823"/>
+    <sea_grid_connection area1="53" area2="84" value="1028.80823"/>
+    <sea_grid_connection area1="53" area2="88" value="827.08032"/>
+    <sea_grid_connection area1="53" area2="89" value="827.08032"/>
+    <sea_grid_connection area1="53" area2="90" value="827.08032"/>
+    <sea_grid_connection area1="53" area2="91" value="539.59937"/>
+    <sea_grid_connection area1="53" area2="92" value="539.59937"/>
+    <sea_grid_connection area1="53" area2="93" value="1028.80823"/>
+    <sea_grid_connection area1="54" area2="55" value="0.0"/>
+    <sea_grid_connection area1="54" area2="56" value="0.0"/>
+    <sea_grid_connection area1="54" area2="58" value="-1.0"/>
+    <sea_grid_connection area1="54" area2="60" value="455.8876"/>
+    <sea_grid_connection area1="54" area2="61" value="455.8876"/>
+    <sea_grid_connection area1="54" area2="62" value="589.08752"/>
+    <sea_grid_connection area1="54" area2="63" value="59.98172378540039"/>
+    <sea_grid_connection area1="54" area2="64" value="59.98172378540039"/>
+    <sea_grid_connection area1="54" area2="65" value="169.90697"/>
+    <sea_grid_connection area1="54" area2="66" value="169.90697"/>
+    <sea_grid_connection area1="54" area2="67" value="-1.0"/>
+    <sea_grid_connection area1="54" area2="69" value="455.8876"/>
+    <sea_grid_connection area1="54" area2="70" value="455.8876"/>
+    <sea_grid_connection area1="54" area2="71" value="762.73285"/>
+    <sea_grid_connection area1="54" area2="72" value="947.77557"/>
+    <sea_grid_connection area1="54" area2="73" value="805.13031"/>
+    <sea_grid_connection area1="54" area2="74" value="805.13031"/>
+    <sea_grid_connection area1="54" area2="78" value="764.3786"/>
+    <sea_grid_connection area1="54" area2="79" value="455.8876"/>
+    <sea_grid_connection area1="54" area2="80" value="1282.49988"/>
+    <sea_grid_connection area1="54" area2="81" value="851.88873"/>
+    <sea_grid_connection area1="54" area2="82" value="805.13031"/>
+    <sea_grid_connection area1="54" area2="83" value="1280.85413"/>
+    <sea_grid_connection area1="54" area2="84" value="1280.85413"/>
+    <sea_grid_connection area1="54" area2="88" value="1050.69873"/>
+    <sea_grid_connection area1="54" area2="89" value="1050.69873"/>
+    <sea_grid_connection area1="54" area2="90" value="1050.69873"/>
+    <sea_grid_connection area1="54" area2="91" value="687.68872"/>
+    <sea_grid_connection area1="54" area2="92" value="687.68872"/>
+    <sea_grid_connection area1="54" area2="93" value="1280.85413"/>
+    <sea_grid_connection area1="55" area2="56" value="0.0"/>
+    <sea_grid_connection area1="55" area2="58" value="-1.0"/>
+    <sea_grid_connection area1="55" area2="60" value="594.84961"/>
+    <sea_grid_connection area1="55" area2="61" value="594.84961"/>
+    <sea_grid_connection area1="55" area2="62" value="794.77576"/>
+    <sea_grid_connection area1="55" area2="63" value="67.34412384033203"/>
+    <sea_grid_connection area1="55" area2="64" value="67.34412384033203"/>
+    <sea_grid_connection area1="55" area2="65" value="103.45589"/>
+    <sea_grid_connection area1="55" area2="66" value="103.45589"/>
+    <sea_grid_connection area1="55" area2="67" value="-1.0"/>
+    <sea_grid_connection area1="55" area2="69" value="594.84961"/>
+    <sea_grid_connection area1="55" area2="70" value="594.84961"/>
+    <sea_grid_connection area1="55" area2="71" value="1000.771"/>
+    <sea_grid_connection area1="55" area2="72" value="1174.49097"/>
+    <sea_grid_connection area1="55" area2="73" value="972.5658"/>
+    <sea_grid_connection area1="55" area2="74" value="972.5658"/>
+    <sea_grid_connection area1="55" area2="78" value="957.27789"/>
+    <sea_grid_connection area1="55" area2="79" value="594.84961"/>
+    <sea_grid_connection area1="55" area2="80" value="1546.33215"/>
+    <sea_grid_connection area1="55" area2="81" value="1057.90259"/>
+    <sea_grid_connection area1="55" area2="82" value="972.5658"/>
+    <sea_grid_connection area1="55" area2="83" value="1589.82532"/>
+    <sea_grid_connection area1="55" area2="84" value="1589.82532"/>
+    <sea_grid_connection area1="55" area2="88" value="1287.27539"/>
+    <sea_grid_connection area1="55" area2="89" value="1287.27539"/>
+    <sea_grid_connection area1="55" area2="90" value="1287.27539"/>
+    <sea_grid_connection area1="55" area2="91" value="853.90637"/>
+    <sea_grid_connection area1="55" area2="92" value="853.90637"/>
+    <sea_grid_connection area1="55" area2="93" value="1589.82532"/>
+    <sea_grid_connection area1="56" area2="58" value="-1.0"/>
+    <sea_grid_connection area1="56" area2="60" value="737.95337"/>
+    <sea_grid_connection area1="56" area2="61" value="737.95337"/>
+    <sea_grid_connection area1="56" area2="62" value="1008.96753"/>
+    <sea_grid_connection area1="56" area2="63" value="129.31612"/>
+    <sea_grid_connection area1="56" area2="64" value="129.31612"/>
+    <sea_grid_connection area1="56" area2="65" value="61.545616149902344"/>
+    <sea_grid_connection area1="56" area2="66" value="61.545616149902344"/>
+    <sea_grid_connection area1="56" area2="67" value="-1.0"/>
+    <sea_grid_connection area1="56" area2="69" value="737.95337"/>
+    <sea_grid_connection area1="56" area2="70" value="737.95337"/>
+    <sea_grid_connection area1="56" area2="71" value="1266.95935"/>
+    <sea_grid_connection area1="56" area2="72" value="1460.26331"/>
+    <sea_grid_connection area1="56" area2="73" value="1191.09827"/>
+    <sea_grid_connection area1="56" area2="74" value="1191.09827"/>
+    <sea_grid_connection area1="56" area2="78" value="1160.79126"/>
+    <sea_grid_connection area1="56" area2="79" value="737.95337"/>
+    <sea_grid_connection area1="56" area2="80" value="1847.16968"/>
+    <sea_grid_connection area1="56" area2="81" value="1300.67896"/>
+    <sea_grid_connection area1="56" area2="82" value="1191.09827"/>
+    <sea_grid_connection area1="56" area2="83" value="1953.33789"/>
+    <sea_grid_connection area1="56" area2="84" value="1953.33789"/>
+    <sea_grid_connection area1="56" area2="88" value="1544.28516"/>
+    <sea_grid_connection area1="56" area2="89" value="1544.28516"/>
+    <sea_grid_connection area1="56" area2="90" value="1544.28516"/>
+    <sea_grid_connection area1="56" area2="91" value="1040.83789"/>
+    <sea_grid_connection area1="56" area2="92" value="1040.83789"/>
+    <sea_grid_connection area1="56" area2="93" value="1953.33789"/>
+    <sea_grid_connection area1="58" area2="60" value="-1.0"/>
+    <sea_grid_connection area1="58" area2="61" value="-1.0"/>
+    <sea_grid_connection area1="58" area2="62" value="-1.0"/>
+    <sea_grid_connection area1="58" area2="63" value="-1.0"/>
+    <sea_grid_connection area1="58" area2="64" value="-1.0"/>
+    <sea_grid_connection area1="58" area2="65" value="-1.0"/>
+    <sea_grid_connection area1="58" area2="66" value="-1.0"/>
+    <sea_grid_connection area1="58" area2="67" value="0.0"/>
+    <sea_grid_connection area1="58" area2="69" value="-1.0"/>
+    <sea_grid_connection area1="58" area2="70" value="-1.0"/>
+    <sea_grid_connection area1="58" area2="71" value="-1.0"/>
+    <sea_grid_connection area1="58" area2="72" value="-1.0"/>
+    <sea_grid_connection area1="58" area2="73" value="-1.0"/>
+    <sea_grid_connection area1="58" area2="74" value="-1.0"/>
+    <sea_grid_connection area1="58" area2="78" value="-1.0"/>
+    <sea_grid_connection area1="58" area2="79" value="-1.0"/>
+    <sea_grid_connection area1="58" area2="80" value="-1.0"/>
+    <sea_grid_connection area1="58" area2="81" value="-1.0"/>
+    <sea_grid_connection area1="58" area2="82" value="-1.0"/>
+    <sea_grid_connection area1="58" area2="83" value="-1.0"/>
+    <sea_grid_connection area1="58" area2="84" value="-1.0"/>
+    <sea_grid_connection area1="58" area2="88" value="-1.0"/>
+    <sea_grid_connection area1="58" area2="89" value="-1.0"/>
+    <sea_grid_connection area1="58" area2="90" value="-1.0"/>
+    <sea_grid_connection area1="58" area2="91" value="-1.0"/>
+    <sea_grid_connection area1="58" area2="92" value="-1.0"/>
+    <sea_grid_connection area1="58" area2="93" value="-1.0"/>
+    <sea_grid_connection area1="60" area2="61" value="0.0"/>
+    <sea_grid_connection area1="60" area2="62" value="114.31531"/>
+    <sea_grid_connection area1="60" area2="63" value="553.97034"/>
+    <sea_grid_connection area1="60" area2="64" value="553.97034"/>
+    <sea_grid_connection area1="60" area2="65" value="680.47601"/>
+    <sea_grid_connection area1="60" area2="66" value="680.47601"/>
+    <sea_grid_connection area1="60" area2="67" value="-1.0"/>
+    <sea_grid_connection area1="60" area2="69" value="0.0"/>
+    <sea_grid_connection area1="60" area2="70" value="0.0"/>
+    <sea_grid_connection area1="60" area2="71" value="311.6366"/>
+    <sea_grid_connection area1="60" area2="72" value="617.48181"/>
+    <sea_grid_connection area1="60" area2="73" value="617.48181"/>
+    <sea_grid_connection area1="60" area2="74" value="488.08762"/>
+    <sea_grid_connection area1="60" area2="78" value="158.0648"/>
+    <sea_grid_connection area1="60" area2="79" value="0.0"/>
+    <sea_grid_connection area1="60" area2="80" value="541.47607"/>
+    <sea_grid_connection area1="60" area2="81" value="541.47607"/>
+    <sea_grid_connection area1="60" area2="82" value="488.08762"/>
+    <sea_grid_connection area1="60" area2="83" value="733.95825"/>
+    <sea_grid_connection area1="60" area2="84" value="733.95825"/>
+    <sea_grid_connection area1="60" area2="88" value="350.547"/>
+    <sea_grid_connection area1="60" area2="89" value="350.547"/>
+    <sea_grid_connection area1="60" area2="90" value="733.95825"/>
+    <sea_grid_connection area1="60" area2="91" value="412.08191"/>
+    <sea_grid_connection area1="60" area2="92" value="412.08191"/>
+    <sea_grid_connection area1="60" area2="93" value="733.95825"/>
+    <sea_grid_connection area1="61" area2="62" value="39.32211"/>
+    <sea_grid_connection area1="61" area2="63" value="424.27094"/>
+    <sea_grid_connection area1="61" area2="64" value="424.27094"/>
+    <sea_grid_connection area1="61" area2="65" value="550.38599"/>
+    <sea_grid_connection area1="61" area2="66" value="550.38599"/>
+    <sea_grid_connection area1="61" area2="67" value="-1.0"/>
+    <sea_grid_connection area1="61" area2="69" value="0.0"/>
+    <sea_grid_connection area1="61" area2="70" value="0.0"/>
+    <sea_grid_connection area1="61" area2="71" value="177.27884"/>
+    <sea_grid_connection area1="61" area2="72" value="413.34894"/>
+    <sea_grid_connection area1="61" area2="73" value="354.87723"/>
+    <sea_grid_connection area1="61" area2="74" value="354.87723"/>
+    <sea_grid_connection area1="61" area2="78" value="165.59605"/>
+    <sea_grid_connection area1="61" area2="79" value="0.0"/>
+    <sea_grid_connection area1="61" area2="80" value="357.43112"/>
+    <sea_grid_connection area1="61" area2="81" value="298.95941"/>
+    <sea_grid_connection area1="61" area2="82" value="354.87723"/>
+    <sea_grid_connection area1="61" area2="83" value="531.26599"/>
+    <sea_grid_connection area1="61" area2="84" value="531.26599"/>
+    <sea_grid_connection area1="61" area2="88" value="531.26599"/>
+    <sea_grid_connection area1="61" area2="89" value="531.26599"/>
+    <sea_grid_connection area1="61" area2="90" value="531.26599"/>
+    <sea_grid_connection area1="61" area2="91" value="298.95941"/>
+    <sea_grid_connection area1="61" area2="92" value="298.95941"/>
+    <sea_grid_connection area1="61" area2="93" value="531.26599"/>
+    <sea_grid_connection area1="62" area2="63" value="487.05914"/>
+    <sea_grid_connection area1="62" area2="64" value="487.05914"/>
+    <sea_grid_connection area1="62" area2="65" value="612.55566"/>
+    <sea_grid_connection area1="62" area2="66" value="612.55566"/>
+    <sea_grid_connection area1="62" area2="67" value="-1.0"/>
+    <sea_grid_connection area1="62" area2="69" value="125.43736"/>
+    <sea_grid_connection area1="62" area2="70" value="125.43736"/>
+    <sea_grid_connection area1="62" area2="71" value="238.58296"/>
+    <sea_grid_connection area1="62" area2="72" value="425.00391"/>
+    <sea_grid_connection area1="62" area2="73" value="396.56415"/>
+    <sea_grid_connection area1="62" area2="74" value="396.56415"/>
+    <sea_grid_connection area1="62" area2="78" value="316.83496"/>
+    <sea_grid_connection area1="62" area2="79" value="125.43736"/>
+    <sea_grid_connection area1="62" area2="80" value="653.76569"/>
+    <sea_grid_connection area1="62" area2="81" value="366.85675"/>
+    <sea_grid_connection area1="62" area2="82" value="396.56415"/>
+    <sea_grid_connection area1="62" area2="83" value="575.51367"/>
+    <sea_grid_connection area1="62" area2="84" value="575.51367"/>
+    <sea_grid_connection area1="62" area2="88" value="497.05212"/>
+    <sea_grid_connection area1="62" area2="89" value="497.05212"/>
+    <sea_grid_connection area1="62" area2="90" value="497.05212"/>
+    <sea_grid_connection area1="62" area2="91" value="282.15094"/>
+    <sea_grid_connection area1="62" area2="92" value="282.15094"/>
+    <sea_grid_connection area1="62" area2="93" value="575.51367"/>
+    <sea_grid_connection area1="63" area2="64" value="0.0"/>
+    <sea_grid_connection area1="63" area2="65" value="231.84494"/>
+    <sea_grid_connection area1="63" area2="66" value="231.84494"/>
+    <sea_grid_connection area1="63" area2="67" value="-1.0"/>
+    <sea_grid_connection area1="63" area2="69" value="546.85181"/>
+    <sea_grid_connection area1="63" area2="70" value="546.85181"/>
+    <sea_grid_connection area1="63" area2="71" value="772.69043"/>
+    <sea_grid_connection area1="63" area2="72" value="893.78851"/>
+    <sea_grid_connection area1="63" area2="73" value="779.45465"/>
+    <sea_grid_connection area1="63" area2="74" value="779.45465"/>
+    <sea_grid_connection area1="63" area2="78" value="817.00012"/>
+    <sea_grid_connection area1="63" area2="79" value="546.85181"/>
+    <sea_grid_connection area1="63" area2="80" value="1226.06189"/>
+    <sea_grid_connection area1="63" area2="81" value="829.93079"/>
+    <sea_grid_connection area1="63" area2="82" value="779.45465"/>
+    <sea_grid_connection area1="63" area2="83" value="1181.7522"/>
+    <sea_grid_connection area1="63" area2="84" value="1181.7522"/>
+    <sea_grid_connection area1="63" area2="88" value="1054.48767"/>
+    <sea_grid_connection area1="63" area2="89" value="1054.48767"/>
+    <sea_grid_connection area1="63" area2="90" value="1054.48767"/>
+    <sea_grid_connection area1="63" area2="91" value="718.42603"/>
+    <sea_grid_connection area1="63" area2="92" value="718.42603"/>
+    <sea_grid_connection area1="63" area2="93" value="1181.7522"/>
+    <sea_grid_connection area1="64" area2="65" value="219.18126"/>
+    <sea_grid_connection area1="64" area2="66" value="219.18126"/>
+    <sea_grid_connection area1="64" area2="67" value="-1.0"/>
+    <sea_grid_connection area1="64" area2="69" value="640.23035"/>
+    <sea_grid_connection area1="64" area2="70" value="640.23035"/>
+    <sea_grid_connection area1="64" area2="71" value="946.81537"/>
+    <sea_grid_connection area1="64" area2="72" value="1074.58044"/>
+    <sea_grid_connection area1="64" area2="73" value="918.58154"/>
+    <sea_grid_connection area1="64" area2="74" value="918.58154"/>
+    <sea_grid_connection area1="64" area2="78" value="951.59436"/>
+    <sea_grid_connection area1="64" area2="79" value="640.23035"/>
+    <sea_grid_connection area1="64" area2="80" value="1432.37036"/>
+    <sea_grid_connection area1="64" area2="81" value="995.23804"/>
+    <sea_grid_connection area1="64" area2="82" value="918.58154"/>
+    <sea_grid_connection area1="64" area2="83" value="1427.59131"/>
+    <sea_grid_connection area1="64" area2="84" value="1427.59131"/>
+    <sea_grid_connection area1="64" area2="88" value="1227.94873"/>
+    <sea_grid_connection area1="64" area2="89" value="1227.94873"/>
+    <sea_grid_connection area1="64" area2="90" value="1227.94873"/>
+    <sea_grid_connection area1="64" area2="91" value="844.65192"/>
+    <sea_grid_connection area1="64" area2="92" value="844.65192"/>
+    <sea_grid_connection area1="64" area2="93" value="1427.59131"/>
+    <sea_grid_connection area1="65" area2="66" value="0.0"/>
+    <sea_grid_connection area1="65" area2="67" value="-1.0"/>
+    <sea_grid_connection area1="65" area2="69" value="919.31689"/>
+    <sea_grid_connection area1="65" area2="70" value="919.31689"/>
+    <sea_grid_connection area1="65" area2="71" value="1375.59436"/>
+    <sea_grid_connection area1="65" area2="72" value="1499.95923"/>
+    <sea_grid_connection area1="65" area2="73" value="1259.02661"/>
+    <sea_grid_connection area1="65" area2="74" value="1259.02661"/>
+    <sea_grid_connection area1="65" area2="78" value="1297.63867"/>
+    <sea_grid_connection area1="65" area2="79" value="919.31689"/>
+    <sea_grid_connection area1="65" area2="80" value="1873.80493"/>
+    <sea_grid_connection area1="65" area2="81" value="1379.15222"/>
+    <sea_grid_connection area1="65" area2="82" value="1259.02661"/>
+    <sea_grid_connection area1="65" area2="83" value="1951.76062"/>
+    <sea_grid_connection area1="65" area2="84" value="1951.76062"/>
+    <sea_grid_connection area1="65" area2="88" value="1629.31445"/>
+    <sea_grid_connection area1="65" area2="89" value="1629.31445"/>
+    <sea_grid_connection area1="65" area2="90" value="1629.31445"/>
+    <sea_grid_connection area1="65" area2="91" value="1163.80737"/>
+    <sea_grid_connection area1="65" area2="92" value="1163.80737"/>
+    <sea_grid_connection area1="65" area2="93" value="1951.76062"/>
+    <sea_grid_connection area1="66" area2="67" value="-1.0"/>
+    <sea_grid_connection area1="66" area2="69" value="1077.58203"/>
+    <sea_grid_connection area1="66" area2="70" value="1077.58203"/>
+    <sea_grid_connection area1="66" area2="71" value="1651.39172"/>
+    <sea_grid_connection area1="66" area2="72" value="1828.10461"/>
+    <sea_grid_connection area1="66" area2="73" value="1528.87952"/>
+    <sea_grid_connection area1="66" area2="74" value="1528.87952"/>
+    <sea_grid_connection area1="66" area2="78" value="1514.91357"/>
+    <sea_grid_connection area1="66" area2="79" value="1077.58203"/>
+    <sea_grid_connection area1="66" area2="80" value="2205.54199"/>
+    <sea_grid_connection area1="66" area2="81" value="1653.1449"/>
+    <sea_grid_connection area1="66" area2="82" value="1528.87952"/>
+    <sea_grid_connection area1="66" area2="83" value="2342.02002"/>
+    <sea_grid_connection area1="66" area2="84" value="2342.02002"/>
+    <sea_grid_connection area1="66" area2="88" value="1904.56372"/>
+    <sea_grid_connection area1="66" area2="89" value="1904.56372"/>
+    <sea_grid_connection area1="66" area2="90" value="1904.56372"/>
+    <sea_grid_connection area1="66" area2="91" value="1378.5603"/>
+    <sea_grid_connection area1="66" area2="92" value="1378.5603"/>
+    <sea_grid_connection area1="66" area2="93" value="2342.02002"/>
+    <sea_grid_connection area1="67" area2="69" value="-1.0"/>
+    <sea_grid_connection area1="67" area2="70" value="-1.0"/>
+    <sea_grid_connection area1="67" area2="71" value="-1.0"/>
+    <sea_grid_connection area1="67" area2="72" value="-1.0"/>
+    <sea_grid_connection area1="67" area2="73" value="-1.0"/>
+    <sea_grid_connection area1="67" area2="74" value="-1.0"/>
+    <sea_grid_connection area1="67" area2="78" value="-1.0"/>
+    <sea_grid_connection area1="67" area2="79" value="-1.0"/>
+    <sea_grid_connection area1="67" area2="80" value="-1.0"/>
+    <sea_grid_connection area1="67" area2="81" value="-1.0"/>
+    <sea_grid_connection area1="67" area2="82" value="-1.0"/>
+    <sea_grid_connection area1="67" area2="83" value="-1.0"/>
+    <sea_grid_connection area1="67" area2="84" value="-1.0"/>
+    <sea_grid_connection area1="67" area2="88" value="-1.0"/>
+    <sea_grid_connection area1="67" area2="89" value="-1.0"/>
+    <sea_grid_connection area1="67" area2="90" value="-1.0"/>
+    <sea_grid_connection area1="67" area2="91" value="-1.0"/>
+    <sea_grid_connection area1="67" area2="92" value="-1.0"/>
+    <sea_grid_connection area1="67" area2="93" value="-1.0"/>
+    <sea_grid_connection area1="69" area2="70" value="0.0"/>
+    <sea_grid_connection area1="69" area2="71" value="299.62018"/>
+    <sea_grid_connection area1="69" area2="72" value="590.14594"/>
+    <sea_grid_connection area1="69" area2="73" value="455.36346"/>
+    <sea_grid_connection area1="69" area2="74" value="455.36346"/>
+    <sea_grid_connection area1="69" area2="78" value="84.35039520263672"/>
+    <sea_grid_connection area1="69" area2="79" value="0.0"/>
+    <sea_grid_connection area1="69" area2="80" value="402.52264"/>
+    <sea_grid_connection area1="69" area2="81" value="354.06396"/>
+    <sea_grid_connection area1="69" area2="82" value="455.36346"/>
+    <sea_grid_connection area1="69" area2="83" value="617.79242"/>
+    <sea_grid_connection area1="69" area2="84" value="617.79242"/>
+    <sea_grid_connection area1="69" area2="88" value="213.29639"/>
+    <sea_grid_connection area1="69" area2="89" value="213.29639"/>
+    <sea_grid_connection area1="69" area2="90" value="213.29639"/>
+    <sea_grid_connection area1="69" area2="91" value="189.22626"/>
+    <sea_grid_connection area1="69" area2="92" value="189.22626"/>
+    <sea_grid_connection area1="69" area2="93" value="617.79242"/>
+    <sea_grid_connection area1="70" area2="71" value="89.85716"/>
+    <sea_grid_connection area1="70" area2="72" value="305.7113"/>
+    <sea_grid_connection area1="70" area2="73" value="305.7113"/>
+    <sea_grid_connection area1="70" area2="74" value="305.7113"/>
+    <sea_grid_connection area1="70" area2="78" value="97.73721"/>
+    <sea_grid_connection area1="70" area2="79" value="0.0"/>
+    <sea_grid_connection area1="70" area2="80" value="214.09573"/>
+    <sea_grid_connection area1="70" area2="81" value="214.09573"/>
+    <sea_grid_connection area1="70" area2="82" value="305.7113"/>
+    <sea_grid_connection area1="70" area2="83" value="313.07159"/>
+    <sea_grid_connection area1="70" area2="84" value="313.07159"/>
+    <sea_grid_connection area1="70" area2="88" value="196.71309"/>
+    <sea_grid_connection area1="70" area2="89" value="313.07159"/>
+    <sea_grid_connection area1="70" area2="90" value="313.07159"/>
+    <sea_grid_connection area1="70" area2="91" value="124.23856"/>
+    <sea_grid_connection area1="70" area2="92" value="124.23856"/>
+    <sea_grid_connection area1="70" area2="93" value="313.07159"/>
+    <sea_grid_connection area1="71" area2="72" value="141.5303"/>
+    <sea_grid_connection area1="71" area2="73" value="141.5303"/>
+    <sea_grid_connection area1="71" area2="74" value="141.5303"/>
+    <sea_grid_connection area1="71" area2="78" value="280.41028"/>
+    <sea_grid_connection area1="71" area2="79" value="180.57956"/>
+    <sea_grid_connection area1="71" area2="80" value="79.45984"/>
+    <sea_grid_connection area1="71" area2="81" value="79.45984"/>
+    <sea_grid_connection area1="71" area2="82" value="141.5303"/>
+    <sea_grid_connection area1="71" area2="83" value="198.68811"/>
+    <sea_grid_connection area1="71" area2="84" value="198.68811"/>
+    <sea_grid_connection area1="71" area2="88" value="198.68811"/>
+    <sea_grid_connection area1="71" area2="89" value="198.68811"/>
+    <sea_grid_connection area1="71" area2="90" value="198.68811"/>
+    <sea_grid_connection area1="71" area2="91" value="79.45984"/>
+    <sea_grid_connection area1="71" area2="92" value="79.45984"/>
+    <sea_grid_connection area1="71" area2="93" value="198.68811"/>
+    <sea_grid_connection area1="72" area2="73" value="0.0"/>
+    <sea_grid_connection area1="72" area2="74" value="0.0"/>
+    <sea_grid_connection area1="72" area2="78" value="482.48889"/>
+    <sea_grid_connection area1="72" area2="79" value="372.28589"/>
+    <sea_grid_connection area1="72" area2="80" value="152.13257"/>
+    <sea_grid_connection area1="72" area2="81" value="152.13257"/>
+    <sea_grid_connection area1="72" area2="82" value="0.0"/>
+    <sea_grid_connection area1="72" area2="83" value="325.00403"/>
+    <sea_grid_connection area1="72" area2="84" value="325.00403"/>
+    <sea_grid_connection area1="72" area2="88" value="325.00403"/>
+    <sea_grid_connection area1="72" area2="89" value="325.00403"/>
+    <sea_grid_connection area1="72" area2="90" value="325.00403"/>
+    <sea_grid_connection area1="72" area2="91" value="152.13257"/>
+    <sea_grid_connection area1="72" area2="92" value="152.13257"/>
+    <sea_grid_connection area1="72" area2="93" value="325.00403"/>
+    <sea_grid_connection area1="73" area2="74" value="0.0"/>
+    <sea_grid_connection area1="73" area2="78" value="675.59277"/>
+    <sea_grid_connection area1="73" area2="79" value="565.00696"/>
+    <sea_grid_connection area1="73" area2="80" value="265.60376"/>
+    <sea_grid_connection area1="73" area2="81" value="265.60376"/>
+    <sea_grid_connection area1="73" area2="82" value="0.0"/>
+    <sea_grid_connection area1="73" area2="83" value="495.43756"/>
+    <sea_grid_connection area1="73" area2="84" value="495.43756"/>
+    <sea_grid_connection area1="73" area2="88" value="495.43756"/>
+    <sea_grid_connection area1="73" area2="89" value="495.43756"/>
+    <sea_grid_connection area1="73" area2="90" value="495.43756"/>
+    <sea_grid_connection area1="73" area2="91" value="265.60376"/>
+    <sea_grid_connection area1="73" area2="92" value="265.60376"/>
+    <sea_grid_connection area1="73" area2="93" value="495.43756"/>
+    <sea_grid_connection area1="74" area2="78" value="896.28076"/>
+    <sea_grid_connection area1="74" area2="79" value="798.58472"/>
+    <sea_grid_connection area1="74" area2="80" value="400.58145"/>
+    <sea_grid_connection area1="74" area2="81" value="400.58145"/>
+    <sea_grid_connection area1="74" area2="82" value="0.0"/>
+    <sea_grid_connection area1="74" area2="83" value="691.83478"/>
+    <sea_grid_connection area1="74" area2="84" value="691.83478"/>
+    <sea_grid_connection area1="74" area2="88" value="691.83478"/>
+    <sea_grid_connection area1="74" area2="89" value="691.83478"/>
+    <sea_grid_connection area1="74" area2="90" value="691.83478"/>
+    <sea_grid_connection area1="74" area2="91" value="400.58145"/>
+    <sea_grid_connection area1="74" area2="92" value="400.58145"/>
+    <sea_grid_connection area1="74" area2="93" value="691.83478"/>
+    <sea_grid_connection area1="78" area2="79" value="90.15269"/>
+    <sea_grid_connection area1="78" area2="80" value="259.65253"/>
+    <sea_grid_connection area1="78" area2="81" value="259.65253"/>
+    <sea_grid_connection area1="78" area2="82" value="733.74011"/>
+    <sea_grid_connection area1="78" area2="83" value="86.34081"/>
+    <sea_grid_connection area1="78" area2="84" value="86.34081"/>
+    <sea_grid_connection area1="78" area2="88" value="86.34081"/>
+    <sea_grid_connection area1="78" area2="89" value="86.34081"/>
+    <sea_grid_connection area1="78" area2="90" value="86.34081"/>
+    <sea_grid_connection area1="78" area2="91" value="259.65253"/>
+    <sea_grid_connection area1="78" area2="92" value="259.65253"/>
+    <sea_grid_connection area1="78" area2="93" value="86.34081"/>
+    <sea_grid_connection area1="79" area2="80" value="98.31375"/>
+    <sea_grid_connection area1="79" area2="81" value="98.31375"/>
+    <sea_grid_connection area1="79" area2="82" value="335.95047"/>
+    <sea_grid_connection area1="79" area2="83" value="123.29161"/>
+    <sea_grid_connection area1="79" area2="84" value="123.29161"/>
+    <sea_grid_connection area1="79" area2="88" value="79.1357"/>
+    <sea_grid_connection area1="79" area2="89" value="79.1357"/>
+    <sea_grid_connection area1="79" area2="90" value="123.29161"/>
+    <sea_grid_connection area1="79" area2="91" value="98.31375"/>
+    <sea_grid_connection area1="79" area2="92" value="98.31375"/>
+    <sea_grid_connection area1="79" area2="93" value="123.29161"/>
+    <sea_grid_connection area1="80" area2="81" value="0.0"/>
+    <sea_grid_connection area1="80" area2="82" value="222.54254"/>
+    <sea_grid_connection area1="80" area2="83" value="71.01445"/>
+    <sea_grid_connection area1="80" area2="84" value="71.01445"/>
+    <sea_grid_connection area1="80" area2="88" value="71.01445"/>
+    <sea_grid_connection area1="80" area2="89" value="71.01445"/>
+    <sea_grid_connection area1="80" area2="90" value="71.01445"/>
+    <sea_grid_connection area1="80" area2="91" value="0.0"/>
+    <sea_grid_connection area1="80" area2="92" value="0.0"/>
+    <sea_grid_connection area1="80" area2="93" value="71.01445"/>
+    <sea_grid_connection area1="81" area2="82" value="176.67612"/>
+    <sea_grid_connection area1="81" area2="83" value="143.91739"/>
+    <sea_grid_connection area1="81" area2="84" value="143.91739"/>
+    <sea_grid_connection area1="81" area2="88" value="143.91739"/>
+    <sea_grid_connection area1="81" area2="89" value="143.91739"/>
+    <sea_grid_connection area1="81" area2="90" value="143.91739"/>
+    <sea_grid_connection area1="81" area2="91" value="0.0"/>
+    <sea_grid_connection area1="81" area2="92" value="0.0"/>
+    <sea_grid_connection area1="81" area2="93" value="143.91739"/>
+    <sea_grid_connection area1="82" area2="83" value="494.65961"/>
+    <sea_grid_connection area1="82" area2="84" value="494.65961"/>
+    <sea_grid_connection area1="82" area2="88" value="494.65961"/>
+    <sea_grid_connection area1="82" area2="89" value="494.65961"/>
+    <sea_grid_connection area1="82" area2="90" value="494.65961"/>
+    <sea_grid_connection area1="82" area2="91" value="273.59454"/>
+    <sea_grid_connection area1="82" area2="92" value="273.59454"/>
+    <sea_grid_connection area1="82" area2="93" value="494.65961"/>
+    <sea_grid_connection area1="83" area2="84" value="0.0"/>
+    <sea_grid_connection area1="83" area2="88" value="0.0"/>
+    <sea_grid_connection area1="83" area2="89" value="0.0"/>
+    <sea_grid_connection area1="83" area2="90" value="0.0"/>
+    <sea_grid_connection area1="83" area2="91" value="193.13667"/>
+    <sea_grid_connection area1="83" area2="92" value="193.13667"/>
+    <sea_grid_connection area1="83" area2="93" value="0.0"/>
+    <sea_grid_connection area1="84" area2="88" value="0.0"/>
+    <sea_grid_connection area1="84" area2="89" value="0.0"/>
+    <sea_grid_connection area1="84" area2="90" value="0.0"/>
+    <sea_grid_connection area1="84" area2="91" value="276.69266"/>
+    <sea_grid_connection area1="84" area2="92" value="276.69266"/>
+    <sea_grid_connection area1="84" area2="93" value="0.0"/>
+    <sea_grid_connection area1="88" area2="89" value="0.0"/>
+    <sea_grid_connection area1="88" area2="90" value="0.0"/>
+    <sea_grid_connection area1="88" area2="91" value="79.12435"/>
+    <sea_grid_connection area1="88" area2="92" value="79.12435"/>
+    <sea_grid_connection area1="88" area2="93" value="0.0"/>
+    <sea_grid_connection area1="89" area2="90" value="0.0"/>
+    <sea_grid_connection area1="89" area2="91" value="43.33794403076172"/>
+    <sea_grid_connection area1="89" area2="92" value="43.33794403076172"/>
+    <sea_grid_connection area1="89" area2="93" value="0.0"/>
+    <sea_grid_connection area1="90" area2="91" value="43.4766845703125"/>
+    <sea_grid_connection area1="90" area2="92" value="43.4766845703125"/>
+    <sea_grid_connection area1="90" area2="93" value="0.0"/>
+    <sea_grid_connection area1="91" area2="92" value="0.0"/>
+    <sea_grid_connection area1="91" area2="93" value="208.04765"/>
+    <sea_grid_connection area1="92" area2="93" value="282.92532"/>
+   </sea_grid_connections>
+  </theatre_sea_grid>
+  <theatre_sea_grid factor="75.0" maxx="680.0" maxy="280.0" minx="440.0" miny="20.0" name="3">
+   <sea_grid_row>
+    <sea_grid_cell area_id="96" maxx="515.0" maxy="95.0" minx="440.0" miny="20.0">
+     <sea_grid_lands/>
+     <sea_grid_seas>
+      indian_ocean
+      arabian_sea
+     </sea_grid_seas>
+     <sea_grid_ports/>
+     <sea_grid_numbers>
+      183 184
+     </sea_grid_numbers>
+    </sea_grid_cell>
+    <sea_grid_cell area_id="97" maxx="590.0" maxy="95.0" minx="515.0" miny="20.0">
+     <sea_grid_lands>
+      carnatica
+      ceylon
+      mysore
+     </sea_grid_lands>
+     <sea_grid_seas>
+      indian_ocean
+      arabian_sea
+      bay_of_bengal
+     </sea_grid_seas>
+     <sea_grid_ports>
+      port:carnatica:calicut
+      port:ceylon:colombo
+     </sea_grid_ports>
+     <sea_grid_numbers>
+      184 536 537 538 539 566 567 568 569 570 571 572 573 574 575 586 587 588 589 590 591 592 616 893 967 1390 1433 1461 1497 1532 1541 1602 1671 1700
+     </sea_grid_numbers>
+    </sea_grid_cell>
+    <sea_grid_cell area_id="98" maxx="665.0" maxy="95.0" minx="590.0" miny="20.0">
+     <sea_grid_lands>
+      indochina
+     </sea_grid_lands>
+     <sea_grid_seas>
+      indian_ocean
+      bay_of_bengal
+     </sea_grid_seas>
+     <sea_grid_ports/>
+     <sea_grid_numbers>
+      616
+     </sea_grid_numbers>
+    </sea_grid_cell>
+    <sea_grid_cell area_id="99" maxx="740.0" maxy="95.0" minx="665.0" miny="20.0">
+     <sea_grid_lands>
+      unexplorable
+      indochina
+     </sea_grid_lands>
+     <sea_grid_seas>
+      indian_ocean
+      south_china_sea
+      bay_of_bengal
+     </sea_grid_seas>
+     <sea_grid_ports/>
+     <sea_grid_numbers>
+      612 616
+     </sea_grid_numbers>
+    </sea_grid_cell>
+   </sea_grid_row>
+   <sea_grid_row>
+    <sea_grid_cell area_id="100" maxx="515.0" maxy="170.0" minx="440.0" miny="95.0">
+     <sea_grid_lands>
+      arabia
+      all
+      gujarat
+      sindh
+     </sea_grid_lands>
+     <sea_grid_seas>
+      arabian_sea
+     </sea_grid_seas>
+     <sea_grid_ports/>
+     <sea_grid_numbers>
+      183 540 541 542 543 544 545 546 547 549 550 558 559 560 561 562 563 564 689 692 693 902 1701
+     </sea_grid_numbers>
+    </sea_grid_cell>
+    <sea_grid_cell area_id="101" maxx="590.0" maxy="170.0" minx="515.0" miny="95.0">
+     <sea_grid_lands>
+      all
+      carnatica
+      mysore
+      malabar
+      bijapur
+      hyderabad
+      orissa
+      ahmadnagar
+      berar
+      gujarat
+      malwa
+      bengal
+      rajpootana
+     </sea_grid_lands>
+     <sea_grid_seas>
+      indian_ocean
+      arabian_sea
+      bay_of_bengal
+     </sea_grid_seas>
+     <sea_grid_ports>
+      port:malabar:barcelor
+      port:bijapur:vengurla
+      port:ahmadnagar:bombay
+      port:gujarat:surat
+     </sea_grid_ports>
+     <sea_grid_numbers>
+      539 540 547 561 562 563 564 565 566 575 576 577 583 584 585 586 692 693 694 732 734 737 757 759 802 804 811 815 817 821 829 831 877 888 902 904 950 952 962 967 976 979 1022 1032 1039 1047 1050 1093 1110 1116 1119 1171 1189 1235 1242 1258 1260 1298 1299 1307 1324 1333 1361 1362 1369 1388 1392 1398 1428 1432 1460 1462 1504 1512 1530 1533 1545 1557 1576 1578 1583 1600 1628 1644 1652 1669 1671 1701
+     </sea_grid_numbers>
+    </sea_grid_cell>
+    <sea_grid_cell area_id="102" maxx="665.0" maxy="170.0" minx="590.0" miny="95.0">
+     <sea_grid_lands>
+      himalayas
+      indochina
+      all
+      orissa
+      berar
+      bengal
+     </sea_grid_lands>
+     <sea_grid_seas>
+      bay_of_bengal
+     </sea_grid_seas>
+     <sea_grid_ports>
+      port:bengal:port_of_calcutta
+     </sea_grid_ports>
+     <sea_grid_numbers>
+      577 578 579 580 581 582 583 612 613 614 958 978 1030 1049 1099 1118 1191 1260 1440 1533 1604
+     </sea_grid_numbers>
+    </sea_grid_cell>
+    <sea_grid_cell area_id="103" maxx="740.0" maxy="170.0" minx="665.0" miny="95.0">
+     <sea_grid_lands>
+      indochina
+     </sea_grid_lands>
+     <sea_grid_seas>
+      south_china_sea
+      bay_of_bengal
+     </sea_grid_seas>
+     <sea_grid_ports/>
+     <sea_grid_numbers>
+      612
+     </sea_grid_numbers>
+    </sea_grid_cell>
+   </sea_grid_row>
+   <sea_grid_row>
+    <sea_grid_cell area_id="104" maxx="515.0" maxy="245.0" minx="440.0" miny="170.0">
+     <sea_grid_lands>
+      arabia
+      lakes
+      all
+      wilderness_arabia
+      persia
+      baluchistan
+      afghanistan
+      gujarat
+      sindh
+      rajpootana
+      punjab
+      kashmir
+     </sea_grid_lands>
+     <sea_grid_seas>
+      arabian_sea
+      persian_gulf
+     </sea_grid_seas>
+     <sea_grid_ports>
+      port:persia:bandar_abbas
+     </sea_grid_ports>
+     <sea_grid_numbers>
+      545 548 549 550 551 552 553 555 556 557 558 739 755 770 827 900 902 1023 1167 1173 1188 1237 1244 1302 1387 1459 1529 1612 1678
+     </sea_grid_numbers>
+    </sea_grid_cell>
+    <sea_grid_cell area_id="105" maxx="590.0" maxy="245.0" minx="515.0" miny="170.0">
+     <sea_grid_lands/>
+     <sea_grid_seas/>
+     <sea_grid_ports/>
+     <sea_grid_numbers/>
+    </sea_grid_cell>
+    <sea_grid_cell area_id="106" maxx="665.0" maxy="245.0" minx="590.0" miny="170.0">
+     <sea_grid_lands/>
+     <sea_grid_seas/>
+     <sea_grid_ports/>
+     <sea_grid_numbers/>
+    </sea_grid_cell>
+    <sea_grid_cell area_id="107" maxx="740.0" maxy="245.0" minx="665.0" miny="170.0">
+     <sea_grid_lands/>
+     <sea_grid_seas/>
+     <sea_grid_ports/>
+     <sea_grid_numbers/>
+    </sea_grid_cell>
+   </sea_grid_row>
+   <sea_grid_row>
+    <sea_grid_cell area_id="108" maxx="515.0" maxy="320.0" minx="440.0" miny="245.0">
+     <sea_grid_lands/>
+     <sea_grid_seas/>
+     <sea_grid_ports/>
+     <sea_grid_numbers/>
+    </sea_grid_cell>
+    <sea_grid_cell area_id="109" maxx="590.0" maxy="320.0" minx="515.0" miny="245.0">
+     <sea_grid_lands/>
+     <sea_grid_seas/>
+     <sea_grid_ports/>
+     <sea_grid_numbers/>
+    </sea_grid_cell>
+    <sea_grid_cell area_id="110" maxx="665.0" maxy="320.0" minx="590.0" miny="245.0">
+     <sea_grid_lands/>
+     <sea_grid_seas/>
+     <sea_grid_ports/>
+     <sea_grid_numbers/>
+    </sea_grid_cell>
+    <sea_grid_cell area_id="111" maxx="740.0" maxy="320.0" minx="665.0" miny="245.0">
+     <sea_grid_lands/>
+     <sea_grid_seas/>
+     <sea_grid_ports/>
+     <sea_grid_numbers/>
+    </sea_grid_cell>
+   </sea_grid_row>
+   <sea_grid_connections>
+    <sea_grid_connection area1="96" area2="97" value="0.0"/>
+    <sea_grid_connection area1="96" area2="98" value="0.0"/>
+    <sea_grid_connection area1="96" area2="99" value="0.0"/>
+    <sea_grid_connection area1="96" area2="100" value="68.83662"/>
+    <sea_grid_connection area1="96" area2="101" value="158.64238"/>
+    <sea_grid_connection area1="96" area2="102" value="158.64238"/>
+    <sea_grid_connection area1="96" area2="103" value="158.64238"/>
+    <sea_grid_connection area1="96" area2="104" value="68.83662"/>
+    <sea_grid_connection area1="97" area2="98" value="0.0"/>
+    <sea_grid_connection area1="97" area2="99" value="0.0"/>
+    <sea_grid_connection area1="97" area2="100" value="101.38612"/>
+    <sea_grid_connection area1="97" area2="101" value="98.78085"/>
+    <sea_grid_connection area1="97" area2="102" value="98.78085"/>
+    <sea_grid_connection area1="97" area2="103" value="98.78085"/>
+    <sea_grid_connection area1="97" area2="104" value="101.38612"/>
+    <sea_grid_connection area1="98" area2="99" value="0.0"/>
+    <sea_grid_connection area1="98" area2="100" value="173.37563"/>
+    <sea_grid_connection area1="98" area2="101" value="51.003684997558594"/>
+    <sea_grid_connection area1="98" area2="102" value="51.003684997558594"/>
+    <sea_grid_connection area1="98" area2="103" value="51.003684997558594"/>
+    <sea_grid_connection area1="98" area2="104" value="173.37563"/>
+    <sea_grid_connection area1="99" area2="100" value="217.25636"/>
+    <sea_grid_connection area1="99" area2="101" value="69.12314"/>
+    <sea_grid_connection area1="99" area2="102" value="69.12314"/>
+    <sea_grid_connection area1="99" area2="103" value="69.12314"/>
+    <sea_grid_connection area1="99" area2="104" value="217.25636"/>
+    <sea_grid_connection area1="100" area2="101" value="272.01038"/>
+    <sea_grid_connection area1="100" area2="102" value="272.01038"/>
+    <sea_grid_connection area1="100" area2="103" value="272.01038"/>
+    <sea_grid_connection area1="100" area2="104" value="0.0"/>
+    <sea_grid_connection area1="101" area2="102" value="0.0"/>
+    <sea_grid_connection area1="101" area2="103" value="0.0"/>
+    <sea_grid_connection area1="101" area2="104" value="162.42484"/>
+    <sea_grid_connection area1="102" area2="103" value="0.0"/>
+    <sea_grid_connection area1="102" area2="104" value="266.19022"/>
+    <sea_grid_connection area1="103" area2="104" value="329.888"/>
+   </sea_grid_connections>
+  </theatre_sea_grid>
+  <theatre_sea_grid factor="75.0" maxx="920.0" maxy="-5.0" minx="800.0" miny="-80.0" name="-1133129049">
+   <sea_grid_row>
+    <sea_grid_cell area_id="112" maxx="875.0" maxy="-5.0" minx="800.0" miny="-80.0">
+     <sea_grid_lands>
+      unexplorable
+     </sea_grid_lands>
+     <sea_grid_seas>
+      indian_ocean
+      east_indies
+      south_china_sea
+     </sea_grid_seas>
+     <sea_grid_ports/>
+     <sea_grid_numbers>
+      615 643 644 645 646 649 650 653 654 655 656 657 658 659 660
+     </sea_grid_numbers>
+    </sea_grid_cell>
+    <sea_grid_cell area_id="113" maxx="950.0" maxy="-5.0" minx="875.0" miny="-80.0">
+     <sea_grid_lands>
+      unexplorable
+     </sea_grid_lands>
+     <sea_grid_seas>
+      indian_ocean
+      pacific_ocean
+      east_indies
+     </sea_grid_seas>
+     <sea_grid_ports/>
+     <sea_grid_numbers>
+      643 647 648 651 652
+     </sea_grid_numbers>
+    </sea_grid_cell>
+   </sea_grid_row>
+   <sea_grid_row>
+    <sea_grid_cell area_id="114" maxx="875.0" maxy="70.0" minx="800.0" miny="-5.0">
+     <sea_grid_lands>
+      unexplorable
+      indochina
+     </sea_grid_lands>
+     <sea_grid_seas>
+      indian_ocean
+      east_indies
+      south_china_sea
+     </sea_grid_seas>
+     <sea_grid_ports/>
+     <sea_grid_numbers/>
+    </sea_grid_cell>
+    <sea_grid_cell area_id="115" maxx="950.0" maxy="70.0" minx="875.0" miny="-5.0">
+     <sea_grid_lands>
+      unexplorable
+     </sea_grid_lands>
+     <sea_grid_seas>
+      pacific_ocean
+      east_indies
+      south_china_sea
+     </sea_grid_seas>
+     <sea_grid_ports/>
+     <sea_grid_numbers/>
+    </sea_grid_cell>
+   </sea_grid_row>
+   <sea_grid_connections>
+    <sea_grid_connection area1="112" area2="113" value="0.0"/>
+    <sea_grid_connection area1="112" area2="114" value="0.0"/>
+    <sea_grid_connection area1="112" area2="115" value="0.0"/>
+    <sea_grid_connection area1="113" area2="114" value="0.0"/>
+    <sea_grid_connection area1="113" area2="115" value="0.0"/>
+    <sea_grid_connection area1="114" area2="115" value="0.0"/>
+   </sea_grid_connections>
+  </theatre_sea_grid>
+  <theatre_sea_grid factor="75.0" maxx="350.0" maxy="-55.0" minx="265.0" miny="-140.0" name="836795134">
+   <sea_grid_row>
+    <sea_grid_cell area_id="116" maxx="340.0" maxy="-65.0" minx="265.0" miny="-140.0">
+     <sea_grid_lands>
+      unexplorable
+      kalahari
+      south_africa
+      congo_impassable
+      east_africa
+      rift_valley
+      lakes
+     </sea_grid_lands>
+     <sea_grid_seas>
+      indian_ocean
+      straits_of_mozambique
+     </sea_grid_seas>
+     <sea_grid_ports/>
+     <sea_grid_numbers>
+      182 661 662 663 664 665 666 667 668 669 670 671 672 673 674
+     </sea_grid_numbers>
+    </sea_grid_cell>
+    <sea_grid_cell area_id="117" maxx="415.0" maxy="-65.0" minx="340.0" miny="-140.0">
+     <sea_grid_lands>
+      unexplorable
+     </sea_grid_lands>
+     <sea_grid_seas>
+      indian_ocean
+      straits_of_mozambique
+     </sea_grid_seas>
+     <sea_grid_ports/>
+     <sea_grid_numbers>
+      671 672
+     </sea_grid_numbers>
+    </sea_grid_cell>
+   </sea_grid_row>
+   <sea_grid_row>
+    <sea_grid_cell area_id="118" maxx="340.0" maxy="10.0" minx="265.0" miny="-65.0">
+     <sea_grid_lands>
+      south_africa
+      congo_impassable
+      central_africa
+      east_africa
+      rift_valley
+      lakes
+     </sea_grid_lands>
+     <sea_grid_seas>
+      indian_ocean
+      straits_of_mozambique
+     </sea_grid_seas>
+     <sea_grid_ports/>
+     <sea_grid_numbers>
+      664
+     </sea_grid_numbers>
+    </sea_grid_cell>
+    <sea_grid_cell area_id="119" maxx="415.0" maxy="10.0" minx="340.0" miny="-65.0">
+     <sea_grid_lands/>
+     <sea_grid_seas>
+      indian_ocean
+      straits_of_mozambique
+     </sea_grid_seas>
+     <sea_grid_ports/>
+     <sea_grid_numbers/>
+    </sea_grid_cell>
+   </sea_grid_row>
+   <sea_grid_connections>
+    <sea_grid_connection area1="116" area2="117" value="0.0"/>
+    <sea_grid_connection area1="116" area2="118" value="0.0"/>
+    <sea_grid_connection area1="116" area2="119" value="0.0"/>
+    <sea_grid_connection area1="117" area2="118" value="0.0"/>
+    <sea_grid_connection area1="117" area2="119" value="0.0"/>
+    <sea_grid_connection area1="118" area2="119" value="0.0"/>
+   </sea_grid_connections>
+  </theatre_sea_grid>
+  <theatre_sea_grid factor="75.0" maxx="-250.0" maxy="-140.0" minx="-350.0" miny="-230.0" name="1197997136">
+   <sea_grid_row>
+    <sea_grid_cell area_id="120" maxx="-275.0" maxy="-155.0" minx="-350.0" miny="-230.0">
+     <sea_grid_lands>
+      amazonas
+     </sea_grid_lands>
+     <sea_grid_seas>
+      atlantic_ocean_sw
+      brazil_coast
+     </sea_grid_seas>
+     <sea_grid_ports/>
+     <sea_grid_numbers>
+      618 628 629 630 631 632 633 634 635 636 637 638 639 640 641 642 691
+     </sea_grid_numbers>
+    </sea_grid_cell>
+    <sea_grid_cell area_id="121" maxx="-200.0" maxy="-155.0" minx="-275.0" miny="-230.0">
+     <sea_grid_lands/>
+     <sea_grid_seas>
+      atlantic_ocean_sw
+      brazil_coast
+     </sea_grid_seas>
+     <sea_grid_ports/>
+     <sea_grid_numbers>
+      618
+     </sea_grid_numbers>
+    </sea_grid_cell>
+   </sea_grid_row>
+   <sea_grid_row>
+    <sea_grid_cell area_id="122" maxx="-275.0" maxy="-80.0" minx="-350.0" miny="-155.0">
+     <sea_grid_lands>
+      amazonas
+     </sea_grid_lands>
+     <sea_grid_seas>
+      atlantic_ocean_sw
+      brazil_coast
+     </sea_grid_seas>
+     <sea_grid_ports/>
+     <sea_grid_numbers/>
+    </sea_grid_cell>
+    <sea_grid_cell area_id="123" maxx="-200.0" maxy="-80.0" minx="-275.0" miny="-155.0">
+     <sea_grid_lands>
+      amazonas
+     </sea_grid_lands>
+     <sea_grid_seas>
+      atlantic_ocean_sw
+      brazil_coast
+     </sea_grid_seas>
+     <sea_grid_ports/>
+     <sea_grid_numbers>
+      618 690
+     </sea_grid_numbers>
+    </sea_grid_cell>
+   </sea_grid_row>
+   <sea_grid_connections>
+    <sea_grid_connection area1="120" area2="121" value="0.0"/>
+    <sea_grid_connection area1="120" area2="122" value="0.0"/>
+    <sea_grid_connection area1="120" area2="123" value="0.0"/>
+    <sea_grid_connection area1="121" area2="122" value="0.0"/>
+    <sea_grid_connection area1="121" area2="123" value="0.0"/>
+    <sea_grid_connection area1="122" area2="123" value="0.0"/>
+   </sea_grid_connections>
+  </theatre_sea_grid>
+  <theatre_sea_grid factor="75.0" maxx="90.0" maxy="50.0" minx="-10.0" miny="-40.0" name="2113354257">
+   <sea_grid_row>
+    <sea_grid_cell area_id="124" maxx="65.0" maxy="35.0" minx="-10.0" miny="-40.0">
+     <sea_grid_lands>
+      congo_impassable
+     </sea_grid_lands>
+     <sea_grid_seas>
+      atlantic_ocean_se
+      doldrums
+      ivory_coast
+     </sea_grid_seas>
+     <sea_grid_ports/>
+     <sea_grid_numbers>
+      611 617 675 676 677 678 679 680 681 682 683 684 685 686 687 688
+     </sea_grid_numbers>
+    </sea_grid_cell>
+    <sea_grid_cell area_id="125" maxx="140.0" maxy="35.0" minx="65.0" miny="-40.0">
+     <sea_grid_lands>
+      south_africa
+      congo_impassable
+      central_africa
+     </sea_grid_lands>
+     <sea_grid_seas>
+      atlantic_ocean_se
+      ivory_coast
+     </sea_grid_seas>
+     <sea_grid_ports/>
+     <sea_grid_numbers>
+      681 682
+     </sea_grid_numbers>
+    </sea_grid_cell>
+   </sea_grid_row>
+   <sea_grid_row>
+    <sea_grid_cell area_id="126" maxx="65.0" maxy="110.0" minx="-10.0" miny="35.0">
+     <sea_grid_lands>
+      hausa
+      sahara
+     </sea_grid_lands>
+     <sea_grid_seas>
+      atlantic_ocean_se
+      ivory_coast
+     </sea_grid_seas>
+     <sea_grid_ports/>
+     <sea_grid_numbers>
+      687 688
+     </sea_grid_numbers>
+    </sea_grid_cell>
+    <sea_grid_cell area_id="127" maxx="140.0" maxy="110.0" minx="65.0" miny="35.0">
+     <sea_grid_lands/>
+     <sea_grid_seas/>
+     <sea_grid_ports/>
+     <sea_grid_numbers/>
+    </sea_grid_cell>
+   </sea_grid_row>
+   <sea_grid_connections>
+    <sea_grid_connection area1="124" area2="125" value="0.0"/>
+    <sea_grid_connection area1="124" area2="126" value="0.0"/>
+    <sea_grid_connection area1="125" area2="126" value="0.0"/>
+   </sea_grid_connections>
+  </theatre_sea_grid>
+ </sea_grids>
+</esf>

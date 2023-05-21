@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>malwa</s>
+ <asc>land</asc>
+ <v2 x="529.99945" y="143.67043"/>
+ <v2 x="586.63049" y="183.05466"/>
+ <ary type="areas">
+  <xml_include path="area-1/malwa-0000.xml"/>
+ </ary>
+ <i>3</i>
+ <rec type="settlement_and_slots">
+  <v2 x="538.85999" y="163.44743"/>
+  <v2_ary>
+   538.85999,165.1447
+   537.16272,163.44743
+   538.85999,161.75017
+   540.55725,163.44743
+  </v2_ary>
+  <ary type="slot_descriptions">
+   <xml_include path="slot/settlement-malwa-ujjain-settlement_minor.xml"/>
+   <xml_include path="slot/settlement-malwa-ujjain-settlement_fortification.xml"/>
+   <xml_include path="slot/settlement-malwa-ujjain-settlement_road.xml"/>
+   <xml_include path="slot/wheat-malwa-north.xml"/>
+   <xml_include path="slot/india_highlands-malwa-west.xml"/>
+   <xml_include path="slot/town-malwa-ellichpur.xml"/>
+   <xml_include path="slot/town-malwa-bhopal.xml"/>
+  </ary>
+  <rec type="roads">
+   <ary type="links"/>
+  </rec>
+  <rec type="railways">
+   <ary type="links"/>
+  </rec>
+  <rec type="canals">
+   <ary type="links"/>
+  </rec>
+ </rec>
+</rec>

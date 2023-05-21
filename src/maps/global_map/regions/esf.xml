@@ -1,0 +1,426 @@
+<?xml version="1.0"?>
+<esf magic="43982 0 1232648655">
+ <node_types>
+  <node_type name="root"/>
+  <node_type name="theatres_and_region_keys"/>
+  <node_type name="theatre"/>
+  <node_type name="region_keys"/>
+  <node_type name="theatres"/>
+  <node_type name="climate_map"/>
+  <node_type name="wind_map"/>
+  <node_type name="transition_areas"/>
+  <node_type name="transition_links"/>
+  <node_type name="black_shroud_outlines"/>
+  <node_type name="region_data"/>
+  <node_type name="vertices"/>
+  <node_type name="regions"/>
+  <node_type name="areas"/>
+  <node_type name="faces"/>
+  <node_type name="outlines"/>
+  <node_type name="connectivity"/>
+  <node_type name="settlement_and_slots"/>
+  <node_type name="slot_descriptions"/>
+  <node_type name="roads"/>
+  <node_type name="links"/>
+  <node_type name="railways"/>
+  <node_type name="canals"/>
+  <node_type name="mountain_data"/>
+  <node_type name="MOUNTAIN_OUTLINES"/>
+  <node_type name="OUTLINE_BLOCK"/>
+  <node_type name="BOUNDS_BLOCK"/>
+  <node_type name="climate_indices"/>
+  <node_type name="land_indices"/>
+  <node_type name="sea_indices"/>
+  <node_type name="query_info"/>
+  <node_type name="node"/>
+  <node_type name="bottom_left"/>
+  <node_type name="cell"/>
+  <node_type name="top_left"/>
+  <node_type name="bottom_right"/>
+  <node_type name="top_right"/>
+  <node_type name="groundtypes"/>
+  <node_type name="groundtype_indices_list"/>
+  <node_type name="groundtype_index"/>
+  <node_type name="map_heights"/>
+  <node_type name="MAP_HEIGHT_AREA"/>
+  <node_type name="trade_nodes"/>
+  <node_type name="bridges"/>
+ </node_types>
+ <rec type="root">
+  <ary type="theatres_and_region_keys">
+   <rec type="theatres_and_region_keys">
+    <rec type="theatre">
+     <s>-1133129049</s>
+     <v2 x="800.0" y="-80.0"/>
+     <v2 x="920.0" y="-5.0"/>
+     <yes/>
+     <region_keys/>
+    </rec>
+   </rec>
+   <rec type="theatres_and_region_keys">
+    <rec type="theatre">
+     <s>1</s>
+     <v2 x="-760.0" y="0.0"/>
+     <v2 x="-340.0" y="460.0"/>
+     <no/>
+     <region_keys>
+      french_guyana=-372.04596,32.76261520385742
+      dutch_guyana=-392.39136,40.37837219238281
+      trinidad_tobago=-435.07312,74.00154
+      new_andalusia=-475.28033,72.91182
+      new_grenada=-528.86932,34.00953674316406
+      new_spain=-704.34003,138.08897
+      cuba=-585.27667,162.3866
+      jamaica=-549.83911,129.04942
+      bahamas=-547.65039,175.58746
+      hispaniola=-497.7309,133.64278
+      curacao=-489.83218,86.61607
+      windward_islands=-434.25565,104.15384
+      leeward_islands=-440.15594,125.46099
+      new_france=-506.25916,335.20264
+      new_england=-506.92944,301.03497
+      huron_territory=-598.16614,330.66071
+      new_mexico=-752.56006,252.69901
+      northwest_territories=-656.03198,403.46802
+      ruperts_land=-571.23138,364.97586
+      labrador=-430.06854,393.18951
+      maryland=-545.60864,276.3183
+      georgia_usa=-577.52051,226.7142
+      maine=-500.76846,311.71851
+      newfoundland=-381.09808,336.63638
+      cherokee_territory=-603.35229,252.21465
+      kaintuck_territory=-598.57446,254.60876
+      michigan_territory=-593.06958,300.87531
+      algonquin_territory=-557.59106,305.65103
+      iroquois_territory=-543.073,305.29303
+      acadia=-473.90002,326.79999
+      tejas=-699.59998,208.64996
+      lower_louisiana=-635.85638,212.87781
+      florida=-579.75226,212.05008
+      new_york=-525.18445,302.84241
+      guatemala=-644.39606,103.20396423339844
+      panama=-565.63464,66.57263
+      great_plains=-732.28308,338.57028
+      pennsylvania=-535.88495,285.9653
+      carolinas=-569.8822,234.41495
+      virginia=-546.64398,265.37799
+      upper_louisiana=-635.14636,271.89453
+      ontario=-523.10681,325.39581
+     </region_keys>
+    </rec>
+   </rec>
+   <rec type="theatres_and_region_keys">
+    <rec type="theatre">
+     <s>2</s>
+     <v2 x="-180.0" y="140.0"/>
+     <v2 x="440.0" y="520.0"/>
+     <no/>
+     <region_keys>
+      england=0.7747949361801147,366.7189
+      france=16.522933959960938,347.06696
+      spain=-26.114822387695312,287.53711
+      portugal=-62.98783,276.98785
+      netherlands=35.91815,373.49066
+      flanders=30.432466506958008,359.42682
+      savoy=53.5999870300293,319.62384
+      alsace=55.1,345.15811
+      gibraltar=-38.6590461730957,258.96442
+      rhineland=49.38722,362.25934
+      hannover=69.2048,373.90622
+      saxony=96.05449,364.34894
+      ukraine=217.97995,359.19568
+      belarus=195.78101,381.879
+      lithuania=179.564,387.42899
+      austria=116.2016,342.8577
+      denmark=84.31595,394.62332
+      sweden=125.56495,421.70587
+      norway=75.24967,426.30554
+      prussia=145.02792,387.18436
+      poland=150.55869,370.26202
+      west_prussia=131.93739,385.647
+      silesia=120.33768463134766,363.03009
+      bohemia=102.67601,357.25296
+      greece=167.71237,272.32236
+      morea=155.6821,270.26147
+      corsica=66.12565612792969,302.35532
+      sardinia=65.74888610839844,280.84604
+      malta=101.70103,256.26965
+      serbia=149.71169,317.72388
+      rumelia=202.93631,293.80524
+      bulgaria=171.216,305.02502
+      galicia=170.56801,353.185
+      venice=87.41591,325.40564
+      muscovy=267.14899,395.00204
+      courland=169.25064,402.11041
+      ingria=210.56908,423.30478
+      komi=360.90399,436.905
+      georgia=318.866,294.43671
+      anatolia=233.422,282.45303
+      syria=260.93292,234.10825
+      palestine=249.24072,225.52777
+      egypt=221.67409,212.33606
+      tripoli=91.99881,230.81419
+      tunis=70.37781,261.40424
+      morocco=-39.61066436767578,251.13362
+      mesopotamia=314.19519,238.11679
+      iceland=-153.96573,457.54468
+      west_pommerania=94.76274,374.42502
+      naples=104.00122,291.81549
+      bavaria=83.4159,342.19
+      the_papal_states=89.34928,298.9798
+      don_voisko=293.534,335.6395
+      astrakhan=352.33801,330.97998
+      bashkira=397.48001,387.90399
+      arkhangelsk=284.85303,458.39099
+      karelia=243.61459,440.30164
+      algiers=21.554866790771484,258.36908
+      scotland=-19.84846305847168,395.89563
+      wurttemberg=63.78598403930664,346.48004
+      ireland=-45.58777618408203,379.30786
+      milan=65.34001,323.30002
+      hungary=122.53783,343.7196
+      crimea=241.564,322.26099
+      transylvania=172.75,333.13004
+      armenia=316.18497,284.60303
+      chechenya-dagestan=335.92099,306.811
+      azerbaijan=342.89996,270.99896
+      tatariya=350.91229,396.00232
+      bosnia=130.53,311.81003
+      croatia=113.62800598144531,326.53101
+      baluchistan=432.84003,209.73999
+      moldavia=196.19,335.38
+      genoa=64.004,317.78604
+      persia=365.59998,230.63501
+      estonia_and_livonia=174.96762,406.64667
+      finland=152.74582,429.72931
+     </region_keys>
+    </rec>
+   </rec>
+   <rec type="theatres_and_region_keys">
+    <rec type="theatre">
+     <s>3</s>
+     <v2 x="440.0" y="20.0"/>
+     <v2 x="680.0" y="280.0"/>
+     <no/>
+     <region_keys>
+      hyderabad=558.05103,123.491
+      ceylon=574.65521,60.026268005371094
+      mysore=543.80151,86.60486602783203
+      orissa=608.14197,144.14197
+      malwa=538.85999,163.44743
+      rajpootana=523.93994,174.48999
+      gujarat=516.12402,163.70001
+      punjab=528.56,224.56003
+      bengal=628.12402,158.88477
+      ahmadnagar=531.41302,135.67999
+      hindustan=554.89301,191.99002
+      afghanistan=491.83997,245.56796
+      carnatica=564.51141,91.733
+      malabar=527.44598,110.04899597167969
+      berar=561.99109,149.89999
+      kashmir=531.83997,242.40997
+      sindh=486.10999,180.47
+      bijapur=527.38202,125.23997497558594
+     </region_keys>
+    </rec>
+   </rec>
+   <rec type="theatres_and_region_keys">
+    <rec type="theatre">
+     <s>836795134</s>
+     <v2 x="265.0" y="-140.0"/>
+     <v2 x="350.0" y="-55.0"/>
+     <yes/>
+     <region_keys/>
+    </rec>
+   </rec>
+   <rec type="theatres_and_region_keys">
+    <rec type="theatre">
+     <s>1197997136</s>
+     <v2 x="-350.0" y="-230.0"/>
+     <v2 x="-250.0" y="-140.0"/>
+     <yes/>
+     <region_keys/>
+    </rec>
+   </rec>
+   <rec type="theatres_and_region_keys">
+    <rec type="theatre">
+     <s>2113354257</s>
+     <v2 x="-10.0" y="-40.0"/>
+     <v2 x="90.0" y="50.0"/>
+     <yes/>
+     <region_keys/>
+    </rec>
+   </rec>
+  </ary>
+  <ary type="theatres">
+   <xml_include path="theatre/-1133129049.xml"/>
+   <xml_include path="theatre/1.xml"/>
+   <xml_include path="theatre/2.xml"/>
+   <xml_include path="theatre/3.xml"/>
+   <xml_include path="theatre/836795134.xml"/>
+   <xml_include path="theatre/1197997136.xml"/>
+   <xml_include path="theatre/2113354257.xml"/>
+  </ary>
+  <ary type="black_shroud_outlines"/>
+  <xml_include path="region_data-0001.xml"/>
+  <xml_include path="mountains.xml"/>
+  <rec type="climate_indices">
+   <land_indices>
+    e3_america=34
+    e3_arid=35
+    e3_england=33
+    lc_am_desert=15
+    lc_am_great_plains=18
+    lc_am_jungle=20
+    lc_am_s_arid=21
+    lc_am_se_usa=16
+    lc_am_tropical_humid=13
+    lc_am_us_central=32
+    lc_am_us_east=17
+    lc_as_temp_humid=9
+    lc_as_temp_s_arid=10
+    lc_as_trop_humid=7
+    lc_as_trop_s_arid=5
+    lc_boreal=1
+    lc_desert=6
+    lc_eu_central_humid=14
+    lc_eu_north_humid=19
+    lc_eu_north_s_arid=12
+    lc_eu_south_humid=3
+    lc_eu_south_s_arid=2
+    lc_mediterranean=4
+    lc_sand_desert=11
+    lc_steppe=8
+    lc_tundra=0
+   </land_indices>
+   <sea_indices>
+    sc_arctic=22
+    sc_arctic_coast=27
+    sc_lake=31
+    sc_mediterranean=26
+    sc_subtropic=24
+    sc_subtropic_coast=29
+    sc_temperate=23
+    sc_temperate_coast=28
+    sc_tropic=25
+    sc_tropic_coast=30
+   </sea_indices>
+  </rec>
+  <xml_include path="query_info-0001.xml"/>
+  <rec type="groundtypes">
+   <xml_include path="region_data-0002.xml"/>
+   <xml_include path="query_info-0002.xml"/>
+   <rec type="groundtype_indices_list">
+    <groundtype_index>
+     grassland
+     desert
+     plains
+     hills
+     dense_forest
+     light_forest
+     hilly_light_forest
+     swamp
+    </groundtype_index>
+   </rec>
+  </rec>
+  <rec type="map_heights">
+   <ary type="MAP_HEIGHT_AREA"/>
+  </rec>
+  <rec type="trade_nodes">
+   <v2_ary>
+    -295.34222,-160.54036
+    -321.49164,-171.01558
+    -343.11969,-192.80194
+    -338.18924,-178.57771
+    -311.44406,-164.78065
+    27.343704223632812,44.48126220703125
+    40.062034606933594,29.754108428955078
+    58.65715789794922,30.35800552368164
+    67.31523,13.5535888671875
+    60.70974,-5.7075
+    287.91092,-113.58304
+    291.28735,-97.1175
+    345.53317,-93.60755
+    322.56964,-111.79444
+    290.02582,-81.67319
+    858.56403,-21.33165740966797
+    829.14587,-22.210248947143555
+    863.71509,-58.87555694580078
+    876.9231,-70.0838851928711
+    836.62842,-66.25358581542969
+   </v2_ary>
+  </rec>
+  <rec type="bridges">
+   <v3_ary>
+    -10.702068328857422,335.22455,-0.12060253322124481
+    -4.1504411697387695,295.06366,0.9724564552307129
+    33.1771,324.28058,1.08891761302948
+    33.97961,310.06171,-1.4400709867477417
+    36.225006103515625,326.07153,-2.7945618629455566
+    23.61771,344.58014,2.300097942352295
+    16.48981,353.39499,-2.7925267219543457
+    -3.586113214492798,365.435,-2.001741647720337
+    -7.475622653961182,366.7659,-1.8866643905639648
+    -24.34244728088379,284.84201,-0.011079730466008186
+    -33.49131774902344,269.80228,-0.3474716544151306
+    29.286346435546875,367.09668,2.7052605152130127
+    55.05320739746094,355.84439,-2.3517470359802246
+    67.34991,380.98682,-2.9357616901397705
+    78.04365,378.30542,-2.544046401977539
+    103.90266418457031,380.61868,-1.7453290224075317
+    103.52914428710938,373.8591,0.8094052076339722
+    83.73312,370.30338,1.6885838508605957
+    71.87147,344.23413,-0.6981313228607178
+    57.81157684326172,346.10101,-1.07923
+    67.1081,320.78616,-0.03861444443464279
+    -59.922874450683594,292.69516,-0.0532463937997818
+    102.11445617675781,342.90005,0.08726677298545837
+    86.09242,319.7666,-0.0069138361141085625
+    122.9199447631836,341.47534,0.0
+    135.79846,338.45016,1.5707968473434448
+    143.63943,355.76675,0.6215488910675049
+    134.58496,383.75189,1.6537002325057983
+    147.21709,321.49408,2.530728578567505
+    153.34679,317.51959,-2.530726432800293
+    168.35054,311.12149,-2.8085062503814697
+    235.61166,332.38113,2.8865227699279785
+    242.88492,346.88266,-2.704861879348755
+    172.86629,404.77872,-2.1379055976867676
+    285.77838,408.97937,-2.5818281173706055
+    350.19312,393.01318,-2.0943942070007324
+    317.14648,346.64426,-1.0972204208374023
+    309.11661,345.08026,-1.0619988441467285
+    292.00204,338.21191,0.0059923455119132996
+    271.83047,258.68454,-1.3296759128570557
+    308.02618,254.21393,-1.4338817596435547
+    310.29065,247.1911,-2.776543140411377
+    316.84482,237.41772,-1.4400173425674438
+    324.53983,231.36349,-0.08150368928909302
+    328.21887,220.85245,0.36096516251564026
+    231.54648,180.34445,1.1761572360992432
+    509.23462,231.69258,-1.079451560974121
+    564.61102,196.50684,-2.439892292022705
+    602.03943,182.69806,3.0291988849639893
+    562.53638,161.81157,2.530728578567505
+    555.42609,131.44501,2.9670608043670654
+    555.01813,114.60048,-2.4576668739318848
+    583.56604,119.41758,-2.4081788063049316
+    519.50916,154.0869,2.792527914047241
+    488.76355,175.70105,2.869271993637085
+    -521.49139,326.91705,-2.339556932449341
+    -519.88849,305.71628,-1.6580616235733032
+    -524.00812,298.33539,-0.5235977172851562
+    -525.20941,291.35577,-2.0071277618408203
+    -570.52869,288.9082,-2.530726432800293
+    -637.44287,269.16498,-2.719831705093384
+    -655.51581,250.04755,-3.1415915489196777
+    -651.00275,223.71623,2.421100616455078
+    -708.0072,197.14186,-2.530726194381714
+    -531.13696,38.0005,1.6580641269683838
+    -4.992408752441406,320.63275,0.7164632081985474
+    250.05383,401.60547,-0.6097496151924133
+    -43.93033,263.43329,-0.96997
+   </v3_ary>
+  </rec>
+ </rec>
+</esf>

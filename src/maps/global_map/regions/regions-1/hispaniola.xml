@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>hispaniola</s>
+ <asc>land</asc>
+ <v2 x="-529.39221" y="125.35467"/>
+ <v2 x="-465.7951" y="141.9924"/>
+ <ary type="areas">
+  <xml_include path="area-1/hispaniola-0000.xml"/>
+  <xml_include path="area-1/hispaniola-0001.xml"/>
+ </ary>
+ <i>1</i>
+ <rec type="settlement_and_slots">
+  <v2 x="-497.7309" y="133.64278"/>
+  <v2_ary>
+   -497.7309,135.34004
+   -499.42816,133.64278
+   -497.7309,131.94551
+   -496.03363,133.64278
+  </v2_ary>
+  <ary type="slot_descriptions">
+   <xml_include path="slot/settlement-hispaniola-santo_domingo-settlement_minor.xml"/>
+   <xml_include path="slot/settlement-hispaniola-santo_domingo-settlement_fortification.xml"/>
+   <xml_include path="slot/settlement-hispaniola-santo_domingo-settlement_road.xml"/>
+   <xml_include path="slot/caribbean-hispaniola-east.xml"/>
+   <xml_include path="slot/cuba-hispaniola-haiti.xml"/>
+   <xml_include path="slot/corn-hispaniola-west.xml"/>
+   <xml_include path="slot/caribbean-hispaniola-central.xml"/>
+   <xml_include path="slot/port-hispaniola-port-de-paix.xml"/>
+   <xml_include path="slot/port-hispaniola-leogane.xml"/>
+   <xml_include path="slot/town-hispaniola-santiago_de_los_caballeros.xml"/>
+   <xml_include path="slot/port-hispaniola-san_juan.xml"/>
+  </ary>
+  <rec type="roads">
+   <ary type="links"/>
+  </rec>
+  <rec type="railways">
+   <ary type="links"/>
+  </rec>
+  <rec type="canals">
+   <ary type="links"/>
+  </rec>
+ </rec>
+</rec>

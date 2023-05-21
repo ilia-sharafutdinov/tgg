@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>tejas</s>
+ <asc>land</asc>
+ <v2 x="-717.84241" y="183.86189"/>
+ <v2 x="-665.86243" y="228.37328"/>
+ <ary type="areas">
+  <xml_include path="area-1/tejas-0000.xml"/>
+  <xml_include path="area-1/tejas-0001.xml"/>
+ </ary>
+ <i>1</i>
+ <rec type="settlement_and_slots">
+  <v2 x="-699.59998" y="208.64996"/>
+  <v2_ary>
+   -699.59998,210.34723
+   -701.29724,208.64996
+   -699.59998,206.9527
+   -697.90271,208.64996
+  </v2_ary>
+  <ary type="slot_descriptions">
+   <xml_include path="slot/settlement-tejas-villa_de_bexar-settlement_minor.xml"/>
+   <xml_include path="slot/settlement-tejas-villa_de_bexar-settlement_fortification.xml"/>
+   <xml_include path="slot/settlement-tejas-villa_de_bexar-settlement_road.xml"/>
+   <xml_include path="slot/southern_usa-tejas-west.xml"/>
+   <xml_include path="slot/corn-tejas-south.xml"/>
+   <xml_include path="slot/town-tejas-laredo.xml"/>
+   <xml_include path="slot/port-tejas-corpus_christi.xml"/>
+  </ary>
+  <rec type="roads">
+   <ary type="links"/>
+  </rec>
+  <rec type="railways">
+   <ary type="links"/>
+  </rec>
+  <rec type="canals">
+   <ary type="links"/>
+  </rec>
+ </rec>
+</rec>

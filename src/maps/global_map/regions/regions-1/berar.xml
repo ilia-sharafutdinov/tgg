@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>berar</s>
+ <asc>land</asc>
+ <v2 x="556.80774" y="130.84593"/>
+ <v2 x="616.14954" y="167.95354"/>
+ <ary type="areas">
+  <xml_include path="area-1/berar-0000.xml"/>
+  <xml_include path="area-1/berar-0001.xml"/>
+  <xml_include path="area-1/berar-0002.xml"/>
+ </ary>
+ <i>3</i>
+ <rec type="settlement_and_slots">
+  <v2 x="561.99109" y="149.89999"/>
+  <v2_ary>
+   561.99109,151.59726
+   560.29382,149.89999
+   561.99109,148.20273
+   563.68835,149.89999
+  </v2_ary>
+  <ary type="slot_descriptions">
+   <xml_include path="slot/settlement-berar-nagpur-settlement_minor.xml"/>
+   <xml_include path="slot/settlement-berar-nagpur-settlement_fortification.xml"/>
+   <xml_include path="slot/settlement-berar-nagpur-settlement_road.xml"/>
+   <xml_include path="slot/iron-berar-east.xml"/>
+   <xml_include path="slot/rice-berar-raipur.xml"/>
+   <xml_include path="slot/india_highlands-berar-southwest.xml"/>
+   <xml_include path="slot/town-berar-raipur.xml"/>
+   <xml_include path="slot/town-berar-chanda.xml"/>
+  </ary>
+  <rec type="roads">
+   <ary type="links"/>
+  </rec>
+  <rec type="railways">
+   <ary type="links"/>
+  </rec>
+  <rec type="canals">
+   <ary type="links"/>
+  </rec>
+ </rec>
+</rec>

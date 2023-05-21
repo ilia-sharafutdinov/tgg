@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>morea</s>
+ <asc>land</asc>
+ <v2 x="144.75237" y="256.94604"/>
+ <v2 x="167.39377" y="273.52899"/>
+ <ary type="areas">
+  <xml_include path="area-1/morea-0000.xml"/>
+  <xml_include path="area-1/morea-0001.xml"/>
+  <xml_include path="area-1/morea-0002.xml"/>
+  <xml_include path="area-1/morea-0003.xml"/>
+ </ary>
+ <i>2</i>
+ <rec type="settlement_and_slots">
+  <v2 x="155.6821" y="270.26147"/>
+  <v2_ary>
+   155.6821,271.95874
+   153.98483,270.26147
+   155.6821,268.56421
+   157.37936,270.26147
+  </v2_ary>
+  <ary type="slot_descriptions">
+   <xml_include path="slot/settlement-morea-patras-settlement_minor.xml"/>
+   <xml_include path="slot/settlement-morea-patras-settlement_fortification.xml"/>
+   <xml_include path="slot/settlement-morea-patras-settlement_road.xml"/>
+   <xml_include path="slot/wine-morea-patras.xml"/>
+   <xml_include path="slot/sheep-morea-southeast.xml"/>
+   <xml_include path="slot/town-morea-corinth.xml"/>
+   <xml_include path="slot/port-morea-pylos.xml"/>
+  </ary>
+  <rec type="roads">
+   <ary type="links"/>
+  </rec>
+  <rec type="railways">
+   <ary type="links"/>
+  </rec>
+  <rec type="canals">
+   <ary type="links"/>
+  </rec>
+ </rec>
+</rec>

@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>dutch_guyana</s>
+ <asc>land</asc>
+ <v2 x="-432.97528" y="21.320907592773438"/>
+ <v2 x="-379.13409" y="54.21357727050781"/>
+ <ary type="areas">
+  <xml_include path="area-1/dutch_guyana-0000.xml"/>
+  <xml_include path="area-1/dutch_guyana-0001.xml"/>
+ </ary>
+ <i>1</i>
+ <rec type="settlement_and_slots">
+  <v2 x="-392.39136" y="40.37837219238281"/>
+  <v2_ary>
+   -392.39136,42.07564
+   -394.08862,40.37837219238281
+   -392.39136,38.68110275268555
+   -390.69409,40.37837219238281
+  </v2_ary>
+  <ary type="slot_descriptions">
+   <xml_include path="slot/settlement-dutch_guyana-paramaribo-settlement_minor.xml"/>
+   <xml_include path="slot/settlement-dutch_guyana-paramaribo-settlement_fortification.xml"/>
+   <xml_include path="slot/settlement-dutch_guyana-paramaribo-settlement_road.xml"/>
+   <xml_include path="slot/gems-dutch_guyana-west.xml"/>
+   <xml_include path="slot/gold-dutch_guyana-central.xml"/>
+   <xml_include path="slot/tropical_humid-dutch_guyana-coast.xml"/>
+   <xml_include path="slot/timber-dutch_guyana-east.xml"/>
+   <xml_include path="slot/port-dutch_guyana-demerara.xml"/>
+  </ary>
+  <rec type="roads">
+   <ary type="links"/>
+  </rec>
+  <rec type="railways">
+   <ary type="links"/>
+  </rec>
+  <rec type="canals">
+   <ary type="links"/>
+  </rec>
+ </rec>
+</rec>

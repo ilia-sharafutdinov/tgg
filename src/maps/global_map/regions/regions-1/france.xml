@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>france</s>
+ <asc>land</asc>
+ <v2 x="-33.71649" y="301.40421"/>
+ <v2 x="52.47638" y="362.89624"/>
+ <ary type="areas">
+  <xml_include path="area-1/france-0000.xml"/>
+  <xml_include path="area-1/france-0001.xml"/>
+  <xml_include path="area-1/france-0002.xml"/>
+  <xml_include path="area-1/france-0003.xml"/>
+  <xml_include path="area-1/france-0004.xml"/>
+  <xml_include path="area-1/france-0005.xml"/>
+  <xml_include path="area-1/france-0006.xml"/>
+  <xml_include path="area-1/france-0007.xml"/>
+  <xml_include path="area-1/france-0008.xml"/>
+  <xml_include path="area-1/france-0009.xml"/>
+  <xml_include path="area-1/france-0010.xml"/>
+  <xml_include path="area-1/france-0011.xml"/>
+ </ary>
+ <i>2</i>
+ <rec type="settlement_and_slots">
+  <v2 x="16.522933959960938" y="347.06696"/>
+  <v2_ary>
+   18.84714,346.0954
+   18.799243927001953,348.02292
+   17.52357292175293,349.29858
+   15.613771438598633,349.31644
+   14.319496154785156,348.02216
+   14.292547225952148,346.12979
+   15.630290985107422,344.79205
+   17.540512084960938,344.78876
+  </v2_ary>
+  <ary type="slot_descriptions">
+   <xml_include path="slot/settlement-france-paris-settlement_army-admin.xml"/>
+   <xml_include path="slot/settlement-france-paris-settlement_government.xml"/>
+   <xml_include path="slot/settlement-france-paris-settlement_culture.xml"/>
+   <xml_include path="slot/settlement-france-paris-settlement_navy-admin.xml"/>
+   <xml_include path="slot/settlement-france-paris-settlement_ordnance.xml"/>
+   <xml_include path="slot/settlement-france-paris-settlement_road.xml"/>
+   <xml_include path="slot/settlement-france-paris-settlement_fortification.xml"/>
+   <xml_include path="slot/wheat-france-loire.xml"/>
+   <xml_include path="slot/sheep-france-bretagne.xml"/>
+   <xml_include path="slot/wine-france-bordeaux.xml"/>
+   <xml_include path="slot/wine-france-loire_valley.xml"/>
+   <xml_include path="slot/iron-france-massifcentral.xml"/>
+   <xml_include path="slot/port-france-calais.xml"/>
+   <xml_include path="slot/town-france-lille.xml"/>
+   <xml_include path="slot/port-france-brest.xml"/>
+   <xml_include path="slot/town-france-nantes.xml"/>
+   <xml_include path="slot/town-france-orleans.xml"/>
+   <xml_include path="slot/town-france-clermont-ferrand.xml"/>
+   <xml_include path="slot/town-france-dijon.xml"/>
+   <xml_include path="slot/town-france-lyons.xml"/>
+   <xml_include path="slot/port-france-marseille.xml"/>
+   <xml_include path="slot/town-france-toulouse.xml"/>
+   <xml_include path="slot/town-france-bordeaux.xml"/>
+   <xml_include path="slot/port-france-le_havre.xml"/>
+  </ary>
+  <rec type="roads">
+   <ary type="links"/>
+  </rec>
+  <rec type="railways">
+   <ary type="links"/>
+  </rec>
+  <rec type="canals">
+   <ary type="links"/>
+  </rec>
+ </rec>
+</rec>

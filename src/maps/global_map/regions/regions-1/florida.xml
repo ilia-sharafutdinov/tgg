@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>florida</s>
+ <asc>land</asc>
+ <v2 x="-621.32623" y="174.42569"/>
+ <v2 x="-568.56366" y="228.93413"/>
+ <ary type="areas">
+  <xml_include path="area-1/florida-0000.xml"/>
+  <xml_include path="area-1/florida-0001.xml"/>
+  <xml_include path="area-1/florida-0002.xml"/>
+ </ary>
+ <i>1</i>
+ <rec type="settlement_and_slots">
+  <v2 x="-579.75226" y="212.05008"/>
+  <v2_ary>
+   -579.75226,213.74734
+   -581.44952,212.05008
+   -579.75226,210.35281
+   -578.05499,212.05008
+  </v2_ary>
+  <ary type="slot_descriptions">
+   <xml_include path="slot/settlement-florida-st_augustine-settlement_minor.xml"/>
+   <xml_include path="slot/settlement-florida-st_augustine-settlement_fortification.xml"/>
+   <xml_include path="slot/settlement-florida-st_augustine-settlement_road.xml"/>
+   <xml_include path="slot/southern_usa-florida-north.xml"/>
+   <xml_include path="slot/caribbean-florida-south.xml"/>
+   <xml_include path="slot/corn-florida-north.xml"/>
+   <xml_include path="slot/port-florida-pensacola.xml"/>
+   <xml_include path="slot/town-florida-st_marks.xml"/>
+   <xml_include path="slot/town-florida-tequesta_mission.xml"/>
+  </ary>
+  <rec type="roads">
+   <ary type="links"/>
+  </rec>
+  <rec type="railways">
+   <ary type="links"/>
+  </rec>
+  <rec type="canals">
+   <ary type="links"/>
+  </rec>
+ </rec>
+</rec>

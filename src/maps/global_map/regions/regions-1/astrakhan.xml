@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>astrakhan</s>
+ <asc>land</asc>
+ <v2 x="316.24423" y="320.00024"/>
+ <v2 x="368.73413" y="379.00519"/>
+ <ary type="areas">
+  <xml_include path="area-1/astrakhan-0000.xml"/>
+ </ary>
+ <i>2</i>
+ <rec type="settlement_and_slots">
+  <v2 x="352.33801" y="330.97998"/>
+  <v2_ary>
+   352.33801,332.67725
+   350.64075,330.97998
+   352.33801,329.28271
+   354.03528,330.97998
+  </v2_ary>
+  <ary type="slot_descriptions">
+   <xml_include path="slot/settlement-astrakhan-astrakhan-settlement_minor.xml"/>
+   <xml_include path="slot/settlement-astrakhan-astrakhan-settlement_fortification.xml"/>
+   <xml_include path="slot/settlement-astrakhan-astrakhan-settlement_road.xml"/>
+   <xml_include path="slot/wheat-astrakhan-volga.xml"/>
+   <xml_include path="slot/town-astrakhan-samara.xml"/>
+  </ary>
+  <rec type="roads">
+   <ary type="links"/>
+  </rec>
+  <rec type="railways">
+   <ary type="links"/>
+  </rec>
+  <rec type="canals">
+   <ary type="links"/>
+  </rec>
+ </rec>
+</rec>

@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>spain</s>
+ <asc>land</asc>
+ <v2 x="-65.72369384765625" y="257.99216"/>
+ <v2 x="30.80008" y="311.24539"/>
+ <ary type="areas">
+  <xml_include path="area-1/spain-0000.xml"/>
+  <xml_include path="area-1/spain-0001.xml"/>
+  <xml_include path="area-1/spain-0002.xml"/>
+  <xml_include path="area-1/spain-0003.xml"/>
+  <xml_include path="area-1/spain-0004.xml"/>
+  <xml_include path="area-1/spain-0005.xml"/>
+  <xml_include path="area-1/spain-0006.xml"/>
+  <xml_include path="area-1/spain-0007.xml"/>
+  <xml_include path="area-1/spain-0008.xml"/>
+  <xml_include path="area-1/spain-0009.xml"/>
+  <xml_include path="area-1/spain-0010.xml"/>
+  <xml_include path="area-1/spain-0011.xml"/>
+  <xml_include path="area-1/spain-0012.xml"/>
+  <xml_include path="area-1/spain-0013.xml"/>
+  <xml_include path="area-1/spain-0014.xml"/>
+  <xml_include path="area-1/spain-0015.xml"/>
+  <xml_include path="area-1/spain-0016.xml"/>
+  <xml_include path="area-1/spain-0017.xml"/>
+ </ary>
+ <i>2</i>
+ <rec type="settlement_and_slots">
+  <v2 x="-26.114822387695312" y="287.53711"/>
+  <v2_ary>
+   -23.790616989135742,286.56555
+   -23.838512420654297,288.49307
+   -25.11418342590332,289.76874
+   -27.023984909057617,289.78659
+   -28.31826,288.49231
+   -28.34521,286.59995
+   -27.007465362548828,285.26221
+   -25.097244262695312,285.25891
+  </v2_ary>
+  <ary type="slot_descriptions">
+   <xml_include path="slot/settlement-spain-madrid-settlement_army-admin.xml"/>
+   <xml_include path="slot/settlement-spain-madrid-settlement_government.xml"/>
+   <xml_include path="slot/settlement-spain-madrid-settlement_culture.xml"/>
+   <xml_include path="slot/settlement-spain-madrid-settlement_navy-admin.xml"/>
+   <xml_include path="slot/settlement-spain-madrid-settlement_ordnance.xml"/>
+   <xml_include path="slot/settlement-spain-madrid-settlement_road.xml"/>
+   <xml_include path="slot/settlement-spain-madrid-settlement_fortification.xml"/>
+   <xml_include path="slot/wheat-spain-ebro.xml"/>
+   <xml_include path="slot/wheat-spain-seville.xml"/>
+   <xml_include path="slot/iron-spain-cantabria.xml"/>
+   <xml_include path="slot/wine-spain-central.xml"/>
+   <xml_include path="slot/town-spain-barcelona.xml"/>
+   <xml_include path="slot/port-spain-bilbao.xml"/>
+   <xml_include path="slot/town-spain-salamanca.xml"/>
+   <xml_include path="slot/town-spain-granada.xml"/>
+   <xml_include path="slot/port-spain-cadiz.xml"/>
+   <xml_include path="slot/town-spain-cordoba.xml"/>
+   <xml_include path="slot/town-spain-sevilla.xml"/>
+   <xml_include path="slot/port-spain-cartagena.xml"/>
+   <xml_include path="slot/port-spain-palma_de_mallorca.xml"/>
+   <xml_include path="slot/town-spain-andorra.xml"/>
+  </ary>
+  <rec type="roads">
+   <ary type="links"/>
+  </rec>
+  <rec type="railways">
+   <ary type="links"/>
+  </rec>
+  <rec type="canals">
+   <ary type="links"/>
+  </rec>
+ </rec>
+</rec>

@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<rec type="areas">
+ <no/><!-- Land Bridge -->
+ <no/><!-- English Channel Coast -->
+ <no/><!-- Passable -->
+ <v2 x="211.34979" y="479.0209"/>
+ <v2 x="218.17529" y="482.91977"/>
+ <u2>65535</u2><!-- Adjoning Passable Areas ID -->
+ <ary type="outlines">
+  <rec type="outlines">
+   <yes/>
+   <v2 x="211.34979" y="479.0209"/>
+   <v2 x="218.17529" y="482.91977"/>
+   <u4_ary>
+    7371 <!-- 216.04309 479.0209-->
+    21691 <!-- 218.17529 479.99997-->
+    1326 <!-- 214.9996 482.64252-->
+    13819 <!-- 211.37802 482.91977-->
+    15418 <!-- 211.34979 482.81805-->
+    11856 <!-- 212.97682 481.06589-->
+    9185 <!-- 214.9996 479.99985-->
+   </u4_ary>
+   <ary type="connectivity">
+    <connectivity region="0 (grassland)" area="0" from="0" to="2"/>
+    <connectivity region="6 (hilly_light_forest)" area="85" from="3" to="6"/>
+   </ary>
+  </rec>
+ </ary>
+ <u2>65535</u2>
+ <u2>65535</u2><!-- Impassable Land Areas ID (65535=Passable) -->
+</rec>

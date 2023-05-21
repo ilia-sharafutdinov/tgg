@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>serbia</s>
+ <asc>land</asc>
+ <v2 x="133.69464" y="301.00467"/>
+ <v2 x="166.92697" y="333.94931"/>
+ <ary type="areas">
+  <xml_include path="area-1/serbia-0000.xml"/>
+  <xml_include path="area-1/serbia-0001.xml"/>
+  <xml_include path="area-1/serbia-0002.xml"/>
+  <xml_include path="area-1/serbia-0003.xml"/>
+ </ary>
+ <i>2</i>
+ <rec type="settlement_and_slots">
+  <v2 x="149.71169" y="317.72388"/>
+  <v2_ary>
+   149.71169,319.42114
+   148.01442,317.72388
+   149.71169,316.02661
+   151.40895,317.72388
+  </v2_ary>
+  <ary type="slot_descriptions">
+   <xml_include path="slot/settlement-serbia-belgrade-settlement_minor.xml"/>
+   <xml_include path="slot/settlement-serbia-belgrade-settlement_fortification.xml"/>
+   <xml_include path="slot/settlement-serbia-belgrade-settlement_road.xml"/>
+   <xml_include path="slot/sheep-serbia-central.xml"/>
+   <xml_include path="slot/silver-serbia-south.xml"/>
+   <xml_include path="slot/town-serbia-nis.xml"/>
+   <xml_include path="slot/town-serbia-timisoara.xml"/>
+  </ary>
+  <rec type="roads">
+   <ary type="links"/>
+  </rec>
+  <rec type="railways">
+   <ary type="links"/>
+  </rec>
+  <rec type="canals">
+   <ary type="links"/>
+  </rec>
+ </rec>
+</rec>

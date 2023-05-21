@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>venice</s>
+ <asc>land</asc>
+ <v2 x="73.27971" y="319.30194"/>
+ <v2 x="98.73414611816406" y="332.61063"/>
+ <ary type="areas">
+  <xml_include path="area-1/venice-0000.xml"/>
+  <xml_include path="area-1/venice-0001.xml"/>
+  <xml_include path="area-1/venice-0002.xml"/>
+ </ary>
+ <i>2</i>
+ <rec type="settlement_and_slots">
+  <v2 x="87.41591" y="325.40564"/>
+  <v2_ary>
+   89.74011,324.43408
+   89.69222,326.3616
+   88.41655,327.63727
+   86.50674438476562,327.65512
+   85.21247,326.36084
+   85.1855239868164,324.46848
+   86.52327,323.13074
+   88.43349,323.12744
+  </v2_ary>
+  <ary type="slot_descriptions">
+   <xml_include path="slot/settlement-venice-venice-settlement_army-admin.xml"/>
+   <xml_include path="slot/settlement-venice-venice-settlement_government.xml"/>
+   <xml_include path="slot/settlement-venice-venice-settlement_culture.xml"/>
+   <xml_include path="slot/settlement-venice-venice-settlement_navy-admin.xml"/>
+   <xml_include path="slot/settlement-venice-venice-settlement_ordnance.xml"/>
+   <xml_include path="slot/settlement-venice-venice-settlement_road.xml"/>
+   <xml_include path="slot/settlement-venice-venice-settlement_fortification.xml"/>
+   <xml_include path="slot/wine-venice-udine.xml"/>
+   <xml_include path="slot/town-venice-verona.xml"/>
+   <xml_include path="slot/town-venice-udine.xml"/>
+   <xml_include path="slot/port-venice-chioggia.xml"/>
+  </ary>
+  <rec type="roads">
+   <ary type="links"/>
+  </rec>
+  <rec type="railways">
+   <ary type="links"/>
+  </rec>
+  <rec type="canals">
+   <ary type="links"/>
+  </rec>
+ </rec>
+</rec>

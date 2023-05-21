@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>tatariya</s>
+ <asc>land</asc>
+ <v2 x="269.99997" y="326.86661"/>
+ <v2 x="359.99951" y="401.89526"/>
+ <ary type="areas">
+  <xml_include path="area-1/tatariya-0000.xml"/>
+  <xml_include path="area-1/tatariya-0001.xml"/>
+ </ary>
+ <i>2</i>
+ <rec type="settlement_and_slots">
+  <v2 x="350.91229" y="396.00232"/>
+  <v2_ary>
+   350.91229,397.69958
+   349.21503,396.00232
+   350.91229,394.30505
+   352.60956,396.00232
+  </v2_ary>
+  <ary type="slot_descriptions">
+   <xml_include path="slot/settlement-tatariya-kazan-settlement_minor.xml"/>
+   <xml_include path="slot/settlement-tatariya-kazan-settlement_fortification.xml"/>
+   <xml_include path="slot/settlement-tatariya-kazan-settlement_road.xml"/>
+   <xml_include path="slot/fur-tatariya-kazan.xml"/>
+   <xml_include path="slot/wheat-tatariya-pensa.xml"/>
+   <xml_include path="slot/iron-tatariya-donezk.xml"/>
+   <xml_include path="slot/sheep-tatariya-rasskasovo.xml"/>
+   <xml_include path="slot/town-tatariya-voronezh.xml"/>
+   <xml_include path="slot/town-tatariya-tsaritsyn.xml"/>
+   <xml_include path="slot/town-tatariya-saratov.xml"/>
+   <xml_include path="slot/town-tatariya-azov.xml"/>
+  </ary>
+  <rec type="roads">
+   <ary type="links"/>
+  </rec>
+  <rec type="railways">
+   <ary type="links"/>
+  </rec>
+  <rec type="canals">
+   <ary type="links"/>
+  </rec>
+ </rec>
+</rec>

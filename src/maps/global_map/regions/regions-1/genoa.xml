@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>genoa</s>
+ <asc>land</asc>
+ <v2 x="54.229366302490234" y="308.40631"/>
+ <v2 x="77.48093" y="320.29367"/>
+ <ary type="areas">
+  <xml_include path="area-1/genoa-0000.xml"/>
+ </ary>
+ <i>2</i>
+ <rec type="settlement_and_slots">
+  <v2 x="64.004" y="317.78604"/>
+  <v2_ary>
+   64.004,319.48331
+   62.30673,317.78604
+   64.004,316.08878
+   65.70126,317.78604
+  </v2_ary>
+  <ary type="slot_descriptions">
+   <xml_include path="slot/settlement-genoa-genoa-settlement_minor.xml"/>
+   <xml_include path="slot/settlement-genoa-genoa-settlement_fortification.xml"/>
+   <xml_include path="slot/settlement-genoa-genoa-settlement_road.xml"/>
+   <xml_include path="slot/wine-genoa-la_spezia.xml"/>
+   <xml_include path="slot/town-genoa-la_spezia.xml"/>
+   <xml_include path="slot/port-genoa-imperia.xml"/>
+  </ary>
+  <rec type="roads">
+   <ary type="links"/>
+  </rec>
+  <rec type="railways">
+   <ary type="links"/>
+  </rec>
+  <rec type="canals">
+   <ary type="links"/>
+  </rec>
+ </rec>
+</rec>

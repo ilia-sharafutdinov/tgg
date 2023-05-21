@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>bijapur</s>
+ <asc>land</asc>
+ <v2 x="519.10767" y="107.92872"/>
+ <v2 x="552.33069" y="130.54237"/>
+ <ary type="areas">
+  <xml_include path="area-1/bijapur-0000.xml"/>
+ </ary>
+ <i>3</i>
+ <rec type="settlement_and_slots">
+  <v2 x="527.38202" y="125.23997497558594"/>
+  <v2_ary>
+   529.70624,124.26842
+   529.65833,126.1959457397461
+   528.38263,127.47162
+   526.47284,127.48945
+   525.17859,126.19517517089844
+   525.15161,124.30282592773438
+   526.48938,122.96508
+   528.3996,122.96179
+  </v2_ary>
+  <ary type="slot_descriptions">
+   <xml_include path="slot/settlement-bijapur-satara-settlement_army-admin.xml"/>
+   <xml_include path="slot/settlement-bijapur-satara-settlement_government.xml"/>
+   <xml_include path="slot/settlement-bijapur-satara-settlement_culture.xml"/>
+   <xml_include path="slot/settlement-bijapur-satara-settlement_navy-admin.xml"/>
+   <xml_include path="slot/settlement-bijapur-satara-settlement_ordnance.xml"/>
+   <xml_include path="slot/settlement-bijapur-satara-settlement_road.xml"/>
+   <xml_include path="slot/settlement-bijapur-satara-settlement_fortification.xml"/>
+   <xml_include path="slot/rice-bijapur-coastnorth.xml"/>
+   <xml_include path="slot/india_highlands-bijapur-east.xml"/>
+   <xml_include path="slot/town-bijapur-kolhapur.xml"/>
+   <xml_include path="slot/town-bijapur-bijapur.xml"/>
+   <xml_include path="slot/port-bijapur-vengurla.xml"/>
+  </ary>
+  <rec type="roads">
+   <ary type="links"/>
+  </rec>
+  <rec type="railways">
+   <ary type="links"/>
+  </rec>
+  <rec type="canals">
+   <ary type="links"/>
+  </rec>
+ </rec>
+</rec>

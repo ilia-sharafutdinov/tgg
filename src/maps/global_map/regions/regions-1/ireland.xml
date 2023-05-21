@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>ireland</s>
+ <asc>land</asc>
+ <v2 x="-74.36529541015625" y="365.88403"/>
+ <v2 x="-38.64988708496094" y="393.83203"/>
+ <ary type="areas">
+  <xml_include path="area-1/ireland-0000.xml"/>
+ </ary>
+ <i>2</i>
+ <rec type="settlement_and_slots">
+  <v2 x="-45.58777618408203" y="379.30786"/>
+  <v2_ary>
+   -45.58777618408203,381.00513
+   -47.2850456237793,379.30786
+   -45.58777618408203,377.6106
+   -43.890506744384766,379.30786
+  </v2_ary>
+  <ary type="slot_descriptions">
+   <xml_include path="slot/settlement-ireland-dublin-settlement_minor.xml"/>
+   <xml_include path="slot/settlement-ireland-dublin-settlement_fortification.xml"/>
+   <xml_include path="slot/settlement-ireland-dublin-settlement_road.xml"/>
+   <xml_include path="slot/sheep-ireland-dublin.xml"/>
+   <xml_include path="slot/town-ireland-galway.xml"/>
+   <xml_include path="slot/port-ireland-belfast.xml"/>
+   <xml_include path="slot/port-ireland-waterford.xml"/>
+   <xml_include path="slot/town-ireland-cork.xml"/>
+  </ary>
+  <rec type="roads">
+   <ary type="links"/>
+  </rec>
+  <rec type="railways">
+   <ary type="links"/>
+  </rec>
+  <rec type="canals">
+   <ary type="links"/>
+  </rec>
+ </rec>
+</rec>

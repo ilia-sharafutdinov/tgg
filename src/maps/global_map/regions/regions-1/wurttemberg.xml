@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>wurttemberg</s>
+ <asc>land</asc>
+ <v2 x="54.03375244140625" y="337.75208"/>
+ <v2 x="71.27177429199219" y="353.21341"/>
+ <ary type="areas">
+  <xml_include path="area-1/wurttemberg-0000.xml"/>
+  <xml_include path="area-1/wurttemberg-0001.xml"/>
+ </ary>
+ <i>2</i>
+ <rec type="settlement_and_slots">
+  <v2 x="63.78598403930664" y="346.48004"/>
+  <v2_ary>
+   63.78598403930664,348.17731
+   62.088714599609375,346.48004
+   63.78598403930664,344.78278
+   65.48325,346.48004
+  </v2_ary>
+  <ary type="slot_descriptions">
+   <xml_include path="slot/settlement-wurttemberg-stuttgart-settlement_minor.xml"/>
+   <xml_include path="slot/settlement-wurttemberg-stuttgart-settlement_fortification.xml"/>
+   <xml_include path="slot/settlement-wurttemberg-stuttgart-settlement_road.xml"/>
+   <xml_include path="slot/wine-wurttemberg-freiburg.xml"/>
+   <xml_include path="slot/town-wurttemberg-heidelberg.xml"/>
+   <xml_include path="slot/town-wurttemberg-ulm.xml"/>
+  </ary>
+  <rec type="roads">
+   <ary type="links"/>
+  </rec>
+  <rec type="railways">
+   <ary type="links"/>
+  </rec>
+  <rec type="canals">
+   <ary type="links"/>
+  </rec>
+ </rec>
+</rec>

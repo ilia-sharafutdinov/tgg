@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>acadia</s>
+ <asc>land</asc>
+ <v2 x="-487.42877" y="308.93246"/>
+ <v2 x="-425.33759" y="341.60977"/>
+ <ary type="areas">
+  <xml_include path="area-1/acadia-0000.xml"/>
+  <xml_include path="area-1/acadia-0001.xml"/>
+  <xml_include path="area-1/acadia-0002.xml"/>
+  <xml_include path="area-1/acadia-0003.xml"/>
+ </ary>
+ <i>1</i>
+ <rec type="settlement_and_slots">
+  <v2 x="-473.90002" y="326.79999"/>
+  <v2_ary>
+   -473.90002,328.49725
+   -475.59729,326.79999
+   -473.90002,325.10272
+   -472.20276,326.79999
+  </v2_ary>
+  <ary type="slot_descriptions">
+   <xml_include path="slot/settlement-acadia-fort_nashwaak-settlement_minor.xml"/>
+   <xml_include path="slot/settlement-acadia-fort_nashwaak-settlement_fortification.xml"/>
+   <xml_include path="slot/settlement-acadia-fort_nashwaak-settlement_road.xml"/>
+   <xml_include path="slot/silver-acadia-central.xml"/>
+   <xml_include path="slot/corn-acadia-nova_scotia.xml"/>
+   <xml_include path="slot/port-acadia-cap_fourchu.xml"/>
+   <xml_include path="slot/town-acadia-bathurst.xml"/>
+   <xml_include path="slot/port-acadia-louisbourg.xml"/>
+  </ary>
+  <rec type="roads">
+   <ary type="links"/>
+  </rec>
+  <rec type="railways">
+   <ary type="links"/>
+  </rec>
+  <rec type="canals">
+   <ary type="links"/>
+  </rec>
+ </rec>
+</rec>

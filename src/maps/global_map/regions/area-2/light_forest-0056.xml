@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<rec type="areas">
+ <no/><!-- Land Bridge -->
+ <no/><!-- English Channel Coast -->
+ <no/><!-- Passable -->
+ <v2 x="-550.68927" y="186.28944"/>
+ <v2 x="-547.79572" y="190.0002"/>
+ <u2>65535</u2><!-- Adjoning Passable Areas ID -->
+ <ary type="outlines">
+  <rec type="outlines">
+   <yes/>
+   <v2 x="-550.68927" y="186.28944"/>
+   <v2 x="-547.79572" y="190.0002"/>
+   <u4_ary>
+    38341 <!-- -549.38593 189.9998-->
+    37926 <!-- -549.64362 189.83696-->
+    39829 <!-- -550.00024 189.7794-->
+    39543 <!-- -550.23169 189.74207-->
+    39517 <!-- -550.68927 190.0002-->
+    40945 <!-- -550.66486 189.00166-->
+    42451 <!-- -550.00061 188.64479-->
+    45290 <!-- -549.22992 188.19385-->
+    48333 <!-- -549.12738 186.7244-->
+    46537 <!-- -548.74573 186.28944-->
+    48893 <!-- -547.99042 186.60448-->
+    49702 <!-- -547.79907 186.89355-->
+    41396 <!-- -547.86462 187.26334-->
+    42657 <!-- -547.91724 187.56039-->
+    41059 <!-- -547.85229 187.9386-->
+    44957 <!-- -547.79572 188.26807-->
+    44203 <!-- -548.34296 189.00302-->
+   </u4_ary>
+   <ary type="connectivity">
+    <connectivity region="7 (swamp)" area="13" from="0" to="3"/>
+    <connectivity region="0 (grassland)" area="0" from="4" to="7"/>
+    <connectivity region="7 (swamp)" area="14" from="8" to="8"/>
+    <connectivity region="0 (grassland)" area="0" from="9" to="10"/>
+    <connectivity region="7 (swamp)" area="16" from="11" to="14"/>
+    <connectivity region="0 (grassland)" area="0" from="15" to="16"/>
+   </ary>
+  </rec>
+ </ary>
+ <u2>65535</u2>
+ <u2>65535</u2><!-- Impassable Land Areas ID (65535=Passable) -->
+</rec>

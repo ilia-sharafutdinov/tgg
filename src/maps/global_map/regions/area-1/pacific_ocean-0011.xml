@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<rec type="areas">
+ <no/><!-- Land Bridge -->
+ <no/><!-- English Channel Coast -->
+ <no/><!-- Passable -->
+ <v2 x="921.04102" y="-24.81636"/>
+ <v2 x="924.98981" y="-23.51027"/>
+ <u2>154</u2><!-- Adjoning Passable Areas ID -->
+ <rec type="faces">
+  <u4_ary>
+   53110 <!-- 921.04102 -24.491167068481445-->
+   2510 <!-- 921.29846 -23.80864-->
+   8485 <!-- 922.07422 -23.51027-->
+   53110 <!-- 921.04102 -24.491167068481445-->
+   8485 <!-- 922.07422 -23.51027-->
+   38320 <!-- 924.98981 -24.81636-->
+   8485 <!-- 922.07422 -23.51027-->
+   3252 <!-- 924.27539 -23.743637084960938-->
+   38320 <!-- 924.98981 -24.81636-->
+  </u4_ary>
+ </rec>
+ <ary type="outlines">
+  <rec type="outlines">
+   <yes/>
+   <v2 x="921.04102" y="-24.81636"/>
+   <v2 x="924.98981" y="-23.51027"/>
+   <u4_ary>
+    38320 <!-- 924.98981 -24.81636-->
+    3252 <!-- 924.27539 -23.743637084960938-->
+    8485 <!-- 922.07422 -23.51027-->
+    2510 <!-- 921.29846 -23.80864-->
+    53110 <!-- 921.04102 -24.491167068481445-->
+   </u4_ary>
+   <ary type="connectivity">
+    <connectivity region="3 (unexplorable)" area="53" from="0" to="2"/>
+    <connectivity region="3 (unexplorable)" area="24" from="3" to="3"/>
+    <connectivity region="5 (pacific_ocean)" area="6" from="4" to="4"/>
+   </ary>
+  </rec>
+ </ary>
+ <u2>286</u2><!-- Impassable Land Areas ID (65535=Passable) -->
+ <u2>104</u2><!-- Island ID (65535=Navigable, 104=ETW Mainland) -->
+</rec>

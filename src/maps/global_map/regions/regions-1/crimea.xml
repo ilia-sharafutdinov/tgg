@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>crimea</s>
+ <asc>land</asc>
+ <v2 x="206.81836" y="315.64502"/>
+ <v2 x="283.54074" y="351.41418"/>
+ <ary type="areas">
+  <xml_include path="area-1/crimea-0000.xml"/>
+ </ary>
+ <i>2</i>
+ <rec type="settlement_and_slots">
+  <v2 x="241.564" y="322.26099"/>
+  <v2_ary>
+   241.564,323.95825
+   239.86673,322.26099
+   241.564,320.56372
+   243.26126,322.26099
+  </v2_ary>
+  <ary type="slot_descriptions">
+   <xml_include path="slot/settlement-crimea-bakhchisaray-settlement_minor.xml"/>
+   <xml_include path="slot/settlement-crimea-bakhchisaray-settlement_fortification.xml"/>
+   <xml_include path="slot/settlement-crimea-bakhchisaray-settlement_road.xml"/>
+   <xml_include path="slot/wheat-crimea-bratslav.xml"/>
+   <xml_include path="slot/iron-crimea-rog.xml"/>
+   <xml_include path="slot/wheat-crimea-volga_mouth.xml"/>
+   <xml_include path="slot/town-crimea-czerkasy.xml"/>
+   <xml_include path="slot/port-crimea-odessa.xml"/>
+   <xml_include path="slot/town-crimea-kerch.xml"/>
+   <xml_include path="slot/port-crimea-sevastopol.xml"/>
+  </ary>
+  <rec type="roads">
+   <ary type="links"/>
+  </rec>
+  <rec type="railways">
+   <ary type="links"/>
+  </rec>
+  <rec type="canals">
+   <ary type="links"/>
+  </rec>
+ </rec>
+</rec>

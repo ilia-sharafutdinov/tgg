@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<esf magic="43982 0 1243518333">
+ <node_types>
+  <node_type name="root"/>
+  <node_type name="pathfinding_areas"/>
+  <node_type name="vertices"/>
+  <node_type name="grid_data"/>
+  <node_type name="grid_cells"/>
+  <node_type name="boundaries"/>
+ </node_types>
+ <rec type="root">
+  <ary type="pathfinding_areas">
+   <xml_include path="pathfinding_areas-0001.xml"/>
+   <xml_include path="pathfinding_areas-0002.xml"/>
+   <xml_include path="pathfinding_areas-0003.xml"/>
+   <xml_include path="pathfinding_areas-0004.xml"/>
+   <xml_include path="pathfinding_areas-0005.xml"/>
+   <xml_include path="pathfinding_areas-0006.xml"/>
+   <xml_include path="pathfinding_areas-0007.xml"/>
+  </ary>
+ </rec>
+</esf>

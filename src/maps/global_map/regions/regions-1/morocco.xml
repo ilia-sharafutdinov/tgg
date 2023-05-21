@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>morocco</s>
+ <asc>land</asc>
+ <v2 x="-112.8932" y="169.05379"/>
+ <v2 x="-12.158882141113281" y="254.71277"/>
+ <ary type="areas">
+  <xml_include path="area-1/morocco-0000.xml"/>
+  <xml_include path="area-1/morocco-0001.xml"/>
+  <xml_include path="area-1/morocco-0002.xml"/>
+  <xml_include path="area-1/morocco-0003.xml"/>
+  <xml_include path="area-1/morocco-0004.xml"/>
+  <xml_include path="area-1/morocco-0005.xml"/>
+  <xml_include path="area-1/morocco-0006.xml"/>
+  <xml_include path="area-1/morocco-0007.xml"/>
+  <xml_include path="area-1/morocco-0008.xml"/>
+  <xml_include path="area-1/morocco-0009.xml"/>
+ </ary>
+ <i>2</i>
+ <rec type="settlement_and_slots">
+  <v2 x="-39.61066436767578" y="251.13362"/>
+  <v2_ary>
+   -41.6158447265625,251.11855
+   -41.0085,249.65228
+   -39.54224,249.04494
+   -38.07598,249.65228
+   -37.46863555908203,251.11855
+   -38.07598,252.58481
+   -39.54224,253.19215
+   -41.0085,252.58481
+  </v2_ary>
+  <ary type="slot_descriptions">
+   <xml_include path="slot/settlement-morocco-tangier-settlement_army-admin.xml"/>
+   <xml_include path="slot/settlement-morocco-tangier-settlement_ordnance.xml"/>
+   <xml_include path="slot/settlement-morocco-tangier-settlement_government.xml"/>
+   <xml_include path="slot/settlement-morocco-tangier-settlement_culture.xml"/>
+   <xml_include path="slot/settlement-morocco-tangier-settlement_road.xml"/>
+   <xml_include path="slot/settlement-morocco-tangier-settlement_fortification.xml"/>
+   <xml_include path="slot/wheat-morocco-guercif.xml"/>
+   <xml_include path="slot/sheep-morocco-meknes.xml"/>
+   <xml_include path="slot/iron-morocco-imini.xml"/>
+   <xml_include path="slot/port-morocco-casabranca.xml"/>
+   <xml_include path="slot/town-morocco-fes.xml"/>
+   <xml_include path="slot/town-morocco-marrakech.xml"/>
+   <xml_include path="slot/port-morocco-agadir.xml"/>
+  </ary>
+  <rec type="roads">
+   <ary type="links"/>
+  </rec>
+  <rec type="railways">
+   <ary type="links"/>
+  </rec>
+  <rec type="canals">
+   <ary type="links"/>
+  </rec>
+ </rec>
+</rec>

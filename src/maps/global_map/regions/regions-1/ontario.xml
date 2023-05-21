@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>ontario</s>
+ <asc>land</asc>
+ <v2 x="-589.25427" y="298.48822"/>
+ <v2 x="-520.41003" y="337.81027"/>
+ <ary type="areas">
+  <xml_include path="area-1/ontario-0000.xml"/>
+  <xml_include path="area-1/ontario-0001.xml"/>
+ </ary>
+ <i>1</i>
+ <rec type="settlement_and_slots">
+  <v2 x="-523.10681" y="325.39581"/>
+  <v2_ary>
+   -523.10681,327.09308
+   -524.80408,325.39581
+   -523.10681,323.69855
+   -521.40955,325.39581
+  </v2_ary>
+  <ary type="slot_descriptions">
+   <xml_include path="slot/settlement-ontario-montreal-settlement_minor.xml"/>
+   <xml_include path="slot/settlement-ontario-montreal-settlement_fortification.xml"/>
+   <xml_include path="slot/settlement-ontario-montreal-settlement_road.xml"/>
+   <xml_include path="slot/fur-ontario-ottawa_r.xml"/>
+   <xml_include path="slot/corn-ontario-south.xml"/>
+   <xml_include path="slot/town-ontario-tkaronto.xml"/>
+   <xml_include path="slot/town-ontario-sault_sainte-marie.xml"/>
+   <xml_include path="slot/town-ontario-fort_frontenac.xml"/>
+  </ary>
+  <rec type="roads">
+   <ary type="links"/>
+  </rec>
+  <rec type="railways">
+   <ary type="links"/>
+  </rec>
+  <rec type="canals">
+   <ary type="links"/>
+  </rec>
+ </rec>
+</rec>

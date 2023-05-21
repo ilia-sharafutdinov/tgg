@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>prussia</s>
+ <asc>land</asc>
+ <v2 x="136.18636" y="377.59296"/>
+ <v2 x="162.06244" y="397.87985"/>
+ <ary type="areas">
+  <xml_include path="area-1/prussia-0000.xml"/>
+ </ary>
+ <i>2</i>
+ <rec type="settlement_and_slots">
+  <v2 x="145.02792" y="387.18436"/>
+  <v2_ary>
+   147.35213,386.2128
+   147.30423,388.14032
+   146.02856,389.41599
+   144.11876,389.43384
+   142.82448,388.13956
+   142.79753,386.24719
+   144.13528,384.90945
+   146.0455,384.90616
+  </v2_ary>
+  <ary type="slot_descriptions">
+   <xml_include path="slot/settlement-prussia-konigsberg-settlement_army-admin.xml"/>
+   <xml_include path="slot/settlement-prussia-konigsberg-settlement_government.xml"/>
+   <xml_include path="slot/settlement-prussia-konigsberg-settlement_culture.xml"/>
+   <xml_include path="slot/settlement-prussia-konigsberg-settlement_navy-admin.xml"/>
+   <xml_include path="slot/settlement-prussia-konigsberg-settlement_ordnance.xml"/>
+   <xml_include path="slot/settlement-prussia-konigsberg-settlement_road.xml"/>
+   <xml_include path="slot/settlement-prussia-konigsberg-settlement_fortification.xml"/>
+   <xml_include path="slot/wheat-prussia-southwest.xml"/>
+   <xml_include path="slot/port-prussia-memel.xml"/>
+   <xml_include path="slot/town-prussia-tilsit.xml"/>
+   <xml_include path="slot/town-prussia-tannenberg.xml"/>
+  </ary>
+  <rec type="roads">
+   <ary type="links"/>
+  </rec>
+  <rec type="railways">
+   <ary type="links"/>
+  </rec>
+  <rec type="canals">
+   <ary type="links"/>
+  </rec>
+ </rec>
+</rec>

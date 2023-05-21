@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<rec type="areas">
+ <no/><!-- Land Bridge -->
+ <no/><!-- English Channel Coast -->
+ <no/><!-- Passable -->
+ <v2 x="276.85678" y="-49.80766296386719"/>
+ <v2 x="279.99997" y="-39.99989318847656"/>
+ <u2>237</u2><!-- Adjoning Passable Areas ID -->
+ <rec type="faces">
+  <u4_ary>
+   42895 <!-- 276.85678 -44.05229-->
+   12843 <!-- 277.10229 -39.99989318847656-->
+   5419 <!-- 277.80521 -47.12758-->
+   12843 <!-- 277.10229 -39.99989318847656-->
+   8292 <!-- 279.99997 -39.99989318847656-->
+   5419 <!-- 277.80521 -47.12758-->
+   8292 <!-- 279.99997 -39.99989318847656-->
+   49095 <!-- 279.28354 -49.80766296386719-->
+   5419 <!-- 277.80521 -47.12758-->
+  </u4_ary>
+ </rec>
+ <ary type="outlines">
+  <rec type="outlines">
+   <yes/>
+   <v2 x="276.85678" y="-49.80766296386719"/>
+   <v2 x="279.99997" y="-39.99989318847656"/>
+   <u4_ary>
+    12843 <!-- 277.10229 -39.99989318847656-->
+    42895 <!-- 276.85678 -44.05229-->
+    5419 <!-- 277.80521 -47.12758-->
+    49095 <!-- 279.28354 -49.80766296386719-->
+    8292 <!-- 279.99997 -39.99989318847656-->
+   </u4_ary>
+   <ary type="connectivity">
+    <connectivity region="11 (east_africa)" area="1" from="0" to="1"/>
+    <connectivity region="11 (east_africa)" area="0" from="2" to="2"/>
+    <connectivity region="29 (straits_of_mozambique)" area="0" from="3" to="3"/>
+    <connectivity region="1 (indian_ocean)" area="2" from="4" to="4"/>
+   </ary>
+  </rec>
+ </ary>
+ <u2>286</u2><!-- Impassable Land Areas ID (65535=Passable) -->
+ <u2>104</u2><!-- Island ID (65535=Navigable, 104=ETW Mainland) -->
+</rec>

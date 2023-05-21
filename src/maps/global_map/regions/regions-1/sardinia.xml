@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>sardinia</s>
+ <asc>land</asc>
+ <v2 x="57.99381637573242" y="276.24414"/>
+ <v2 x="69.82116" y="293.2739"/>
+ <ary type="areas">
+  <xml_include path="area-1/sardinia-0000.xml"/>
+  <xml_include path="area-1/sardinia-0001.xml"/>
+  <xml_include path="area-1/sardinia-0002.xml"/>
+ </ary>
+ <i>2</i>
+ <rec type="settlement_and_slots">
+  <v2 x="65.74888610839844" y="280.84604"/>
+  <v2_ary>
+   65.74888610839844,282.5433
+   64.05162,280.84604
+   65.74888610839844,279.14877
+   67.44615,280.84604
+  </v2_ary>
+  <ary type="slot_descriptions">
+   <xml_include path="slot/settlement-sardinia-caligari-settlement_minor.xml"/>
+   <xml_include path="slot/settlement-sardinia-caligari-settlement_fortification.xml"/>
+   <xml_include path="slot/settlement-sardinia-caligari-settlement_road.xml"/>
+   <xml_include path="slot/wine-sardinia-east.xml"/>
+   <xml_include path="slot/silver-sardinia-iglesias.xml"/>
+   <xml_include path="slot/port-sardinia-alghero.xml"/>
+  </ary>
+  <rec type="roads">
+   <ary type="links"/>
+  </rec>
+  <rec type="railways">
+   <ary type="links"/>
+  </rec>
+  <rec type="canals">
+   <ary type="links"/>
+  </rec>
+ </rec>
+</rec>

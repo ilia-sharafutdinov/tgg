@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>great_plains</s>
+ <asc>land</asc>
+ <v2 x="-736.99109" y="298.17862"/>
+ <v2 x="-684.11444" y="383.16086"/>
+ <ary type="areas">
+  <xml_include path="area-1/great_plains-0000.xml"/>
+ </ary>
+ <i>1</i>
+ <rec type="settlement_and_slots">
+  <v2 x="-732.28308" y="338.57028"/>
+  <v2_ary>
+   -732.28308,340.26755
+   -733.98035,338.57028
+   -732.28308,336.87302
+   -730.58582,338.57028
+  </v2_ary>
+  <ary type="slot_descriptions">
+   <xml_include path="slot/settlement-great_plains-knife_river_village-settlement_minor.xml"/>
+   <xml_include path="slot/settlement-great_plains-knife_river_village-settlement_fortification.xml"/>
+   <xml_include path="slot/settlement-great_plains-knife_river_village-settlement_road.xml"/>
+   <xml_include path="slot/fur-great_plains-lake_manitoba.xml"/>
+   <xml_include path="slot/corn-great_plains-central.xml"/>
+   <xml_include path="slot/town-great_plains-quivira.xml"/>
+  </ary>
+  <rec type="roads">
+   <ary type="links"/>
+  </rec>
+  <rec type="railways">
+   <ary type="links"/>
+  </rec>
+  <rec type="canals">
+   <ary type="links"/>
+  </rec>
+ </rec>
+</rec>

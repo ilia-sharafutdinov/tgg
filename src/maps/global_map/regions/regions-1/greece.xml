@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>greece</s>
+ <asc>land</asc>
+ <v2 x="137.55119" y="248.13861"/>
+ <v2 x="186.98633" y="295.89142"/>
+ <ary type="areas">
+  <xml_include path="area-1/greece-0000.xml"/>
+  <xml_include path="area-1/greece-0001.xml"/>
+  <xml_include path="area-1/greece-0002.xml"/>
+  <xml_include path="area-1/greece-0003.xml"/>
+  <xml_include path="area-1/greece-0004.xml"/>
+  <xml_include path="area-1/greece-0005.xml"/>
+  <xml_include path="area-1/greece-0006.xml"/>
+  <xml_include path="area-1/greece-0007.xml"/>
+  <xml_include path="area-1/greece-0008.xml"/>
+  <xml_include path="area-1/greece-0009.xml"/>
+  <xml_include path="area-1/greece-0010.xml"/>
+  <xml_include path="area-1/greece-0011.xml"/>
+  <xml_include path="area-1/greece-0012.xml"/>
+  <xml_include path="area-1/greece-0013.xml"/>
+ </ary>
+ <i>2</i>
+ <rec type="settlement_and_slots">
+  <v2 x="167.71237" y="272.32236"/>
+  <v2_ary>
+   165.7072,272.30728
+   166.31454,270.84103
+   167.78079,270.23367
+   169.24706,270.84103
+   169.8544,272.30728
+   169.24706,273.77353
+   167.78079,274.38089
+   166.31454,273.77353
+  </v2_ary>
+  <ary type="slot_descriptions">
+   <xml_include path="slot/settlement-greece-athens-settlement_army-admin.xml"/>
+   <xml_include path="slot/settlement-greece-athens-settlement_ordnance.xml"/>
+   <xml_include path="slot/settlement-greece-athens-settlement_government.xml"/>
+   <xml_include path="slot/settlement-greece-athens-settlement_culture.xml"/>
+   <xml_include path="slot/settlement-greece-athens-settlement_road.xml"/>
+   <xml_include path="slot/settlement-greece-athens-settlement_fortification.xml"/>
+   <xml_include path="slot/sheep-greece-west.xml"/>
+   <xml_include path="slot/wine-greece-athens.xml"/>
+   <xml_include path="slot/wine-greece-central.xml"/>
+   <xml_include path="slot/town-greece-larissa.xml"/>
+   <xml_include path="slot/town-greece-ioannia.xml"/>
+   <xml_include path="slot/port-greece-heraklion.xml"/>
+   <xml_include path="slot/port-greece-piraeus.xml"/>
+  </ary>
+  <rec type="roads">
+   <ary type="links"/>
+  </rec>
+  <rec type="railways">
+   <ary type="links"/>
+  </rec>
+  <rec type="canals">
+   <ary type="links"/>
+  </rec>
+ </rec>
+</rec>

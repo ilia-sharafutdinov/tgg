@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>punjab</s>
+ <asc>land</asc>
+ <v2 x="484.99982" y="192.00684"/>
+ <v2 x="543.90375" y="243.62346"/>
+ <ary type="areas">
+  <xml_include path="area-1/punjab-0000.xml"/>
+ </ary>
+ <i>3</i>
+ <rec type="settlement_and_slots">
+  <v2 x="528.56" y="224.56003"/>
+  <v2_ary>
+   526.55481,224.54495
+   527.16217,223.07869
+   528.62842,222.47134
+   530.09467,223.07869
+   530.70203,224.54495
+   530.09467,226.01122
+   528.62842,226.61856
+   527.16217,226.01122
+  </v2_ary>
+  <ary type="slot_descriptions">
+   <xml_include path="slot/settlement-punjab-lahore-settlement_army-admin.xml"/>
+   <xml_include path="slot/settlement-punjab-lahore-settlement_ordnance.xml"/>
+   <xml_include path="slot/settlement-punjab-lahore-settlement_government.xml"/>
+   <xml_include path="slot/settlement-punjab-lahore-settlement_culture.xml"/>
+   <xml_include path="slot/settlement-punjab-lahore-settlement_road.xml"/>
+   <xml_include path="slot/settlement-punjab-lahore-settlement_fortification.xml"/>
+   <xml_include path="slot/iron-punjab-west.xml"/>
+   <xml_include path="slot/rice-punjab-central2.xml"/>
+   <xml_include path="slot/gold-punjab-central.xml"/>
+   <xml_include path="slot/wheat-punjab-south.xml"/>
+   <xml_include path="slot/town-punjab-khanpur.xml"/>
+   <xml_include path="slot/town-punjab-kasur.xml"/>
+   <xml_include path="slot/town-punjab-rawalpindi.xml"/>
+   <xml_include path="slot/town-punjab-multan.xml"/>
+  </ary>
+  <rec type="roads">
+   <ary type="links"/>
+  </rec>
+  <rec type="railways">
+   <ary type="links"/>
+  </rec>
+  <rec type="canals">
+   <ary type="links"/>
+  </rec>
+ </rec>
+</rec>

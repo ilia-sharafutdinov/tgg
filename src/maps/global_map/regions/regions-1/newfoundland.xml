@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>newfoundland</s>
+ <asc>land</asc>
+ <v2 x="-422.47668" y="331.35959"/>
+ <v2 x="-374.05365" y="367.16211"/>
+ <ary type="areas">
+  <xml_include path="area-1/newfoundland-0000.xml"/>
+ </ary>
+ <i>1</i>
+ <rec type="settlement_and_slots">
+  <v2 x="-381.09808" y="336.63638"/>
+  <v2_ary>
+   -381.09808,338.33365
+   -382.79535,336.63638
+   -381.09808,334.93912
+   -379.40082,336.63638
+  </v2_ary>
+  <ary type="slot_descriptions">
+   <xml_include path="slot/settlement-newfoundland-plaissance-settlement_minor.xml"/>
+   <xml_include path="slot/settlement-newfoundland-plaissance-settlement_fortification.xml"/>
+   <xml_include path="slot/settlement-newfoundland-plaissance-settlement_road.xml"/>
+   <xml_include path="slot/fur-newfoundland-central.xml"/>
+   <xml_include path="slot/timber-newfoundland-north.xml"/>
+   <xml_include path="slot/wheat-newfoundland-coastsouth.xml"/>
+   <xml_include path="slot/port-newfoundland-st_johns.xml"/>
+   <xml_include path="slot/town-newfoundland-bonavista.xml"/>
+  </ary>
+  <rec type="roads">
+   <ary type="links"/>
+  </rec>
+  <rec type="railways">
+   <ary type="links"/>
+  </rec>
+  <rec type="canals">
+   <ary type="links"/>
+  </rec>
+ </rec>
+</rec>

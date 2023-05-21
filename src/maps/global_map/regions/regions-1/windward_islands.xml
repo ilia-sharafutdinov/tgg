@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>windward_islands</s>
+ <asc>land</asc>
+ <v2 x="-436.88818" y="92.63611602783203"/>
+ <v2 x="-421.73779" y="106.67345428466797"/>
+ <ary type="areas">
+  <xml_include path="area-1/windward_islands-0000.xml"/>
+  <xml_include path="area-1/windward_islands-0001.xml"/>
+  <xml_include path="area-1/windward_islands-0002.xml"/>
+  <xml_include path="area-1/windward_islands-0003.xml"/>
+ </ary>
+ <i>1</i>
+ <rec type="settlement_and_slots">
+  <v2 x="-434.25565" y="104.15384"/>
+  <v2_ary>
+   -434.25565,105.85110473632812
+   -435.95291,104.15384
+   -434.25565,102.45657
+   -432.55838,104.15384
+  </v2_ary>
+  <ary type="slot_descriptions">
+   <xml_include path="slot/settlement-windward_islands-martinique-settlement_minor.xml"/>
+   <xml_include path="slot/settlement-windward_islands-martinique-settlement_fortification.xml"/>
+   <xml_include path="slot/settlement-windward_islands-martinique-settlement_road.xml"/>
+   <xml_include path="slot/caribbean-windward_islands-st_vincent.xml"/>
+   <xml_include path="slot/port-windward_islands-barbados.xml"/>
+  </ary>
+  <rec type="roads">
+   <ary type="links"/>
+  </rec>
+  <rec type="railways">
+   <ary type="links"/>
+  </rec>
+  <rec type="canals">
+   <ary type="links"/>
+  </rec>
+ </rec>
+</rec>

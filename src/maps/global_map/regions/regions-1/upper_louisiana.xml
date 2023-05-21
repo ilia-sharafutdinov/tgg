@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>upper_louisiana</s>
+ <asc>land</asc>
+ <v2 x="-663.31995" y="240.94444"/>
+ <v2 x="-601.84167" y="299.99988"/>
+ <ary type="areas">
+  <xml_include path="area-1/upper_louisiana-0000.xml"/>
+ </ary>
+ <i>1</i>
+ <rec type="settlement_and_slots">
+  <v2 x="-635.14636" y="271.89453"/>
+  <v2_ary>
+   -635.14636,273.5918
+   -636.84363,271.89453
+   -635.14636,270.19727
+   -633.4491,271.89453
+  </v2_ary>
+  <ary type="slot_descriptions">
+   <xml_include path="slot/settlement-upper_louisiana-fort_chartres-settlement_minor.xml"/>
+   <xml_include path="slot/settlement-upper_louisiana-fort_chartres-settlement_fortification.xml"/>
+   <xml_include path="slot/settlement-upper_louisiana-fort_chartres-settlement_road.xml"/>
+   <xml_include path="slot/corn-upper_louisiana-south.xml"/>
+   <xml_include path="slot/southern_usa-upper_louisiana-ohio.xml"/>
+   <xml_include path="slot/town-upper_louisiana-fort_crevecoeur.xml"/>
+   <xml_include path="slot/town-upper_louisiana-shikaakwa.xml"/>
+  </ary>
+  <rec type="roads">
+   <ary type="links"/>
+  </rec>
+  <rec type="railways">
+   <ary type="links"/>
+  </rec>
+  <rec type="canals">
+   <ary type="links"/>
+  </rec>
+ </rec>
+</rec>

@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>guatemala</s>
+ <asc>land</asc>
+ <v2 x="-653.96716" y="76.69673"/>
+ <v2 x="-590.64996" y="115.35466"/>
+ <ary type="areas">
+  <xml_include path="area-1/guatemala-0000.xml"/>
+  <xml_include path="area-1/guatemala-0001.xml"/>
+  <xml_include path="area-1/guatemala-0002.xml"/>
+  <xml_include path="area-1/guatemala-0003.xml"/>
+  <xml_include path="area-1/guatemala-0004.xml"/>
+ </ary>
+ <i>1</i>
+ <rec type="settlement_and_slots">
+  <v2 x="-644.39606" y="103.20396423339844"/>
+  <v2_ary>
+   -644.39606,104.90123
+   -646.09332,103.20396423339844
+   -644.39606,101.5067
+   -642.69879,103.20396423339844
+  </v2_ary>
+  <ary type="slot_descriptions">
+   <xml_include path="slot/settlement-guatemala-antigua_guatemala-settlement_minor.xml"/>
+   <xml_include path="slot/settlement-guatemala-antigua_guatemala-settlement_fortification.xml"/>
+   <xml_include path="slot/settlement-guatemala-antigua_guatemala-settlement_road.xml"/>
+   <xml_include path="slot/caribbean-guatemala-honduras.xml"/>
+   <xml_include path="slot/silver-guatemala-central.xml"/>
+   <xml_include path="slot/corn-guatemala-west.xml"/>
+   <xml_include path="slot/town-guatemala-gran_granada.xml"/>
+   <xml_include path="slot/town-guatemala-comayagua.xml"/>
+   <xml_include path="slot/port-guatemala-puerto_barrios.xml"/>
+  </ary>
+  <rec type="roads">
+   <ary type="links"/>
+  </rec>
+  <rec type="railways">
+   <ary type="links"/>
+  </rec>
+  <rec type="canals">
+   <ary type="links"/>
+  </rec>
+ </rec>
+</rec>

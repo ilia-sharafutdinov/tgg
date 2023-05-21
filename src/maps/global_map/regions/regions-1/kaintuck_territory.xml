@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>kaintuck_territory</s>
+ <asc>land</asc>
+ <v2 x="-610.40747" y="248.99979"/>
+ <v2 x="-563.41278" y="284.00455"/>
+ <ary type="areas">
+  <xml_include path="area-1/kaintuck_territory-0000.xml"/>
+  <xml_include path="area-1/kaintuck_territory-0001.xml"/>
+  <xml_include path="area-1/kaintuck_territory-0002.xml"/>
+  <xml_include path="area-1/kaintuck_territory-0003.xml"/>
+  <xml_include path="area-1/kaintuck_territory-0004.xml"/>
+  <xml_include path="area-1/kaintuck_territory-0005.xml"/>
+  <xml_include path="area-1/kaintuck_territory-0006.xml"/>
+  <xml_include path="area-1/kaintuck_territory-0007.xml"/>
+  <xml_include path="area-1/kaintuck_territory-0008.xml"/>
+  <xml_include path="area-1/kaintuck_territory-0009.xml"/>
+  <xml_include path="area-1/kaintuck_territory-0010.xml"/>
+ </ary>
+ <i>1</i>
+ <rec type="settlement_and_slots">
+  <v2 x="-598.57446" y="254.60876"/>
+  <v2_ary>
+   -598.57446,256.30603
+   -600.27173,254.60876
+   -598.57446,252.9115
+   -596.8772,254.60876
+  </v2_ary>
+  <ary type="slot_descriptions">
+   <xml_include path="slot/settlement-kaintuck_territory-tanase-settlement_minor.xml"/>
+   <xml_include path="slot/settlement-kaintuck_territory-tanase-settlement_fortification.xml"/>
+   <xml_include path="slot/settlement-kaintuck_territory-tanase-settlement_road.xml"/>
+   <xml_include path="slot/southern_usa-kaintuck_territory-central.xml"/>
+   <xml_include path="slot/corn-kaintuck_territory-north.xml"/>
+   <xml_include path="slot/town-kaintuck_territory-sycamore_shoals.xml"/>
+   <xml_include path="slot/town-kaintuck_territory-lexington.xml"/>
+  </ary>
+  <rec type="roads">
+   <ary type="links"/>
+  </rec>
+  <rec type="railways">
+   <ary type="links"/>
+  </rec>
+  <rec type="canals">
+   <ary type="links"/>
+  </rec>
+ </rec>
+</rec>

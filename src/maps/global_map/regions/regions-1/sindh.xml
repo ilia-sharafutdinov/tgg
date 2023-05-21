@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>sindh</s>
+ <asc>land</asc>
+ <v2 x="471.27014" y="164.99994"/>
+ <v2 x="507.92215" y="203.92068"/>
+ <ary type="areas">
+  <xml_include path="area-1/sindh-0000.xml"/>
+ </ary>
+ <i>3</i>
+ <rec type="settlement_and_slots">
+  <v2 x="486.10999" y="180.47"/>
+  <v2_ary>
+   486.10999,182.16727
+   484.41272,180.47
+   486.10999,178.77274
+   487.80725,180.47
+  </v2_ary>
+  <ary type="slot_descriptions">
+   <xml_include path="slot/settlement-sindh-neroon_kot-settlement_minor.xml"/>
+   <xml_include path="slot/settlement-sindh-neroon_kot-settlement_fortification.xml"/>
+   <xml_include path="slot/settlement-sindh-neroon_kot-settlement_road.xml"/>
+   <xml_include path="slot/rice-sindh-south.xml"/>
+   <xml_include path="slot/wheat-sindh-central.xml"/>
+   <xml_include path="slot/town-sindh-larkana.xml"/>
+   <xml_include path="slot/town-sindh-umarkot.xml"/>
+   <xml_include path="slot/port-sindh-kolachi.xml"/>
+  </ary>
+  <rec type="roads">
+   <ary type="links"/>
+  </rec>
+  <rec type="railways">
+   <ary type="links"/>
+  </rec>
+  <rec type="canals">
+   <ary type="links"/>
+  </rec>
+ </rec>
+</rec>

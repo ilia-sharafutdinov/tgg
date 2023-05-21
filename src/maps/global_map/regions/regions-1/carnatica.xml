@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>carnatica</s>
+ <asc>land</asc>
+ <v2 x="532.47168" y="57.4507"/>
+ <v2 x="571.3092" y="109.01241"/>
+ <ary type="areas">
+  <xml_include path="area-1/carnatica-0000.xml"/>
+  <xml_include path="area-1/carnatica-0001.xml"/>
+  <xml_include path="area-1/carnatica-0002.xml"/>
+  <xml_include path="area-1/carnatica-0003.xml"/>
+ </ary>
+ <i>3</i>
+ <rec type="settlement_and_slots">
+  <v2 x="564.51141" y="91.733"/>
+  <v2_ary>
+   564.51141,93.43027
+   562.81415,91.733
+   564.51141,90.03573608398438
+   566.20868,91.733
+  </v2_ary>
+  <ary type="slot_descriptions">
+   <xml_include path="slot/settlement-carnatica-arcot-settlement_minor.xml"/>
+   <xml_include path="slot/settlement-carnatica-arcot-settlement_fortification.xml"/>
+   <xml_include path="slot/settlement-carnatica-arcot-settlement_road.xml"/>
+   <xml_include path="slot/rice-carnatica-coastnorth.xml"/>
+   <xml_include path="slot/india_highlands-carnatica-south.xml"/>
+   <xml_include path="slot/gems-carnatica-south.xml"/>
+   <xml_include path="slot/tropical_humid-carnatica-south.xml"/>
+   <xml_include path="slot/town-carnatica-trichinopoly.xml"/>
+   <xml_include path="slot/town-carnatica-cochin.xml"/>
+   <xml_include path="slot/port-carnatica-madras.xml"/>
+   <xml_include path="slot/port-carnatica-pondicherry.xml"/>
+   <xml_include path="slot/port-carnatica-calicut.xml"/>
+  </ary>
+  <rec type="roads">
+   <ary type="links"/>
+  </rec>
+  <rec type="railways">
+   <ary type="links"/>
+  </rec>
+  <rec type="canals">
+   <ary type="links"/>
+  </rec>
+ </rec>
+</rec>

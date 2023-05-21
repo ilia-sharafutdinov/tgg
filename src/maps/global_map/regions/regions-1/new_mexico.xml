@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>new_mexico</s>
+ <asc>land</asc>
+ <v2 x="-760.0838" y="196.73482"/>
+ <v2 x="-742.01233" y="256.27475"/>
+ <ary type="areas">
+  <xml_include path="area-1/new_mexico-0000.xml"/>
+  <xml_include path="area-1/new_mexico-0001.xml"/>
+  <xml_include path="area-1/new_mexico-0002.xml"/>
+  <xml_include path="area-1/new_mexico-0003.xml"/>
+ </ary>
+ <i>1</i>
+ <rec type="settlement_and_slots">
+  <v2 x="-752.56006" y="252.69901"/>
+  <v2_ary>
+   -752.56006,254.39627
+   -754.25732,252.69901
+   -752.56006,251.00174
+   -750.86279,252.69901
+  </v2_ary>
+  <ary type="slot_descriptions">
+   <xml_include path="slot/settlement-new_mexico-santa_fe-settlement_minor.xml"/>
+   <xml_include path="slot/settlement-new_mexico-santa_fe-settlement_fortification.xml"/>
+   <xml_include path="slot/settlement-new_mexico-santa_fe-settlement_road.xml"/>
+   <xml_include path="slot/southern_usa-new_mexico-south.xml"/>
+   <xml_include path="slot/town-new_mexico-el_paso.xml"/>
+  </ary>
+  <rec type="roads">
+   <ary type="links"/>
+  </rec>
+  <rec type="railways">
+   <ary type="links"/>
+  </rec>
+  <rec type="canals">
+   <ary type="links"/>
+  </rec>
+ </rec>
+</rec>

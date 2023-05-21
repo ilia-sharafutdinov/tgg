@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>carolinas</s>
+ <asc>land</asc>
+ <v2 x="-590.00079" y="226.51685"/>
+ <v2 x="-536.0957" y="260.00012"/>
+ <ary type="areas">
+  <xml_include path="area-1/carolinas-0000.xml"/>
+  <xml_include path="area-1/carolinas-0001.xml"/>
+  <xml_include path="area-1/carolinas-0002.xml"/>
+  <xml_include path="area-1/carolinas-0003.xml"/>
+ </ary>
+ <i>1</i>
+ <rec type="settlement_and_slots">
+  <v2 x="-569.8822" y="234.41495"/>
+  <v2_ary>
+   -569.8822,236.11221
+   -571.57947,234.41495
+   -569.8822,232.71768
+   -568.18494,234.41495
+  </v2_ary>
+  <ary type="slot_descriptions">
+   <xml_include path="slot/settlement-carolinas-charleston-settlement_minor.xml"/>
+   <xml_include path="slot/settlement-carolinas-charleston-settlement_fortification.xml"/>
+   <xml_include path="slot/settlement-carolinas-charleston-settlement_road.xml"/>
+   <xml_include path="slot/southern_usa-carolinas-coast.xml"/>
+   <xml_include path="slot/corn-carolinas-coast.xml"/>
+   <xml_include path="slot/corn-carolinas-east.xml"/>
+   <xml_include path="slot/port-carolinas-georgetown.xml"/>
+   <xml_include path="slot/town-carolinas-charlotte.xml"/>
+   <xml_include path="slot/town-carolinas-raleigh.xml"/>
+  </ary>
+  <rec type="roads">
+   <ary type="links"/>
+  </rec>
+  <rec type="railways">
+   <ary type="links"/>
+  </rec>
+  <rec type="canals">
+   <ary type="links"/>
+  </rec>
+ </rec>
+</rec>

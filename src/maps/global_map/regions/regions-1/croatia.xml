@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>croatia</s>
+ <asc>land</asc>
+ <v2 x="102.80782" y="308.48682"/>
+ <v2 x="134.6454" y="335.3147"/>
+ <ary type="areas">
+  <xml_include path="area-1/croatia-0000.xml"/>
+  <xml_include path="area-1/croatia-0001.xml"/>
+ </ary>
+ <i>2</i>
+ <rec type="settlement_and_slots">
+  <v2 x="113.62800598144531" y="326.53101"/>
+  <v2_ary>
+   113.62800598144531,328.22827
+   111.93074,326.53101
+   113.62800598144531,324.83374
+   115.32527,326.53101
+  </v2_ary>
+  <ary type="slot_descriptions">
+   <xml_include path="slot/settlement-croatia-zagreb-settlement_minor.xml"/>
+   <xml_include path="slot/settlement-croatia-zagreb-settlement_fortification.xml"/>
+   <xml_include path="slot/settlement-croatia-zagreb-settlement_road.xml"/>
+   <xml_include path="slot/sheep-croatia-zagreb.xml"/>
+   <xml_include path="slot/wine-croatia-west.xml"/>
+   <xml_include path="slot/port-croatia-rijeka.xml"/>
+   <xml_include path="slot/town-croatia-osijek.xml"/>
+   <xml_include path="slot/port-croatia-zadar.xml"/>
+   <xml_include path="slot/town-croatia-split.xml"/>
+  </ary>
+  <rec type="roads">
+   <ary type="links"/>
+  </rec>
+  <rec type="railways">
+   <ary type="links"/>
+  </rec>
+  <rec type="canals">
+   <ary type="links"/>
+  </rec>
+ </rec>
+</rec>

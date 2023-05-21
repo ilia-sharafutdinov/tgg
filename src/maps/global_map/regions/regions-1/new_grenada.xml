@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>new_grenada</s>
+ <asc>land</asc>
+ <v2 x="-569.75604" y="4.57763671875e-05"/>
+ <v2 x="-501.65576" y="88.60487"/>
+ <ary type="areas">
+  <xml_include path="area-1/new_grenada-0000.xml"/>
+  <xml_include path="area-1/new_grenada-0001.xml"/>
+  <xml_include path="area-1/new_grenada-0002.xml"/>
+  <xml_include path="area-1/new_grenada-0003.xml"/>
+  <xml_include path="area-1/new_grenada-0004.xml"/>
+  <xml_include path="area-1/new_grenada-0005.xml"/>
+  <xml_include path="area-1/new_grenada-0006.xml"/>
+  <xml_include path="area-1/new_grenada-0007.xml"/>
+ </ary>
+ <i>1</i>
+ <rec type="settlement_and_slots">
+  <v2 x="-528.86932" y="34.00953674316406"/>
+  <v2_ary>
+   -528.86932,35.70680618286133
+   -530.56659,34.00953674316406
+   -528.86932,32.3122673034668
+   -527.17206,34.00953674316406
+  </v2_ary>
+  <ary type="slot_descriptions">
+   <xml_include path="slot/settlement-new_grenada-bogota-settlement_minor.xml"/>
+   <xml_include path="slot/settlement-new_grenada-bogota-settlement_fortification.xml"/>
+   <xml_include path="slot/settlement-new_grenada-bogota-settlement_road.xml"/>
+   <xml_include path="slot/gold-new_grenada-medellin.xml"/>
+   <xml_include path="slot/silver-new_grenada-medellin.xml"/>
+   <xml_include path="slot/gold-new_grenada-south.xml"/>
+   <xml_include path="slot/corn-new_grenada-tunja.xml"/>
+   <xml_include path="slot/port-new_grenada-rio_de_la_hacha.xml"/>
+   <xml_include path="slot/town-new_grenada-maracaibo.xml"/>
+   <xml_include path="slot/port-new_grenada-cartagena.xml"/>
+   <xml_include path="slot/town-new_grenada-medellin.xml"/>
+   <xml_include path="slot/town-new_grenada-santiago_de_cali.xml"/>
+  </ary>
+  <rec type="roads">
+   <ary type="links"/>
+  </rec>
+  <rec type="railways">
+   <ary type="links"/>
+  </rec>
+  <rec type="canals">
+   <ary type="links"/>
+  </rec>
+ </rec>
+</rec>

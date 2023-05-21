@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>bulgaria</s>
+ <asc>land</asc>
+ <v2 x="156.73036" y="299.07544"/>
+ <v2 x="211.78215" y="326.48187"/>
+ <ary type="areas">
+  <xml_include path="area-1/bulgaria-0000.xml"/>
+  <xml_include path="area-1/bulgaria-0001.xml"/>
+  <xml_include path="area-1/bulgaria-0002.xml"/>
+  <xml_include path="area-1/bulgaria-0003.xml"/>
+ </ary>
+ <i>2</i>
+ <rec type="settlement_and_slots">
+  <v2 x="171.216" y="305.02502"/>
+  <v2_ary>
+   171.216,306.72229
+   169.51874,305.02502
+   171.216,303.32776
+   172.91327,305.02502
+  </v2_ary>
+  <ary type="slot_descriptions">
+   <xml_include path="slot/settlement-bulgaria-sofia-settlement_minor.xml"/>
+   <xml_include path="slot/settlement-bulgaria-sofia-settlement_fortification.xml"/>
+   <xml_include path="slot/settlement-bulgaria-sofia-settlement_road.xml"/>
+   <xml_include path="slot/wheat-bulgaria-sofia.xml"/>
+   <xml_include path="slot/iron-bulgaria-southwest.xml"/>
+   <xml_include path="slot/sheep-bulgaria-central.xml"/>
+   <xml_include path="slot/port-bulgaria-burgas.xml"/>
+   <xml_include path="slot/port-bulgaria-varna.xml"/>
+   <xml_include path="slot/town-bulgaria-craiova.xml"/>
+   <xml_include path="slot/town-bulgaria-bucharest.xml"/>
+  </ary>
+  <rec type="roads">
+   <ary type="links"/>
+  </rec>
+  <rec type="railways">
+   <ary type="links"/>
+  </rec>
+  <rec type="canals">
+   <ary type="links"/>
+  </rec>
+ </rec>
+</rec>

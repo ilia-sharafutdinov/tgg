@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>gibraltar</s>
+ <asc>land</asc>
+ <v2 x="-43.186012268066406" y="256.42551"/>
+ <v2 x="-36.346492767333984" y="260.39651"/>
+ <ary type="areas">
+  <xml_include path="area-1/gibraltar-0000.xml"/>
+ </ary>
+ <i>2</i>
+ <rec type="settlement_and_slots">
+  <v2 x="-38.6590461730957" y="258.96442"/>
+  <v2_ary>
+   -38.6590461730957,260.66168
+   -40.35631561279297,258.96442
+   -38.6590461730957,257.26715
+   -36.96177673339844,258.96442
+  </v2_ary>
+  <ary type="slot_descriptions">
+   <xml_include path="slot/settlement-gibraltar-gibraltar-settlement_minor.xml"/>
+   <xml_include path="slot/settlement-gibraltar-gibraltar-settlement_fortification.xml"/>
+   <xml_include path="slot/settlement-gibraltar-gibraltar-settlement_road.xml"/>
+   <xml_include path="slot/port-gibraltar-sandy_bay.xml"/>
+  </ary>
+  <rec type="roads">
+   <ary type="links"/>
+  </rec>
+  <rec type="railways">
+   <ary type="links"/>
+  </rec>
+  <rec type="canals">
+   <ary type="links"/>
+  </rec>
+ </rec>
+</rec>

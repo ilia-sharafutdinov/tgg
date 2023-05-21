@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>pennsylvania</s>
+ <asc>land</asc>
+ <v2 x="-560.60413" y="273.31238"/>
+ <v2 x="-527.34027" y="298.76297"/>
+ <ary type="areas">
+  <xml_include path="area-1/pennsylvania-0000.xml"/>
+  <xml_include path="area-1/pennsylvania-0001.xml"/>
+  <xml_include path="area-1/pennsylvania-0002.xml"/>
+  <xml_include path="area-1/pennsylvania-0003.xml"/>
+  <xml_include path="area-1/pennsylvania-0004.xml"/>
+ </ary>
+ <i>1</i>
+ <rec type="settlement_and_slots">
+  <v2 x="-535.88495" y="285.9653"/>
+  <v2_ary>
+   -533.56073,284.99374
+   -533.60864,286.92126
+   -534.88434,288.19693
+   -536.79413,288.21478
+   -538.08838,286.9205
+   -538.11536,285.02814
+   -536.77759,283.6904
+   -534.86737,283.6871
+  </v2_ary>
+  <ary type="slot_descriptions">
+   <xml_include path="slot/settlement-pennsylvania-philadelphia-settlement_army-admin.xml"/>
+   <xml_include path="slot/settlement-pennsylvania-philadelphia-settlement_government.xml"/>
+   <xml_include path="slot/settlement-pennsylvania-philadelphia-settlement_culture.xml"/>
+   <xml_include path="slot/settlement-pennsylvania-philadelphia-settlement_navy-admin.xml"/>
+   <xml_include path="slot/settlement-pennsylvania-philadelphia-settlement_ordnance.xml"/>
+   <xml_include path="slot/settlement-pennsylvania-philadelphia-settlement_road.xml"/>
+   <xml_include path="slot/settlement-pennsylvania-philadelphia-settlement_fortification.xml"/>
+   <xml_include path="slot/iron-pennsylvania-west.xml"/>
+   <xml_include path="slot/sheep-pennsylvania-scranton.xml"/>
+   <xml_include path="slot/port-pennsylvania-lewes.xml"/>
+   <xml_include path="slot/town-pennsylvania-harrisburg.xml"/>
+   <xml_include path="slot/town-pennsylvania-dover.xml"/>
+  </ary>
+  <rec type="roads">
+   <ary type="links"/>
+  </rec>
+  <rec type="railways">
+   <ary type="links"/>
+  </rec>
+  <rec type="canals">
+   <ary type="links"/>
+  </rec>
+ </rec>
+</rec>

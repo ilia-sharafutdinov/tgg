@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>tripoli</s>
+ <asc>land</asc>
+ <v2 x="84.99966" y="195.9306"/>
+ <v2 x="169.99962" y="234.21986"/>
+ <ary type="areas">
+  <xml_include path="area-1/tripoli-0000.xml"/>
+  <xml_include path="area-1/tripoli-0001.xml"/>
+ </ary>
+ <i>2</i>
+ <rec type="settlement_and_slots">
+  <v2 x="91.99881" y="230.81419"/>
+  <v2_ary>
+   91.99881,232.51146
+   90.30154418945312,230.81419
+   91.99881,229.11693
+   93.69607543945312,230.81419
+  </v2_ary>
+  <ary type="slot_descriptions">
+   <xml_include path="slot/settlement-tripoli-tripoli-settlement_minor.xml"/>
+   <xml_include path="slot/settlement-tripoli-tripoli-settlement_fortification.xml"/>
+   <xml_include path="slot/settlement-tripoli-tripoli-settlement_road.xml"/>
+   <xml_include path="slot/town-tripoli-misratah.xml"/>
+   <xml_include path="slot/port-tripoli-surt.xml"/>
+   <xml_include path="slot/town-tripoli-benghazi.xml"/>
+  </ary>
+  <rec type="roads">
+   <ary type="links"/>
+  </rec>
+  <rec type="railways">
+   <ary type="links"/>
+  </rec>
+  <rec type="canals">
+   <ary type="links"/>
+  </rec>
+ </rec>
+</rec>

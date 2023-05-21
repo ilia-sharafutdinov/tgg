@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>west_prussia</s>
+ <asc>land</asc>
+ <v2 x="104.97618" y="366.59738"/>
+ <v2 x="143.01604" y="389.99994"/>
+ <ary type="areas">
+  <xml_include path="area-1/west_prussia-0000.xml"/>
+ </ary>
+ <i>2</i>
+ <rec type="settlement_and_slots">
+  <v2 x="131.93739" y="385.647"/>
+  <v2_ary>
+   131.93739,387.34427
+   130.24013,385.647
+   131.93739,383.94974
+   133.63466,385.647
+  </v2_ary>
+  <ary type="slot_descriptions">
+   <xml_include path="slot/settlement-west_prussia-gdansk-settlement_minor.xml"/>
+   <xml_include path="slot/settlement-west_prussia-gdansk-settlement_fortification.xml"/>
+   <xml_include path="slot/settlement-west_prussia-gdansk-settlement_road.xml"/>
+   <xml_include path="slot/wheat-west_prussia-southeast.xml"/>
+   <xml_include path="slot/town-west_prussia-elblag.xml"/>
+   <xml_include path="slot/town-west_prussia-bydgoszcz.xml"/>
+   <xml_include path="slot/town-west_prussia-poznan.xml"/>
+   <xml_include path="slot/port-west_prussia-gdynia.xml"/>
+  </ary>
+  <rec type="roads">
+   <ary type="links"/>
+  </rec>
+  <rec type="railways">
+   <ary type="links"/>
+  </rec>
+  <rec type="canals">
+   <ary type="links"/>
+  </rec>
+ </rec>
+</rec>

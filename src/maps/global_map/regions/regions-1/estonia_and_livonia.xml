@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>estonia_and_livonia</s>
+ <asc>land</asc>
+ <v2 x="155.51564" y="401.59955"/>
+ <v2 x="196.8252" y="424.0401"/>
+ <ary type="areas">
+  <xml_include path="area-1/estonia_and_livonia-0000.xml"/>
+  <xml_include path="area-1/estonia_and_livonia-0001.xml"/>
+ </ary>
+ <i>2</i>
+ <rec type="settlement_and_slots">
+  <v2 x="174.96762" y="406.64667"/>
+  <v2_ary>
+   174.96762,408.34393
+   173.27036,406.64667
+   174.96762,404.9494
+   176.66489,406.64667
+  </v2_ary>
+  <ary type="slot_descriptions">
+   <xml_include path="slot/settlement-estonia_and_livonia-riga-settlement_minor.xml"/>
+   <xml_include path="slot/settlement-estonia_and_livonia-riga-settlement_fortification.xml"/>
+   <xml_include path="slot/settlement-estonia_and_livonia-riga-settlement_road.xml"/>
+   <xml_include path="slot/wheat-estonia_and_livonia-south.xml"/>
+   <xml_include path="slot/town-estonia_and_livonia-narva.xml"/>
+   <xml_include path="slot/port-estonia_and_livonia-parnu.xml"/>
+   <xml_include path="slot/town-estonia_and_livonia-tallinn.xml"/>
+  </ary>
+  <rec type="roads">
+   <ary type="links"/>
+  </rec>
+  <rec type="railways">
+   <ary type="links"/>
+  </rec>
+  <rec type="canals">
+   <ary type="links"/>
+  </rec>
+ </rec>
+</rec>

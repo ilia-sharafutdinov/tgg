@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>norway</s>
+ <asc>land</asc>
+ <v2 x="33.09461212158203" y="412.32312"/>
+ <v2 x="221.3867" y="506.21899"/>
+ <ary type="areas">
+  <xml_include path="area-1/norway-0000.xml"/>
+  <xml_include path="area-1/norway-0001.xml"/>
+  <xml_include path="area-1/norway-0002.xml"/>
+  <xml_include path="area-1/norway-0003.xml"/>
+  <xml_include path="area-1/norway-0004.xml"/>
+  <xml_include path="area-1/norway-0005.xml"/>
+  <xml_include path="area-1/norway-0006.xml"/>
+ </ary>
+ <i>2</i>
+ <rec type="settlement_and_slots">
+  <v2 x="75.24967" y="426.30554"/>
+  <v2_ary>
+   75.24967,428.00281
+   73.55241,426.30554
+   75.24967,424.60828
+   76.94694,426.30554
+  </v2_ary>
+  <ary type="slot_descriptions">
+   <xml_include path="slot/settlement-norway-christiania-settlement_minor.xml"/>
+   <xml_include path="slot/settlement-norway-christiania-settlement_fortification.xml"/>
+   <xml_include path="slot/settlement-norway-christiania-settlement_road.xml"/>
+   <xml_include path="slot/iron-norway-mo_i_randa.xml"/>
+   <xml_include path="slot/iron-norway-north.xml"/>
+   <xml_include path="slot/sheep-norway-south.xml"/>
+   <xml_include path="slot/timber-norway-oslo.xml"/>
+   <xml_include path="slot/timber-norway-trondheim.xml"/>
+   <xml_include path="slot/port-norway-bergen.xml"/>
+   <xml_include path="slot/town-norway-stavanger.xml"/>
+   <xml_include path="slot/town-norway-trondheim.xml"/>
+  </ary>
+  <rec type="roads">
+   <ary type="links"/>
+  </rec>
+  <rec type="railways">
+   <ary type="links"/>
+  </rec>
+  <rec type="canals">
+   <ary type="links"/>
+  </rec>
+ </rec>
+</rec>

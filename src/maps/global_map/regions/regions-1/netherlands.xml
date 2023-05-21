@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>netherlands</s>
+ <asc>land</asc>
+ <v2 x="27.45771" y="366.78046"/>
+ <v2 x="49.2000732421875" y="381.95486"/>
+ <ary type="areas">
+  <xml_include path="area-1/netherlands-0000.xml"/>
+ </ary>
+ <i>2</i>
+ <rec type="settlement_and_slots">
+  <v2 x="35.91815" y="373.49066"/>
+  <v2_ary>
+   38.24235534667969,372.5191
+   38.19446,374.44662
+   36.91879,375.72229
+   35.00899,375.74014
+   33.71471405029297,374.44586
+   33.687767028808594,372.5535
+   35.02551,371.21576
+   36.93573,371.21246
+  </v2_ary>
+  <ary type="slot_descriptions">
+   <xml_include path="slot/settlement-netherlands-amsterdam-settlement_army-admin.xml"/>
+   <xml_include path="slot/settlement-netherlands-amsterdam-settlement_government.xml"/>
+   <xml_include path="slot/settlement-netherlands-amsterdam-settlement_culture.xml"/>
+   <xml_include path="slot/settlement-netherlands-amsterdam-settlement_navy-admin.xml"/>
+   <xml_include path="slot/settlement-netherlands-amsterdam-settlement_ordnance.xml"/>
+   <xml_include path="slot/settlement-netherlands-amsterdam-settlement_road.xml"/>
+   <xml_include path="slot/settlement-netherlands-amsterdam-settlement_fortification.xml"/>
+   <xml_include path="slot/wheat-netherlands-north.xml"/>
+   <xml_include path="slot/sheep-netherlands-south.xml"/>
+   <xml_include path="slot/town-netherlands-den_haag.xml"/>
+   <xml_include path="slot/port-netherlands-rotterdam.xml"/>
+   <xml_include path="slot/town-netherlands-utrecht.xml"/>
+  </ary>
+  <rec type="roads">
+   <ary type="links"/>
+  </rec>
+  <rec type="railways">
+   <ary type="links"/>
+  </rec>
+  <rec type="canals">
+   <ary type="links"/>
+  </rec>
+ </rec>
+</rec>

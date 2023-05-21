@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>austria</s>
+ <asc>land</asc>
+ <v2 x="64.50982" y="318.63495"/>
+ <v2 x="119.99965" y="349.60684"/>
+ <ary type="areas">
+  <xml_include path="area-1/austria-0000.xml"/>
+  <xml_include path="area-1/austria-0001.xml"/>
+  <xml_include path="area-1/austria-0002.xml"/>
+  <xml_include path="area-1/austria-0003.xml"/>
+  <xml_include path="area-1/austria-0004.xml"/>
+ </ary>
+ <i>2</i>
+ <rec type="settlement_and_slots">
+  <v2 x="116.2016" y="342.8577"/>
+  <v2_ary>
+   118.5258,341.88614
+   118.47791,343.81366
+   117.20224,345.08932
+   115.29243469238281,345.10718
+   113.99816,343.8129
+   113.9712142944336,341.92053
+   115.30896,340.58279
+   117.21918,340.5795
+  </v2_ary>
+  <ary type="slot_descriptions">
+   <xml_include path="slot/settlement-austria-vienna-settlement_army-admin.xml"/>
+   <xml_include path="slot/settlement-austria-vienna-settlement_government.xml"/>
+   <xml_include path="slot/settlement-austria-vienna-settlement_culture.xml"/>
+   <xml_include path="slot/settlement-austria-vienna-settlement_navy-admin.xml"/>
+   <xml_include path="slot/settlement-austria-vienna-settlement_ordnance.xml"/>
+   <xml_include path="slot/settlement-austria-vienna-settlement_road.xml"/>
+   <xml_include path="slot/settlement-austria-vienna-settlement_fortification.xml"/>
+   <xml_include path="slot/iron-austria-central.xml"/>
+   <xml_include path="slot/sheep-austria-tyrol.xml"/>
+   <xml_include path="slot/wheat-austria-north.xml"/>
+   <xml_include path="slot/gold-austria-rauris.xml"/>
+   <xml_include path="slot/town-austria-salzburg.xml"/>
+   <xml_include path="slot/town-austria-graz.xml"/>
+   <xml_include path="slot/port-austria-triest.xml"/>
+   <xml_include path="slot/town-austria-innsbruck.xml"/>
+  </ary>
+  <rec type="roads">
+   <ary type="links"/>
+  </rec>
+  <rec type="railways">
+   <ary type="links"/>
+  </rec>
+  <rec type="canals">
+   <ary type="links"/>
+  </rec>
+ </rec>
+</rec>

@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>rajpootana</s>
+ <asc>land</asc>
+ <v2 x="497.90533" y="162.94737"/>
+ <v2 x="549.23779" y="205.66608"/>
+ <ary type="areas">
+  <xml_include path="area-1/rajpootana-0000.xml"/>
+ </ary>
+ <i>3</i>
+ <rec type="settlement_and_slots">
+  <v2 x="523.93994" y="174.48999"/>
+  <v2_ary>
+   523.93994,176.18726
+   522.24268,174.48999
+   523.93994,172.79272
+   525.63721,174.48999
+  </v2_ary>
+  <ary type="slot_descriptions">
+   <xml_include path="slot/settlement-rajpootana-udaipur-settlement_minor.xml"/>
+   <xml_include path="slot/settlement-rajpootana-udaipur-settlement_fortification.xml"/>
+   <xml_include path="slot/settlement-rajpootana-udaipur-settlement_road.xml"/>
+   <xml_include path="slot/iron-rajpootana-south.xml"/>
+   <xml_include path="slot/wheat-rajpootana-north.xml"/>
+   <xml_include path="slot/india_highlands-rajpootana-west.xml"/>
+   <xml_include path="slot/town-rajpootana-jodhpur.xml"/>
+   <xml_include path="slot/town-rajpootana-jeypore.xml"/>
+   <xml_include path="slot/town-rajpootana-shahpura.xml"/>
+  </ary>
+  <rec type="roads">
+   <ary type="links"/>
+  </rec>
+  <rec type="railways">
+   <ary type="links"/>
+  </rec>
+  <rec type="canals">
+   <ary type="links"/>
+  </rec>
+ </rec>
+</rec>

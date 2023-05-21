@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>alsace</s>
+ <asc>land</asc>
+ <v2 x="36.73194" y="337.21194"/>
+ <v2 x="60.50569534301758" y="353.99734"/>
+ <ary type="areas">
+  <xml_include path="area-1/alsace-0000.xml"/>
+ </ary>
+ <i>2</i>
+ <rec type="settlement_and_slots">
+  <v2 x="55.1" y="345.15811"/>
+  <v2_ary>
+   55.1,346.85538
+   53.40273,345.15811
+   55.1,343.46085
+   56.79726791381836,345.15811
+  </v2_ary>
+  <ary type="slot_descriptions">
+   <xml_include path="slot/settlement-alsace-strasbourg-settlement_minor.xml"/>
+   <xml_include path="slot/settlement-alsace-strasbourg-settlement_fortification.xml"/>
+   <xml_include path="slot/settlement-alsace-strasbourg-settlement_road.xml"/>
+   <xml_include path="slot/iron-alsace-metz.xml"/>
+   <xml_include path="slot/town-alsace-nancy.xml"/>
+  </ary>
+  <rec type="roads">
+   <ary type="links"/>
+  </rec>
+  <rec type="railways">
+   <ary type="links"/>
+  </rec>
+  <rec type="canals">
+   <ary type="links"/>
+  </rec>
+ </rec>
+</rec>

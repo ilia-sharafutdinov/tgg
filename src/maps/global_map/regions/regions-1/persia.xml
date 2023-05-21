@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>persia</s>
+ <asc>land</asc>
+ <v2 x="331.42804" y="188.34456"/>
+ <v2 x="438.71185" y="262.48999"/>
+ <ary type="areas">
+  <xml_include path="area-1/persia-0000.xml"/>
+  <xml_include path="area-1/persia-0001.xml"/>
+  <xml_include path="area-1/persia-0002.xml"/>
+  <xml_include path="area-1/persia-0003.xml"/>
+  <xml_include path="area-1/persia-0004.xml"/>
+  <xml_include path="area-1/persia-0005.xml"/>
+  <xml_include path="area-1/persia-0006.xml"/>
+  <xml_include path="area-1/persia-0007.xml"/>
+  <xml_include path="area-1/persia-0008.xml"/>
+  <xml_include path="area-1/persia-0009.xml"/>
+  <xml_include path="area-1/persia-0010.xml"/>
+  <xml_include path="area-1/persia-0011.xml"/>
+  <xml_include path="area-1/persia-0012.xml"/>
+  <xml_include path="area-1/persia-0013.xml"/>
+  <xml_include path="area-1/persia-0014.xml"/>
+  <xml_include path="area-1/persia-0015.xml"/>
+  <xml_include path="area-1/persia-0016.xml"/>
+  <xml_include path="area-1/persia-0017.xml"/>
+  <xml_include path="area-1/persia-0018.xml"/>
+  <xml_include path="area-1/persia-0019.xml"/>
+  <xml_include path="area-1/persia-0020.xml"/>
+  <xml_include path="area-1/persia-0021.xml"/>
+ </ary>
+ <i>2</i>
+ <rec type="settlement_and_slots">
+  <v2 x="365.59998" y="230.63501"/>
+  <v2_ary>
+   363.59479,230.61993
+   364.20215,229.15367
+   365.6684,228.54633
+   367.13464,229.15367
+   367.742,230.61993
+   367.13464,232.0862
+   365.6684,232.69354
+   364.20215,232.0862
+  </v2_ary>
+  <ary type="slot_descriptions">
+   <xml_include path="slot/settlement-persia-isfahan-settlement_army-admin.xml"/>
+   <xml_include path="slot/settlement-persia-isfahan-settlement_ordnance.xml"/>
+   <xml_include path="slot/settlement-persia-isfahan-settlement_government.xml"/>
+   <xml_include path="slot/settlement-persia-isfahan-settlement_culture.xml"/>
+   <xml_include path="slot/settlement-persia-isfahan-settlement_road.xml"/>
+   <xml_include path="slot/settlement-persia-isfahan-settlement_fortification.xml"/>
+   <xml_include path="slot/iron-persia-bafq.xml"/>
+   <xml_include path="slot/wheat-persia-south.xml"/>
+   <xml_include path="slot/sheep-persia-yazd.xml"/>
+   <xml_include path="slot/port-persia-bandar_abbas.xml"/>
+   <xml_include path="slot/town-persia-qom.xml"/>
+   <xml_include path="slot/town-persia-shiraz.xml"/>
+   <xml_include path="slot/town-persia-yazd.xml"/>
+   <xml_include path="slot/town-persia-kermanshah.xml"/>
+   <xml_include path="slot/town-persia-mashad.xml"/>
+   <xml_include path="slot/town-persia-teheran.xml"/>
+  </ary>
+  <rec type="roads">
+   <ary type="links"/>
+  </rec>
+  <rec type="railways">
+   <ary type="links"/>
+  </rec>
+  <rec type="canals">
+   <ary type="links"/>
+  </rec>
+ </rec>
+</rec>

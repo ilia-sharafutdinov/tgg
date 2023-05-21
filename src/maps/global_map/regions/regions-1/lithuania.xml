@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>lithuania</s>
+ <asc>land</asc>
+ <v2 x="154.46974" y="365.34427"/>
+ <v2 x="220.40909" y="412.09567"/>
+ <ary type="areas">
+  <xml_include path="area-1/lithuania-0000.xml"/>
+  <xml_include path="area-1/lithuania-0001.xml"/>
+  <xml_include path="area-1/lithuania-0002.xml"/>
+  <xml_include path="area-1/lithuania-0003.xml"/>
+ </ary>
+ <i>2</i>
+ <rec type="settlement_and_slots">
+  <v2 x="179.564" y="387.42899"/>
+  <v2_ary>
+   177.55882,387.41391
+   178.16617,385.94766
+   179.63242,385.3403
+   181.09868,385.94766
+   181.70602,387.41391
+   181.09868,388.88016
+   179.63242,389.48752
+   178.16617,388.88016
+  </v2_ary>
+  <ary type="slot_descriptions">
+   <xml_include path="slot/settlement-lithuania-vilnius-settlement_army-admin.xml"/>
+   <xml_include path="slot/settlement-lithuania-vilnius-settlement_ordnance.xml"/>
+   <xml_include path="slot/settlement-lithuania-vilnius-settlement_government.xml"/>
+   <xml_include path="slot/settlement-lithuania-vilnius-settlement_culture.xml"/>
+   <xml_include path="slot/settlement-lithuania-vilnius-settlement_road.xml"/>
+   <xml_include path="slot/settlement-lithuania-vilnius-settlement_fortification.xml"/>
+   <xml_include path="slot/wheat-lithuania-kaunas.xml"/>
+   <xml_include path="slot/wheat-lithuania-daugpils.xml"/>
+   <xml_include path="slot/town-lithuania-brest.xml"/>
+   <xml_include path="slot/town-lithuania-kaunas.xml"/>
+   <xml_include path="slot/town-lithuania-gardinas.xml"/>
+   <xml_include path="slot/town-lithuania-daugpilis.xml"/>
+  </ary>
+  <rec type="roads">
+   <ary type="links"/>
+  </rec>
+  <rec type="railways">
+   <ary type="links"/>
+  </rec>
+  <rec type="canals">
+   <ary type="links"/>
+  </rec>
+ </rec>
+</rec>

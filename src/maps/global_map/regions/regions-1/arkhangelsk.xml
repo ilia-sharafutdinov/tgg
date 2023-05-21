@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>arkhangelsk</s>
+ <asc>land</asc>
+ <v2 x="256.29138" y="401.15286"/>
+ <v2 x="348.60321" y="473.14859"/>
+ <ary type="areas">
+  <xml_include path="area-1/arkhangelsk-0000.xml"/>
+  <xml_include path="area-1/arkhangelsk-0001.xml"/>
+  <xml_include path="area-1/arkhangelsk-0002.xml"/>
+  <xml_include path="area-1/arkhangelsk-0003.xml"/>
+  <xml_include path="area-1/arkhangelsk-0004.xml"/>
+  <xml_include path="area-1/arkhangelsk-0005.xml"/>
+ </ary>
+ <i>2</i>
+ <rec type="settlement_and_slots">
+  <v2 x="284.85303" y="458.39099"/>
+  <v2_ary>
+   284.85303,460.08826
+   283.15576,458.39099
+   284.85303,456.69373
+   286.55029,458.39099
+  </v2_ary>
+  <ary type="slot_descriptions">
+   <xml_include path="slot/settlement-arkhangelsk-arkhangelsk-settlement_minor.xml"/>
+   <xml_include path="slot/settlement-arkhangelsk-arkhangelsk-settlement_fortification.xml"/>
+   <xml_include path="slot/settlement-arkhangelsk-arkhangelsk-settlement_road.xml"/>
+   <xml_include path="slot/timber-arkhangelsk-west.xml"/>
+   <xml_include path="slot/fur-arkhangelsk-central.xml"/>
+   <xml_include path="slot/fur-arkhangelsk-far_north.xml"/>
+   <xml_include path="slot/timber-arkhangelsk-south_central.xml"/>
+  </ary>
+  <rec type="roads">
+   <ary type="links"/>
+  </rec>
+  <rec type="railways">
+   <ary type="links"/>
+  </rec>
+  <rec type="canals">
+   <ary type="links"/>
+  </rec>
+ </rec>
+</rec>

@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>syria</s>
+ <asc>land</asc>
+ <v2 x="229.33397" y="221.57947"/>
+ <v2 x="307.3222" y="271.24841"/>
+ <ary type="areas">
+  <xml_include path="area-1/syria-0000.xml"/>
+  <xml_include path="area-1/syria-0001.xml"/>
+  <xml_include path="area-1/syria-0002.xml"/>
+  <xml_include path="area-1/syria-0003.xml"/>
+  <xml_include path="area-1/syria-0004.xml"/>
+ </ary>
+ <i>2</i>
+ <rec type="settlement_and_slots">
+  <v2 x="260.93292" y="234.10825"/>
+  <v2_ary>
+   258.92773,234.09317
+   259.5351,232.62691
+   261.00134,232.01956
+   262.46759,232.62691
+   263.07495,234.09317
+   262.46759,235.55943
+   261.00134,236.16678
+   259.5351,235.55943
+  </v2_ary>
+  <ary type="slot_descriptions">
+   <xml_include path="slot/settlement-syria-damascus-settlement_army-admin.xml"/>
+   <xml_include path="slot/settlement-syria-damascus-settlement_ordnance.xml"/>
+   <xml_include path="slot/settlement-syria-damascus-settlement_government.xml"/>
+   <xml_include path="slot/settlement-syria-damascus-settlement_culture.xml"/>
+   <xml_include path="slot/settlement-syria-damascus-settlement_road.xml"/>
+   <xml_include path="slot/settlement-syria-damascus-settlement_fortification.xml"/>
+   <xml_include path="slot/iron-syria-cyprus.xml"/>
+   <xml_include path="slot/egypt-syria-north.xml"/>
+   <xml_include path="slot/port-syria-limassol.xml"/>
+   <xml_include path="slot/port-syria-beirut.xml"/>
+   <xml_include path="slot/port-syria-latakia.xml"/>
+   <xml_include path="slot/town-syria-aleppo.xml"/>
+  </ary>
+  <rec type="roads">
+   <ary type="links"/>
+  </rec>
+  <rec type="railways">
+   <ary type="links"/>
+  </rec>
+  <rec type="canals">
+   <ary type="links"/>
+  </rec>
+ </rec>
+</rec>

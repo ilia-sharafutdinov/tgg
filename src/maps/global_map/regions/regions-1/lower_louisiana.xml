@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>lower_louisiana</s>
+ <asc>land</asc>
+ <v2 x="-668.76031" y="205.33009"/>
+ <v2 x="-619.98602" y="250.19637"/>
+ <ary type="areas">
+  <xml_include path="area-1/lower_louisiana-0000.xml"/>
+  <xml_include path="area-1/lower_louisiana-0001.xml"/>
+  <xml_include path="area-1/lower_louisiana-0002.xml"/>
+  <xml_include path="area-1/lower_louisiana-0003.xml"/>
+ </ary>
+ <i>1</i>
+ <rec type="settlement_and_slots">
+  <v2 x="-635.85638" y="212.87781"/>
+  <v2_ary>
+   -635.85638,214.57507
+   -637.55365,212.87781
+   -635.85638,211.18054
+   -634.15912,212.87781
+  </v2_ary>
+  <ary type="slot_descriptions">
+   <xml_include path="slot/settlement-lower_louisiana-new_orleans-settlement_minor.xml"/>
+   <xml_include path="slot/settlement-lower_louisiana-new_orleans-settlement_fortification.xml"/>
+   <xml_include path="slot/settlement-lower_louisiana-new_orleans-settlement_road.xml"/>
+   <xml_include path="slot/corn-lower_louisiana-river.xml"/>
+   <xml_include path="slot/caribbean-lower_louisiana-coast.xml"/>
+   <xml_include path="slot/southern_usa-lower_louisiana-riversouth.xml"/>
+   <xml_include path="slot/town-lower_louisiana-little_rock.xml"/>
+   <xml_include path="slot/town-lower_louisiana-baton_rouge.xml"/>
+   <xml_include path="slot/port-lower_louisiana-mobile.xml"/>
+  </ary>
+  <rec type="roads">
+   <ary type="links"/>
+  </rec>
+  <rec type="railways">
+   <ary type="links"/>
+  </rec>
+  <rec type="canals">
+   <ary type="links"/>
+  </rec>
+ </rec>
+</rec>

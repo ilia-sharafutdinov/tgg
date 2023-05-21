@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>ingria</s>
+ <asc>land</asc>
+ <v2 x="195.94235" y="416.65231"/>
+ <v2 x="231.65582" y="428.35886"/>
+ <ary type="areas">
+  <xml_include path="area-1/ingria-0000.xml"/>
+  <xml_include path="area-1/ingria-0001.xml"/>
+ </ary>
+ <i>2</i>
+ <rec type="settlement_and_slots">
+  <v2 x="210.56908" y="423.30478"/>
+  <v2_ary>
+   212.89328,422.33322
+   212.84538,424.26074
+   211.56972,425.53641
+   209.65991,425.55426
+   208.36563,424.25998
+   208.33868,422.36761
+   209.67644,421.02988
+   211.58665,421.02658
+  </v2_ary>
+  <ary type="slot_descriptions">
+   <xml_include path="slot/settlement-ingria-st_petersburg-settlement_army-admin.xml"/>
+   <xml_include path="slot/settlement-ingria-st_petersburg-settlement_government.xml"/>
+   <xml_include path="slot/settlement-ingria-st_petersburg-settlement_culture.xml"/>
+   <xml_include path="slot/settlement-ingria-st_petersburg-settlement_navy-admin.xml"/>
+   <xml_include path="slot/settlement-ingria-st_petersburg-settlement_ordnance.xml"/>
+   <xml_include path="slot/settlement-ingria-st_petersburg-settlement_road.xml"/>
+   <xml_include path="slot/settlement-ingria-st_petersburg-settlement_fortification.xml"/>
+   <xml_include path="slot/wheat-ingria-central.xml"/>
+   <xml_include path="slot/timber-ingria-st_petersburg.xml"/>
+   <xml_include path="slot/port-ingria-staraya_ladoga.xml"/>
+   <xml_include path="slot/port-ingria-kronstadt.xml"/>
+   <xml_include path="slot/town-ingria-luga.xml"/>
+  </ary>
+  <rec type="roads">
+   <ary type="links"/>
+  </rec>
+  <rec type="railways">
+   <ary type="links"/>
+  </rec>
+  <rec type="canals">
+   <ary type="links"/>
+  </rec>
+ </rec>
+</rec>

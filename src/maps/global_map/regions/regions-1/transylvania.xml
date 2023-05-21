@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>transylvania</s>
+ <asc>land</asc>
+ <v2 x="149.71524" y="322.30768"/>
+ <v2 x="187.55864" y="352.96118"/>
+ <ary type="areas">
+  <xml_include path="area-1/transylvania-0000.xml"/>
+  <xml_include path="area-1/transylvania-0001.xml"/>
+  <xml_include path="area-1/transylvania-0002.xml"/>
+  <xml_include path="area-1/transylvania-0003.xml"/>
+  <xml_include path="area-1/transylvania-0004.xml"/>
+ </ary>
+ <i>2</i>
+ <rec type="settlement_and_slots">
+  <v2 x="172.75" y="333.13004"/>
+  <v2_ary>
+   172.75,334.8273
+   171.05273,333.13004
+   172.75,331.43277
+   174.44727,333.13004
+  </v2_ary>
+  <ary type="slot_descriptions">
+   <xml_include path="slot/settlement-transylvania-kolozsvar-settlement_minor.xml"/>
+   <xml_include path="slot/settlement-transylvania-kolozsvar-settlement_fortification.xml"/>
+   <xml_include path="slot/settlement-transylvania-kolozsvar-settlement_road.xml"/>
+   <xml_include path="slot/wheat-transylvania-central.xml"/>
+   <xml_include path="slot/iron-transylvania-south.xml"/>
+   <xml_include path="slot/town-transylvania-gyulafehervar.xml"/>
+   <xml_include path="slot/town-transylvania-szatmarnemeti.xml"/>
+  </ary>
+  <rec type="roads">
+   <ary type="links"/>
+  </rec>
+  <rec type="railways">
+   <ary type="links"/>
+  </rec>
+  <rec type="canals">
+   <ary type="links"/>
+  </rec>
+ </rec>
+</rec>

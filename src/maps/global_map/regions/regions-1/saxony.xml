@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>saxony</s>
+ <asc>land</asc>
+ <v2 x="68.65733" y="356.56354"/>
+ <v2 x="105.80176" y="370.93686"/>
+ <ary type="areas">
+  <xml_include path="area-1/saxony-0000.xml"/>
+  <xml_include path="area-1/saxony-0001.xml"/>
+  <xml_include path="area-1/saxony-0002.xml"/>
+ </ary>
+ <i>2</i>
+ <rec type="settlement_and_slots">
+  <v2 x="96.05449" y="364.34894"/>
+  <v2_ary>
+   94.04931,364.33386
+   94.65665435791016,362.86761
+   96.12291,362.26025
+   97.58917,362.86761
+   98.19652,364.33386
+   97.58917,365.80011
+   96.12291,366.40747
+   94.65665435791016,365.80011
+  </v2_ary>
+  <ary type="slot_descriptions">
+   <xml_include path="slot/settlement-saxony-dresden-settlement_army-admin.xml"/>
+   <xml_include path="slot/settlement-saxony-dresden-settlement_ordnance.xml"/>
+   <xml_include path="slot/settlement-saxony-dresden-settlement_government.xml"/>
+   <xml_include path="slot/settlement-saxony-dresden-settlement_culture.xml"/>
+   <xml_include path="slot/settlement-saxony-dresden-settlement_road.xml"/>
+   <xml_include path="slot/settlement-saxony-dresden-settlement_fortification.xml"/>
+   <xml_include path="slot/wheat-saxony-erfurt.xml"/>
+   <xml_include path="slot/iron-saxony-south.xml"/>
+   <xml_include path="slot/town-saxony-leipzig.xml"/>
+   <xml_include path="slot/town-saxony-erfurt.xml"/>
+  </ary>
+  <rec type="roads">
+   <ary type="links"/>
+  </rec>
+  <rec type="railways">
+   <ary type="links"/>
+  </rec>
+  <rec type="canals">
+   <ary type="links"/>
+  </rec>
+ </rec>
+</rec>

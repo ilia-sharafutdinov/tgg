@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>baluchistan</s>
+ <asc>land</asc>
+ <v2 x="404.37994" y="178.25441"/>
+ <v2 x="484.99982" y="217.6385"/>
+ <ary type="areas">
+  <xml_include path="area-1/baluchistan-0000.xml"/>
+  <xml_include path="area-1/baluchistan-0001.xml"/>
+  <xml_include path="area-1/baluchistan-0002.xml"/>
+  <xml_include path="area-1/baluchistan-0003.xml"/>
+  <xml_include path="area-1/baluchistan-0004.xml"/>
+  <xml_include path="area-1/baluchistan-0005.xml"/>
+ </ary>
+ <i>2</i>
+ <rec type="settlement_and_slots">
+  <v2 x="432.84003" y="209.73999"/>
+  <v2_ary>
+   432.84003,211.43726
+   431.14276,209.73999
+   432.84003,208.04272
+   434.53729,209.73999
+  </v2_ary>
+  <ary type="slot_descriptions">
+   <xml_include path="slot/settlement-baluchistan-zahedan-settlement_minor.xml"/>
+   <xml_include path="slot/settlement-baluchistan-zahedan-settlement_fortification.xml"/>
+   <xml_include path="slot/settlement-baluchistan-zahedan-settlement_road.xml"/>
+   <xml_include path="slot/sheep-baluchistan-south.xml"/>
+   <xml_include path="slot/town-baluchistan-turbat.xml"/>
+   <xml_include path="slot/town-baluchistan-khuzdar.xml"/>
+  </ary>
+  <rec type="roads">
+   <ary type="links"/>
+  </rec>
+  <rec type="railways">
+   <ary type="links"/>
+  </rec>
+  <rec type="canals">
+   <ary type="links"/>
+  </rec>
+ </rec>
+</rec>

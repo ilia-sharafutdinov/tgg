@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>poland</s>
+ <asc>land</asc>
+ <v2 x="124.99925" y="352.73883"/>
+ <v2 x="178.24609" y="382.78198"/>
+ <ary type="areas">
+  <xml_include path="area-1/poland-0000.xml"/>
+  <xml_include path="area-1/poland-0001.xml"/>
+  <xml_include path="area-1/poland-0002.xml"/>
+ </ary>
+ <i>2</i>
+ <rec type="settlement_and_slots">
+  <v2 x="150.55869" y="370.26202"/>
+  <v2_ary>
+   152.88289,369.29047
+   152.83499,371.21799
+   151.55933,372.49365
+   149.64952,372.51151
+   148.35524,371.21722
+   148.32829,369.32486
+   149.66605,367.98712
+   151.57626,367.98383
+  </v2_ary>
+  <ary type="slot_descriptions">
+   <xml_include path="slot/settlement-poland-warsaw-settlement_army-admin.xml"/>
+   <xml_include path="slot/settlement-poland-warsaw-settlement_government.xml"/>
+   <xml_include path="slot/settlement-poland-warsaw-settlement_culture.xml"/>
+   <xml_include path="slot/settlement-poland-warsaw-settlement_navy-admin.xml"/>
+   <xml_include path="slot/settlement-poland-warsaw-settlement_ordnance.xml"/>
+   <xml_include path="slot/settlement-poland-warsaw-settlement_road.xml"/>
+   <xml_include path="slot/settlement-poland-warsaw-settlement_fortification.xml"/>
+   <xml_include path="slot/wheat-poland-cracow.xml"/>
+   <xml_include path="slot/sheep-poland-lodz.xml"/>
+   <xml_include path="slot/town-poland-cracow.xml"/>
+   <xml_include path="slot/town-poland-lodz.xml"/>
+   <xml_include path="slot/town-poland-lublin.xml"/>
+   <xml_include path="slot/town-poland-bialystok.xml"/>
+  </ary>
+  <rec type="roads">
+   <ary type="links"/>
+  </rec>
+  <rec type="railways">
+   <ary type="links"/>
+  </rec>
+  <rec type="canals">
+   <ary type="links"/>
+  </rec>
+ </rec>
+</rec>

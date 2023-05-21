@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>belarus</s>
+ <asc>land</asc>
+ <v2 x="177.27762" y="352.30792"/>
+ <v2 x="227.74811" y="393.53134"/>
+ <ary type="areas">
+  <xml_include path="area-1/belarus-0000.xml"/>
+  <xml_include path="area-1/belarus-0001.xml"/>
+  <xml_include path="area-1/belarus-0002.xml"/>
+  <xml_include path="area-1/belarus-0003.xml"/>
+  <xml_include path="area-1/belarus-0004.xml"/>
+  <xml_include path="area-1/belarus-0005.xml"/>
+  <xml_include path="area-1/belarus-0006.xml"/>
+  <xml_include path="area-1/belarus-0007.xml"/>
+ </ary>
+ <i>2</i>
+ <rec type="settlement_and_slots">
+  <v2 x="195.78101" y="381.879"/>
+  <v2_ary>
+   195.78101,383.57626
+   194.08374,381.879
+   195.78101,380.18173
+   197.47827,381.879
+  </v2_ary>
+  <ary type="slot_descriptions">
+   <xml_include path="slot/settlement-belarus-minsk-settlement_minor.xml"/>
+   <xml_include path="slot/settlement-belarus-minsk-settlement_fortification.xml"/>
+   <xml_include path="slot/settlement-belarus-minsk-settlement_road.xml"/>
+   <xml_include path="slot/wheat-belarus-centraleast.xml"/>
+   <xml_include path="slot/sheep-belarus-west.xml"/>
+   <xml_include path="slot/town-belarus-pinsk.xml"/>
+   <xml_include path="slot/town-belarus-homyel.xml"/>
+   <xml_include path="slot/town-belarus-vitebsk.xml"/>
+   <xml_include path="slot/town-belarus-babruysk.xml"/>
+  </ary>
+  <rec type="roads">
+   <ary type="links"/>
+  </rec>
+  <rec type="railways">
+   <ary type="links"/>
+  </rec>
+  <rec type="canals">
+   <ary type="links"/>
+  </rec>
+ </rec>
+</rec>

@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>the_papal_states</s>
+ <asc>land</asc>
+ <v2 x="74.20203" y="292.8808"/>
+ <v2 x="98.84536" y="320.16489"/>
+ <ary type="areas">
+  <xml_include path="area-1/the_papal_states-0000.xml"/>
+  <xml_include path="area-1/the_papal_states-0001.xml"/>
+ </ary>
+ <i>2</i>
+ <rec type="settlement_and_slots">
+  <v2 x="89.34928" y="298.9798"/>
+  <v2_ary>
+   87.3441,298.96472
+   87.95145,297.49847
+   89.4177,296.89111
+   90.88396453857422,297.49847
+   91.49131,298.96472
+   90.88396453857422,300.43097
+   89.4177,301.03833
+   87.95145,300.43097
+  </v2_ary>
+  <ary type="slot_descriptions">
+   <xml_include path="slot/settlement-the_papal_states-rome-settlement_army-admin.xml"/>
+   <xml_include path="slot/settlement-the_papal_states-rome-settlement_ordnance.xml"/>
+   <xml_include path="slot/settlement-the_papal_states-rome-settlement_government.xml"/>
+   <xml_include path="slot/settlement-the_papal_states-rome-settlement_culture.xml"/>
+   <xml_include path="slot/settlement-the_papal_states-rome-settlement_road.xml"/>
+   <xml_include path="slot/settlement-the_papal_states-rome-settlement_fortification.xml"/>
+   <xml_include path="slot/wine-the_papal_states-florence.xml"/>
+   <xml_include path="slot/wine-the_papal_states-san_marino.xml"/>
+   <xml_include path="slot/wine-the_papal_states-rome.xml"/>
+   <xml_include path="slot/town-the_papal_states-siena.xml"/>
+   <xml_include path="slot/town-the_papal_states-bologna.xml"/>
+   <xml_include path="slot/port-the_papal_states-ravenna.xml"/>
+   <xml_include path="slot/town-the_papal_states-florence.xml"/>
+  </ary>
+  <rec type="roads">
+   <ary type="links"/>
+  </rec>
+  <rec type="railways">
+   <ary type="links"/>
+  </rec>
+  <rec type="canals">
+   <ary type="links"/>
+  </rec>
+ </rec>
+</rec>

@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>ukraine</s>
+ <asc>land</asc>
+ <v2 x="212.96909" y="344.05994"/>
+ <v2 x="279.09488" y="373.15817"/>
+ <ary type="areas">
+  <xml_include path="area-1/ukraine-0000.xml"/>
+ </ary>
+ <i>2</i>
+ <rec type="settlement_and_slots">
+  <v2 x="217.97995" y="359.19568"/>
+  <v2_ary>
+   215.97478,359.1806
+   216.58212,357.71436
+   218.04837,357.10699
+   219.51463,357.71436
+   220.12198,359.1806
+   219.51463,360.64685
+   218.04837,361.25421
+   216.58212,360.64685
+  </v2_ary>
+  <ary type="slot_descriptions">
+   <xml_include path="slot/settlement-ukraine-kiev-settlement_army-admin.xml"/>
+   <xml_include path="slot/settlement-ukraine-kiev-settlement_ordnance.xml"/>
+   <xml_include path="slot/settlement-ukraine-kiev-settlement_government.xml"/>
+   <xml_include path="slot/settlement-ukraine-kiev-settlement_culture.xml"/>
+   <xml_include path="slot/settlement-ukraine-kiev-settlement_road.xml"/>
+   <xml_include path="slot/settlement-ukraine-kiev-settlement_fortification.xml"/>
+   <xml_include path="slot/iron-ukraine-belgorod.xml"/>
+   <xml_include path="slot/wheat-ukraine-poltava.xml"/>
+   <xml_include path="slot/wheat-ukraine-kiev.xml"/>
+   <xml_include path="slot/town-ukraine-kharkov.xml"/>
+   <xml_include path="slot/town-ukraine-poltava.xml"/>
+  </ary>
+  <rec type="roads">
+   <ary type="links"/>
+  </rec>
+  <rec type="railways">
+   <ary type="links"/>
+  </rec>
+  <rec type="canals">
+   <ary type="links"/>
+  </rec>
+ </rec>
+</rec>

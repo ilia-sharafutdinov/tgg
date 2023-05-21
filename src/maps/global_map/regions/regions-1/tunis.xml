@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>tunis</s>
+ <asc>land</asc>
+ <v2 x="54.99968" y="202.37073"/>
+ <v2 x="88.04922485351562" y="265.66736"/>
+ <ary type="areas">
+  <xml_include path="area-1/tunis-0000.xml"/>
+  <xml_include path="area-1/tunis-0001.xml"/>
+ </ary>
+ <i>2</i>
+ <rec type="settlement_and_slots">
+  <v2 x="70.37781" y="261.40424"/>
+  <v2_ary>
+   68.37263,261.38916
+   68.97997,259.92291
+   70.44623,259.31555
+   71.91249,259.92291
+   72.51984,261.38916
+   71.91249,262.85541
+   70.44623,263.46277
+   68.97997,262.85541
+  </v2_ary>
+  <ary type="slot_descriptions">
+   <xml_include path="slot/settlement-tunis-tunis-settlement_army-admin.xml"/>
+   <xml_include path="slot/settlement-tunis-tunis-settlement_ordnance.xml"/>
+   <xml_include path="slot/settlement-tunis-tunis-settlement_government.xml"/>
+   <xml_include path="slot/settlement-tunis-tunis-settlement_culture.xml"/>
+   <xml_include path="slot/settlement-tunis-tunis-settlement_road.xml"/>
+   <xml_include path="slot/settlement-tunis-tunis-settlement_fortification.xml"/>
+   <xml_include path="slot/wheat-tunis-coast.xml"/>
+   <xml_include path="slot/iron-tunis-djerissa.xml"/>
+   <xml_include path="slot/port-tunis-safaqis.xml"/>
+   <xml_include path="slot/town-tunis-kasserine.xml"/>
+   <xml_include path="slot/town-tunis-tataouine.xml"/>
+  </ary>
+  <rec type="roads">
+   <ary type="links"/>
+  </rec>
+  <rec type="railways">
+   <ary type="links"/>
+  </rec>
+  <rec type="canals">
+   <ary type="links"/>
+  </rec>
+ </rec>
+</rec>

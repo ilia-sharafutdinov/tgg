@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>courland</s>
+ <asc>land</asc>
+ <v2 x="149.20354" y="396.6265"/>
+ <v2 x="186.66925" y="410.68997"/>
+ <ary type="areas">
+  <xml_include path="area-1/courland-0000.xml"/>
+ </ary>
+ <i>2</i>
+ <rec type="settlement_and_slots">
+  <v2 x="169.25064" y="402.11041"/>
+  <v2_ary>
+   169.25064,403.80768
+   167.55338,402.11041
+   169.25064,400.41315
+   170.94791,402.11041
+  </v2_ary>
+  <ary type="slot_descriptions">
+   <xml_include path="slot/settlement-courland-jelgava-settlement_minor.xml"/>
+   <xml_include path="slot/settlement-courland-jelgava-settlement_fortification.xml"/>
+   <xml_include path="slot/settlement-courland-jelgava-settlement_road.xml"/>
+   <xml_include path="slot/wheat-courland-east.xml"/>
+   <xml_include path="slot/timber-courland-central.xml"/>
+   <xml_include path="slot/town-courland-kuldiga.xml"/>
+   <xml_include path="slot/port-courland-liepaja.xml"/>
+   <xml_include path="slot/town-courland-ogre.xml"/>
+  </ary>
+  <rec type="roads">
+   <ary type="links"/>
+  </rec>
+  <rec type="railways">
+   <ary type="links"/>
+  </rec>
+  <rec type="canals">
+   <ary type="links"/>
+  </rec>
+ </rec>
+</rec>

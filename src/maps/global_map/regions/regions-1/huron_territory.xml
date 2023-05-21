@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>huron_territory</s>
+ <asc>land</asc>
+ <v2 x="-622.89764" y="323.22003"/>
+ <v2 x="-560.91498" y="360.9743"/>
+ <ary type="areas">
+  <xml_include path="area-1/huron_territory-0000.xml"/>
+  <xml_include path="area-1/huron_territory-0001.xml"/>
+  <xml_include path="area-1/huron_territory-0002.xml"/>
+  <xml_include path="area-1/huron_territory-0003.xml"/>
+  <xml_include path="area-1/huron_territory-0004.xml"/>
+ </ary>
+ <i>1</i>
+ <rec type="settlement_and_slots">
+  <v2 x="-598.16614" y="330.66071"/>
+  <v2_ary>
+   -598.16614,332.35797
+   -599.8634,330.66071
+   -598.16614,328.96344
+   -596.46887,330.66071
+  </v2_ary>
+  <ary type="slot_descriptions">
+   <xml_include path="slot/settlement-huron_territory-fort_sault_ste-marie-settlement_minor.xml"/>
+   <xml_include path="slot/settlement-huron_territory-fort_sault_ste-marie-settlement_fortification.xml"/>
+   <xml_include path="slot/settlement-huron_territory-fort_sault_ste-marie-settlement_road.xml"/>
+   <xml_include path="slot/fur-huron_territory-north.xml"/>
+   <xml_include path="slot/gold-huron_territory-west.xml"/>
+   <xml_include path="slot/town-huron_territory-longlac.xml"/>
+   <xml_include path="slot/town-huron_territory-kapuskasing.xml"/>
+  </ary>
+  <rec type="roads">
+   <ary type="links"/>
+  </rec>
+  <rec type="railways">
+   <ary type="links"/>
+  </rec>
+  <rec type="canals">
+   <ary type="links"/>
+  </rec>
+ </rec>
+</rec>

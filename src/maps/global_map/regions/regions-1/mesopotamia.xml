@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>mesopotamia</s>
+ <asc>land</asc>
+ <v2 x="291.9689" y="205.00009"/>
+ <v2 x="352.26984" y="272.2785"/>
+ <ary type="areas">
+  <xml_include path="area-1/mesopotamia-0000.xml"/>
+  <xml_include path="area-1/mesopotamia-0001.xml"/>
+  <xml_include path="area-1/mesopotamia-0002.xml"/>
+  <xml_include path="area-1/mesopotamia-0003.xml"/>
+  <xml_include path="area-1/mesopotamia-0004.xml"/>
+  <xml_include path="area-1/mesopotamia-0005.xml"/>
+ </ary>
+ <i>2</i>
+ <rec type="settlement_and_slots">
+  <v2 x="314.19519" y="238.11679"/>
+  <v2_ary>
+   312.19,238.10172
+   312.79736,236.63545
+   314.26361,236.02811
+   315.72986,236.63545
+   316.33722,238.10172
+   315.72986,239.56798
+   314.26361,240.17532
+   312.79736,239.56798
+  </v2_ary>
+  <ary type="slot_descriptions">
+   <xml_include path="slot/settlement-mesopotamia-baghdad-settlement_army-admin.xml"/>
+   <xml_include path="slot/settlement-mesopotamia-baghdad-settlement_ordnance.xml"/>
+   <xml_include path="slot/settlement-mesopotamia-baghdad-settlement_government.xml"/>
+   <xml_include path="slot/settlement-mesopotamia-baghdad-settlement_culture.xml"/>
+   <xml_include path="slot/settlement-mesopotamia-baghdad-settlement_road.xml"/>
+   <xml_include path="slot/settlement-mesopotamia-baghdad-settlement_fortification.xml"/>
+   <xml_include path="slot/egypt-mesopotamia-kirkuk.xml"/>
+   <xml_include path="slot/wheat-mesopotamia-baghdad.xml"/>
+   <xml_include path="slot/town-mesopotamia-erbil.xml"/>
+   <xml_include path="slot/port-mesopotamia-basra.xml"/>
+   <xml_include path="slot/town-mesopotamia-kut.xml"/>
+   <xml_include path="slot/town-mesopotamia-najaf.xml"/>
+   <xml_include path="slot/town-mesopotamia-mosul.xml"/>
+  </ary>
+  <rec type="roads">
+   <ary type="links"/>
+  </rec>
+  <rec type="railways">
+   <ary type="links"/>
+  </rec>
+  <rec type="canals">
+   <ary type="links"/>
+  </rec>
+ </rec>
+</rec>

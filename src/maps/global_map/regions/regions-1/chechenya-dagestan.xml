@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>chechenya-dagestan</s>
+ <asc>land</asc>
+ <v2 x="318.582" y="295.00018"/>
+ <v2 x="345.83899" y="325.00012"/>
+ <ary type="areas">
+  <xml_include path="area-1/chechenya-dagestan-0000.xml"/>
+  <xml_include path="area-1/chechenya-dagestan-0001.xml"/>
+  <xml_include path="area-1/chechenya-dagestan-0002.xml"/>
+ </ary>
+ <i>2</i>
+ <rec type="settlement_and_slots">
+  <v2 x="335.92099" y="306.811"/>
+  <v2_ary>
+   335.92099,308.50827
+   334.22372,306.811
+   335.92099,305.11374
+   337.61826,306.811
+  </v2_ary>
+  <ary type="slot_descriptions">
+   <xml_include path="slot/settlement-chechenya-dagestan-tarki-settlement_minor.xml"/>
+   <xml_include path="slot/settlement-chechenya-dagestan-tarki-settlement_fortification.xml"/>
+   <xml_include path="slot/settlement-chechenya-dagestan-tarki-settlement_road.xml"/>
+   <xml_include path="slot/sheep-chechenya-dagestan-inland.xml"/>
+   <xml_include path="slot/town-chechenya-dagestan-derbent.xml"/>
+  </ary>
+  <rec type="roads">
+   <ary type="links"/>
+  </rec>
+  <rec type="railways">
+   <ary type="links"/>
+  </rec>
+  <rec type="canals">
+   <ary type="links"/>
+  </rec>
+ </rec>
+</rec>

@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>hyderabad</s>
+ <asc>land</asc>
+ <v2 x="543.6037" y="106.2880859375"/>
+ <v2 x="584.42993" y="145.56757"/>
+ <ary type="areas">
+  <xml_include path="area-1/hyderabad-0000.xml"/>
+  <xml_include path="area-1/hyderabad-0001.xml"/>
+  <xml_include path="area-1/hyderabad-0002.xml"/>
+ </ary>
+ <i>3</i>
+ <rec type="settlement_and_slots">
+  <v2 x="558.05103" y="123.491"/>
+  <v2_ary>
+   556.04584,123.47592
+   556.6532,122.00966
+   558.11945,121.40232
+   559.58569,122.00966
+   560.19305,123.47592
+   559.58569,124.94218
+   558.11945,125.54952
+   556.6532,124.94218
+  </v2_ary>
+  <ary type="slot_descriptions">
+   <xml_include path="slot/settlement-hyderabad-hyderabad-settlement_army-admin.xml"/>
+   <xml_include path="slot/settlement-hyderabad-hyderabad-settlement_ordnance.xml"/>
+   <xml_include path="slot/settlement-hyderabad-hyderabad-settlement_government.xml"/>
+   <xml_include path="slot/settlement-hyderabad-hyderabad-settlement_culture.xml"/>
+   <xml_include path="slot/settlement-hyderabad-hyderabad-settlement_road.xml"/>
+   <xml_include path="slot/settlement-hyderabad-hyderabad-settlement_fortification.xml"/>
+   <xml_include path="slot/rice-hyderabad-centralnorth.xml"/>
+   <xml_include path="slot/wheat-hyderabad-central.xml"/>
+   <xml_include path="slot/india_highlands-hyderabad-north.xml"/>
+   <xml_include path="slot/town-hyderabad-golconda.xml"/>
+   <xml_include path="slot/town-hyderabad-kurnool.xml"/>
+   <xml_include path="slot/town-hyderabad-nizamabad.xml"/>
+  </ary>
+  <rec type="roads">
+   <ary type="links"/>
+  </rec>
+  <rec type="railways">
+   <ary type="links"/>
+  </rec>
+  <rec type="canals">
+   <ary type="links"/>
+  </rec>
+ </rec>
+</rec>

@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>palestine</s>
+ <asc>land</asc>
+ <v2 x="230.81129" y="193.98495"/>
+ <v2 x="264.20074" y="233.47716"/>
+ <ary type="areas">
+  <xml_include path="area-1/palestine-0000.xml"/>
+  <xml_include path="area-1/palestine-0001.xml"/>
+ </ary>
+ <i>2</i>
+ <rec type="settlement_and_slots">
+  <v2 x="249.24072" y="225.52777"/>
+  <v2_ary>
+   247.23555,225.5127
+   247.8429,224.04643
+   249.30914,223.43909
+   250.77541,224.04643
+   251.38275,225.5127
+   250.77541,226.97896
+   249.30914,227.5863
+   247.8429,226.97896
+  </v2_ary>
+  <ary type="slot_descriptions">
+   <xml_include path="slot/settlement-palestine-jerusalem-settlement_army-admin.xml"/>
+   <xml_include path="slot/settlement-palestine-jerusalem-settlement_ordnance.xml"/>
+   <xml_include path="slot/settlement-palestine-jerusalem-settlement_government.xml"/>
+   <xml_include path="slot/settlement-palestine-jerusalem-settlement_culture.xml"/>
+   <xml_include path="slot/settlement-palestine-jerusalem-settlement_road.xml"/>
+   <xml_include path="slot/settlement-palestine-jerusalem-settlement_fortification.xml"/>
+   <xml_include path="slot/port-palestine-gaza.xml"/>
+   <xml_include path="slot/town-palestine-elat.xml"/>
+  </ary>
+  <rec type="roads">
+   <ary type="links"/>
+  </rec>
+  <rec type="railways">
+   <ary type="links"/>
+  </rec>
+  <rec type="canals">
+   <ary type="links"/>
+  </rec>
+ </rec>
+</rec>

@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>portugal</s>
+ <asc>land</asc>
+ <v2 x="-67.64499" y="262.92142"/>
+ <v2 x="-42.61433" y="299.28464"/>
+ <ary type="areas">
+  <xml_include path="area-1/portugal-0000.xml"/>
+  <xml_include path="area-1/portugal-0001.xml"/>
+ </ary>
+ <i>2</i>
+ <rec type="settlement_and_slots">
+  <v2 x="-62.98783" y="276.98785"/>
+  <v2_ary>
+   -60.66362762451172,276.0163
+   -60.71152,277.94382
+   -61.9871940612793,279.21948
+   -63.89699,279.23734
+   -65.19127,277.94305
+   -65.21821594238281,276.05069
+   -63.88047409057617,274.71295
+   -61.970252990722656,274.70966
+  </v2_ary>
+  <ary type="slot_descriptions">
+   <xml_include path="slot/settlement-portugal-lisbon-settlement_army-admin.xml"/>
+   <xml_include path="slot/settlement-portugal-lisbon-settlement_government.xml"/>
+   <xml_include path="slot/settlement-portugal-lisbon-settlement_culture.xml"/>
+   <xml_include path="slot/settlement-portugal-lisbon-settlement_navy-admin.xml"/>
+   <xml_include path="slot/settlement-portugal-lisbon-settlement_ordnance.xml"/>
+   <xml_include path="slot/settlement-portugal-lisbon-settlement_road.xml"/>
+   <xml_include path="slot/settlement-portugal-lisbon-settlement_fortification.xml"/>
+   <xml_include path="slot/wine-portugal-porto.xml"/>
+   <xml_include path="slot/sheep-portugal-alto_alentejo.xml"/>
+   <xml_include path="slot/town-portugal-faro.xml"/>
+   <xml_include path="slot/town-portugal-evora.xml"/>
+   <xml_include path="slot/town-portugal-leiria.xml"/>
+   <xml_include path="slot/port-portugal-porto.xml"/>
+   <xml_include path="slot/town-portugal-covilha.xml"/>
+  </ary>
+  <rec type="roads">
+   <ary type="links"/>
+  </rec>
+  <rec type="railways">
+   <ary type="links"/>
+  </rec>
+  <rec type="canals">
+   <ary type="links"/>
+  </rec>
+ </rec>
+</rec>

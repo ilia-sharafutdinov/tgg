@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>bengal</s>
+ <asc>land</asc>
+ <v2 x="586.32697" y="150.64571"/>
+ <v2 x="647.91125" y="200.00018"/>
+ <ary type="areas">
+  <xml_include path="area-1/bengal-0000.xml"/>
+  <xml_include path="area-1/bengal-0001.xml"/>
+  <xml_include path="area-1/bengal-0002.xml"/>
+ </ary>
+ <i>3</i>
+ <rec type="settlement_and_slots">
+  <v2 x="628.12402" y="158.88477"/>
+  <v2_ary>
+   626.11884,158.86969
+   626.7262,157.40343
+   628.19244,156.79608
+   629.65869,157.40343
+   630.26605,158.86969
+   629.65869,160.33595
+   628.19244,160.9433
+   626.7262,160.33595
+  </v2_ary>
+  <ary type="slot_descriptions">
+   <xml_include path="slot/settlement-bengal-calcutta-settlement_army-admin.xml"/>
+   <xml_include path="slot/settlement-bengal-calcutta-settlement_ordnance.xml"/>
+   <xml_include path="slot/settlement-bengal-calcutta-settlement_government.xml"/>
+   <xml_include path="slot/settlement-bengal-calcutta-settlement_culture.xml"/>
+   <xml_include path="slot/settlement-bengal-calcutta-settlement_road.xml"/>
+   <xml_include path="slot/settlement-bengal-calcutta-settlement_fortification.xml"/>
+   <xml_include path="slot/rice-bengal-northwest.xml"/>
+   <xml_include path="slot/rice-bengal-centralnorth.xml"/>
+   <xml_include path="slot/india_highlands-bengal-northeast.xml"/>
+   <xml_include path="slot/tropical_humid-bengal-southeast.xml"/>
+   <xml_include path="slot/town-bengal-dacca.xml"/>
+   <xml_include path="slot/town-bengal-patna.xml"/>
+   <xml_include path="slot/town-bengal-bhagalpur.xml"/>
+   <xml_include path="slot/port-bengal-port_of_calcutta.xml"/>
+  </ary>
+  <rec type="roads">
+   <ary type="links"/>
+  </rec>
+  <rec type="railways">
+   <ary type="links"/>
+  </rec>
+  <rec type="canals">
+   <ary type="links"/>
+  </rec>
+ </rec>
+</rec>

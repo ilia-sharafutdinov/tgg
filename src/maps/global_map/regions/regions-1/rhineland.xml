@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>rhineland</s>
+ <asc>land</asc>
+ <v2 x="33.81011" y="350.80188"/>
+ <v2 x="69.4356460571289" y="378.21216"/>
+ <ary type="areas">
+  <xml_include path="area-1/rhineland-0000.xml"/>
+  <xml_include path="area-1/rhineland-0001.xml"/>
+  <xml_include path="area-1/rhineland-0002.xml"/>
+ </ary>
+ <i>2</i>
+ <rec type="settlement_and_slots">
+  <v2 x="49.38722" y="362.25934"/>
+  <v2_ary>
+   49.38722,363.9566
+   47.68995,362.25934
+   49.38722,360.56207
+   51.08448791503906,362.25934
+  </v2_ary>
+  <ary type="slot_descriptions">
+   <xml_include path="slot/settlement-rhineland-koln-settlement_minor.xml"/>
+   <xml_include path="slot/settlement-rhineland-koln-settlement_fortification.xml"/>
+   <xml_include path="slot/settlement-rhineland-koln-settlement_road.xml"/>
+   <xml_include path="slot/wheat-rhineland-north.xml"/>
+   <xml_include path="slot/iron-rhineland-eisenach.xml"/>
+   <xml_include path="slot/town-rhineland-munster.xml"/>
+   <xml_include path="slot/town-rhineland-marburg.xml"/>
+   <xml_include path="slot/town-rhineland-cassel.xml"/>
+   <xml_include path="slot/town-rhineland-frankfurt.xml"/>
+  </ary>
+  <rec type="roads">
+   <ary type="links"/>
+  </rec>
+  <rec type="railways">
+   <ary type="links"/>
+  </rec>
+  <rec type="canals">
+   <ary type="links"/>
+  </rec>
+ </rec>
+</rec>

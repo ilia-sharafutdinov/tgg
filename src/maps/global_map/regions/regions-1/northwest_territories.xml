@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>northwest_territories</s>
+ <asc>land</asc>
+ <v2 x="-682.9729" y="395.89435"/>
+ <v2 x="-635.00073" y="419.39529"/>
+ <ary type="areas">
+  <xml_include path="area-1/northwest_territories-0000.xml"/>
+ </ary>
+ <i>1</i>
+ <rec type="settlement_and_slots">
+  <v2 x="-656.03198" y="403.46802"/>
+  <v2_ary>
+   -656.03198,405.16528
+   -657.72925,403.46802
+   -656.03198,401.77075
+   -654.33472,403.46802
+  </v2_ary>
+  <ary type="slot_descriptions">
+   <xml_include path="slot/settlement-northwest_territories-york_factory-settlement_minor.xml"/>
+   <xml_include path="slot/settlement-northwest_territories-york_factory-settlement_fortification.xml"/>
+   <xml_include path="slot/settlement-northwest_territories-york_factory-settlement_road.xml"/>
+   <xml_include path="slot/fur-northwest_territories-east.xml"/>
+   <xml_include path="slot/port-northwest_territories-churchill.xml"/>
+  </ary>
+  <rec type="roads">
+   <ary type="links"/>
+  </rec>
+  <rec type="railways">
+   <ary type="links"/>
+  </rec>
+  <rec type="canals">
+   <ary type="links"/>
+  </rec>
+ </rec>
+</rec>
