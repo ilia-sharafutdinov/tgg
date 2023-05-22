@@ -1,0 +1,225 @@
+<?xml version="1.0"?>
+<rec type="FACTION">
+ <ancillary_uniqueness_monitor/>
+ <rec type="CAMPAIGN_PLAYER_SETUP">
+  <victory_conditions year="0" region_count="0" prestige_victory="no" campaign_type="4 (Unplayable)"/>
+  <rec type="CAMPAIGN_PLAYER_SETUP_INGAME_MODIFIABLES">
+   <i>0</i>
+   <i>0</i>
+   <i>0</i>
+   <no/>
+  </rec>
+  <s>denmark</s>
+  <no/>
+  <yes/><!-- Playable -->
+  <no/>
+ </rec>
+ <rec type="FACTION_ECONOMICS">
+  <ary type="history">
+   <rec type="history">
+    <rec type="ECONOMICS_DATA">
+     <i4_ary>0 0 0 0 0</i4_ary>
+     <i4_ary>0 0 1036</i4_ary>
+     <i4_ary>0 0 0 1750</i4_ary>
+     <i4_ary>0</i4_ary>
+     <i4_ary>0 0 0 0 0</i4_ary>
+     <i4_ary>0 0 0 0 0 0 0</i4_ary>
+    </rec>
+   </rec>
+  </ary>
+  <i>5000</i>
+  <bin6>01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01</bin6>
+  <u>0</u>
+ </rec>
+ <xml_include path="diplomacy/denmark.xml"/>
+ <rec type="ARMY_REINFORCEMENT_MANAGER">
+  <ary type="CHARACTER_REINFORCEMENTS_ARRAY"/>
+  <ary type="UNIT_REINFORCEMENTS_ARRAY"/>
+ </rec>
+ <xml_include path="government/denmark-gov_constitutional_monarchy.xml"/>
+ <xml_include path="family/denmark.xml"/>
+ <i>874944288</i><!-- Faction ID -->
+ <s>denmark</s><!-- Faction Name -->
+ <s>Denmark</s><!-- On Screen Name -->
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>376</u>
+  <u>863992937</u>
+  <u2_ary>349 80 74 37 191 331 102 288 248 231 30 17 307 277 227 240 329 356 94 49 369 82 65 259 351 170 55 308 266 145 116 258 178 14 104 234 180 350 118 213 301 110 239 72 321 146 223 230 242 290 88 58 98 274 271 150 260 269 272 31 84 330 291 235 9 64 371 367 333 343 325 232 122 373 57 112 60 276 280 106 16 346 127 40 2 136 8 48 160 51 11 323 238 108 100 256 36 305 156 314 59 270 33 26 86 265 244 126 332 179 188 304 322 132 285 362 133 340 134 229 192 370 220 142 190 90 130 187 105 348 164 375 312 245 93 352 287 63 319 336 119 22 318 24 34 267 171 101 169 298 360 215 114 78 149 53 313 358 45 77 284 67 52 135 357 89 172 216 236 92 183 299 363 32 165 268 19 208 353 111 293 144 200 66 153 257 69 15 131 148 292 7 115 121 152 202 294 3 327 123 197 29 140 335 75 264 193 206 139 117 155 96 249 221 203 154 163 168 159 44 12 129 54 368 120 174 302 161 326 328 70 253 361 212 315 228 237 198 310 210 309 209 182 334 25 184 176 143 262 50 73 71 207 247 317 28 341 91 306 252 61 47 263 279 147 87 324 297 20 10 79 345 46 243 185 95 316 201 219 342 21 275 303 224 199 233 38 283 261 359 344 196 162 254 103 138 137 109 273 204 250 214 255 217 337 320 211 222 339 354 128 68 226 286 374 194 1 311 300 13 289 158 282 81 186 18 205 278 0 365 281 97 195 241 218 173 189 355 107 167 62 295 39 364 35 246</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>309</u>
+  <u>3940857838</u>
+  <u2_ary>217 259 132 153 135 288 285 4 2 20 287 125 42 69 13 118 80 142 117 37 61 75 22 198 197 162 212 215 201 178 192 59 76 127 188 255 270 272 65 40 250 103 51 190 38 220 41 161 94 136 24 227 194 283 12 191 304 150 120 83 269 137 126 110 249 70 202 147 21 129 16 297 92 231 139 181 245 216 226 46 244 97 29 186 8 211 102 138 280 266 128 263 43 262 82 154 35 79 55 141 23 206 78 187 238 107 214 53 166 105 293 44 106 123 122 189 193 305 240 66 85 133 0 223 163 284 111 87 252 248 49 184 116 68 271 278 45 247 253 171 208 176 261 11 222 155 104 130 200 203 172 204 170 296 205 121 140 291 62 54 298 28 169 48 182 36 67 71 39 229 146 254 268 148 210 175 159 195 63 185 73 241 96 25 158 225 230 56 91 294 165 260 302 18 168 156 243 15 179 303 277 289 3 101 47 232 286 267 209 173 183 167 273 295 282 276 274 115 196 32 89 157 237 88 160 100 114 131 292 164 236 98 246 90 239 17 234 81 5 77 275 174 143 1 134 281 60 26 180 228 145 258 52 213 14 27 10 113 265 74 290 93 30 64 7 151 233 149 242 235 257 124 207 221 300 119 99 199 307 33 218 152 177 86 95 256 306 72 34 264 299 308 9 109 50 144 6 57 224 84 19 108 279 31 58 112 301 219 251</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>2</u>
+  <u>4289211401</u>
+  <u2_ary>1 0</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>2423993295</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>625</u>
+  <u>2621467693</u>
+  <u2_ary>52 198 404 304 231 515 313 377 551 493 614 255 411 77 537 571 602 563 542 143 301 213 10 502 295 597 1 517 341 506 53 552 350 129 561 501 495 324 406 481 559 191 19 449 568 137 585 76 397 111 207 206 479 280 548 417 534 36 333 225 467 332 14 145 180 452 218 271 441 554 539 124 336 63 578 121 368 150 61 246 555 510 70 277 540 371 123 163 354 247 16 79 33 81 522 609 171 281 582 40 457 330 253 575 413 426 507 260 584 102 248 364 474 6 521 579 117 151 311 20 348 296 398 436 297 557 259 529 570 385 379 338 453 461 420 318 278 189 505 442 108 419 601 263 618 162 530 384 126 418 209 194 125 254 60 498 292 586 401 268 113 428 462 38 376 405 444 383 412 331 390 288 432 166 227 45 230 312 183 487 309 378 192 142 266 262 556 566 399 622 73 29 50 424 560 92 314 54 215 359 509 562 484 450 66 478 148 106 320 433 549 421 613 339 107 471 114 267 232 144 356 39 508 446 380 437 97 531 494 204 182 3 496 47 272 167 37 623 233 589 88 261 238 153 463 367 492 458 269 407 109 573 391 9 120 565 221 604 422 223 343 65 0 588 26 477 141 299 511 483 469 51 490 71 528 308 219 265 544 186 243 57 275 394 416 553 276 44 447 342 567 27 84 75 174 24 497 440 59 131 316 48 90 323 543 328 382 372 203 41 525 500 423 4 503 226 425 381 289 11 56 438 572 12 322 615 134 132 532 86 55 558 156 241 581 538 326 300 611 21 130 526 293 594 35 196 184 499 619 365 513 115 68 185 28 514 346 100 104 98 595 279 252 456 31 237 135 459 177 116 516 427 158 569 136 229 208 429 199 161 249 373 80 152 617 18 78 202 264 536 220 239 470 175 42 83 128 214 64 369 605 408 178 400 236 392 475 468 74 240 472 96 610 488 504 512 30 169 620 355 612 157 387 592 347 489 190 340 607 195 533 388 58 149 593 319 176 353 430 480 541 464 598 118 624 410 257 201 591 105 317 435 170 22 138 8 535 89 466 351 357 402 216 15 431 349 454 72 200 95 187 587 298 473 7 491 545 486 197 393 146 286 439 465 600 434 455 34 366 234 43 580 414 245 476 250 103 345 242 482 337 147 273 179 603 99 217 576 386 325 329 210 519 321 335 608 155 270 235 583 616 93 547 358 305 520 344 17 87 303 139 23 362 222 205 67 599 193 173 282 327 69 112 389 360 154 119 361 374 101 550 523 315 294 256 363 91 352 403 395 302 370 306 606 94 460 596 443 451 82 172 164 574 127 396 546 25 283 375 445 2 224 285 181 307 287 168 62 49 85 32 291 564 133 258</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>2</u>
+  <u>3896283533</u>
+  <u2_ary>0 1</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>2628042495</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>17</u>
+  <u>2038496281</u>
+  <u2_ary>12 7 4 3 0 15 16 14 13 2 8 11 9 6 1 10 5</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>11</u>
+  <u>1231239245</u>
+  <u2_ary>8 5 3 1 4 7 10 2 9</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>7</u>
+  <u>840083082</u>
+  <u2_ary>5 6 1 2 0 3 4</u2_ary>
+ </rec>
+ <yes/>
+ <rec type="LAND_UNIT_NAME_ALLOCATOR">
+  <ary type="LAND_UNIT_NAMES_MAP">
+   <xml_include path="unit_name_alloc/denmark-land-0001.xml"/>
+   <xml_include path="unit_name_alloc/denmark-land-0002.xml"/>
+   <xml_include path="unit_name_alloc/denmark-land-0003.xml"/>
+   <xml_include path="unit_name_alloc/denmark-land-0004.xml"/>
+   <xml_include path="unit_name_alloc/denmark-land-0005.xml"/>
+   <xml_include path="unit_name_alloc/denmark-land-0006.xml"/>
+   <xml_include path="unit_name_alloc/denmark-land-0007.xml"/>
+   <xml_include path="unit_name_alloc/denmark-land-0008.xml"/>
+   <xml_include path="unit_name_alloc/denmark-land-0009.xml"/>
+   <xml_include path="unit_name_alloc/denmark-land-0010.xml"/>
+   <xml_include path="unit_name_alloc/denmark-land-0011.xml"/>
+   <xml_include path="unit_name_alloc/denmark-land-0012.xml"/>
+   <xml_include path="unit_name_alloc/denmark-land-0013.xml"/>
+   <xml_include path="unit_name_alloc/denmark-land-0014.xml"/>
+   <xml_include path="unit_name_alloc/denmark-land-0015.xml"/>
+   <xml_include path="unit_name_alloc/denmark-land-0016.xml"/>
+   <xml_include path="unit_name_alloc/denmark-land-0017.xml"/>
+   <xml_include path="unit_name_alloc/denmark-land-0018.xml"/>
+   <xml_include path="unit_name_alloc/denmark-land-0019.xml"/>
+   <xml_include path="unit_name_alloc/denmark-land-0020.xml"/>
+   <xml_include path="unit_name_alloc/denmark-land-0021.xml"/>
+   <xml_include path="unit_name_alloc/denmark-land-0022.xml"/>
+   <xml_include path="unit_name_alloc/denmark-land-0023.xml"/>
+  </ary>
+ </rec>
+ <yes/>
+ <xml_include path="unit_name_alloc/denmark-naval-0001.xml"/>
+ <no/><!-- True - Major, False - Minor -->
+ <ary type="CHARACTER_ARRAY">
+  <xml_include path="character/denmark-admiral-0001.xml"/>
+  <xml_include path="character/denmark-colonel-0001.xml"/>
+  <xml_include path="character/denmark-captain-0001.xml"/>
+  <xml_include path="character/denmark-General-0001.xml"/>
+  <xml_include path="character/denmark-minister-0001.xml"/>
+  <xml_include path="character/denmark-colonel-0002.xml"/>
+  <xml_include path="character/denmark-rake-0001.xml"/>
+  <xml_include path="character/denmark-gentleman-0001.xml"/>
+  <xml_include path="character/denmark-minister-0002.xml"/>
+  <xml_include path="character/denmark-minister-0003.xml"/>
+  <xml_include path="character/denmark-minister-0004.xml"/>
+  <xml_include path="character/denmark-minister-0005.xml"/>
+  <xml_include path="character/denmark-minister-0006.xml"/>
+  <xml_include path="character/denmark-minister-0007.xml"/>
+  <xml_include path="character/denmark-minister-0008.xml"/>
+  <xml_include path="character/denmark-minister-0009.xml"/>
+  <xml_include path="character/denmark-minister-0010.xml"/>
+  <xml_include path="character/denmark-minister-0011.xml"/>
+  <xml_include path="character/denmark-minister-0012.xml"/>
+  <xml_include path="character/denmark-minister-0013.xml"/>
+ </ary>
+ <xml_include path="technology/denmark-denmark.xml"/>
+ <ary type="ARMY_ARRAY">
+  <xml_include path="army/denmark-0001.xml"/>
+  <xml_include path="army/denmark-0002.xml"/>
+  <xml_include path="army/denmark-0003.xml"/>
+  <xml_include path="army/denmark-0004.xml"/>
+  <xml_include path="army/denmark-0005.xml"/>
+ </ary>
+ <ary type="MORGUE"/>
+ <u4_ary>603943952</u4_ary><!-- Governor ID For Each Theatre -->
+ <no/>
+ <s>rel_protestant</s><!-- Religion -->
+ <no/>
+ <rec type="FORT_UPGRADE_MANAGER">
+  <ary type="FORT_UPGRADES_ARRAY"/>
+ </rec>
+ <rec type="FORT_UPGRADE_MANAGER">
+  <ary type="FORT_REPAIRS_ARRAY"/>
+ </rec>
+ <i>611522120</i><!-- Current Capital ID Else 0 If Faction Destroyed -->
+ <i>611522120</i><!-- Original Capital ID -->
+ <ary type="EXPOSED_CHARACTERS"/>
+ <no/>
+ <rec type="PRESTIGE">
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <u>35</u>
+ </rec>
+ <no/><!-- Emergent -->
+ <u>0</u>
+ <bool_ary>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</bool_ary>
+ <i>0</i><!-- Army Upkeep -->
+ <i>0</i><!-- Navy Upkeep -->
+ <s>MAINTAINANCE</s><!-- Campaign AI Manager Behaviour (patch.pack) -->
+ <s>default</s><!-- Campaign AI Personalities (patch.pack) -->
+ <flag_and_colours path="data\ui\flags\denmark" color1="#651d1d" color2="#fffff1" color3="#a50021"/>
+ <flag_and_colours path="data\ui\flags\denmark_republic" color1="#651d1d" color2="#fffff1" color3="#a50021"/>
+ <rec type="CAMPAIGN_BONUS_VALUES">
+  <ary type="CAMPAIGN_BONUS_VALUE_BLOCK">
+   <campaign_bonus_0 subtype="2" value="1.0" agent="Eastern_Scholar"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="rake"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="assassin"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="gentleman"/>
+  </ary>
+ </rec>
+ <rec type="CAMPAIGN_BONUS_VALUES">
+  <ary type="CAMPAIGN_BONUS_VALUE_BLOCK">
+   <campaign_bonus_0 subtype="2" value="1.0" agent="Eastern_Scholar"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="rake"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="assassin"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="gentleman"/>
+  </ary>
+ </rec>
+ <i>0</i><!-- Protectorate ID -->
+ <no/>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <no/>
+ <yes/>
+ <no/>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <no/>
+ <no/>
+ <u>0</u>
+ <no/>
+ <no/>
+</rec>
