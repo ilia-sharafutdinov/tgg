@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<rec type="REGION">
+ <s>new_spain</s><!-- Region Name -->
+ <xml_include path="population/new_spain.xml"/>
+ <traits/>
+ <rec type="REGION_SLOT_MANAGER">
+  <ary type="REGION_SLOT_ARRAY">
+   <xml_include path="region_slot/settlement-new_spain-mexico_natives-settlement_government.xml"/>
+   <xml_include path="region_slot/settlement-new_spain-mexico_natives-settlement_ordnance.xml"/>
+   <xml_include path="region_slot/settlement-new_spain-mexico_natives-settlement_army-admin.xml"/>
+   <xml_include path="region_slot/caribbean-new_spain-veracruz.xml"/>
+   <xml_include path="region_slot/silver-new_spain-central_east.xml"/>
+   <xml_include path="region_slot/silver-new_spain-northwest.xml"/>
+   <xml_include path="region_slot/gold-new_spain-west.xml"/>
+   <xml_include path="region_slot/corn-new_spain-south_central.xml"/>
+   <xml_include path="region_slot/southern_usa-new_spain-rio_grande.xml"/>
+   <xml_include path="region_slot/corn-new_spain-monterey.xml"/>
+   <xml_include path="region_slot/port-new_spain-campeche.xml"/>
+   <xml_include path="region_slot/port-new_spain-veracruz.xml"/>
+   <xml_include path="region_slot/town-new_spain-villahermosa.xml"/>
+   <xml_include path="region_slot/town-new_spain-guadalajara.xml"/>
+   <xml_include path="region_slot/port-new_spain-tampico.xml"/>
+   <xml_include path="region_slot/town-new_spain-monterrey.xml"/>
+  </ary>
+  <xml_include path="region_slot/new_spain-road.xml"/>
+  <xml_include path="region_slot/new_spain-walls.xml"/>
+ </rec>
+ <i>361485592</i><!-- Region ID -->
+ <xml_include path="region_slot/settlement-new_spain-mexico_natives.xml"/>
+ <u>1</u>
+ <no/>
+ <no/>
+ <u>500</u><!-- Subsistence Agricultural (SA) -->
+ <u>3500</u><!-- Industrial Wealth Plus (SA) -->
+ <u>3500</u><!-- Industrial Wealth Plus (SA) Minus Trading Losses -->
+ <u>0</u><!-- Town Wealth -->
+ <u>0</u><!-- Minimum Town Wealth -->
+ <u>0</u><!-- Town Wealth -->
+ <i>0</i><!-- Town Monetary Growth -->
+ <u>0</u>
+ <u>0</u>
+ <no/><!-- Exempt From Tax -->
+ <u>360837096</u><!-- Controlling Faction ID -->
+ <rec type="LINE_OF_SIGHT">
+  <yes/>
+  <v2 x="-762.5" y="91.25"/>
+  <v2 x="-606.25" y="218.75"/>
+  <xml_include path="quadtree/new_spain-0001.xml"/>
+ </rec>
+ <u>361286792</u><!-- Governor ID -->
+ <s>america</s><!-- Theatre -->
+ <s>mexico</s><!-- Emergent Nation -->
+ <s>Mexican Rebels</s><!-- Region Rebels -->
+ <s>sc_european_south</s><!-- Region Culture For Types Of Buildings -->
+ <rec type="REGION_RECRUITMENT_MANAGER">
+  <ary type="REGION_RECRUITMENT_ITEM_ARRAY"/>
+  <no/>
+  <i>361499680</i>
+ </rec>
+ <no/>
+ <u4_ary>0 0 0 0 0 0 0 0</u4_ary>
+ <u4_ary>0 0 0 0 0 0 0 0</u4_ary>
+ <u4_ary>0 0 0 0 0 0 0 0</u4_ary>
+ <u4_ary>770 2310 3080 385 1925 1925 1925 1155</u4_ary>
+ <bool_ary>0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 0</bool_ary>
+ <i4_ary/>
+ <ary type="RELIGIOUS_MISSION_BUILDING_ARRAY"/>
+ <ary type="FORT_ARRAY"/>
+ <resources_array>
+  africa_west_indies
+  colonial_euro_factions
+  displaced_scots
+  americas
+  americas_coastal
+  global
+ </resources_array>
+ <s/><!-- Latest Constuction -->
+ <u>10</u><!-- One Of These 5/10/15/20/25/30/40 Amount Of Prestige When Conquered -->
+ <u>3792338537</u><!-- Region Array. From Top To Bottom. 1st 62 Regions 881206575. 2nd 15 Regions 1771634741. 3rd 32 Regions 1928099569. 4th 28 Regions 688200897. Why???? -->
+ <loc>regions_onscreen_new_spain</loc>
+ <flt>-0.0013270393246784806</flt>
+</rec>

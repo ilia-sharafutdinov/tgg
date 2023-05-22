@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<rec type="VICTORY_CONDITION_OPTIONS">
+ <s>pueblo_playable</s>
+ <ary type="VICTORY_CONDITIONS_BLOCK">
+  <rec type="VICTORY_CONDITIONS_BLOCK">
+   <victory_conditions year="1823" region_count="20" prestige_victory="no" campaign_type="1 (Long)">
+    lower_louisiana
+    natives_cheyenne_territory
+    new_spain
+    natives_chickasaw_territory
+    new_mexico
+    tejas
+   </victory_conditions>
+  </rec>
+  <rec type="VICTORY_CONDITIONS_BLOCK">
+   <victory_conditions year="1813" region_count="13" prestige_victory="no" campaign_type="0 (Short)">
+    tejas
+    natives_cheyenne_territory
+    new_mexico
+   </victory_conditions>
+  </rec>
+  <rec type="VICTORY_CONDITIONS_BLOCK">
+   <victory_conditions year="1799" region_count="0" prestige_victory="yes" campaign_type="2 (Prestige)">
+    tejas
+    natives_cheyenne_territory
+    new_mexico
+   </victory_conditions>
+  </rec>
+  <rec type="VICTORY_CONDITIONS_BLOCK">
+   <victory_conditions year="1828" region_count="30" prestige_victory="no" campaign_type="3 (Global Domination)">
+    natives_apache_territory
+   </victory_conditions>
+  </rec>
+ </ary>
+</rec>

@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<rec type="CAI_WORLD_SETTLEMENTS">
+ <owned_direct>940</owned_direct><!-- Faction AI ID -->
+ <cai_situated x="-434.2556457519531" y="104.15383911132812" region_id="713" theatre_id="27" area_id="2"/>
+ <rec type="CAI_BDI_COMPONENT_PROPERTY_SET">
+  <u>0</u>
+ </rec>
+ <u>1068</u><!-- Settlement AI ID -->
+ <flt>100.0</flt>
+ <flt>100.0</flt>
+ <flt>0.0</flt>
+ <flt>100.0</flt>
+ <u>1</u>
+ <no/>
+ <u4_ary/>
+ <u4_ary>4032 0 8263 0 11871 0 12530 0 12505 1</u4_ary><!-- BDI Information -->
+ <u>0</u>
+ <u>5</u>
+ <u4_ary/>
+ <u4_ary>4032 16 8263 4 11871 15 12530 12531 11797 12505</u4_ary><!-- BDI Information -->
+ <ary type="CAI_BDI_COMPONENT_BLOCK_OWNS"/>
+ <u>0</u>
+ <u>0</u>
+ <u4_ary/>
+ <u4_ary/>
+ <u4_ary/>
+ <u4_ary>4000 4016 4028 4029 4030 4031 4032 4033 4034 4035 4036 4043 4051 4053 4054 4055 4056 8256 8263 10873 11871 11951 13446 14995</u4_ary><!-- BDI Information -->
+ <no/>
+ <u>0</u>
+ <no/>
+ <rec type="CAI_GARRISONABLE">
+  <u>2471</u><!-- Character Resource AI ID -->
+  <u>0</u>
+  <u4_ary/><!-- Character Resource AI IDs -->
+  <u4_ary/>
+  <u>0</u>
+ </rec>
+ <rec type="CAI_THREATENED_GARRISONABLE">
+  <no/>
+ </rec>
+ <rec type="CAI_SETTLEMENT">
+  <u4_ary>1065 1066 1067</u4_ary><!-- Building Slot AI IDs -->
+  <u>940</u><!-- Faction AI ID (only if capital) -->
+  <u>361367736</u><!-- Settlement ID -->
+ </rec>
+</rec>

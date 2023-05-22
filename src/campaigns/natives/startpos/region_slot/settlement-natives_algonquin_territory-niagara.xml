@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<rec type="SETTLEMENT">
+ <rec type="SIEGEABLE_GARRISON_RESIDENCE">
+  <garrison_residence>360539352</garrison_residence><!-- Faction ID -->
+  <u>361377656</u><!-- Building Slot ID -->
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <i>0</i>
+  <no/>
+  <no/>
+  <no/>
+  <v2x x="-557.591064453125" y="305.6510314941406"/>
+  <u>360592104</u><!-- Army ID -->
+  <u4_ary/>
+  <u4_ary/><!-- Character ID Of Garrison -->
+  <rec type="LINE_OF_SIGHT">
+   <yes/>
+   <v2 x="-563.75" y="300.0"/>
+   <v2 x="-552.5" y="311.25"/>
+   <xml_include path="quadtree/settlement-natives_algonquin_territory-niagara-0001.xml"/>
+  </rec>
+  <no/>
+  <ary type="FORTIFICATIONS_BLOCK"/>
+ </rec>
+ <loc>start_pos_settlements_onscreen_name_settlement:natives_algonquin_territory:niagara-1314485094</loc>
+ <i>1</i>
+ <s>settlement:natives_algonquin_territory:niagara</s><!-- DB Table Campaign_map_settlements -->
+ <i>361377656</i><!-- Settlement ID -->
+ <s>settlement:natives_algonquin_territory:niagara</s><!-- DB Table Campaign_map_settlements -->
+</rec>

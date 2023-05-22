@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<rec type="SETTLEMENT">
+ <rec type="SIEGEABLE_GARRISON_RESIDENCE">
+  <garrison_residence>360652776</garrison_residence><!-- Faction ID -->
+  <u>361416024</u><!-- Building Slot ID -->
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <i>0</i>
+  <no/>
+  <no/>
+  <no/>
+  <v2x x="-687.5999755859375" y="309.5000305175781"/>
+  <u>360685728</u><!-- Army ID -->
+  <u4_ary/>
+  <u4_ary/><!-- Character ID Of Garrison -->
+  <rec type="LINE_OF_SIGHT">
+   <yes/>
+   <v2 x="-693.75" y="303.75"/>
+   <v2 x="-682.5" y="315.0"/>
+   <xml_include path="quadtree/settlement-natives_sioux_territory-sioux_falls-0001.xml"/>
+  </rec>
+  <no/>
+  <ary type="FORTIFICATIONS_BLOCK"/>
+ </rec>
+ <loc>start_pos_settlements_onscreen_name_settlement:natives_sioux_territory:sioux_falls-857436153</loc>
+ <i>1</i>
+ <s>settlement:natives_sioux_territory:sioux_falls</s><!-- DB Table Campaign_map_settlements -->
+ <i>361416024</i><!-- Settlement ID -->
+ <s>settlement:natives_sioux_territory:sioux_falls</s><!-- DB Table Campaign_map_settlements -->
+</rec>

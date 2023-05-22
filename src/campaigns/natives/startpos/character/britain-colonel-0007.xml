@@ -1,0 +1,130 @@
+<?xml version="1.0"?>
+<rec type="CHARACTER_ARRAY">
+ <rec type="CHARACTER">
+  <rec type="LOCOMOTABLE">
+   <v2x x="-440.1559143066406" y="125.46099090576172"/>
+   <v2x x="-440.1559143066406" y="125.46099090576172"/>
+   <flt>3.1415927410125732</flt><!-- Character Facing Direction -->
+   <flt>3.1415927410125732</flt><!-- Character Facing Direction -->
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <i>25</i><!-- Movement Points Left -->
+   <i>24</i><!-- Movement Points Total -->
+   <no/>
+   <i>0</i>
+   <i>0</i>
+   <angle>0.0</angle>
+   <u>12</u>
+   <u>0</u>
+   <flt>0.0</flt>
+  </rec>
+  <rec type="CHARACTER_DETAILS">
+   <traits/>
+   <loc>names_name_names_englishElric</loc>
+   <loc>names_name_names_englishBaines</loc>
+   <loc/>
+   <s/><!-- Head Of State -->
+   <date>summer 1746</date>
+   <date/>
+   <i>0</i>
+   <portrait_details/>
+   <s>britain</s>
+   <u>361534440</u><!-- Character ID -->
+   <agent_ancillaries/>
+   <agent_attributes>
+    command_land=0
+    command_sea=-1
+    duelling_pistols=-1
+    duelling_swords=-1
+    management=-1
+    subterfuge=-1
+    research=-1
+    zeal=-1
+    land_defence_engineering=-1
+    land_siege_engineering=-1
+    morale_land=-1
+    morale_sea=-1
+    movement_points_land=-1
+    trade=-1
+   </agent_attributes>
+   <ary type="AgentAbilities">
+    <agent_ability ability="can_assassinate" level="-1" attribute=""/>
+    <agent_ability ability="can_convert" level="-1" attribute=""/>
+    <agent_ability ability="can_build_religious" level="-1" attribute=""/>
+    <agent_ability ability="can_build_fort" level="-1" attribute=""/>
+    <agent_ability ability="can_sabotage" level="-1" attribute=""/>
+    <agent_ability ability="can_spy" level="-1" attribute=""/>
+    <agent_ability ability="can_duel" level="-1" attribute=""/>
+    <agent_ability ability="can_receive_duel" level="-1" attribute=""/>
+    <agent_ability ability="can_research" level="-1" attribute=""/>
+    <agent_ability ability="can_attack_land" level="1" attribute="command_land"/>
+    <agent_ability ability="can_attack_naval" level="-1" attribute=""/>
+    <agent_ability ability="can_sabotage_army" level="-1" attribute=""/>
+   </ary>
+   <agent_attribute_bonuses>
+    dummy=0
+   </agent_attribute_bonuses>
+   <no/>
+   <loc>agent_culture_details_onscreen_name_coloneleuropean</loc>
+  </rec>
+  <i>361534440</i><!-- Character ID -->
+  <s>colonel</s><!-- Character Type -->
+  <u>361534080</u><!-- Army ID -->
+  <u>361533816</u><!-- Unit ID -->
+  <u>0</u>
+  <u>0</u><!-- Character In Building Slot ID -->
+  <u>0</u><!-- Cabinet ID -->
+  <no/>
+  <no/><!-- Government Opposition -->
+  <v2x_ary>
+   -438.41267013549805,125.21086311340332
+   -438.5036211013794,125.41601848602295
+   -438.4586486816406,125.46099090576172
+   -438.575252532959,125.57759475708008
+   -438.7625160217285,126.0
+   -438.87024116516113,126.24299240112305
+   -439.4849271774292,126.77752685546875
+   -439.8645009994507,126.86684322357178
+   -440.0,127.0023422241211
+   -440.1559143066406,127.15825653076172
+   -440.4209146499634,126.89325618743896
+   -441.06300354003906,126.7973461151123
+   -441.59136486053467,126.18856048583984
+   -441.6481599807739,126.0
+   -441.7921199798584,125.52205085754395
+   -441.8531799316406,125.46099090576172
+   -441.8203887939453,125.42819881439209
+   -441.9504871368408,124.99626636505127
+   -441.9533176422119,124.98686981201172
+   -441.7902183532715,124.32609176635742
+   -441.4981174468994,124.0
+   -441.39534282684326,123.88526630401611
+   -440.6480407714844,123.57770156860352
+   -440.1158437728882,123.5753812789917
+   -440.0,123.6322021484375
+   -439.2501497268677,124.0
+   -438.7200765609741,124.2599983215332
+   -438.7179374694824,124.26661586761475
+  </v2x_ary>
+  <rec type="LINE_OF_SIGHT">
+   <no/>
+  </rec>
+  <no/>
+  <u>0</u>
+  <no/>
+  <flt>10.0</flt><!-- 10 - Land Leader / 15 - Navy Leader -->
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <no/>
+  <no/>
+  <u>0</u>
+  <no/>
+  <u>0</u>
+  <no/>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+ </rec>
+</rec>

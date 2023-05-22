@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<rec type="CAI_WORLD_REGIONS">
+ <owned_indirect>1198</owned_indirect><!-- CAI_WORLD_REGIONS = Settlement AI ID. CAI_WORLD_REGION_SLOTS = Region AI ID. CAI_WORLD_CHARACTERS = Faction AI ID -->
+ <rec type="CAI_BDI_COMPONENT_PROPERTY_SET">
+  <u>0</u>
+ </rec>
+ <u>755</u><!-- Region AI ID -->
+ <flt>100.0</flt>
+ <flt>100.0</flt>
+ <flt>0.0</flt>
+ <flt>100.0</flt>
+ <u>1</u>
+ <no/>
+ <u4_ary/>
+ <u4_ary>3550 0 4259 0 4325 0 6961 0 6968 0 7033 0 7057 0 7153 0 7166 1 7382 1 8276 0 8409 0 9805 0 9922 0 9923 0 9988 0 10689 0 11182 0 10691 1 11230 0 11334 0 11424 0 11425 0 11426 0 11427 0 11428 0 10717 1 11336 1 11731 0 10713 1 12570 0 13463 0 13566 0 15011 0 15110 0</u4_ary><!-- BDI Information -->
+ <u>0</u>
+ <u>35</u>
+ <u4_ary/>
+ <u4_ary>3550 14 4259 3211 4325 15 6961 6807 6968 6969 7033 6826 7057 4 7153 6847 7166 7382 8276 7509 8409 7528 9805 9484 9922 9485 9923 9501 9988 9499 10689 11182 9492 10691 11230 11334 11424 11425 11426 11427 11428 10717 11336 11731 9490 10713 12570 11761 13463 12863 13566 12882 15011 14703 15110 14722</u4_ary><!-- BDI Information -->
+ <ary type="CAI_BDI_COMPONENT_BLOCK_OWNS"/>
+ <u>0</u>
+ <u>0</u>
+ <u4_ary/>
+ <u4_ary/>
+ <u4_ary/>
+ <u4_ary>2905 2908 2916 3550 4260 4259 4326 4565 6851 6961 6968 7057 7059 7061 7153 7168 7164 7197 7381 8276 9805 9921 9483 10356 10369 11182 10689 10151 11424 11425 11426 11427 11428 11731 12570 13463 15011</u4_ary><!-- BDI Information -->
+ <no/>
+ <u>0</u>
+ <no/>
+ <rec type="CAI_REGION">
+  <u4_ary>27</u4_ary><!-- Theatre IDs -->
+  <u4_ary>756 757</u4_ary><!-- HLCIS IDs -->
+  <u>1198</u><!-- Settlement AI ID -->
+  <u4_ary>1200 1202 1204 1206</u4_ary><!-- Region Slot AI IDs Of Region Slots In This Region -->
+  <flt>-699.59998</flt><!-- X Coordinate -->
+  <flt>208.64996</flt><!-- Y Coordinate -->
+  <u4_ary/>
+  <u4_ary>2667 2671 2680 2681 2682</u4_ary><!-- Boundary IDs -->
+  <yes/>
+  <u4_ary>2384</u4_ary><!-- Character Resource AI IDs -->
+  <s>tejas</s><!-- Region Name -->
+  <u>361340920</u><!-- Region ID -->
+  <u>2935</u><!-- Governor AI ID -->
+  <u4_ary>931</u4_ary><!-- Faction AI IDs -->
+ </rec>
+</rec>

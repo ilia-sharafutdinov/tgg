@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<rec type="SETTLEMENT">
+ <rec type="SIEGEABLE_GARRISON_RESIDENCE">
+  <garrison_residence>360652776</garrison_residence><!-- Faction ID -->
+  <u>361417064</u><!-- Building Slot ID -->
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <i>0</i>
+  <no/>
+  <no/>
+  <no/>
+  <v2x x="-731.6434326171875" y="288.46630859375"/>
+  <u>360700912</u><!-- Army ID -->
+  <u4_ary/>
+  <u4_ary/><!-- Character ID Of Garrison -->
+  <rec type="LINE_OF_SIGHT">
+   <yes/>
+   <v2 x="-737.5" y="282.5"/>
+   <v2 x="-726.25" y="293.75"/>
+   <xml_include path="quadtree/settlement-natives_cheyenne_territory-cheyenne-0001.xml"/>
+  </rec>
+  <no/>
+  <ary type="FORTIFICATIONS_BLOCK"/>
+ </rec>
+ <loc>start_pos_settlements_onscreen_name_settlement:natives_cheyenne_territory:cheyenne882449273</loc>
+ <i>1</i>
+ <s>settlement:natives_cheyenne_territory:cheyenne</s><!-- DB Table Campaign_map_settlements -->
+ <i>361417064</i><!-- Settlement ID -->
+ <s>settlement:natives_cheyenne_territory:cheyenne</s><!-- DB Table Campaign_map_settlements -->
+</rec>

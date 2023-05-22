@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<rec type="CAI_WORLD_REGIONS">
+ <owned_indirect>1344</owned_indirect><!-- CAI_WORLD_REGIONS = Settlement AI ID. CAI_WORLD_REGION_SLOTS = Region AI ID. CAI_WORLD_CHARACTERS = Faction AI ID -->
+ <rec type="CAI_BDI_COMPONENT_PROPERTY_SET">
+  <u>0</u>
+ </rec>
+ <u>810</u><!-- Region AI ID -->
+ <flt>100.0</flt>
+ <flt>100.0</flt>
+ <flt>0.0</flt>
+ <flt>100.0</flt>
+ <u>1</u>
+ <no/>
+ <u4_ary/>
+ <u4_ary>3270 0 4236 0 4305 0 5183 0 7664 0 7794 0 7873 0 7874 0 7939 0 8691 0 9138 0 8693 1 9205 0 9254 0 9255 0 9256 0 9257 0 9258 0 8725 1 9207 1 8709 1 8715 1 9449 0 8717 1 10048 0 12108 0 12130 0 13617 0 13635 0 15235 0</u4_ary><!-- BDI Information -->
+ <u>0</u>
+ <u>30</u>
+ <u4_ary/>
+ <u4_ary>3270 14 4236 3211 4305 15 5183 4893 7664 4 7794 7509 7873 7510 7874 7526 7939 7524 8691 9138 7517 8693 9205 9254 9255 9256 9257 9258 8725 9207 8709 8715 9449 7515 8717 10048 9484 12108 11761 12130 11780 13617 12863 13635 12882 15235 14703</u4_ary><!-- BDI Information -->
+ <ary type="CAI_BDI_COMPONENT_BLOCK_OWNS"/>
+ <u>0</u>
+ <u>0</u>
+ <u4_ary/>
+ <u4_ary/>
+ <u4_ary/>
+ <u4_ary>2905 2920 2921 2924 3270 4237 4236 4306 5183 5316 7553 7664 7666 7668 7794 7872 8607 7508 8721 8691 8603 9110 9138 9254 9255 9256 9257 9258 9449 10048 10291 10298 12108 13617 15235</u4_ary><!-- BDI Information -->
+ <no/>
+ <u>0</u>
+ <no/>
+ <rec type="CAI_REGION">
+  <u4_ary>27</u4_ary><!-- Theatre IDs -->
+  <u4_ary>811 812 813 814 815</u4_ary><!-- HLCIS IDs -->
+  <u>1344</u><!-- Settlement AI ID -->
+  <u4_ary>1346 1348 1350 1352</u4_ary><!-- Region Slot AI IDs Of Region Slots In This Region -->
+  <flt>-546.64398</flt><!-- X Coordinate -->
+  <flt>265.37799</flt><!-- Y Coordinate -->
+  <u4_ary/>
+  <u4_ary>2625 2696 2706 2708 2709 2710</u4_ary><!-- Boundary IDs -->
+  <yes/>
+  <u4_ary>2280 2327</u4_ary><!-- Character Resource AI IDs -->
+  <s>virginia</s><!-- Region Name -->
+  <u>360513776</u><!-- Region ID -->
+  <u>2934</u><!-- Governor AI ID -->
+  <u4_ary/><!-- Faction AI IDs -->
+ </rec>
+</rec>

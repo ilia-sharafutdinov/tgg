@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<rec type="CAI_WORLD_REGIONS">
+ <owned_indirect>1546</owned_indirect><!-- CAI_WORLD_REGIONS = Settlement AI ID. CAI_WORLD_REGION_SLOTS = Region AI ID. CAI_WORLD_CHARACTERS = Faction AI ID -->
+ <rec type="CAI_BDI_COMPONENT_PROPERTY_SET">
+  <u>0</u>
+ </rec>
+ <u>879</u><!-- Region AI ID -->
+ <flt>100.0</flt>
+ <flt>100.0</flt>
+ <flt>0.0</flt>
+ <flt>100.0</flt>
+ <u>1</u>
+ <no/>
+ <u4_ary/>
+ <u4_ary>3617 0 5171 0 5229 0 5764 0 5815 0 5889 0 5890 0 5895 0 5949 0 6020 0 6058 0 6022 1 6072 0 6073 0 6074 0 6075 0 6076 0 6053 1 6098 1 6176 0 6046 1 6430 0 8454 0 10904 0 12220 0 12381 0 13162 0 13315 0 15182 0 15294 0</u4_ary><!-- BDI Information -->
+ <u>0</u>
+ <u>30</u>
+ <u4_ary/>
+ <u4_ary>3617 14 5171 15 5229 4893 5764 4 5815 5630 5889 5631 5890 5647 5895 5645 5949 6020 6058 5638 6022 6072 6073 6074 6075 6076 6053 6098 6176 5636 6046 6430 6210 8454 7509 10904 9484 12220 11761 12381 11780 13162 12863 13315 12882 15182 14703 15294 14722</u4_ary><!-- BDI Information -->
+ <ary type="CAI_BDI_COMPONENT_BLOCK_OWNS"/>
+ <u>0</u>
+ <u>0</u>
+ <u4_ary/>
+ <u4_ary/>
+ <u4_ary/>
+ <u4_ary>2905 2923 2925 3617 5172 5230 5229 5340 5342 5764 5766 5768 5815 5888 5919 6050 6020 6058 6072 6073 6074 6075 6076 6097 6176 6430 8454 10904 12220 13162 13777 13780 15182</u4_ary><!-- BDI Information -->
+ <no/>
+ <u>0</u>
+ <no/>
+ <rec type="CAI_REGION">
+  <u4_ary>27</u4_ary><!-- Theatre IDs -->
+  <u4_ary>880 881 882 883</u4_ary><!-- HLCIS IDs -->
+  <u>1546</u><!-- Settlement AI ID -->
+  <u4_ary>1548 1550 1552 1554</u4_ary><!-- Region Slot AI IDs Of Region Slots In This Region -->
+  <flt>-598.16614</flt><!-- X Coordinate -->
+  <flt>330.66071</flt><!-- Y Coordinate -->
+  <u4_ary/>
+  <u4_ary>2727 2733 2734 2743 2751 2754</u4_ary><!-- Boundary IDs -->
+  <yes/>
+  <u4_ary>2152</u4_ary><!-- Character Resource AI IDs -->
+  <s>natives_huron_territory</s><!-- Region Name -->
+  <u>361714096</u><!-- Region ID -->
+  <u>2931</u><!-- Governor AI ID -->
+  <u4_ary>922</u4_ary><!-- Faction AI IDs -->
+ </rec>
+</rec>

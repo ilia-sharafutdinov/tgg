@@ -1,0 +1,156 @@
+<?xml version="1.0"?>
+<rec type="CHARACTER_ARRAY">
+ <rec type="CHARACTER">
+  <rec type="LOCOMOTABLE">
+   <v2x x="-604.0" y="229.0"/>
+   <v2x x="-604.0" y="229.0"/>
+   <flt>3.1415927410125732</flt><!-- Character Facing Direction -->
+   <flt>3.1415927410125732</flt><!-- Character Facing Direction -->
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <i>26</i><!-- Movement Points Left -->
+   <i>24</i><!-- Movement Points Total -->
+   <no/>
+   <i>0</i>
+   <i>0</i>
+   <angle>0.0</angle>
+   <u>12</u>
+   <u>0</u>
+   <flt>0.0</flt>
+  </rec>
+  <rec type="CHARACTER_DETAILS">
+   <traits>
+    C_Tribal_General_Hates_Europeans=3
+    C_Tribal_General_Cherokee=2
+   </traits>
+   <loc>names_name_names_native_americanMenawa</loc>
+   <loc/>
+   <loc/>
+   <s/><!-- Head Of State -->
+   <date>summer 1758</date>
+   <date/>
+   <i>0</i>
+   <portrait_details card="ui/portraits/tribal/Cards/general/young/064.tga" info="ui/portraits/tribal/Info/general/young/064.jpg" number="64"/>
+   <s>cherokee_playable</s>
+   <u>360504464</u><!-- Character ID -->
+   <agent_ancillaries>
+    Anc_Tribal_Euro_Cap_Woman
+   </agent_ancillaries>
+   <agent_attributes>
+    command_land=2
+    command_sea=-1
+    duelling_pistols=-1
+    duelling_swords=-1
+    management=-1
+    subterfuge=-1
+    research=-1
+    zeal=-1
+    land_defence_engineering=-1
+    land_siege_engineering=-1
+    morale_land=1
+    morale_sea=-1
+    movement_points_land=1
+    trade=-1
+   </agent_attributes>
+   <ary type="AgentAbilities">
+    <agent_ability ability="can_assassinate" level="-1" attribute=""/>
+    <agent_ability ability="can_convert" level="-1" attribute=""/>
+    <agent_ability ability="can_build_religious" level="-1" attribute=""/>
+    <agent_ability ability="can_build_fort" level="1" attribute="command_land"/>
+    <agent_ability ability="can_sabotage" level="-1" attribute=""/>
+    <agent_ability ability="can_spy" level="-1" attribute=""/>
+    <agent_ability ability="can_duel" level="-1" attribute=""/>
+    <agent_ability ability="can_receive_duel" level="-1" attribute=""/>
+    <agent_ability ability="can_research" level="-1" attribute=""/>
+    <agent_ability ability="can_attack_land" level="1" attribute="command_land"/>
+    <agent_ability ability="can_attack_naval" level="-1" attribute=""/>
+    <agent_ability ability="can_sabotage_army" level="-1" attribute=""/>
+   </ary>
+   <agent_attribute_bonuses>
+    dummy=0
+   </agent_attribute_bonuses>
+   <no/>
+   <loc>agent_culture_details_onscreen_name_Generaltribal_playable</loc>
+  </rec>
+  <i>360504464</i><!-- Character ID -->
+  <s>General</s><!-- Character Type -->
+  <u>360507624</u><!-- Army ID -->
+  <u>360508104</u><!-- Unit ID -->
+  <u>0</u>
+  <u>0</u><!-- Character In Building Slot ID -->
+  <u>0</u><!-- Cabinet ID -->
+  <no/>
+  <no/><!-- Government Opposition -->
+  <v2x_ary>
+   -600.0,230.0
+   -600.616135597229,231.383864402771
+   -602.0,231.9598741531372
+   -602.0,232.0
+   -602.5237636566162,232.0
+   -603.0,232.3747100830078
+   -603.0991582870483,232.19256687164307
+   -603.0650329589844,232.15845584869385
+   -603.0759201049805,232.10565280914307
+   -603.1659727096558,232.06983757019043
+   -603.2039918899536,232.0
+   -603.3415699005127,232.0
+   -604.0,231.73813247680664
+   -604.5863513946533,231.50493240356445
+   -605.9428930282593,230.83040142059326
+   -606.0,230.7648458480835
+   -606.6662712097168,230.0
+   -608.0,228.4689474105835
+   -608.1309432983398,228.31863117218018
+   -608.0,228.00250244140625
+   -608.0,228.0
+   -608.0,227.41433238983154
+   -608.0,226.37033939361572
+   -608.0,226.0
+   -606.0,226.0
+   -605.7832145690918,226.0
+   -605.780613899231,226.0
+   -605.7794456481934,225.99947834014893
+   -605.0,225.65142917633057
+   -604.3395662307739,225.96768379211426
+   -604.2720804214478,226.0
+   -604.0523920059204,226.0
+   -604.0,226.0
+   -603.6823034286499,226.0
+   -603.0,225.73859024047852
+   -602.5389947891235,225.90446758270264
+   -602.2734928131104,226.0
+   -602.0,226.0
+   -600.076135635376,226.07613563537598
+   -600.0528020858765,226.66575622558594
+   -600.0,228.0
+   -600.0,228.95171451568604
+   -600.0,229.0
+   -600.0,229.04828548431396
+   -600.016960144043,229.08923149108887
+   -600.1900672912598,230.0
+  </v2x_ary>
+  <rec type="LINE_OF_SIGHT">
+   <yes/>
+   <v2 x="-615.0" y="218.75"/>
+   <v2 x="-593.75" y="240.0"/>
+   <xml_include path="quadtree/cherokee_playable-General-0001.xml"/>
+  </rec>
+  <no/>
+  <u>0</u>
+  <no/>
+  <flt>10.0</flt><!-- 10 - Land Leader / 15 - Navy Leader -->
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <yes/>
+  <no/>
+  <u>0</u>
+  <no/>
+  <u>0</u>
+  <no/>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+ </rec>
+</rec>

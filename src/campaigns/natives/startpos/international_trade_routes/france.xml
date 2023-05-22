@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<rec type="INTERNATIONAL_TRADE_ROUTES">
+ <s>france</s>
+ <ary type="FACTION_INTERNATIONAL_TRADE_ROUTES_ARRAY">
+  <rec type="FACTION_INTERNATIONAL_TRADE_ROUTES_ARRAY">
+   <rec type="INTERNATIONAL_TRADE_ROUTE">
+    <u>3</u><!-- Number Of Connections -->
+    <i>361361984</i><!-- Region ID Of Home Faction -->
+    <v2 x="0.0" y="0.0"/>
+    <u>35</u><!-- Port OR Settlement Indice Start Point (port:windward_islands:barbados) -->
+    <u>40</u><!-- Port OR Settlement Indice End Point (port:new_york:new_york) -->
+    <yes/><!-- Trading Over Sea -->
+    <i>361257976</i><!-- Region ID Of Home Faction -->
+    <v2 x="0.0" y="0.0"/>
+    <u>80</u><!-- Port OR Settlement Indice Start Point (new_york) -->
+    <u>81</u><!-- Port OR Settlement Indice End Point (pennsylvania) -->
+    <no/><!-- Trading Over Sea -->
+    <i>361317248</i><!-- Region ID Of Trading Faction -->
+    <v2 x="0.0" y="0.0"/>
+    <u>4294967295</u>
+    <u>4294967295</u>
+    <no/><!-- Trading Over Sea -->
+    <yes/>
+    <u4_ary>0 0 50 0 0 0 0 0</u4_ary><!-- Commodities Quantity -->
+    <u>858</u>
+    <u>600</u>
+    <u>0</u>
+    <u>258</u>
+    <u>0</u>
+    <u>0</u>
+    <u>0</u>
+    <u4_ary>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</u4_ary><!-- Resources Quantity -->
+    <u>0</u>
+    <i>657922608</i>
+   </rec>
+   <u>657922608</u><!-- Route ID -->
+  </rec>
+ </ary>
+</rec>

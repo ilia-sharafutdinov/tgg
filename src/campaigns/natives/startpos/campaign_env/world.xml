@@ -1,0 +1,359 @@
+<?xml version="1.0"?>
+<rec type="WORLD">
+ <ancillary_uniqueness_monitor/>
+ <u>0</u>
+ <u>1</u>
+ <ary type="FACTION_ARRAY">
+  <rec type="FACTION_ARRAY">
+   <xml_include path="factions/cherokee_playable.xml"/>
+  </rec>
+  <rec type="FACTION_ARRAY">
+   <xml_include path="factions/iroquoi_playable.xml"/>
+  </rec>
+  <rec type="FACTION_ARRAY">
+   <xml_include path="factions/huron_playable.xml"/>
+  </rec>
+  <rec type="FACTION_ARRAY">
+   <xml_include path="factions/plains_playable.xml"/>
+  </rec>
+  <rec type="FACTION_ARRAY">
+   <xml_include path="factions/pueblo_playable.xml"/>
+  </rec>
+  <rec type="FACTION_ARRAY">
+   <xml_include path="factions/united_states.xml"/>
+  </rec>
+  <rec type="FACTION_ARRAY">
+   <xml_include path="factions/spain.xml"/>
+  </rec>
+  <rec type="FACTION_ARRAY">
+   <xml_include path="factions/france.xml"/>
+  </rec>
+  <rec type="FACTION_ARRAY">
+   <xml_include path="factions/britain.xml"/>
+  </rec>
+  <rec type="FACTION_ARRAY">
+   <xml_include path="factions/netherlands.xml"/>
+  </rec>
+  <rec type="FACTION_ARRAY">
+   <xml_include path="factions/quebec.xml"/>
+  </rec>
+  <rec type="FACTION_ARRAY">
+   <xml_include path="factions/mexico.xml"/>
+  </rec>
+  <rec type="FACTION_ARRAY">
+   <xml_include path="factions/colombia.xml"/>
+  </rec>
+  <rec type="FACTION_ARRAY">
+   <xml_include path="factions/inuit.xml"/>
+  </rec>
+ </ary>
+ <rec type="REBEL_FACTION">
+  <xml_include path="factions/0001.xml"/>
+ </rec>
+ <rec type="REGION_MANAGER">
+  <ary type="REGIONS_ARRAY">
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/acadia.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/natives_black_hills.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/natives_nw_territory.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/new_york.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/natives_u_louisiana.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/natives_apache_territory.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/new_england.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/pennsylvania.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/carolinas.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/tejas.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/guatemala.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/windward_islands.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/natives_algonquin_territory.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/natives_wichita_territory.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/kaintuck_territory.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/georgia_usa.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/natives_sioux_territory.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/natives_cheyenne_territory.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/jamaica.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/dutch_guyana.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/natives_labrador.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/new_france.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/florida.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/new_spain.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/natives_indiana_territory.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/lower_louisiana.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/leeward_islands.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/maryland.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/natives_chihuahua.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/new_andalusia.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/natives_ohio_territory.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/french_guyana.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/maine.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/new_grenada.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/cuba.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/newfoundland.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/bahamas.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/curacao.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/natives_chickasaw_territory.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/iroquois_territory.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/natives_ruperts_land.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/ontario.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/panama.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/trinidad_tobago.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/natives_huron_territory.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/natives_michigan_territory.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/new_mexico.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/cherokee_territory.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/virginia.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/hispaniola.xml"/>
+   </rec>
+  </ary>
+ </rec>
+ <no/>
+ <ary type="SPYING_ARRAY">
+  <rec type="SPYING_ARRAY">
+   <s>cherokee_playable</s>
+   <rec type="CAMPAIGN_SPYING">
+    <ary type="ARMY_DATA" version="0"/>
+    <ary type="NAVY_DATA" version="0"/>
+    <ary type="REGION_SLOT_DATA" version="0"/>
+    <ary type="FORT_DATA" version="0"/>
+    <ary type="SETTLEMENT_DATA" version="0"/>
+   </rec>
+  </rec>
+  <rec type="SPYING_ARRAY">
+   <s>iroquoi_playable</s>
+   <rec type="CAMPAIGN_SPYING">
+    <ary type="ARMY_DATA" version="0"/>
+    <ary type="NAVY_DATA" version="0"/>
+    <ary type="REGION_SLOT_DATA" version="0"/>
+    <ary type="FORT_DATA" version="0"/>
+    <ary type="SETTLEMENT_DATA" version="0"/>
+   </rec>
+  </rec>
+  <rec type="SPYING_ARRAY">
+   <s>huron_playable</s>
+   <rec type="CAMPAIGN_SPYING">
+    <ary type="ARMY_DATA" version="0"/>
+    <ary type="NAVY_DATA" version="0"/>
+    <ary type="REGION_SLOT_DATA" version="0"/>
+    <ary type="FORT_DATA" version="0"/>
+    <ary type="SETTLEMENT_DATA" version="0"/>
+   </rec>
+  </rec>
+  <rec type="SPYING_ARRAY">
+   <s>plains_playable</s>
+   <rec type="CAMPAIGN_SPYING">
+    <ary type="ARMY_DATA" version="0"/>
+    <ary type="NAVY_DATA" version="0"/>
+    <ary type="REGION_SLOT_DATA" version="0"/>
+    <ary type="FORT_DATA" version="0"/>
+    <ary type="SETTLEMENT_DATA" version="0"/>
+   </rec>
+  </rec>
+  <rec type="SPYING_ARRAY">
+   <s>pueblo_playable</s>
+   <rec type="CAMPAIGN_SPYING">
+    <ary type="ARMY_DATA" version="0"/>
+    <ary type="NAVY_DATA" version="0"/>
+    <ary type="REGION_SLOT_DATA" version="0"/>
+    <ary type="FORT_DATA" version="0"/>
+    <ary type="SETTLEMENT_DATA" version="0"/>
+   </rec>
+  </rec>
+  <rec type="SPYING_ARRAY">
+   <s>united_states</s>
+   <rec type="CAMPAIGN_SPYING">
+    <ary type="ARMY_DATA" version="0"/>
+    <ary type="NAVY_DATA" version="0"/>
+    <ary type="REGION_SLOT_DATA" version="0"/>
+    <ary type="FORT_DATA" version="0"/>
+    <ary type="SETTLEMENT_DATA" version="0"/>
+   </rec>
+  </rec>
+  <rec type="SPYING_ARRAY">
+   <s>spain</s>
+   <rec type="CAMPAIGN_SPYING">
+    <ary type="ARMY_DATA" version="0"/>
+    <ary type="NAVY_DATA" version="0"/>
+    <ary type="REGION_SLOT_DATA" version="0"/>
+    <ary type="FORT_DATA" version="0"/>
+    <ary type="SETTLEMENT_DATA" version="0"/>
+   </rec>
+  </rec>
+  <rec type="SPYING_ARRAY">
+   <s>france</s>
+   <rec type="CAMPAIGN_SPYING">
+    <ary type="ARMY_DATA" version="0"/>
+    <ary type="NAVY_DATA" version="0"/>
+    <ary type="REGION_SLOT_DATA" version="0"/>
+    <ary type="FORT_DATA" version="0"/>
+    <ary type="SETTLEMENT_DATA" version="0"/>
+   </rec>
+  </rec>
+  <rec type="SPYING_ARRAY">
+   <s>britain</s>
+   <rec type="CAMPAIGN_SPYING">
+    <ary type="ARMY_DATA" version="0"/>
+    <ary type="NAVY_DATA" version="0"/>
+    <ary type="REGION_SLOT_DATA" version="0"/>
+    <ary type="FORT_DATA" version="0"/>
+    <ary type="SETTLEMENT_DATA" version="0"/>
+   </rec>
+  </rec>
+  <rec type="SPYING_ARRAY">
+   <s>netherlands</s>
+   <rec type="CAMPAIGN_SPYING">
+    <ary type="ARMY_DATA" version="0"/>
+    <ary type="NAVY_DATA" version="0"/>
+    <ary type="REGION_SLOT_DATA" version="0"/>
+    <ary type="FORT_DATA" version="0"/>
+    <ary type="SETTLEMENT_DATA" version="0"/>
+   </rec>
+  </rec>
+  <rec type="SPYING_ARRAY">
+   <s>quebec</s>
+   <rec type="CAMPAIGN_SPYING">
+    <ary type="ARMY_DATA" version="0"/>
+    <ary type="NAVY_DATA" version="0"/>
+    <ary type="REGION_SLOT_DATA" version="0"/>
+    <ary type="FORT_DATA" version="0"/>
+    <ary type="SETTLEMENT_DATA" version="0"/>
+   </rec>
+  </rec>
+  <rec type="SPYING_ARRAY">
+   <s>mexico</s>
+   <rec type="CAMPAIGN_SPYING">
+    <ary type="ARMY_DATA" version="0"/>
+    <ary type="NAVY_DATA" version="0"/>
+    <ary type="REGION_SLOT_DATA" version="0"/>
+    <ary type="FORT_DATA" version="0"/>
+    <ary type="SETTLEMENT_DATA" version="0"/>
+   </rec>
+  </rec>
+  <rec type="SPYING_ARRAY">
+   <s>colombia</s>
+   <rec type="CAMPAIGN_SPYING">
+    <ary type="ARMY_DATA" version="0"/>
+    <ary type="NAVY_DATA" version="0"/>
+    <ary type="REGION_SLOT_DATA" version="0"/>
+    <ary type="FORT_DATA" version="0"/>
+    <ary type="SETTLEMENT_DATA" version="0"/>
+   </rec>
+  </rec>
+  <rec type="SPYING_ARRAY">
+   <s>inuit</s>
+   <rec type="CAMPAIGN_SPYING">
+    <ary type="ARMY_DATA" version="0"/>
+    <ary type="NAVY_DATA" version="0"/>
+    <ary type="REGION_SLOT_DATA" version="0"/>
+    <ary type="FORT_DATA" version="0"/>
+    <ary type="SETTLEMENT_DATA" version="0"/>
+   </rec>
+  </rec>
+ </ary>
+ <rec type="REBEL_SPYING">
+  <rec type="CAMPAIGN_SPYING">
+   <ary type="ARMY_DATA" version="0"/>
+   <ary type="NAVY_DATA" version="0"/>
+   <ary type="REGION_SLOT_DATA" version="0"/>
+   <ary type="FORT_DATA" version="0"/>
+   <ary type="SETTLEMENT_DATA" version="0"/>
+  </rec>
+ </rec>
+</rec>

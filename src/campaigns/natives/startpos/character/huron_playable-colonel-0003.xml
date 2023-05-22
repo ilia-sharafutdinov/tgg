@@ -1,0 +1,185 @@
+<?xml version="1.0"?>
+<rec type="CHARACTER_ARRAY">
+ <rec type="CHARACTER">
+  <rec type="LOCOMOTABLE">
+   <v2x x="-624.0838623046875" y="296.9313049316406"/>
+   <v2x x="-624.0838623046875" y="296.9313049316406"/>
+   <flt>3.1415927410125732</flt><!-- Character Facing Direction -->
+   <flt>3.1415927410125732</flt><!-- Character Facing Direction -->
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <i>25</i><!-- Movement Points Left -->
+   <i>24</i><!-- Movement Points Total -->
+   <no/>
+   <i>0</i>
+   <i>0</i>
+   <angle>0.0</angle>
+   <u>12</u>
+   <u>0</u>
+   <flt>0.0</flt>
+  </rec>
+  <rec type="CHARACTER_DETAILS">
+   <traits/>
+   <loc>names_name_names_native_americanTiyanoga</loc>
+   <loc/>
+   <loc/>
+   <s/><!-- Head Of State -->
+   <date>summer 1751</date>
+   <date/>
+   <i>0</i>
+   <portrait_details/>
+   <s>huron_playable</s>
+   <u>360640616</u><!-- Character ID -->
+   <agent_ancillaries/>
+   <agent_attributes>
+    command_land=0
+    command_sea=-1
+    duelling_pistols=-1
+    duelling_swords=-1
+    management=-1
+    subterfuge=-1
+    research=-1
+    zeal=-1
+    land_defence_engineering=-1
+    land_siege_engineering=-1
+    morale_land=-1
+    morale_sea=-1
+    movement_points_land=-1
+    trade=-1
+   </agent_attributes>
+   <ary type="AgentAbilities">
+    <agent_ability ability="can_assassinate" level="-1" attribute=""/>
+    <agent_ability ability="can_convert" level="-1" attribute=""/>
+    <agent_ability ability="can_build_religious" level="-1" attribute=""/>
+    <agent_ability ability="can_build_fort" level="-1" attribute=""/>
+    <agent_ability ability="can_sabotage" level="-1" attribute=""/>
+    <agent_ability ability="can_spy" level="-1" attribute=""/>
+    <agent_ability ability="can_duel" level="-1" attribute=""/>
+    <agent_ability ability="can_receive_duel" level="-1" attribute=""/>
+    <agent_ability ability="can_research" level="-1" attribute=""/>
+    <agent_ability ability="can_attack_land" level="1" attribute="command_land"/>
+    <agent_ability ability="can_attack_naval" level="-1" attribute=""/>
+    <agent_ability ability="can_sabotage_army" level="-1" attribute=""/>
+   </ary>
+   <agent_attribute_bonuses>
+    dummy=0
+   </agent_attribute_bonuses>
+   <no/>
+   <loc>agent_culture_details_onscreen_name_coloneltribal_playable</loc>
+  </rec>
+  <i>360640616</i><!-- Character ID -->
+  <s>colonel</s><!-- Character Type -->
+  <u>360642816</u><!-- Army ID -->
+  <u>360642024</u><!-- Unit ID -->
+  <u>0</u>
+  <u>0</u><!-- Character In Building Slot ID -->
+  <u>0</u><!-- Cabinet ID -->
+  <no/>
+  <no/><!-- Government Opposition -->
+  <v2x_ary>
+   -618.2672500610352,295.0
+   -618.7082901000977,295.0990791320801
+   -618.7647094726562,295.23529052734375
+   -619.0,295.33274936676025
+   -619.2352905273438,295.23529052734375
+   -619.2420444488525,295.21898555755615
+   -620.0,295.3892593383789
+   -620.0,295.57402420043945
+   -621.4090518951416,295.6940383911133
+   -621.7504949569702,296.0
+   -622.0,296.22357749938965
+   -622.5771503448486,296.7407512664795
+   -622.3865966796875,296.9313049316406
+   -622.9347057342529,297.47941398620605
+   -623.1522569656372,298.0
+   -623.495418548584,298.82116317749023
+   -624.0,299.3526725769043
+   -624.4092664718628,299.78378105163574
+   -624.4266014099121,300.0
+   -624.5869493484497,302.0
+   -624.6213512420654,302.0
+   -624.6393709182739,302.0
+   -624.8333168029785,302.8712406158447
+   -624.7799825668335,303.0
+   -624.8444242477417,303.1555757522583
+   -624.901912689209,303.17938804626465
+   -625.0,303.6200170516968
+   -625.5364360809326,303.45946407318115
+   -626.0,303.32072162628174
+   -626.9622411727905,302.9622411727905
+   -627.0534763336182,302.71734619140625
+   -628.0,302.32528591156006
+   -628.0,302.0
+   -628.3252859115601,302.0
+   -628.3549919128418,301.92828369140625
+   -629.6638641357422,301.6638641357422
+   -629.9806509017944,300.0957794189453
+   -630.0,300.08776473999023
+   -630.0,300.0
+   -630.0877647399902,300.0
+   -630.501974105835,299.0
+   -630.4700746536255,298.92298793792725
+   -630.7942876815796,298.7942876815796
+   -631.1095905303955,298.0
+   -631.4299993515015,297.0
+   -631.1095905303955,296.0
+   -630.7942876815796,295.2057123184204
+   -630.4700746536255,295.07701206207275
+   -630.501974105835,295.0
+   -630.0877647399902,294.0
+   -630.0,294.0
+   -630.0,293.91223526000977
+   -629.9806509017944,293.9042205810547
+   -629.6638641357422,292.3361358642578
+   -628.4912958145142,292.09925174713135
+   -628.4501848220825,292.0
+   -628.3183288574219,291.6816711425781
+   -628.0,291.5498151779175
+   -627.1263370513916,291.1879358291626
+   -627.0404462814331,290.9595537185669
+   -626.0,290.56825828552246
+   -625.4098567962646,290.3981819152832
+   -625.0247049331665,290.2871837615967
+   -625.0,290.2800636291504
+   -624.0,290.56825828552246
+   -623.8979167938232,290.606650352478
+   -623.0,290.34172439575195
+   -622.0,290.63676929473877
+   -621.003942489624,291.003942489624
+   -620.9138402938843,291.24836921691895
+   -620.0,291.6268901824951
+   -619.7361707687378,291.7361707687378
+   -619.6268901824951,292.0
+   -619.2856273651123,292.8238887786865
+   -618.9504928588867,292.9504928588867
+   -618.7139720916748,293.5765895843506
+   -619.0515327453613,293.8987817764282
+   -619.3386535644531,294.0
+   -618.5782442092896,294.0
+   -618.5540199279785,294.0
+  </v2x_ary>
+  <rec type="LINE_OF_SIGHT">
+   <yes/>
+   <v2 x="-635.0" y="286.25"/>
+   <v2 x="-613.75" y="307.5"/>
+   <xml_include path="quadtree/huron_playable-colonel-0003.xml"/>
+  </rec>
+  <no/>
+  <u>0</u>
+  <no/>
+  <flt>10.0</flt><!-- 10 - Land Leader / 15 - Navy Leader -->
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <no/>
+  <no/>
+  <u>0</u>
+  <no/>
+  <u>0</u>
+  <no/>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+ </rec>
+</rec>

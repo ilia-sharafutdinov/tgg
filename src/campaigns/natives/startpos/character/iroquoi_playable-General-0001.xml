@@ -1,0 +1,140 @@
+<?xml version="1.0"?>
+<rec type="CHARACTER_ARRAY">
+ <rec type="CHARACTER">
+  <rec type="LOCOMOTABLE">
+   <v2x x="-562.0" y="292.0"/>
+   <v2x x="-562.0" y="292.0"/>
+   <flt>3.1415927410125732</flt><!-- Character Facing Direction -->
+   <flt>3.1415927410125732</flt><!-- Character Facing Direction -->
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <i>26</i><!-- Movement Points Left -->
+   <i>24</i><!-- Movement Points Total -->
+   <no/>
+   <i>0</i>
+   <i>0</i>
+   <angle>0.0</angle>
+   <u>12</u>
+   <u>0</u>
+   <flt>0.0</flt>
+  </rec>
+  <rec type="CHARACTER_DETAILS">
+   <traits>
+    C_Tribal_General_Iroquois=2
+    C_Tribal_General_of_Cavalry=4
+    C_Tribal_General_Defender_Good=12
+   </traits>
+   <loc>names_name_names_native_americanMahaska</loc>
+   <loc/>
+   <loc/>
+   <s/><!-- Head Of State -->
+   <date>summer 1742</date>
+   <date/>
+   <i>0</i>
+   <portrait_details card="ui/portraits/tribal/Cards/general/young/022.tga" info="ui/portraits/tribal/Info/general/young/022.jpg" number="22"/>
+   <s>iroquoi_playable</s>
+   <u>360579768</u><!-- Character ID -->
+   <agent_ancillaries>
+    Anc_Tribal_Horse
+   </agent_ancillaries>
+   <agent_attributes>
+    command_land=2
+    command_sea=-1
+    duelling_pistols=-1
+    duelling_swords=-1
+    management=-1
+    subterfuge=-1
+    research=-1
+    zeal=-1
+    land_defence_engineering=-1
+    land_siege_engineering=-1
+    morale_land=1
+    morale_sea=-1
+    movement_points_land=1
+    trade=-1
+   </agent_attributes>
+   <ary type="AgentAbilities">
+    <agent_ability ability="can_assassinate" level="-1" attribute=""/>
+    <agent_ability ability="can_convert" level="-1" attribute=""/>
+    <agent_ability ability="can_build_religious" level="-1" attribute=""/>
+    <agent_ability ability="can_build_fort" level="1" attribute="command_land"/>
+    <agent_ability ability="can_sabotage" level="-1" attribute=""/>
+    <agent_ability ability="can_spy" level="-1" attribute=""/>
+    <agent_ability ability="can_duel" level="-1" attribute=""/>
+    <agent_ability ability="can_receive_duel" level="-1" attribute=""/>
+    <agent_ability ability="can_research" level="-1" attribute=""/>
+    <agent_ability ability="can_attack_land" level="1" attribute="command_land"/>
+    <agent_ability ability="can_attack_naval" level="-1" attribute=""/>
+    <agent_ability ability="can_sabotage_army" level="-1" attribute=""/>
+   </ary>
+   <agent_attribute_bonuses>
+    dummy=0
+   </agent_attribute_bonuses>
+   <no/>
+   <loc>agent_culture_details_onscreen_name_Generaltribal_playable</loc>
+  </rec>
+  <i>360579768</i><!-- Character ID -->
+  <s>General</s><!-- Character Type -->
+  <u>360583536</u><!-- Army ID -->
+  <u>360583936</u><!-- Unit ID -->
+  <u>0</u>
+  <u>0</u><!-- Character In Building Slot ID -->
+  <u>0</u><!-- Cabinet ID -->
+  <no/>
+  <no/><!-- Government Opposition -->
+  <v2x_ary>
+   -558.3744678497314,294.69962215423584
+   -558.3961353302002,295.6038646697998
+   -560.0,296.0
+   -561.0,296.0
+   -562.0,295.5016803741455
+   -562.562216758728,295.1027021408081
+   -562.6603593826294,295.3396406173706
+   -563.0,295.4803237915039
+   -563.3396406173706,295.3396406173706
+   -563.4803237915039,295.0
+   -563.4732265472412,294.98286533355713
+   -562.8921375274658,294.8558282852173
+   -562.6053628921509,294.79313373565674
+   -562.5377588272095,294.7783546447754
+   -562.516695022583,294.75641536712646
+   -562.3832988739014,294.0
+   -562.3575839996338,293.85418701171875
+   -564.0,292.77458572387695
+   -564.0,292.0
+   -564.0,290.0
+   -562.0,290.0
+   -561.1975164413452,290.0
+   -560.7051286697388,291.20243644714355
+   -560.0,291.80421257019043
+   -559.7705869674683,292.0
+   -559.2956638336182,292.405312538147
+   -559.362229347229,292.8932809829712
+   -558.7885150909424,294.0
+   -558.5375499725342,294.48412227630615
+  </v2x_ary>
+  <rec type="LINE_OF_SIGHT">
+   <yes/>
+   <v2 x="-572.5" y="281.25"/>
+   <v2 x="-551.25" y="302.5"/>
+   <xml_include path="quadtree/iroquoi_playable-General-0001.xml"/>
+  </rec>
+  <no/>
+  <u>0</u>
+  <no/>
+  <flt>10.0</flt><!-- 10 - Land Leader / 15 - Navy Leader -->
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <yes/>
+  <no/>
+  <u>0</u>
+  <no/>
+  <u>0</u>
+  <no/>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+ </rec>
+</rec>

@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<rec type="SETTLEMENT">
+ <rec type="SIEGEABLE_GARRISON_RESIDENCE">
+  <garrison_residence>360709424</garrison_residence><!-- Faction ID -->
+  <u>361386856</u><!-- Building Slot ID -->
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <i>0</i>
+  <no/>
+  <no/>
+  <no/>
+  <v2x x="-700.5499877929688" y="240.99996948242188"/>
+  <u>360735536</u><!-- Army ID -->
+  <u4_ary/>
+  <u4_ary/><!-- Character ID Of Garrison -->
+  <rec type="LINE_OF_SIGHT">
+   <yes/>
+   <v2 x="-706.25" y="235.0"/>
+   <v2 x="-695.0" y="246.25"/>
+   <xml_include path="quadtree/settlement-natives_wichita_territory-wichita_falls-0001.xml"/>
+  </rec>
+  <no/>
+  <ary type="FORTIFICATIONS_BLOCK"/>
+ </rec>
+ <loc>start_pos_settlements_onscreen_name_settlement:natives_wichita_territory:wichita_falls-1691733619</loc>
+ <i>1</i>
+ <s>settlement:natives_wichita_territory:wichita_falls</s><!-- DB Table Campaign_map_settlements -->
+ <i>361386856</i><!-- Settlement ID -->
+ <s>settlement:natives_wichita_territory:wichita_falls</s><!-- DB Table Campaign_map_settlements -->
+</rec>

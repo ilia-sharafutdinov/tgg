@@ -1,0 +1,250 @@
+<?xml version="1.0"?>
+<rec type="FACTION">
+ <ancillary_uniqueness_monitor/>
+ <rec type="CAMPAIGN_PLAYER_SETUP">
+  <victory_conditions year="0" region_count="0" prestige_victory="no" campaign_type="4 (Unplayable)"/>
+  <rec type="CAMPAIGN_PLAYER_SETUP_INGAME_MODIFIABLES">
+   <i>0</i>
+   <i>0</i>
+   <i>0</i>
+   <no/>
+  </rec>
+  <s>cherokee_playable</s>
+  <no/>
+  <yes/><!-- Playable -->
+  <no/>
+ </rec>
+ <rec type="FACTION_ECONOMICS">
+  <ary type="history">
+   <rec type="history">
+    <rec type="ECONOMICS_DATA">
+     <i4_ary>0 0 0 0 0</i4_ary>
+     <i4_ary>0 0 0</i4_ary>
+     <i4_ary>0 0 0 3000</i4_ary>
+     <i4_ary>0</i4_ary>
+     <i4_ary>0 0 0 0 0</i4_ary>
+     <i4_ary>0 0 0 0 0 0 0</i4_ary>
+    </rec>
+   </rec>
+  </ary>
+  <i>2500</i>
+  <bin6>01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01</bin6>
+  <u>0</u>
+ </rec>
+ <xml_include path="diplomacy/cherokee_playable.xml"/>
+ <rec type="ARMY_REINFORCEMENT_MANAGER">
+  <ary type="CHARACTER_REINFORCEMENTS_ARRAY"/>
+  <ary type="UNIT_REINFORCEMENTS_ARRAY"/>
+ </rec>
+ <xml_include path="government/cherokee_playable-gov_absolute_monarchy.xml"/>
+ <xml_include path="family/cherokee_playable.xml"/>
+ <rec type="CAMPAIGN_MISSION_MANAGER">
+  <no/>
+  <ary type="MISSIONS"/>
+ </rec>
+ <i>360479312</i><!-- Faction ID -->
+ <s>cherokee_playable</s><!-- Faction Name -->
+ <s>Cherokee Nations</s><!-- On Screen Name -->
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>124</u>
+  <u>2975813620</u>
+  <u2_ary>109 73 32 62 9 115 103 37 82 84 68 1 123 79 122 3 76 72 17 106 27 86 7 22 8 20 21 120 100 94 111 93 107 99 57 45 49 42 52 104 13 15 110 14 67 47 50 36 66 91 48 83 98 56 114 34 60 81 74 28 77 2 41 10 65 116 43 121 80 46 24 53 55 31 63 113 105 23 70 97 102 117 38 118 26 78 11 89 95 12 35 92 30 61 59 25 88 0 51</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>17</u>
+  <u>361764027</u>
+  <u2_ary>9 8 13 2 1 14 10 11 0 6 15 7 16 12 4 3 5</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>14</u>
+  <u>1761623060</u>
+  <u2_ary>8 4 0 9 1 13 2 6 7 3 5 11 12 10</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>3</u>
+  <u>765059330</u>
+  <u2_ary>0 1 2</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>3840117316</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>541808561</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>3135253305</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>9</u>
+  <u>2036510563</u>
+  <u2_ary>0 6 5 8 7 3 1 4 2</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>3988095110</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>393806376</u>
+  <u2_ary/>
+ </rec>
+ <yes/>
+ <rec type="LAND_UNIT_NAME_ALLOCATOR">
+  <ary type="LAND_UNIT_NAMES_MAP">
+   <xml_include path="unit_name_alloc/cherokee_playable-land-0001.xml"/>
+   <xml_include path="unit_name_alloc/cherokee_playable-land-0002.xml"/>
+   <xml_include path="unit_name_alloc/cherokee_playable-land-0003.xml"/>
+   <xml_include path="unit_name_alloc/cherokee_playable-land-0004.xml"/>
+   <xml_include path="unit_name_alloc/cherokee_playable-land-0005.xml"/>
+   <xml_include path="unit_name_alloc/cherokee_playable-land-0006.xml"/>
+   <xml_include path="unit_name_alloc/cherokee_playable-land-0007.xml"/>
+   <xml_include path="unit_name_alloc/cherokee_playable-land-0008.xml"/>
+   <xml_include path="unit_name_alloc/cherokee_playable-land-0009.xml"/>
+   <xml_include path="unit_name_alloc/cherokee_playable-land-0010.xml"/>
+   <xml_include path="unit_name_alloc/cherokee_playable-land-0011.xml"/>
+   <xml_include path="unit_name_alloc/cherokee_playable-land-0012.xml"/>
+   <xml_include path="unit_name_alloc/cherokee_playable-land-0013.xml"/>
+   <xml_include path="unit_name_alloc/cherokee_playable-land-0014.xml"/>
+   <xml_include path="unit_name_alloc/cherokee_playable-land-0015.xml"/>
+   <xml_include path="unit_name_alloc/cherokee_playable-land-0016.xml"/>
+   <xml_include path="unit_name_alloc/cherokee_playable-land-0017.xml"/>
+   <xml_include path="unit_name_alloc/cherokee_playable-land-0018.xml"/>
+   <xml_include path="unit_name_alloc/cherokee_playable-land-0019.xml"/>
+   <xml_include path="unit_name_alloc/cherokee_playable-land-0020.xml"/>
+   <xml_include path="unit_name_alloc/cherokee_playable-land-0021.xml"/>
+   <xml_include path="unit_name_alloc/cherokee_playable-land-0022.xml"/>
+   <xml_include path="unit_name_alloc/cherokee_playable-land-0023.xml"/>
+  </ary>
+ </rec>
+ <yes/>
+ <xml_include path="unit_name_alloc/cherokee_playable-naval-0001.xml"/>
+ <yes/><!-- True - Major, False - Minor -->
+ <ary type="CHARACTER_ARRAY">
+  <xml_include path="character/cherokee_playable-colonel-0001.xml"/>
+  <xml_include path="character/cherokee_playable-General-0001.xml"/>
+  <xml_include path="character/cherokee_playable-colonel-0002.xml"/>
+  <xml_include path="character/cherokee_playable-colonel-0003.xml"/>
+  <xml_include path="character/cherokee_playable-colonel-0004.xml"/>
+  <xml_include path="character/cherokee_playable-scout-0001.xml"/>
+  <xml_include path="character/cherokee_playable-shaman-0001.xml"/>
+  <xml_include path="character/cherokee_playable-minister-0001.xml"/>
+  <xml_include path="character/cherokee_playable-minister-0002.xml"/>
+  <xml_include path="character/cherokee_playable-minister-0003.xml"/>
+  <xml_include path="character/cherokee_playable-minister-0004.xml"/>
+  <xml_include path="character/cherokee_playable-minister-0005.xml"/>
+  <xml_include path="character/cherokee_playable-minister-0006.xml"/>
+  <xml_include path="character/cherokee_playable-minister-0007.xml"/>
+  <xml_include path="character/cherokee_playable-minister-0008.xml"/>
+  <xml_include path="character/cherokee_playable-minister-0009.xml"/>
+  <xml_include path="character/cherokee_playable-minister-0010.xml"/>
+  <xml_include path="character/cherokee_playable-minister-0011.xml"/>
+  <xml_include path="character/cherokee_playable-minister-0012.xml"/>
+  <xml_include path="character/cherokee_playable-minister-0013.xml"/>
+ </ary>
+ <xml_include path="technology/cherokee_playable-cherokee_playable.xml"/>
+ <ary type="ARMY_ARRAY">
+  <xml_include path="army/cherokee_playable-0001.xml"/>
+  <xml_include path="army/cherokee_playable-0002.xml"/>
+  <xml_include path="army/cherokee_playable-0003.xml"/>
+  <xml_include path="army/cherokee_playable-0004.xml"/>
+  <xml_include path="army/cherokee_playable-0005.xml"/>
+ </ary>
+ <ary type="MORGUE"/>
+ <u4_ary>361396432</u4_ary><!-- Governor ID For Each Theatre -->
+ <yes/>
+ <rec type="CAMPAIGN_SHROUD">
+  <xml_include path="quadtree/cherokee_playable-cherokee_playable-0001.xml"/>
+  <xml_include path="quadtree/cherokee_playable-cherokee_playable-0002.xml"/>
+  <xml_include path="quadtree/cherokee_playable-cherokee_playable-0003.xml"/>
+  <yes/>
+ </rec>
+ <s>rel_animist</s><!-- Religion -->
+ <yes/>
+ <victory_conditions year="0" region_count="0" prestige_victory="no" campaign_type="4 (Unplayable)"/>
+ <rec type="FORT_UPGRADE_MANAGER">
+  <ary type="FORT_UPGRADES_ARRAY"/>
+ </rec>
+ <rec type="FORT_UPGRADE_MANAGER">
+  <ary type="FORT_REPAIRS_ARRAY"/>
+ </rec>
+ <i>361647384</i><!-- Current Capital ID Else 0 If Faction Destroyed -->
+ <i>361647384</i><!-- Original Capital ID -->
+ <ary type="EXPOSED_CHARACTERS"/>
+ <no/>
+ <rec type="PRESTIGE">
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <u>3</u>
+  <u>0</u>
+  <u>0</u>
+  <u>2</u>
+  <u>15</u>
+ </rec>
+ <no/><!-- Emergent -->
+ <u>0</u>
+ <bool_ary>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</bool_ary>
+ <i>0</i><!-- Army Upkeep -->
+ <i>0</i><!-- Navy Upkeep -->
+ <s>NAN</s><!-- Campaign AI Manager Behaviour (patch.pack) -->
+ <s>natives</s><!-- Campaign AI Personalities (patch.pack) -->
+ <flag_and_colours path="data\ui\flags\cherokee" color1="#a54a42" color2="#ca3433" color3="#dfdcd2"/>
+ <flag_and_colours path="data\ui\flags\cherokee" color1="#a54a42" color2="#ca3433" color3="#dfdcd2"/>
+ <rec type="CAMPAIGN_BONUS_VALUES">
+  <ary type="CAMPAIGN_BONUS_VALUE_BLOCK">
+   <campaign_bonus_0 subtype="2" value="1.0" agent="Eastern_Scholar"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="rake"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="assassin"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="gentleman"/>
+   <campaign_bonus_1 subtype="38" value="-4.0"/>
+   <campaign_bonus_1 subtype="126" value="-40.0"/>
+   <campaign_bonus_14 subtype="3" value="20.0" unit_type="infantry"/>
+   <campaign_bonus_14 subtype="3" value="20.0" unit_type="cavalry"/>
+   <campaign_bonus_14 subtype="3" value="20.0" unit_type="elephants"/>
+   <campaign_bonus_14 subtype="3" value="20.0" unit_type="artillery"/>
+   <campaign_bonus_14 subtype="3" value="20.0" unit_type="dragoons"/>
+  </ary>
+ </rec>
+ <rec type="CAMPAIGN_BONUS_VALUES">
+  <ary type="CAMPAIGN_BONUS_VALUE_BLOCK">
+   <campaign_bonus_0 subtype="2" value="1.0" agent="Eastern_Scholar"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="rake"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="assassin"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="gentleman"/>
+   <campaign_bonus_1 subtype="38" value="-4.0"/>
+   <campaign_bonus_1 subtype="126" value="-40.0"/>
+   <campaign_bonus_14 subtype="3" value="20.0" unit_type="infantry"/>
+   <campaign_bonus_14 subtype="3" value="20.0" unit_type="cavalry"/>
+   <campaign_bonus_14 subtype="3" value="20.0" unit_type="elephants"/>
+   <campaign_bonus_14 subtype="3" value="20.0" unit_type="artillery"/>
+   <campaign_bonus_14 subtype="3" value="20.0" unit_type="dragoons"/>
+  </ary>
+ </rec>
+ <i>0</i><!-- Protectorate ID -->
+ <no/>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <no/>
+ <yes/>
+ <no/>
+ <i>3</i>
+ <i>0</i>
+ <i>2</i>
+ <i>0</i>
+ <no/>
+ <no/>
+ <u>0</u>
+ <no/>
+ <no/>
+</rec>

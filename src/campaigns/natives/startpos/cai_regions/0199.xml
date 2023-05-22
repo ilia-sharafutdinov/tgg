@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<rec type="CAI_WORLD_REGIONS">
+ <owned_indirect>1496</owned_indirect><!-- CAI_WORLD_REGIONS = Settlement AI ID. CAI_WORLD_REGION_SLOTS = Region AI ID. CAI_WORLD_CHARACTERS = Faction AI ID -->
+ <rec type="CAI_BDI_COMPONENT_PROPERTY_SET">
+  <u>0</u>
+ </rec>
+ <u>863</u><!-- Region AI ID -->
+ <flt>100.0</flt>
+ <flt>100.0</flt>
+ <flt>0.0</flt>
+ <flt>100.0</flt>
+ <u>1</u>
+ <no/>
+ <u4_ary/>
+ <u4_ary>3268 0 4292 0 5058 0 5065 0 5110 0 5477 1 7771 0 7907 0 7918 0 7919 0 7934 0 8604 3 8864 0 9124 0 9141 0 8866 1 9226 0 9259 0 9260 0 9261 0 9262 0 9263 0 8893 1 9228 1 9464 0 8886 1 10898 0 12287 0 12331 0 13179 0 13250 0 13755 0 13759 1 15268 0</u4_ary><!-- BDI Information -->
+ <u>0</u>
+ <u>34</u>
+ <u4_ary/>
+ <u4_ary>3268 14 4292 15 5058 4893 5065 5066 5110 4912 5477 7771 4 7907 7509 7918 7510 7919 7526 7934 7524 8604 8864 9124 9141 7517 8866 9226 9259 9260 9261 9262 9263 8893 9228 9464 7515 8886 10898 9484 12287 11761 12331 11780 13179 12863 13250 12882 13755 13756 13759 15268 14703</u4_ary><!-- BDI Information -->
+ <ary type="CAI_BDI_COMPONENT_BLOCK_OWNS"/>
+ <u>0</u>
+ <u>0</u>
+ <u4_ary/>
+ <u4_ary/>
+ <u4_ary/>
+ <u4_ary>2905 2921 2924 2925 3268 4293 4937 5059 5058 5065 5477 7771 7773 7775 7907 7917 8622 7508 8890 8864 8603 9141 9259 9260 9261 9262 9263 9464 10898 12287 12907 13179 13755 13759 15268</u4_ary><!-- BDI Information -->
+ <no/>
+ <u>0</u>
+ <no/>
+ <rec type="CAI_REGION">
+  <u4_ary>27</u4_ary><!-- Theatre IDs -->
+  <u4_ary>864 865 866</u4_ary><!-- HLCIS IDs -->
+  <u>1496</u><!-- Settlement AI ID -->
+  <u4_ary>1498 1500 1502</u4_ary><!-- Region Slot AI IDs Of Region Slots In This Region -->
+  <flt>-500.76846</flt><!-- X Coordinate -->
+  <flt>311.71851</flt><!-- Y Coordinate -->
+  <u4_ary/>
+  <u4_ary>2620 2739 2745 2746 2747</u4_ary><!-- Boundary IDs -->
+  <yes/>
+  <u4_ary>2322</u4_ary><!-- Character Resource AI IDs -->
+  <s>maine</s><!-- Region Name -->
+  <u>361584960</u><!-- Region ID -->
+  <u>2934</u><!-- Governor AI ID -->
+  <u4_ary/><!-- Faction AI IDs -->
+ </rec>
+</rec>
