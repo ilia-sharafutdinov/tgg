@@ -71,60 +71,9 @@
      <draa/><!-- Territorial Expansion -->
      <draa/><!-- Backstabber -->
      <draa/><!-- Assassination Attempts -->
-     <draa drift="0" current="30" limit="0" active1="no"/><!-- Religion -->
+     <draa drift="0" current="15" limit="0" active1="no"/><!-- Religion -->
      <draa drift="0" current="15" limit="0" active1="no"/><!-- Government Type -->
-     <draa/><!-- Historical Friendship/Grievance -->
-     <draa/><!-- Acts Of Sabotage -->
-     <draa/><!-- Acts Of Espionage -->
-     <draa/><!-- Threats Of Attack -->
-     <draa/><!-- Respect Given To National Leader -->
-    </ary>
-    <no/><!-- Trade Agreement -->
-    <i>0</i><!-- Military Access (-1 = Infinite) -->
-    <s>neutral</s><!-- Relationship -->
-    <i>0</i><!-- Supporting Faction ID -->
-    <u>0</u><!-- 20 If Allied Then Countdown To 0 -->
-    <i>0</i><!-- Declare war -?. Victim of war +? -->
-    <i>0</i><!-- Payment To Patron -->
-    <i>0</i><!-- Income From Protectorate -->
-    <i>0</i><!-- War - Opposition Has Opposite Value -->
-    <i>0</i><!-- Declare War -?. Victim Of War +? -->
-    <u>0</u><!-- Number Of Turns At War -->
-    <u>0</u><!-- Number Of Turns At War Without Battle -->
-    <ary type="REGULAR_PAYMENTS"/>
-    <u>0</u><!-- 10 If Allied Then Countdown To 0 When No Longer Allied -->
-    <u>0</u>
-    <ary type="ALLIED_IN_WAR_AGAINST"/>
-    <u4_ary>0 0 0 0 0 0 0 0 0 0 0</u4_ary>
-    <u>0</u>
-    <s>neutral</s><!-- Current Relationship With Protectorate ?? -->
-    <no/>
-    <no/>
-    <i>45</i>
-   </rec>
-  </rec>
-  <rec type="DIPLOMACY_RELATIONSHIPS_ARRAY">
-   <rec type="DIPLOMACY_RELATIONSHIP">
-    <i>618194008</i><!-- georgia -->
-    <ary type="DIPLOMACY_RELATIONSHIP_ATTITUDES_ARRAY">
-     <draa/><!-- State Gift Received -->
-     <draa/><!-- Military Alliance +1 If Broken -2 -->
-     <draa/><!-- Alliance Broken -->
-     <draa/><!-- Alliances Not Honoured -->
-     <draa extra="15" active2="yes"/><!-- War Against Enemy And Enemy Of My Enemy (If No War Then Enemy Of My Enemy) -->
-     <draa/><!-- Trade Agreement -->
-     <draa/><!-- Trade Agreement Broken -->
-     <draa/><!-- War Dragged By Ally (-70) And/Or Declare War (-140) -->
-     <draa/><!-- Peace Treaty -->
-     <draa/><!-- Allied With Enemy -->
-     <draa extra="-15" active2="yes"/><!-- War Declared On Friend -->
-     <draa/><!-- Unreliable Ally -->
-     <draa/><!-- Territorial Expansion -->
-     <draa/><!-- Backstabber -->
-     <draa/><!-- Assassination Attempts -->
-     <draa drift="0" current="-5" limit="0" active1="no"/><!-- Religion -->
-     <draa drift="0" current="15" limit="0" active1="no"/><!-- Government Type -->
-     <draa/><!-- Historical Friendship/Grievance -->
+     <draa drift="1" current="-25" limit="0" active1="yes"/><!-- Historical Friendship/Grievance -->
      <draa/><!-- Acts Of Sabotage -->
      <draa/><!-- Acts Of Espionage -->
      <draa/><!-- Threats Of Attack -->
@@ -152,6 +101,57 @@
     <no/>
     <no/>
     <i>0</i>
+   </rec>
+  </rec>
+  <rec type="DIPLOMACY_RELATIONSHIPS_ARRAY">
+   <rec type="DIPLOMACY_RELATIONSHIP">
+    <i>618194008</i><!-- georgia -->
+    <ary type="DIPLOMACY_RELATIONSHIP_ATTITUDES_ARRAY">
+     <draa/><!-- State Gift Received -->
+     <draa/><!-- Military Alliance +1 If Broken -2 -->
+     <draa/><!-- Alliance Broken -->
+     <draa/><!-- Alliances Not Honoured -->
+     <draa extra="15" active2="yes"/><!-- War Against Enemy And Enemy Of My Enemy (If No War Then Enemy Of My Enemy) -->
+     <draa/><!-- Trade Agreement -->
+     <draa/><!-- Trade Agreement Broken -->
+     <draa/><!-- War Dragged By Ally (-70) And/Or Declare War (-140) -->
+     <draa/><!-- Peace Treaty -->
+     <draa/><!-- Allied With Enemy -->
+     <draa extra="-15" active2="yes"/><!-- War Declared On Friend -->
+     <draa/><!-- Unreliable Ally -->
+     <draa/><!-- Territorial Expansion -->
+     <draa/><!-- Backstabber -->
+     <draa/><!-- Assassination Attempts -->
+     <draa drift="0" current="-5" limit="0" active1="no"/><!-- Religion -->
+     <draa drift="0" current="15" limit="0" active1="no"/><!-- Government Type -->
+     <draa drift="1" current="-45" limit="0" active1="yes"/><!-- Historical Friendship/Grievance -->
+     <draa/><!-- Acts Of Sabotage -->
+     <draa/><!-- Acts Of Espionage -->
+     <draa/><!-- Threats Of Attack -->
+     <draa/><!-- Respect Given To National Leader -->
+    </ary>
+    <no/><!-- Trade Agreement -->
+    <i>0</i><!-- Military Access (-1 = Infinite) -->
+    <s>neutral</s><!-- Relationship -->
+    <i>0</i><!-- Supporting Faction ID -->
+    <u>0</u><!-- 20 If Allied Then Countdown To 0 -->
+    <i>0</i><!-- Declare war -?. Victim of war +? -->
+    <i>0</i><!-- Payment To Patron -->
+    <i>0</i><!-- Income From Protectorate -->
+    <i>0</i><!-- War - Opposition Has Opposite Value -->
+    <i>0</i><!-- Declare War -?. Victim Of War +? -->
+    <u>0</u><!-- Number Of Turns At War -->
+    <u>0</u><!-- Number Of Turns At War Without Battle -->
+    <ary type="REGULAR_PAYMENTS"/>
+    <u>0</u><!-- 10 If Allied Then Countdown To 0 When No Longer Allied -->
+    <u>0</u>
+    <ary type="ALLIED_IN_WAR_AGAINST"/>
+    <u4_ary>0 0 0 0 0 0 0 0 0 0 0</u4_ary>
+    <u>0</u>
+    <s>neutral</s><!-- Current Relationship With Protectorate ?? -->
+    <no/>
+    <no/>
+    <i>-85</i>
    </rec>
   </rec>
   <rec type="DIPLOMACY_RELATIONSHIPS_ARRAY">
@@ -377,9 +377,9 @@
      <draa/><!-- Territorial Expansion -->
      <draa/><!-- Backstabber -->
      <draa/><!-- Assassination Attempts -->
-     <draa drift="0" current="30" limit="0" active1="no"/><!-- Religion -->
+     <draa drift="0" current="15" limit="0" active1="no"/><!-- Religion -->
      <draa drift="0" current="15" limit="0" active1="no"/><!-- Government Type -->
-     <draa drift="1" current="-30" limit="0" active1="yes"/><!-- Historical Friendship/Grievance -->
+     <draa drift="1" current="-20" limit="0" active1="yes"/><!-- Historical Friendship/Grievance -->
      <draa/><!-- Acts Of Sabotage -->
      <draa/><!-- Acts Of Espionage -->
      <draa/><!-- Threats Of Attack -->
@@ -406,7 +406,7 @@
     <s>neutral</s><!-- Current Relationship With Protectorate ?? -->
     <no/>
     <yes/>
-    <i>45</i>
+    <i>-45</i>
    </rec>
   </rec>
   <rec type="DIPLOMACY_RELATIONSHIPS_ARRAY">
@@ -481,7 +481,7 @@
      <draa/><!-- Assassination Attempts -->
      <draa drift="0" current="-10" limit="0" active1="no"/><!-- Religion -->
      <draa drift="0" current="15" limit="0" active1="no"/><!-- Government Type -->
-     <draa/><!-- Historical Friendship/Grievance -->
+     <draa drift="1" current="-55" limit="0" active1="yes"/><!-- Historical Friendship/Grievance -->
      <draa/><!-- Acts Of Sabotage -->
      <draa/><!-- Acts Of Espionage -->
      <draa/><!-- Threats Of Attack -->
@@ -508,7 +508,7 @@
     <s>neutral</s><!-- Current Relationship With Protectorate ?? -->
     <no/>
     <no/>
-    <i>0</i>
+    <i>-45</i>
    </rec>
   </rec>
   <rec type="DIPLOMACY_RELATIONSHIPS_ARRAY">
@@ -632,9 +632,9 @@
      <draa/><!-- Territorial Expansion -->
      <draa/><!-- Backstabber -->
      <draa/><!-- Assassination Attempts -->
-     <draa drift="0" current="30" limit="0" active1="no"/><!-- Religion -->
+     <draa drift="0" current="15" limit="0" active1="no"/><!-- Religion -->
      <draa drift="0" current="15" limit="0" active1="no"/><!-- Government Type -->
-     <draa drift="1" current="-45" limit="0" active1="yes"/><!-- Historical Friendship/Grievance -->
+     <draa drift="1" current="-30" limit="0" active1="yes"/><!-- Historical Friendship/Grievance -->
      <draa/><!-- Acts Of Sabotage -->
      <draa/><!-- Acts Of Espionage -->
      <draa/><!-- Threats Of Attack -->
@@ -887,7 +887,7 @@
      <draa/><!-- Territorial Expansion -->
      <draa/><!-- Backstabber -->
      <draa/><!-- Assassination Attempts -->
-     <draa drift="0" current="30" limit="0" active1="no"/><!-- Religion -->
+     <draa drift="0" current="15" limit="0" active1="no"/><!-- Religion -->
      <draa drift="0" current="15" limit="0" active1="no"/><!-- Government Type -->
      <draa/><!-- Historical Friendship/Grievance -->
      <draa/><!-- Acts Of Sabotage -->
@@ -916,7 +916,7 @@
     <s>neutral</s><!-- Current Relationship With Protectorate ?? -->
     <no/>
     <no/>
-    <i>45</i>
+    <i>0</i>
    </rec>
   </rec>
   <rec type="DIPLOMACY_RELATIONSHIPS_ARRAY">
@@ -1193,9 +1193,9 @@
      <draa/><!-- Territorial Expansion -->
      <draa/><!-- Backstabber -->
      <draa/><!-- Assassination Attempts -->
-     <draa drift="0" current="30" limit="0" active1="no"/><!-- Religion -->
+     <draa drift="0" current="-15" limit="0" active1="no"/><!-- Religion -->
      <draa drift="0" current="15" limit="0" active1="no"/><!-- Government Type -->
-     <draa drift="1" current="-90" limit="0" active1="yes"/><!-- Historical Friendship/Grievance -->
+     <draa drift="1" current="-45" limit="0" active1="yes"/><!-- Historical Friendship/Grievance -->
      <draa/><!-- Acts Of Sabotage -->
      <draa/><!-- Acts Of Espionage -->
      <draa/><!-- Threats Of Attack -->
@@ -1501,7 +1501,7 @@
      <draa/><!-- Assassination Attempts -->
      <draa drift="0" current="-5" limit="0" active1="no"/><!-- Religion -->
      <draa drift="0" current="15" limit="0" active1="no"/><!-- Government Type -->
-     <draa/><!-- Historical Friendship/Grievance -->
+     <draa drift="1" current="-55" limit="0" active1="yes"/><!-- Historical Friendship/Grievance -->
      <draa/><!-- Acts Of Sabotage -->
      <draa/><!-- Acts Of Espionage -->
      <draa/><!-- Threats Of Attack -->
@@ -1528,7 +1528,7 @@
     <s>neutral</s><!-- Current Relationship With Protectorate ?? -->
     <no/>
     <no/>
-    <i>0</i>
+    <i>-85</i>
    </rec>
   </rec>
   <rec type="DIPLOMACY_RELATIONSHIPS_ARRAY">
@@ -2009,9 +2009,9 @@
      <draa/><!-- Territorial Expansion -->
      <draa/><!-- Backstabber -->
      <draa/><!-- Assassination Attempts -->
-     <draa drift="0" current="30" limit="0" active1="no"/><!-- Religion -->
+     <draa drift="0" current="15" limit="0" active1="no"/><!-- Religion -->
      <draa drift="0" current="15" limit="0" active1="no"/><!-- Government Type -->
-     <draa drift="1" current="-45" limit="0" active1="yes"/><!-- Historical Friendship/Grievance -->
+     <draa drift="1" current="-30" limit="0" active1="yes"/><!-- Historical Friendship/Grievance -->
      <draa/><!-- Acts Of Sabotage -->
      <draa/><!-- Acts Of Espionage -->
      <draa/><!-- Threats Of Attack -->
@@ -2038,7 +2038,7 @@
     <s>neutral</s><!-- Current Relationship With Protectorate ?? -->
     <no/>
     <no/>
-    <i>0</i>
+    <i>-45</i>
    </rec>
   </rec>
   <rec type="DIPLOMACY_RELATIONSHIPS_ARRAY">
@@ -2060,7 +2060,7 @@
      <draa/><!-- Territorial Expansion -->
      <draa/><!-- Backstabber -->
      <draa/><!-- Assassination Attempts -->
-     <draa drift="0" current="30" limit="0" active1="no"/><!-- Religion -->
+     <draa drift="0" current="15" limit="0" active1="no"/><!-- Religion -->
      <draa drift="0" current="15" limit="0" active1="no"/><!-- Government Type -->
      <draa/><!-- Historical Friendship/Grievance -->
      <draa/><!-- Acts Of Sabotage -->
@@ -2111,9 +2111,9 @@
      <draa/><!-- Territorial Expansion -->
      <draa/><!-- Backstabber -->
      <draa/><!-- Assassination Attempts -->
-     <draa drift="0" current="30" limit="0" active1="no"/><!-- Religion -->
+     <draa drift="0" current="15" limit="0" active1="no"/><!-- Religion -->
      <draa drift="0" current="15" limit="0" active1="no"/><!-- Government Type -->
-     <draa/><!-- Historical Friendship/Grievance -->
+     <draa drift="-1" current="10" limit="0" active1="yes"/><!-- Historical Friendship/Grievance -->
      <draa/><!-- Acts Of Sabotage -->
      <draa/><!-- Acts Of Espionage -->
      <draa/><!-- Threats Of Attack -->
@@ -2140,7 +2140,7 @@
     <s>neutral</s><!-- Current Relationship With Protectorate ?? -->
     <no/>
     <no/>
-    <i>45</i>
+    <i>0</i>
    </rec>
   </rec>
   <rec type="DIPLOMACY_RELATIONSHIPS_ARRAY">
@@ -2162,7 +2162,7 @@
      <draa/><!-- Territorial Expansion -->
      <draa/><!-- Backstabber -->
      <draa/><!-- Assassination Attempts -->
-     <draa drift="0" current="30" limit="0" active1="no"/><!-- Religion -->
+     <draa drift="0" current="-15" limit="0" active1="no"/><!-- Religion -->
      <draa drift="0" current="15" limit="0" active1="no"/><!-- Government Type -->
      <draa/><!-- Historical Friendship/Grievance -->
      <draa/><!-- Acts Of Sabotage -->
@@ -2317,7 +2317,7 @@
      <draa/><!-- Assassination Attempts -->
      <draa drift="0" current="-5" limit="0" active1="no"/><!-- Religion -->
      <draa drift="0" current="-10" limit="0" active1="no"/><!-- Government Type -->
-     <draa drift="-1" current="55" limit="0" active1="yes"/><!-- Historical Friendship/Grievance -->
+     <draa drift="1" current="-65" limit="0" active1="yes"/><!-- Historical Friendship/Grievance -->
      <draa/><!-- Acts Of Sabotage -->
      <draa/><!-- Acts Of Espionage -->
      <draa/><!-- Threats Of Attack -->
@@ -2344,7 +2344,7 @@
     <s>neutral</s><!-- Current Relationship With Protectorate ?? -->
     <no/>
     <no/>
-    <i>0</i>
+    <i>-85</i>
    </rec>
   </rec>
   <rec type="DIPLOMACY_RELATIONSHIPS_ARRAY">
