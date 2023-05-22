@@ -4,27 +4,15 @@ local scripting = require "EpisodicScripting"
 local camera_pan = 0
 
 local function OnFactionTurnStart(context)
-	if conditions.TurnNumber(context) == 1 then
-		if conditions.FactionName("cherokee", context) and conditions.FactionIsHuman("cherokee", context) then
-			scripting.game_interface:trigger_custom_mission("britain_protectorate", "cherokee", "capture_city", 0, "Acadia", "", "main_mission_capture_city_text", "main_protectorate_new_spain_reward", 2000, "", context)
-		end
-	elseif conditions.TurnNumber(context) == 2 then
-		if conditions.FactionName("britain", context) and conditions.FactionIsHuman("britain", context) then
-			scripting.game_interface:trigger_custom_mission("britain_protectorate", "britain", "protectorate_region_capture", 0, "georgia_usa+cherokee_territory+new_france", "", "mission_text_text_main_protectorate_thirteen_colonies_text", "mission_text_text_main_protectorate_thirteen_colonies_reward", 0, "thirteen_colonies", context)
-		elseif conditions.FactionName("spain", context) and conditions.FactionIsHuman("spain", context) then
-			scripting.game_interface:trigger_custom_mission("spain_protectorate", "spain", "protectorate_region_capture", 0, "trinidad_tobago+tejas+curacao", "", "mission_text_text_main_protectorate_new_spain_text", "mission_text_text_main_protectorate_new_spain_reward", 0, "new_spain", context)
-		elseif conditions.FactionName("france", context) and conditions.FactionIsHuman("france", context) then
-			scripting.game_interface:trigger_custom_mission("france_protectorate", "france", "protectorate_region_capture", 0, "michigan_territory+algonquin_territory+cherokee_territory", "", "mission_text_text_main_protectorate_louisiana_text", "mission_text_text_main_protectorate_louisiana_reward", 0, "louisiana", context)
-		end
-	elseif conditions.TurnNumber(context) == 5 then
+	if conditions.TurnNumber(context) == 5 then
 		scripting.game_interface:enable_auto_generated_missions(true)
 	end
-	
-	if conditions.FactionName("britain", context) and not conditions.FactionIsHuman("britain", context) then
+
+	if conditions.FactionName("britain", context) then
 		scripting.game_interface:grant_faction_handover("britain", "thirteen_colonies", 6, 15, context)
-	elseif conditions.FactionName("spain", context) and not conditions.FactionIsHuman("spain", context) then
+	elseif conditions.FactionName("spain", context) then
 		scripting.game_interface:grant_faction_handover("spain", "new_spain", 6, 15, context)
-	elseif conditions.FactionName("france", context) and not conditions.FactionIsHuman("france", context) then
+	elseif conditions.FactionName("france", context) then
 		scripting.game_interface:grant_faction_handover("france", "louisiana", 6, 15, context)
 	end
 end
@@ -891,6 +879,120 @@ end
 local function OnWorldCreated()
 	scripting.game_interface:technology_osmosis_for_playables_enable_culture("european")
 	scripting.game_interface:technology_osmosis_for_playables_enable_all()
+	-- scripting.game_interface:set_campaign_ai_force_all_factions_boardering_humans_to_have_invasion_behaviour(false)
+	-- scripting.game_interface:set_campaign_ai_force_all_factions_boardering_human_protectorates_to_have_invasion_behaviour(false)
+	-- scripting.game_interface:show_shroud(false)
+
+	scripting.game_interface:force_diplomacy("pirates", "afghanistan", "peace", false, false)
+	scripting.game_interface:force_diplomacy("pirates", "austria", "peace", false, false)
+	scripting.game_interface:force_diplomacy("pirates", "barbary_states", "peace", false, false)
+	scripting.game_interface:force_diplomacy("pirates", "bavaria", "peace", false, false)
+	scripting.game_interface:force_diplomacy("pirates", "britain", "peace", false, false)
+	scripting.game_interface:force_diplomacy("pirates", "chechenya_dagestan", "peace", false, false)
+	scripting.game_interface:force_diplomacy("pirates", "cherokee", "peace", false, false)
+	scripting.game_interface:force_diplomacy("pirates", "colombia", "peace", false, false)
+	scripting.game_interface:force_diplomacy("pirates", "courland", "peace", false, false)
+	scripting.game_interface:force_diplomacy("pirates", "crimean_khanate", "peace", false, false)
+	scripting.game_interface:force_diplomacy("pirates", "denmark", "peace", false, false)
+	scripting.game_interface:force_diplomacy("pirates", "france", "peace", false, false)
+	scripting.game_interface:force_diplomacy("pirates", "genoa", "peace", false, false)
+	scripting.game_interface:force_diplomacy("pirates", "georgia", "peace", false, false)
+	scripting.game_interface:force_diplomacy("pirates", "greece", "peace", false, false)
+	scripting.game_interface:force_diplomacy("pirates", "hannover", "peace", false, false)
+	scripting.game_interface:force_diplomacy("pirates", "hessen", "peace", false, false)
+	scripting.game_interface:force_diplomacy("pirates", "hungary", "peace", false, false)
+	scripting.game_interface:force_diplomacy("pirates", "huron", "peace", false, false)
+	scripting.game_interface:force_diplomacy("pirates", "inuit", "peace", false, false)
+	scripting.game_interface:force_diplomacy("pirates", "ireland", "peace", false, false)
+	scripting.game_interface:force_diplomacy("pirates", "iroquoi", "peace", false, false)
+	scripting.game_interface:force_diplomacy("pirates", "knights_stjohn", "peace", false, false)
+	scripting.game_interface:force_diplomacy("pirates", "louisiana", "peace", false, false)
+	scripting.game_interface:force_diplomacy("pirates", "mamelukes", "peace", false, false)
+	scripting.game_interface:force_diplomacy("pirates", "maratha", "peace", false, false)
+	scripting.game_interface:force_diplomacy("pirates", "mexico", "peace", false, false)
+	scripting.game_interface:force_diplomacy("pirates", "morocco", "peace", false, false)
+	scripting.game_interface:force_diplomacy("pirates", "mughal", "peace", false, false)
+	scripting.game_interface:force_diplomacy("pirates", "mysore", "peace", false, false)
+	scripting.game_interface:force_diplomacy("pirates", "naples_sicily", "peace", false, false)
+	scripting.game_interface:force_diplomacy("pirates", "netherlands", "peace", false, false)
+	scripting.game_interface:force_diplomacy("pirates", "new_spain", "peace", false, false)
+	scripting.game_interface:force_diplomacy("pirates", "norway", "peace", false, false)
+	scripting.game_interface:force_diplomacy("pirates", "ottomans", "peace", false, false)
+	scripting.game_interface:force_diplomacy("pirates", "papal_states", "peace", false, false)
+	scripting.game_interface:force_diplomacy("pirates", "piedmont_savoy", "peace", false, false)
+	scripting.game_interface:force_diplomacy("pirates", "plains", "peace", false, false)
+	scripting.game_interface:force_diplomacy("pirates", "poland_lithuania", "peace", false, false)
+	scripting.game_interface:force_diplomacy("pirates", "portugal", "peace", false, false)
+	scripting.game_interface:force_diplomacy("pirates", "prussia", "peace", false, false)
+	scripting.game_interface:force_diplomacy("pirates", "pueblo", "peace", false, false)
+	scripting.game_interface:force_diplomacy("pirates", "punjab", "peace", false, false)
+	scripting.game_interface:force_diplomacy("pirates", "quebec", "peace", false, false)
+	scripting.game_interface:force_diplomacy("pirates", "russia", "peace", false, false)
+	scripting.game_interface:force_diplomacy("pirates", "safavids", "peace", false, false)
+	scripting.game_interface:force_diplomacy("pirates", "saxony", "peace", false, false)
+	scripting.game_interface:force_diplomacy("pirates", "scotland", "peace", false, false)
+	scripting.game_interface:force_diplomacy("pirates", "spain", "peace", false, false)
+	scripting.game_interface:force_diplomacy("pirates", "sweden", "peace", false, false)
+	scripting.game_interface:force_diplomacy("pirates", "thirteen_colonies", "peace", false, false)
+	scripting.game_interface:force_diplomacy("pirates", "united_states", "peace", false, false)
+	scripting.game_interface:force_diplomacy("pirates", "venice", "peace", false, false)
+	scripting.game_interface:force_diplomacy("pirates", "westphalia", "peace", false, false)
+	scripting.game_interface:force_diplomacy("pirates", "wurttemberg", "peace", false, false)
+
+	scripting.game_interface:force_diplomacy("afghanistan", "pirates", "peace", false, false)
+	scripting.game_interface:force_diplomacy("austria", "pirates", "peace", false, false)
+	scripting.game_interface:force_diplomacy("barbary_states", "pirates", "peace", false, false)
+	scripting.game_interface:force_diplomacy("bavaria", "pirates", "peace", false, false)
+	scripting.game_interface:force_diplomacy("britain", "pirates", "peace", false, false)
+	scripting.game_interface:force_diplomacy("chechenya_dagestan", "pirates", "peace", false, false)
+	scripting.game_interface:force_diplomacy("colombia", "pirates", "peace", false, false)
+	scripting.game_interface:force_diplomacy("courland", "pirates", "peace", false, false)
+	scripting.game_interface:force_diplomacy("crimean_khanate", "pirates", "peace", false, false)
+	scripting.game_interface:force_diplomacy("denmark", "pirates", "peace", false, false)
+	scripting.game_interface:force_diplomacy("france", "pirates", "peace", false, false)
+	scripting.game_interface:force_diplomacy("genoa", "pirates", "peace", false, false)
+	scripting.game_interface:force_diplomacy("georgia", "pirates", "peace", false, false)
+	scripting.game_interface:force_diplomacy("greece", "pirates", "peace", false, false)
+	scripting.game_interface:force_diplomacy("hannover", "pirates", "peace", false, false)
+	scripting.game_interface:force_diplomacy("hessen", "pirates", "peace", false, false)
+	scripting.game_interface:force_diplomacy("hungary", "pirates", "peace", false, false)
+	scripting.game_interface:force_diplomacy("huron", "pirates", "peace", false, false)
+	scripting.game_interface:force_diplomacy("inuit", "pirates", "peace", false, false)
+	scripting.game_interface:force_diplomacy("ireland", "pirates", "peace", false, false)
+	scripting.game_interface:force_diplomacy("iroquoi", "pirates", "peace", false, false)
+	scripting.game_interface:force_diplomacy("knights_stjohn", "pirates", "peace", false, false)
+	scripting.game_interface:force_diplomacy("louisiana", "pirates", "peace", false, false)
+	scripting.game_interface:force_diplomacy("mamelukes", "pirates", "peace", false, false)
+	scripting.game_interface:force_diplomacy("maratha", "pirates", "peace", false, false)
+	scripting.game_interface:force_diplomacy("mexico", "pirates", "peace", false, false)
+	scripting.game_interface:force_diplomacy("morocco", "pirates", "peace", false, false)
+	scripting.game_interface:force_diplomacy("mughal", "pirates", "peace", false, false)
+	scripting.game_interface:force_diplomacy("mysore", "pirates", "peace", false, false)
+	scripting.game_interface:force_diplomacy("naples_sicily", "pirates", "peace", false, false)
+	scripting.game_interface:force_diplomacy("netherlands", "pirates", "peace", false, false)
+	scripting.game_interface:force_diplomacy("new_spain", "pirates", "peace", false, false)
+	scripting.game_interface:force_diplomacy("norway", "pirates", "peace", false, false)
+	scripting.game_interface:force_diplomacy("ottomans", "pirates", "peace", false, false)
+	scripting.game_interface:force_diplomacy("papal_states", "pirates", "peace", false, false)
+	scripting.game_interface:force_diplomacy("piedmont_savoy", "pirates", "peace", false, false)
+	scripting.game_interface:force_diplomacy("plains", "pirates", "peace", false, false)
+	scripting.game_interface:force_diplomacy("poland_lithuania", "pirates", "peace", false, false)
+	scripting.game_interface:force_diplomacy("portugal", "pirates", "peace", false, false)
+	scripting.game_interface:force_diplomacy("prussia", "pirates", "peace", false, false)
+	scripting.game_interface:force_diplomacy("pueblo", "pirates", "peace", false, false)
+	scripting.game_interface:force_diplomacy("punjab", "pirates", "peace", false, false)
+	scripting.game_interface:force_diplomacy("quebec", "pirates", "peace", false, false)
+	scripting.game_interface:force_diplomacy("russia", "pirates", "peace", false, false)
+	scripting.game_interface:force_diplomacy("safavids", "pirates", "peace", false, false)
+	scripting.game_interface:force_diplomacy("saxony", "pirates", "peace", false, false)
+	scripting.game_interface:force_diplomacy("scotland", "pirates", "peace", false, false)
+	scripting.game_interface:force_diplomacy("spain", "pirates", "peace", false, false)
+	scripting.game_interface:force_diplomacy("sweden", "pirates", "peace", false, false)
+	scripting.game_interface:force_diplomacy("thirteen_colonies", "pirates", "peace", false, false)
+	scripting.game_interface:force_diplomacy("united_states", "pirates", "peace", false, false)
+	scripting.game_interface:force_diplomacy("venice", "pirates", "peace", false, false)
+	scripting.game_interface:force_diplomacy("westphalia", "pirates", "peace", false, false)
+	scripting.game_interface:force_diplomacy("wurttemberg", "pirates", "peace", false, false)
 end
 
 
