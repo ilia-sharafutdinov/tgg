@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<rec type="REGION">
+ <s>natives_apache_territory</s><!-- Region Name -->
+ <xml_include path="population/natives_apache_territory.xml"/>
+ <traits/>
+ <rec type="REGION_SLOT_MANAGER">
+  <ary type="REGION_SLOT_ARRAY">
+   <xml_include path="region_slot/settlement-natives_apache_territory-quivira-settlement_government.xml"/>
+   <xml_include path="region_slot/settlement-natives_apache_territory-quivira-settlement_ordnance.xml"/>
+   <xml_include path="region_slot/settlement-natives_apache_territory-quivira-settlement_army-admin.xml"/>
+   <xml_include path="region_slot/town-natives_apache_territory-cibola.xml"/>
+   <xml_include path="region_slot/town-natives_apache_territory-eldorado.xml"/>
+   <xml_include path="region_slot/southern_usa-natives_apache_territory-big_bend.xml"/>
+   <xml_include path="region_slot/corn-natives_apache_territory-mesa.xml"/>
+  </ary>
+  <xml_include path="region_slot/natives_apache_territory-road.xml"/>
+  <xml_include path="region_slot/natives_apache_territory-walls.xml"/>
+ </rec>
+ <i>361290800</i><!-- Region ID -->
+ <xml_include path="region_slot/settlement-natives_apache_territory-quivira.xml"/>
+ <u>0</u>
+ <no/>
+ <no/>
+ <u>0</u><!-- Subsistence Agricultural (SA) -->
+ <u>25</u><!-- Industrial Wealth Plus (SA) -->
+ <u>25</u><!-- Industrial Wealth Plus (SA) Minus Trading Losses -->
+ <u>0</u><!-- Town Wealth -->
+ <u>0</u><!-- Minimum Town Wealth -->
+ <u>0</u><!-- Town Wealth -->
+ <i>1</i><!-- Town Monetary Growth -->
+ <u>0</u>
+ <u>0</u>
+ <no/><!-- Exempt From Tax -->
+ <u>360709424</u><!-- Controlling Faction ID -->
+ <rec type="LINE_OF_SIGHT">
+  <yes/>
+  <v2 x="-765.0" y="196.25"/>
+  <v2 x="-690.0" y="272.5"/>
+  <xml_include path="quadtree/natives_apache_territory-0001.xml"/>
+ </rec>
+ <u>361298800</u><!-- Governor ID -->
+ <s>america</s><!-- Theatre -->
+ <s>united_states</s><!-- Emergent Nation -->
+ <s>Settler Rebels</s><!-- Region Rebels -->
+ <s>sc_tribal_american</s><!-- Region Culture For Types Of Buildings -->
+ <rec type="REGION_RECRUITMENT_MANAGER">
+  <ary type="REGION_RECRUITMENT_ITEM_ARRAY"/>
+  <no/>
+  <i>361307080</i>
+ </rec>
+ <no/>
+ <u4_ary>0 0 0 0 0 0 0 0</u4_ary>
+ <u4_ary>0 0 0 0 0 0 0 0</u4_ary>
+ <u4_ary>0 0 0 0 0 0 0 0</u4_ary>
+ <u4_ary>6 17 22 3 14 14 14 8</u4_ary>
+ <bool_ary>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</bool_ary>
+ <i4_ary/>
+ <ary type="RELIGIOUS_MISSION_BUILDING_ARRAY"/>
+ <ary type="FORT_ARRAY"/>
+ <resources_array>
+  global
+  americas
+ </resources_array>
+ <s/><!-- Latest Constuction -->
+ <u>5</u><!-- One Of These 5/10/15/20/25/30/40 Amount Of Prestige When Conquered -->
+ <u>3598767917</u><!-- Region Array. From Top To Bottom. 1st 62 Regions 881206575. 2nd 15 Regions 1771634741. 3rd 32 Regions 1928099569. 4th 28 Regions 688200897. Why???? -->
+ <loc>regions_onscreen_natives_apache_territory</loc>
+ <flt>-0.0013270393246784806</flt>
+</rec>

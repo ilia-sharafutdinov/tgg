@@ -1,0 +1,225 @@
+<?xml version="1.0"?>
+<rec type="FACTION">
+ <ancillary_uniqueness_monitor/>
+ <rec type="CAMPAIGN_PLAYER_SETUP">
+  <victory_conditions year="0" region_count="0" prestige_victory="no" campaign_type="4 (Unplayable)"/>
+  <rec type="CAMPAIGN_PLAYER_SETUP_INGAME_MODIFIABLES">
+   <i>0</i>
+   <i>0</i>
+   <i>0</i>
+   <no/>
+  </rec>
+  <s>france</s>
+  <no/>
+  <yes/><!-- Playable -->
+  <no/>
+ </rec>
+ <rec type="FACTION_ECONOMICS">
+  <ary type="history">
+   <rec type="history">
+    <rec type="ECONOMICS_DATA">
+     <i4_ary>0 0 0 0 0</i4_ary>
+     <i4_ary>0 0 858</i4_ary>
+     <i4_ary>0 0 0 3000</i4_ary>
+     <i4_ary>0</i4_ary>
+     <i4_ary>0 0 0 0 0</i4_ary>
+     <i4_ary>0 3470 650 0 0 0 0</i4_ary>
+    </rec>
+   </rec>
+  </ary>
+  <i>8000</i>
+  <bin6>01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01</bin6>
+  <u>0</u>
+ </rec>
+ <xml_include path="diplomacy/france.xml"/>
+ <rec type="ARMY_REINFORCEMENT_MANAGER">
+  <ary type="CHARACTER_REINFORCEMENTS_ARRAY"/>
+  <ary type="UNIT_REINFORCEMENTS_ARRAY"/>
+ </rec>
+ <xml_include path="government/france-gov_absolute_monarchy.xml"/>
+ <xml_include path="family/france.xml"/>
+ <i>360905728</i><!-- Faction ID -->
+ <s>france</s><!-- Faction Name -->
+ <s>France</s><!-- On Screen Name -->
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>176</u>
+  <u>2624832300</u>
+  <u2_ary>55 8 84 115 156 75 142 59 112 44 117 58 45 46 125 152 74 165 64 91 22 72 151 66 99 14 50 138 31 120 23 127 114 60 53 30 122 33 35 24 131 41 13 149 68 172 11 134 43 2 42 121 29 132 146 110 48 97 19 95 102 140 27 71 98 73 130 137 63 20 17 129 67 123 139 124 96 57 37 49 92 51 77 80 163 83 81 76 65 28 147 171 12 7 47 145 0 16 26 56 148 161 101 82 38 159 126 173 54 108 87 168 6 119 111 175 118 135 94 136 106 79 170 61 155 158 18 86 1 169 133 52 144 93 100 25 3 113 34 36 15 160 78 39 70 150 21 162 141 166</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>182</u>
+  <u>852495836</u>
+  <u2_ary>45 130 61 173 126 60 24 3 53 81 15 174 172 72 149 97 46 114 165 30 2 150 69 35 167 123 101 79 25 37 133 105 34 147 12 166 59 16 91 80 161 39 77 57 141 7 143 171 93 58 175 13 179 131 23 86 153 119 65 56 6 43 74 67 94 92 148 42 156 99 168 157 54 8 127 180 26 134 82 112 66 48 27 10 38 106 118 31 120 76 78 132 70 136 5 170 19 11 163 129 135 164 125 9 73 44 14 88 108 103 144 178 29 145 4 146 142 90 96 33 115 68 84 63 109 83 117 159 140 160 36 71 52 121 107 100 18 32 28 128 89 1 51 110 111 139 41 22 64 87 155 162 95 17 21 152 181 0 177 85 124 102 98 151 122 116 50 158 176 154 62 113 47 20 49 75 137 40 169 138 55 104</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>1</u>
+  <u>3515340393</u>
+  <u2_ary>0</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>629006663</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>230</u>
+  <u>3609078087</u>
+  <u2_ary>47 149 211 27 42 118 89 43 158 114 57 144 165 111 92 142 87 167 215 152 52 80 193 173 65 78 120 138 58 199 63 83 200 126 147 220 20 137 23 61 8 210 51 28 5 179 86 90 34 151 10 188 93 53 219 115 209 104 84 212 222 109 184 196 192 100 156 205 130 135 82 48 182 216 103 105 122 102 66 127 108 221 36 72 226 49 88 128 206 168 197 223 166 176 45 12 164 62 228 71 13 140 75 70 54 163 107 160 172 148 117 73 177 225 125 129 94 170 32 201 169 50 162 97 26 77 227 59 39 29 19 31 56 106 143 91 186 134 136 0 207 146 121 213 95 68 194 187 98 123 74 155 124 191 6 79 41 161 4 183 178 133 175 21 40 64 218 14 132 116 22 214 85 1 17 131 204 119 15 25 171 7 217 113 38 203 224 208 35 2 202 67 195 141 16 190 11 112 154 198 69 9 46 60</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>22</u>
+  <u>1000533231</u>
+  <u2_ary>18 13 7 3 20 11 2 1 21 16 19 4 8 0 14 9 15 12 17 5 10 6</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>3542853259</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>39</u>
+  <u>2162897435</u>
+  <u2_ary>10 37 7 13 9 18 23 1 27 25 19 5 24 28 8 22 34 12 29 36 3 32 38 14 4 2 33 6 0 21 31 15 17 16 35 30 26 20 11</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>11</u>
+  <u>3950916449</u>
+  <u2_ary>0 7 3 4 8 9 5 2 6 10</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>6</u>
+  <u>1586988452</u>
+  <u2_ary>4 3 0 5 2</u2_ary>
+ </rec>
+ <yes/>
+ <rec type="LAND_UNIT_NAME_ALLOCATOR">
+  <ary type="LAND_UNIT_NAMES_MAP">
+   <xml_include path="unit_name_alloc/france-land-0001.xml"/>
+   <xml_include path="unit_name_alloc/france-land-0002.xml"/>
+   <xml_include path="unit_name_alloc/france-land-0003.xml"/>
+   <xml_include path="unit_name_alloc/france-land-0004.xml"/>
+   <xml_include path="unit_name_alloc/france-land-0005.xml"/>
+   <xml_include path="unit_name_alloc/france-land-0006.xml"/>
+   <xml_include path="unit_name_alloc/france-land-0007.xml"/>
+   <xml_include path="unit_name_alloc/france-land-0008.xml"/>
+   <xml_include path="unit_name_alloc/france-land-0009.xml"/>
+   <xml_include path="unit_name_alloc/france-land-0010.xml"/>
+   <xml_include path="unit_name_alloc/france-land-0011.xml"/>
+   <xml_include path="unit_name_alloc/france-land-0012.xml"/>
+   <xml_include path="unit_name_alloc/france-land-0013.xml"/>
+   <xml_include path="unit_name_alloc/france-land-0014.xml"/>
+   <xml_include path="unit_name_alloc/france-land-0015.xml"/>
+   <xml_include path="unit_name_alloc/france-land-0016.xml"/>
+   <xml_include path="unit_name_alloc/france-land-0017.xml"/>
+   <xml_include path="unit_name_alloc/france-land-0018.xml"/>
+   <xml_include path="unit_name_alloc/france-land-0019.xml"/>
+   <xml_include path="unit_name_alloc/france-land-0020.xml"/>
+   <xml_include path="unit_name_alloc/france-land-0021.xml"/>
+   <xml_include path="unit_name_alloc/france-land-0022.xml"/>
+   <xml_include path="unit_name_alloc/france-land-0023.xml"/>
+  </ary>
+ </rec>
+ <yes/>
+ <xml_include path="unit_name_alloc/france-naval-0001.xml"/>
+ <yes/><!-- True - Major, False - Minor -->
+ <ary type="CHARACTER_ARRAY">
+  <xml_include path="character/france-minister-0001.xml"/>
+  <xml_include path="character/france-minister-0002.xml"/>
+  <xml_include path="character/france-colonel-0001.xml"/>
+  <xml_include path="character/france-minister-0003.xml"/>
+  <xml_include path="character/france-minister-0004.xml"/>
+  <xml_include path="character/france-captain-0001.xml"/>
+  <xml_include path="character/france-minister-0005.xml"/>
+  <xml_include path="character/france-colonel-0002.xml"/>
+  <xml_include path="character/france-colonel-0003.xml"/>
+  <xml_include path="character/france-minister-0006.xml"/>
+  <xml_include path="character/france-minister-0007.xml"/>
+  <xml_include path="character/france-minister-0008.xml"/>
+  <xml_include path="character/france-minister-0009.xml"/>
+  <xml_include path="character/france-minister-0010.xml"/>
+  <xml_include path="character/france-minister-0011.xml"/>
+  <xml_include path="character/france-minister-0012.xml"/>
+  <xml_include path="character/france-minister-0013.xml"/>
+ </ary>
+ <xml_include path="technology/france-france.xml"/>
+ <ary type="ARMY_ARRAY">
+  <xml_include path="army/france-0001.xml"/>
+  <xml_include path="army/france-0002.xml"/>
+  <xml_include path="army/france-0003.xml"/>
+  <xml_include path="army/france-0004.xml"/>
+ </ary>
+ <ary type="MORGUE"/>
+ <u4_ary>361367312</u4_ary><!-- Governor ID For Each Theatre -->
+ <no/>
+ <s>rel_catholic</s><!-- Religion -->
+ <no/>
+ <rec type="FORT_UPGRADE_MANAGER">
+  <ary type="FORT_UPGRADES_ARRAY"/>
+ </rec>
+ <rec type="FORT_UPGRADE_MANAGER">
+  <ary type="FORT_REPAIRS_ARRAY"/>
+ </rec>
+ <i>361361984</i><!-- Current Capital ID Else 0 If Faction Destroyed -->
+ <i>361361984</i><!-- Original Capital ID -->
+ <ary type="EXPOSED_CHARACTERS"/>
+ <no/>
+ <rec type="PRESTIGE">
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <u>15</u>
+  <u>5</u>
+  <u>4</u>
+  <u>7</u>
+  <u>10</u>
+ </rec>
+ <no/><!-- Emergent -->
+ <u>0</u>
+ <bool_ary>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</bool_ary>
+ <i>3470</i><!-- Army Upkeep -->
+ <i>650</i><!-- Navy Upkeep -->
+ <s>FULL</s><!-- Campaign AI Manager Behaviour (patch.pack) -->
+ <s>mixed_progressive</s><!-- Campaign AI Personalities (patch.pack) -->
+ <flag_and_colours path="data\ui\flags\france" color1="#fffff0" color2="#e4b409" color3="#fffff0"/>
+ <flag_and_colours path="data\ui\flags\france_republic" color1="#fffff0" color2="#e4b409" color3="#fffff0"/>
+ <rec type="CAMPAIGN_BONUS_VALUES">
+  <ary type="CAMPAIGN_BONUS_VALUE_BLOCK">
+   <campaign_bonus_0 subtype="2" value="1.0" agent="Eastern_Scholar"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="rake"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="assassin"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="gentleman"/>
+   <campaign_bonus_1 subtype="32" value="1.0"/>
+   <campaign_bonus_1 subtype="62" value="-20.0"/>
+  </ary>
+ </rec>
+ <rec type="CAMPAIGN_BONUS_VALUES">
+  <ary type="CAMPAIGN_BONUS_VALUE_BLOCK">
+   <campaign_bonus_0 subtype="2" value="1.0" agent="Eastern_Scholar"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="rake"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="assassin"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="gentleman"/>
+   <campaign_bonus_1 subtype="32" value="1.0"/>
+   <campaign_bonus_1 subtype="62" value="-20.0"/>
+  </ary>
+ </rec>
+ <i>0</i><!-- Protectorate ID -->
+ <no/>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <no/>
+ <no/>
+ <no/>
+ <i>15</i>
+ <i>5</i>
+ <i>7</i>
+ <i>4</i>
+ <no/>
+ <no/>
+ <u>0</u>
+ <no/>
+ <no/>
+</rec>

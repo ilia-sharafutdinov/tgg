@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<rec type="CAI_WORLD_REGIONS">
+ <owned_indirect>1560</owned_indirect><!-- CAI_WORLD_REGIONS = Settlement AI ID. CAI_WORLD_REGION_SLOTS = Region AI ID. CAI_WORLD_CHARACTERS = Faction AI ID -->
+ <rec type="CAI_BDI_COMPONENT_PROPERTY_SET">
+  <u>0</u>
+ </rec>
+ <u>884</u><!-- Region AI ID -->
+ <flt>100.0</flt>
+ <flt>100.0</flt>
+ <flt>0.0</flt>
+ <flt>100.0</flt>
+ <u>1</u>
+ <no/>
+ <u4_ary/>
+ <u4_ary>3267 0 5080 0 5163 0 5841 0 7923 0 7974 0 7980 0 10907 0 12304 0 12392 0 13158 0 13206 0 13207 0 13256 0 13794 0 13795 0 13796 0 13797 0 13798 0 13985 0 14025 1 14373 0 14375 1 14507 0 14011 1 14678 0 14017 1 15264 0</u4_ary><!-- BDI Information -->
+ <u>0</u>
+ <u>28</u>
+ <u4_ary/>
+ <u4_ary>3267 14 5080 4893 5163 15 5841 5630 7923 7509 7974 7528 7980 4 10907 9484 12304 11761 12392 11780 13158 12863 13206 12864 13207 12880 13256 12878 13794 13795 13796 13797 13798 13985 14025 14373 14375 14507 12871 14011 14678 12869 14017 15264 14703</u4_ary><!-- BDI Information -->
+ <ary type="CAI_BDI_COMPONENT_BLOCK_OWNS"/>
+ <u>0</u>
+ <u>0</u>
+ <u4_ary/>
+ <u4_ary/>
+ <u4_ary/>
+ <u4_ary>2905 2921 2924 2925 3267 4937 5081 5080 5164 5165 5841 7923 7980 7982 7984 8622 10907 12304 13158 13205 13770 13780 12862 13794 13795 13796 13797 13798 14021 13985 14132 14133 14507 14678 15264</u4_ary><!-- BDI Information -->
+ <no/>
+ <u>0</u>
+ <no/>
+ <rec type="CAI_REGION">
+  <u4_ary>27</u4_ary><!-- Theatre IDs -->
+  <u4_ary>885 886 887 888</u4_ary><!-- HLCIS IDs -->
+  <u>1560</u><!-- Settlement AI ID -->
+  <u4_ary>1562 1564 1566 1568 1570 1572 1574</u4_ary><!-- Region Slot AI IDs Of Region Slots In This Region -->
+  <flt>-506.25916</flt><!-- X Coordinate -->
+  <flt>335.20264</flt><!-- Y Coordinate -->
+  <u4_ary/>
+  <u4_ary>2633 2741 2744 2747 2748 2755</u4_ary><!-- Boundary IDs -->
+  <yes/>
+  <u4_ary>2507 2532</u4_ary><!-- Character Resource AI IDs -->
+  <s>new_france</s><!-- Region Name -->
+  <u>361459688</u><!-- Region ID -->
+  <u>2937</u><!-- Governor AI ID -->
+  <u4_ary>922 925</u4_ary><!-- Faction AI IDs -->
+ </rec>
+</rec>

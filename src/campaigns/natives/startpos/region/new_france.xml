@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<rec type="REGION">
+ <s>new_france</s><!-- Region Name -->
+ <xml_include path="population/new_france.xml"/>
+ <traits/>
+ <rec type="REGION_SLOT_MANAGER">
+  <ary type="REGION_SLOT_ARRAY">
+   <xml_include path="region_slot/settlement-new_france-quebec_natives-settlement_government.xml"/>
+   <xml_include path="region_slot/settlement-new_france-quebec_natives-settlement_ordnance.xml"/>
+   <xml_include path="region_slot/settlement-new_france-quebec_natives-settlement_army-admin.xml"/>
+   <xml_include path="region_slot/fur-new_france-central.xml"/>
+   <xml_include path="region_slot/corn-new_france-south_river.xml"/>
+   <xml_include path="region_slot/iron-new_france-south.xml"/>
+   <xml_include path="region_slot/timber-new_france-east.xml"/>
+   <xml_include path="region_slot/port-new_france-tadoussac.xml"/>
+   <xml_include path="region_slot/town-new_france-trois_rivieres.xml"/>
+   <xml_include path="region_slot/town-new_france-gaspe.xml"/>
+  </ary>
+  <xml_include path="region_slot/new_france-road.xml"/>
+  <xml_include path="region_slot/new_france-walls.xml"/>
+ </rec>
+ <i>361459688</i><!-- Region ID -->
+ <xml_include path="region_slot/settlement-new_france-quebec_natives.xml"/>
+ <u>1</u>
+ <no/>
+ <no/>
+ <u>0</u><!-- Subsistence Agricultural (SA) -->
+ <u>1304</u><!-- Industrial Wealth Plus (SA) -->
+ <u>1304</u><!-- Industrial Wealth Plus (SA) Minus Trading Losses -->
+ <u>0</u><!-- Town Wealth -->
+ <u>0</u><!-- Minimum Town Wealth -->
+ <u>0</u><!-- Town Wealth -->
+ <i>-5</i><!-- Town Monetary Growth -->
+ <u>0</u>
+ <u>0</u>
+ <no/><!-- Exempt From Tax -->
+ <u>360961880</u><!-- Controlling Faction ID -->
+ <rec type="LINE_OF_SIGHT">
+  <yes/>
+  <v2 x="-561.25" y="310.0"/>
+  <v2 x="-446.25" y="361.25"/>
+  <xml_include path="quadtree/new_france-0001.xml"/>
+ </rec>
+ <u>361244136</u><!-- Governor ID -->
+ <s>america</s><!-- Theatre -->
+ <s>quebec</s><!-- Emergent Nation -->
+ <s>Québécois Rebels</s><!-- Region Rebels -->
+ <s>sc_european_america</s><!-- Region Culture For Types Of Buildings -->
+ <rec type="REGION_RECRUITMENT_MANAGER">
+  <ary type="REGION_RECRUITMENT_ITEM_ARRAY"/>
+  <no/>
+  <i>361469792</i>
+ </rec>
+ <no/>
+ <u4_ary>0 0 0 0 0 0 0 0</u4_ary>
+ <u4_ary>0 0 0 0 0 0 0 0</u4_ary>
+ <u4_ary>0 0 0 0 0 0 0 30</u4_ary>
+ <u4_ary>275 825 1100 138 688 688 688 412</u4_ary>
+ <bool_ary>0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0</bool_ary>
+ <i4_ary/>
+ <ary type="RELIGIOUS_MISSION_BUILDING_ARRAY"/>
+ <ary type="FORT_ARRAY"/>
+ <resources_array>
+  colonial_euro_factions
+  americas_coastal
+  americas
+  global
+  africa_west_indies
+  usa
+  displaced_scots
+ </resources_array>
+ <s/><!-- Latest Constuction -->
+ <u>10</u><!-- One Of These 5/10/15/20/25/30/40 Amount Of Prestige When Conquered -->
+ <u>4006438455</u><!-- Region Array. From Top To Bottom. 1st 62 Regions 881206575. 2nd 15 Regions 1771634741. 3rd 32 Regions 1928099569. 4th 28 Regions 688200897. Why???? -->
+ <loc>regions_onscreen_new_france</loc>
+ <flt>-0.0013270393246784806</flt>
+</rec>

@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<rec type="VICTORY_CONDITION_OPTIONS">
+ <s>iroquoi_playable</s>
+ <ary type="VICTORY_CONDITIONS_BLOCK">
+  <rec type="VICTORY_CONDITIONS_BLOCK">
+   <victory_conditions year="1823" region_count="20" prestige_victory="no" campaign_type="1 (Long)">
+    new_france
+    natives_huron_territory
+    natives_michigan_territory
+    natives_indiana_territory
+    new_york
+    maryland
+    pennsylvania
+   </victory_conditions>
+  </rec>
+  <rec type="VICTORY_CONDITIONS_BLOCK">
+   <victory_conditions year="1813" region_count="14" prestige_victory="no" campaign_type="0 (Short)">
+    ontario
+    new_york
+    natives_michigan_territory
+   </victory_conditions>
+  </rec>
+  <rec type="VICTORY_CONDITIONS_BLOCK">
+   <victory_conditions year="1799" region_count="0" prestige_victory="yes" campaign_type="2 (Prestige)">
+    ontario
+    new_york
+    natives_michigan_territory
+   </victory_conditions>
+  </rec>
+  <rec type="VICTORY_CONDITIONS_BLOCK">
+   <victory_conditions year="1828" region_count="30" prestige_victory="no" campaign_type="3 (Global Domination)">
+    iroquois_territory
+   </victory_conditions>
+  </rec>
+ </ary>
+</rec>

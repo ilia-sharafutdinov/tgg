@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<rec type="CAI_WORLD_REGIONS">
+ <owned_indirect>1380</owned_indirect><!-- CAI_WORLD_REGIONS = Settlement AI ID. CAI_WORLD_REGION_SLOTS = Region AI ID. CAI_WORLD_CHARACTERS = Faction AI ID -->
+ <rec type="CAI_BDI_COMPONENT_PROPERTY_SET">
+  <u>0</u>
+ </rec>
+ <u>824</u><!-- Region AI ID -->
+ <flt>100.0</flt>
+ <flt>100.0</flt>
+ <flt>0.0</flt>
+ <flt>100.0</flt>
+ <u>1</u>
+ <no/>
+ <u4_ary/>
+ <u4_ary>3306 0 4251 0 5852 0 5879 0 6327 0 6383 0 6448 0 6449 0 6460 0 6547 0 6582 0 6645 0 6646 0 6647 0 6648 0 6649 0 6650 0 6584 1 6610 1 6779 0 6606 1 7023 0 8483 0 9953 0 10071 0 12181 0 12182 0 13192 0 13293 0 15149 0 15150 0</u4_ary><!-- BDI Information -->
+ <u>0</u>
+ <u>31</u>
+ <u4_ary/>
+ <u4_ary>3306 14 4251 3211 5852 5630 5879 15 6327 4 6383 6210 6448 6211 6449 6227 6460 6225 6547 6582 6645 6646 6647 6648 6649 6650 6218 6584 6610 6779 6216 6606 7023 6807 8483 7509 9953 9484 10071 9503 12181 11780 12182 11761 13192 12863 13293 12882 15149 14722 15150 14703</u4_ary><!-- BDI Information -->
+ <ary type="CAI_BDI_COMPONENT_BLOCK_OWNS"/>
+ <u>0</u>
+ <u>0</u>
+ <u4_ary/>
+ <u4_ary/>
+ <u4_ary/>
+ <u4_ary>2905 2908 2922 2923 2925 3306 4252 4251 4544 4546 5852 5880 6327 6329 6332 6383 6447 6534 6536 6485 6582 6645 6646 6647 6648 6649 6650 6779 7023 8483 9953 10380 12182 13192 15150</u4_ary><!-- BDI Information -->
+ <no/>
+ <u>0</u>
+ <no/>
+ <rec type="CAI_REGION">
+  <u4_ary>27</u4_ary><!-- Theatre IDs -->
+  <u4_ary>825</u4_ary><!-- HLCIS IDs -->
+  <u>1380</u><!-- Settlement AI ID -->
+  <u4_ary>1382 1384 1386</u4_ary><!-- Region Slot AI IDs Of Region Slots In This Region -->
+  <flt>-687.59998</flt><!-- X Coordinate -->
+  <flt>309.50003</flt><!-- Y Coordinate -->
+  <u4_ary/>
+  <u4_ary>2700 2705 2714 2715 2716 2717</u4_ary><!-- Boundary IDs -->
+  <yes/>
+  <u4_ary>2189</u4_ary><!-- Character Resource AI IDs -->
+  <s>natives_sioux_territory</s><!-- Region Name -->
+  <u>361408768</u><!-- Region ID -->
+  <u>2932</u><!-- Governor AI ID -->
+  <u4_ary/><!-- Faction AI IDs -->
+ </rec>
+</rec>

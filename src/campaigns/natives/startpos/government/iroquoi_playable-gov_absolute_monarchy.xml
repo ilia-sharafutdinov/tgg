@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<rec type="GOVERNMENT">
+ <i>360547200</i><!-- Government ID -->
+ <s>gov_absolute_monarchy</s>
+ <i>0</i><!-- Government Popularity -->
+ <ary type="POSTS_ARRAY">
+  <rec type="POSTS_ARRAY">
+   <rec type="CHARACTER_POST">
+    <i>360547504</i><!-- Cabinet ID -->
+    <s>finance</s><!-- Cabinet Title -->
+    <u>361844336</u><!-- Character ID -->
+    <no/><!-- Governor -->
+    <i>360547200</i><!-- Government ID -->
+   </rec>
+  </rec>
+  <rec type="POSTS_ARRAY">
+   <rec type="CHARACTER_POST">
+    <i>360547552</i><!-- Cabinet ID -->
+    <s>faction_leader</s><!-- Cabinet Title -->
+    <u>360577608</u><!-- Character ID -->
+    <no/><!-- Governor -->
+    <i>360547200</i><!-- Government ID -->
+   </rec>
+  </rec>
+  <rec type="POSTS_ARRAY">
+   <rec type="CHARACTER_POST">
+    <i>360547600</i><!-- Cabinet ID -->
+    <s>navy</s><!-- Cabinet Title -->
+    <u>361845824</u><!-- Character ID -->
+    <no/><!-- Governor -->
+    <i>360547200</i><!-- Government ID -->
+   </rec>
+  </rec>
+  <rec type="POSTS_ARRAY">
+   <rec type="CHARACTER_POST">
+    <i>360547688</i><!-- Cabinet ID -->
+    <s>accident</s><!-- Cabinet Title -->
+    <u>361847360</u><!-- Character ID -->
+    <no/><!-- Governor -->
+    <i>360547200</i><!-- Government ID -->
+   </rec>
+  </rec>
+  <rec type="POSTS_ARRAY">
+   <rec type="CHARACTER_POST">
+    <i>360547736</i><!-- Cabinet ID -->
+    <s>justice</s><!-- Cabinet Title -->
+    <u>361848848</u><!-- Character ID -->
+    <no/><!-- Governor -->
+    <i>360547200</i><!-- Government ID -->
+   </rec>
+  </rec>
+  <rec type="POSTS_ARRAY">
+   <rec type="CHARACTER_POST">
+    <i>360547840</i><!-- Cabinet ID -->
+    <s>army</s><!-- Cabinet Title -->
+    <u>361850336</u><!-- Character ID -->
+    <no/><!-- Governor -->
+    <i>360547200</i><!-- Government ID -->
+   </rec>
+  </rec>
+  <rec type="POSTS_ARRAY">
+   <rec type="CHARACTER_POST">
+    <i>360547888</i><!-- Cabinet ID -->
+    <s>head_of_government</s><!-- Cabinet Title -->
+    <u>361851824</u><!-- Character ID -->
+    <no/><!-- Governor -->
+    <i>360547200</i><!-- Government ID -->
+   </rec>
+  </rec>
+  <rec type="POSTS_ARRAY">
+   <rec type="CHARACTER_POST">
+    <i>361377504</i><!-- Cabinet ID -->
+    <s>governor_america</s><!-- Cabinet Title -->
+    <u>361853312</u><!-- Character ID -->
+    <yes/><!-- Governor -->
+    <rec type="GOVERNORSHIP">
+     <gov_taxes level_lower="2" level_upper="2" rate_lower="50" rate_upper="50"/>
+     <i>361377552</i><!-- Governor ID -->
+     <u4_ary>361370800 361568512 361655336</u4_ary><!-- Region IDs -->
+     <u>360539352</u><!-- Faction ID -->
+     <no/>
+     <no/>
+    </rec>
+    <i>360547200</i><!-- Government ID -->
+   </rec>
+  </rec>
+ </ary>
+ <gov_absolute_monarchy/>
+</rec>

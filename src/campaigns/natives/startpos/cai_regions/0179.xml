@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<rec type="CAI_WORLD_REGIONS">
+ <owned_indirect>1262</owned_indirect><!-- CAI_WORLD_REGIONS = Settlement AI ID. CAI_WORLD_REGION_SLOTS = Region AI ID. CAI_WORLD_CHARACTERS = Faction AI ID -->
+ <rec type="CAI_BDI_COMPONENT_PROPERTY_SET">
+  <u>0</u>
+ </rec>
+ <u>773</u><!-- Region AI ID -->
+ <flt>100.0</flt>
+ <flt>100.0</flt>
+ <flt>0.0</flt>
+ <flt>100.0</flt>
+ <u>1</u>
+ <no/>
+ <u4_ary/>
+ <u4_ary>3302 0 3718 0 4094 0 4192 0 4285 0 4286 0 4372 0 4554 0 4572 0 4672 0 4673 0 4674 0 4675 0 4676 0 4803 0 4586 1 4588 1 4600 1 4859 0 4596 1 5203 0 6369 0 7077 0 8015 0 9915 0 10014 0 12446 0 12447 0 13541 0 15086 0</u4_ary><!-- BDI Information -->
+ <u>0</u>
+ <u>30</u>
+ <u4_ary/>
+ <u4_ary>3302 14 3718 4 4094 15 4192 3211 4285 3212 4286 3228 4372 3226 4554 4572 4672 4673 4674 4675 4676 4803 3219 4586 4588 4600 4859 3217 4596 5203 4893 6369 6210 7077 6807 8015 7509 9915 9484 10014 9503 12446 11780 12447 11761 13541 12863 15086 14703</u4_ary><!-- BDI Information -->
+ <ary type="CAI_BDI_COMPONENT_BLOCK_OWNS"/>
+ <u>0</u>
+ <u>0</u>
+ <u4_ary/>
+ <u4_ary/>
+ <u4_ary/>
+ <u4_ary>2908 2920 3302 3718 3720 3722 4095 4193 4192 4284 4517 4546 4481 4672 4673 4674 4675 4676 4572 4716 4803 4859 5203 5300 6369 6507 6536 7077 8015 8607 9915 10275 10298 10380 12447 13541 15086</u4_ary><!-- BDI Information -->
+ <no/>
+ <u>0</u>
+ <no/>
+ <rec type="CAI_REGION">
+  <u4_ary>27</u4_ary><!-- Theatre IDs -->
+  <u4_ary>774 775 776</u4_ary><!-- HLCIS IDs -->
+  <u>1262</u><!-- Settlement AI ID -->
+  <u4_ary>1264 1266 1268 1270</u4_ary><!-- Region Slot AI IDs Of Region Slots In This Region -->
+  <flt>-639.56494</flt><!-- X Coordinate -->
+  <flt>239.26155</flt><!-- Y Coordinate -->
+  <u4_ary/>
+  <u4_ary>2676 2689 2690 2691 2692</u4_ary><!-- Boundary IDs -->
+  <no/>
+  <u4_ary>2078</u4_ary><!-- Character Resource AI IDs -->
+  <s>natives_chickasaw_territory</s><!-- Region Name -->
+  <u>361647384</u><!-- Region ID -->
+  <u>2929</u><!-- Governor AI ID -->
+  <u4_ary>931</u4_ary><!-- Faction AI IDs -->
+ </rec>
+</rec>

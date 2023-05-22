@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<rec type="REGION">
+ <s>natives_ruperts_land</s><!-- Region Name -->
+ <xml_include path="population/natives_ruperts_land.xml"/>
+ <traits/>
+ <rec type="REGION_SLOT_MANAGER">
+  <ary type="REGION_SLOT_ARRAY">
+   <xml_include path="region_slot/settlement-natives_ruperts_land-moose_factory-settlement_minor.xml"/>
+   <xml_include path="region_slot/fur-natives_ruperts_land-albany_river.xml"/>
+   <xml_include path="region_slot/fur-natives_ruperts_land-east.xml"/>
+   <xml_include path="region_slot/corn-natives_ruperts_land-south.xml"/>
+   <xml_include path="region_slot/port-natives_ruperts_land-fort_albany.xml"/>
+   <xml_include path="region_slot/town-natives_ruperts_land-fort_rupert.xml"/>
+  </ary>
+  <xml_include path="region_slot/natives_ruperts_land-road.xml"/>
+  <xml_include path="region_slot/natives_ruperts_land-walls.xml"/>
+ </rec>
+ <i>361669040</i><!-- Region ID -->
+ <xml_include path="region_slot/settlement-natives_ruperts_land-moose_factory.xml"/>
+ <u>0</u>
+ <no/>
+ <no/>
+ <u>0</u><!-- Subsistence Agricultural (SA) -->
+ <u>954</u><!-- Industrial Wealth Plus (SA) -->
+ <u>954</u><!-- Industrial Wealth Plus (SA) Minus Trading Losses -->
+ <u>0</u><!-- Town Wealth -->
+ <u>0</u><!-- Minimum Town Wealth -->
+ <u>0</u><!-- Town Wealth -->
+ <i>-2</i><!-- Town Monetary Growth -->
+ <u>0</u>
+ <u>0</u>
+ <no/><!-- Exempt From Tax -->
+ <u>360961880</u><!-- Controlling Faction ID -->
+ <rec type="LINE_OF_SIGHT">
+  <yes/>
+  <v2 x="-697.5" y="322.5"/>
+  <v2 x="-527.5" y="415.0"/>
+  <xml_include path="quadtree/natives_ruperts_land-0001.xml"/>
+ </rec>
+ <u>361244136</u><!-- Governor ID -->
+ <s>america</s><!-- Theatre -->
+ <s>britain</s><!-- Emergent Nation -->
+ <s>Settler Rebels</s><!-- Region Rebels -->
+ <s>sc_tribal_american</s><!-- Region Culture For Types Of Buildings -->
+ <rec type="REGION_RECRUITMENT_MANAGER">
+  <ary type="REGION_RECRUITMENT_ITEM_ARRAY"/>
+  <no/>
+  <i>361680824</i>
+ </rec>
+ <no/>
+ <u4_ary>0 0 0 0 0 0 0 0</u4_ary>
+ <u4_ary>0 0 0 0 0 0 0 0</u4_ary>
+ <u4_ary>0 0 0 0 0 0 0 30</u4_ary>
+ <u4_ary>198 594 792 99 495 495 495 297</u4_ary>
+ <bool_ary>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0</bool_ary>
+ <i4_ary/>
+ <ary type="RELIGIOUS_MISSION_BUILDING_ARRAY"/>
+ <ary type="FORT_ARRAY"/>
+ <resources_array>
+  colonial_euro_factions
+  global
+  americas
+  displaced_scots
+  americas_coastal
+  usa
+  africa_west_indies
+ </resources_array>
+ <s/><!-- Latest Constuction -->
+ <u>5</u><!-- One Of These 5/10/15/20/25/30/40 Amount Of Prestige When Conquered -->
+ <u>1730183653</u><!-- Region Array. From Top To Bottom. 1st 62 Regions 881206575. 2nd 15 Regions 1771634741. 3rd 32 Regions 1928099569. 4th 28 Regions 688200897. Why???? -->
+ <loc>regions_onscreen_natives_ruperts_land</loc>
+ <flt>-0.0013270393246784806</flt>
+</rec>

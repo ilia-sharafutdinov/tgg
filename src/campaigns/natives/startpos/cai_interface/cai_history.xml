@@ -1,0 +1,502 @@
+<?xml version="1.0"?>
+<rec type="CAI_HISTORY">
+ <ary type="CAI_HISTORY_EVENTS">
+  <rec type="CAI_HISTORY_EVENTS">
+   <i>1</i>
+   <rec type="CAI_HISTORY_EVENT">
+    <i>1</i>
+    <cai_event_classes>
+     type_round
+     round_1
+     faction_all
+    </cai_event_classes>
+   </rec>
+   <rec type="CAI_HISTORY_EVENT_ROUND">
+    <u>1</u>
+   </rec>
+  </rec>
+  <rec type="CAI_HISTORY_EVENTS">
+   <i>15</i>
+   <rec type="CAI_HISTORY_EVENT">
+    <i>15</i>
+    <cai_event_classes>
+     type_invasion_requested
+     round_1
+     faction_cherokee_playable
+    </cai_event_classes>
+   </rec>
+   <rec type="CAI_HISTORY_EVENT_INVASION_REQUESTED">
+    <asc>cherokee_playable</asc>
+    <asc>kaintuck_territory, cherokee_territory, natives_chickasaw_territory</asc>
+    <asc>natives_u_louisiana</asc>
+   </rec>
+  </rec>
+  <rec type="CAI_HISTORY_EVENTS">
+   <i>15</i>
+   <rec type="CAI_HISTORY_EVENT">
+    <i>15</i>
+    <cai_event_classes>
+     type_invasion_requested
+     round_1
+     faction_cherokee_playable
+    </cai_event_classes>
+   </rec>
+   <rec type="CAI_HISTORY_EVENT_INVASION_REQUESTED">
+    <asc>cherokee_playable</asc>
+    <asc>kaintuck_territory, cherokee_territory, natives_chickasaw_territory</asc>
+    <asc>lower_louisiana</asc>
+   </rec>
+  </rec>
+  <rec type="CAI_HISTORY_EVENTS">
+   <i>15</i>
+   <rec type="CAI_HISTORY_EVENT">
+    <i>15</i>
+    <cai_event_classes>
+     type_invasion_requested
+     round_1
+     faction_cherokee_playable
+    </cai_event_classes>
+   </rec>
+   <rec type="CAI_HISTORY_EVENT_INVASION_REQUESTED">
+    <asc>cherokee_playable</asc>
+    <asc>kaintuck_territory, cherokee_territory, natives_chickasaw_territory</asc>
+    <asc>florida</asc>
+   </rec>
+  </rec>
+  <rec type="CAI_HISTORY_EVENTS">
+   <i>14</i>
+   <rec type="CAI_HISTORY_EVENT">
+    <i>14</i>
+    <cai_event_classes>
+     type_new_manager_for_faction
+     round_1
+     faction_cherokee_playable
+    </cai_event_classes>
+   </rec>
+   <rec type="CAI_HISTORY_EVENT_NEW_MANAGER_FOR_FACTION">
+    <asc>cherokee_playable</asc>
+    <i>11</i>
+   </rec>
+  </rec>
+  <rec type="CAI_HISTORY_EVENTS">
+   <i>15</i>
+   <rec type="CAI_HISTORY_EVENT">
+    <i>15</i>
+    <cai_event_classes>
+     type_invasion_requested
+     round_1
+     faction_iroquoi_playable
+    </cai_event_classes>
+   </rec>
+   <rec type="CAI_HISTORY_EVENT_INVASION_REQUESTED">
+    <asc>iroquoi_playable</asc>
+    <asc>iroquois_territory, natives_algonquin_territory, natives_ohio_territory</asc>
+    <asc>kaintuck_territory</asc>
+   </rec>
+  </rec>
+  <rec type="CAI_HISTORY_EVENTS">
+   <i>15</i>
+   <rec type="CAI_HISTORY_EVENT">
+    <i>15</i>
+    <cai_event_classes>
+     type_invasion_requested
+     round_1
+     faction_iroquoi_playable
+    </cai_event_classes>
+   </rec>
+   <rec type="CAI_HISTORY_EVENT_INVASION_REQUESTED">
+    <asc>iroquoi_playable</asc>
+    <asc>iroquois_territory, natives_algonquin_territory, natives_ohio_territory</asc>
+    <asc>natives_michigan_territory</asc>
+   </rec>
+  </rec>
+  <rec type="CAI_HISTORY_EVENTS">
+   <i>14</i>
+   <rec type="CAI_HISTORY_EVENT">
+    <i>14</i>
+    <cai_event_classes>
+     type_new_manager_for_faction
+     round_1
+     faction_iroquoi_playable
+    </cai_event_classes>
+   </rec>
+   <rec type="CAI_HISTORY_EVENT_NEW_MANAGER_FOR_FACTION">
+    <asc>iroquoi_playable</asc>
+    <i>11</i>
+   </rec>
+  </rec>
+  <rec type="CAI_HISTORY_EVENTS">
+   <i>15</i>
+   <rec type="CAI_HISTORY_EVENT">
+    <i>15</i>
+    <cai_event_classes>
+     type_invasion_requested
+     round_1
+     faction_huron_playable
+    </cai_event_classes>
+   </rec>
+   <rec type="CAI_HISTORY_EVENT_INVASION_REQUESTED">
+    <asc>huron_playable</asc>
+    <asc>natives_huron_territory, natives_michigan_territory, natives_indiana_territory</asc>
+    <asc>natives_ohio_territory</asc>
+   </rec>
+  </rec>
+  <rec type="CAI_HISTORY_EVENTS">
+   <i>14</i>
+   <rec type="CAI_HISTORY_EVENT">
+    <i>14</i>
+    <cai_event_classes>
+     type_new_manager_for_faction
+     round_1
+     faction_huron_playable
+    </cai_event_classes>
+   </rec>
+   <rec type="CAI_HISTORY_EVENT_NEW_MANAGER_FOR_FACTION">
+    <asc>huron_playable</asc>
+    <i>11</i>
+   </rec>
+  </rec>
+  <rec type="CAI_HISTORY_EVENTS">
+   <i>15</i>
+   <rec type="CAI_HISTORY_EVENT">
+    <i>15</i>
+    <cai_event_classes>
+     type_invasion_requested
+     round_1
+     faction_plains_playable
+    </cai_event_classes>
+   </rec>
+   <rec type="CAI_HISTORY_EVENT_INVASION_REQUESTED">
+    <asc>plains_playable</asc>
+    <asc>natives_sioux_territory, natives_black_hills, natives_cheyenne_territory</asc>
+    <asc>natives_u_louisiana</asc>
+   </rec>
+  </rec>
+  <rec type="CAI_HISTORY_EVENTS">
+   <i>14</i>
+   <rec type="CAI_HISTORY_EVENT">
+    <i>14</i>
+    <cai_event_classes>
+     type_new_manager_for_faction
+     round_1
+     faction_plains_playable
+    </cai_event_classes>
+   </rec>
+   <rec type="CAI_HISTORY_EVENT_NEW_MANAGER_FOR_FACTION">
+    <asc>plains_playable</asc>
+    <i>11</i>
+   </rec>
+  </rec>
+  <rec type="CAI_HISTORY_EVENTS">
+   <i>15</i>
+   <rec type="CAI_HISTORY_EVENT">
+    <i>15</i>
+    <cai_event_classes>
+     type_invasion_requested
+     round_1
+     faction_pueblo_playable
+    </cai_event_classes>
+   </rec>
+   <rec type="CAI_HISTORY_EVENT_INVASION_REQUESTED">
+    <asc>pueblo_playable</asc>
+    <asc>natives_wichita_territory, natives_apache_territory, natives_chihuahua</asc>
+    <asc>tejas</asc>
+   </rec>
+  </rec>
+  <rec type="CAI_HISTORY_EVENTS">
+   <i>15</i>
+   <rec type="CAI_HISTORY_EVENT">
+    <i>15</i>
+    <cai_event_classes>
+     type_invasion_requested
+     round_1
+     faction_pueblo_playable
+    </cai_event_classes>
+   </rec>
+   <rec type="CAI_HISTORY_EVENT_INVASION_REQUESTED">
+    <asc>pueblo_playable</asc>
+    <asc>natives_wichita_territory, natives_apache_territory, natives_chihuahua</asc>
+    <asc>new_mexico</asc>
+   </rec>
+  </rec>
+  <rec type="CAI_HISTORY_EVENTS">
+   <i>14</i>
+   <rec type="CAI_HISTORY_EVENT">
+    <i>14</i>
+    <cai_event_classes>
+     type_new_manager_for_faction
+     round_1
+     faction_pueblo_playable
+    </cai_event_classes>
+   </rec>
+   <rec type="CAI_HISTORY_EVENT_NEW_MANAGER_FOR_FACTION">
+    <asc>pueblo_playable</asc>
+    <i>11</i>
+   </rec>
+  </rec>
+  <rec type="CAI_HISTORY_EVENTS">
+   <i>15</i>
+   <rec type="CAI_HISTORY_EVENT">
+    <i>15</i>
+    <cai_event_classes>
+     type_invasion_requested
+     round_1
+     faction_united_states
+    </cai_event_classes>
+   </rec>
+   <rec type="CAI_HISTORY_EVENT_INVASION_REQUESTED">
+    <asc>united_states</asc>
+    <asc>maine, new_england, new_york, pennsylvania, maryland, virginia, carolinas, georgia_usa</asc>
+    <asc>kaintuck_territory</asc>
+   </rec>
+  </rec>
+  <rec type="CAI_HISTORY_EVENTS">
+   <i>15</i>
+   <rec type="CAI_HISTORY_EVENT">
+    <i>15</i>
+    <cai_event_classes>
+     type_invasion_requested
+     round_1
+     faction_united_states
+    </cai_event_classes>
+   </rec>
+   <rec type="CAI_HISTORY_EVENT_INVASION_REQUESTED">
+    <asc>united_states</asc>
+    <asc>maine, new_england, new_york, pennsylvania, maryland, virginia, carolinas, georgia_usa</asc>
+    <asc>natives_algonquin_territory</asc>
+   </rec>
+  </rec>
+  <rec type="CAI_HISTORY_EVENTS">
+   <i>14</i>
+   <rec type="CAI_HISTORY_EVENT">
+    <i>14</i>
+    <cai_event_classes>
+     type_new_manager_for_faction
+     round_1
+     faction_united_states
+    </cai_event_classes>
+   </rec>
+   <rec type="CAI_HISTORY_EVENT_NEW_MANAGER_FOR_FACTION">
+    <asc>united_states</asc>
+    <i>11</i>
+   </rec>
+  </rec>
+  <rec type="CAI_HISTORY_EVENTS">
+   <i>15</i>
+   <rec type="CAI_HISTORY_EVENT">
+    <i>15</i>
+    <cai_event_classes>
+     type_invasion_requested
+     round_1
+     faction_spain
+    </cai_event_classes>
+   </rec>
+   <rec type="CAI_HISTORY_EVENT_INVASION_REQUESTED">
+    <asc>spain</asc>
+    <asc>new_mexico</asc>
+    <asc>natives_chihuahua</asc>
+   </rec>
+  </rec>
+  <rec type="CAI_HISTORY_EVENTS">
+   <i>15</i>
+   <rec type="CAI_HISTORY_EVENT">
+    <i>15</i>
+    <cai_event_classes>
+     type_invasion_requested
+     round_1
+     faction_spain
+    </cai_event_classes>
+   </rec>
+   <rec type="CAI_HISTORY_EVENT_INVASION_REQUESTED">
+    <asc>spain</asc>
+    <asc>new_mexico</asc>
+    <asc>kaintuck_territory</asc>
+   </rec>
+  </rec>
+  <rec type="CAI_HISTORY_EVENTS">
+   <i>15</i>
+   <rec type="CAI_HISTORY_EVENT">
+    <i>15</i>
+    <cai_event_classes>
+     type_invasion_requested
+     round_1
+     faction_spain
+    </cai_event_classes>
+   </rec>
+   <rec type="CAI_HISTORY_EVENT_INVASION_REQUESTED">
+    <asc>spain</asc>
+    <asc>new_mexico</asc>
+    <asc>natives_wichita_territory</asc>
+   </rec>
+  </rec>
+  <rec type="CAI_HISTORY_EVENTS">
+   <i>15</i>
+   <rec type="CAI_HISTORY_EVENT">
+    <i>15</i>
+    <cai_event_classes>
+     type_invasion_requested
+     round_1
+     faction_spain
+    </cai_event_classes>
+   </rec>
+   <rec type="CAI_HISTORY_EVENT_INVASION_REQUESTED">
+    <asc>spain</asc>
+    <asc>new_mexico</asc>
+    <asc>natives_apache_territory</asc>
+   </rec>
+  </rec>
+  <rec type="CAI_HISTORY_EVENTS">
+   <i>14</i>
+   <rec type="CAI_HISTORY_EVENT">
+    <i>14</i>
+    <cai_event_classes>
+     type_new_manager_for_faction
+     round_1
+     faction_spain
+    </cai_event_classes>
+   </rec>
+   <rec type="CAI_HISTORY_EVENT_NEW_MANAGER_FOR_FACTION">
+    <asc>spain</asc>
+    <i>11</i>
+   </rec>
+  </rec>
+  <rec type="CAI_HISTORY_EVENTS">
+   <i>14</i>
+   <rec type="CAI_HISTORY_EVENT">
+    <i>14</i>
+    <cai_event_classes>
+     type_new_manager_for_faction
+     round_1
+     faction_france
+    </cai_event_classes>
+   </rec>
+   <rec type="CAI_HISTORY_EVENT_NEW_MANAGER_FOR_FACTION">
+    <asc>france</asc>
+    <i>11</i>
+   </rec>
+  </rec>
+  <rec type="CAI_HISTORY_EVENTS">
+   <i>15</i>
+   <rec type="CAI_HISTORY_EVENT">
+    <i>15</i>
+    <cai_event_classes>
+     type_invasion_requested
+     round_1
+     faction_britain
+    </cai_event_classes>
+   </rec>
+   <rec type="CAI_HISTORY_EVENT_INVASION_REQUESTED">
+    <asc>britain</asc>
+    <asc>acadia, newfoundland, natives_nw_territory, natives_ruperts_land, natives_labrador, new_france, ontario</asc>
+    <asc>natives_michigan_territory</asc>
+   </rec>
+  </rec>
+  <rec type="CAI_HISTORY_EVENTS">
+   <i>14</i>
+   <rec type="CAI_HISTORY_EVENT">
+    <i>14</i>
+    <cai_event_classes>
+     type_new_manager_for_faction
+     round_1
+     faction_britain
+    </cai_event_classes>
+   </rec>
+   <rec type="CAI_HISTORY_EVENT_NEW_MANAGER_FOR_FACTION">
+    <asc>britain</asc>
+    <i>11</i>
+   </rec>
+  </rec>
+  <rec type="CAI_HISTORY_EVENTS">
+   <i>14</i>
+   <rec type="CAI_HISTORY_EVENT">
+    <i>14</i>
+    <cai_event_classes>
+     type_new_manager_for_faction
+     round_1
+     faction_netherlands
+    </cai_event_classes>
+   </rec>
+   <rec type="CAI_HISTORY_EVENT_NEW_MANAGER_FOR_FACTION">
+    <asc>netherlands</asc>
+    <i>11</i>
+   </rec>
+  </rec>
+  <rec type="CAI_HISTORY_EVENTS">
+   <i>14</i>
+   <rec type="CAI_HISTORY_EVENT">
+    <i>14</i>
+    <cai_event_classes>
+     type_new_manager_for_faction
+     round_1
+     faction_quebec
+    </cai_event_classes>
+   </rec>
+   <rec type="CAI_HISTORY_EVENT_NEW_MANAGER_FOR_FACTION">
+    <asc>quebec</asc>
+    <i>11</i>
+   </rec>
+  </rec>
+  <rec type="CAI_HISTORY_EVENTS">
+   <i>14</i>
+   <rec type="CAI_HISTORY_EVENT">
+    <i>14</i>
+    <cai_event_classes>
+     type_new_manager_for_faction
+     round_1
+     faction_mexico
+    </cai_event_classes>
+   </rec>
+   <rec type="CAI_HISTORY_EVENT_NEW_MANAGER_FOR_FACTION">
+    <asc>mexico</asc>
+    <i>11</i>
+   </rec>
+  </rec>
+  <rec type="CAI_HISTORY_EVENTS">
+   <i>14</i>
+   <rec type="CAI_HISTORY_EVENT">
+    <i>14</i>
+    <cai_event_classes>
+     type_new_manager_for_faction
+     round_1
+     faction_colombia
+    </cai_event_classes>
+   </rec>
+   <rec type="CAI_HISTORY_EVENT_NEW_MANAGER_FOR_FACTION">
+    <asc>colombia</asc>
+    <i>11</i>
+   </rec>
+  </rec>
+  <rec type="CAI_HISTORY_EVENTS">
+   <i>14</i>
+   <rec type="CAI_HISTORY_EVENT">
+    <i>14</i>
+    <cai_event_classes>
+     type_new_manager_for_faction
+     round_1
+     faction_inuit
+    </cai_event_classes>
+   </rec>
+   <rec type="CAI_HISTORY_EVENT_NEW_MANAGER_FOR_FACTION">
+    <asc>inuit</asc>
+    <i>11</i>
+   </rec>
+  </rec>
+  <rec type="CAI_HISTORY_EVENTS">
+   <i>14</i>
+   <rec type="CAI_HISTORY_EVENT">
+    <i>14</i>
+    <cai_event_classes>
+     type_new_manager_for_faction
+     round_1
+     faction_rebels
+    </cai_event_classes>
+   </rec>
+   <rec type="CAI_HISTORY_EVENT_NEW_MANAGER_FOR_FACTION">
+    <asc>rebels</asc>
+    <i>2</i>
+   </rec>
+  </rec>
+ </ary>
+ <u>1</u>
+ <u>0</u>
+</rec>

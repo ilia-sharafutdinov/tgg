@@ -1,0 +1,250 @@
+<?xml version="1.0"?>
+<rec type="FACTION">
+ <ancillary_uniqueness_monitor>
+  Anc_Tribal_Trade_Gentleman
+ </ancillary_uniqueness_monitor>
+ <rec type="CAMPAIGN_PLAYER_SETUP">
+  <victory_conditions year="0" region_count="0" prestige_victory="no" campaign_type="4 (Unplayable)"/>
+  <rec type="CAMPAIGN_PLAYER_SETUP_INGAME_MODIFIABLES">
+   <i>0</i>
+   <i>0</i>
+   <i>0</i>
+   <no/>
+  </rec>
+  <s>huron_playable</s>
+  <no/>
+  <yes/><!-- Playable -->
+  <no/>
+ </rec>
+ <rec type="FACTION_ECONOMICS">
+  <ary type="history">
+   <rec type="history">
+    <rec type="ECONOMICS_DATA">
+     <i4_ary>0 0 0 0 0</i4_ary>
+     <i4_ary>0 0 0</i4_ary>
+     <i4_ary>0 0 0 3000</i4_ary>
+     <i4_ary>0</i4_ary>
+     <i4_ary>0 0 0 0 0</i4_ary>
+     <i4_ary>0 0 0 0 0 0 0</i4_ary>
+    </rec>
+   </rec>
+  </ary>
+  <i>2500</i>
+  <bin6>01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01</bin6>
+  <u>0</u>
+ </rec>
+ <xml_include path="diplomacy/huron_playable.xml"/>
+ <rec type="ARMY_REINFORCEMENT_MANAGER">
+  <ary type="CHARACTER_REINFORCEMENTS_ARRAY"/>
+  <ary type="UNIT_REINFORCEMENTS_ARRAY"/>
+ </rec>
+ <xml_include path="government/huron_playable-gov_absolute_monarchy.xml"/>
+ <xml_include path="family/huron_playable.xml"/>
+ <rec type="CAMPAIGN_MISSION_MANAGER">
+  <no/>
+  <ary type="MISSIONS"/>
+ </rec>
+ <i>360596456</i><!-- Faction ID -->
+ <s>huron_playable</s><!-- Faction Name -->
+ <s>Huron-Wyandot</s><!-- On Screen Name -->
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>124</u>
+  <u>145337283</u>
+  <u2_ary>84 74 122 40 28 1 18 60 68 43 72 93 114 123 69 116 89 50 65 38 76 67 29 47 57 98 82 0 5 112 99 70 79 42 45 33 104 22 118 30 25 11 86 94 107 39 27 95 2 24 106 108 23 7 71 87 109 12 73 41 32 36 121 54 81 56 96 92 120 113 64 55 8 117 100 66 80 102 37 63 3 59 119 111 91 62 75 6 77 13 34 115 17 78 105 16 26 21</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>17</u>
+  <u>649611512</u>
+  <u2_ary>6 3 16 15 8 2 12 4 1 9 14 7 13 5 10 11 0</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>14</u>
+  <u>2175250588</u>
+  <u2_ary>5 9 0 6 4 12 7 11 3 13 8 2 1 10</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>3</u>
+  <u>4148604860</u>
+  <u2_ary>1 0 2</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>3178971558</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>2265992100</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>3146655595</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>9</u>
+  <u>130938811</u>
+  <u2_ary>5 6 7 0 4 3 8 1 2</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>1379181829</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>3778053546</u>
+  <u2_ary/>
+ </rec>
+ <yes/>
+ <rec type="LAND_UNIT_NAME_ALLOCATOR">
+  <ary type="LAND_UNIT_NAMES_MAP">
+   <xml_include path="unit_name_alloc/huron_playable-land-0001.xml"/>
+   <xml_include path="unit_name_alloc/huron_playable-land-0002.xml"/>
+   <xml_include path="unit_name_alloc/huron_playable-land-0003.xml"/>
+   <xml_include path="unit_name_alloc/huron_playable-land-0004.xml"/>
+   <xml_include path="unit_name_alloc/huron_playable-land-0005.xml"/>
+   <xml_include path="unit_name_alloc/huron_playable-land-0006.xml"/>
+   <xml_include path="unit_name_alloc/huron_playable-land-0007.xml"/>
+   <xml_include path="unit_name_alloc/huron_playable-land-0008.xml"/>
+   <xml_include path="unit_name_alloc/huron_playable-land-0009.xml"/>
+   <xml_include path="unit_name_alloc/huron_playable-land-0010.xml"/>
+   <xml_include path="unit_name_alloc/huron_playable-land-0011.xml"/>
+   <xml_include path="unit_name_alloc/huron_playable-land-0012.xml"/>
+   <xml_include path="unit_name_alloc/huron_playable-land-0013.xml"/>
+   <xml_include path="unit_name_alloc/huron_playable-land-0014.xml"/>
+   <xml_include path="unit_name_alloc/huron_playable-land-0015.xml"/>
+   <xml_include path="unit_name_alloc/huron_playable-land-0016.xml"/>
+   <xml_include path="unit_name_alloc/huron_playable-land-0017.xml"/>
+   <xml_include path="unit_name_alloc/huron_playable-land-0018.xml"/>
+   <xml_include path="unit_name_alloc/huron_playable-land-0019.xml"/>
+   <xml_include path="unit_name_alloc/huron_playable-land-0020.xml"/>
+   <xml_include path="unit_name_alloc/huron_playable-land-0021.xml"/>
+   <xml_include path="unit_name_alloc/huron_playable-land-0022.xml"/>
+   <xml_include path="unit_name_alloc/huron_playable-land-0023.xml"/>
+  </ary>
+ </rec>
+ <yes/>
+ <xml_include path="unit_name_alloc/huron_playable-naval-0001.xml"/>
+ <yes/><!-- True - Major, False - Minor -->
+ <ary type="CHARACTER_ARRAY">
+  <xml_include path="character/huron_playable-shaman-0001.xml"/>
+  <xml_include path="character/huron_playable-colonel-0001.xml"/>
+  <xml_include path="character/huron_playable-General-0001.xml"/>
+  <xml_include path="character/huron_playable-colonel-0002.xml"/>
+  <xml_include path="character/huron_playable-colonel-0003.xml"/>
+  <xml_include path="character/huron_playable-scout-0001.xml"/>
+  <xml_include path="character/huron_playable-minister-0001.xml"/>
+  <xml_include path="character/huron_playable-minister-0002.xml"/>
+  <xml_include path="character/huron_playable-minister-0003.xml"/>
+  <xml_include path="character/huron_playable-minister-0004.xml"/>
+  <xml_include path="character/huron_playable-minister-0005.xml"/>
+  <xml_include path="character/huron_playable-minister-0006.xml"/>
+  <xml_include path="character/huron_playable-minister-0007.xml"/>
+  <xml_include path="character/huron_playable-minister-0008.xml"/>
+  <xml_include path="character/huron_playable-minister-0009.xml"/>
+  <xml_include path="character/huron_playable-minister-0010.xml"/>
+  <xml_include path="character/huron_playable-minister-0011.xml"/>
+  <xml_include path="character/huron_playable-minister-0012.xml"/>
+  <xml_include path="character/huron_playable-minister-0013.xml"/>
+ </ary>
+ <xml_include path="technology/huron_playable-huron_playable.xml"/>
+ <ary type="ARMY_ARRAY">
+  <xml_include path="army/huron_playable-0001.xml"/>
+  <xml_include path="army/huron_playable-0002.xml"/>
+  <xml_include path="army/huron_playable-0003.xml"/>
+  <xml_include path="army/huron_playable-0004.xml"/>
+ </ary>
+ <ary type="MORGUE"/>
+ <u4_ary>361509736</u4_ary><!-- Governor ID For Each Theatre -->
+ <yes/>
+ <rec type="CAMPAIGN_SHROUD">
+  <xml_include path="quadtree/huron_playable-huron_playable-0001.xml"/>
+  <xml_include path="quadtree/huron_playable-huron_playable-0002.xml"/>
+  <xml_include path="quadtree/huron_playable-huron_playable-0003.xml"/>
+  <yes/>
+ </rec>
+ <s>rel_animist</s><!-- Religion -->
+ <yes/>
+ <victory_conditions year="0" region_count="0" prestige_victory="no" campaign_type="4 (Unplayable)"/>
+ <rec type="FORT_UPGRADE_MANAGER">
+  <ary type="FORT_UPGRADES_ARRAY"/>
+ </rec>
+ <rec type="FORT_UPGRADE_MANAGER">
+  <ary type="FORT_REPAIRS_ARRAY"/>
+ </rec>
+ <i>361714096</i><!-- Current Capital ID Else 0 If Faction Destroyed -->
+ <i>361714096</i><!-- Original Capital ID -->
+ <ary type="EXPOSED_CHARACTERS"/>
+ <no/>
+ <rec type="PRESTIGE">
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <u>3</u>
+  <u>0</u>
+  <u>0</u>
+  <u>2</u>
+  <u>15</u>
+ </rec>
+ <no/><!-- Emergent -->
+ <u>0</u>
+ <bool_ary>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</bool_ary>
+ <i>0</i><!-- Army Upkeep -->
+ <i>0</i><!-- Navy Upkeep -->
+ <s>NAN</s><!-- Campaign AI Manager Behaviour (patch.pack) -->
+ <s>natives</s><!-- Campaign AI Personalities (patch.pack) -->
+ <flag_and_colours path="data\ui\flags\huron" color1="#b2a47c" color2="#e5e6e0" color3="#9a7f59"/>
+ <flag_and_colours path="data\ui\flags\huron" color1="#b2a47c" color2="#e5e6e0" color3="#9a7f59"/>
+ <rec type="CAMPAIGN_BONUS_VALUES">
+  <ary type="CAMPAIGN_BONUS_VALUE_BLOCK">
+   <campaign_bonus_0 subtype="2" value="1.0" agent="Eastern_Scholar"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="rake"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="assassin"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="gentleman"/>
+   <campaign_bonus_1 subtype="38" value="-4.0"/>
+   <campaign_bonus_1 subtype="126" value="-40.0"/>
+   <campaign_bonus_14 subtype="3" value="20.0" unit_type="infantry"/>
+   <campaign_bonus_14 subtype="3" value="20.0" unit_type="cavalry"/>
+   <campaign_bonus_14 subtype="3" value="20.0" unit_type="elephants"/>
+   <campaign_bonus_14 subtype="3" value="20.0" unit_type="artillery"/>
+   <campaign_bonus_14 subtype="3" value="20.0" unit_type="dragoons"/>
+  </ary>
+ </rec>
+ <rec type="CAMPAIGN_BONUS_VALUES">
+  <ary type="CAMPAIGN_BONUS_VALUE_BLOCK">
+   <campaign_bonus_0 subtype="2" value="1.0" agent="Eastern_Scholar"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="rake"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="assassin"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="gentleman"/>
+   <campaign_bonus_1 subtype="38" value="-4.0"/>
+   <campaign_bonus_1 subtype="126" value="-40.0"/>
+   <campaign_bonus_14 subtype="3" value="20.0" unit_type="infantry"/>
+   <campaign_bonus_14 subtype="3" value="20.0" unit_type="cavalry"/>
+   <campaign_bonus_14 subtype="3" value="20.0" unit_type="elephants"/>
+   <campaign_bonus_14 subtype="3" value="20.0" unit_type="artillery"/>
+   <campaign_bonus_14 subtype="3" value="20.0" unit_type="dragoons"/>
+  </ary>
+ </rec>
+ <i>0</i><!-- Protectorate ID -->
+ <no/>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <no/>
+ <yes/>
+ <no/>
+ <i>3</i>
+ <i>0</i>
+ <i>2</i>
+ <i>0</i>
+ <no/>
+ <no/>
+ <u>0</u>
+ <no/>
+ <no/>
+</rec>

@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<rec type="CAI_WORLD_REGIONS">
+ <owned_indirect>1220</owned_indirect><!-- CAI_WORLD_REGIONS = Settlement AI ID. CAI_WORLD_REGION_SLOTS = Region AI ID. CAI_WORLD_CHARACTERS = Faction AI ID -->
+ <rec type="CAI_BDI_COMPONENT_PROPERTY_SET">
+  <u>0</u>
+ </rec>
+ <u>763</u><!-- Region AI ID -->
+ <flt>100.0</flt>
+ <flt>100.0</flt>
+ <flt>0.0</flt>
+ <flt>100.0</flt>
+ <u>1</u>
+ <no/>
+ <u4_ary/>
+ <u4_ary>3308 0 6374 0 6443 0 6909 0 6977 0 7042 0 7043 0 7051 0 7207 0 7270 0 7330 0 7272 1 7335 0 7336 0 7337 0 7338 0 7339 0 7298 1 7476 0 7294 1 8414 0 9785 0 9789 0 9836 0 11209 0 12049 0 12467 0 13571 0 15115 0</u4_ary><!-- BDI Information -->
+ <u>0</u>
+ <u>29</u>
+ <u4_ary/>
+ <u4_ary>3308 14 6374 6210 6443 15 6909 4 6977 6807 7042 6808 7043 6824 7051 6822 7207 7270 7330 6815 7272 7335 7336 7337 7338 7339 7298 7476 6813 7294 8414 7509 9785 9484 9789 9790 9836 9503 11209 9524 12049 11761 12467 11780 13571 12863 15115 14703</u4_ary><!-- BDI Information -->
+ <ary type="CAI_BDI_COMPONENT_BLOCK_OWNS"/>
+ <u>0</u>
+ <u>0</u>
+ <u4_ary/>
+ <u4_ary/>
+ <u4_ary/>
+ <u4_ary>2908 2916 2919 2922 3308 6375 6374 6444 6909 6913 6915 6977 7041 7189 7197 7162 7232 7270 7330 7335 7336 7337 7338 7339 7476 8414 9528 9785 9789 10173 10245 10369 11209 11218 12049 13571 15115</u4_ary><!-- BDI Information -->
+ <no/>
+ <u>0</u>
+ <no/>
+ <rec type="CAI_REGION">
+  <u4_ary>27</u4_ary><!-- Theatre IDs -->
+  <u4_ary>764 765</u4_ary><!-- HLCIS IDs -->
+  <u>1220</u><!-- Settlement AI ID -->
+  <u4_ary>1222 1224 1226 1228</u4_ary><!-- Region Slot AI IDs Of Region Slots In This Region -->
+  <flt>-729.11279</flt><!-- X Coordinate -->
+  <flt>227.6812</flt><!-- Y Coordinate -->
+  <u4_ary/>
+  <u4_ary>2673 2681 2683 2684 2685</u4_ary><!-- Boundary IDs -->
+  <no/>
+  <u4_ary>2218 2244</u4_ary><!-- Character Resource AI IDs -->
+  <s>natives_apache_territory</s><!-- Region Name -->
+  <u>361290800</u><!-- Region ID -->
+  <u>2933</u><!-- Governor AI ID -->
+  <u4_ary>928</u4_ary><!-- Faction AI IDs -->
+ </rec>
+</rec>

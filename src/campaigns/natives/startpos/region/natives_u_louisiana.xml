@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<rec type="REGION">
+ <s>natives_u_louisiana</s><!-- Region Name -->
+ <xml_include path="population/natives_u_louisiana.xml"/>
+ <traits/>
+ <rec type="REGION_SLOT_MANAGER">
+  <ary type="REGION_SLOT_ARRAY">
+   <xml_include path="region_slot/settlement-natives_u_louisiana-fort_chartres-settlement_minor.xml"/>
+   <xml_include path="region_slot/corn-natives_u_louisiana-south.xml"/>
+   <xml_include path="region_slot/southern_usa-natives_u_louisiana-ohio.xml"/>
+   <xml_include path="region_slot/town-natives_u_louisiana-fort_crevecoeur.xml"/>
+  </ary>
+  <xml_include path="region_slot/natives_u_louisiana-road.xml"/>
+  <xml_include path="region_slot/natives_u_louisiana-walls.xml"/>
+ </rec>
+ <i>361280800</i><!-- Region ID -->
+ <xml_include path="region_slot/settlement-natives_u_louisiana-fort_chartres.xml"/>
+ <u>0</u>
+ <no/>
+ <no/>
+ <u>0</u><!-- Subsistence Agricultural (SA) -->
+ <u>150</u><!-- Industrial Wealth Plus (SA) -->
+ <u>150</u><!-- Industrial Wealth Plus (SA) Minus Trading Losses -->
+ <u>0</u><!-- Town Wealth -->
+ <u>0</u><!-- Minimum Town Wealth -->
+ <u>0</u><!-- Town Wealth -->
+ <i>-8</i><!-- Town Monetary Growth -->
+ <u>0</u>
+ <u>0</u>
+ <no/><!-- Exempt From Tax -->
+ <u>360837096</u><!-- Controlling Faction ID -->
+ <rec type="LINE_OF_SIGHT">
+  <yes/>
+  <v2 x="-673.75" y="230.0"/>
+  <v2 x="-591.25" y="307.5"/>
+  <xml_include path="quadtree/natives_u_louisiana-0001.xml"/>
+ </rec>
+ <u>361286792</u><!-- Governor ID -->
+ <s>america</s><!-- Theatre -->
+ <s>united_states</s><!-- Emergent Nation -->
+ <s>Settler Rebels</s><!-- Region Rebels -->
+ <s>sc_tribal_american</s><!-- Region Culture For Types Of Buildings -->
+ <rec type="REGION_RECRUITMENT_MANAGER">
+  <ary type="REGION_RECRUITMENT_ITEM_ARRAY"/>
+  <no/>
+  <i>361286896</i>
+ </rec>
+ <no/>
+ <u4_ary>0 0 0 0 0 0 0 0</u4_ary>
+ <u4_ary>0 0 0 0 0 0 0 0</u4_ary>
+ <u4_ary>0 0 0 0 0 0 0 0</u4_ary>
+ <u4_ary>33 99 132 16 82 82 82 50</u4_ary>
+ <bool_ary>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0</bool_ary>
+ <i4_ary/>
+ <ary type="RELIGIOUS_MISSION_BUILDING_ARRAY"/>
+ <ary type="FORT_ARRAY"/>
+ <resources_array>
+  americas
+  displaced_scots
+  colonial_euro_factions
+  global
+  usa
+  africa_west_indies
+ </resources_array>
+ <s/><!-- Latest Constuction -->
+ <u>5</u><!-- One Of These 5/10/15/20/25/30/40 Amount Of Prestige When Conquered -->
+ <u>2094990642</u><!-- Region Array. From Top To Bottom. 1st 62 Regions 881206575. 2nd 15 Regions 1771634741. 3rd 32 Regions 1928099569. 4th 28 Regions 688200897. Why???? -->
+ <loc>regions_onscreen_natives_u_louisiana</loc>
+ <flt>-0.0013270393246784806</flt>
+</rec>

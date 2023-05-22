@@ -1,0 +1,146 @@
+<?xml version="1.0"?>
+<rec type="CHARACTER_ARRAY">
+ <rec type="CHARACTER">
+  <rec type="LOCOMOTABLE">
+   <v2x x="-741.0" y="196.0"/>
+   <v2x x="-741.0" y="196.0"/>
+   <flt>3.1415927410125732</flt><!-- Character Facing Direction -->
+   <flt>3.1415927410125732</flt><!-- Character Facing Direction -->
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <i>26</i><!-- Movement Points Left -->
+   <i>24</i><!-- Movement Points Total -->
+   <no/>
+   <i>0</i>
+   <i>0</i>
+   <angle>0.0</angle>
+   <u>12</u>
+   <u>0</u>
+   <flt>0.0</flt>
+  </rec>
+  <rec type="CHARACTER_DETAILS">
+   <traits>
+    C_Tribal_General_Good_Field_Commander=8
+    C_Tribal_General_Plains=1
+   </traits>
+   <loc>names_name_names_native_americanOgemaw</loc>
+   <loc/>
+   <loc/>
+   <s/><!-- Head Of State -->
+   <date>summer 1741</date>
+   <date/>
+   <i>0</i>
+   <portrait_details card="ui/portraits/tribal/Cards/general/young/013.tga" info="ui/portraits/tribal/Info/general/young/013.jpg" number="13"/>
+   <s>pueblo_playable</s>
+   <u>360746016</u><!-- Character ID -->
+   <agent_ancillaries>
+    Anc_Tribal_Contrary
+   </agent_ancillaries>
+   <agent_attributes>
+    command_land=6
+    command_sea=-1
+    duelling_pistols=-1
+    duelling_swords=-1
+    management=-1
+    subterfuge=-1
+    research=-1
+    zeal=-1
+    land_defence_engineering=-1
+    land_siege_engineering=-1
+    morale_land=1
+    morale_sea=-1
+    movement_points_land=1
+    trade=-1
+   </agent_attributes>
+   <ary type="AgentAbilities">
+    <agent_ability ability="can_assassinate" level="-1" attribute=""/>
+    <agent_ability ability="can_convert" level="-1" attribute=""/>
+    <agent_ability ability="can_build_religious" level="-1" attribute=""/>
+    <agent_ability ability="can_build_fort" level="1" attribute="command_land"/>
+    <agent_ability ability="can_sabotage" level="-1" attribute=""/>
+    <agent_ability ability="can_spy" level="-1" attribute=""/>
+    <agent_ability ability="can_duel" level="-1" attribute=""/>
+    <agent_ability ability="can_receive_duel" level="-1" attribute=""/>
+    <agent_ability ability="can_research" level="-1" attribute=""/>
+    <agent_ability ability="can_attack_land" level="1" attribute="command_land"/>
+    <agent_ability ability="can_attack_naval" level="-1" attribute=""/>
+    <agent_ability ability="can_sabotage_army" level="-1" attribute=""/>
+   </ary>
+   <agent_attribute_bonuses>
+    dummy=0
+   </agent_attribute_bonuses>
+   <no/>
+   <loc>agent_culture_details_onscreen_name_Generaltribal_playable</loc>
+  </rec>
+  <i>360746016</i><!-- Character ID -->
+  <s>General</s><!-- Character Type -->
+  <u>360750120</u><!-- Army ID -->
+  <u>360750536</u><!-- Unit ID -->
+  <u>0</u>
+  <u>0</u><!-- Character In Building Slot ID -->
+  <u>0</u><!-- Cabinet ID -->
+  <no/>
+  <no/><!-- Government Opposition -->
+  <v2x_ary>
+   -737.5868263244629,195.0
+   -738.0,195.99749755859375
+   -738.0,196.0
+   -738.0,196.09536170959473
+   -737.6252899169922,197.0
+   -738.0,197.90463829040527
+   -738.0,198.0
+   -738.076135635376,199.92386436462402
+   -740.0,200.0
+   -740.951714515686,200.0
+   -741.0,200.0
+   -741.048285484314,200.0
+   -742.0,200.0
+   -743.923864364624,199.92386436462402
+   -744.0,198.0
+   -744.0,197.90463829040527
+   -744.3747100830078,197.0
+   -744.0,196.09536170959473
+   -744.0,196.0
+   -744.0,195.99749755859375
+   -744.4131736755371,195.0
+   -744.105242729187,194.25658226013184
+   -744.0,194.00250244140625
+   -744.0,194.0
+   -744.0,193.70142459869385
+   -744.0,192.0
+   -742.4453125,192.0
+   -742.0,192.0
+   -741.9974975585938,192.0
+   -741.9859085083008,191.99520015716553
+   -741.0,191.5868263244629
+   -740.0025024414062,192.0
+   -740.0,192.0
+   -738.0,192.0
+   -738.0,194.0
+   -738.0,194.00250244140625
+  </v2x_ary>
+  <rec type="LINE_OF_SIGHT">
+   <yes/>
+   <v2 x="-751.25" y="185.0"/>
+   <v2 x="-730.0" y="206.25"/>
+   <xml_include path="quadtree/pueblo_playable-General-0001.xml"/>
+  </rec>
+  <no/>
+  <u>0</u>
+  <no/>
+  <flt>10.0</flt><!-- 10 - Land Leader / 15 - Navy Leader -->
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <yes/>
+  <no/>
+  <u>0</u>
+  <no/>
+  <u>0</u>
+  <no/>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+ </rec>
+</rec>

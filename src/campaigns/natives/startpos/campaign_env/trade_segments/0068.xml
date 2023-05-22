@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<rec type="TRADE_SEGMENTS">
+ <ary type="COMMERCE_RAIDS"/>
+ <u>1</u><!-- Number Of Sub-segments -->
+ <v2 x="-483.53894" y="74.30594"/><!-- Sub-segment #0 -->
+ <v2 x="-482.63177" y="76.56584"/>
+ <v2 x="-479.04456" y="80.84215"/>
+ <v2 x="-473.60205" y="81.14131"/>
+ <!-- Lengths Of Sub-segments -->
+ <flt_ary>12.656563758850098</flt_ary>
+ <!-- Cummulative Lengths Of Sub-segments -->
+ <flt_ary>0.0</flt_ary>
+ <flt>12.656563758850098</flt><!-- Length Of Segment -->
+ <u>1000</u>
+ <!-- Domestic Trade Route IDs -->
+ <u4_ary/>
+ <!-- International Trade Route IDs -->
+ <u4_ary/>
+ <u>67</u>
+ <flt>12.656563758850098</flt>
+ <rec type="LINE_OF_SIGHT">
+  <yes/>
+  <v2 x="-490.0" y="71.25"/>
+  <v2 x="-472.5" y="88.75"/>
+  <xml_include path="quadtree/0068.xml"/>
+ </rec>
+ <i>656891360</i>
+ <no/><!-- Land -->
+</rec>

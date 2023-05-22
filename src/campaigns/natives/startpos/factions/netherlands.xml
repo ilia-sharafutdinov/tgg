@@ -1,0 +1,225 @@
+<?xml version="1.0"?>
+<rec type="FACTION">
+ <ancillary_uniqueness_monitor/>
+ <rec type="CAMPAIGN_PLAYER_SETUP">
+  <victory_conditions year="0" region_count="0" prestige_victory="no" campaign_type="4 (Unplayable)"/>
+  <rec type="CAMPAIGN_PLAYER_SETUP_INGAME_MODIFIABLES">
+   <i>0</i>
+   <i>0</i>
+   <i>0</i>
+   <no/>
+  </rec>
+  <s>netherlands</s>
+  <no/>
+  <yes/><!-- Playable -->
+  <no/>
+ </rec>
+ <rec type="FACTION_ECONOMICS">
+  <ary type="history">
+   <rec type="history">
+    <rec type="ECONOMICS_DATA">
+     <i4_ary>0 0 0 0 0</i4_ary>
+     <i4_ary>0 0 850</i4_ary>
+     <i4_ary>0 0 0 3000</i4_ary>
+     <i4_ary>0</i4_ary>
+     <i4_ary>0 0 0 0 0</i4_ary>
+     <i4_ary>0 2910 750 0 0 0 0</i4_ary>
+    </rec>
+   </rec>
+  </ary>
+  <i>8000</i>
+  <bin6>01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01</bin6>
+  <u>0</u>
+ </rec>
+ <xml_include path="diplomacy/netherlands.xml"/>
+ <rec type="ARMY_REINFORCEMENT_MANAGER">
+  <ary type="CHARACTER_REINFORCEMENTS_ARRAY"/>
+  <ary type="UNIT_REINFORCEMENTS_ARRAY"/>
+ </rec>
+ <xml_include path="government/netherlands-gov_republic.xml"/>
+ <xml_include path="family/netherlands.xml"/>
+ <i>361032384</i><!-- Faction ID -->
+ <s>netherlands</s><!-- Faction Name -->
+ <s>United Provinces</s><!-- On Screen Name -->
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>130</u>
+  <u>1690142718</u>
+  <u2_ary>38 74 20 14 61 12 85 53 42 67 127 110 83 114 29 54 4 73 19 37 8 22 78 34 120 32 56 49 11 41 51 104 89 97 102 33 58 62 75 59 26 93 128 117 86 82 108 52 5 71 88 113 90 35 66 126 106 122 28 3 30 17 115 129 21 2 105 27 84 94 76 50 25 13 116 46 44 40 60 36 65 91 55 48 10 80 96 23 47 81 72 63 109 111 118 69 124 6 103 107 18 77 121 0</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>69</u>
+  <u>1002185734</u>
+  <u2_ary>54 17 16 0 7 28 63 46 60 65 24 42 50 61 2 59 5 67 55 23 43 45 47 52 38 1 31 32 64 18 39 15 4 12 10 62 49 9 48 44 33 51 36 8 25 19 34 68 22 37 30 66 20 53 35 11 27 6 3 26 13 58 29 14 21 40 41</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>3854765011</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>1</u>
+  <u>3136656585</u>
+  <u2_ary>0</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>205</u>
+  <u>2388681150</u>
+  <u2_ary>159 120 88 50 59 32 100 199 86 128 95 153 173 201 134 98 93 104 97 165 56 47 81 171 113 84 181 66 92 125 163 102 12 35 180 38 172 40 15 10 190 155 89 131 151 103 55 83 189 76 148 31 118 112 188 1 124 3 67 167 41 186 69 154 160 147 187 203 73 75 116 99 109 200 23 184 25 140 193 156 46 91 166 105 43 202 77 176 196 54 57 64 106 17 44 42 80 121 117 177 195 146 39 79 65 49 150 45 174 70 123 139 27 133 20 182 136 87 164 101 4 7 170 53 179 72 115 58 62 61 8 185 110 71 9 63 132 26 19 52 175 48 111 108 33 149 127 129 126 122 169 198 142 36 21 143 82 168 107 137 204 11 30 130 34 141 5 94 144 191 194 85 96 157 197 2 162 114 152</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>1</u>
+  <u>3490300872</u>
+  <u2_ary>0</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>483537424</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>31</u>
+  <u>2479517473</u>
+  <u2_ary>1 10 18 11 7 22 12 19 3 4 15 27 2 6 16 5 17 26 20 24 14 25 8 28 13 30 29 23 21 0 9</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>1</u>
+  <u>1537506222</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>126409328</u>
+  <u2_ary/>
+ </rec>
+ <yes/>
+ <rec type="LAND_UNIT_NAME_ALLOCATOR">
+  <ary type="LAND_UNIT_NAMES_MAP">
+   <xml_include path="unit_name_alloc/netherlands-land-0001.xml"/>
+   <xml_include path="unit_name_alloc/netherlands-land-0002.xml"/>
+   <xml_include path="unit_name_alloc/netherlands-land-0003.xml"/>
+   <xml_include path="unit_name_alloc/netherlands-land-0004.xml"/>
+   <xml_include path="unit_name_alloc/netherlands-land-0005.xml"/>
+   <xml_include path="unit_name_alloc/netherlands-land-0006.xml"/>
+   <xml_include path="unit_name_alloc/netherlands-land-0007.xml"/>
+   <xml_include path="unit_name_alloc/netherlands-land-0008.xml"/>
+   <xml_include path="unit_name_alloc/netherlands-land-0009.xml"/>
+   <xml_include path="unit_name_alloc/netherlands-land-0010.xml"/>
+   <xml_include path="unit_name_alloc/netherlands-land-0011.xml"/>
+   <xml_include path="unit_name_alloc/netherlands-land-0012.xml"/>
+   <xml_include path="unit_name_alloc/netherlands-land-0013.xml"/>
+   <xml_include path="unit_name_alloc/netherlands-land-0014.xml"/>
+   <xml_include path="unit_name_alloc/netherlands-land-0015.xml"/>
+   <xml_include path="unit_name_alloc/netherlands-land-0016.xml"/>
+   <xml_include path="unit_name_alloc/netherlands-land-0017.xml"/>
+   <xml_include path="unit_name_alloc/netherlands-land-0018.xml"/>
+   <xml_include path="unit_name_alloc/netherlands-land-0019.xml"/>
+   <xml_include path="unit_name_alloc/netherlands-land-0020.xml"/>
+   <xml_include path="unit_name_alloc/netherlands-land-0021.xml"/>
+   <xml_include path="unit_name_alloc/netherlands-land-0022.xml"/>
+   <xml_include path="unit_name_alloc/netherlands-land-0023.xml"/>
+  </ary>
+ </rec>
+ <yes/>
+ <xml_include path="unit_name_alloc/netherlands-naval-0001.xml"/>
+ <yes/><!-- True - Major, False - Minor -->
+ <ary type="CHARACTER_ARRAY">
+  <xml_include path="character/netherlands-captain-0001.xml"/>
+  <xml_include path="character/netherlands-colonel-0001.xml"/>
+  <xml_include path="character/netherlands-minister-0001.xml"/>
+  <xml_include path="character/netherlands-minister-0002.xml"/>
+  <xml_include path="character/netherlands-minister-0003.xml"/>
+  <xml_include path="character/netherlands-colonel-0002.xml"/>
+  <xml_include path="character/netherlands-colonel-0003.xml"/>
+  <xml_include path="character/netherlands-minister-0004.xml"/>
+  <xml_include path="character/netherlands-minister-0005.xml"/>
+  <xml_include path="character/netherlands-minister-0006.xml"/>
+  <xml_include path="character/netherlands-minister-0007.xml"/>
+  <xml_include path="character/netherlands-minister-0008.xml"/>
+  <xml_include path="character/netherlands-minister-0009.xml"/>
+  <xml_include path="character/netherlands-minister-0010.xml"/>
+  <xml_include path="character/netherlands-minister-0011.xml"/>
+  <xml_include path="character/netherlands-minister-0012.xml"/>
+  <xml_include path="character/netherlands-minister-0013.xml"/>
+ </ary>
+ <xml_include path="technology/netherlands-netherlands.xml"/>
+ <ary type="ARMY_ARRAY">
+  <xml_include path="army/netherlands-0001.xml"/>
+  <xml_include path="army/netherlands-0002.xml"/>
+  <xml_include path="army/netherlands-0003.xml"/>
+  <xml_include path="army/netherlands-0004.xml"/>
+ </ary>
+ <ary type="MORGUE"/>
+ <u4_ary>361446688</u4_ary><!-- Governor ID For Each Theatre -->
+ <no/>
+ <s>rel_protestant</s><!-- Religion -->
+ <no/>
+ <rec type="FORT_UPGRADE_MANAGER">
+  <ary type="FORT_UPGRADES_ARRAY"/>
+ </rec>
+ <rec type="FORT_UPGRADE_MANAGER">
+  <ary type="FORT_REPAIRS_ARRAY"/>
+ </rec>
+ <i>361638240</i><!-- Current Capital ID Else 0 If Faction Destroyed -->
+ <i>361638240</i><!-- Original Capital ID -->
+ <ary type="EXPOSED_CHARACTERS"/>
+ <no/>
+ <rec type="PRESTIGE">
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <u>0</u>
+  <u>5</u>
+  <u>5</u>
+  <u>13</u>
+  <u>10</u>
+ </rec>
+ <no/><!-- Emergent -->
+ <u>0</u>
+ <bool_ary>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</bool_ary>
+ <i>2910</i><!-- Army Upkeep -->
+ <i>750</i><!-- Navy Upkeep -->
+ <s>FULL</s><!-- Campaign AI Manager Behaviour (patch.pack) -->
+ <s>trader</s><!-- Campaign AI Personalities (patch.pack) -->
+ <flag_and_colours path="data\ui\flags\netherlands_republic" color1="#ff831d" color2="#ffb94a" color3="#1c73e3"/>
+ <flag_and_colours path="data\ui\flags\netherlands_revolutionary" color1="#ff831d" color2="#ffb94a" color3="#1c73e3"/>
+ <rec type="CAMPAIGN_BONUS_VALUES">
+  <ary type="CAMPAIGN_BONUS_VALUE_BLOCK">
+   <campaign_bonus_0 subtype="2" value="1.0" agent="Eastern_Scholar"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="rake"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="assassin"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="gentleman"/>
+   <campaign_bonus_1 subtype="32" value="1.0"/>
+   <campaign_bonus_1 subtype="62" value="-20.0"/>
+  </ary>
+ </rec>
+ <rec type="CAMPAIGN_BONUS_VALUES">
+  <ary type="CAMPAIGN_BONUS_VALUE_BLOCK">
+   <campaign_bonus_0 subtype="2" value="1.0" agent="Eastern_Scholar"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="rake"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="assassin"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="gentleman"/>
+   <campaign_bonus_1 subtype="32" value="1.0"/>
+   <campaign_bonus_1 subtype="62" value="-20.0"/>
+  </ary>
+ </rec>
+ <i>0</i><!-- Protectorate ID -->
+ <no/>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <no/>
+ <no/>
+ <no/>
+ <i>0</i>
+ <i>5</i>
+ <i>13</i>
+ <i>5</i>
+ <no/>
+ <no/>
+ <u>0</u>
+ <no/>
+ <no/>
+</rec>

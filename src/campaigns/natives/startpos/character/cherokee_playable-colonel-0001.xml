@@ -1,0 +1,152 @@
+<?xml version="1.0"?>
+<rec type="CHARACTER_ARRAY">
+ <rec type="CHARACTER">
+  <rec type="LOCOMOTABLE">
+   <v2x x="-592.0" y="259.0"/>
+   <v2x x="-592.0" y="259.0"/>
+   <flt>3.1415927410125732</flt><!-- Character Facing Direction -->
+   <flt>3.1415927410125732</flt><!-- Character Facing Direction -->
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <i>25</i><!-- Movement Points Left -->
+   <i>24</i><!-- Movement Points Total -->
+   <no/>
+   <i>0</i>
+   <i>0</i>
+   <angle>0.0</angle>
+   <u>12</u>
+   <u>0</u>
+   <flt>0.0</flt>
+  </rec>
+  <rec type="CHARACTER_DETAILS">
+   <traits/>
+   <loc>names_name_names_native_americanEstanislao</loc>
+   <loc/>
+   <loc/>
+   <s/><!-- Head Of State -->
+   <date>summer 1743</date>
+   <date/>
+   <i>0</i>
+   <portrait_details/>
+   <s>cherokee_playable</s>
+   <u>360498816</u><!-- Character ID -->
+   <agent_ancillaries/>
+   <agent_attributes>
+    command_land=0
+    command_sea=-1
+    duelling_pistols=-1
+    duelling_swords=-1
+    management=-1
+    subterfuge=-1
+    research=-1
+    zeal=-1
+    land_defence_engineering=-1
+    land_siege_engineering=-1
+    morale_land=-1
+    morale_sea=-1
+    movement_points_land=-1
+    trade=-1
+   </agent_attributes>
+   <ary type="AgentAbilities">
+    <agent_ability ability="can_assassinate" level="-1" attribute=""/>
+    <agent_ability ability="can_convert" level="-1" attribute=""/>
+    <agent_ability ability="can_build_religious" level="-1" attribute=""/>
+    <agent_ability ability="can_build_fort" level="-1" attribute=""/>
+    <agent_ability ability="can_sabotage" level="-1" attribute=""/>
+    <agent_ability ability="can_spy" level="-1" attribute=""/>
+    <agent_ability ability="can_duel" level="-1" attribute=""/>
+    <agent_ability ability="can_receive_duel" level="-1" attribute=""/>
+    <agent_ability ability="can_research" level="-1" attribute=""/>
+    <agent_ability ability="can_attack_land" level="1" attribute="command_land"/>
+    <agent_ability ability="can_attack_naval" level="-1" attribute=""/>
+    <agent_ability ability="can_sabotage_army" level="-1" attribute=""/>
+   </ary>
+   <agent_attribute_bonuses>
+    dummy=0
+   </agent_attribute_bonuses>
+   <no/>
+   <loc>agent_culture_details_onscreen_name_coloneltribal_playable</loc>
+  </rec>
+  <i>360498816</i><!-- Character ID -->
+  <s>colonel</s><!-- Character Type -->
+  <u>360501064</u><!-- Army ID -->
+  <u>360500536</u><!-- Unit ID -->
+  <u>0</u>
+  <u>0</u><!-- Character In Building Slot ID -->
+  <u>0</u><!-- Cabinet ID -->
+  <no/>
+  <no/><!-- Government Opposition -->
+  <v2x_ary>
+   -588.0,260.0
+   -588.076135635376,261.923864364624
+   -590.0,262.0
+   -590.0953617095947,262.0
+   -591.0,262.3747100830078
+   -591.9046382904053,262.0
+   -592.0,262.0
+   -592.0025024414062,262.0
+   -593.0,262.4131736755371
+   -593.9974975585938,262.0
+   -594.0,262.0
+   -596.0,262.0
+   -596.0,260.0
+   -596.0,259.99749755859375
+   -596.4131736755371,259.0
+   -596.0,258.00250244140625
+   -596.0,258.0
+   -596.0,256.0
+   -595.6576337814331,256.0
+   -594.9000406265259,256.0
+   -594.0,256.0
+   -593.996862411499,256.0
+   -593.0,255.6961326599121
+   -592.912091255188,255.74628257751465
+   -592.8463134765625,256.0
+   -592.8180418014526,256.1090478897095
+   -592.7781476974487,256.12951850891113
+   -592.4431896209717,256.0
+   -592.0,256.0
+   -591.1189975738525,256.0
+   -591.0,255.9658718109131
+   -590.9256134033203,256.0
+   -590.0,256.0
+   -590.0,256.6010522842407
+   -589.6252899169922,257.0
+   -589.8500757217407,257.542685508728
+   -589.5255765914917,257.6706495285034
+   -589.1209735870361,257.8135452270508
+   -588.7310647964478,257.89826583862305
+   -588.3208923339844,257.98734283447266
+   -588.2904396057129,258.0
+   -588.0,258.0
+   -588.0,258.0966510772705
+   -588.0,258.4997253417969
+   -588.0,258.95171451568604
+   -588.0,259.0
+   -588.0,259.04828548431396
+  </v2x_ary>
+  <rec type="LINE_OF_SIGHT">
+   <yes/>
+   <v2 x="-602.5" y="248.75"/>
+   <v2 x="-581.25" y="270.0"/>
+   <xml_include path="quadtree/cherokee_playable-colonel-0001.xml"/>
+  </rec>
+  <no/>
+  <u>0</u>
+  <no/>
+  <flt>10.0</flt><!-- 10 - Land Leader / 15 - Navy Leader -->
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <yes/>
+  <no/>
+  <u>0</u>
+  <no/>
+  <u>0</u>
+  <no/>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+ </rec>
+</rec>

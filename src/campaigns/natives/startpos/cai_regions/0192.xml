@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<rec type="CAI_WORLD_REGIONS">
+ <owned_indirect>1412</owned_indirect><!-- CAI_WORLD_REGIONS = Settlement AI ID. CAI_WORLD_REGION_SLOTS = Region AI ID. CAI_WORLD_CHARACTERS = Faction AI ID -->
+ <rec type="CAI_BDI_COMPONENT_PROPERTY_SET">
+  <u>0</u>
+ </rec>
+ <u>832</u><!-- Region AI ID -->
+ <flt>100.0</flt>
+ <flt>100.0</flt>
+ <flt>0.0</flt>
+ <flt>100.0</flt>
+ <u>1</u>
+ <no/>
+ <u4_ary/>
+ <u4_ary>3304 0 4242 0 4359 0 4966 0 5119 0 5120 0 5122 0 5200 0 5270 1 5345 0 5351 0 5550 0 5551 0 5552 0 5553 0 5554 0 5375 1 5580 0 5589 0 5371 1 5813 0 5894 0 5908 0 5910 0 6417 0 7840 0 9947 0 12233 0 12247 0 13329 0 15197 0 15218 0</u4_ary><!-- BDI Information -->
+ <u>0</u>
+ <u>32</u>
+ <u4_ary/>
+ <u4_ary>3304 14 4242 3211 4359 15 4966 4 5119 4894 5120 4910 5122 4893 5200 4908 5270 5345 5351 5550 5551 5552 5553 5554 5375 5580 4901 5589 4899 5371 5813 5630 5894 5649 5908 5909 5910 5670 6417 6210 7840 7509 9947 9484 12233 11761 12247 11780 13329 12863 15197 14703 15218 14722</u4_ary><!-- BDI Information -->
+ <ary type="CAI_BDI_COMPONENT_BLOCK_OWNS"/>
+ <u>0</u>
+ <u>0</u>
+ <u4_ary/>
+ <u4_ary/>
+ <u4_ary/>
+ <u4_ary>2905 2908 2923 2924 3304 4243 4242 4360 4531 4546 4966 4969 4971 5118 5122 5331 5342 5260 5351 5550 5551 5552 5553 5554 5580 5589 5813 5908 5910 5925 5921 6417 6521 6536 7840 9947 10380 12233 13329 13777 15197</u4_ary><!-- BDI Information -->
+ <no/>
+ <u>0</u>
+ <no/>
+ <rec type="CAI_REGION">
+  <u4_ary>27</u4_ary><!-- Theatre IDs -->
+  <u4_ary>833 834</u4_ary><!-- HLCIS IDs -->
+  <u>1412</u><!-- Settlement AI ID -->
+  <u4_ary>1414 1416 1418</u4_ary><!-- Region Slot AI IDs Of Region Slots In This Region -->
+  <flt>-589.93561</flt><!-- X Coordinate -->
+  <flt>294.01379</flt><!-- Y Coordinate -->
+  <u4_ary/>
+  <u4_ary>2702 2721 2723 2724</u4_ary><!-- Boundary IDs -->
+  <yes/>
+  <u4_ary>2102 2108</u4_ary><!-- Character Resource AI IDs -->
+  <s>natives_ohio_territory</s><!-- Region Name -->
+  <u>361568512</u><!-- Region ID -->
+  <u>2930</u><!-- Governor AI ID -->
+  <u4_ary>919 925</u4_ary><!-- Faction AI IDs -->
+ </rec>
+</rec>

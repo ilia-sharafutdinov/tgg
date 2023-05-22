@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<rec type="REGION">
+ <s>new_england</s><!-- Region Name -->
+ <xml_include path="population/new_england.xml"/>
+ <traits/>
+ <rec type="REGION_SLOT_MANAGER">
+  <ary type="REGION_SLOT_ARRAY">
+   <xml_include path="region_slot/settlement-new_england-boston_natives-settlement_government.xml"/>
+   <xml_include path="region_slot/settlement-new_england-boston_natives-settlement_ordnance.xml"/>
+   <xml_include path="region_slot/settlement-new_england-boston_natives-settlement_army-admin.xml"/>
+   <xml_include path="region_slot/sheep-new_england-north.xml"/>
+   <xml_include path="region_slot/corn-new_england-cape_cod.xml"/>
+   <xml_include path="region_slot/fur-new_england-south.xml"/>
+   <xml_include path="region_slot/port-new_england-providence.xml"/>
+   <xml_include path="region_slot/port-new_england-plymouth.xml"/>
+   <xml_include path="region_slot/town-new_england-new_haven.xml"/>
+   <xml_include path="region_slot/town-new_england-hartford.xml"/>
+  </ary>
+  <xml_include path="region_slot/new_england-road.xml"/>
+  <xml_include path="region_slot/new_england-walls.xml"/>
+ </rec>
+ <i>361298904</i><!-- Region ID -->
+ <xml_include path="region_slot/settlement-new_england-boston_natives.xml"/>
+ <u>1</u>
+ <no/>
+ <no/>
+ <u>125</u><!-- Subsistence Agricultural (SA) -->
+ <u>777</u><!-- Industrial Wealth Plus (SA) -->
+ <u>777</u><!-- Industrial Wealth Plus (SA) Minus Trading Losses -->
+ <u>0</u><!-- Town Wealth -->
+ <u>0</u><!-- Minimum Town Wealth -->
+ <u>0</u><!-- Town Wealth -->
+ <i>-5</i><!-- Town Monetary Growth -->
+ <u>0</u>
+ <u>0</u>
+ <no/><!-- Exempt From Tax -->
+ <u>360770088</u><!-- Controlling Faction ID -->
+ <rec type="LINE_OF_SIGHT">
+  <yes/>
+  <v2 x="-533.75" y="281.25"/>
+  <v2 x="-486.25" y="332.5"/>
+  <xml_include path="quadtree/new_england-0001.xml"/>
+ </rec>
+ <u>361277352</u><!-- Governor ID -->
+ <s>america</s><!-- Theatre -->
+ <s>united_states</s><!-- Emergent Nation -->
+ <s>American Rebels</s><!-- Region Rebels -->
+ <s>sc_european_america</s><!-- Region Culture For Types Of Buildings -->
+ <rec type="REGION_RECRUITMENT_MANAGER">
+  <ary type="REGION_RECRUITMENT_ITEM_ARRAY"/>
+  <no/>
+  <i>361313488</i>
+ </rec>
+ <no/>
+ <u4_ary>0 0 0 0 0 0 0 0</u4_ary>
+ <u4_ary>0 0 0 0 0 0 0 0</u4_ary>
+ <u4_ary>0 0 0 0 0 0 0 15</u4_ary>
+ <u4_ary>165 495 660 82 412 412 412 248</u4_ary>
+ <bool_ary>0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0</bool_ary>
+ <i4_ary/>
+ <ary type="RELIGIOUS_MISSION_BUILDING_ARRAY"/>
+ <ary type="FORT_ARRAY"/>
+ <resources_array>
+  displaced_scots
+  africa_west_indies
+  americas
+  americas_coastal
+  global
+  colonial_euro_factions
+  usa
+ </resources_array>
+ <s/><!-- Latest Constuction -->
+ <u>20</u><!-- One Of These 5/10/15/20/25/30/40 Amount Of Prestige When Conquered -->
+ <u>3598767917</u><!-- Region Array. From Top To Bottom. 1st 62 Regions 881206575. 2nd 15 Regions 1771634741. 3rd 32 Regions 1928099569. 4th 28 Regions 688200897. Why???? -->
+ <loc>regions_onscreen_new_england</loc>
+ <flt>-0.0013270393246784806</flt>
+</rec>

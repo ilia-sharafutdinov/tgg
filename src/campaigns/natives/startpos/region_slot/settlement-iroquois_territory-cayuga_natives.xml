@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<rec type="SETTLEMENT">
+ <rec type="SIEGEABLE_GARRISON_RESIDENCE">
+  <garrison_residence>360539352</garrison_residence><!-- Faction ID -->
+  <u>361676048</u><!-- Building Slot ID -->
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <i>0</i>
+  <no/>
+  <no/>
+  <no/>
+  <v2x x="-543.072998046875" y="305.29302978515625"/>
+  <u>360565856</u><!-- Army ID -->
+  <u4_ary/>
+  <u4_ary/><!-- Character ID Of Garrison -->
+  <rec type="LINE_OF_SIGHT">
+   <yes/>
+   <v2 x="-548.75" y="300.0"/>
+   <v2 x="-537.5" y="311.25"/>
+   <xml_include path="quadtree/settlement-iroquois_territory-cayuga_natives-0001.xml"/>
+  </rec>
+  <no/>
+  <ary type="FORTIFICATIONS_BLOCK"/>
+ </rec>
+ <loc>start_pos_settlements_onscreen_name_settlement:iroquois_territory:cayuga_natives1151961051</loc>
+ <i>1</i>
+ <s>settlement:iroquois_territory:cayuga_natives</s><!-- DB Table Campaign_map_settlements -->
+ <i>361676048</i><!-- Settlement ID -->
+ <s>settlement:iroquois_territory:cayuga_natives</s><!-- DB Table Campaign_map_settlements -->
+</rec>

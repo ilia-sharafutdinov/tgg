@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<rec type="SETTLEMENT">
+ <rec type="SIEGEABLE_GARRISON_RESIDENCE">
+  <garrison_residence>360652776</garrison_residence><!-- Faction ID -->
+  <u>361266664</u><!-- Building Slot ID -->
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <i>0</i>
+  <no/>
+  <no/>
+  <no/>
+  <v2x x="-732.2830810546875" y="338.5702819824219"/>
+  <u>360695896</u><!-- Army ID -->
+  <u4_ary/>
+  <u4_ary/><!-- Character ID Of Garrison -->
+  <rec type="LINE_OF_SIGHT">
+   <yes/>
+   <v2 x="-737.5" y="332.5"/>
+   <v2 x="-726.25" y="343.75"/>
+   <xml_include path="quadtree/settlement-natives_black_hills-knife_river_village-0001.xml"/>
+  </rec>
+  <no/>
+  <ary type="FORTIFICATIONS_BLOCK"/>
+ </rec>
+ <loc>start_pos_settlements_onscreen_name_settlement:natives_black_hills:knife_river_village-565482408</loc>
+ <i>1</i>
+ <s>settlement:natives_black_hills:knife_river_village</s><!-- DB Table Campaign_map_settlements -->
+ <i>361266664</i><!-- Settlement ID -->
+ <s>settlement:natives_black_hills:knife_river_village</s><!-- DB Table Campaign_map_settlements -->
+</rec>
