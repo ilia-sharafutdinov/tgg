@@ -1,0 +1,198 @@
+<?xml version="1.0"?>
+<rec type="FACTION">
+ <ancillary_uniqueness_monitor/>
+ <rec type="CAMPAIGN_PLAYER_SETUP">
+  <victory_conditions year="0" region_count="0" prestige_victory="no" campaign_type="4 (Unplayable)"/>
+  <rec type="CAMPAIGN_PLAYER_SETUP_INGAME_MODIFIABLES">
+   <i>0</i>
+   <i>0</i>
+   <i>0</i>
+   <no/>
+  </rec>
+  <s>scotland</s>
+  <no/>
+  <no/><!-- Playable -->
+  <no/>
+ </rec>
+ <rec type="FACTION_ECONOMICS">
+  <ary type="history">
+   <rec type="history">
+    <rec type="ECONOMICS_DATA">
+     <i4_ary>0 0 0 0 0</i4_ary>
+     <i4_ary>0 0 0</i4_ary>
+     <i4_ary>0 0 0 1750</i4_ary>
+     <i4_ary>0</i4_ary>
+     <i4_ary>0 0 0 0 0</i4_ary>
+     <i4_ary>0 0 0 0 0 0 0</i4_ary>
+    </rec>
+   </rec>
+  </ary>
+  <i>7500</i>
+  <bin6>01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01</bin6>
+  <u>0</u>
+ </rec>
+ <xml_include path="diplomacy/scotland.xml"/>
+ <rec type="ARMY_REINFORCEMENT_MANAGER">
+  <ary type="CHARACTER_REINFORCEMENTS_ARRAY"/>
+  <ary type="UNIT_REINFORCEMENTS_ARRAY"/>
+ </rec>
+ <xml_include path="government/scotland-gov_absolute_monarchy.xml"/>
+ <xml_include path="family/scotland.xml"/>
+ <i>584460904</i><!-- Faction ID -->
+ <s>scotland</s><!-- Faction Name -->
+ <s>Scotland</s><!-- On Screen Name -->
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>54</u>
+  <u>511667938</u>
+  <u2_ary>14 23 12 30 21 31 47 49 20 50 6 38 41 34 29 40 13 17 22 42 4 45 32 5 44 19 37 46 10 25 39 43 48 15 24 35 0 36 7 9 26 1 3 52 33 28 27 51 16 2 53 11 18 8</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>37</u>
+  <u>2361287486</u>
+  <u2_ary>18 1 26 2 0 35 4 23 36 24 21 25 29 12 10 27 5 33 31 16 9 22 32 34 19 6 11 13 28 8 7 14 3 17 30 15 20</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>3937861656</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>2045190285</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>173</u>
+  <u>778720952</u>
+  <u2_ary>32 140 97 58 52 132 120 125 41 80 161 13 9 148 117 142 74 70 55 49 145 40 103 98 34 126 4 22 99 135 137 91 12 160 75 59 115 152 92 157 147 87 95 94 102 116 114 164 53 151 162 30 50 85 71 127 73 2 158 105 65 31 144 69 7 67 83 153 76 113 93 134 1 107 88 63 96 44 130 33 35 121 122 64 37 138 21 129 150 29 108 20 101 42 8 166 109 124 43 0 3 110 15 45 16 118 14 119 28 72 39 38 10 90 159 172 169 6 5 57 56 81 168 11 51 78 46 171 131 123 47 23 156 17 154 155 89 84 100 167 111 25 26 66 62 133 36 141 136 106 163 19 54 24 112 86 139 170 77 128 18 149 104 143 27 61 48 68 60 165 82 146 79</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>3</u>
+  <u>1617104684</u>
+  <u2_ary>1 2 0</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>1073666076</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>6</u>
+  <u>2569736148</u>
+  <u2_ary>5 3 1 4 2 0</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>3</u>
+  <u>466416384</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>2</u>
+  <u>1726524928</u>
+  <u2_ary/>
+ </rec>
+ <yes/>
+ <rec type="LAND_UNIT_NAME_ALLOCATOR">
+  <ary type="LAND_UNIT_NAMES_MAP">
+   <xml_include path="unit_name_alloc/scotland-land-0001.xml"/>
+   <xml_include path="unit_name_alloc/scotland-land-0002.xml"/>
+   <xml_include path="unit_name_alloc/scotland-land-0003.xml"/>
+   <xml_include path="unit_name_alloc/scotland-land-0004.xml"/>
+   <xml_include path="unit_name_alloc/scotland-land-0005.xml"/>
+   <xml_include path="unit_name_alloc/scotland-land-0006.xml"/>
+   <xml_include path="unit_name_alloc/scotland-land-0007.xml"/>
+   <xml_include path="unit_name_alloc/scotland-land-0008.xml"/>
+   <xml_include path="unit_name_alloc/scotland-land-0009.xml"/>
+   <xml_include path="unit_name_alloc/scotland-land-0010.xml"/>
+   <xml_include path="unit_name_alloc/scotland-land-0011.xml"/>
+   <xml_include path="unit_name_alloc/scotland-land-0012.xml"/>
+   <xml_include path="unit_name_alloc/scotland-land-0013.xml"/>
+   <xml_include path="unit_name_alloc/scotland-land-0014.xml"/>
+   <xml_include path="unit_name_alloc/scotland-land-0015.xml"/>
+   <xml_include path="unit_name_alloc/scotland-land-0016.xml"/>
+   <xml_include path="unit_name_alloc/scotland-land-0017.xml"/>
+   <xml_include path="unit_name_alloc/scotland-land-0018.xml"/>
+   <xml_include path="unit_name_alloc/scotland-land-0019.xml"/>
+   <xml_include path="unit_name_alloc/scotland-land-0020.xml"/>
+   <xml_include path="unit_name_alloc/scotland-land-0021.xml"/>
+   <xml_include path="unit_name_alloc/scotland-land-0022.xml"/>
+   <xml_include path="unit_name_alloc/scotland-land-0023.xml"/>
+  </ary>
+ </rec>
+ <yes/>
+ <xml_include path="unit_name_alloc/scotland-naval-0001.xml"/>
+ <no/><!-- True - Major, False - Minor -->
+ <ary type="CHARACTER_ARRAY"/>
+ <xml_include path="technology/scotland-scotland.xml"/>
+ <ary type="ARMY_ARRAY"/>
+ <ary type="MORGUE"/>
+ <u4_ary/><!-- Governor ID For Each Theatre -->
+ <no/>
+ <s>rel_protestant</s><!-- Religion -->
+ <no/>
+ <rec type="FORT_UPGRADE_MANAGER">
+  <ary type="FORT_UPGRADES_ARRAY"/>
+ </rec>
+ <rec type="FORT_UPGRADE_MANAGER">
+  <ary type="FORT_REPAIRS_ARRAY"/>
+ </rec>
+ <i>0</i><!-- Current Capital ID Else 0 If Faction Destroyed -->
+ <i>0</i><!-- Original Capital ID -->
+ <ary type="EXPOSED_CHARACTERS"/>
+ <no/>
+ <rec type="PRESTIGE">
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+ </rec>
+ <yes/><!-- Emergent -->
+ <u>0</u>
+ <bool_ary>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</bool_ary>
+ <i>0</i><!-- Army Upkeep -->
+ <i>0</i><!-- Navy Upkeep -->
+ <s>MAINTAINANCE</s><!-- Campaign AI Manager Behaviour (patch.pack) -->
+ <s>default</s><!-- Campaign AI Personalities (patch.pack) -->
+ <flag_and_colours path="data\ui\flags\scotland" color1="#2940b1" color2="#e2dcda" color3="#142a31"/>
+ <flag_and_colours path="data\ui\flags\scotland" color1="#2940b1" color2="#e2dcda" color3="#142a31"/>
+ <rec type="CAMPAIGN_BONUS_VALUES">
+  <ary type="CAMPAIGN_BONUS_VALUE_BLOCK">
+   <campaign_bonus_0 subtype="2" value="1.0" agent="Eastern_Scholar"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="rake"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="assassin"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="gentleman"/>
+  </ary>
+ </rec>
+ <rec type="CAMPAIGN_BONUS_VALUES">
+  <ary type="CAMPAIGN_BONUS_VALUE_BLOCK">
+   <campaign_bonus_0 subtype="2" value="1.0" agent="Eastern_Scholar"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="rake"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="assassin"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="gentleman"/>
+  </ary>
+ </rec>
+ <i>0</i><!-- Protectorate ID -->
+ <no/>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <no/>
+ <yes/>
+ <no/>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <no/>
+ <no/>
+ <u>0</u>
+ <no/>
+ <no/>
+</rec>

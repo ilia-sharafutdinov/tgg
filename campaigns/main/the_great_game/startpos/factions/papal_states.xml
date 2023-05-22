@@ -1,0 +1,217 @@
+<?xml version="1.0"?>
+<rec type="FACTION">
+ <ancillary_uniqueness_monitor/>
+ <rec type="CAMPAIGN_PLAYER_SETUP">
+  <victory_conditions year="0" region_count="0" prestige_victory="no" campaign_type="4 (Unplayable)"/>
+  <rec type="CAMPAIGN_PLAYER_SETUP_INGAME_MODIFIABLES">
+   <i>0</i>
+   <i>0</i>
+   <i>0</i>
+   <no/>
+  </rec>
+  <s>papal_states</s>
+  <no/>
+  <yes/><!-- Playable -->
+  <no/>
+ </rec>
+ <rec type="FACTION_ECONOMICS">
+  <ary type="history">
+   <rec type="history">
+    <rec type="ECONOMICS_DATA">
+     <i4_ary>0 0 0 0 0</i4_ary>
+     <i4_ary>0 0 482</i4_ary>
+     <i4_ary>0 0 0 1750</i4_ary>
+     <i4_ary>0</i4_ary>
+     <i4_ary>0 0 0 0 0</i4_ary>
+     <i4_ary>0 0 0 0 0 0 0</i4_ary>
+    </rec>
+   </rec>
+  </ary>
+  <i>7500</i>
+  <bin6>01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01</bin6>
+  <u>0</u>
+ </rec>
+ <xml_include path="diplomacy/papal_states.xml"/>
+ <rec type="ARMY_REINFORCEMENT_MANAGER">
+  <ary type="CHARACTER_REINFORCEMENTS_ARRAY"/>
+  <ary type="UNIT_REINFORCEMENTS_ARRAY"/>
+ </rec>
+ <xml_include path="government/papal_states-gov_absolute_monarchy.xml"/>
+ <xml_include path="family/papal_states.xml"/>
+ <i>582963944</i><!-- Faction ID -->
+ <s>papal_states</s><!-- Faction Name -->
+ <s>Italian States</s><!-- On Screen Name -->
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>192</u>
+  <u>237422474</u>
+  <u2_ary>141 72 181 62 71 116 78 95 160 175 158 185 119 27 4 44 63 23 38 143 42 151 188 56 6 166 129 55 130 135 36 146 12 167 22 98 31 183 182 84 178 154 30 152 21 86 134 140 10 18 91 51 103 81 127 170 17 57 82 132 50 68 40 53 60 93 54 92 163 161 32 120 173 113 66 20 15 148 83 88 2 176 99 35 49 76 124 43 189 145 47 106 1 137 162 77 131 117 0 177 64 123 73 133 105 26 172 75 48 97 114 179 85 79 149 34 33 39 16 69 126 19 186 102 13 46 180 3 121 89 171 147 169 29 90 107 108 174 109 41 52 144 159 28 110 139 157 187 80 5 150 24 118 70 101 136 58 191 155 94 8 168 67 112 74 184 59 128 61 104 164 122 14</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>137</u>
+  <u>203025982</u>
+  <u2_ary>54 94 7 47 76 135 20 136 123 85 104 106 33 18 48 93 69 101 128 132 110 65 91 34 117 66 127 105 119 5 11 10 108 86 83 129 75 3 92 4 59 19 16 121 70 112 89 49 23 40 122 71 46 17 72 2 99 103 38 0 118 44 116 32 87 98 63 90 64 111 37 28 134 115 13 1 124 102 51 9 82 80 12 14 57 125 79 27 55 77 133 58 60 96 78 41 100 97 26 42 120 21 113 25 6 35 39 8 74 15 73 88 131 43 95 62 31 130 61 22 53 50 109 29 67 56 126 45 68 114 81 30 36 84 52 24 107</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>2683685875</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>4099441471</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>139</u>
+  <u>3817586350</u>
+  <u2_ary>15 57 58 81 101 25 51 67 43 42 59 94 32 4 73 2 105 137 96 136 91 41 50 108 3 125 48 92 86 0 90 68 46 121 123 36 24 29 28 103 82 102 64 53 76 131 60 12 132 10 20 122 62 26 100 71 115 44 134 1 16 7 138 119 88 129 78 87 114 18 55 98 111 84 21 120 124 113 130 40 45 19 112 74 118 66 31 80 8 52 126 77 106 17 54 83 6 128 133 75 14 72 63 97 89 70 11 127 35 110 33 79 9 22 93 65 23 117 38 34</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>2</u>
+  <u>1892265801</u>
+  <u2_ary>0 1</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>3752252784</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>7</u>
+  <u>1696015880</u>
+  <u2_ary>1 2 5 3 4 6 0</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>4</u>
+  <u>3004978989</u>
+  <u2_ary>2 0</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>3686824407</u>
+  <u2_ary/>
+ </rec>
+ <yes/>
+ <rec type="LAND_UNIT_NAME_ALLOCATOR">
+  <ary type="LAND_UNIT_NAMES_MAP">
+   <xml_include path="unit_name_alloc/papal_states-land-0001.xml"/>
+   <xml_include path="unit_name_alloc/papal_states-land-0002.xml"/>
+   <xml_include path="unit_name_alloc/papal_states-land-0003.xml"/>
+   <xml_include path="unit_name_alloc/papal_states-land-0004.xml"/>
+   <xml_include path="unit_name_alloc/papal_states-land-0005.xml"/>
+   <xml_include path="unit_name_alloc/papal_states-land-0006.xml"/>
+   <xml_include path="unit_name_alloc/papal_states-land-0007.xml"/>
+   <xml_include path="unit_name_alloc/papal_states-land-0008.xml"/>
+   <xml_include path="unit_name_alloc/papal_states-land-0009.xml"/>
+   <xml_include path="unit_name_alloc/papal_states-land-0010.xml"/>
+   <xml_include path="unit_name_alloc/papal_states-land-0011.xml"/>
+   <xml_include path="unit_name_alloc/papal_states-land-0012.xml"/>
+   <xml_include path="unit_name_alloc/papal_states-land-0013.xml"/>
+   <xml_include path="unit_name_alloc/papal_states-land-0014.xml"/>
+   <xml_include path="unit_name_alloc/papal_states-land-0015.xml"/>
+   <xml_include path="unit_name_alloc/papal_states-land-0016.xml"/>
+   <xml_include path="unit_name_alloc/papal_states-land-0017.xml"/>
+   <xml_include path="unit_name_alloc/papal_states-land-0018.xml"/>
+   <xml_include path="unit_name_alloc/papal_states-land-0019.xml"/>
+   <xml_include path="unit_name_alloc/papal_states-land-0020.xml"/>
+   <xml_include path="unit_name_alloc/papal_states-land-0021.xml"/>
+   <xml_include path="unit_name_alloc/papal_states-land-0022.xml"/>
+   <xml_include path="unit_name_alloc/papal_states-land-0023.xml"/>
+  </ary>
+ </rec>
+ <yes/>
+ <xml_include path="unit_name_alloc/papal_states-naval-0001.xml"/>
+ <no/><!-- True - Major, False - Minor -->
+ <ary type="CHARACTER_ARRAY">
+  <xml_include path="character/papal_states-gentleman-0001.xml"/>
+  <xml_include path="character/papal_states-rake-0001.xml"/>
+  <xml_include path="character/papal_states-minister-0001.xml"/>
+  <xml_include path="character/papal_states-General-0001.xml"/>
+  <xml_include path="character/papal_states-minister-0002.xml"/>
+  <xml_include path="character/papal_states-minister-0003.xml"/>
+  <xml_include path="character/papal_states-minister-0004.xml"/>
+  <xml_include path="character/papal_states-minister-0005.xml"/>
+  <xml_include path="character/papal_states-minister-0006.xml"/>
+  <xml_include path="character/papal_states-minister-0007.xml"/>
+  <xml_include path="character/papal_states-minister-0008.xml"/>
+  <xml_include path="character/papal_states-minister-0009.xml"/>
+  <xml_include path="character/papal_states-minister-0010.xml"/>
+  <xml_include path="character/papal_states-minister-0011.xml"/>
+  <xml_include path="character/papal_states-minister-0012.xml"/>
+  <xml_include path="character/papal_states-minister-0013.xml"/>
+ </ary>
+ <xml_include path="technology/papal_states-papal_states.xml"/>
+ <ary type="ARMY_ARRAY">
+  <xml_include path="army/papal_states-0001.xml"/>
+ </ary>
+ <ary type="MORGUE"/>
+ <u4_ary>585574632</u4_ary><!-- Governor ID For Each Theatre -->
+ <no/>
+ <s>rel_catholic</s><!-- Religion -->
+ <no/>
+ <rec type="FORT_UPGRADE_MANAGER">
+  <ary type="FORT_UPGRADES_ARRAY"/>
+ </rec>
+ <rec type="FORT_UPGRADE_MANAGER">
+  <ary type="FORT_REPAIRS_ARRAY"/>
+ </rec>
+ <i>585561840</i><!-- Current Capital ID Else 0 If Faction Destroyed -->
+ <i>585561840</i><!-- Original Capital ID -->
+ <ary type="EXPOSED_CHARACTERS"/>
+ <no/>
+ <rec type="PRESTIGE">
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <u>30</u>
+ </rec>
+ <no/><!-- Emergent -->
+ <u>0</u>
+ <bool_ary>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</bool_ary>
+ <i>0</i><!-- Army Upkeep -->
+ <i>0</i><!-- Navy Upkeep -->
+ <s>MAINTAINANCE</s><!-- Campaign AI Manager Behaviour (patch.pack) -->
+ <s>mixed_repressive</s><!-- Campaign AI Personalities (patch.pack) -->
+ <flag_and_colours path="data\ui\flags\papal_states" color1="#c17447" color2="#742727" color3="#bd8a28"/>
+ <flag_and_colours path="data\ui\flags\papal_states" color1="#c17447" color2="#742727" color3="#bd8a28"/>
+ <rec type="CAMPAIGN_BONUS_VALUES">
+  <ary type="CAMPAIGN_BONUS_VALUE_BLOCK">
+   <campaign_bonus_0 subtype="2" value="1.0" agent="Eastern_Scholar"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="rake"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="assassin"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="gentleman"/>
+  </ary>
+ </rec>
+ <rec type="CAMPAIGN_BONUS_VALUES">
+  <ary type="CAMPAIGN_BONUS_VALUE_BLOCK">
+   <campaign_bonus_0 subtype="2" value="1.0" agent="Eastern_Scholar"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="rake"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="assassin"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="gentleman"/>
+  </ary>
+ </rec>
+ <i>0</i><!-- Protectorate ID -->
+ <no/>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <no/>
+ <yes/>
+ <no/>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <no/>
+ <no/>
+ <u>0</u>
+ <no/>
+ <no/>
+</rec>
