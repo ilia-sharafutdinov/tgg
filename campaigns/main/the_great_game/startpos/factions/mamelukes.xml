@@ -121,7 +121,7 @@
  </rec>
  <yes/>
  <xml_include path="unit_name_alloc/mamelukes-naval-0001.xml"/>
- <no/><!-- True - Major, False - Minor -->
+ <yes/><!-- True - Major, False - Minor -->
  <ary type="CHARACTER_ARRAY"/>
  <xml_include path="technology/mamelukes-mamelukes.xml"/>
  <ary type="ARMY_ARRAY"/>
@@ -157,7 +157,7 @@
  <bool_ary>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</bool_ary>
  <i>0</i><!-- Army Upkeep -->
  <i>0</i><!-- Navy Upkeep -->
- <s>MAINTAINANCE</s><!-- Campaign AI Manager Behaviour (patch.pack) -->
+ <s>FULL</s><!-- Campaign AI Manager Behaviour (patch.pack) -->
  <s>non_euro</s><!-- Campaign AI Personalities (patch.pack) -->
  <flag_and_colours path="data\ui\flags\mamelukes" color1="#d1b671" color2="#31481e" color3="#ae8944"/>
  <flag_and_colours path="data\ui\flags\mamelukes" color1="#d1b671" color2="#31481e" color3="#ae8944"/>
