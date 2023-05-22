@@ -121,7 +121,7 @@
  </rec>
  <yes/>
  <xml_include path="unit_name_alloc/barbary_states-naval-0001.xml"/>
- <no/><!-- True - Major, False - Minor -->
+ <yes/><!-- True - Major, False - Minor -->
  <ary type="CHARACTER_ARRAY">
   <xml_include path="character/barbary_states-assassin-0001.xml"/>
   <xml_include path="character/barbary_states-admiral-0001.xml"/>
@@ -181,8 +181,8 @@
  <bool_ary>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</bool_ary>
  <i>0</i><!-- Army Upkeep -->
  <i>0</i><!-- Navy Upkeep -->
- <s>pirates</s><!-- Campaign AI Manager Behaviour (patch.pack) -->
- <s>pirates</s><!-- Campaign AI Personalities (patch.pack) -->
+ <s>FULL</s><!-- Campaign AI Manager Behaviour (patch.pack) -->
+ <s>barbary</s><!-- Campaign AI Personalities (patch.pack) -->
  <flag_and_colours path="data\ui\flags\barbary_states" color1="#71685f" color2="#f2b978" color3="#aa7c3c"/>
  <flag_and_colours path="data\ui\flags\barbary_republic" color1="#71685f" color2="#f2b978" color3="#aa7c3c"/>
  <rec type="CAMPAIGN_BONUS_VALUES">
