@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<rec type="REGION">
+ <s>rumelia</s><!-- Region Name -->
+ <xml_include path="population/rumelia.xml"/>
+ <traits/>
+ <rec type="REGION_SLOT_MANAGER">
+  <ary type="REGION_SLOT_ARRAY">
+   <xml_include path="region_slot/settlement-rumelia-constantinople-settlement_army-admin.xml"/>
+   <xml_include path="region_slot/settlement-rumelia-constantinople-settlement_government.xml"/>
+   <xml_include path="region_slot/settlement-rumelia-constantinople-settlement_culture.xml"/>
+   <xml_include path="region_slot/settlement-rumelia-constantinople-settlement_navy-admin.xml"/>
+   <xml_include path="region_slot/settlement-rumelia-constantinople-settlement_ordnance.xml"/>
+   <xml_include path="region_slot/sheep-rumelia-kavala.xml"/>
+   <xml_include path="region_slot/wheat-rumelia-north.xml"/>
+   <xml_include path="region_slot/wine-rumelia-central.xml"/>
+   <xml_include path="region_slot/town-rumelia-skopje.xml"/>
+   <xml_include path="region_slot/town-rumelia-kozani.xml"/>
+   <xml_include path="region_slot/town-rumelia-adrianople.xml"/>
+   <xml_include path="region_slot/port-rumelia-thessaloniki.xml"/>
+  </ary>
+  <xml_include path="region_slot/rumelia-road.xml"/>
+  <xml_include path="region_slot/rumelia-walls.xml"/>
+ </rec>
+ <i>641662560</i><!-- Region ID -->
+ <xml_include path="region_slot/settlement-rumelia-constantinople.xml"/>
+ <u>1</u>
+ <no/>
+ <no/>
+ <u>250</u><!-- Subsistence Agricultural (SA) -->
+ <u>2375</u><!-- Industrial Wealth Plus (SA) -->
+ <u>2375</u><!-- Industrial Wealth Plus (SA) Minus Trading Losses -->
+ <u>125</u><!-- Town Wealth -->
+ <u>125</u><!-- Minimum Town Wealth -->
+ <u>125</u><!-- Town Wealth -->
+ <i>4</i><!-- Town Monetary Growth -->
+ <u>0</u>
+ <u>0</u>
+ <no/><!-- Exempt From Tax -->
+ <u>619725520</u><!-- Controlling Faction ID -->
+ <rec type="LINE_OF_SIGHT">
+  <yes/>
+  <v2 x="133.75" y="272.5"/>
+  <v2 x="217.5" y="313.75"/>
+  <xml_include path="quadtree/rumelia-0001.xml"/>
+ </rec>
+ <u>638655864</u><!-- Governor ID -->
+ <s>europe</s><!-- Theatre -->
+ <s>ottomans</s><!-- Emergent Nation -->
+ <s>Greek Rebels</s><!-- Region Rebels -->
+ <s>sc_mideast_islamic</s><!-- Region Culture For Types Of Buildings -->
+ <rec type="REGION_RECRUITMENT_MANAGER">
+  <ary type="REGION_RECRUITMENT_ITEM_ARRAY"/>
+  <no/>
+  <i>916141520</i>
+ </rec>
+ <no/>
+ <u4_ary>0 0 0 0 0 0 0 0</u4_ary>
+ <u4_ary>0 0 0 0 0 0 0 0</u4_ary>
+ <u4_ary>0 0 0 0 0 0 0 0</u4_ary>
+ <u4_ary>533 1573 2092 272 1312 1306 1312 792</u4_ary>
+ <bool_ary>0 1 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0</bool_ary>
+ <i4_ary/>
+ <ary type="RELIGIOUS_MISSION_BUILDING_ARRAY"/>
+ <ary type="FORT_ARRAY"/>
+ <resources_array>
+  middle_east
+  galleys
+  med_coast
+  europe
+  global
+  middle_east_and_europe
+ </resources_array>
+ <s/><!-- Latest Constuction -->
+ <u>40</u><!-- One Of These 5/10/15/20/25/30/40 Amount Of Prestige When Conquered -->
+ <u>2043433861</u><!-- Region Array. From Top To Bottom. 1st 62 Regions 881206575. 2nd 15 Regions 1771634741. 3rd 32 Regions 1928099569. 4th 28 Regions 688200897. Why???? -->
+ <loc>regions_onscreen_rumelia</loc>
+ <flt>-0.0013270393246784806</flt>
+</rec>
