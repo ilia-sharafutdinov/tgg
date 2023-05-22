@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<rec type="VICTORY_CONDITION_OPTIONS">
+ <s>crimean_khanate</s>
+ <ary type="VICTORY_CONDITIONS_BLOCK">
+  <rec type="VICTORY_CONDITIONS_BLOCK">
+   <victory_conditions year="1825" region_count="25" prestige_victory="no" campaign_type="1 (Long)">
+    crimea
+    ukraine
+    don_voisko
+    astrakhan
+    tatariya
+    muscovy
+    galicia
+    georgia
+    moldavia
+    transylvania
+    bashkira
+    belarus
+   </victory_conditions>
+  </rec>
+  <rec type="VICTORY_CONDITIONS_BLOCK">
+   <victory_conditions year="1825" region_count="15" prestige_victory="no" campaign_type="0 (Short)">
+    crimea
+    ukraine
+    don_voisko
+    astrakhan
+    tatariya
+    muscovy
+    galicia
+    georgia
+    moldavia
+   </victory_conditions>
+  </rec>
+  <rec type="VICTORY_CONDITIONS_BLOCK">
+   <victory_conditions year="1825" region_count="15" prestige_victory="yes" campaign_type="2 (Prestige)">
+    crimea
+    ukraine
+    don_voisko
+    astrakhan
+    tatariya
+    muscovy
+    galicia
+    georgia
+    moldavia
+   </victory_conditions>
+  </rec>
+  <rec type="VICTORY_CONDITIONS_BLOCK">
+   <victory_conditions year="1825" region_count="40" prestige_victory="no" campaign_type="3 (Global Domination)">
+    crimea
+   </victory_conditions>
+  </rec>
+ </ary>
+</rec>
