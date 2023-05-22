@@ -1,0 +1,2813 @@
+<?xml version="1.0"?>
+<rec type="DIPLOMACY_MANAGER">
+ <ary type="DIPLOMACY_RELATIONSHIPS_ARRAY">
+  <rec type="DIPLOMACY_RELATIONSHIPS_ARRAY">
+   <rec type="DIPLOMACY_RELATIONSHIP">
+    <i>581334784</i><!-- ottomans -->
+    <ary type="DIPLOMACY_RELATIONSHIP_ATTITUDES_ARRAY">
+     <draa/><!-- State Gift Received -->
+     <draa/><!-- Military Alliance +1 If Broken -2 -->
+     <draa/><!-- Alliance Broken -->
+     <draa/><!-- Alliances Not Honoured -->
+     <draa extra="15" active2="yes"/><!-- War Against Enemy And Enemy Of My Enemy (If No War Then Enemy Of My Enemy) -->
+     <draa/><!-- Trade Agreement -->
+     <draa/><!-- Trade Agreement Broken -->
+     <draa/><!-- War Dragged By Ally (-70) And/Or Declare War (-140) -->
+     <draa/><!-- Peace Treaty -->
+     <draa/><!-- Allied With Enemy -->
+     <draa extra="-15" active2="yes"/><!-- War Declared On Friend -->
+     <draa/><!-- Unreliable Ally -->
+     <draa/><!-- Territorial Expansion -->
+     <draa/><!-- Backstabber -->
+     <draa/><!-- Assassination Attempts -->
+     <draa drift="0" current="-15" limit="0" active1="no"/><!-- Religion -->
+     <draa drift="0" current="-10" limit="0" active1="no"/><!-- Government Type -->
+     <draa drift="-1" current="25" limit="0" active1="yes"/><!-- Historical Friendship/Grievance -->
+     <draa/><!-- Acts Of Sabotage -->
+     <draa/><!-- Acts Of Espionage -->
+     <draa/><!-- Threats Of Attack -->
+     <draa/><!-- Respect Given To National Leader -->
+    </ary>
+    <no/><!-- Trade Agreement -->
+    <i>0</i><!-- Military Access (-1 = Infinite) -->
+    <s>neutral</s><!-- Relationship -->
+    <i>0</i><!-- Supporting Faction ID -->
+    <u>0</u><!-- 20 If Allied Then Countdown To 0 -->
+    <i>0</i><!-- Declare war -?. Victim of war +? -->
+    <i>0</i><!-- Payment To Patron -->
+    <i>0</i><!-- Income From Protectorate -->
+    <i>0</i><!-- War - Opposition Has Opposite Value -->
+    <i>0</i><!-- Declare War -?. Victim Of War +? -->
+    <u>0</u><!-- Number Of Turns At War -->
+    <u>0</u><!-- Number Of Turns At War Without Battle -->
+    <ary type="REGULAR_PAYMENTS"/>
+    <u>0</u><!-- 10 If Allied Then Countdown To 0 When No Longer Allied -->
+    <u>0</u>
+    <ary type="ALLIED_IN_WAR_AGAINST"/>
+    <u4_ary>0 0 0 0 0 0 0 0 0 0 0</u4_ary>
+    <u>0</u>
+    <s>neutral</s><!-- Current Relationship With Protectorate ?? -->
+    <no/>
+    <no/>
+    <i>0</i>
+   </rec>
+  </rec>
+  <rec type="DIPLOMACY_RELATIONSHIPS_ARRAY">
+   <rec type="DIPLOMACY_RELATIONSHIP">
+    <i>581839776</i><!-- mughal -->
+    <ary type="DIPLOMACY_RELATIONSHIP_ATTITUDES_ARRAY">
+     <draa/><!-- State Gift Received -->
+     <draa/><!-- Military Alliance +1 If Broken -2 -->
+     <draa/><!-- Alliance Broken -->
+     <draa/><!-- Alliances Not Honoured -->
+     <draa extra="15" active2="yes"/><!-- War Against Enemy And Enemy Of My Enemy (If No War Then Enemy Of My Enemy) -->
+     <draa drift="1" current="15" limit="60" active1="yes"/><!-- Trade Agreement -->
+     <draa/><!-- Trade Agreement Broken -->
+     <draa/><!-- War Dragged By Ally (-70) And/Or Declare War (-140) -->
+     <draa/><!-- Peace Treaty -->
+     <draa/><!-- Allied With Enemy -->
+     <draa extra="-15" active2="yes"/><!-- War Declared On Friend -->
+     <draa/><!-- Unreliable Ally -->
+     <draa/><!-- Territorial Expansion -->
+     <draa/><!-- Backstabber -->
+     <draa/><!-- Assassination Attempts -->
+     <draa drift="0" current="-15" limit="0" active1="no"/><!-- Religion -->
+     <draa drift="0" current="-10" limit="0" active1="no"/><!-- Government Type -->
+     <draa/><!-- Historical Friendship/Grievance -->
+     <draa/><!-- Acts Of Sabotage -->
+     <draa/><!-- Acts Of Espionage -->
+     <draa/><!-- Threats Of Attack -->
+     <draa/><!-- Respect Given To National Leader -->
+    </ary>
+    <yes/><!-- Trade Agreement -->
+    <i>0</i><!-- Military Access (-1 = Infinite) -->
+    <s>neutral</s><!-- Relationship -->
+    <i>0</i><!-- Supporting Faction ID -->
+    <u>0</u><!-- 20 If Allied Then Countdown To 0 -->
+    <i>0</i><!-- Declare war -?. Victim of war +? -->
+    <i>0</i><!-- Payment To Patron -->
+    <i>0</i><!-- Income From Protectorate -->
+    <i>0</i><!-- War - Opposition Has Opposite Value -->
+    <i>0</i><!-- Declare War -?. Victim Of War +? -->
+    <u>0</u><!-- Number Of Turns At War -->
+    <u>0</u><!-- Number Of Turns At War Without Battle -->
+    <ary type="REGULAR_PAYMENTS"/>
+    <u>0</u><!-- 10 If Allied Then Countdown To 0 When No Longer Allied -->
+    <u>0</u>
+    <ary type="ALLIED_IN_WAR_AGAINST"/>
+    <u4_ary>0 0 0 0 0 0 0 0 0 0 0</u4_ary>
+    <u>0</u>
+    <s>neutral</s><!-- Current Relationship With Protectorate ?? -->
+    <no/>
+    <yes/>
+    <i>0</i>
+   </rec>
+  </rec>
+  <rec type="DIPLOMACY_RELATIONSHIPS_ARRAY">
+   <rec type="DIPLOMACY_RELATIONSHIP">
+    <i>580018960</i><!-- britain -->
+    <ary type="DIPLOMACY_RELATIONSHIP_ATTITUDES_ARRAY">
+     <draa/><!-- State Gift Received -->
+     <draa drift="1" current="30" limit="80" active1="yes"/><!-- Military Alliance +1 If Broken -2 -->
+     <draa/><!-- Alliance Broken -->
+     <draa/><!-- Alliances Not Honoured -->
+     <draa drift="-1" current="15" limit="0" active1="yes" extra="15" active2="yes"/><!-- War Against Enemy And Enemy Of My Enemy (If No War Then Enemy Of My Enemy) -->
+     <draa drift="1" current="15" limit="60" active1="yes"/><!-- Trade Agreement -->
+     <draa/><!-- Trade Agreement Broken -->
+     <draa/><!-- War Dragged By Ally (-70) And/Or Declare War (-140) -->
+     <draa/><!-- Peace Treaty -->
+     <draa/><!-- Allied With Enemy -->
+     <draa extra="-15" active2="yes"/><!-- War Declared On Friend -->
+     <draa/><!-- Unreliable Ally -->
+     <draa/><!-- Territorial Expansion -->
+     <draa/><!-- Backstabber -->
+     <draa/><!-- Assassination Attempts -->
+     <draa drift="0" current="-5" limit="0" active1="no"/><!-- Religion -->
+     <draa drift="0" current="10" limit="0" active1="no"/><!-- Government Type -->
+     <draa/><!-- Historical Friendship/Grievance -->
+     <draa/><!-- Acts Of Sabotage -->
+     <draa/><!-- Acts Of Espionage -->
+     <draa/><!-- Threats Of Attack -->
+     <draa/><!-- Respect Given To National Leader -->
+    </ary>
+    <yes/><!-- Trade Agreement -->
+    <i>0</i><!-- Military Access (-1 = Infinite) -->
+    <s>allied</s><!-- Relationship -->
+    <i>0</i><!-- Supporting Faction ID -->
+    <u>20</u><!-- 20 If Allied Then Countdown To 0 -->
+    <i>0</i><!-- Declare war -?. Victim of war +? -->
+    <i>0</i><!-- Payment To Patron -->
+    <i>0</i><!-- Income From Protectorate -->
+    <i>0</i><!-- War - Opposition Has Opposite Value -->
+    <i>0</i><!-- Declare War -?. Victim Of War +? -->
+    <u>0</u><!-- Number Of Turns At War -->
+    <u>0</u><!-- Number Of Turns At War Without Battle -->
+    <ary type="REGULAR_PAYMENTS"/>
+    <u>10</u><!-- 10 If Allied Then Countdown To 0 When No Longer Allied -->
+    <u>0</u>
+    <ary type="ALLIED_IN_WAR_AGAINST"/>
+    <u4_ary>0 0 0 0 0 0 0 0 0 0 0</u4_ary>
+    <u>0</u>
+    <s>allied</s><!-- Current Relationship With Protectorate ?? -->
+    <no/>
+    <yes/>
+    <i>85</i>
+   </rec>
+  </rec>
+  <rec type="DIPLOMACY_RELATIONSHIPS_ARRAY">
+   <rec type="DIPLOMACY_RELATIONSHIP">
+    <i>581507672</i><!-- russia -->
+    <ary type="DIPLOMACY_RELATIONSHIP_ATTITUDES_ARRAY">
+     <draa/><!-- State Gift Received -->
+     <draa/><!-- Military Alliance +1 If Broken -2 -->
+     <draa/><!-- Alliance Broken -->
+     <draa/><!-- Alliances Not Honoured -->
+     <draa drift="-1" current="15" limit="0" active1="yes" extra="15" active2="yes"/><!-- War Against Enemy And Enemy Of My Enemy (If No War Then Enemy Of My Enemy) -->
+     <draa/><!-- Trade Agreement -->
+     <draa/><!-- Trade Agreement Broken -->
+     <draa/><!-- War Dragged By Ally (-70) And/Or Declare War (-140) -->
+     <draa/><!-- Peace Treaty -->
+     <draa/><!-- Allied With Enemy -->
+     <draa extra="-15" active2="yes"/><!-- War Declared On Friend -->
+     <draa/><!-- Unreliable Ally -->
+     <draa/><!-- Territorial Expansion -->
+     <draa/><!-- Backstabber -->
+     <draa/><!-- Assassination Attempts -->
+     <draa/><!-- Religion -->
+     <draa drift="0" current="-10" limit="0" active1="no"/><!-- Government Type -->
+     <draa/><!-- Historical Friendship/Grievance -->
+     <draa/><!-- Acts Of Sabotage -->
+     <draa/><!-- Acts Of Espionage -->
+     <draa/><!-- Threats Of Attack -->
+     <draa/><!-- Respect Given To National Leader -->
+    </ary>
+    <no/><!-- Trade Agreement -->
+    <i>0</i><!-- Military Access (-1 = Infinite) -->
+    <s>neutral</s><!-- Relationship -->
+    <i>0</i><!-- Supporting Faction ID -->
+    <u>0</u><!-- 20 If Allied Then Countdown To 0 -->
+    <i>0</i><!-- Declare war -?. Victim of war +? -->
+    <i>0</i><!-- Payment To Patron -->
+    <i>0</i><!-- Income From Protectorate -->
+    <i>0</i><!-- War - Opposition Has Opposite Value -->
+    <i>0</i><!-- Declare War -?. Victim Of War +? -->
+    <u>0</u><!-- Number Of Turns At War -->
+    <u>0</u><!-- Number Of Turns At War Without Battle -->
+    <ary type="REGULAR_PAYMENTS"/>
+    <u>0</u><!-- 10 If Allied Then Countdown To 0 When No Longer Allied -->
+    <u>0</u>
+    <ary type="ALLIED_IN_WAR_AGAINST"/>
+    <u4_ary>0 0 0 0 0 0 0 0 0 0 0</u4_ary>
+    <u>0</u>
+    <s>neutral</s><!-- Current Relationship With Protectorate ?? -->
+    <no/>
+    <no/>
+    <i>0</i>
+   </rec>
+  </rec>
+  <rec type="DIPLOMACY_RELATIONSHIPS_ARRAY">
+   <rec type="DIPLOMACY_RELATIONSHIP">
+    <i>580345112</i><!-- prussia -->
+    <ary type="DIPLOMACY_RELATIONSHIP_ATTITUDES_ARRAY">
+     <draa/><!-- State Gift Received -->
+     <draa/><!-- Military Alliance +1 If Broken -2 -->
+     <draa/><!-- Alliance Broken -->
+     <draa/><!-- Alliances Not Honoured -->
+     <draa drift="-1" current="15" limit="0" active1="yes" extra="15" active2="yes"/><!-- War Against Enemy And Enemy Of My Enemy (If No War Then Enemy Of My Enemy) -->
+     <draa/><!-- Trade Agreement -->
+     <draa/><!-- Trade Agreement Broken -->
+     <draa/><!-- War Dragged By Ally (-70) And/Or Declare War (-140) -->
+     <draa/><!-- Peace Treaty -->
+     <draa/><!-- Allied With Enemy -->
+     <draa extra="-15" active2="yes"/><!-- War Declared On Friend -->
+     <draa/><!-- Unreliable Ally -->
+     <draa/><!-- Territorial Expansion -->
+     <draa/><!-- Backstabber -->
+     <draa/><!-- Assassination Attempts -->
+     <draa drift="0" current="-5" limit="0" active1="no"/><!-- Religion -->
+     <draa drift="0" current="-10" limit="0" active1="no"/><!-- Government Type -->
+     <draa/><!-- Historical Friendship/Grievance -->
+     <draa/><!-- Acts Of Sabotage -->
+     <draa/><!-- Acts Of Espionage -->
+     <draa/><!-- Threats Of Attack -->
+     <draa/><!-- Respect Given To National Leader -->
+    </ary>
+    <no/><!-- Trade Agreement -->
+    <i>0</i><!-- Military Access (-1 = Infinite) -->
+    <s>neutral</s><!-- Relationship -->
+    <i>0</i><!-- Supporting Faction ID -->
+    <u>0</u><!-- 20 If Allied Then Countdown To 0 -->
+    <i>0</i><!-- Declare war -?. Victim of war +? -->
+    <i>0</i><!-- Payment To Patron -->
+    <i>0</i><!-- Income From Protectorate -->
+    <i>0</i><!-- War - Opposition Has Opposite Value -->
+    <i>0</i><!-- Declare War -?. Victim Of War +? -->
+    <u>0</u><!-- Number Of Turns At War -->
+    <u>0</u><!-- Number Of Turns At War Without Battle -->
+    <ary type="REGULAR_PAYMENTS"/>
+    <u>0</u><!-- 10 If Allied Then Countdown To 0 When No Longer Allied -->
+    <u>0</u>
+    <ary type="ALLIED_IN_WAR_AGAINST"/>
+    <u4_ary>0 0 0 0 0 0 0 0 0 0 0</u4_ary>
+    <u>0</u>
+    <s>neutral</s><!-- Current Relationship With Protectorate ?? -->
+    <no/>
+    <no/>
+    <i>0</i>
+   </rec>
+  </rec>
+  <rec type="DIPLOMACY_RELATIONSHIPS_ARRAY">
+   <rec type="DIPLOMACY_RELATIONSHIP">
+    <i>573864472</i><!-- france -->
+    <ary type="DIPLOMACY_RELATIONSHIP_ATTITUDES_ARRAY">
+     <draa/><!-- State Gift Received -->
+     <draa/><!-- Military Alliance +1 If Broken -2 -->
+     <draa/><!-- Alliance Broken -->
+     <draa/><!-- Alliances Not Honoured -->
+     <draa drift="-1" current="15" limit="0" active1="yes" extra="15" active2="yes"/><!-- War Against Enemy And Enemy Of My Enemy (If No War Then Enemy Of My Enemy) -->
+     <draa/><!-- Trade Agreement -->
+     <draa/><!-- Trade Agreement Broken -->
+     <draa/><!-- War Dragged By Ally (-70) And/Or Declare War (-140) -->
+     <draa/><!-- Peace Treaty -->
+     <draa/><!-- Allied With Enemy -->
+     <draa extra="-15" active2="yes"/><!-- War Declared On Friend -->
+     <draa/><!-- Unreliable Ally -->
+     <draa/><!-- Territorial Expansion -->
+     <draa/><!-- Backstabber -->
+     <draa/><!-- Assassination Attempts -->
+     <draa drift="0" current="20" limit="0" active1="no"/><!-- Religion -->
+     <draa drift="0" current="-10" limit="0" active1="no"/><!-- Government Type -->
+     <draa drift="1" current="-25" limit="0" active1="yes"/><!-- Historical Friendship/Grievance -->
+     <draa/><!-- Acts Of Sabotage -->
+     <draa/><!-- Acts Of Espionage -->
+     <draa/><!-- Threats Of Attack -->
+     <draa/><!-- Respect Given To National Leader -->
+    </ary>
+    <no/><!-- Trade Agreement -->
+    <i>0</i><!-- Military Access (-1 = Infinite) -->
+    <s>neutral</s><!-- Relationship -->
+    <i>0</i><!-- Supporting Faction ID -->
+    <u>0</u><!-- 20 If Allied Then Countdown To 0 -->
+    <i>0</i><!-- Declare war -?. Victim of war +? -->
+    <i>0</i><!-- Payment To Patron -->
+    <i>0</i><!-- Income From Protectorate -->
+    <i>0</i><!-- War - Opposition Has Opposite Value -->
+    <i>0</i><!-- Declare War -?. Victim Of War +? -->
+    <u>0</u><!-- Number Of Turns At War -->
+    <u>0</u><!-- Number Of Turns At War Without Battle -->
+    <ary type="REGULAR_PAYMENTS"/>
+    <u>0</u><!-- 10 If Allied Then Countdown To 0 When No Longer Allied -->
+    <u>0</u>
+    <ary type="ALLIED_IN_WAR_AGAINST"/>
+    <u4_ary>0 0 0 0 0 0 0 0 0 0 0</u4_ary>
+    <u>0</u>
+    <s>neutral</s><!-- Current Relationship With Protectorate ?? -->
+    <no/>
+    <no/>
+    <i>0</i>
+   </rec>
+  </rec>
+  <rec type="DIPLOMACY_RELATIONSHIPS_ARRAY">
+   <rec type="DIPLOMACY_RELATIONSHIP">
+    <i>580632584</i><!-- netherlands -->
+    <ary type="DIPLOMACY_RELATIONSHIP_ATTITUDES_ARRAY">
+     <draa/><!-- State Gift Received -->
+     <draa/><!-- Military Alliance +1 If Broken -2 -->
+     <draa/><!-- Alliance Broken -->
+     <draa/><!-- Alliances Not Honoured -->
+     <draa drift="-1" current="15" limit="0" active1="yes" extra="15" active2="yes"/><!-- War Against Enemy And Enemy Of My Enemy (If No War Then Enemy Of My Enemy) -->
+     <draa/><!-- Trade Agreement -->
+     <draa/><!-- Trade Agreement Broken -->
+     <draa/><!-- War Dragged By Ally (-70) And/Or Declare War (-140) -->
+     <draa/><!-- Peace Treaty -->
+     <draa/><!-- Allied With Enemy -->
+     <draa extra="-15" active2="yes"/><!-- War Declared On Friend -->
+     <draa/><!-- Unreliable Ally -->
+     <draa/><!-- Territorial Expansion -->
+     <draa/><!-- Backstabber -->
+     <draa/><!-- Assassination Attempts -->
+     <draa drift="0" current="-5" limit="0" active1="no"/><!-- Religion -->
+     <draa drift="0" current="-15" limit="0" active1="no"/><!-- Government Type -->
+     <draa/><!-- Historical Friendship/Grievance -->
+     <draa/><!-- Acts Of Sabotage -->
+     <draa/><!-- Acts Of Espionage -->
+     <draa/><!-- Threats Of Attack -->
+     <draa/><!-- Respect Given To National Leader -->
+    </ary>
+    <no/><!-- Trade Agreement -->
+    <i>0</i><!-- Military Access (-1 = Infinite) -->
+    <s>neutral</s><!-- Relationship -->
+    <i>0</i><!-- Supporting Faction ID -->
+    <u>0</u><!-- 20 If Allied Then Countdown To 0 -->
+    <i>0</i><!-- Declare war -?. Victim of war +? -->
+    <i>0</i><!-- Payment To Patron -->
+    <i>0</i><!-- Income From Protectorate -->
+    <i>0</i><!-- War - Opposition Has Opposite Value -->
+    <i>0</i><!-- Declare War -?. Victim Of War +? -->
+    <u>0</u><!-- Number Of Turns At War -->
+    <u>0</u><!-- Number Of Turns At War Without Battle -->
+    <ary type="REGULAR_PAYMENTS"/>
+    <u>0</u><!-- 10 If Allied Then Countdown To 0 When No Longer Allied -->
+    <u>0</u>
+    <ary type="ALLIED_IN_WAR_AGAINST"/>
+    <u4_ary>0 0 0 0 0 0 0 0 0 0 0</u4_ary>
+    <u>0</u>
+    <s>neutral</s><!-- Current Relationship With Protectorate ?? -->
+    <no/>
+    <no/>
+    <i>0</i>
+   </rec>
+  </rec>
+  <rec type="DIPLOMACY_RELATIONSHIPS_ARRAY">
+   <rec type="DIPLOMACY_RELATIONSHIP">
+    <i>580832984</i><!-- spain -->
+    <ary type="DIPLOMACY_RELATIONSHIP_ATTITUDES_ARRAY">
+     <draa/><!-- State Gift Received -->
+     <draa/><!-- Military Alliance +1 If Broken -2 -->
+     <draa/><!-- Alliance Broken -->
+     <draa/><!-- Alliances Not Honoured -->
+     <draa drift="-1" current="15" limit="0" active1="yes" extra="15" active2="yes"/><!-- War Against Enemy And Enemy Of My Enemy (If No War Then Enemy Of My Enemy) -->
+     <draa/><!-- Trade Agreement -->
+     <draa/><!-- Trade Agreement Broken -->
+     <draa/><!-- War Dragged By Ally (-70) And/Or Declare War (-140) -->
+     <draa/><!-- Peace Treaty -->
+     <draa/><!-- Allied With Enemy -->
+     <draa extra="-15" active2="yes"/><!-- War Declared On Friend -->
+     <draa/><!-- Unreliable Ally -->
+     <draa/><!-- Territorial Expansion -->
+     <draa/><!-- Backstabber -->
+     <draa/><!-- Assassination Attempts -->
+     <draa drift="0" current="20" limit="0" active1="no"/><!-- Religion -->
+     <draa drift="0" current="-10" limit="0" active1="no"/><!-- Government Type -->
+     <draa drift="1" current="-70" limit="0" active1="yes"/><!-- Historical Friendship/Grievance -->
+     <draa/><!-- Acts Of Sabotage -->
+     <draa/><!-- Acts Of Espionage -->
+     <draa/><!-- Threats Of Attack -->
+     <draa/><!-- Respect Given To National Leader -->
+    </ary>
+    <no/><!-- Trade Agreement -->
+    <i>0</i><!-- Military Access (-1 = Infinite) -->
+    <s>neutral</s><!-- Relationship -->
+    <i>0</i><!-- Supporting Faction ID -->
+    <u>0</u><!-- 20 If Allied Then Countdown To 0 -->
+    <i>0</i><!-- Declare war -?. Victim of war +? -->
+    <i>0</i><!-- Payment To Patron -->
+    <i>0</i><!-- Income From Protectorate -->
+    <i>0</i><!-- War - Opposition Has Opposite Value -->
+    <i>0</i><!-- Declare War -?. Victim Of War +? -->
+    <u>0</u><!-- Number Of Turns At War -->
+    <u>0</u><!-- Number Of Turns At War Without Battle -->
+    <ary type="REGULAR_PAYMENTS"/>
+    <u>0</u><!-- 10 If Allied Then Countdown To 0 When No Longer Allied -->
+    <u>0</u>
+    <ary type="ALLIED_IN_WAR_AGAINST"/>
+    <u4_ary>0 0 0 0 0 0 0 0 0 0 0</u4_ary>
+    <u>0</u>
+    <s>neutral</s><!-- Current Relationship With Protectorate ?? -->
+    <no/>
+    <no/>
+    <i>-45</i>
+   </rec>
+  </rec>
+  <rec type="DIPLOMACY_RELATIONSHIPS_ARRAY">
+   <rec type="DIPLOMACY_RELATIONSHIP">
+    <i>580473672</i><!-- austria -->
+    <ary type="DIPLOMACY_RELATIONSHIP_ATTITUDES_ARRAY">
+     <draa/><!-- State Gift Received -->
+     <draa/><!-- Military Alliance +1 If Broken -2 -->
+     <draa/><!-- Alliance Broken -->
+     <draa/><!-- Alliances Not Honoured -->
+     <draa drift="-1" current="15" limit="0" active1="yes" extra="15" active2="yes"/><!-- War Against Enemy And Enemy Of My Enemy (If No War Then Enemy Of My Enemy) -->
+     <draa/><!-- Trade Agreement -->
+     <draa/><!-- Trade Agreement Broken -->
+     <draa/><!-- War Dragged By Ally (-70) And/Or Declare War (-140) -->
+     <draa/><!-- Peace Treaty -->
+     <draa/><!-- Allied With Enemy -->
+     <draa extra="-15" active2="yes"/><!-- War Declared On Friend -->
+     <draa/><!-- Unreliable Ally -->
+     <draa/><!-- Territorial Expansion -->
+     <draa/><!-- Backstabber -->
+     <draa/><!-- Assassination Attempts -->
+     <draa drift="0" current="20" limit="0" active1="no"/><!-- Religion -->
+     <draa drift="0" current="-10" limit="0" active1="no"/><!-- Government Type -->
+     <draa drift="1" current="-25" limit="0" active1="yes"/><!-- Historical Friendship/Grievance -->
+     <draa/><!-- Acts Of Sabotage -->
+     <draa/><!-- Acts Of Espionage -->
+     <draa/><!-- Threats Of Attack -->
+     <draa/><!-- Respect Given To National Leader -->
+    </ary>
+    <no/><!-- Trade Agreement -->
+    <i>0</i><!-- Military Access (-1 = Infinite) -->
+    <s>neutral</s><!-- Relationship -->
+    <i>0</i><!-- Supporting Faction ID -->
+    <u>0</u><!-- 20 If Allied Then Countdown To 0 -->
+    <i>0</i><!-- Declare war -?. Victim of war +? -->
+    <i>0</i><!-- Payment To Patron -->
+    <i>0</i><!-- Income From Protectorate -->
+    <i>0</i><!-- War - Opposition Has Opposite Value -->
+    <i>0</i><!-- Declare War -?. Victim Of War +? -->
+    <u>0</u><!-- Number Of Turns At War -->
+    <u>0</u><!-- Number Of Turns At War Without Battle -->
+    <ary type="REGULAR_PAYMENTS"/>
+    <u>0</u><!-- 10 If Allied Then Countdown To 0 When No Longer Allied -->
+    <u>0</u>
+    <ary type="ALLIED_IN_WAR_AGAINST"/>
+    <u4_ary>0 0 0 0 0 0 0 0 0 0 0</u4_ary>
+    <u>0</u>
+    <s>neutral</s><!-- Current Relationship With Protectorate ?? -->
+    <no/>
+    <no/>
+    <i>0</i>
+   </rec>
+  </rec>
+  <rec type="DIPLOMACY_RELATIONSHIPS_ARRAY">
+   <rec type="DIPLOMACY_RELATIONSHIP">
+    <i>581863440</i><!-- sweden -->
+    <ary type="DIPLOMACY_RELATIONSHIP_ATTITUDES_ARRAY">
+     <draa/><!-- State Gift Received -->
+     <draa/><!-- Military Alliance +1 If Broken -2 -->
+     <draa/><!-- Alliance Broken -->
+     <draa/><!-- Alliances Not Honoured -->
+     <draa drift="-1" current="15" limit="0" active1="yes" extra="15" active2="yes"/><!-- War Against Enemy And Enemy Of My Enemy (If No War Then Enemy Of My Enemy) -->
+     <draa/><!-- Trade Agreement -->
+     <draa/><!-- Trade Agreement Broken -->
+     <draa/><!-- War Dragged By Ally (-70) And/Or Declare War (-140) -->
+     <draa/><!-- Peace Treaty -->
+     <draa/><!-- Allied With Enemy -->
+     <draa extra="-15" active2="yes"/><!-- War Declared On Friend -->
+     <draa/><!-- Unreliable Ally -->
+     <draa/><!-- Territorial Expansion -->
+     <draa/><!-- Backstabber -->
+     <draa/><!-- Assassination Attempts -->
+     <draa drift="0" current="-5" limit="0" active1="no"/><!-- Religion -->
+     <draa drift="0" current="-10" limit="0" active1="no"/><!-- Government Type -->
+     <draa/><!-- Historical Friendship/Grievance -->
+     <draa/><!-- Acts Of Sabotage -->
+     <draa/><!-- Acts Of Espionage -->
+     <draa/><!-- Threats Of Attack -->
+     <draa/><!-- Respect Given To National Leader -->
+    </ary>
+    <no/><!-- Trade Agreement -->
+    <i>0</i><!-- Military Access (-1 = Infinite) -->
+    <s>neutral</s><!-- Relationship -->
+    <i>0</i><!-- Supporting Faction ID -->
+    <u>0</u><!-- 20 If Allied Then Countdown To 0 -->
+    <i>0</i><!-- Declare war -?. Victim of war +? -->
+    <i>0</i><!-- Payment To Patron -->
+    <i>0</i><!-- Income From Protectorate -->
+    <i>0</i><!-- War - Opposition Has Opposite Value -->
+    <i>0</i><!-- Declare War -?. Victim Of War +? -->
+    <u>0</u><!-- Number Of Turns At War -->
+    <u>0</u><!-- Number Of Turns At War Without Battle -->
+    <ary type="REGULAR_PAYMENTS"/>
+    <u>0</u><!-- 10 If Allied Then Countdown To 0 When No Longer Allied -->
+    <u>0</u>
+    <ary type="ALLIED_IN_WAR_AGAINST"/>
+    <u4_ary>0 0 0 0 0 0 0 0 0 0 0</u4_ary>
+    <u>0</u>
+    <s>neutral</s><!-- Current Relationship With Protectorate ?? -->
+    <no/>
+    <no/>
+    <i>0</i>
+   </rec>
+  </rec>
+  <rec type="DIPLOMACY_RELATIONSHIPS_ARRAY">
+   <rec type="DIPLOMACY_RELATIONSHIP">
+    <i>583383112</i><!-- crimean_khanate -->
+    <ary type="DIPLOMACY_RELATIONSHIP_ATTITUDES_ARRAY">
+     <draa/><!-- State Gift Received -->
+     <draa/><!-- Military Alliance +1 If Broken -2 -->
+     <draa/><!-- Alliance Broken -->
+     <draa/><!-- Alliances Not Honoured -->
+     <draa extra="15" active2="yes"/><!-- War Against Enemy And Enemy Of My Enemy (If No War Then Enemy Of My Enemy) -->
+     <draa/><!-- Trade Agreement -->
+     <draa/><!-- Trade Agreement Broken -->
+     <draa/><!-- War Dragged By Ally (-70) And/Or Declare War (-140) -->
+     <draa/><!-- Peace Treaty -->
+     <draa/><!-- Allied With Enemy -->
+     <draa extra="-15" active2="yes"/><!-- War Declared On Friend -->
+     <draa/><!-- Unreliable Ally -->
+     <draa/><!-- Territorial Expansion -->
+     <draa/><!-- Backstabber -->
+     <draa/><!-- Assassination Attempts -->
+     <draa drift="0" current="-15" limit="0" active1="no"/><!-- Religion -->
+     <draa drift="0" current="-10" limit="0" active1="no"/><!-- Government Type -->
+     <draa drift="-1" current="25" limit="0" active1="yes"/><!-- Historical Friendship/Grievance -->
+     <draa/><!-- Acts Of Sabotage -->
+     <draa/><!-- Acts Of Espionage -->
+     <draa/><!-- Threats Of Attack -->
+     <draa/><!-- Respect Given To National Leader -->
+    </ary>
+    <no/><!-- Trade Agreement -->
+    <i>0</i><!-- Military Access (-1 = Infinite) -->
+    <s>neutral</s><!-- Relationship -->
+    <i>0</i><!-- Supporting Faction ID -->
+    <u>0</u><!-- 20 If Allied Then Countdown To 0 -->
+    <i>0</i><!-- Declare war -?. Victim of war +? -->
+    <i>0</i><!-- Payment To Patron -->
+    <i>0</i><!-- Income From Protectorate -->
+    <i>0</i><!-- War - Opposition Has Opposite Value -->
+    <i>0</i><!-- Declare War -?. Victim Of War +? -->
+    <u>0</u><!-- Number Of Turns At War -->
+    <u>0</u><!-- Number Of Turns At War Without Battle -->
+    <ary type="REGULAR_PAYMENTS"/>
+    <u>0</u><!-- 10 If Allied Then Countdown To 0 When No Longer Allied -->
+    <u>0</u>
+    <ary type="ALLIED_IN_WAR_AGAINST"/>
+    <u4_ary>0 0 0 0 0 0 0 0 0 0 0</u4_ary>
+    <u>0</u>
+    <s>neutral</s><!-- Current Relationship With Protectorate ?? -->
+    <no/>
+    <no/>
+    <i>0</i>
+   </rec>
+  </rec>
+  <rec type="DIPLOMACY_RELATIONSHIPS_ARRAY">
+   <rec type="DIPLOMACY_RELATIONSHIP">
+    <i>582436504</i><!-- inuit -->
+    <ary type="DIPLOMACY_RELATIONSHIP_ATTITUDES_ARRAY">
+     <draa/><!-- State Gift Received -->
+     <draa/><!-- Military Alliance +1 If Broken -2 -->
+     <draa/><!-- Alliance Broken -->
+     <draa/><!-- Alliances Not Honoured -->
+     <draa extra="15" active2="yes"/><!-- War Against Enemy And Enemy Of My Enemy (If No War Then Enemy Of My Enemy) -->
+     <draa/><!-- Trade Agreement -->
+     <draa/><!-- Trade Agreement Broken -->
+     <draa/><!-- War Dragged By Ally (-70) And/Or Declare War (-140) -->
+     <draa/><!-- Peace Treaty -->
+     <draa/><!-- Allied With Enemy -->
+     <draa extra="-15" active2="yes"/><!-- War Declared On Friend -->
+     <draa/><!-- Unreliable Ally -->
+     <draa/><!-- Territorial Expansion -->
+     <draa/><!-- Backstabber -->
+     <draa/><!-- Assassination Attempts -->
+     <draa drift="0" current="-10" limit="0" active1="no"/><!-- Religion -->
+     <draa drift="0" current="-10" limit="0" active1="no"/><!-- Government Type -->
+     <draa/><!-- Historical Friendship/Grievance -->
+     <draa/><!-- Acts Of Sabotage -->
+     <draa/><!-- Acts Of Espionage -->
+     <draa/><!-- Threats Of Attack -->
+     <draa/><!-- Respect Given To National Leader -->
+    </ary>
+    <no/><!-- Trade Agreement -->
+    <i>0</i><!-- Military Access (-1 = Infinite) -->
+    <s>neutral</s><!-- Relationship -->
+    <i>0</i><!-- Supporting Faction ID -->
+    <u>0</u><!-- 20 If Allied Then Countdown To 0 -->
+    <i>0</i><!-- Declare war -?. Victim of war +? -->
+    <i>0</i><!-- Payment To Patron -->
+    <i>0</i><!-- Income From Protectorate -->
+    <i>0</i><!-- War - Opposition Has Opposite Value -->
+    <i>0</i><!-- Declare War -?. Victim Of War +? -->
+    <u>0</u><!-- Number Of Turns At War -->
+    <u>0</u><!-- Number Of Turns At War Without Battle -->
+    <ary type="REGULAR_PAYMENTS"/>
+    <u>0</u><!-- 10 If Allied Then Countdown To 0 When No Longer Allied -->
+    <u>0</u>
+    <ary type="ALLIED_IN_WAR_AGAINST"/>
+    <u4_ary>0 0 0 0 0 0 0 0 0 0 0</u4_ary>
+    <u>0</u>
+    <s>neutral</s><!-- Current Relationship With Protectorate ?? -->
+    <no/>
+    <no/>
+    <i>0</i>
+   </rec>
+  </rec>
+  <rec type="DIPLOMACY_RELATIONSHIPS_ARRAY">
+   <rec type="DIPLOMACY_RELATIONSHIP">
+    <i>583437296</i><!-- pueblo -->
+    <ary type="DIPLOMACY_RELATIONSHIP_ATTITUDES_ARRAY">
+     <draa/><!-- State Gift Received -->
+     <draa/><!-- Military Alliance +1 If Broken -2 -->
+     <draa/><!-- Alliance Broken -->
+     <draa/><!-- Alliances Not Honoured -->
+     <draa extra="15" active2="yes"/><!-- War Against Enemy And Enemy Of My Enemy (If No War Then Enemy Of My Enemy) -->
+     <draa/><!-- Trade Agreement -->
+     <draa/><!-- Trade Agreement Broken -->
+     <draa/><!-- War Dragged By Ally (-70) And/Or Declare War (-140) -->
+     <draa/><!-- Peace Treaty -->
+     <draa/><!-- Allied With Enemy -->
+     <draa extra="-15" active2="yes"/><!-- War Declared On Friend -->
+     <draa/><!-- Unreliable Ally -->
+     <draa/><!-- Territorial Expansion -->
+     <draa/><!-- Backstabber -->
+     <draa/><!-- Assassination Attempts -->
+     <draa drift="0" current="-10" limit="0" active1="no"/><!-- Religion -->
+     <draa drift="0" current="-10" limit="0" active1="no"/><!-- Government Type -->
+     <draa/><!-- Historical Friendship/Grievance -->
+     <draa/><!-- Acts Of Sabotage -->
+     <draa/><!-- Acts Of Espionage -->
+     <draa/><!-- Threats Of Attack -->
+     <draa/><!-- Respect Given To National Leader -->
+    </ary>
+    <no/><!-- Trade Agreement -->
+    <i>0</i><!-- Military Access (-1 = Infinite) -->
+    <s>neutral</s><!-- Relationship -->
+    <i>0</i><!-- Supporting Faction ID -->
+    <u>0</u><!-- 20 If Allied Then Countdown To 0 -->
+    <i>0</i><!-- Declare war -?. Victim of war +? -->
+    <i>0</i><!-- Payment To Patron -->
+    <i>0</i><!-- Income From Protectorate -->
+    <i>0</i><!-- War - Opposition Has Opposite Value -->
+    <i>0</i><!-- Declare War -?. Victim Of War +? -->
+    <u>0</u><!-- Number Of Turns At War -->
+    <u>0</u><!-- Number Of Turns At War Without Battle -->
+    <ary type="REGULAR_PAYMENTS"/>
+    <u>0</u><!-- 10 If Allied Then Countdown To 0 When No Longer Allied -->
+    <u>0</u>
+    <ary type="ALLIED_IN_WAR_AGAINST"/>
+    <u4_ary>0 0 0 0 0 0 0 0 0 0 0</u4_ary>
+    <u>0</u>
+    <s>neutral</s><!-- Current Relationship With Protectorate ?? -->
+    <no/>
+    <no/>
+    <i>0</i>
+   </rec>
+  </rec>
+  <rec type="DIPLOMACY_RELATIONSHIPS_ARRAY">
+   <rec type="DIPLOMACY_RELATIONSHIP">
+    <i>584150992</i><!-- courland -->
+    <ary type="DIPLOMACY_RELATIONSHIP_ATTITUDES_ARRAY">
+     <draa/><!-- State Gift Received -->
+     <draa/><!-- Military Alliance +1 If Broken -2 -->
+     <draa/><!-- Alliance Broken -->
+     <draa/><!-- Alliances Not Honoured -->
+     <draa drift="-1" current="15" limit="0" active1="yes" extra="15" active2="yes"/><!-- War Against Enemy And Enemy Of My Enemy (If No War Then Enemy Of My Enemy) -->
+     <draa/><!-- Trade Agreement -->
+     <draa/><!-- Trade Agreement Broken -->
+     <draa/><!-- War Dragged By Ally (-70) And/Or Declare War (-140) -->
+     <draa/><!-- Peace Treaty -->
+     <draa/><!-- Allied With Enemy -->
+     <draa extra="-15" active2="yes"/><!-- War Declared On Friend -->
+     <draa/><!-- Unreliable Ally -->
+     <draa/><!-- Territorial Expansion -->
+     <draa/><!-- Backstabber -->
+     <draa/><!-- Assassination Attempts -->
+     <draa drift="0" current="-5" limit="0" active1="no"/><!-- Religion -->
+     <draa drift="0" current="-10" limit="0" active1="no"/><!-- Government Type -->
+     <draa/><!-- Historical Friendship/Grievance -->
+     <draa/><!-- Acts Of Sabotage -->
+     <draa/><!-- Acts Of Espionage -->
+     <draa/><!-- Threats Of Attack -->
+     <draa/><!-- Respect Given To National Leader -->
+    </ary>
+    <no/><!-- Trade Agreement -->
+    <i>0</i><!-- Military Access (-1 = Infinite) -->
+    <s>neutral</s><!-- Relationship -->
+    <i>0</i><!-- Supporting Faction ID -->
+    <u>0</u><!-- 20 If Allied Then Countdown To 0 -->
+    <i>0</i><!-- Declare war -?. Victim of war +? -->
+    <i>0</i><!-- Payment To Patron -->
+    <i>0</i><!-- Income From Protectorate -->
+    <i>0</i><!-- War - Opposition Has Opposite Value -->
+    <i>0</i><!-- Declare War -?. Victim Of War +? -->
+    <u>0</u><!-- Number Of Turns At War -->
+    <u>0</u><!-- Number Of Turns At War Without Battle -->
+    <ary type="REGULAR_PAYMENTS"/>
+    <u>0</u><!-- 10 If Allied Then Countdown To 0 When No Longer Allied -->
+    <u>0</u>
+    <ary type="ALLIED_IN_WAR_AGAINST"/>
+    <u4_ary>0 0 0 0 0 0 0 0 0 0 0</u4_ary>
+    <u>0</u>
+    <s>neutral</s><!-- Current Relationship With Protectorate ?? -->
+    <no/>
+    <no/>
+    <i>0</i>
+   </rec>
+  </rec>
+  <rec type="DIPLOMACY_RELATIONSHIPS_ARRAY">
+   <rec type="DIPLOMACY_RELATIONSHIP">
+    <i>582881488</i><!-- mysore -->
+    <ary type="DIPLOMACY_RELATIONSHIP_ATTITUDES_ARRAY">
+     <draa/><!-- State Gift Received -->
+     <draa/><!-- Military Alliance +1 If Broken -2 -->
+     <draa/><!-- Alliance Broken -->
+     <draa/><!-- Alliances Not Honoured -->
+     <draa extra="15" active2="yes"/><!-- War Against Enemy And Enemy Of My Enemy (If No War Then Enemy Of My Enemy) -->
+     <draa/><!-- Trade Agreement -->
+     <draa/><!-- Trade Agreement Broken -->
+     <draa/><!-- War Dragged By Ally (-70) And/Or Declare War (-140) -->
+     <draa/><!-- Peace Treaty -->
+     <draa/><!-- Allied With Enemy -->
+     <draa extra="-15" active2="yes"/><!-- War Declared On Friend -->
+     <draa/><!-- Unreliable Ally -->
+     <draa/><!-- Territorial Expansion -->
+     <draa/><!-- Backstabber -->
+     <draa/><!-- Assassination Attempts -->
+     <draa drift="0" current="-15" limit="0" active1="no"/><!-- Religion -->
+     <draa drift="0" current="-10" limit="0" active1="no"/><!-- Government Type -->
+     <draa drift="-1" current="25" limit="0" active1="yes"/><!-- Historical Friendship/Grievance -->
+     <draa/><!-- Acts Of Sabotage -->
+     <draa/><!-- Acts Of Espionage -->
+     <draa/><!-- Threats Of Attack -->
+     <draa/><!-- Respect Given To National Leader -->
+    </ary>
+    <no/><!-- Trade Agreement -->
+    <i>0</i><!-- Military Access (-1 = Infinite) -->
+    <s>neutral</s><!-- Relationship -->
+    <i>0</i><!-- Supporting Faction ID -->
+    <u>0</u><!-- 20 If Allied Then Countdown To 0 -->
+    <i>0</i><!-- Declare war -?. Victim of war +? -->
+    <i>0</i><!-- Payment To Patron -->
+    <i>0</i><!-- Income From Protectorate -->
+    <i>0</i><!-- War - Opposition Has Opposite Value -->
+    <i>0</i><!-- Declare War -?. Victim Of War +? -->
+    <u>0</u><!-- Number Of Turns At War -->
+    <u>0</u><!-- Number Of Turns At War Without Battle -->
+    <ary type="REGULAR_PAYMENTS"/>
+    <u>0</u><!-- 10 If Allied Then Countdown To 0 When No Longer Allied -->
+    <u>0</u>
+    <ary type="ALLIED_IN_WAR_AGAINST"/>
+    <u4_ary>0 0 0 0 0 0 0 0 0 0 0</u4_ary>
+    <u>0</u>
+    <s>neutral</s><!-- Current Relationship With Protectorate ?? -->
+    <no/>
+    <no/>
+    <i>0</i>
+   </rec>
+  </rec>
+  <rec type="DIPLOMACY_RELATIONSHIPS_ARRAY">
+   <rec type="DIPLOMACY_RELATIONSHIP">
+    <i>582699544</i><!-- georgia -->
+    <ary type="DIPLOMACY_RELATIONSHIP_ATTITUDES_ARRAY">
+     <draa/><!-- State Gift Received -->
+     <draa/><!-- Military Alliance +1 If Broken -2 -->
+     <draa/><!-- Alliance Broken -->
+     <draa/><!-- Alliances Not Honoured -->
+     <draa drift="-1" current="15" limit="0" active1="yes" extra="15" active2="yes"/><!-- War Against Enemy And Enemy Of My Enemy (If No War Then Enemy Of My Enemy) -->
+     <draa/><!-- Trade Agreement -->
+     <draa/><!-- Trade Agreement Broken -->
+     <draa/><!-- War Dragged By Ally (-70) And/Or Declare War (-140) -->
+     <draa/><!-- Peace Treaty -->
+     <draa/><!-- Allied With Enemy -->
+     <draa extra="-15" active2="yes"/><!-- War Declared On Friend -->
+     <draa/><!-- Unreliable Ally -->
+     <draa/><!-- Territorial Expansion -->
+     <draa/><!-- Backstabber -->
+     <draa/><!-- Assassination Attempts -->
+     <draa/><!-- Religion -->
+     <draa drift="0" current="-10" limit="0" active1="no"/><!-- Government Type -->
+     <draa/><!-- Historical Friendship/Grievance -->
+     <draa/><!-- Acts Of Sabotage -->
+     <draa/><!-- Acts Of Espionage -->
+     <draa/><!-- Threats Of Attack -->
+     <draa/><!-- Respect Given To National Leader -->
+    </ary>
+    <no/><!-- Trade Agreement -->
+    <i>0</i><!-- Military Access (-1 = Infinite) -->
+    <s>neutral</s><!-- Relationship -->
+    <i>0</i><!-- Supporting Faction ID -->
+    <u>0</u><!-- 20 If Allied Then Countdown To 0 -->
+    <i>0</i><!-- Declare war -?. Victim of war +? -->
+    <i>0</i><!-- Payment To Patron -->
+    <i>0</i><!-- Income From Protectorate -->
+    <i>0</i><!-- War - Opposition Has Opposite Value -->
+    <i>0</i><!-- Declare War -?. Victim Of War +? -->
+    <u>0</u><!-- Number Of Turns At War -->
+    <u>0</u><!-- Number Of Turns At War Without Battle -->
+    <ary type="REGULAR_PAYMENTS"/>
+    <u>0</u><!-- 10 If Allied Then Countdown To 0 When No Longer Allied -->
+    <u>0</u>
+    <ary type="ALLIED_IN_WAR_AGAINST"/>
+    <u4_ary>0 0 0 0 0 0 0 0 0 0 0</u4_ary>
+    <u>0</u>
+    <s>neutral</s><!-- Current Relationship With Protectorate ?? -->
+    <no/>
+    <no/>
+    <i>0</i>
+   </rec>
+  </rec>
+  <rec type="DIPLOMACY_RELATIONSHIPS_ARRAY">
+   <rec type="DIPLOMACY_RELATIONSHIP">
+    <i>584091464</i><!-- chechenya_dagestan -->
+    <ary type="DIPLOMACY_RELATIONSHIP_ATTITUDES_ARRAY">
+     <draa/><!-- State Gift Received -->
+     <draa/><!-- Military Alliance +1 If Broken -2 -->
+     <draa/><!-- Alliance Broken -->
+     <draa/><!-- Alliances Not Honoured -->
+     <draa extra="15" active2="yes"/><!-- War Against Enemy And Enemy Of My Enemy (If No War Then Enemy Of My Enemy) -->
+     <draa/><!-- Trade Agreement -->
+     <draa/><!-- Trade Agreement Broken -->
+     <draa/><!-- War Dragged By Ally (-70) And/Or Declare War (-140) -->
+     <draa/><!-- Peace Treaty -->
+     <draa/><!-- Allied With Enemy -->
+     <draa extra="-15" active2="yes"/><!-- War Declared On Friend -->
+     <draa/><!-- Unreliable Ally -->
+     <draa/><!-- Territorial Expansion -->
+     <draa/><!-- Backstabber -->
+     <draa/><!-- Assassination Attempts -->
+     <draa drift="0" current="-15" limit="0" active1="no"/><!-- Religion -->
+     <draa drift="0" current="-10" limit="0" active1="no"/><!-- Government Type -->
+     <draa drift="-1" current="25" limit="0" active1="yes"/><!-- Historical Friendship/Grievance -->
+     <draa/><!-- Acts Of Sabotage -->
+     <draa/><!-- Acts Of Espionage -->
+     <draa/><!-- Threats Of Attack -->
+     <draa/><!-- Respect Given To National Leader -->
+    </ary>
+    <no/><!-- Trade Agreement -->
+    <i>0</i><!-- Military Access (-1 = Infinite) -->
+    <s>neutral</s><!-- Relationship -->
+    <i>0</i><!-- Supporting Faction ID -->
+    <u>0</u><!-- 20 If Allied Then Countdown To 0 -->
+    <i>0</i><!-- Declare war -?. Victim of war +? -->
+    <i>0</i><!-- Payment To Patron -->
+    <i>0</i><!-- Income From Protectorate -->
+    <i>0</i><!-- War - Opposition Has Opposite Value -->
+    <i>0</i><!-- Declare War -?. Victim Of War +? -->
+    <u>0</u><!-- Number Of Turns At War -->
+    <u>0</u><!-- Number Of Turns At War Without Battle -->
+    <ary type="REGULAR_PAYMENTS"/>
+    <u>0</u><!-- 10 If Allied Then Countdown To 0 When No Longer Allied -->
+    <u>0</u>
+    <ary type="ALLIED_IN_WAR_AGAINST"/>
+    <u4_ary>0 0 0 0 0 0 0 0 0 0 0</u4_ary>
+    <u>0</u>
+    <s>neutral</s><!-- Current Relationship With Protectorate ?? -->
+    <no/>
+    <no/>
+    <i>0</i>
+   </rec>
+  </rec>
+  <rec type="DIPLOMACY_RELATIONSHIPS_ARRAY">
+   <rec type="DIPLOMACY_RELATIONSHIP">
+    <i>584365704</i><!-- huron -->
+    <ary type="DIPLOMACY_RELATIONSHIP_ATTITUDES_ARRAY">
+     <draa/><!-- State Gift Received -->
+     <draa/><!-- Military Alliance +1 If Broken -2 -->
+     <draa/><!-- Alliance Broken -->
+     <draa/><!-- Alliances Not Honoured -->
+     <draa extra="15" active2="yes"/><!-- War Against Enemy And Enemy Of My Enemy (If No War Then Enemy Of My Enemy) -->
+     <draa/><!-- Trade Agreement -->
+     <draa/><!-- Trade Agreement Broken -->
+     <draa/><!-- War Dragged By Ally (-70) And/Or Declare War (-140) -->
+     <draa/><!-- Peace Treaty -->
+     <draa/><!-- Allied With Enemy -->
+     <draa extra="-15" active2="yes"/><!-- War Declared On Friend -->
+     <draa/><!-- Unreliable Ally -->
+     <draa/><!-- Territorial Expansion -->
+     <draa/><!-- Backstabber -->
+     <draa/><!-- Assassination Attempts -->
+     <draa drift="0" current="-10" limit="0" active1="no"/><!-- Religion -->
+     <draa drift="0" current="-10" limit="0" active1="no"/><!-- Government Type -->
+     <draa/><!-- Historical Friendship/Grievance -->
+     <draa/><!-- Acts Of Sabotage -->
+     <draa/><!-- Acts Of Espionage -->
+     <draa/><!-- Threats Of Attack -->
+     <draa/><!-- Respect Given To National Leader -->
+    </ary>
+    <no/><!-- Trade Agreement -->
+    <i>0</i><!-- Military Access (-1 = Infinite) -->
+    <s>neutral</s><!-- Relationship -->
+    <i>0</i><!-- Supporting Faction ID -->
+    <u>0</u><!-- 20 If Allied Then Countdown To 0 -->
+    <i>0</i><!-- Declare war -?. Victim of war +? -->
+    <i>0</i><!-- Payment To Patron -->
+    <i>0</i><!-- Income From Protectorate -->
+    <i>0</i><!-- War - Opposition Has Opposite Value -->
+    <i>0</i><!-- Declare War -?. Victim Of War +? -->
+    <u>0</u><!-- Number Of Turns At War -->
+    <u>0</u><!-- Number Of Turns At War Without Battle -->
+    <ary type="REGULAR_PAYMENTS"/>
+    <u>0</u><!-- 10 If Allied Then Countdown To 0 When No Longer Allied -->
+    <u>0</u>
+    <ary type="ALLIED_IN_WAR_AGAINST"/>
+    <u4_ary>0 0 0 0 0 0 0 0 0 0 0</u4_ary>
+    <u>0</u>
+    <s>neutral</s><!-- Current Relationship With Protectorate ?? -->
+    <no/>
+    <no/>
+    <i>0</i>
+   </rec>
+  </rec>
+  <rec type="DIPLOMACY_RELATIONSHIPS_ARRAY">
+   <rec type="DIPLOMACY_RELATIONSHIP">
+    <i>585016136</i><!-- hungary -->
+    <ary type="DIPLOMACY_RELATIONSHIP_ATTITUDES_ARRAY">
+     <draa/><!-- State Gift Received -->
+     <draa/><!-- Military Alliance +1 If Broken -2 -->
+     <draa/><!-- Alliance Broken -->
+     <draa/><!-- Alliances Not Honoured -->
+     <draa extra="15" active2="yes"/><!-- War Against Enemy And Enemy Of My Enemy (If No War Then Enemy Of My Enemy) -->
+     <draa/><!-- Trade Agreement -->
+     <draa/><!-- Trade Agreement Broken -->
+     <draa/><!-- War Dragged By Ally (-70) And/Or Declare War (-140) -->
+     <draa/><!-- Peace Treaty -->
+     <draa/><!-- Allied With Enemy -->
+     <draa extra="-15" active2="yes"/><!-- War Declared On Friend -->
+     <draa/><!-- Unreliable Ally -->
+     <draa/><!-- Territorial Expansion -->
+     <draa/><!-- Backstabber -->
+     <draa/><!-- Assassination Attempts -->
+     <draa drift="0" current="20" limit="0" active1="no"/><!-- Religion -->
+     <draa drift="0" current="-10" limit="0" active1="no"/><!-- Government Type -->
+     <draa/><!-- Historical Friendship/Grievance -->
+     <draa/><!-- Acts Of Sabotage -->
+     <draa/><!-- Acts Of Espionage -->
+     <draa/><!-- Threats Of Attack -->
+     <draa/><!-- Respect Given To National Leader -->
+    </ary>
+    <no/><!-- Trade Agreement -->
+    <i>0</i><!-- Military Access (-1 = Infinite) -->
+    <s>neutral</s><!-- Relationship -->
+    <i>0</i><!-- Supporting Faction ID -->
+    <u>0</u><!-- 20 If Allied Then Countdown To 0 -->
+    <i>0</i><!-- Declare war -?. Victim of war +? -->
+    <i>0</i><!-- Payment To Patron -->
+    <i>0</i><!-- Income From Protectorate -->
+    <i>0</i><!-- War - Opposition Has Opposite Value -->
+    <i>0</i><!-- Declare War -?. Victim Of War +? -->
+    <u>0</u><!-- Number Of Turns At War -->
+    <u>0</u><!-- Number Of Turns At War Without Battle -->
+    <ary type="REGULAR_PAYMENTS"/>
+    <u>0</u><!-- 10 If Allied Then Countdown To 0 When No Longer Allied -->
+    <u>0</u>
+    <ary type="ALLIED_IN_WAR_AGAINST"/>
+    <u4_ary>0 0 0 0 0 0 0 0 0 0 0</u4_ary>
+    <u>0</u>
+    <s>neutral</s><!-- Current Relationship With Protectorate ?? -->
+    <no/>
+    <no/>
+    <i>0</i>
+   </rec>
+  </rec>
+  <rec type="DIPLOMACY_RELATIONSHIPS_ARRAY">
+   <rec type="DIPLOMACY_RELATIONSHIP">
+    <i>582477656</i><!-- iroquoi -->
+    <ary type="DIPLOMACY_RELATIONSHIP_ATTITUDES_ARRAY">
+     <draa/><!-- State Gift Received -->
+     <draa/><!-- Military Alliance +1 If Broken -2 -->
+     <draa/><!-- Alliance Broken -->
+     <draa/><!-- Alliances Not Honoured -->
+     <draa extra="15" active2="yes"/><!-- War Against Enemy And Enemy Of My Enemy (If No War Then Enemy Of My Enemy) -->
+     <draa/><!-- Trade Agreement -->
+     <draa/><!-- Trade Agreement Broken -->
+     <draa/><!-- War Dragged By Ally (-70) And/Or Declare War (-140) -->
+     <draa/><!-- Peace Treaty -->
+     <draa/><!-- Allied With Enemy -->
+     <draa extra="-15" active2="yes"/><!-- War Declared On Friend -->
+     <draa/><!-- Unreliable Ally -->
+     <draa/><!-- Territorial Expansion -->
+     <draa/><!-- Backstabber -->
+     <draa/><!-- Assassination Attempts -->
+     <draa drift="0" current="-10" limit="0" active1="no"/><!-- Religion -->
+     <draa drift="0" current="-10" limit="0" active1="no"/><!-- Government Type -->
+     <draa/><!-- Historical Friendship/Grievance -->
+     <draa/><!-- Acts Of Sabotage -->
+     <draa/><!-- Acts Of Espionage -->
+     <draa/><!-- Threats Of Attack -->
+     <draa/><!-- Respect Given To National Leader -->
+    </ary>
+    <no/><!-- Trade Agreement -->
+    <i>0</i><!-- Military Access (-1 = Infinite) -->
+    <s>neutral</s><!-- Relationship -->
+    <i>0</i><!-- Supporting Faction ID -->
+    <u>0</u><!-- 20 If Allied Then Countdown To 0 -->
+    <i>0</i><!-- Declare war -?. Victim of war +? -->
+    <i>0</i><!-- Payment To Patron -->
+    <i>0</i><!-- Income From Protectorate -->
+    <i>0</i><!-- War - Opposition Has Opposite Value -->
+    <i>0</i><!-- Declare War -?. Victim Of War +? -->
+    <u>0</u><!-- Number Of Turns At War -->
+    <u>0</u><!-- Number Of Turns At War Without Battle -->
+    <ary type="REGULAR_PAYMENTS"/>
+    <u>0</u><!-- 10 If Allied Then Countdown To 0 When No Longer Allied -->
+    <u>0</u>
+    <ary type="ALLIED_IN_WAR_AGAINST"/>
+    <u4_ary>0 0 0 0 0 0 0 0 0 0 0</u4_ary>
+    <u>0</u>
+    <s>neutral</s><!-- Current Relationship With Protectorate ?? -->
+    <no/>
+    <no/>
+    <i>0</i>
+   </rec>
+  </rec>
+  <rec type="DIPLOMACY_RELATIONSHIPS_ARRAY">
+   <rec type="DIPLOMACY_RELATIONSHIP">
+    <i>583135800</i><!-- plains -->
+    <ary type="DIPLOMACY_RELATIONSHIP_ATTITUDES_ARRAY">
+     <draa/><!-- State Gift Received -->
+     <draa/><!-- Military Alliance +1 If Broken -2 -->
+     <draa/><!-- Alliance Broken -->
+     <draa/><!-- Alliances Not Honoured -->
+     <draa extra="15" active2="yes"/><!-- War Against Enemy And Enemy Of My Enemy (If No War Then Enemy Of My Enemy) -->
+     <draa/><!-- Trade Agreement -->
+     <draa/><!-- Trade Agreement Broken -->
+     <draa/><!-- War Dragged By Ally (-70) And/Or Declare War (-140) -->
+     <draa/><!-- Peace Treaty -->
+     <draa/><!-- Allied With Enemy -->
+     <draa extra="-15" active2="yes"/><!-- War Declared On Friend -->
+     <draa/><!-- Unreliable Ally -->
+     <draa/><!-- Territorial Expansion -->
+     <draa/><!-- Backstabber -->
+     <draa/><!-- Assassination Attempts -->
+     <draa drift="0" current="-10" limit="0" active1="no"/><!-- Religion -->
+     <draa drift="0" current="-10" limit="0" active1="no"/><!-- Government Type -->
+     <draa/><!-- Historical Friendship/Grievance -->
+     <draa/><!-- Acts Of Sabotage -->
+     <draa/><!-- Acts Of Espionage -->
+     <draa/><!-- Threats Of Attack -->
+     <draa/><!-- Respect Given To National Leader -->
+    </ary>
+    <no/><!-- Trade Agreement -->
+    <i>0</i><!-- Military Access (-1 = Infinite) -->
+    <s>neutral</s><!-- Relationship -->
+    <i>0</i><!-- Supporting Faction ID -->
+    <u>0</u><!-- 20 If Allied Then Countdown To 0 -->
+    <i>0</i><!-- Declare war -?. Victim of war +? -->
+    <i>0</i><!-- Payment To Patron -->
+    <i>0</i><!-- Income From Protectorate -->
+    <i>0</i><!-- War - Opposition Has Opposite Value -->
+    <i>0</i><!-- Declare War -?. Victim Of War +? -->
+    <u>0</u><!-- Number Of Turns At War -->
+    <u>0</u><!-- Number Of Turns At War Without Battle -->
+    <ary type="REGULAR_PAYMENTS"/>
+    <u>0</u><!-- 10 If Allied Then Countdown To 0 When No Longer Allied -->
+    <u>0</u>
+    <ary type="ALLIED_IN_WAR_AGAINST"/>
+    <u4_ary>0 0 0 0 0 0 0 0 0 0 0</u4_ary>
+    <u>0</u>
+    <s>neutral</s><!-- Current Relationship With Protectorate ?? -->
+    <no/>
+    <no/>
+    <i>0</i>
+   </rec>
+  </rec>
+  <rec type="DIPLOMACY_RELATIONSHIPS_ARRAY">
+   <rec type="DIPLOMACY_RELATIONSHIP">
+    <i>581675592</i><!-- morocco -->
+    <ary type="DIPLOMACY_RELATIONSHIP_ATTITUDES_ARRAY">
+     <draa/><!-- State Gift Received -->
+     <draa/><!-- Military Alliance +1 If Broken -2 -->
+     <draa/><!-- Alliance Broken -->
+     <draa/><!-- Alliances Not Honoured -->
+     <draa extra="15" active2="yes"/><!-- War Against Enemy And Enemy Of My Enemy (If No War Then Enemy Of My Enemy) -->
+     <draa/><!-- Trade Agreement -->
+     <draa/><!-- Trade Agreement Broken -->
+     <draa/><!-- War Dragged By Ally (-70) And/Or Declare War (-140) -->
+     <draa/><!-- Peace Treaty -->
+     <draa/><!-- Allied With Enemy -->
+     <draa extra="-15" active2="yes"/><!-- War Declared On Friend -->
+     <draa/><!-- Unreliable Ally -->
+     <draa/><!-- Territorial Expansion -->
+     <draa/><!-- Backstabber -->
+     <draa/><!-- Assassination Attempts -->
+     <draa drift="0" current="-15" limit="0" active1="no"/><!-- Religion -->
+     <draa drift="0" current="-10" limit="0" active1="no"/><!-- Government Type -->
+     <draa drift="-1" current="25" limit="0" active1="yes"/><!-- Historical Friendship/Grievance -->
+     <draa/><!-- Acts Of Sabotage -->
+     <draa/><!-- Acts Of Espionage -->
+     <draa/><!-- Threats Of Attack -->
+     <draa/><!-- Respect Given To National Leader -->
+    </ary>
+    <no/><!-- Trade Agreement -->
+    <i>0</i><!-- Military Access (-1 = Infinite) -->
+    <s>neutral</s><!-- Relationship -->
+    <i>0</i><!-- Supporting Faction ID -->
+    <u>0</u><!-- 20 If Allied Then Countdown To 0 -->
+    <i>0</i><!-- Declare war -?. Victim of war +? -->
+    <i>0</i><!-- Payment To Patron -->
+    <i>0</i><!-- Income From Protectorate -->
+    <i>0</i><!-- War - Opposition Has Opposite Value -->
+    <i>0</i><!-- Declare War -?. Victim Of War +? -->
+    <u>0</u><!-- Number Of Turns At War -->
+    <u>0</u><!-- Number Of Turns At War Without Battle -->
+    <ary type="REGULAR_PAYMENTS"/>
+    <u>0</u><!-- 10 If Allied Then Countdown To 0 When No Longer Allied -->
+    <u>0</u>
+    <ary type="ALLIED_IN_WAR_AGAINST"/>
+    <u4_ary>0 0 0 0 0 0 0 0 0 0 0</u4_ary>
+    <u>0</u>
+    <s>neutral</s><!-- Current Relationship With Protectorate ?? -->
+    <no/>
+    <yes/>
+    <i>0</i>
+   </rec>
+  </rec>
+  <rec type="DIPLOMACY_RELATIONSHIPS_ARRAY">
+   <rec type="DIPLOMACY_RELATIONSHIP">
+    <i>585298704</i><!-- barbary_states -->
+    <ary type="DIPLOMACY_RELATIONSHIP_ATTITUDES_ARRAY">
+     <draa/><!-- State Gift Received -->
+     <draa/><!-- Military Alliance +1 If Broken -2 -->
+     <draa/><!-- Alliance Broken -->
+     <draa/><!-- Alliances Not Honoured -->
+     <draa extra="15" active2="yes"/><!-- War Against Enemy And Enemy Of My Enemy (If No War Then Enemy Of My Enemy) -->
+     <draa/><!-- Trade Agreement -->
+     <draa/><!-- Trade Agreement Broken -->
+     <draa drift="-2" current="-140" limit="-200" active1="yes"/><!-- War Dragged By Ally (-70) And/Or Declare War (-140) -->
+     <draa/><!-- Peace Treaty -->
+     <draa/><!-- Allied With Enemy -->
+     <draa drift="1" current="-15" limit="0" active1="yes" extra="-15" active2="yes"/><!-- War Declared On Friend -->
+     <draa/><!-- Unreliable Ally -->
+     <draa/><!-- Territorial Expansion -->
+     <draa/><!-- Backstabber -->
+     <draa/><!-- Assassination Attempts -->
+     <draa drift="0" current="-15" limit="0" active1="no"/><!-- Religion -->
+     <draa drift="0" current="-10" limit="0" active1="no"/><!-- Government Type -->
+     <draa/><!-- Historical Friendship/Grievance -->
+     <draa/><!-- Acts Of Sabotage -->
+     <draa/><!-- Acts Of Espionage -->
+     <draa/><!-- Threats Of Attack -->
+     <draa/><!-- Respect Given To National Leader -->
+    </ary>
+    <no/><!-- Trade Agreement -->
+    <i>0</i><!-- Military Access (-1 = Infinite) -->
+    <s>war</s><!-- Relationship -->
+    <i>0</i><!-- Supporting Faction ID -->
+    <u>0</u><!-- 20 If Allied Then Countdown To 0 -->
+    <i>0</i><!-- Declare war -?. Victim of war +? -->
+    <i>0</i><!-- Payment To Patron -->
+    <i>0</i><!-- Income From Protectorate -->
+    <i>0</i><!-- War - Opposition Has Opposite Value -->
+    <i>0</i><!-- Declare War -?. Victim Of War +? -->
+    <u>0</u><!-- Number Of Turns At War -->
+    <u>0</u><!-- Number Of Turns At War Without Battle -->
+    <ary type="REGULAR_PAYMENTS"/>
+    <u>0</u><!-- 10 If Allied Then Countdown To 0 When No Longer Allied -->
+    <u>0</u>
+    <ary type="ALLIED_IN_WAR_AGAINST"/>
+    <u4_ary>0 0 0 0 0 0 0 0 0 0 0</u4_ary>
+    <u>0</u>
+    <s>war</s><!-- Current Relationship With Protectorate ?? -->
+    <no/>
+    <no/>
+    <i>-85</i>
+   </rec>
+  </rec>
+  <rec type="DIPLOMACY_RELATIONSHIPS_ARRAY">
+   <rec type="DIPLOMACY_RELATIONSHIP">
+    <i>581007760</i><!-- maratha -->
+    <ary type="DIPLOMACY_RELATIONSHIP_ATTITUDES_ARRAY">
+     <draa/><!-- State Gift Received -->
+     <draa/><!-- Military Alliance +1 If Broken -2 -->
+     <draa/><!-- Alliance Broken -->
+     <draa/><!-- Alliances Not Honoured -->
+     <draa extra="15" active2="yes"/><!-- War Against Enemy And Enemy Of My Enemy (If No War Then Enemy Of My Enemy) -->
+     <draa/><!-- Trade Agreement -->
+     <draa/><!-- Trade Agreement Broken -->
+     <draa/><!-- War Dragged By Ally (-70) And/Or Declare War (-140) -->
+     <draa/><!-- Peace Treaty -->
+     <draa/><!-- Allied With Enemy -->
+     <draa extra="-15" active2="yes"/><!-- War Declared On Friend -->
+     <draa/><!-- Unreliable Ally -->
+     <draa/><!-- Territorial Expansion -->
+     <draa/><!-- Backstabber -->
+     <draa/><!-- Assassination Attempts -->
+     <draa/><!-- Religion -->
+     <draa drift="0" current="-10" limit="0" active1="no"/><!-- Government Type -->
+     <draa/><!-- Historical Friendship/Grievance -->
+     <draa/><!-- Acts Of Sabotage -->
+     <draa/><!-- Acts Of Espionage -->
+     <draa/><!-- Threats Of Attack -->
+     <draa/><!-- Respect Given To National Leader -->
+    </ary>
+    <no/><!-- Trade Agreement -->
+    <i>0</i><!-- Military Access (-1 = Infinite) -->
+    <s>neutral</s><!-- Relationship -->
+    <i>0</i><!-- Supporting Faction ID -->
+    <u>0</u><!-- 20 If Allied Then Countdown To 0 -->
+    <i>0</i><!-- Declare war -?. Victim of war +? -->
+    <i>0</i><!-- Payment To Patron -->
+    <i>0</i><!-- Income From Protectorate -->
+    <i>0</i><!-- War - Opposition Has Opposite Value -->
+    <i>0</i><!-- Declare War -?. Victim Of War +? -->
+    <u>0</u><!-- Number Of Turns At War -->
+    <u>0</u><!-- Number Of Turns At War Without Battle -->
+    <ary type="REGULAR_PAYMENTS"/>
+    <u>0</u><!-- 10 If Allied Then Countdown To 0 When No Longer Allied -->
+    <u>0</u>
+    <ary type="ALLIED_IN_WAR_AGAINST"/>
+    <u4_ary>0 0 0 0 0 0 0 0 0 0 0</u4_ary>
+    <u>0</u>
+    <s>neutral</s><!-- Current Relationship With Protectorate ?? -->
+    <no/>
+    <no/>
+    <i>0</i>
+   </rec>
+  </rec>
+  <rec type="DIPLOMACY_RELATIONSHIPS_ARRAY">
+   <rec type="DIPLOMACY_RELATIONSHIP">
+    <i>584010576</i><!-- wurttemberg -->
+    <ary type="DIPLOMACY_RELATIONSHIP_ATTITUDES_ARRAY">
+     <draa/><!-- State Gift Received -->
+     <draa/><!-- Military Alliance +1 If Broken -2 -->
+     <draa/><!-- Alliance Broken -->
+     <draa/><!-- Alliances Not Honoured -->
+     <draa extra="15" active2="yes"/><!-- War Against Enemy And Enemy Of My Enemy (If No War Then Enemy Of My Enemy) -->
+     <draa/><!-- Trade Agreement -->
+     <draa/><!-- Trade Agreement Broken -->
+     <draa/><!-- War Dragged By Ally (-70) And/Or Declare War (-140) -->
+     <draa/><!-- Peace Treaty -->
+     <draa/><!-- Allied With Enemy -->
+     <draa extra="-15" active2="yes"/><!-- War Declared On Friend -->
+     <draa/><!-- Unreliable Ally -->
+     <draa/><!-- Territorial Expansion -->
+     <draa/><!-- Backstabber -->
+     <draa/><!-- Assassination Attempts -->
+     <draa drift="0" current="20" limit="0" active1="no"/><!-- Religion -->
+     <draa drift="0" current="-10" limit="0" active1="no"/><!-- Government Type -->
+     <draa/><!-- Historical Friendship/Grievance -->
+     <draa/><!-- Acts Of Sabotage -->
+     <draa/><!-- Acts Of Espionage -->
+     <draa/><!-- Threats Of Attack -->
+     <draa/><!-- Respect Given To National Leader -->
+    </ary>
+    <no/><!-- Trade Agreement -->
+    <i>0</i><!-- Military Access (-1 = Infinite) -->
+    <s>neutral</s><!-- Relationship -->
+    <i>0</i><!-- Supporting Faction ID -->
+    <u>0</u><!-- 20 If Allied Then Countdown To 0 -->
+    <i>0</i><!-- Declare war -?. Victim of war +? -->
+    <i>0</i><!-- Payment To Patron -->
+    <i>0</i><!-- Income From Protectorate -->
+    <i>0</i><!-- War - Opposition Has Opposite Value -->
+    <i>0</i><!-- Declare War -?. Victim Of War +? -->
+    <u>0</u><!-- Number Of Turns At War -->
+    <u>0</u><!-- Number Of Turns At War Without Battle -->
+    <ary type="REGULAR_PAYMENTS"/>
+    <u>0</u><!-- 10 If Allied Then Countdown To 0 When No Longer Allied -->
+    <u>0</u>
+    <ary type="ALLIED_IN_WAR_AGAINST"/>
+    <u4_ary>0 0 0 0 0 0 0 0 0 0 0</u4_ary>
+    <u>0</u>
+    <s>neutral</s><!-- Current Relationship With Protectorate ?? -->
+    <no/>
+    <no/>
+    <i>0</i>
+   </rec>
+  </rec>
+  <rec type="DIPLOMACY_RELATIONSHIPS_ARRAY">
+   <rec type="DIPLOMACY_RELATIONSHIP">
+    <i>584306464</i><!-- punjab -->
+    <ary type="DIPLOMACY_RELATIONSHIP_ATTITUDES_ARRAY">
+     <draa/><!-- State Gift Received -->
+     <draa/><!-- Military Alliance +1 If Broken -2 -->
+     <draa/><!-- Alliance Broken -->
+     <draa/><!-- Alliances Not Honoured -->
+     <draa extra="15" active2="yes"/><!-- War Against Enemy And Enemy Of My Enemy (If No War Then Enemy Of My Enemy) -->
+     <draa/><!-- Trade Agreement -->
+     <draa/><!-- Trade Agreement Broken -->
+     <draa/><!-- War Dragged By Ally (-70) And/Or Declare War (-140) -->
+     <draa/><!-- Peace Treaty -->
+     <draa/><!-- Allied With Enemy -->
+     <draa extra="-15" active2="yes"/><!-- War Declared On Friend -->
+     <draa/><!-- Unreliable Ally -->
+     <draa/><!-- Territorial Expansion -->
+     <draa/><!-- Backstabber -->
+     <draa/><!-- Assassination Attempts -->
+     <draa/><!-- Religion -->
+     <draa drift="0" current="-10" limit="0" active1="no"/><!-- Government Type -->
+     <draa/><!-- Historical Friendship/Grievance -->
+     <draa/><!-- Acts Of Sabotage -->
+     <draa/><!-- Acts Of Espionage -->
+     <draa/><!-- Threats Of Attack -->
+     <draa/><!-- Respect Given To National Leader -->
+    </ary>
+    <no/><!-- Trade Agreement -->
+    <i>0</i><!-- Military Access (-1 = Infinite) -->
+    <s>neutral</s><!-- Relationship -->
+    <i>0</i><!-- Supporting Faction ID -->
+    <u>0</u><!-- 20 If Allied Then Countdown To 0 -->
+    <i>0</i><!-- Declare war -?. Victim of war +? -->
+    <i>0</i><!-- Payment To Patron -->
+    <i>0</i><!-- Income From Protectorate -->
+    <i>0</i><!-- War - Opposition Has Opposite Value -->
+    <i>0</i><!-- Declare War -?. Victim Of War +? -->
+    <u>0</u><!-- Number Of Turns At War -->
+    <u>0</u><!-- Number Of Turns At War Without Battle -->
+    <ary type="REGULAR_PAYMENTS"/>
+    <u>0</u><!-- 10 If Allied Then Countdown To 0 When No Longer Allied -->
+    <u>0</u>
+    <ary type="ALLIED_IN_WAR_AGAINST"/>
+    <u4_ary>0 0 0 0 0 0 0 0 0 0 0</u4_ary>
+    <u>0</u>
+    <s>neutral</s><!-- Current Relationship With Protectorate ?? -->
+    <no/>
+    <no/>
+    <i>0</i>
+   </rec>
+  </rec>
+  <rec type="DIPLOMACY_RELATIONSHIPS_ARRAY">
+   <rec type="DIPLOMACY_RELATIONSHIP">
+    <i>582611296</i><!-- westphalia -->
+    <ary type="DIPLOMACY_RELATIONSHIP_ATTITUDES_ARRAY">
+     <draa/><!-- State Gift Received -->
+     <draa/><!-- Military Alliance +1 If Broken -2 -->
+     <draa/><!-- Alliance Broken -->
+     <draa/><!-- Alliances Not Honoured -->
+     <draa drift="-1" current="15" limit="0" active1="yes" extra="15" active2="yes"/><!-- War Against Enemy And Enemy Of My Enemy (If No War Then Enemy Of My Enemy) -->
+     <draa/><!-- Trade Agreement -->
+     <draa/><!-- Trade Agreement Broken -->
+     <draa/><!-- War Dragged By Ally (-70) And/Or Declare War (-140) -->
+     <draa/><!-- Peace Treaty -->
+     <draa/><!-- Allied With Enemy -->
+     <draa extra="-15" active2="yes"/><!-- War Declared On Friend -->
+     <draa/><!-- Unreliable Ally -->
+     <draa/><!-- Territorial Expansion -->
+     <draa/><!-- Backstabber -->
+     <draa/><!-- Assassination Attempts -->
+     <draa drift="0" current="20" limit="0" active1="no"/><!-- Religion -->
+     <draa drift="0" current="-10" limit="0" active1="no"/><!-- Government Type -->
+     <draa drift="1" current="-25" limit="0" active1="yes"/><!-- Historical Friendship/Grievance -->
+     <draa/><!-- Acts Of Sabotage -->
+     <draa/><!-- Acts Of Espionage -->
+     <draa/><!-- Threats Of Attack -->
+     <draa/><!-- Respect Given To National Leader -->
+    </ary>
+    <no/><!-- Trade Agreement -->
+    <i>0</i><!-- Military Access (-1 = Infinite) -->
+    <s>neutral</s><!-- Relationship -->
+    <i>0</i><!-- Supporting Faction ID -->
+    <u>0</u><!-- 20 If Allied Then Countdown To 0 -->
+    <i>0</i><!-- Declare war -?. Victim of war +? -->
+    <i>0</i><!-- Payment To Patron -->
+    <i>0</i><!-- Income From Protectorate -->
+    <i>0</i><!-- War - Opposition Has Opposite Value -->
+    <i>0</i><!-- Declare War -?. Victim Of War +? -->
+    <u>0</u><!-- Number Of Turns At War -->
+    <u>0</u><!-- Number Of Turns At War Without Battle -->
+    <ary type="REGULAR_PAYMENTS"/>
+    <u>0</u><!-- 10 If Allied Then Countdown To 0 When No Longer Allied -->
+    <u>0</u>
+    <ary type="ALLIED_IN_WAR_AGAINST"/>
+    <u4_ary>0 0 0 0 0 0 0 0 0 0 0</u4_ary>
+    <u>0</u>
+    <s>neutral</s><!-- Current Relationship With Protectorate ?? -->
+    <no/>
+    <no/>
+    <i>0</i>
+   </rec>
+  </rec>
+  <rec type="DIPLOMACY_RELATIONSHIPS_ARRAY">
+   <rec type="DIPLOMACY_RELATIONSHIP">
+    <i>583925824</i><!-- cherokee -->
+    <ary type="DIPLOMACY_RELATIONSHIP_ATTITUDES_ARRAY">
+     <draa/><!-- State Gift Received -->
+     <draa/><!-- Military Alliance +1 If Broken -2 -->
+     <draa/><!-- Alliance Broken -->
+     <draa/><!-- Alliances Not Honoured -->
+     <draa extra="15" active2="yes"/><!-- War Against Enemy And Enemy Of My Enemy (If No War Then Enemy Of My Enemy) -->
+     <draa/><!-- Trade Agreement -->
+     <draa/><!-- Trade Agreement Broken -->
+     <draa/><!-- War Dragged By Ally (-70) And/Or Declare War (-140) -->
+     <draa/><!-- Peace Treaty -->
+     <draa/><!-- Allied With Enemy -->
+     <draa extra="-15" active2="yes"/><!-- War Declared On Friend -->
+     <draa/><!-- Unreliable Ally -->
+     <draa/><!-- Territorial Expansion -->
+     <draa/><!-- Backstabber -->
+     <draa/><!-- Assassination Attempts -->
+     <draa drift="0" current="-10" limit="0" active1="no"/><!-- Religion -->
+     <draa drift="0" current="-10" limit="0" active1="no"/><!-- Government Type -->
+     <draa/><!-- Historical Friendship/Grievance -->
+     <draa/><!-- Acts Of Sabotage -->
+     <draa/><!-- Acts Of Espionage -->
+     <draa/><!-- Threats Of Attack -->
+     <draa/><!-- Respect Given To National Leader -->
+    </ary>
+    <no/><!-- Trade Agreement -->
+    <i>0</i><!-- Military Access (-1 = Infinite) -->
+    <s>neutral</s><!-- Relationship -->
+    <i>0</i><!-- Supporting Faction ID -->
+    <u>0</u><!-- 20 If Allied Then Countdown To 0 -->
+    <i>0</i><!-- Declare war -?. Victim of war +? -->
+    <i>0</i><!-- Payment To Patron -->
+    <i>0</i><!-- Income From Protectorate -->
+    <i>0</i><!-- War - Opposition Has Opposite Value -->
+    <i>0</i><!-- Declare War -?. Victim Of War +? -->
+    <u>0</u><!-- Number Of Turns At War -->
+    <u>0</u><!-- Number Of Turns At War Without Battle -->
+    <ary type="REGULAR_PAYMENTS"/>
+    <u>0</u><!-- 10 If Allied Then Countdown To 0 When No Longer Allied -->
+    <u>0</u>
+    <ary type="ALLIED_IN_WAR_AGAINST"/>
+    <u4_ary>0 0 0 0 0 0 0 0 0 0 0</u4_ary>
+    <u>0</u>
+    <s>neutral</s><!-- Current Relationship With Protectorate ?? -->
+    <no/>
+    <no/>
+    <i>0</i>
+   </rec>
+  </rec>
+  <rec type="DIPLOMACY_RELATIONSHIPS_ARRAY">
+   <rec type="DIPLOMACY_RELATIONSHIP">
+    <i>583750408</i><!-- ireland -->
+    <ary type="DIPLOMACY_RELATIONSHIP_ATTITUDES_ARRAY">
+     <draa/><!-- State Gift Received -->
+     <draa/><!-- Military Alliance +1 If Broken -2 -->
+     <draa/><!-- Alliance Broken -->
+     <draa/><!-- Alliances Not Honoured -->
+     <draa extra="15" active2="yes"/><!-- War Against Enemy And Enemy Of My Enemy (If No War Then Enemy Of My Enemy) -->
+     <draa/><!-- Trade Agreement -->
+     <draa/><!-- Trade Agreement Broken -->
+     <draa/><!-- War Dragged By Ally (-70) And/Or Declare War (-140) -->
+     <draa/><!-- Peace Treaty -->
+     <draa/><!-- Allied With Enemy -->
+     <draa extra="-15" active2="yes"/><!-- War Declared On Friend -->
+     <draa/><!-- Unreliable Ally -->
+     <draa/><!-- Territorial Expansion -->
+     <draa/><!-- Backstabber -->
+     <draa/><!-- Assassination Attempts -->
+     <draa drift="0" current="20" limit="0" active1="no"/><!-- Religion -->
+     <draa drift="0" current="-10" limit="0" active1="no"/><!-- Government Type -->
+     <draa/><!-- Historical Friendship/Grievance -->
+     <draa/><!-- Acts Of Sabotage -->
+     <draa/><!-- Acts Of Espionage -->
+     <draa/><!-- Threats Of Attack -->
+     <draa/><!-- Respect Given To National Leader -->
+    </ary>
+    <no/><!-- Trade Agreement -->
+    <i>0</i><!-- Military Access (-1 = Infinite) -->
+    <s>neutral</s><!-- Relationship -->
+    <i>0</i><!-- Supporting Faction ID -->
+    <u>0</u><!-- 20 If Allied Then Countdown To 0 -->
+    <i>0</i><!-- Declare war -?. Victim of war +? -->
+    <i>0</i><!-- Payment To Patron -->
+    <i>0</i><!-- Income From Protectorate -->
+    <i>0</i><!-- War - Opposition Has Opposite Value -->
+    <i>0</i><!-- Declare War -?. Victim Of War +? -->
+    <u>0</u><!-- Number Of Turns At War -->
+    <u>0</u><!-- Number Of Turns At War Without Battle -->
+    <ary type="REGULAR_PAYMENTS"/>
+    <u>0</u><!-- 10 If Allied Then Countdown To 0 When No Longer Allied -->
+    <u>0</u>
+    <ary type="ALLIED_IN_WAR_AGAINST"/>
+    <u4_ary>0 0 0 0 0 0 0 0 0 0 0</u4_ary>
+    <u>0</u>
+    <s>neutral</s><!-- Current Relationship With Protectorate ?? -->
+    <no/>
+    <no/>
+    <i>0</i>
+   </rec>
+  </rec>
+  <rec type="DIPLOMACY_RELATIONSHIPS_ARRAY">
+   <rec type="DIPLOMACY_RELATIONSHIP">
+    <i>585232488</i><!-- colombia -->
+    <ary type="DIPLOMACY_RELATIONSHIP_ATTITUDES_ARRAY">
+     <draa/><!-- State Gift Received -->
+     <draa/><!-- Military Alliance +1 If Broken -2 -->
+     <draa/><!-- Alliance Broken -->
+     <draa/><!-- Alliances Not Honoured -->
+     <draa extra="15" active2="yes"/><!-- War Against Enemy And Enemy Of My Enemy (If No War Then Enemy Of My Enemy) -->
+     <draa/><!-- Trade Agreement -->
+     <draa/><!-- Trade Agreement Broken -->
+     <draa/><!-- War Dragged By Ally (-70) And/Or Declare War (-140) -->
+     <draa/><!-- Peace Treaty -->
+     <draa/><!-- Allied With Enemy -->
+     <draa extra="-15" active2="yes"/><!-- War Declared On Friend -->
+     <draa/><!-- Unreliable Ally -->
+     <draa/><!-- Territorial Expansion -->
+     <draa/><!-- Backstabber -->
+     <draa/><!-- Assassination Attempts -->
+     <draa drift="0" current="20" limit="0" active1="no"/><!-- Religion -->
+     <draa drift="0" current="-10" limit="0" active1="no"/><!-- Government Type -->
+     <draa/><!-- Historical Friendship/Grievance -->
+     <draa/><!-- Acts Of Sabotage -->
+     <draa/><!-- Acts Of Espionage -->
+     <draa/><!-- Threats Of Attack -->
+     <draa/><!-- Respect Given To National Leader -->
+    </ary>
+    <no/><!-- Trade Agreement -->
+    <i>0</i><!-- Military Access (-1 = Infinite) -->
+    <s>neutral</s><!-- Relationship -->
+    <i>0</i><!-- Supporting Faction ID -->
+    <u>0</u><!-- 20 If Allied Then Countdown To 0 -->
+    <i>0</i><!-- Declare war -?. Victim of war +? -->
+    <i>0</i><!-- Payment To Patron -->
+    <i>0</i><!-- Income From Protectorate -->
+    <i>0</i><!-- War - Opposition Has Opposite Value -->
+    <i>0</i><!-- Declare War -?. Victim Of War +? -->
+    <u>0</u><!-- Number Of Turns At War -->
+    <u>0</u><!-- Number Of Turns At War Without Battle -->
+    <ary type="REGULAR_PAYMENTS"/>
+    <u>0</u><!-- 10 If Allied Then Countdown To 0 When No Longer Allied -->
+    <u>0</u>
+    <ary type="ALLIED_IN_WAR_AGAINST"/>
+    <u4_ary>0 0 0 0 0 0 0 0 0 0 0</u4_ary>
+    <u>0</u>
+    <s>neutral</s><!-- Current Relationship With Protectorate ?? -->
+    <no/>
+    <no/>
+    <i>0</i>
+   </rec>
+  </rec>
+  <rec type="DIPLOMACY_RELATIONSHIPS_ARRAY">
+   <rec type="DIPLOMACY_RELATIONSHIP">
+    <i>584680376</i><!-- afghanistan -->
+    <ary type="DIPLOMACY_RELATIONSHIP_ATTITUDES_ARRAY">
+     <draa/><!-- State Gift Received -->
+     <draa/><!-- Military Alliance +1 If Broken -2 -->
+     <draa/><!-- Alliance Broken -->
+     <draa/><!-- Alliances Not Honoured -->
+     <draa extra="15" active2="yes"/><!-- War Against Enemy And Enemy Of My Enemy (If No War Then Enemy Of My Enemy) -->
+     <draa/><!-- Trade Agreement -->
+     <draa/><!-- Trade Agreement Broken -->
+     <draa/><!-- War Dragged By Ally (-70) And/Or Declare War (-140) -->
+     <draa/><!-- Peace Treaty -->
+     <draa/><!-- Allied With Enemy -->
+     <draa extra="-15" active2="yes"/><!-- War Declared On Friend -->
+     <draa/><!-- Unreliable Ally -->
+     <draa/><!-- Territorial Expansion -->
+     <draa/><!-- Backstabber -->
+     <draa/><!-- Assassination Attempts -->
+     <draa drift="0" current="-15" limit="0" active1="no"/><!-- Religion -->
+     <draa drift="0" current="-10" limit="0" active1="no"/><!-- Government Type -->
+     <draa drift="-1" current="25" limit="0" active1="yes"/><!-- Historical Friendship/Grievance -->
+     <draa/><!-- Acts Of Sabotage -->
+     <draa/><!-- Acts Of Espionage -->
+     <draa/><!-- Threats Of Attack -->
+     <draa/><!-- Respect Given To National Leader -->
+    </ary>
+    <no/><!-- Trade Agreement -->
+    <i>0</i><!-- Military Access (-1 = Infinite) -->
+    <s>neutral</s><!-- Relationship -->
+    <i>0</i><!-- Supporting Faction ID -->
+    <u>0</u><!-- 20 If Allied Then Countdown To 0 -->
+    <i>0</i><!-- Declare war -?. Victim of war +? -->
+    <i>0</i><!-- Payment To Patron -->
+    <i>0</i><!-- Income From Protectorate -->
+    <i>0</i><!-- War - Opposition Has Opposite Value -->
+    <i>0</i><!-- Declare War -?. Victim Of War +? -->
+    <u>0</u><!-- Number Of Turns At War -->
+    <u>0</u><!-- Number Of Turns At War Without Battle -->
+    <ary type="REGULAR_PAYMENTS"/>
+    <u>0</u><!-- 10 If Allied Then Countdown To 0 When No Longer Allied -->
+    <u>0</u>
+    <ary type="ALLIED_IN_WAR_AGAINST"/>
+    <u4_ary>0 0 0 0 0 0 0 0 0 0 0</u4_ary>
+    <u>0</u>
+    <s>neutral</s><!-- Current Relationship With Protectorate ?? -->
+    <no/>
+    <no/>
+    <i>0</i>
+   </rec>
+  </rec>
+  <rec type="DIPLOMACY_RELATIONSHIPS_ARRAY">
+   <rec type="DIPLOMACY_RELATIONSHIP">
+    <i>584413520</i><!-- mamelukes -->
+    <ary type="DIPLOMACY_RELATIONSHIP_ATTITUDES_ARRAY">
+     <draa/><!-- State Gift Received -->
+     <draa/><!-- Military Alliance +1 If Broken -2 -->
+     <draa/><!-- Alliance Broken -->
+     <draa/><!-- Alliances Not Honoured -->
+     <draa extra="15" active2="yes"/><!-- War Against Enemy And Enemy Of My Enemy (If No War Then Enemy Of My Enemy) -->
+     <draa/><!-- Trade Agreement -->
+     <draa/><!-- Trade Agreement Broken -->
+     <draa/><!-- War Dragged By Ally (-70) And/Or Declare War (-140) -->
+     <draa/><!-- Peace Treaty -->
+     <draa/><!-- Allied With Enemy -->
+     <draa extra="-15" active2="yes"/><!-- War Declared On Friend -->
+     <draa/><!-- Unreliable Ally -->
+     <draa/><!-- Territorial Expansion -->
+     <draa/><!-- Backstabber -->
+     <draa/><!-- Assassination Attempts -->
+     <draa drift="0" current="-15" limit="0" active1="no"/><!-- Religion -->
+     <draa drift="0" current="-10" limit="0" active1="no"/><!-- Government Type -->
+     <draa drift="-1" current="25" limit="0" active1="yes"/><!-- Historical Friendship/Grievance -->
+     <draa/><!-- Acts Of Sabotage -->
+     <draa/><!-- Acts Of Espionage -->
+     <draa/><!-- Threats Of Attack -->
+     <draa/><!-- Respect Given To National Leader -->
+    </ary>
+    <no/><!-- Trade Agreement -->
+    <i>0</i><!-- Military Access (-1 = Infinite) -->
+    <s>neutral</s><!-- Relationship -->
+    <i>0</i><!-- Supporting Faction ID -->
+    <u>0</u><!-- 20 If Allied Then Countdown To 0 -->
+    <i>0</i><!-- Declare war -?. Victim of war +? -->
+    <i>0</i><!-- Payment To Patron -->
+    <i>0</i><!-- Income From Protectorate -->
+    <i>0</i><!-- War - Opposition Has Opposite Value -->
+    <i>0</i><!-- Declare War -?. Victim Of War +? -->
+    <u>0</u><!-- Number Of Turns At War -->
+    <u>0</u><!-- Number Of Turns At War Without Battle -->
+    <ary type="REGULAR_PAYMENTS"/>
+    <u>0</u><!-- 10 If Allied Then Countdown To 0 When No Longer Allied -->
+    <u>0</u>
+    <ary type="ALLIED_IN_WAR_AGAINST"/>
+    <u4_ary>0 0 0 0 0 0 0 0 0 0 0</u4_ary>
+    <u>0</u>
+    <s>neutral</s><!-- Current Relationship With Protectorate ?? -->
+    <no/>
+    <no/>
+    <i>0</i>
+   </rec>
+  </rec>
+  <rec type="DIPLOMACY_RELATIONSHIPS_ARRAY">
+   <rec type="DIPLOMACY_RELATIONSHIP">
+    <i>582170000</i><!-- new_spain -->
+    <ary type="DIPLOMACY_RELATIONSHIP_ATTITUDES_ARRAY">
+     <draa/><!-- State Gift Received -->
+     <draa/><!-- Military Alliance +1 If Broken -2 -->
+     <draa/><!-- Alliance Broken -->
+     <draa/><!-- Alliances Not Honoured -->
+     <draa drift="-1" current="15" limit="0" active1="yes" extra="15" active2="yes"/><!-- War Against Enemy And Enemy Of My Enemy (If No War Then Enemy Of My Enemy) -->
+     <draa/><!-- Trade Agreement -->
+     <draa/><!-- Trade Agreement Broken -->
+     <draa/><!-- War Dragged By Ally (-70) And/Or Declare War (-140) -->
+     <draa/><!-- Peace Treaty -->
+     <draa/><!-- Allied With Enemy -->
+     <draa extra="-15" active2="yes"/><!-- War Declared On Friend -->
+     <draa/><!-- Unreliable Ally -->
+     <draa/><!-- Territorial Expansion -->
+     <draa/><!-- Backstabber -->
+     <draa/><!-- Assassination Attempts -->
+     <draa drift="0" current="20" limit="0" active1="no"/><!-- Religion -->
+     <draa drift="0" current="-10" limit="0" active1="no"/><!-- Government Type -->
+     <draa drift="1" current="-70" limit="0" active1="yes"/><!-- Historical Friendship/Grievance -->
+     <draa/><!-- Acts Of Sabotage -->
+     <draa/><!-- Acts Of Espionage -->
+     <draa/><!-- Threats Of Attack -->
+     <draa/><!-- Respect Given To National Leader -->
+    </ary>
+    <no/><!-- Trade Agreement -->
+    <i>0</i><!-- Military Access (-1 = Infinite) -->
+    <s>neutral</s><!-- Relationship -->
+    <i>0</i><!-- Supporting Faction ID -->
+    <u>0</u><!-- 20 If Allied Then Countdown To 0 -->
+    <i>0</i><!-- Declare war -?. Victim of war +? -->
+    <i>0</i><!-- Payment To Patron -->
+    <i>0</i><!-- Income From Protectorate -->
+    <i>0</i><!-- War - Opposition Has Opposite Value -->
+    <i>0</i><!-- Declare War -?. Victim Of War +? -->
+    <u>0</u><!-- Number Of Turns At War -->
+    <u>0</u><!-- Number Of Turns At War Without Battle -->
+    <ary type="REGULAR_PAYMENTS"/>
+    <u>0</u><!-- 10 If Allied Then Countdown To 0 When No Longer Allied -->
+    <u>0</u>
+    <ary type="ALLIED_IN_WAR_AGAINST"/>
+    <u4_ary>0 0 0 0 0 0 0 0 0 0 0</u4_ary>
+    <u>0</u>
+    <s>neutral</s><!-- Current Relationship With Protectorate ?? -->
+    <no/>
+    <no/>
+    <i>-45</i>
+   </rec>
+  </rec>
+  <rec type="DIPLOMACY_RELATIONSHIPS_ARRAY">
+   <rec type="DIPLOMACY_RELATIONSHIP">
+    <i>581747872</i><!-- knights_stjohn -->
+    <ary type="DIPLOMACY_RELATIONSHIP_ATTITUDES_ARRAY">
+     <draa/><!-- State Gift Received -->
+     <draa/><!-- Military Alliance +1 If Broken -2 -->
+     <draa/><!-- Alliance Broken -->
+     <draa/><!-- Alliances Not Honoured -->
+     <draa drift="-1" current="15" limit="0" active1="yes" extra="15" active2="yes"/><!-- War Against Enemy And Enemy Of My Enemy (If No War Then Enemy Of My Enemy) -->
+     <draa/><!-- Trade Agreement -->
+     <draa/><!-- Trade Agreement Broken -->
+     <draa/><!-- War Dragged By Ally (-70) And/Or Declare War (-140) -->
+     <draa/><!-- Peace Treaty -->
+     <draa/><!-- Allied With Enemy -->
+     <draa extra="-15" active2="yes"/><!-- War Declared On Friend -->
+     <draa/><!-- Unreliable Ally -->
+     <draa/><!-- Territorial Expansion -->
+     <draa/><!-- Backstabber -->
+     <draa/><!-- Assassination Attempts -->
+     <draa drift="0" current="20" limit="0" active1="no"/><!-- Religion -->
+     <draa drift="0" current="-10" limit="0" active1="no"/><!-- Government Type -->
+     <draa/><!-- Historical Friendship/Grievance -->
+     <draa/><!-- Acts Of Sabotage -->
+     <draa/><!-- Acts Of Espionage -->
+     <draa/><!-- Threats Of Attack -->
+     <draa/><!-- Respect Given To National Leader -->
+    </ary>
+    <no/><!-- Trade Agreement -->
+    <i>0</i><!-- Military Access (-1 = Infinite) -->
+    <s>neutral</s><!-- Relationship -->
+    <i>0</i><!-- Supporting Faction ID -->
+    <u>0</u><!-- 20 If Allied Then Countdown To 0 -->
+    <i>0</i><!-- Declare war -?. Victim of war +? -->
+    <i>0</i><!-- Payment To Patron -->
+    <i>0</i><!-- Income From Protectorate -->
+    <i>0</i><!-- War - Opposition Has Opposite Value -->
+    <i>0</i><!-- Declare War -?. Victim Of War +? -->
+    <u>0</u><!-- Number Of Turns At War -->
+    <u>0</u><!-- Number Of Turns At War Without Battle -->
+    <ary type="REGULAR_PAYMENTS"/>
+    <u>0</u><!-- 10 If Allied Then Countdown To 0 When No Longer Allied -->
+    <u>0</u>
+    <ary type="ALLIED_IN_WAR_AGAINST"/>
+    <u4_ary>0 0 0 0 0 0 0 0 0 0 0</u4_ary>
+    <u>0</u>
+    <s>neutral</s><!-- Current Relationship With Protectorate ?? -->
+    <no/>
+    <no/>
+    <i>45</i>
+   </rec>
+  </rec>
+  <rec type="DIPLOMACY_RELATIONSHIPS_ARRAY">
+   <rec type="DIPLOMACY_RELATIONSHIP">
+    <i>581977584</i><!-- thirteen_colonies -->
+    <ary type="DIPLOMACY_RELATIONSHIP_ATTITUDES_ARRAY">
+     <draa/><!-- State Gift Received -->
+     <draa/><!-- Military Alliance +1 If Broken -2 -->
+     <draa/><!-- Alliance Broken -->
+     <draa/><!-- Alliances Not Honoured -->
+     <draa drift="-1" current="15" limit="0" active1="yes" extra="15" active2="yes"/><!-- War Against Enemy And Enemy Of My Enemy (If No War Then Enemy Of My Enemy) -->
+     <draa/><!-- Trade Agreement -->
+     <draa/><!-- Trade Agreement Broken -->
+     <draa/><!-- War Dragged By Ally (-70) And/Or Declare War (-140) -->
+     <draa/><!-- Peace Treaty -->
+     <draa/><!-- Allied With Enemy -->
+     <draa extra="-15" active2="yes"/><!-- War Declared On Friend -->
+     <draa/><!-- Unreliable Ally -->
+     <draa/><!-- Territorial Expansion -->
+     <draa/><!-- Backstabber -->
+     <draa/><!-- Assassination Attempts -->
+     <draa drift="0" current="-5" limit="0" active1="no"/><!-- Religion -->
+     <draa drift="0" current="10" limit="0" active1="no"/><!-- Government Type -->
+     <draa drift="-1" current="25" limit="0" active1="yes"/><!-- Historical Friendship/Grievance -->
+     <draa/><!-- Acts Of Sabotage -->
+     <draa/><!-- Acts Of Espionage -->
+     <draa/><!-- Threats Of Attack -->
+     <draa/><!-- Respect Given To National Leader -->
+    </ary>
+    <no/><!-- Trade Agreement -->
+    <i>0</i><!-- Military Access (-1 = Infinite) -->
+    <s>neutral</s><!-- Relationship -->
+    <i>0</i><!-- Supporting Faction ID -->
+    <u>0</u><!-- 20 If Allied Then Countdown To 0 -->
+    <i>0</i><!-- Declare war -?. Victim of war +? -->
+    <i>0</i><!-- Payment To Patron -->
+    <i>0</i><!-- Income From Protectorate -->
+    <i>0</i><!-- War - Opposition Has Opposite Value -->
+    <i>0</i><!-- Declare War -?. Victim Of War +? -->
+    <u>0</u><!-- Number Of Turns At War -->
+    <u>0</u><!-- Number Of Turns At War Without Battle -->
+    <ary type="REGULAR_PAYMENTS"/>
+    <u>0</u><!-- 10 If Allied Then Countdown To 0 When No Longer Allied -->
+    <u>0</u>
+    <ary type="ALLIED_IN_WAR_AGAINST"/>
+    <u4_ary>0 0 0 0 0 0 0 0 0 0 0</u4_ary>
+    <u>0</u>
+    <s>neutral</s><!-- Current Relationship With Protectorate ?? -->
+    <no/>
+    <no/>
+    <i>45</i>
+   </rec>
+  </rec>
+  <rec type="DIPLOMACY_RELATIONSHIPS_ARRAY">
+   <rec type="DIPLOMACY_RELATIONSHIP">
+    <i>584612448</i><!-- norway -->
+    <ary type="DIPLOMACY_RELATIONSHIP_ATTITUDES_ARRAY">
+     <draa/><!-- State Gift Received -->
+     <draa/><!-- Military Alliance +1 If Broken -2 -->
+     <draa/><!-- Alliance Broken -->
+     <draa/><!-- Alliances Not Honoured -->
+     <draa extra="15" active2="yes"/><!-- War Against Enemy And Enemy Of My Enemy (If No War Then Enemy Of My Enemy) -->
+     <draa/><!-- Trade Agreement -->
+     <draa/><!-- Trade Agreement Broken -->
+     <draa/><!-- War Dragged By Ally (-70) And/Or Declare War (-140) -->
+     <draa/><!-- Peace Treaty -->
+     <draa/><!-- Allied With Enemy -->
+     <draa extra="-15" active2="yes"/><!-- War Declared On Friend -->
+     <draa/><!-- Unreliable Ally -->
+     <draa/><!-- Territorial Expansion -->
+     <draa/><!-- Backstabber -->
+     <draa/><!-- Assassination Attempts -->
+     <draa drift="0" current="-5" limit="0" active1="no"/><!-- Religion -->
+     <draa drift="0" current="10" limit="0" active1="no"/><!-- Government Type -->
+     <draa/><!-- Historical Friendship/Grievance -->
+     <draa/><!-- Acts Of Sabotage -->
+     <draa/><!-- Acts Of Espionage -->
+     <draa/><!-- Threats Of Attack -->
+     <draa/><!-- Respect Given To National Leader -->
+    </ary>
+    <no/><!-- Trade Agreement -->
+    <i>0</i><!-- Military Access (-1 = Infinite) -->
+    <s>neutral</s><!-- Relationship -->
+    <i>0</i><!-- Supporting Faction ID -->
+    <u>0</u><!-- 20 If Allied Then Countdown To 0 -->
+    <i>0</i><!-- Declare war -?. Victim of war +? -->
+    <i>0</i><!-- Payment To Patron -->
+    <i>0</i><!-- Income From Protectorate -->
+    <i>0</i><!-- War - Opposition Has Opposite Value -->
+    <i>0</i><!-- Declare War -?. Victim Of War +? -->
+    <u>0</u><!-- Number Of Turns At War -->
+    <u>0</u><!-- Number Of Turns At War Without Battle -->
+    <ary type="REGULAR_PAYMENTS"/>
+    <u>0</u><!-- 10 If Allied Then Countdown To 0 When No Longer Allied -->
+    <u>0</u>
+    <ary type="ALLIED_IN_WAR_AGAINST"/>
+    <u4_ary>0 0 0 0 0 0 0 0 0 0 0</u4_ary>
+    <u>0</u>
+    <s>neutral</s><!-- Current Relationship With Protectorate ?? -->
+    <no/>
+    <no/>
+    <i>0</i>
+   </rec>
+  </rec>
+  <rec type="DIPLOMACY_RELATIONSHIPS_ARRAY">
+   <rec type="DIPLOMACY_RELATIONSHIP">
+    <i>585095280</i><!-- quebec -->
+    <ary type="DIPLOMACY_RELATIONSHIP_ATTITUDES_ARRAY">
+     <draa/><!-- State Gift Received -->
+     <draa/><!-- Military Alliance +1 If Broken -2 -->
+     <draa/><!-- Alliance Broken -->
+     <draa/><!-- Alliances Not Honoured -->
+     <draa extra="15" active2="yes"/><!-- War Against Enemy And Enemy Of My Enemy (If No War Then Enemy Of My Enemy) -->
+     <draa/><!-- Trade Agreement -->
+     <draa/><!-- Trade Agreement Broken -->
+     <draa/><!-- War Dragged By Ally (-70) And/Or Declare War (-140) -->
+     <draa/><!-- Peace Treaty -->
+     <draa/><!-- Allied With Enemy -->
+     <draa extra="-15" active2="yes"/><!-- War Declared On Friend -->
+     <draa/><!-- Unreliable Ally -->
+     <draa/><!-- Territorial Expansion -->
+     <draa/><!-- Backstabber -->
+     <draa/><!-- Assassination Attempts -->
+     <draa drift="0" current="20" limit="0" active1="no"/><!-- Religion -->
+     <draa drift="0" current="-10" limit="0" active1="no"/><!-- Government Type -->
+     <draa/><!-- Historical Friendship/Grievance -->
+     <draa/><!-- Acts Of Sabotage -->
+     <draa/><!-- Acts Of Espionage -->
+     <draa/><!-- Threats Of Attack -->
+     <draa/><!-- Respect Given To National Leader -->
+    </ary>
+    <no/><!-- Trade Agreement -->
+    <i>0</i><!-- Military Access (-1 = Infinite) -->
+    <s>neutral</s><!-- Relationship -->
+    <i>0</i><!-- Supporting Faction ID -->
+    <u>0</u><!-- 20 If Allied Then Countdown To 0 -->
+    <i>0</i><!-- Declare war -?. Victim of war +? -->
+    <i>0</i><!-- Payment To Patron -->
+    <i>0</i><!-- Income From Protectorate -->
+    <i>0</i><!-- War - Opposition Has Opposite Value -->
+    <i>0</i><!-- Declare War -?. Victim Of War +? -->
+    <u>0</u><!-- Number Of Turns At War -->
+    <u>0</u><!-- Number Of Turns At War Without Battle -->
+    <ary type="REGULAR_PAYMENTS"/>
+    <u>0</u><!-- 10 If Allied Then Countdown To 0 When No Longer Allied -->
+    <u>0</u>
+    <ary type="ALLIED_IN_WAR_AGAINST"/>
+    <u4_ary>0 0 0 0 0 0 0 0 0 0 0</u4_ary>
+    <u>0</u>
+    <s>neutral</s><!-- Current Relationship With Protectorate ?? -->
+    <no/>
+    <no/>
+    <i>0</i>
+   </rec>
+  </rec>
+  <rec type="DIPLOMACY_RELATIONSHIPS_ARRAY">
+   <rec type="DIPLOMACY_RELATIONSHIP">
+    <i>584533640</i><!-- saxony -->
+    <ary type="DIPLOMACY_RELATIONSHIP_ATTITUDES_ARRAY">
+     <draa/><!-- State Gift Received -->
+     <draa/><!-- Military Alliance +1 If Broken -2 -->
+     <draa/><!-- Alliance Broken -->
+     <draa drift="1" current="-25" limit="-5" active1="yes"/><!-- Alliances Not Honoured -->
+     <draa drift="-1" current="15" limit="0" active1="yes" extra="15" active2="yes"/><!-- War Against Enemy And Enemy Of My Enemy (If No War Then Enemy Of My Enemy) -->
+     <draa/><!-- Trade Agreement -->
+     <draa/><!-- Trade Agreement Broken -->
+     <draa/><!-- War Dragged By Ally (-70) And/Or Declare War (-140) -->
+     <draa/><!-- Peace Treaty -->
+     <draa/><!-- Allied With Enemy -->
+     <draa extra="-15" active2="yes"/><!-- War Declared On Friend -->
+     <draa/><!-- Unreliable Ally -->
+     <draa/><!-- Territorial Expansion -->
+     <draa/><!-- Backstabber -->
+     <draa/><!-- Assassination Attempts -->
+     <draa drift="0" current="20" limit="0" active1="no"/><!-- Religion -->
+     <draa drift="0" current="-10" limit="0" active1="no"/><!-- Government Type -->
+     <draa/><!-- Historical Friendship/Grievance -->
+     <draa/><!-- Acts Of Sabotage -->
+     <draa/><!-- Acts Of Espionage -->
+     <draa/><!-- Threats Of Attack -->
+     <draa/><!-- Respect Given To National Leader -->
+    </ary>
+    <no/><!-- Trade Agreement -->
+    <i>0</i><!-- Military Access (-1 = Infinite) -->
+    <s>neutral</s><!-- Relationship -->
+    <i>0</i><!-- Supporting Faction ID -->
+    <u>0</u><!-- 20 If Allied Then Countdown To 0 -->
+    <i>0</i><!-- Declare war -?. Victim of war +? -->
+    <i>0</i><!-- Payment To Patron -->
+    <i>0</i><!-- Income From Protectorate -->
+    <i>0</i><!-- War - Opposition Has Opposite Value -->
+    <i>0</i><!-- Declare War -?. Victim Of War +? -->
+    <u>0</u><!-- Number Of Turns At War -->
+    <u>0</u><!-- Number Of Turns At War Without Battle -->
+    <ary type="REGULAR_PAYMENTS"/>
+    <u>0</u><!-- 10 If Allied Then Countdown To 0 When No Longer Allied -->
+    <u>0</u>
+    <ary type="ALLIED_IN_WAR_AGAINST"/>
+    <u4_ary>0 0 0 0 0 0 0 0 0 0 0</u4_ary>
+    <u>0</u>
+    <s>neutral</s><!-- Current Relationship With Protectorate ?? -->
+    <no/>
+    <no/>
+    <i>0</i>
+   </rec>
+  </rec>
+  <rec type="DIPLOMACY_RELATIONSHIPS_ARRAY">
+   <rec type="DIPLOMACY_RELATIONSHIP">
+    <i>585159200</i><!-- mexico -->
+    <ary type="DIPLOMACY_RELATIONSHIP_ATTITUDES_ARRAY">
+     <draa/><!-- State Gift Received -->
+     <draa/><!-- Military Alliance +1 If Broken -2 -->
+     <draa/><!-- Alliance Broken -->
+     <draa/><!-- Alliances Not Honoured -->
+     <draa extra="15" active2="yes"/><!-- War Against Enemy And Enemy Of My Enemy (If No War Then Enemy Of My Enemy) -->
+     <draa/><!-- Trade Agreement -->
+     <draa/><!-- Trade Agreement Broken -->
+     <draa/><!-- War Dragged By Ally (-70) And/Or Declare War (-140) -->
+     <draa/><!-- Peace Treaty -->
+     <draa/><!-- Allied With Enemy -->
+     <draa extra="-15" active2="yes"/><!-- War Declared On Friend -->
+     <draa/><!-- Unreliable Ally -->
+     <draa/><!-- Territorial Expansion -->
+     <draa/><!-- Backstabber -->
+     <draa/><!-- Assassination Attempts -->
+     <draa drift="0" current="20" limit="0" active1="no"/><!-- Religion -->
+     <draa drift="0" current="-10" limit="0" active1="no"/><!-- Government Type -->
+     <draa/><!-- Historical Friendship/Grievance -->
+     <draa/><!-- Acts Of Sabotage -->
+     <draa/><!-- Acts Of Espionage -->
+     <draa/><!-- Threats Of Attack -->
+     <draa/><!-- Respect Given To National Leader -->
+    </ary>
+    <no/><!-- Trade Agreement -->
+    <i>0</i><!-- Military Access (-1 = Infinite) -->
+    <s>neutral</s><!-- Relationship -->
+    <i>0</i><!-- Supporting Faction ID -->
+    <u>0</u><!-- 20 If Allied Then Countdown To 0 -->
+    <i>0</i><!-- Declare war -?. Victim of war +? -->
+    <i>0</i><!-- Payment To Patron -->
+    <i>0</i><!-- Income From Protectorate -->
+    <i>0</i><!-- War - Opposition Has Opposite Value -->
+    <i>0</i><!-- Declare War -?. Victim Of War +? -->
+    <u>0</u><!-- Number Of Turns At War -->
+    <u>0</u><!-- Number Of Turns At War Without Battle -->
+    <ary type="REGULAR_PAYMENTS"/>
+    <u>0</u><!-- 10 If Allied Then Countdown To 0 When No Longer Allied -->
+    <u>0</u>
+    <ary type="ALLIED_IN_WAR_AGAINST"/>
+    <u4_ary>0 0 0 0 0 0 0 0 0 0 0</u4_ary>
+    <u>0</u>
+    <s>neutral</s><!-- Current Relationship With Protectorate ?? -->
+    <no/>
+    <no/>
+    <i>0</i>
+   </rec>
+  </rec>
+  <rec type="DIPLOMACY_RELATIONSHIPS_ARRAY">
+   <rec type="DIPLOMACY_RELATIONSHIP">
+    <i>584233480</i><!-- united_states -->
+    <ary type="DIPLOMACY_RELATIONSHIP_ATTITUDES_ARRAY">
+     <draa/><!-- State Gift Received -->
+     <draa/><!-- Military Alliance +1 If Broken -2 -->
+     <draa/><!-- Alliance Broken -->
+     <draa/><!-- Alliances Not Honoured -->
+     <draa extra="15" active2="yes"/><!-- War Against Enemy And Enemy Of My Enemy (If No War Then Enemy Of My Enemy) -->
+     <draa/><!-- Trade Agreement -->
+     <draa/><!-- Trade Agreement Broken -->
+     <draa/><!-- War Dragged By Ally (-70) And/Or Declare War (-140) -->
+     <draa/><!-- Peace Treaty -->
+     <draa/><!-- Allied With Enemy -->
+     <draa extra="-15" active2="yes"/><!-- War Declared On Friend -->
+     <draa/><!-- Unreliable Ally -->
+     <draa/><!-- Territorial Expansion -->
+     <draa/><!-- Backstabber -->
+     <draa/><!-- Assassination Attempts -->
+     <draa drift="0" current="-5" limit="0" active1="no"/><!-- Religion -->
+     <draa drift="0" current="-15" limit="0" active1="no"/><!-- Government Type -->
+     <draa/><!-- Historical Friendship/Grievance -->
+     <draa/><!-- Acts Of Sabotage -->
+     <draa/><!-- Acts Of Espionage -->
+     <draa/><!-- Threats Of Attack -->
+     <draa/><!-- Respect Given To National Leader -->
+    </ary>
+    <no/><!-- Trade Agreement -->
+    <i>0</i><!-- Military Access (-1 = Infinite) -->
+    <s>neutral</s><!-- Relationship -->
+    <i>0</i><!-- Supporting Faction ID -->
+    <u>0</u><!-- 20 If Allied Then Countdown To 0 -->
+    <i>0</i><!-- Declare war -?. Victim of war +? -->
+    <i>0</i><!-- Payment To Patron -->
+    <i>0</i><!-- Income From Protectorate -->
+    <i>0</i><!-- War - Opposition Has Opposite Value -->
+    <i>0</i><!-- Declare War -?. Victim Of War +? -->
+    <u>0</u><!-- Number Of Turns At War -->
+    <u>0</u><!-- Number Of Turns At War Without Battle -->
+    <ary type="REGULAR_PAYMENTS"/>
+    <u>0</u><!-- 10 If Allied Then Countdown To 0 When No Longer Allied -->
+    <u>0</u>
+    <ary type="ALLIED_IN_WAR_AGAINST"/>
+    <u4_ary>0 0 0 0 0 0 0 0 0 0 0</u4_ary>
+    <u>0</u>
+    <s>neutral</s><!-- Current Relationship With Protectorate ?? -->
+    <no/>
+    <no/>
+    <i>0</i>
+   </rec>
+  </rec>
+  <rec type="DIPLOMACY_RELATIONSHIPS_ARRAY">
+   <rec type="DIPLOMACY_RELATIONSHIP">
+    <i>582076152</i><!-- louisiana -->
+    <ary type="DIPLOMACY_RELATIONSHIP_ATTITUDES_ARRAY">
+     <draa/><!-- State Gift Received -->
+     <draa/><!-- Military Alliance +1 If Broken -2 -->
+     <draa/><!-- Alliance Broken -->
+     <draa/><!-- Alliances Not Honoured -->
+     <draa extra="15" active2="yes"/><!-- War Against Enemy And Enemy Of My Enemy (If No War Then Enemy Of My Enemy) -->
+     <draa/><!-- Trade Agreement -->
+     <draa/><!-- Trade Agreement Broken -->
+     <draa/><!-- War Dragged By Ally (-70) And/Or Declare War (-140) -->
+     <draa/><!-- Peace Treaty -->
+     <draa/><!-- Allied With Enemy -->
+     <draa extra="-15" active2="yes"/><!-- War Declared On Friend -->
+     <draa/><!-- Unreliable Ally -->
+     <draa/><!-- Territorial Expansion -->
+     <draa/><!-- Backstabber -->
+     <draa/><!-- Assassination Attempts -->
+     <draa drift="0" current="20" limit="0" active1="no"/><!-- Religion -->
+     <draa drift="0" current="-10" limit="0" active1="no"/><!-- Government Type -->
+     <draa/><!-- Historical Friendship/Grievance -->
+     <draa/><!-- Acts Of Sabotage -->
+     <draa/><!-- Acts Of Espionage -->
+     <draa/><!-- Threats Of Attack -->
+     <draa/><!-- Respect Given To National Leader -->
+    </ary>
+    <no/><!-- Trade Agreement -->
+    <i>0</i><!-- Military Access (-1 = Infinite) -->
+    <s>neutral</s><!-- Relationship -->
+    <i>0</i><!-- Supporting Faction ID -->
+    <u>0</u><!-- 20 If Allied Then Countdown To 0 -->
+    <i>0</i><!-- Declare war -?. Victim of war +? -->
+    <i>0</i><!-- Payment To Patron -->
+    <i>0</i><!-- Income From Protectorate -->
+    <i>0</i><!-- War - Opposition Has Opposite Value -->
+    <i>0</i><!-- Declare War -?. Victim Of War +? -->
+    <u>0</u><!-- Number Of Turns At War -->
+    <u>0</u><!-- Number Of Turns At War Without Battle -->
+    <ary type="REGULAR_PAYMENTS"/>
+    <u>0</u><!-- 10 If Allied Then Countdown To 0 When No Longer Allied -->
+    <u>0</u>
+    <ary type="ALLIED_IN_WAR_AGAINST"/>
+    <u4_ary>0 0 0 0 0 0 0 0 0 0 0</u4_ary>
+    <u>0</u>
+    <s>neutral</s><!-- Current Relationship With Protectorate ?? -->
+    <no/>
+    <no/>
+    <i>0</i>
+   </rec>
+  </rec>
+  <rec type="DIPLOMACY_RELATIONSHIPS_ARRAY">
+   <rec type="DIPLOMACY_RELATIONSHIP">
+    <i>583887784</i><!-- hessen -->
+    <ary type="DIPLOMACY_RELATIONSHIP_ATTITUDES_ARRAY">
+     <draa/><!-- State Gift Received -->
+     <draa/><!-- Military Alliance +1 If Broken -2 -->
+     <draa/><!-- Alliance Broken -->
+     <draa/><!-- Alliances Not Honoured -->
+     <draa extra="15" active2="yes"/><!-- War Against Enemy And Enemy Of My Enemy (If No War Then Enemy Of My Enemy) -->
+     <draa/><!-- Trade Agreement -->
+     <draa/><!-- Trade Agreement Broken -->
+     <draa/><!-- War Dragged By Ally (-70) And/Or Declare War (-140) -->
+     <draa/><!-- Peace Treaty -->
+     <draa/><!-- Allied With Enemy -->
+     <draa extra="-15" active2="yes"/><!-- War Declared On Friend -->
+     <draa/><!-- Unreliable Ally -->
+     <draa/><!-- Territorial Expansion -->
+     <draa/><!-- Backstabber -->
+     <draa/><!-- Assassination Attempts -->
+     <draa drift="0" current="-5" limit="0" active1="no"/><!-- Religion -->
+     <draa drift="0" current="-10" limit="0" active1="no"/><!-- Government Type -->
+     <draa/><!-- Historical Friendship/Grievance -->
+     <draa/><!-- Acts Of Sabotage -->
+     <draa/><!-- Acts Of Espionage -->
+     <draa/><!-- Threats Of Attack -->
+     <draa/><!-- Respect Given To National Leader -->
+    </ary>
+    <no/><!-- Trade Agreement -->
+    <i>0</i><!-- Military Access (-1 = Infinite) -->
+    <s>neutral</s><!-- Relationship -->
+    <i>0</i><!-- Supporting Faction ID -->
+    <u>0</u><!-- 20 If Allied Then Countdown To 0 -->
+    <i>0</i><!-- Declare war -?. Victim of war +? -->
+    <i>0</i><!-- Payment To Patron -->
+    <i>0</i><!-- Income From Protectorate -->
+    <i>0</i><!-- War - Opposition Has Opposite Value -->
+    <i>0</i><!-- Declare War -?. Victim Of War +? -->
+    <u>0</u><!-- Number Of Turns At War -->
+    <u>0</u><!-- Number Of Turns At War Without Battle -->
+    <ary type="REGULAR_PAYMENTS"/>
+    <u>0</u><!-- 10 If Allied Then Countdown To 0 When No Longer Allied -->
+    <u>0</u>
+    <ary type="ALLIED_IN_WAR_AGAINST"/>
+    <u4_ary>0 0 0 0 0 0 0 0 0 0 0</u4_ary>
+    <u>0</u>
+    <s>neutral</s><!-- Current Relationship With Protectorate ?? -->
+    <no/>
+    <no/>
+    <i>0</i>
+   </rec>
+  </rec>
+  <rec type="DIPLOMACY_RELATIONSHIPS_ARRAY">
+   <rec type="DIPLOMACY_RELATIONSHIP">
+    <i>584460904</i><!-- scotland -->
+    <ary type="DIPLOMACY_RELATIONSHIP_ATTITUDES_ARRAY">
+     <draa/><!-- State Gift Received -->
+     <draa/><!-- Military Alliance +1 If Broken -2 -->
+     <draa/><!-- Alliance Broken -->
+     <draa/><!-- Alliances Not Honoured -->
+     <draa extra="15" active2="yes"/><!-- War Against Enemy And Enemy Of My Enemy (If No War Then Enemy Of My Enemy) -->
+     <draa/><!-- Trade Agreement -->
+     <draa/><!-- Trade Agreement Broken -->
+     <draa/><!-- War Dragged By Ally (-70) And/Or Declare War (-140) -->
+     <draa/><!-- Peace Treaty -->
+     <draa/><!-- Allied With Enemy -->
+     <draa extra="-15" active2="yes"/><!-- War Declared On Friend -->
+     <draa/><!-- Unreliable Ally -->
+     <draa/><!-- Territorial Expansion -->
+     <draa/><!-- Backstabber -->
+     <draa/><!-- Assassination Attempts -->
+     <draa drift="0" current="-5" limit="0" active1="no"/><!-- Religion -->
+     <draa drift="0" current="-10" limit="0" active1="no"/><!-- Government Type -->
+     <draa/><!-- Historical Friendship/Grievance -->
+     <draa/><!-- Acts Of Sabotage -->
+     <draa/><!-- Acts Of Espionage -->
+     <draa/><!-- Threats Of Attack -->
+     <draa/><!-- Respect Given To National Leader -->
+    </ary>
+    <no/><!-- Trade Agreement -->
+    <i>0</i><!-- Military Access (-1 = Infinite) -->
+    <s>neutral</s><!-- Relationship -->
+    <i>0</i><!-- Supporting Faction ID -->
+    <u>0</u><!-- 20 If Allied Then Countdown To 0 -->
+    <i>0</i><!-- Declare war -?. Victim of war +? -->
+    <i>0</i><!-- Payment To Patron -->
+    <i>0</i><!-- Income From Protectorate -->
+    <i>0</i><!-- War - Opposition Has Opposite Value -->
+    <i>0</i><!-- Declare War -?. Victim Of War +? -->
+    <u>0</u><!-- Number Of Turns At War -->
+    <u>0</u><!-- Number Of Turns At War Without Battle -->
+    <ary type="REGULAR_PAYMENTS"/>
+    <u>0</u><!-- 10 If Allied Then Countdown To 0 When No Longer Allied -->
+    <u>0</u>
+    <ary type="ALLIED_IN_WAR_AGAINST"/>
+    <u4_ary>0 0 0 0 0 0 0 0 0 0 0</u4_ary>
+    <u>0</u>
+    <s>neutral</s><!-- Current Relationship With Protectorate ?? -->
+    <no/>
+    <no/>
+    <i>0</i>
+   </rec>
+  </rec>
+  <rec type="DIPLOMACY_RELATIONSHIPS_ARRAY">
+   <rec type="DIPLOMACY_RELATIONSHIP">
+    <i>582963944</i><!-- papal_states -->
+    <ary type="DIPLOMACY_RELATIONSHIP_ATTITUDES_ARRAY">
+     <draa/><!-- State Gift Received -->
+     <draa/><!-- Military Alliance +1 If Broken -2 -->
+     <draa/><!-- Alliance Broken -->
+     <draa/><!-- Alliances Not Honoured -->
+     <draa drift="-1" current="15" limit="0" active1="yes" extra="15" active2="yes"/><!-- War Against Enemy And Enemy Of My Enemy (If No War Then Enemy Of My Enemy) -->
+     <draa/><!-- Trade Agreement -->
+     <draa/><!-- Trade Agreement Broken -->
+     <draa/><!-- War Dragged By Ally (-70) And/Or Declare War (-140) -->
+     <draa/><!-- Peace Treaty -->
+     <draa/><!-- Allied With Enemy -->
+     <draa extra="-15" active2="yes"/><!-- War Declared On Friend -->
+     <draa/><!-- Unreliable Ally -->
+     <draa/><!-- Territorial Expansion -->
+     <draa/><!-- Backstabber -->
+     <draa/><!-- Assassination Attempts -->
+     <draa drift="0" current="20" limit="0" active1="no"/><!-- Religion -->
+     <draa drift="0" current="-10" limit="0" active1="no"/><!-- Government Type -->
+     <draa/><!-- Historical Friendship/Grievance -->
+     <draa/><!-- Acts Of Sabotage -->
+     <draa/><!-- Acts Of Espionage -->
+     <draa/><!-- Threats Of Attack -->
+     <draa/><!-- Respect Given To National Leader -->
+    </ary>
+    <no/><!-- Trade Agreement -->
+    <i>0</i><!-- Military Access (-1 = Infinite) -->
+    <s>neutral</s><!-- Relationship -->
+    <i>0</i><!-- Supporting Faction ID -->
+    <u>0</u><!-- 20 If Allied Then Countdown To 0 -->
+    <i>0</i><!-- Declare war -?. Victim of war +? -->
+    <i>0</i><!-- Payment To Patron -->
+    <i>0</i><!-- Income From Protectorate -->
+    <i>0</i><!-- War - Opposition Has Opposite Value -->
+    <i>0</i><!-- Declare War -?. Victim Of War +? -->
+    <u>0</u><!-- Number Of Turns At War -->
+    <u>0</u><!-- Number Of Turns At War Without Battle -->
+    <ary type="REGULAR_PAYMENTS"/>
+    <u>0</u><!-- 10 If Allied Then Countdown To 0 When No Longer Allied -->
+    <u>0</u>
+    <ary type="ALLIED_IN_WAR_AGAINST"/>
+    <u4_ary>0 0 0 0 0 0 0 0 0 0 0</u4_ary>
+    <u>0</u>
+    <s>neutral</s><!-- Current Relationship With Protectorate ?? -->
+    <no/>
+    <no/>
+    <i>45</i>
+   </rec>
+  </rec>
+  <rec type="DIPLOMACY_RELATIONSHIPS_ARRAY">
+   <rec type="DIPLOMACY_RELATIONSHIP">
+    <i>582350912</i><!-- safavids -->
+    <ary type="DIPLOMACY_RELATIONSHIP_ATTITUDES_ARRAY">
+     <draa/><!-- State Gift Received -->
+     <draa/><!-- Military Alliance +1 If Broken -2 -->
+     <draa/><!-- Alliance Broken -->
+     <draa/><!-- Alliances Not Honoured -->
+     <draa extra="15" active2="yes"/><!-- War Against Enemy And Enemy Of My Enemy (If No War Then Enemy Of My Enemy) -->
+     <draa/><!-- Trade Agreement -->
+     <draa/><!-- Trade Agreement Broken -->
+     <draa/><!-- War Dragged By Ally (-70) And/Or Declare War (-140) -->
+     <draa/><!-- Peace Treaty -->
+     <draa/><!-- Allied With Enemy -->
+     <draa extra="-15" active2="yes"/><!-- War Declared On Friend -->
+     <draa/><!-- Unreliable Ally -->
+     <draa/><!-- Territorial Expansion -->
+     <draa/><!-- Backstabber -->
+     <draa/><!-- Assassination Attempts -->
+     <draa drift="0" current="-15" limit="0" active1="no"/><!-- Religion -->
+     <draa drift="0" current="-10" limit="0" active1="no"/><!-- Government Type -->
+     <draa drift="-1" current="25" limit="0" active1="yes"/><!-- Historical Friendship/Grievance -->
+     <draa/><!-- Acts Of Sabotage -->
+     <draa/><!-- Acts Of Espionage -->
+     <draa/><!-- Threats Of Attack -->
+     <draa/><!-- Respect Given To National Leader -->
+    </ary>
+    <no/><!-- Trade Agreement -->
+    <i>0</i><!-- Military Access (-1 = Infinite) -->
+    <s>neutral</s><!-- Relationship -->
+    <i>0</i><!-- Supporting Faction ID -->
+    <u>0</u><!-- 20 If Allied Then Countdown To 0 -->
+    <i>0</i><!-- Declare war -?. Victim of war +? -->
+    <i>0</i><!-- Payment To Patron -->
+    <i>0</i><!-- Income From Protectorate -->
+    <i>0</i><!-- War - Opposition Has Opposite Value -->
+    <i>0</i><!-- Declare War -?. Victim Of War +? -->
+    <u>0</u><!-- Number Of Turns At War -->
+    <u>0</u><!-- Number Of Turns At War Without Battle -->
+    <ary type="REGULAR_PAYMENTS"/>
+    <u>0</u><!-- 10 If Allied Then Countdown To 0 When No Longer Allied -->
+    <u>0</u>
+    <ary type="ALLIED_IN_WAR_AGAINST"/>
+    <u4_ary>0 0 0 0 0 0 0 0 0 0 0</u4_ary>
+    <u>0</u>
+    <s>neutral</s><!-- Current Relationship With Protectorate ?? -->
+    <no/>
+    <no/>
+    <i>0</i>
+   </rec>
+  </rec>
+  <rec type="DIPLOMACY_RELATIONSHIPS_ARRAY">
+   <rec type="DIPLOMACY_RELATIONSHIP">
+    <i>583182736</i><!-- denmark -->
+    <ary type="DIPLOMACY_RELATIONSHIP_ATTITUDES_ARRAY">
+     <draa/><!-- State Gift Received -->
+     <draa/><!-- Military Alliance +1 If Broken -2 -->
+     <draa/><!-- Alliance Broken -->
+     <draa/><!-- Alliances Not Honoured -->
+     <draa drift="-1" current="15" limit="0" active1="yes" extra="15" active2="yes"/><!-- War Against Enemy And Enemy Of My Enemy (If No War Then Enemy Of My Enemy) -->
+     <draa/><!-- Trade Agreement -->
+     <draa/><!-- Trade Agreement Broken -->
+     <draa/><!-- War Dragged By Ally (-70) And/Or Declare War (-140) -->
+     <draa/><!-- Peace Treaty -->
+     <draa/><!-- Allied With Enemy -->
+     <draa extra="-15" active2="yes"/><!-- War Declared On Friend -->
+     <draa/><!-- Unreliable Ally -->
+     <draa/><!-- Territorial Expansion -->
+     <draa/><!-- Backstabber -->
+     <draa/><!-- Assassination Attempts -->
+     <draa drift="0" current="-5" limit="0" active1="no"/><!-- Religion -->
+     <draa drift="0" current="10" limit="0" active1="no"/><!-- Government Type -->
+     <draa/><!-- Historical Friendship/Grievance -->
+     <draa/><!-- Acts Of Sabotage -->
+     <draa/><!-- Acts Of Espionage -->
+     <draa/><!-- Threats Of Attack -->
+     <draa/><!-- Respect Given To National Leader -->
+    </ary>
+    <no/><!-- Trade Agreement -->
+    <i>0</i><!-- Military Access (-1 = Infinite) -->
+    <s>neutral</s><!-- Relationship -->
+    <i>0</i><!-- Supporting Faction ID -->
+    <u>0</u><!-- 20 If Allied Then Countdown To 0 -->
+    <i>0</i><!-- Declare war -?. Victim of war +? -->
+    <i>0</i><!-- Payment To Patron -->
+    <i>0</i><!-- Income From Protectorate -->
+    <i>0</i><!-- War - Opposition Has Opposite Value -->
+    <i>0</i><!-- Declare War -?. Victim Of War +? -->
+    <u>0</u><!-- Number Of Turns At War -->
+    <u>0</u><!-- Number Of Turns At War Without Battle -->
+    <ary type="REGULAR_PAYMENTS"/>
+    <u>0</u><!-- 10 If Allied Then Countdown To 0 When No Longer Allied -->
+    <u>0</u>
+    <ary type="ALLIED_IN_WAR_AGAINST"/>
+    <u4_ary>0 0 0 0 0 0 0 0 0 0 0</u4_ary>
+    <u>0</u>
+    <s>neutral</s><!-- Current Relationship With Protectorate ?? -->
+    <no/>
+    <no/>
+    <i>0</i>
+   </rec>
+  </rec>
+  <rec type="DIPLOMACY_RELATIONSHIPS_ARRAY">
+   <rec type="DIPLOMACY_RELATIONSHIP">
+    <i>582526944</i><!-- bavaria -->
+    <ary type="DIPLOMACY_RELATIONSHIP_ATTITUDES_ARRAY">
+     <draa/><!-- State Gift Received -->
+     <draa/><!-- Military Alliance +1 If Broken -2 -->
+     <draa/><!-- Alliance Broken -->
+     <draa/><!-- Alliances Not Honoured -->
+     <draa drift="-1" current="15" limit="0" active1="yes" extra="15" active2="yes"/><!-- War Against Enemy And Enemy Of My Enemy (If No War Then Enemy Of My Enemy) -->
+     <draa/><!-- Trade Agreement -->
+     <draa/><!-- Trade Agreement Broken -->
+     <draa/><!-- War Dragged By Ally (-70) And/Or Declare War (-140) -->
+     <draa/><!-- Peace Treaty -->
+     <draa/><!-- Allied With Enemy -->
+     <draa extra="-15" active2="yes"/><!-- War Declared On Friend -->
+     <draa/><!-- Unreliable Ally -->
+     <draa/><!-- Territorial Expansion -->
+     <draa/><!-- Backstabber -->
+     <draa/><!-- Assassination Attempts -->
+     <draa drift="0" current="20" limit="0" active1="no"/><!-- Religion -->
+     <draa drift="0" current="-10" limit="0" active1="no"/><!-- Government Type -->
+     <draa drift="1" current="-25" limit="0" active1="yes"/><!-- Historical Friendship/Grievance -->
+     <draa/><!-- Acts Of Sabotage -->
+     <draa/><!-- Acts Of Espionage -->
+     <draa/><!-- Threats Of Attack -->
+     <draa/><!-- Respect Given To National Leader -->
+    </ary>
+    <no/><!-- Trade Agreement -->
+    <i>0</i><!-- Military Access (-1 = Infinite) -->
+    <s>neutral</s><!-- Relationship -->
+    <i>0</i><!-- Supporting Faction ID -->
+    <u>0</u><!-- 20 If Allied Then Countdown To 0 -->
+    <i>0</i><!-- Declare war -?. Victim of war +? -->
+    <i>0</i><!-- Payment To Patron -->
+    <i>0</i><!-- Income From Protectorate -->
+    <i>0</i><!-- War - Opposition Has Opposite Value -->
+    <i>0</i><!-- Declare War -?. Victim Of War +? -->
+    <u>0</u><!-- Number Of Turns At War -->
+    <u>0</u><!-- Number Of Turns At War Without Battle -->
+    <ary type="REGULAR_PAYMENTS"/>
+    <u>0</u><!-- 10 If Allied Then Countdown To 0 When No Longer Allied -->
+    <u>0</u>
+    <ary type="ALLIED_IN_WAR_AGAINST"/>
+    <u4_ary>0 0 0 0 0 0 0 0 0 0 0</u4_ary>
+    <u>0</u>
+    <s>neutral</s><!-- Current Relationship With Protectorate ?? -->
+    <no/>
+    <no/>
+    <i>0</i>
+   </rec>
+  </rec>
+  <rec type="DIPLOMACY_RELATIONSHIPS_ARRAY">
+   <rec type="DIPLOMACY_RELATIONSHIP">
+    <i>582265664</i><!-- piedmont_savoy -->
+    <ary type="DIPLOMACY_RELATIONSHIP_ATTITUDES_ARRAY">
+     <draa/><!-- State Gift Received -->
+     <draa/><!-- Military Alliance +1 If Broken -2 -->
+     <draa/><!-- Alliance Broken -->
+     <draa/><!-- Alliances Not Honoured -->
+     <draa drift="-1" current="15" limit="0" active1="yes" extra="15" active2="yes"/><!-- War Against Enemy And Enemy Of My Enemy (If No War Then Enemy Of My Enemy) -->
+     <draa/><!-- Trade Agreement -->
+     <draa/><!-- Trade Agreement Broken -->
+     <draa/><!-- War Dragged By Ally (-70) And/Or Declare War (-140) -->
+     <draa/><!-- Peace Treaty -->
+     <draa/><!-- Allied With Enemy -->
+     <draa extra="-15" active2="yes"/><!-- War Declared On Friend -->
+     <draa/><!-- Unreliable Ally -->
+     <draa/><!-- Territorial Expansion -->
+     <draa/><!-- Backstabber -->
+     <draa/><!-- Assassination Attempts -->
+     <draa drift="0" current="20" limit="0" active1="no"/><!-- Religion -->
+     <draa drift="0" current="-10" limit="0" active1="no"/><!-- Government Type -->
+     <draa drift="1" current="-25" limit="0" active1="yes"/><!-- Historical Friendship/Grievance -->
+     <draa/><!-- Acts Of Sabotage -->
+     <draa/><!-- Acts Of Espionage -->
+     <draa/><!-- Threats Of Attack -->
+     <draa/><!-- Respect Given To National Leader -->
+    </ary>
+    <no/><!-- Trade Agreement -->
+    <i>0</i><!-- Military Access (-1 = Infinite) -->
+    <s>neutral</s><!-- Relationship -->
+    <i>0</i><!-- Supporting Faction ID -->
+    <u>0</u><!-- 20 If Allied Then Countdown To 0 -->
+    <i>0</i><!-- Declare war -?. Victim of war +? -->
+    <i>0</i><!-- Payment To Patron -->
+    <i>0</i><!-- Income From Protectorate -->
+    <i>0</i><!-- War - Opposition Has Opposite Value -->
+    <i>0</i><!-- Declare War -?. Victim Of War +? -->
+    <u>0</u><!-- Number Of Turns At War -->
+    <u>0</u><!-- Number Of Turns At War Without Battle -->
+    <ary type="REGULAR_PAYMENTS"/>
+    <u>0</u><!-- 10 If Allied Then Countdown To 0 When No Longer Allied -->
+    <u>0</u>
+    <ary type="ALLIED_IN_WAR_AGAINST"/>
+    <u4_ary>0 0 0 0 0 0 0 0 0 0 0</u4_ary>
+    <u>0</u>
+    <s>neutral</s><!-- Current Relationship With Protectorate ?? -->
+    <no/>
+    <no/>
+    <i>0</i>
+   </rec>
+  </rec>
+  <rec type="DIPLOMACY_RELATIONSHIPS_ARRAY">
+   <rec type="DIPLOMACY_RELATIONSHIP">
+    <i>583045160</i><!-- hannover -->
+    <ary type="DIPLOMACY_RELATIONSHIP_ATTITUDES_ARRAY">
+     <draa/><!-- State Gift Received -->
+     <draa/><!-- Military Alliance +1 If Broken -2 -->
+     <draa/><!-- Alliance Broken -->
+     <draa/><!-- Alliances Not Honoured -->
+     <draa drift="-1" current="15" limit="0" active1="yes" extra="15" active2="yes"/><!-- War Against Enemy And Enemy Of My Enemy (If No War Then Enemy Of My Enemy) -->
+     <draa/><!-- Trade Agreement -->
+     <draa/><!-- Trade Agreement Broken -->
+     <draa/><!-- War Dragged By Ally (-70) And/Or Declare War (-140) -->
+     <draa/><!-- Peace Treaty -->
+     <draa/><!-- Allied With Enemy -->
+     <draa extra="-15" active2="yes"/><!-- War Declared On Friend -->
+     <draa/><!-- Unreliable Ally -->
+     <draa/><!-- Territorial Expansion -->
+     <draa/><!-- Backstabber -->
+     <draa/><!-- Assassination Attempts -->
+     <draa drift="0" current="-5" limit="0" active1="no"/><!-- Religion -->
+     <draa drift="0" current="-10" limit="0" active1="no"/><!-- Government Type -->
+     <draa/><!-- Historical Friendship/Grievance -->
+     <draa/><!-- Acts Of Sabotage -->
+     <draa/><!-- Acts Of Espionage -->
+     <draa/><!-- Threats Of Attack -->
+     <draa/><!-- Respect Given To National Leader -->
+    </ary>
+    <no/><!-- Trade Agreement -->
+    <i>0</i><!-- Military Access (-1 = Infinite) -->
+    <s>neutral</s><!-- Relationship -->
+    <i>0</i><!-- Supporting Faction ID -->
+    <u>0</u><!-- 20 If Allied Then Countdown To 0 -->
+    <i>0</i><!-- Declare war -?. Victim of war +? -->
+    <i>0</i><!-- Payment To Patron -->
+    <i>0</i><!-- Income From Protectorate -->
+    <i>0</i><!-- War - Opposition Has Opposite Value -->
+    <i>0</i><!-- Declare War -?. Victim Of War +? -->
+    <u>0</u><!-- Number Of Turns At War -->
+    <u>0</u><!-- Number Of Turns At War Without Battle -->
+    <ary type="REGULAR_PAYMENTS"/>
+    <u>0</u><!-- 10 If Allied Then Countdown To 0 When No Longer Allied -->
+    <u>0</u>
+    <ary type="ALLIED_IN_WAR_AGAINST"/>
+    <u4_ary>0 0 0 0 0 0 0 0 0 0 0</u4_ary>
+    <u>0</u>
+    <s>neutral</s><!-- Current Relationship With Protectorate ?? -->
+    <no/>
+    <no/>
+    <i>0</i>
+   </rec>
+  </rec>
+  <rec type="DIPLOMACY_RELATIONSHIPS_ARRAY">
+   <rec type="DIPLOMACY_RELATIONSHIP">
+    <i>583588928</i><!-- genoa -->
+    <ary type="DIPLOMACY_RELATIONSHIP_ATTITUDES_ARRAY">
+     <draa/><!-- State Gift Received -->
+     <draa/><!-- Military Alliance +1 If Broken -2 -->
+     <draa/><!-- Alliance Broken -->
+     <draa/><!-- Alliances Not Honoured -->
+     <draa drift="-1" current="15" limit="0" active1="yes" extra="15" active2="yes"/><!-- War Against Enemy And Enemy Of My Enemy (If No War Then Enemy Of My Enemy) -->
+     <draa/><!-- Trade Agreement -->
+     <draa/><!-- Trade Agreement Broken -->
+     <draa/><!-- War Dragged By Ally (-70) And/Or Declare War (-140) -->
+     <draa/><!-- Peace Treaty -->
+     <draa/><!-- Allied With Enemy -->
+     <draa extra="-15" active2="yes"/><!-- War Declared On Friend -->
+     <draa/><!-- Unreliable Ally -->
+     <draa/><!-- Territorial Expansion -->
+     <draa/><!-- Backstabber -->
+     <draa/><!-- Assassination Attempts -->
+     <draa drift="0" current="20" limit="0" active1="no"/><!-- Religion -->
+     <draa drift="0" current="-15" limit="0" active1="no"/><!-- Government Type -->
+     <draa/><!-- Historical Friendship/Grievance -->
+     <draa/><!-- Acts Of Sabotage -->
+     <draa/><!-- Acts Of Espionage -->
+     <draa/><!-- Threats Of Attack -->
+     <draa/><!-- Respect Given To National Leader -->
+    </ary>
+    <no/><!-- Trade Agreement -->
+    <i>0</i><!-- Military Access (-1 = Infinite) -->
+    <s>neutral</s><!-- Relationship -->
+    <i>0</i><!-- Supporting Faction ID -->
+    <u>0</u><!-- 20 If Allied Then Countdown To 0 -->
+    <i>0</i><!-- Declare war -?. Victim of war +? -->
+    <i>0</i><!-- Payment To Patron -->
+    <i>0</i><!-- Income From Protectorate -->
+    <i>0</i><!-- War - Opposition Has Opposite Value -->
+    <i>0</i><!-- Declare War -?. Victim Of War +? -->
+    <u>0</u><!-- Number Of Turns At War -->
+    <u>0</u><!-- Number Of Turns At War Without Battle -->
+    <ary type="REGULAR_PAYMENTS"/>
+    <u>0</u><!-- 10 If Allied Then Countdown To 0 When No Longer Allied -->
+    <u>0</u>
+    <ary type="ALLIED_IN_WAR_AGAINST"/>
+    <u4_ary>0 0 0 0 0 0 0 0 0 0 0</u4_ary>
+    <u>0</u>
+    <s>neutral</s><!-- Current Relationship With Protectorate ?? -->
+    <no/>
+    <no/>
+    <i>0</i>
+   </rec>
+  </rec>
+  <rec type="DIPLOMACY_RELATIONSHIPS_ARRAY">
+   <rec type="DIPLOMACY_RELATIONSHIP">
+    <i>581200456</i><!-- poland_lithuania -->
+    <ary type="DIPLOMACY_RELATIONSHIP_ATTITUDES_ARRAY">
+     <draa/><!-- State Gift Received -->
+     <draa/><!-- Military Alliance +1 If Broken -2 -->
+     <draa/><!-- Alliance Broken -->
+     <draa/><!-- Alliances Not Honoured -->
+     <draa drift="-1" current="15" limit="0" active1="yes" extra="15" active2="yes"/><!-- War Against Enemy And Enemy Of My Enemy (If No War Then Enemy Of My Enemy) -->
+     <draa/><!-- Trade Agreement -->
+     <draa/><!-- Trade Agreement Broken -->
+     <draa/><!-- War Dragged By Ally (-70) And/Or Declare War (-140) -->
+     <draa/><!-- Peace Treaty -->
+     <draa/><!-- Allied With Enemy -->
+     <draa extra="-15" active2="yes"/><!-- War Declared On Friend -->
+     <draa/><!-- Unreliable Ally -->
+     <draa/><!-- Territorial Expansion -->
+     <draa/><!-- Backstabber -->
+     <draa/><!-- Assassination Attempts -->
+     <draa drift="0" current="20" limit="0" active1="no"/><!-- Religion -->
+     <draa drift="0" current="10" limit="0" active1="no"/><!-- Government Type -->
+     <draa drift="1" current="-45" limit="0" active1="yes"/><!-- Historical Friendship/Grievance -->
+     <draa/><!-- Acts Of Sabotage -->
+     <draa/><!-- Acts Of Espionage -->
+     <draa/><!-- Threats Of Attack -->
+     <draa/><!-- Respect Given To National Leader -->
+    </ary>
+    <no/><!-- Trade Agreement -->
+    <i>0</i><!-- Military Access (-1 = Infinite) -->
+    <s>neutral</s><!-- Relationship -->
+    <i>0</i><!-- Supporting Faction ID -->
+    <u>0</u><!-- 20 If Allied Then Countdown To 0 -->
+    <i>0</i><!-- Declare war -?. Victim of war +? -->
+    <i>0</i><!-- Payment To Patron -->
+    <i>0</i><!-- Income From Protectorate -->
+    <i>0</i><!-- War - Opposition Has Opposite Value -->
+    <i>0</i><!-- Declare War -?. Victim Of War +? -->
+    <u>0</u><!-- Number Of Turns At War -->
+    <u>0</u><!-- Number Of Turns At War Without Battle -->
+    <ary type="REGULAR_PAYMENTS"/>
+    <u>0</u><!-- 10 If Allied Then Countdown To 0 When No Longer Allied -->
+    <u>0</u>
+    <ary type="ALLIED_IN_WAR_AGAINST"/>
+    <u4_ary>0 0 0 0 0 0 0 0 0 0 0</u4_ary>
+    <u>0</u>
+    <s>neutral</s><!-- Current Relationship With Protectorate ?? -->
+    <no/>
+    <no/>
+    <i>0</i>
+   </rec>
+  </rec>
+  <rec type="DIPLOMACY_RELATIONSHIPS_ARRAY">
+   <rec type="DIPLOMACY_RELATIONSHIP">
+    <i>583492000</i><!-- venice -->
+    <ary type="DIPLOMACY_RELATIONSHIP_ATTITUDES_ARRAY">
+     <draa/><!-- State Gift Received -->
+     <draa/><!-- Military Alliance +1 If Broken -2 -->
+     <draa/><!-- Alliance Broken -->
+     <draa/><!-- Alliances Not Honoured -->
+     <draa drift="-1" current="15" limit="0" active1="yes" extra="15" active2="yes"/><!-- War Against Enemy And Enemy Of My Enemy (If No War Then Enemy Of My Enemy) -->
+     <draa/><!-- Trade Agreement -->
+     <draa/><!-- Trade Agreement Broken -->
+     <draa/><!-- War Dragged By Ally (-70) And/Or Declare War (-140) -->
+     <draa/><!-- Peace Treaty -->
+     <draa/><!-- Allied With Enemy -->
+     <draa extra="-15" active2="yes"/><!-- War Declared On Friend -->
+     <draa/><!-- Unreliable Ally -->
+     <draa/><!-- Territorial Expansion -->
+     <draa/><!-- Backstabber -->
+     <draa/><!-- Assassination Attempts -->
+     <draa drift="0" current="20" limit="0" active1="no"/><!-- Religion -->
+     <draa drift="0" current="-15" limit="0" active1="no"/><!-- Government Type -->
+     <draa/><!-- Historical Friendship/Grievance -->
+     <draa/><!-- Acts Of Sabotage -->
+     <draa/><!-- Acts Of Espionage -->
+     <draa/><!-- Threats Of Attack -->
+     <draa/><!-- Respect Given To National Leader -->
+    </ary>
+    <no/><!-- Trade Agreement -->
+    <i>0</i><!-- Military Access (-1 = Infinite) -->
+    <s>neutral</s><!-- Relationship -->
+    <i>0</i><!-- Supporting Faction ID -->
+    <u>0</u><!-- 20 If Allied Then Countdown To 0 -->
+    <i>0</i><!-- Declare war -?. Victim of war +? -->
+    <i>0</i><!-- Payment To Patron -->
+    <i>0</i><!-- Income From Protectorate -->
+    <i>0</i><!-- War - Opposition Has Opposite Value -->
+    <i>0</i><!-- Declare War -?. Victim Of War +? -->
+    <u>0</u><!-- Number Of Turns At War -->
+    <u>0</u><!-- Number Of Turns At War Without Battle -->
+    <ary type="REGULAR_PAYMENTS"/>
+    <u>0</u><!-- 10 If Allied Then Countdown To 0 When No Longer Allied -->
+    <u>0</u>
+    <ary type="ALLIED_IN_WAR_AGAINST"/>
+    <u4_ary>0 0 0 0 0 0 0 0 0 0 0</u4_ary>
+    <u>0</u>
+    <s>neutral</s><!-- Current Relationship With Protectorate ?? -->
+    <no/>
+    <no/>
+    <i>0</i>
+   </rec>
+  </rec>
+  <rec type="DIPLOMACY_RELATIONSHIPS_ARRAY">
+   <rec type="DIPLOMACY_RELATIONSHIP">
+    <i>585382808</i><!-- pirates -->
+    <ary type="DIPLOMACY_RELATIONSHIP_ATTITUDES_ARRAY">
+     <draa/><!-- State Gift Received -->
+     <draa/><!-- Military Alliance +1 If Broken -2 -->
+     <draa/><!-- Alliance Broken -->
+     <draa/><!-- Alliances Not Honoured -->
+     <draa drift="-1" current="15" limit="0" active1="yes" extra="15" active2="yes"/><!-- War Against Enemy And Enemy Of My Enemy (If No War Then Enemy Of My Enemy) -->
+     <draa/><!-- Trade Agreement -->
+     <draa/><!-- Trade Agreement Broken -->
+     <draa drift="-2" current="-140" limit="-200" active1="yes"/><!-- War Dragged By Ally (-70) And/Or Declare War (-140) -->
+     <draa/><!-- Peace Treaty -->
+     <draa/><!-- Allied With Enemy -->
+     <draa drift="1" current="-15" limit="0" active1="yes" extra="-15" active2="yes"/><!-- War Declared On Friend -->
+     <draa/><!-- Unreliable Ally -->
+     <draa/><!-- Territorial Expansion -->
+     <draa/><!-- Backstabber -->
+     <draa/><!-- Assassination Attempts -->
+     <draa drift="0" current="-5" limit="0" active1="no"/><!-- Religion -->
+     <draa drift="0" current="-10" limit="0" active1="no"/><!-- Government Type -->
+     <draa/><!-- Historical Friendship/Grievance -->
+     <draa/><!-- Acts Of Sabotage -->
+     <draa/><!-- Acts Of Espionage -->
+     <draa/><!-- Threats Of Attack -->
+     <draa/><!-- Respect Given To National Leader -->
+    </ary>
+    <no/><!-- Trade Agreement -->
+    <i>0</i><!-- Military Access (-1 = Infinite) -->
+    <s>war</s><!-- Relationship -->
+    <i>0</i><!-- Supporting Faction ID -->
+    <u>0</u><!-- 20 If Allied Then Countdown To 0 -->
+    <i>0</i><!-- Declare war -?. Victim of war +? -->
+    <i>0</i><!-- Payment To Patron -->
+    <i>0</i><!-- Income From Protectorate -->
+    <i>0</i><!-- War - Opposition Has Opposite Value -->
+    <i>0</i><!-- Declare War -?. Victim Of War +? -->
+    <u>0</u><!-- Number Of Turns At War -->
+    <u>0</u><!-- Number Of Turns At War Without Battle -->
+    <ary type="REGULAR_PAYMENTS"/>
+    <u>0</u><!-- 10 If Allied Then Countdown To 0 When No Longer Allied -->
+    <u>0</u>
+    <ary type="ALLIED_IN_WAR_AGAINST"/>
+    <u4_ary>0 0 0 0 0 0 0 0 0 0 0</u4_ary>
+    <u>0</u>
+    <s>war</s><!-- Current Relationship With Protectorate ?? -->
+    <no/>
+    <no/>
+    <i>-85</i>
+   </rec>
+  </rec>
+  <rec type="DIPLOMACY_RELATIONSHIPS_ARRAY">
+   <rec type="DIPLOMACY_RELATIONSHIP">
+    <i>583822776</i><!-- greece -->
+    <ary type="DIPLOMACY_RELATIONSHIP_ATTITUDES_ARRAY">
+     <draa/><!-- State Gift Received -->
+     <draa/><!-- Military Alliance +1 If Broken -2 -->
+     <draa/><!-- Alliance Broken -->
+     <draa/><!-- Alliances Not Honoured -->
+     <draa extra="15" active2="yes"/><!-- War Against Enemy And Enemy Of My Enemy (If No War Then Enemy Of My Enemy) -->
+     <draa/><!-- Trade Agreement -->
+     <draa/><!-- Trade Agreement Broken -->
+     <draa/><!-- War Dragged By Ally (-70) And/Or Declare War (-140) -->
+     <draa/><!-- Peace Treaty -->
+     <draa/><!-- Allied With Enemy -->
+     <draa extra="-15" active2="yes"/><!-- War Declared On Friend -->
+     <draa/><!-- Unreliable Ally -->
+     <draa/><!-- Territorial Expansion -->
+     <draa/><!-- Backstabber -->
+     <draa/><!-- Assassination Attempts -->
+     <draa/><!-- Religion -->
+     <draa drift="0" current="-10" limit="0" active1="no"/><!-- Government Type -->
+     <draa/><!-- Historical Friendship/Grievance -->
+     <draa/><!-- Acts Of Sabotage -->
+     <draa/><!-- Acts Of Espionage -->
+     <draa/><!-- Threats Of Attack -->
+     <draa/><!-- Respect Given To National Leader -->
+    </ary>
+    <no/><!-- Trade Agreement -->
+    <i>0</i><!-- Military Access (-1 = Infinite) -->
+    <s>neutral</s><!-- Relationship -->
+    <i>0</i><!-- Supporting Faction ID -->
+    <u>0</u><!-- 20 If Allied Then Countdown To 0 -->
+    <i>0</i><!-- Declare war -?. Victim of war +? -->
+    <i>0</i><!-- Payment To Patron -->
+    <i>0</i><!-- Income From Protectorate -->
+    <i>0</i><!-- War - Opposition Has Opposite Value -->
+    <i>0</i><!-- Declare War -?. Victim Of War +? -->
+    <u>0</u><!-- Number Of Turns At War -->
+    <u>0</u><!-- Number Of Turns At War Without Battle -->
+    <ary type="REGULAR_PAYMENTS"/>
+    <u>0</u><!-- 10 If Allied Then Countdown To 0 When No Longer Allied -->
+    <u>0</u>
+    <ary type="ALLIED_IN_WAR_AGAINST"/>
+    <u4_ary>0 0 0 0 0 0 0 0 0 0 0</u4_ary>
+    <u>0</u>
+    <s>neutral</s><!-- Current Relationship With Protectorate ?? -->
+    <no/>
+    <no/>
+    <i>0</i>
+   </rec>
+  </rec>
+  <rec type="DIPLOMACY_RELATIONSHIPS_ARRAY">
+   <rec type="DIPLOMACY_RELATIONSHIP">
+    <i>583686936</i><!-- naples_sicily -->
+    <ary type="DIPLOMACY_RELATIONSHIP_ATTITUDES_ARRAY">
+     <draa/><!-- State Gift Received -->
+     <draa/><!-- Military Alliance +1 If Broken -2 -->
+     <draa/><!-- Alliance Broken -->
+     <draa/><!-- Alliances Not Honoured -->
+     <draa extra="15" active2="yes"/><!-- War Against Enemy And Enemy Of My Enemy (If No War Then Enemy Of My Enemy) -->
+     <draa/><!-- Trade Agreement -->
+     <draa/><!-- Trade Agreement Broken -->
+     <draa/><!-- War Dragged By Ally (-70) And/Or Declare War (-140) -->
+     <draa/><!-- Peace Treaty -->
+     <draa/><!-- Allied With Enemy -->
+     <draa extra="-15" active2="yes"/><!-- War Declared On Friend -->
+     <draa/><!-- Unreliable Ally -->
+     <draa/><!-- Territorial Expansion -->
+     <draa/><!-- Backstabber -->
+     <draa/><!-- Assassination Attempts -->
+     <draa drift="0" current="20" limit="0" active1="no"/><!-- Religion -->
+     <draa drift="0" current="-10" limit="0" active1="no"/><!-- Government Type -->
+     <draa/><!-- Historical Friendship/Grievance -->
+     <draa/><!-- Acts Of Sabotage -->
+     <draa/><!-- Acts Of Espionage -->
+     <draa/><!-- Threats Of Attack -->
+     <draa/><!-- Respect Given To National Leader -->
+    </ary>
+    <no/><!-- Trade Agreement -->
+    <i>0</i><!-- Military Access (-1 = Infinite) -->
+    <s>neutral</s><!-- Relationship -->
+    <i>0</i><!-- Supporting Faction ID -->
+    <u>0</u><!-- 20 If Allied Then Countdown To 0 -->
+    <i>0</i><!-- Declare war -?. Victim of war +? -->
+    <i>0</i><!-- Payment To Patron -->
+    <i>0</i><!-- Income From Protectorate -->
+    <i>0</i><!-- War - Opposition Has Opposite Value -->
+    <i>0</i><!-- Declare War -?. Victim Of War +? -->
+    <u>0</u><!-- Number Of Turns At War -->
+    <u>0</u><!-- Number Of Turns At War Without Battle -->
+    <ary type="REGULAR_PAYMENTS"/>
+    <u>0</u><!-- 10 If Allied Then Countdown To 0 When No Longer Allied -->
+    <u>0</u>
+    <ary type="ALLIED_IN_WAR_AGAINST"/>
+    <u4_ary>0 0 0 0 0 0 0 0 0 0 0</u4_ary>
+    <u>0</u>
+    <s>neutral</s><!-- Current Relationship With Protectorate ?? -->
+    <no/>
+    <no/>
+    <i>0</i>
+   </rec>
+  </rec>
+ </ary>
+ <u>0</u>
+ <u>0</u>
+ <u>1</u>
+</rec>

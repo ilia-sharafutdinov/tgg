@@ -1,0 +1,198 @@
+<?xml version="1.0"?>
+<rec type="FACTION">
+ <ancillary_uniqueness_monitor/>
+ <rec type="CAMPAIGN_PLAYER_SETUP">
+  <victory_conditions year="0" region_count="0" prestige_victory="no" campaign_type="4 (Unplayable)"/>
+  <rec type="CAMPAIGN_PLAYER_SETUP_INGAME_MODIFIABLES">
+   <i>0</i>
+   <i>0</i>
+   <i>0</i>
+   <no/>
+  </rec>
+  <s>afghanistan</s>
+  <no/>
+  <no/><!-- Playable -->
+  <no/>
+ </rec>
+ <rec type="FACTION_ECONOMICS">
+  <ary type="history">
+   <rec type="history">
+    <rec type="ECONOMICS_DATA">
+     <i4_ary>0 0 0 0 0</i4_ary>
+     <i4_ary>0 0 0</i4_ary>
+     <i4_ary>0 0 0 1750</i4_ary>
+     <i4_ary>0</i4_ary>
+     <i4_ary>0 0 0 0 0</i4_ary>
+     <i4_ary>0 0 0 0 0 0 0</i4_ary>
+    </rec>
+   </rec>
+  </ary>
+  <i>7500</i>
+  <bin6>01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01</bin6>
+  <u>0</u>
+ </rec>
+ <xml_include path="diplomacy/afghanistan.xml"/>
+ <rec type="ARMY_REINFORCEMENT_MANAGER">
+  <ary type="CHARACTER_REINFORCEMENTS_ARRAY"/>
+  <ary type="UNIT_REINFORCEMENTS_ARRAY"/>
+ </rec>
+ <xml_include path="government/afghanistan-gov_absolute_monarchy.xml"/>
+ <xml_include path="family/afghanistan.xml"/>
+ <i>584680376</i><!-- Faction ID -->
+ <s>afghanistan</s><!-- Faction Name -->
+ <s>Afghanistan</s><!-- On Screen Name -->
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>432</u>
+  <u>2514734807</u>
+  <u2_ary>211 330 240 340 230 27 382 267 419 100 8 378 5 154 295 269 149 430 367 236 49 157 325 277 38 17 358 167 309 146 46 50 114 259 225 57 183 67 198 246 285 393 238 244 45 241 306 290 372 398 302 22 256 334 175 87 371 48 89 293 79 252 111 107 26 220 200 263 164 82 0 304 384 374 402 47 429 366 311 305 156 189 386 322 63 320 135 229 357 203 255 7 260 248 9 131 212 362 307 206 338 71 138 286 331 428 249 424 3 276 110 97 271 184 205 360 162 423 227 86 223 389 261 33 81 395 35 142 191 335 105 14 120 141 308 410 83 396 190 58 11 251 13 355 380 113 187 39 172 123 52 219 314 78 368 323 332 106 270 182 310 201 416 233 406 316 319 88 303 127 96 10 199 53 287 394 117 268 351 43 401 152 388 77 181 76 54 383 237 400 94 299 70 376 166 185 137 19 329 188 415 129 281 29 168 73 232 431 122 194 412 75 148 300 222 80 65 404 214 418 163 51 1 344 102 179 95 128 165 291 216 108 350 375 20 265 177 42 282 409 405 258 119 121 159 315 36 289 56 264 413 221 369 92 348 327 346 143 132 192 124 213 40 342 422 28 234 91 176 353 257 411 328 226 174 245 196 272 195 392 312 178 417 64 333 104 112 151 218 427 74 208 224 207 84 18 420 125 32 44 298 279 155 296 239 352 253 274 24 313 408 103 278 98 275 301 61 324 297 99 235 144 421 116 370 317 284 15 363 2 136 30 364 69 339 169 85 242 385 160 16 387 173 280 359 158 373 115 361 365 247 354 25 345 288 72 326 23 250 140 379 425 283 118 161 180 145 126 150 209 228 12 399 31 34 93 170 193 197 414 204 210 381 41 109 186 397 336 215 101 243 403 349 347 55 321 37 21 292 337 202 90 68 407 356 318 262 66 62 4 59 130 134 153 294 377 343 254 6 273 147 217 426 171 266 341 231 60 390 139 133 391</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>461</u>
+  <u>1020127616</u>
+  <u2_ary>358 151 157 50 458 57 356 0 343 196 180 442 129 340 323 452 215 82 115 101 10 418 297 43 132 42 272 172 460 107 430 428 404 248 444 405 162 131 5 4 322 359 201 342 282 242 169 273 390 45 394 263 432 262 352 187 21 321 387 395 398 3 33 206 137 258 438 202 227 457 446 312 380 320 355 38 65 334 60 110 237 370 170 333 371 392 393 29 24 259 256 118 336 144 40 16 79 360 425 126 130 302 120 11 199 167 142 316 190 226 368 84 245 290 166 427 15 128 277 383 155 445 116 6 85 267 401 315 66 88 409 251 96 203 148 198 20 35 222 168 141 28 62 437 374 133 241 80 283 100 18 400 440 194 178 230 72 160 286 317 154 338 429 103 39 225 173 212 52 385 328 73 171 197 318 136 341 459 417 456 92 419 266 158 422 207 354 189 14 204 134 415 95 55 274 249 224 388 191 153 156 416 289 450 51 150 454 27 295 351 348 56 217 403 70 89 294 36 12 54 211 250 304 108 229 94 26 213 109 193 379 122 421 139 58 233 181 47 76 287 210 86 384 276 71 97 254 382 13 232 265 339 186 375 23 373 306 292 455 192 2 22 411 174 275 93 83 279 214 209 330 164 135 143 447 159 329 372 349 270 30 407 161 406 188 308 399 163 350 218 280 281 195 61 200 319 121 219 67 324 331 345 25 7 255 376 91 431 433 284 353 386 264 102 179 253 448 365 77 17 303 453 424 326 145 1 9 381 268 8 257 291 48 239 138 64 111 124 420 182 216 369 396 69 81 402 244 125 362 410 335 41 301 243 278 299 412 208 228 332 113 288 31 309 240 114 90 314 176 397 146 346 443 423 311 221 32 307 53 234 325 59 223 436 434 177 112 140 310 183 238 269 34 106 104 147 46 413 105 63 261 451 246 236 119 435 389 296 364 426 231 327 408 149 271 439 260 363 98 19 68 298 367 313 123 252 117 99 305 44 378 300 184 165 220 285 293 357 247 87 37 347 391 235 127 337 414 205 344 175 449 75 377 185 361 74 441 366 152 78</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>759982619</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>181410669</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>334</u>
+  <u>734087046</u>
+  <u2_ary>100 153 69 20 134 32 232 299 248 101 237 249 25 99 59 240 269 322 2 106 151 56 159 261 66 82 316 161 281 90 231 222 140 157 80 254 266 323 12 41 60 205 302 28 158 16 190 0 152 104 191 196 199 23 310 239 128 279 270 168 91 126 24 180 174 331 173 53 149 121 227 96 303 243 1 165 88 127 268 145 179 312 19 43 216 162 305 79 89 85 294 320 120 226 176 315 189 242 111 62 163 229 251 87 225 138 117 276 313 38 97 148 7 123 184 30 61 284 263 275 311 10 273 164 3 63 259 262 217 36 52 122 246 283 195 182 84 154 321 67 183 324 116 198 34 318 5 114 4 14 228 37 260 75 135 250 110 212 171 18 65 31 172 218 233 307 207 244 253 265 49 21 93 94 103 188 141 107 77 328 169 11 264 234 39 133 166 282 40 206 68 58 46 124 105 332 211 144 156 86 326 186 51 208 167 17 181 291 272 187 333 109 192 224 146 258 142 289 130 175 47 143 277 308 70 83 203 115 22 112 300 48 54 132 215 177 286 287 197 98 293 92 137 290 102 74 309 13 317 29 150 170 329 201 50 271 267 194 304 280 295 129 8 298 319 256 136 238 230 160 108 219 296 193 221 241 113 33 200 155 297 15 57 255 245 95 202 6 139 209 247 274 185 210 55 327 288 119 81 72 45 257 223 325 78 252 204 35 178 76 131 71 64 9 27 306 213 42 44 314 118 214 285 26 125 73 292 330 301 278 236 147 235 220</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>2</u>
+  <u>2592147912</u>
+  <u2_ary>1 0</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>3265646823</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>17</u>
+  <u>4227849271</u>
+  <u2_ary>10 12 11 9 7 3 1 14 15 5 13 0 2 16 6 8 4</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>25</u>
+  <u>2364069655</u>
+  <u2_ary>21 8 20 22 10 23 13 7 2 11 17 6 12 15 4 3</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>1472277484</u>
+  <u2_ary/>
+ </rec>
+ <yes/>
+ <rec type="LAND_UNIT_NAME_ALLOCATOR">
+  <ary type="LAND_UNIT_NAMES_MAP">
+   <xml_include path="unit_name_alloc/afghanistan-land-0001.xml"/>
+   <xml_include path="unit_name_alloc/afghanistan-land-0002.xml"/>
+   <xml_include path="unit_name_alloc/afghanistan-land-0003.xml"/>
+   <xml_include path="unit_name_alloc/afghanistan-land-0004.xml"/>
+   <xml_include path="unit_name_alloc/afghanistan-land-0005.xml"/>
+   <xml_include path="unit_name_alloc/afghanistan-land-0006.xml"/>
+   <xml_include path="unit_name_alloc/afghanistan-land-0007.xml"/>
+   <xml_include path="unit_name_alloc/afghanistan-land-0008.xml"/>
+   <xml_include path="unit_name_alloc/afghanistan-land-0009.xml"/>
+   <xml_include path="unit_name_alloc/afghanistan-land-0010.xml"/>
+   <xml_include path="unit_name_alloc/afghanistan-land-0011.xml"/>
+   <xml_include path="unit_name_alloc/afghanistan-land-0012.xml"/>
+   <xml_include path="unit_name_alloc/afghanistan-land-0013.xml"/>
+   <xml_include path="unit_name_alloc/afghanistan-land-0014.xml"/>
+   <xml_include path="unit_name_alloc/afghanistan-land-0015.xml"/>
+   <xml_include path="unit_name_alloc/afghanistan-land-0016.xml"/>
+   <xml_include path="unit_name_alloc/afghanistan-land-0017.xml"/>
+   <xml_include path="unit_name_alloc/afghanistan-land-0018.xml"/>
+   <xml_include path="unit_name_alloc/afghanistan-land-0019.xml"/>
+   <xml_include path="unit_name_alloc/afghanistan-land-0020.xml"/>
+   <xml_include path="unit_name_alloc/afghanistan-land-0021.xml"/>
+   <xml_include path="unit_name_alloc/afghanistan-land-0022.xml"/>
+   <xml_include path="unit_name_alloc/afghanistan-land-0023.xml"/>
+  </ary>
+ </rec>
+ <yes/>
+ <xml_include path="unit_name_alloc/afghanistan-naval-0001.xml"/>
+ <no/><!-- True - Major, False - Minor -->
+ <ary type="CHARACTER_ARRAY"/>
+ <xml_include path="technology/afghanistan-afghanistan.xml"/>
+ <ary type="ARMY_ARRAY"/>
+ <ary type="MORGUE"/>
+ <u4_ary/><!-- Governor ID For Each Theatre -->
+ <no/>
+ <s>rel_islamic</s><!-- Religion -->
+ <no/>
+ <rec type="FORT_UPGRADE_MANAGER">
+  <ary type="FORT_UPGRADES_ARRAY"/>
+ </rec>
+ <rec type="FORT_UPGRADE_MANAGER">
+  <ary type="FORT_REPAIRS_ARRAY"/>
+ </rec>
+ <i>0</i><!-- Current Capital ID Else 0 If Faction Destroyed -->
+ <i>0</i><!-- Original Capital ID -->
+ <ary type="EXPOSED_CHARACTERS"/>
+ <no/>
+ <rec type="PRESTIGE">
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+ </rec>
+ <yes/><!-- Emergent -->
+ <u>0</u>
+ <bool_ary>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</bool_ary>
+ <i>0</i><!-- Army Upkeep -->
+ <i>0</i><!-- Navy Upkeep -->
+ <s>MAINTAINANCE</s><!-- Campaign AI Manager Behaviour (patch.pack) -->
+ <s>new_age</s><!-- Campaign AI Personalities (patch.pack) -->
+ <flag_and_colours path="data\ui\flags\afghanistan" color1="#44683d" color2="#fefefe" color3="#819052"/>
+ <flag_and_colours path="data\ui\flags\afghanistan" color1="#44683d" color2="#fefefe" color3="#819052"/>
+ <rec type="CAMPAIGN_BONUS_VALUES">
+  <ary type="CAMPAIGN_BONUS_VALUE_BLOCK">
+   <campaign_bonus_0 subtype="2" value="1.0" agent="Eastern_Scholar"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="rake"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="assassin"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="gentleman"/>
+  </ary>
+ </rec>
+ <rec type="CAMPAIGN_BONUS_VALUES">
+  <ary type="CAMPAIGN_BONUS_VALUE_BLOCK">
+   <campaign_bonus_0 subtype="2" value="1.0" agent="Eastern_Scholar"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="rake"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="assassin"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="gentleman"/>
+  </ary>
+ </rec>
+ <i>0</i><!-- Protectorate ID -->
+ <no/>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <no/>
+ <yes/>
+ <no/>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <no/>
+ <no/>
+ <u>0</u>
+ <no/>
+ <no/>
+</rec>

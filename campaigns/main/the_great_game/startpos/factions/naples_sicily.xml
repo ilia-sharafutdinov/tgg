@@ -1,0 +1,198 @@
+<?xml version="1.0"?>
+<rec type="FACTION">
+ <ancillary_uniqueness_monitor/>
+ <rec type="CAMPAIGN_PLAYER_SETUP">
+  <victory_conditions year="0" region_count="0" prestige_victory="no" campaign_type="4 (Unplayable)"/>
+  <rec type="CAMPAIGN_PLAYER_SETUP_INGAME_MODIFIABLES">
+   <i>0</i>
+   <i>0</i>
+   <i>0</i>
+   <no/>
+  </rec>
+  <s>naples_sicily</s>
+  <no/>
+  <no/><!-- Playable -->
+  <no/>
+ </rec>
+ <rec type="FACTION_ECONOMICS">
+  <ary type="history">
+   <rec type="history">
+    <rec type="ECONOMICS_DATA">
+     <i4_ary>0 0 0 0 0</i4_ary>
+     <i4_ary>0 0 0</i4_ary>
+     <i4_ary>0 0 0 1750</i4_ary>
+     <i4_ary>0</i4_ary>
+     <i4_ary>0 0 0 0 0</i4_ary>
+     <i4_ary>0 0 0 0 0 0 0</i4_ary>
+    </rec>
+   </rec>
+  </ary>
+  <i>7500</i>
+  <bin6>01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01</bin6>
+  <u>0</u>
+ </rec>
+ <xml_include path="diplomacy/naples_sicily.xml"/>
+ <rec type="ARMY_REINFORCEMENT_MANAGER">
+  <ary type="CHARACTER_REINFORCEMENTS_ARRAY"/>
+  <ary type="UNIT_REINFORCEMENTS_ARRAY"/>
+ </rec>
+ <xml_include path="government/naples_sicily-gov_absolute_monarchy.xml"/>
+ <xml_include path="family/naples_sicily.xml"/>
+ <i>583686936</i><!-- Faction ID -->
+ <s>naples_sicily</s><!-- Faction Name -->
+ <s>Naples &amp; Sicily</s><!-- On Screen Name -->
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>192</u>
+  <u>1192502892</u>
+  <u2_ary>107 91 48 0 56 39 145 103 188 130 82 131 108 155 118 146 158 14 153 31 22 179 78 166 3 125 181 171 88 149 109 169 114 168 66 87 128 150 5 141 89 83 18 159 52 12 4 6 163 183 81 55 53 190 133 119 160 105 62 132 178 77 29 110 30 122 184 86 157 143 151 47 75 58 35 57 126 21 76 148 127 102 104 69 36 54 136 167 59 177 97 106 84 138 72 74 60 129 15 137 170 185 172 24 176 96 67 51 124 33 37 90 1 144 20 10 156 140 71 43 112 94 16 101 134 99 19 13 135 7 17 123 180 8 174 85 142 92 115 164 116 32 120 98 147 34 165 50 38 175 40 186 187 45 191 11 79 189 9 152 68 42 113 173 64 23 26 111 154 27 117 44 41 25 61 2 46 161 63 121 70 28 65 182 100 73 49 80 93 95 139 162</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>137</u>
+  <u>729533172</u>
+  <u2_ary>112 12 102 47 69 87 55 56 32 31 88 84 134 20 30 22 86 107 51 38 89 3 6 14 13 48 121 117 57 36 23 15 124 41 67 111 78 29 122 105 63 37 114 82 65 24 106 104 26 90 75 45 19 118 54 93 9 62 99 136 5 50 127 25 126 8 42 64 132 129 17 35 80 79 133 68 52 113 81 40 39 125 108 109 71 27 128 95 130 119 74 21 7 1 101 72 34 97 73 131 103 83 49 10 4 60 123 18 33 98 110 77 66 92 0 120 58 70 59 76 100 53 91 44 85 96 135 2 94 16 116 43 28 46 11 61 115</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>214582684</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>2805459272</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>139</u>
+  <u>2899196966</u>
+  <u2_ary>81 66 101 23 103 107 119 102 30 55 45 110 99 28 90 13 87 22 85 4 40 10 48 62 100 3 135 57 124 32 56 98 113 133 72 53 105 54 108 18 73 86 33 129 112 131 125 68 69 64 41 43 118 127 26 126 96 17 117 39 19 128 47 74 36 27 111 38 91 51 104 15 42 116 58 136 14 114 88 84 71 65 52 44 2 83 37 130 75 122 24 61 123 93 80 109 12 34 25 11 92 106 29 1 59 46 5 49 7 8 94 79 77 76 0 70 121 60 50 115 134 78 132 21 31 89 20 9 35 16 6 120 67 97 82 63 95 137 138</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>2</u>
+  <u>12554412</u>
+  <u2_ary>1 0</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>1155419042</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>7</u>
+  <u>239443402</u>
+  <u2_ary>3 2 1 5 4 6 0</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>8</u>
+  <u>3902061884</u>
+  <u2_ary>4 0 2</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>75628646</u>
+  <u2_ary/>
+ </rec>
+ <yes/>
+ <rec type="LAND_UNIT_NAME_ALLOCATOR">
+  <ary type="LAND_UNIT_NAMES_MAP">
+   <xml_include path="unit_name_alloc/naples_sicily-land-0001.xml"/>
+   <xml_include path="unit_name_alloc/naples_sicily-land-0002.xml"/>
+   <xml_include path="unit_name_alloc/naples_sicily-land-0003.xml"/>
+   <xml_include path="unit_name_alloc/naples_sicily-land-0004.xml"/>
+   <xml_include path="unit_name_alloc/naples_sicily-land-0005.xml"/>
+   <xml_include path="unit_name_alloc/naples_sicily-land-0006.xml"/>
+   <xml_include path="unit_name_alloc/naples_sicily-land-0007.xml"/>
+   <xml_include path="unit_name_alloc/naples_sicily-land-0008.xml"/>
+   <xml_include path="unit_name_alloc/naples_sicily-land-0009.xml"/>
+   <xml_include path="unit_name_alloc/naples_sicily-land-0010.xml"/>
+   <xml_include path="unit_name_alloc/naples_sicily-land-0011.xml"/>
+   <xml_include path="unit_name_alloc/naples_sicily-land-0012.xml"/>
+   <xml_include path="unit_name_alloc/naples_sicily-land-0013.xml"/>
+   <xml_include path="unit_name_alloc/naples_sicily-land-0014.xml"/>
+   <xml_include path="unit_name_alloc/naples_sicily-land-0015.xml"/>
+   <xml_include path="unit_name_alloc/naples_sicily-land-0016.xml"/>
+   <xml_include path="unit_name_alloc/naples_sicily-land-0017.xml"/>
+   <xml_include path="unit_name_alloc/naples_sicily-land-0018.xml"/>
+   <xml_include path="unit_name_alloc/naples_sicily-land-0019.xml"/>
+   <xml_include path="unit_name_alloc/naples_sicily-land-0020.xml"/>
+   <xml_include path="unit_name_alloc/naples_sicily-land-0021.xml"/>
+   <xml_include path="unit_name_alloc/naples_sicily-land-0022.xml"/>
+   <xml_include path="unit_name_alloc/naples_sicily-land-0023.xml"/>
+  </ary>
+ </rec>
+ <yes/>
+ <xml_include path="unit_name_alloc/naples_sicily-naval-0001.xml"/>
+ <no/><!-- True - Major, False - Minor -->
+ <ary type="CHARACTER_ARRAY"/>
+ <xml_include path="technology/naples_sicily-naples_sicily.xml"/>
+ <ary type="ARMY_ARRAY"/>
+ <ary type="MORGUE"/>
+ <u4_ary/><!-- Governor ID For Each Theatre -->
+ <no/>
+ <s>rel_catholic</s><!-- Religion -->
+ <no/>
+ <rec type="FORT_UPGRADE_MANAGER">
+  <ary type="FORT_UPGRADES_ARRAY"/>
+ </rec>
+ <rec type="FORT_UPGRADE_MANAGER">
+  <ary type="FORT_REPAIRS_ARRAY"/>
+ </rec>
+ <i>0</i><!-- Current Capital ID Else 0 If Faction Destroyed -->
+ <i>0</i><!-- Original Capital ID -->
+ <ary type="EXPOSED_CHARACTERS"/>
+ <no/>
+ <rec type="PRESTIGE">
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+ </rec>
+ <yes/><!-- Emergent -->
+ <u>0</u>
+ <bool_ary>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</bool_ary>
+ <i>0</i><!-- Army Upkeep -->
+ <i>0</i><!-- Navy Upkeep -->
+ <s>MAINTAINANCE</s><!-- Campaign AI Manager Behaviour (patch.pack) -->
+ <s>default</s><!-- Campaign AI Personalities (patch.pack) -->
+ <flag_and_colours path="data\ui\flags\naples_sicily" color1="#59a184" color2="#ede175" color3="#363154"/>
+ <flag_and_colours path="data\ui\flags\naples_sicily" color1="#59a184" color2="#ede175" color3="#363154"/>
+ <rec type="CAMPAIGN_BONUS_VALUES">
+  <ary type="CAMPAIGN_BONUS_VALUE_BLOCK">
+   <campaign_bonus_0 subtype="2" value="1.0" agent="Eastern_Scholar"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="rake"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="assassin"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="gentleman"/>
+  </ary>
+ </rec>
+ <rec type="CAMPAIGN_BONUS_VALUES">
+  <ary type="CAMPAIGN_BONUS_VALUE_BLOCK">
+   <campaign_bonus_0 subtype="2" value="1.0" agent="Eastern_Scholar"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="rake"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="assassin"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="gentleman"/>
+  </ary>
+ </rec>
+ <i>0</i><!-- Protectorate ID -->
+ <no/>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <no/>
+ <yes/>
+ <no/>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <no/>
+ <no/>
+ <u>0</u>
+ <no/>
+ <no/>
+</rec>

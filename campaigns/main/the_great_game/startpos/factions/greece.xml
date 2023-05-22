@@ -1,0 +1,198 @@
+<?xml version="1.0"?>
+<rec type="FACTION">
+ <ancillary_uniqueness_monitor/>
+ <rec type="CAMPAIGN_PLAYER_SETUP">
+  <victory_conditions year="0" region_count="0" prestige_victory="no" campaign_type="4 (Unplayable)"/>
+  <rec type="CAMPAIGN_PLAYER_SETUP_INGAME_MODIFIABLES">
+   <i>0</i>
+   <i>0</i>
+   <i>0</i>
+   <no/>
+  </rec>
+  <s>greece</s>
+  <no/>
+  <no/><!-- Playable -->
+  <no/>
+ </rec>
+ <rec type="FACTION_ECONOMICS">
+  <ary type="history">
+   <rec type="history">
+    <rec type="ECONOMICS_DATA">
+     <i4_ary>0 0 0 0 0</i4_ary>
+     <i4_ary>0 0 0</i4_ary>
+     <i4_ary>0 0 0 1750</i4_ary>
+     <i4_ary>0</i4_ary>
+     <i4_ary>0 0 0 0 0</i4_ary>
+     <i4_ary>0 0 0 0 0 0 0</i4_ary>
+    </rec>
+   </rec>
+  </ary>
+  <i>7500</i>
+  <bin6>01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01</bin6>
+  <u>0</u>
+ </rec>
+ <xml_include path="diplomacy/greece.xml"/>
+ <rec type="ARMY_REINFORCEMENT_MANAGER">
+  <ary type="CHARACTER_REINFORCEMENTS_ARRAY"/>
+  <ary type="UNIT_REINFORCEMENTS_ARRAY"/>
+ </rec>
+ <xml_include path="government/greece-gov_absolute_monarchy.xml"/>
+ <xml_include path="family/greece.xml"/>
+ <i>583822776</i><!-- Faction ID -->
+ <s>greece</s><!-- Faction Name -->
+ <s>Greece</s><!-- On Screen Name -->
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>150</u>
+  <u>1751659260</u>
+  <u2_ary>60 146 149 64 25 66 51 77 63 86 31 101 115 114 120 36 52 84 71 94 72 0 10 22 39 65 53 8 7 112 26 97 79 9 67 54 15 83 107 132 47 13 57 56 117 50 145 45 20 140 12 43 30 24 62 1 135 16 33 113 102 108 125 80 99 142 75 93 136 95 2 38 127 69 133 137 106 76 61 90 87 27 126 134 123 41 35 23 138 105 18 5 98 28 58 6 59 89 131 37 92 104 82 34 124 68 122 74 91 19 100 70 48 103 144 119 42 116 128 147 11 96 55 85 129 130 21 139 40 29 46 14 111 148 121 44 32 88 4 109 3 143 81 49 78</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>131</u>
+  <u>2634154061</u>
+  <u2_ary>122 82 38 75 76 99 62 84 88 108 28 4 48 103 72 101 40 23 100 12 126 102 30 129 90 65 70 7 15 26 29 35 0 39 33 114 113 20 127 11 81 68 60 83 19 64 58 130 31 54 25 109 36 71 17 27 77 13 124 53 119 106 9 55 24 22 57 107 32 89 67 44 59 21 61 78 125 128 95 41 120 18 79 91 43 73 63 51 97 52 6 116 50 10 2 118 96 5 121 42 80 94 85 3 66 111 104 47 87 37 14 98 105 115 46 8 117 86 1 110 45 112 74 92 69 16 93 49 34</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>3128524091</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>1399025437</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>630</u>
+  <u>1583778257</u>
+  <u2_ary>75 475 106 72 539 180 590 513 105 366 183 512 141 518 578 102 140 122 403 76 211 181 205 190 556 207 310 173 8 532 387 226 400 71 281 208 500 49 126 395 303 622 272 121 586 306 420 264 393 565 178 342 612 59 273 520 14 477 449 369 16 439 40 354 617 244 91 155 343 365 569 23 390 392 386 296 422 490 484 186 26 443 610 100 289 108 567 375 562 54 526 36 134 176 604 459 601 79 314 254 595 433 405 607 528 544 462 188 522 288 148 86 585 460 442 278 581 351 160 548 553 227 29 357 558 452 606 579 330 185 350 335 128 295 502 625 137 629 613 245 130 285 255 368 66 456 329 597 566 50 203 331 119 52 56 219 346 235 151 99 32 2 225 293 418 209 216 259 431 568 241 402 347 322 600 546 389 4 147 182 325 101 132 31 282 24 90 299 385 201 425 560 486 62 21 547 265 302 116 248 64 394 195 290 339 20 213 450 246 236 276 570 540 294 406 231 473 139 243 58 571 538 429 286 197 437 257 7 312 609 258 51 455 589 230 277 85 501 489 305 266 115 318 380 333 574 112 73 224 469 374 483 10 453 35 382 109 313 249 564 628 316 487 507 572 608 359 179 283 447 363 514 561 627 360 494 531 97 291 39 145 138 399 199 84 464 345 383 111 300 508 341 541 159 117 349 527 184 504 114 69 506 263 163 337 319 317 27 619 222 298 381 143 204 503 515 326 332 361 156 485 161 261 63 421 416 376 458 194 451 96 587 448 68 413 320 275 596 175 218 256 168 42 457 196 284 309 552 301 620 232 220 323 555 129 0 427 171 237 94 212 414 542 467 217 445 438 88 594 78 98 274 234 474 46 348 321 511 87 315 104 379 158 479 424 599 355 543 324 166 454 252 388 113 623 191 202 519 615 55 584 364 372 308 44 287 260 505 221 468 517 89 152 554 131 9 621 268 47 270 15 410 169 516 440 144 110 238 493 523 551 362 150 336 573 524 408 401 378 446 206 611 404 25 240 409 280 411 125 535 239 492 187 592 41 537 103 371 340 48 30 488 470 271 37 177 53 162 618 229 328 127 616 338 352 533 149 279 614 61 164 550 419 307 107 559 19 223 480 476 344 165 250 605 74 580 536 593 549 118 496 242 233 34 135 465 576 407 391 170 577 377 28 626 157 358 60 478 200 498 482 423 214 434 17 65 591 428 251 83 174 521 444 18 530 269 588 189 11 215 142 398 82 198 481 432 120 124 95 167 192 262 133 77 529 353 396 495 417 624 154 583 334 43 430 370 210 92 67 545 193 297 466 602 123 136 292 534 93 563 557 327 384 311 441 33 12 81 80 598 435 497 412 582 491 1 367 45 525 603 3 304 22 247 267 499 38 57 153 575 463 228 146 510 415 426 253 471 436 397 509 461 472 70 5 373 172 356 13 6</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>674317818</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>4085376214</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>10</u>
+  <u>2135872196</u>
+  <u2_ary>4 8 3 2 0 5 6 7 1 9</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>2283386754</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>3589174878</u>
+  <u2_ary/>
+ </rec>
+ <yes/>
+ <rec type="LAND_UNIT_NAME_ALLOCATOR">
+  <ary type="LAND_UNIT_NAMES_MAP">
+   <xml_include path="unit_name_alloc/greece-land-0001.xml"/>
+   <xml_include path="unit_name_alloc/greece-land-0002.xml"/>
+   <xml_include path="unit_name_alloc/greece-land-0003.xml"/>
+   <xml_include path="unit_name_alloc/greece-land-0004.xml"/>
+   <xml_include path="unit_name_alloc/greece-land-0005.xml"/>
+   <xml_include path="unit_name_alloc/greece-land-0006.xml"/>
+   <xml_include path="unit_name_alloc/greece-land-0007.xml"/>
+   <xml_include path="unit_name_alloc/greece-land-0008.xml"/>
+   <xml_include path="unit_name_alloc/greece-land-0009.xml"/>
+   <xml_include path="unit_name_alloc/greece-land-0010.xml"/>
+   <xml_include path="unit_name_alloc/greece-land-0011.xml"/>
+   <xml_include path="unit_name_alloc/greece-land-0012.xml"/>
+   <xml_include path="unit_name_alloc/greece-land-0013.xml"/>
+   <xml_include path="unit_name_alloc/greece-land-0014.xml"/>
+   <xml_include path="unit_name_alloc/greece-land-0015.xml"/>
+   <xml_include path="unit_name_alloc/greece-land-0016.xml"/>
+   <xml_include path="unit_name_alloc/greece-land-0017.xml"/>
+   <xml_include path="unit_name_alloc/greece-land-0018.xml"/>
+   <xml_include path="unit_name_alloc/greece-land-0019.xml"/>
+   <xml_include path="unit_name_alloc/greece-land-0020.xml"/>
+   <xml_include path="unit_name_alloc/greece-land-0021.xml"/>
+   <xml_include path="unit_name_alloc/greece-land-0022.xml"/>
+   <xml_include path="unit_name_alloc/greece-land-0023.xml"/>
+  </ary>
+ </rec>
+ <yes/>
+ <xml_include path="unit_name_alloc/greece-naval-0001.xml"/>
+ <no/><!-- True - Major, False - Minor -->
+ <ary type="CHARACTER_ARRAY"/>
+ <xml_include path="technology/greece-greece.xml"/>
+ <ary type="ARMY_ARRAY"/>
+ <ary type="MORGUE"/>
+ <u4_ary/><!-- Governor ID For Each Theatre -->
+ <no/>
+ <s>rel_orthodox</s><!-- Religion -->
+ <no/>
+ <rec type="FORT_UPGRADE_MANAGER">
+  <ary type="FORT_UPGRADES_ARRAY"/>
+ </rec>
+ <rec type="FORT_UPGRADE_MANAGER">
+  <ary type="FORT_REPAIRS_ARRAY"/>
+ </rec>
+ <i>0</i><!-- Current Capital ID Else 0 If Faction Destroyed -->
+ <i>0</i><!-- Original Capital ID -->
+ <ary type="EXPOSED_CHARACTERS"/>
+ <no/>
+ <rec type="PRESTIGE">
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+ </rec>
+ <yes/><!-- Emergent -->
+ <u>0</u>
+ <bool_ary>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</bool_ary>
+ <i>0</i><!-- Army Upkeep -->
+ <i>0</i><!-- Navy Upkeep -->
+ <s>MAINTAINANCE</s><!-- Campaign AI Manager Behaviour (patch.pack) -->
+ <s>default</s><!-- Campaign AI Personalities (patch.pack) -->
+ <flag_and_colours path="data\ui\flags\greece" color1="#5d8ed5" color2="#e8e7e4" color3="#3d537e"/>
+ <flag_and_colours path="data\ui\flags\greece" color1="#5d8ed5" color2="#e8e7e4" color3="#3d537e"/>
+ <rec type="CAMPAIGN_BONUS_VALUES">
+  <ary type="CAMPAIGN_BONUS_VALUE_BLOCK">
+   <campaign_bonus_0 subtype="2" value="1.0" agent="Eastern_Scholar"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="rake"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="assassin"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="gentleman"/>
+  </ary>
+ </rec>
+ <rec type="CAMPAIGN_BONUS_VALUES">
+  <ary type="CAMPAIGN_BONUS_VALUE_BLOCK">
+   <campaign_bonus_0 subtype="2" value="1.0" agent="Eastern_Scholar"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="rake"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="assassin"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="gentleman"/>
+  </ary>
+ </rec>
+ <i>0</i><!-- Protectorate ID -->
+ <no/>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <no/>
+ <yes/>
+ <no/>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <no/>
+ <no/>
+ <u>0</u>
+ <no/>
+ <no/>
+</rec>

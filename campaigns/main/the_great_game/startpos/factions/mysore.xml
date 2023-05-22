@@ -1,0 +1,219 @@
+<?xml version="1.0"?>
+<rec type="FACTION">
+ <ancillary_uniqueness_monitor/>
+ <rec type="CAMPAIGN_PLAYER_SETUP">
+  <victory_conditions year="0" region_count="0" prestige_victory="no" campaign_type="4 (Unplayable)"/>
+  <rec type="CAMPAIGN_PLAYER_SETUP_INGAME_MODIFIABLES">
+   <i>0</i>
+   <i>0</i>
+   <i>0</i>
+   <no/>
+  </rec>
+  <s>mysore</s>
+  <no/>
+  <yes/><!-- Playable -->
+  <no/>
+ </rec>
+ <rec type="FACTION_ECONOMICS">
+  <ary type="history">
+   <rec type="history">
+    <rec type="ECONOMICS_DATA">
+     <i4_ary>0 0 0 0 0</i4_ary>
+     <i4_ary>0 0 729</i4_ary>
+     <i4_ary>0 0 0 1750</i4_ary>
+     <i4_ary>0</i4_ary>
+     <i4_ary>0 0 0 0 0</i4_ary>
+     <i4_ary>0 0 0 0 0 0 0</i4_ary>
+    </rec>
+   </rec>
+  </ary>
+  <i>7500</i>
+  <bin6>01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01</bin6>
+  <u>0</u>
+ </rec>
+ <xml_include path="diplomacy/mysore.xml"/>
+ <rec type="ARMY_REINFORCEMENT_MANAGER">
+  <ary type="CHARACTER_REINFORCEMENTS_ARRAY"/>
+  <ary type="UNIT_REINFORCEMENTS_ARRAY"/>
+ </rec>
+ <xml_include path="government/mysore-gov_absolute_monarchy.xml"/>
+ <xml_include path="family/mysore.xml"/>
+ <i>582881488</i><!-- Faction ID -->
+ <s>mysore</s><!-- Faction Name -->
+ <s>Mysore</s><!-- On Screen Name -->
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>201</u>
+  <u>137846828</u>
+  <u2_ary>174 38 45 143 55 109 117 182 151 12 46 36 188 41 164 168 11 57 107 139 197 191 116 199 67 112 64 119 154 71 94 172 195 126 111 115 127 78 40 161 31 181 30 147 186 122 106 81 137 163 15 160 104 176 129 121 58 17 91 23 51 86 56 26 170 0 155 178 53 194 192 3 167 142 180 196 166 177 27 32 140 66 113 165 102 25 150 83 134 92 130 173 5 169 8 159 118 10 54 4 132 146 156 65 93 96 158 79 101 2 85 44 128 28 13 141 120 73 84 136 61 35 7 29 76 123 145 198 75 162 97 131 100 20 87 133 89 105 175 50 37 135 99 179 153 77 6 108 47 82 43 39 144 110 190 88 187 16 157 34 103 18 171 49 59 152 148 183 1 63 80 33 74 98 14 185 24 69 9 72 19 193 62</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>106</u>
+  <u>1127716554</u>
+  <u2_ary>92 57 102 20 19 6 61 23 11 75 30 67 100 80 88 53 22 15 10 17 35 31 37 39 81 76 103 93 52 13 96 86 41 3 105 79 104 95 29 78 98 58 77 91 51 83 44 99 50 43 94 26 47 38 2 70 28 82 32 4 84 16 42 74 40 7 18 90 12 97 71 73 1 33 49 54 21 72 59 0 69 45 27 68 55 48 85 60 66 89 24 63 64 5 62 65 87 34 8 101 14 9 25 56 36 46</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>1</u>
+  <u>2032872342</u>
+  <u2_ary>0</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>4134599204</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>359</u>
+  <u>1738236042</u>
+  <u2_ary>101 298 204 116 305 243 234 314 176 249 267 145 277 163 54 71 236 137 181 70 173 122 233 133 183 346 331 30 178 280 130 77 220 72 35 282 143 304 9 292 117 129 180 230 14 350 150 167 270 205 27 36 158 168 146 352 103 100 96 107 320 240 4 34 284 187 44 182 215 310 149 87 55 289 124 295 266 123 82 341 109 89 244 189 330 171 191 31 213 248 86 357 307 265 29 199 110 232 157 38 131 235 142 337 76 211 281 229 324 20 279 308 326 306 94 105 186 41 50 138 114 53 185 151 8 93 81 111 226 271 170 250 115 18 275 219 239 351 0 135 348 356 33 316 225 80 335 46 332 264 336 59 312 169 37 218 345 165 52 22 141 47 49 255 339 208 299 252 40 57 25 148 261 13 51 309 358 5 321 139 147 209 247 283 228 32 301 11 237 113 318 156 291 26 90 161 85 119 83 67 227 6 126 62 75 128 97 61 203 66 328 216 311 175 260 154 303 269 125 172 63 159 58 190 79 317 118 42 329 12 104 333 353 7 69 194 202 153 84 290 155 3 177 258 198 56 302 246 184 344 212 217 121 92 222 221 206 39 256 273 1 15 286 127 166 268 91 19 65 278 99 231 160 340 10 285 253 325 287 132 134 112 349 2 347 74 259 342 315 43 164 242 16 144 48 354 334 297 136 78 200 140 23 296 210 272 238 21 323 355 319 223 28 293 327 120 257 207 294 45 188 195 162 276 322 68 343 196 152 64 288 95 24 300 108 262 193 214 254 174 241</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>7</u>
+  <u>2681177320</u>
+  <u2_ary>2 5 6 0 3 4 1</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>2623025385</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>18</u>
+  <u>367851202</u>
+  <u2_ary>16 1 0 4 5 6 17 3 10 15 7 13 8 12 14 9 11 2</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>11</u>
+  <u>2725263998</u>
+  <u2_ary>4 1 0 8 9 3 5 6 10</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>2193287281</u>
+  <u2_ary/>
+ </rec>
+ <yes/>
+ <rec type="LAND_UNIT_NAME_ALLOCATOR">
+  <ary type="LAND_UNIT_NAMES_MAP">
+   <xml_include path="unit_name_alloc/mysore-land-0001.xml"/>
+   <xml_include path="unit_name_alloc/mysore-land-0002.xml"/>
+   <xml_include path="unit_name_alloc/mysore-land-0003.xml"/>
+   <xml_include path="unit_name_alloc/mysore-land-0004.xml"/>
+   <xml_include path="unit_name_alloc/mysore-land-0005.xml"/>
+   <xml_include path="unit_name_alloc/mysore-land-0006.xml"/>
+   <xml_include path="unit_name_alloc/mysore-land-0007.xml"/>
+   <xml_include path="unit_name_alloc/mysore-land-0008.xml"/>
+   <xml_include path="unit_name_alloc/mysore-land-0009.xml"/>
+   <xml_include path="unit_name_alloc/mysore-land-0010.xml"/>
+   <xml_include path="unit_name_alloc/mysore-land-0011.xml"/>
+   <xml_include path="unit_name_alloc/mysore-land-0012.xml"/>
+   <xml_include path="unit_name_alloc/mysore-land-0013.xml"/>
+   <xml_include path="unit_name_alloc/mysore-land-0014.xml"/>
+   <xml_include path="unit_name_alloc/mysore-land-0015.xml"/>
+   <xml_include path="unit_name_alloc/mysore-land-0016.xml"/>
+   <xml_include path="unit_name_alloc/mysore-land-0017.xml"/>
+   <xml_include path="unit_name_alloc/mysore-land-0018.xml"/>
+   <xml_include path="unit_name_alloc/mysore-land-0019.xml"/>
+   <xml_include path="unit_name_alloc/mysore-land-0020.xml"/>
+   <xml_include path="unit_name_alloc/mysore-land-0021.xml"/>
+   <xml_include path="unit_name_alloc/mysore-land-0022.xml"/>
+   <xml_include path="unit_name_alloc/mysore-land-0023.xml"/>
+  </ary>
+ </rec>
+ <yes/>
+ <xml_include path="unit_name_alloc/mysore-naval-0001.xml"/>
+ <no/><!-- True - Major, False - Minor -->
+ <ary type="CHARACTER_ARRAY">
+  <xml_include path="character/mysore-General-0001.xml"/>
+  <xml_include path="character/mysore-Eastern_Scholar-0001.xml"/>
+  <xml_include path="character/mysore-General-0002.xml"/>
+  <xml_include path="character/mysore-minister-0001.xml"/>
+  <xml_include path="character/mysore-assassin-0001.xml"/>
+  <xml_include path="character/mysore-minister-0002.xml"/>
+  <xml_include path="character/mysore-minister-0003.xml"/>
+  <xml_include path="character/mysore-minister-0004.xml"/>
+  <xml_include path="character/mysore-minister-0005.xml"/>
+  <xml_include path="character/mysore-minister-0006.xml"/>
+  <xml_include path="character/mysore-minister-0007.xml"/>
+  <xml_include path="character/mysore-minister-0008.xml"/>
+  <xml_include path="character/mysore-minister-0009.xml"/>
+  <xml_include path="character/mysore-minister-0010.xml"/>
+  <xml_include path="character/mysore-minister-0011.xml"/>
+  <xml_include path="character/mysore-minister-0012.xml"/>
+  <xml_include path="character/mysore-minister-0013.xml"/>
+ </ary>
+ <xml_include path="technology/mysore-mysore.xml"/>
+ <ary type="ARMY_ARRAY">
+  <xml_include path="army/mysore-0001.xml"/>
+  <xml_include path="army/mysore-0002.xml"/>
+ </ary>
+ <ary type="MORGUE"/>
+ <u4_ary>586567456</u4_ary><!-- Governor ID For Each Theatre -->
+ <no/>
+ <s>rel_islamic</s><!-- Religion -->
+ <no/>
+ <rec type="FORT_UPGRADE_MANAGER">
+  <ary type="FORT_UPGRADES_ARRAY"/>
+ </rec>
+ <rec type="FORT_UPGRADE_MANAGER">
+  <ary type="FORT_REPAIRS_ARRAY"/>
+ </rec>
+ <i>586550040</i><!-- Current Capital ID Else 0 If Faction Destroyed -->
+ <i>586550040</i><!-- Original Capital ID -->
+ <ary type="EXPOSED_CHARACTERS"/>
+ <no/>
+ <rec type="PRESTIGE">
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <u>20</u>
+ </rec>
+ <no/><!-- Emergent -->
+ <u>0</u>
+ <bool_ary>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</bool_ary>
+ <i>0</i><!-- Army Upkeep -->
+ <i>0</i><!-- Navy Upkeep -->
+ <s>MAINTAINANCE</s><!-- Campaign AI Manager Behaviour (patch.pack) -->
+ <s>non_euro</s><!-- Campaign AI Personalities (patch.pack) -->
+ <flag_and_colours path="data\ui\flags\mysore" color1="#79150d" color2="#9e2e2d" color3="#452219"/>
+ <flag_and_colours path="data\ui\flags\mysore" color1="#79150d" color2="#9e2e2d" color3="#452219"/>
+ <rec type="CAMPAIGN_BONUS_VALUES">
+  <ary type="CAMPAIGN_BONUS_VALUE_BLOCK">
+   <campaign_bonus_0 subtype="2" value="1.0" agent="Eastern_Scholar"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="rake"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="assassin"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="gentleman"/>
+  </ary>
+ </rec>
+ <rec type="CAMPAIGN_BONUS_VALUES">
+  <ary type="CAMPAIGN_BONUS_VALUE_BLOCK">
+   <campaign_bonus_0 subtype="2" value="1.0" agent="Eastern_Scholar"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="rake"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="assassin"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="gentleman"/>
+  </ary>
+ </rec>
+ <i>0</i><!-- Protectorate ID -->
+ <no/>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <no/>
+ <yes/>
+ <no/>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <no/>
+ <no/>
+ <u>0</u>
+ <no/>
+ <no/>
+</rec>

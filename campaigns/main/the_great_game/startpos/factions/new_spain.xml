@@ -1,0 +1,223 @@
+<?xml version="1.0"?>
+<rec type="FACTION">
+ <ancillary_uniqueness_monitor/>
+ <rec type="CAMPAIGN_PLAYER_SETUP">
+  <victory_conditions year="0" region_count="0" prestige_victory="no" campaign_type="4 (Unplayable)"/>
+  <rec type="CAMPAIGN_PLAYER_SETUP_INGAME_MODIFIABLES">
+   <i>0</i>
+   <i>0</i>
+   <i>0</i>
+   <no/>
+  </rec>
+  <s>new_spain</s>
+  <no/>
+  <no/><!-- Playable -->
+  <no/>
+ </rec>
+ <rec type="FACTION_ECONOMICS">
+  <ary type="history">
+   <rec type="history">
+    <rec type="ECONOMICS_DATA">
+     <i4_ary>0 0 0 0 0</i4_ary>
+     <i4_ary>0 0 318</i4_ary>
+     <i4_ary>0 0 0 1750</i4_ary>
+     <i4_ary>0</i4_ary>
+     <i4_ary>0 0 0 0 0</i4_ary>
+     <i4_ary>0 2030 0 0 0 0 63</i4_ary>
+    </rec>
+   </rec>
+  </ary>
+  <i>8000</i>
+  <bin6>01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01</bin6>
+  <u>0</u>
+ </rec>
+ <xml_include path="diplomacy/new_spain.xml"/>
+ <rec type="ARMY_REINFORCEMENT_MANAGER">
+  <ary type="CHARACTER_REINFORCEMENTS_ARRAY"/>
+  <ary type="UNIT_REINFORCEMENTS_ARRAY"/>
+ </rec>
+ <xml_include path="government/new_spain-gov_absolute_monarchy.xml"/>
+ <xml_include path="family/new_spain.xml"/>
+ <i>582170000</i><!-- Faction ID -->
+ <s>new_spain</s><!-- Faction Name -->
+ <s>New Spain</s><!-- On Screen Name -->
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>243</u>
+  <u>1606463635</u>
+  <u2_ary>51 101 24 110 62 18 201 54 73 162 93 160 180 106 141 154 207 17 124 176 87 70 172 14 228 98 133 177 203 225 136 44 229 150 116 238 88 91 41 78 35 174 195 26 123 147 114 16 204 214 178 77 192 237 129 142 120 111 185 33 165 11 48 132 153 50 171 55 84 210 92 75 12 100 149 182 45 96 242 190 113 240 117 200 32 66 30 219 230 166 69 137 234 159 188 115 167 226 103 42 94 128 25 28 148 118 90 224 36 47 31 86 81 191 158 156 23 105 61 22 79 34 63 170 104 187 80 155 233 15 125 157 217 184 220 7 212 95 139 163 71 126 239 161 39 20 82 108 119 131 231 193 65 236 173 146 235 52 196 169 175 58 130 97 189 222 197 3 208 102 227 21 221 183 83 135 2 151 60 143 109 4 202 145 122 1 27 5 241 13 140 232 134 216 223 198 218 144 46 127 29 8 121 209 67 74 199 10 43 85 107 215 72 99 19 64 206 40 211 76</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>92</u>
+  <u>2771859231</u>
+  <u2_ary>30 32 71 78 42 37 61 8 47 3 38 13 45 10 43 82 20 58 73 80 25 89 15 12 68 17 4 65 85 19 34 76 18 84 88 39 64 36 59 91 2 49 69 44 29 48 5 86 79 83 72 0 51 24 53 50 14 60 1 67 87 75 33 41 28 22 77 70 74 26 6 90 55 11 27 57 16 56 52 63 40 66 54 46 23 21 31 35 7 9 62 81</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>3</u>
+  <u>1741660250</u>
+  <u2_ary>0 2 1</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>2383485237</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>172</u>
+  <u>783001212</u>
+  <u2_ary>144 51 77 81 124 50 145 34 115 11 91 169 25 125 15 104 86 132 167 14 143 97 32 113 134 98 71 168 133 127 75 82 123 43 152 48 76 109 118 21 87 139 68 74 20 162 170 55 171 78 101 126 156 22 5 160 110 17 28 165 35 73 67 128 84 147 60 53 136 23 46 116 1 31 135 117 7 56 85 103 120 155 154 157 142 2 38 61 65 93 54 79 158 94 150 151 96 4 122 26 52 42 6 63 166 92 59 138 41 62 114 3 24 99 131 137 33 30 36 9 58 95 148 121 13 70 90 108 39 119 100 40 161 130 153 47 12 111 112 18 19 141 8 163 0 69 57 83 89 72</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>11</u>
+  <u>2786471716</u>
+  <u2_ary>3 10 9 1 4 7 6 2 5 8 0</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>2467532745</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>81</u>
+  <u>3894476618</u>
+  <u2_ary>6 78 32 64 16 75 14 30 47 72 59 77 28 27 80 51 53 34 17 38 61 37 76 50 42 57 24 44 62 12 29 73 65 45 0 33 49 55 39 13 56 74 36 52 15 26 35 58 54 41 10 22 79 3 23 43 11 2 18 60 67 68 9 20 4 1 46 7 21 25 31 40 19 69 8 5 71 63 66 70 48</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>2268072629</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>4073700310</u>
+  <u2_ary/>
+ </rec>
+ <yes/>
+ <rec type="LAND_UNIT_NAME_ALLOCATOR">
+  <ary type="LAND_UNIT_NAMES_MAP">
+   <xml_include path="unit_name_alloc/new_spain-land-0001.xml"/>
+   <xml_include path="unit_name_alloc/new_spain-land-0002.xml"/>
+   <xml_include path="unit_name_alloc/new_spain-land-0003.xml"/>
+   <xml_include path="unit_name_alloc/new_spain-land-0004.xml"/>
+   <xml_include path="unit_name_alloc/new_spain-land-0005.xml"/>
+   <xml_include path="unit_name_alloc/new_spain-land-0006.xml"/>
+   <xml_include path="unit_name_alloc/new_spain-land-0007.xml"/>
+   <xml_include path="unit_name_alloc/new_spain-land-0008.xml"/>
+   <xml_include path="unit_name_alloc/new_spain-land-0009.xml"/>
+   <xml_include path="unit_name_alloc/new_spain-land-0010.xml"/>
+   <xml_include path="unit_name_alloc/new_spain-land-0011.xml"/>
+   <xml_include path="unit_name_alloc/new_spain-land-0012.xml"/>
+   <xml_include path="unit_name_alloc/new_spain-land-0013.xml"/>
+   <xml_include path="unit_name_alloc/new_spain-land-0014.xml"/>
+   <xml_include path="unit_name_alloc/new_spain-land-0015.xml"/>
+   <xml_include path="unit_name_alloc/new_spain-land-0016.xml"/>
+   <xml_include path="unit_name_alloc/new_spain-land-0017.xml"/>
+   <xml_include path="unit_name_alloc/new_spain-land-0018.xml"/>
+   <xml_include path="unit_name_alloc/new_spain-land-0019.xml"/>
+   <xml_include path="unit_name_alloc/new_spain-land-0020.xml"/>
+   <xml_include path="unit_name_alloc/new_spain-land-0021.xml"/>
+   <xml_include path="unit_name_alloc/new_spain-land-0022.xml"/>
+   <xml_include path="unit_name_alloc/new_spain-land-0023.xml"/>
+  </ary>
+ </rec>
+ <yes/>
+ <xml_include path="unit_name_alloc/new_spain-naval-0001.xml"/>
+ <no/><!-- True - Major, False - Minor -->
+ <ary type="CHARACTER_ARRAY">
+  <xml_include path="character/new_spain-minister-0001.xml"/>
+  <xml_include path="character/new_spain-catholic_missionary-0001.xml"/>
+  <xml_include path="character/new_spain-colonel-0001.xml"/>
+  <xml_include path="character/new_spain-General-0001.xml"/>
+  <xml_include path="character/new_spain-General-0002.xml"/>
+  <xml_include path="character/new_spain-minister-0002.xml"/>
+  <xml_include path="character/new_spain-rake-0001.xml"/>
+  <xml_include path="character/new_spain-minister-0003.xml"/>
+  <xml_include path="character/new_spain-minister-0004.xml"/>
+  <xml_include path="character/new_spain-minister-0005.xml"/>
+  <xml_include path="character/new_spain-minister-0006.xml"/>
+  <xml_include path="character/new_spain-minister-0007.xml"/>
+  <xml_include path="character/new_spain-minister-0008.xml"/>
+  <xml_include path="character/new_spain-minister-0009.xml"/>
+  <xml_include path="character/new_spain-minister-0010.xml"/>
+  <xml_include path="character/new_spain-minister-0011.xml"/>
+  <xml_include path="character/new_spain-minister-0012.xml"/>
+  <xml_include path="character/new_spain-minister-0013.xml"/>
+  <xml_include path="character/new_spain-colonel-0002.xml"/>
+ </ary>
+ <xml_include path="technology/new_spain-new_spain.xml"/>
+ <ary type="ARMY_ARRAY">
+  <xml_include path="army/new_spain-0001.xml"/>
+  <xml_include path="army/new_spain-0002.xml"/>
+  <xml_include path="army/new_spain-0003.xml"/>
+  <xml_include path="army/new_spain-0004.xml"/>
+ </ary>
+ <ary type="MORGUE"/>
+ <u4_ary>586168384</u4_ary><!-- Governor ID For Each Theatre -->
+ <no/>
+ <s>rel_catholic</s><!-- Religion -->
+ <no/>
+ <rec type="FORT_UPGRADE_MANAGER">
+  <ary type="FORT_UPGRADES_ARRAY"/>
+ </rec>
+ <rec type="FORT_UPGRADE_MANAGER">
+  <ary type="FORT_REPAIRS_ARRAY"/>
+ </rec>
+ <i>586604128</i><!-- Current Capital ID Else 0 If Faction Destroyed -->
+ <i>586604128</i><!-- Original Capital ID -->
+ <ary type="EXPOSED_CHARACTERS"/>
+ <no/>
+ <rec type="PRESTIGE">
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <u>40</u>
+ </rec>
+ <no/><!-- Emergent -->
+ <u>0</u>
+ <bool_ary>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</bool_ary>
+ <i>2030</i><!-- Army Upkeep -->
+ <i>0</i><!-- Navy Upkeep -->
+ <s>MAINTAINANCE</s><!-- Campaign AI Manager Behaviour (patch.pack) -->
+ <s>default</s><!-- Campaign AI Personalities (patch.pack) -->
+ <flag_and_colours path="data\ui\flags\new_spain" color1="#ebde7d" color2="#a40001" color3="#eecf54"/>
+ <flag_and_colours path="data\ui\flags\new_spain" color1="#ebde7d" color2="#a40001" color3="#eecf54"/>
+ <rec type="CAMPAIGN_BONUS_VALUES">
+  <ary type="CAMPAIGN_BONUS_VALUE_BLOCK">
+   <campaign_bonus_0 subtype="2" value="1.0" agent="Eastern_Scholar"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="rake"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="assassin"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="gentleman"/>
+  </ary>
+ </rec>
+ <rec type="CAMPAIGN_BONUS_VALUES">
+  <ary type="CAMPAIGN_BONUS_VALUE_BLOCK">
+   <campaign_bonus_0 subtype="2" value="1.0" agent="Eastern_Scholar"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="rake"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="assassin"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="gentleman"/>
+  </ary>
+ </rec>
+ <i>580832984</i><!-- Protectorate ID -->
+ <no/>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <no/>
+ <yes/>
+ <no/>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <no/>
+ <no/>
+ <u>0</u>
+ <no/>
+ <no/>
+</rec>

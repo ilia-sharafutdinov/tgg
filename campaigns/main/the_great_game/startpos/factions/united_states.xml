@@ -1,0 +1,198 @@
+<?xml version="1.0"?>
+<rec type="FACTION">
+ <ancillary_uniqueness_monitor/>
+ <rec type="CAMPAIGN_PLAYER_SETUP">
+  <victory_conditions year="0" region_count="0" prestige_victory="no" campaign_type="4 (Unplayable)"/>
+  <rec type="CAMPAIGN_PLAYER_SETUP_INGAME_MODIFIABLES">
+   <i>0</i>
+   <i>0</i>
+   <i>0</i>
+   <no/>
+  </rec>
+  <s>united_states</s>
+  <no/>
+  <no/><!-- Playable -->
+  <no/>
+ </rec>
+ <rec type="FACTION_ECONOMICS">
+  <ary type="history">
+   <rec type="history">
+    <rec type="ECONOMICS_DATA">
+     <i4_ary>0 0 0 0 0</i4_ary>
+     <i4_ary>0 0 0</i4_ary>
+     <i4_ary>0 0 0 3000</i4_ary>
+     <i4_ary>0</i4_ary>
+     <i4_ary>0 0 0 0 0</i4_ary>
+     <i4_ary>0 0 0 0 0 0 0</i4_ary>
+    </rec>
+   </rec>
+  </ary>
+  <i>7500</i>
+  <bin6>01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01</bin6>
+  <u>0</u>
+ </rec>
+ <xml_include path="diplomacy/united_states.xml"/>
+ <rec type="ARMY_REINFORCEMENT_MANAGER">
+  <ary type="CHARACTER_REINFORCEMENTS_ARRAY"/>
+  <ary type="UNIT_REINFORCEMENTS_ARRAY"/>
+ </rec>
+ <xml_include path="government/united_states-gov_republic.xml"/>
+ <xml_include path="family/united_states.xml"/>
+ <i>584233480</i><!-- Faction ID -->
+ <s>united_states</s><!-- Faction Name -->
+ <s>United States</s><!-- On Screen Name -->
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>352</u>
+  <u>1758781290</u>
+  <u2_ary>322 318 98 70 147 40 294 187 204 54 289 59 261 310 278 72 344 219 167 260 68 290 200 205 92 331 286 334 157 348 81 178 272 268 12 115 53 44 82 134 336 119 207 203 274 162 137 127 41 24 96 340 259 246 27 89 112 79 64 30 7 3 143 55 192 228 341 229 183 152 221 288 13 39 10 202 320 270 306 232 174 307 242 88 251 104 254 32 19 52 69 304 234 255 114 267 179 61 323 60 301 258 135 316 196 313 296 209 293 43 0 180 285 295 277 335 198 14 22 302 238 351 252 271 66 141 287 314 328 154 87 231 248 156 210 17 74 4 161 20 11 8 269 218 236 15 169 80 173 93 97 283 279 166 45 214 36 333 291 26 111 33 308 216 159 237 345 90 136 75 67 91 297 105 21 321 170 262 181 350 233 276 299 108 35 281 264 38 230 298 142 343 42 309 138 171 123 319 77 153 65 148 186 56 163 329 239 346 188 227 160 275 78 129 94 150 347 223 206 85 280 146 47 168 37 48 49 99 185 140 339 6 2 133 1 305 109 244 265 29 102 253 284 273 312 240 324 122 126 208 189 172 158 124 263 9 222 330 332 338 18 100 311 220 73 76 303 182 145 184 144 176 46 241 243 226 249 212 58 195 84 130 106 201 151 190 193 83 117 63 139 315 327 282 326 121 349 25 113 34 107 197 213 217 116 235 132 224 215 86 342 300 256 191 257 317 103 62 337 57 245 250 23 175 16 155 266 31 50 149 165 131 71 194 120 164 5 95 110 247 292 118 225 211 125 51</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>265</u>
+  <u>4273006014</u>
+  <u2_ary>119 53 186 207 116 180 187 7 150 16 65 131 56 129 225 25 6 15 151 224 148 60 39 235 97 134 142 197 109 259 145 98 191 72 264 99 177 214 141 166 33 0 120 238 257 182 27 261 67 82 203 96 58 63 71 149 28 30 263 198 47 135 87 153 34 162 220 230 90 247 61 26 252 260 42 2 229 113 44 95 175 183 13 136 218 35 76 194 126 23 227 192 38 171 193 5 4 168 239 70 201 190 79 105 246 195 20 250 228 22 12 43 51 157 92 106 185 188 137 184 18 127 211 226 8 147 232 202 169 130 48 139 81 251 160 173 91 208 216 50 221 93 205 262 249 241 212 115 210 243 118 55 108 3 21 123 159 206 41 178 215 107 45 248 89 46 199 75 32 77 144 181 245 111 155 68 102 62 156 217 174 143 240 200 222 59 253 52 49 9 140 204 114 163 152 196 84 37 219 124 80 78 66 172 223 73 104 236 254 31 170 138 121 94 10 258 17 167 133 112 158 85 64 57 256 161 103 231 36 213 19 83 11 255 189 234 128 176 74 237 29 179 146 88 40 54 209 69 164 14 1 122 110 24 132 117 101 244 154 125 165 242 233</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>2406658242</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>1</u>
+  <u>1156180283</u>
+  <u2_ary>0</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>635</u>
+  <u>368184417</u>
+  <u2_ary>36 605 291 396 84 232 493 366 132 441 61 413 54 349 633 553 113 236 599 557 89 533 420 589 472 45 262 248 92 329 227 513 63 31 111 153 488 142 469 216 138 529 270 447 217 33 544 603 9 360 188 503 88 158 397 27 474 23 510 593 112 508 95 617 0 13 165 385 170 376 47 491 574 512 226 265 335 452 363 625 313 485 91 463 373 3 299 494 116 155 181 326 51 475 370 446 259 212 404 254 622 200 464 424 448 86 136 140 506 245 369 323 443 12 252 240 49 613 225 400 187 281 177 146 55 312 327 525 234 498 309 279 365 276 580 206 214 583 106 591 117 292 316 402 375 470 602 272 425 516 205 287 618 46 356 387 56 274 102 439 18 395 390 315 336 353 561 118 406 541 606 109 171 288 628 290 263 160 496 564 97 131 364 280 139 518 38 161 588 422 168 489 154 582 383 528 559 392 550 230 434 570 558 35 343 42 479 231 426 244 90 451 125 410 560 549 535 286 595 317 526 626 368 64 555 37 148 346 445 1 273 284 219 302 235 8 542 26 480 48 191 538 381 80 621 311 344 631 164 431 59 145 421 340 467 289 347 337 201 76 357 374 203 194 241 75 65 135 267 388 600 386 16 17 115 468 11 499 294 568 105 543 246 471 30 85 627 624 607 520 151 596 310 476 264 610 73 634 460 333 20 352 615 478 283 527 261 260 107 367 436 554 275 331 416 2 182 149 222 197 391 382 324 50 534 355 442 41 403 126 523 251 456 449 94 450 514 575 282 608 454 571 74 481 318 7 590 524 215 521 210 4 487 195 52 384 378 517 492 295 601 121 133 586 502 71 32 548 358 332 453 372 296 504 228 144 21 57 632 482 585 614 77 237 437 399 505 537 268 255 15 247 120 193 414 278 271 207 277 6 531 98 604 233 81 305 44 19 137 303 213 345 178 108 530 438 134 186 459 630 104 304 223 5 110 432 297 435 458 190 306 577 62 202 173 540 40 300 556 258 87 249 147 417 199 209 415 24 257 497 141 239 351 409 321 43 67 293 330 341 179 66 100 183 68 407 401 433 25 301 308 440 208 462 196 253 584 629 423 204 159 379 484 298 82 350 124 198 157 169 552 53 578 547 307 563 511 152 597 620 319 551 500 342 412 354 229 569 623 220 128 96 483 611 418 457 616 285 114 174 320 39 444 377 29 314 539 522 184 185 546 162 163 536 167 322 175 93 166 211 192 490 581 592 545 348 150 567 218 515 143 180 565 78 189 14 566 359 34 501 338 334 361 58 256 394 328 389 562 123 609 509 83 172 495 393 269 455 60 430 72 507 380 224 156 429 22 612 362 477 176 579 465 127 28 572 10 119 598 243 427 576 242 573 250 619 339 411 587 238 398 101 266 79 69 70 419 473 461 325 486 130 103 129 221 405 99 594 122 532 371 408 519 466 428</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>238860964</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>215473946</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>56</u>
+  <u>995551331</u>
+  <u2_ary>34 37 11 49 32 54 12 19 6 29 36 31 18 30 4 0 45 7 21 24 55 23 5 20 25 14 41 15 27 35 2 10 46 44 42 22 48 43 1 16 39 9 17 47 50 3 33 8 26 52 13 40 38 51 53 28</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>3173193207</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>779577004</u>
+  <u2_ary/>
+ </rec>
+ <yes/>
+ <rec type="LAND_UNIT_NAME_ALLOCATOR">
+  <ary type="LAND_UNIT_NAMES_MAP">
+   <xml_include path="unit_name_alloc/united_states-land-0001.xml"/>
+   <xml_include path="unit_name_alloc/united_states-land-0002.xml"/>
+   <xml_include path="unit_name_alloc/united_states-land-0003.xml"/>
+   <xml_include path="unit_name_alloc/united_states-land-0004.xml"/>
+   <xml_include path="unit_name_alloc/united_states-land-0005.xml"/>
+   <xml_include path="unit_name_alloc/united_states-land-0006.xml"/>
+   <xml_include path="unit_name_alloc/united_states-land-0007.xml"/>
+   <xml_include path="unit_name_alloc/united_states-land-0008.xml"/>
+   <xml_include path="unit_name_alloc/united_states-land-0009.xml"/>
+   <xml_include path="unit_name_alloc/united_states-land-0010.xml"/>
+   <xml_include path="unit_name_alloc/united_states-land-0011.xml"/>
+   <xml_include path="unit_name_alloc/united_states-land-0012.xml"/>
+   <xml_include path="unit_name_alloc/united_states-land-0013.xml"/>
+   <xml_include path="unit_name_alloc/united_states-land-0014.xml"/>
+   <xml_include path="unit_name_alloc/united_states-land-0015.xml"/>
+   <xml_include path="unit_name_alloc/united_states-land-0016.xml"/>
+   <xml_include path="unit_name_alloc/united_states-land-0017.xml"/>
+   <xml_include path="unit_name_alloc/united_states-land-0018.xml"/>
+   <xml_include path="unit_name_alloc/united_states-land-0019.xml"/>
+   <xml_include path="unit_name_alloc/united_states-land-0020.xml"/>
+   <xml_include path="unit_name_alloc/united_states-land-0021.xml"/>
+   <xml_include path="unit_name_alloc/united_states-land-0022.xml"/>
+   <xml_include path="unit_name_alloc/united_states-land-0023.xml"/>
+  </ary>
+ </rec>
+ <yes/>
+ <xml_include path="unit_name_alloc/united_states-naval-0001.xml"/>
+ <yes/><!-- True - Major, False - Minor -->
+ <ary type="CHARACTER_ARRAY"/>
+ <xml_include path="technology/united_states-united_states.xml"/>
+ <ary type="ARMY_ARRAY"/>
+ <ary type="MORGUE"/>
+ <u4_ary/><!-- Governor ID For Each Theatre -->
+ <no/>
+ <s>rel_protestant</s><!-- Religion -->
+ <no/>
+ <rec type="FORT_UPGRADE_MANAGER">
+  <ary type="FORT_UPGRADES_ARRAY"/>
+ </rec>
+ <rec type="FORT_UPGRADE_MANAGER">
+  <ary type="FORT_REPAIRS_ARRAY"/>
+ </rec>
+ <i>0</i><!-- Current Capital ID Else 0 If Faction Destroyed -->
+ <i>0</i><!-- Original Capital ID -->
+ <ary type="EXPOSED_CHARACTERS"/>
+ <no/>
+ <rec type="PRESTIGE">
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+ </rec>
+ <yes/><!-- Emergent -->
+ <u>0</u>
+ <bool_ary>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</bool_ary>
+ <i>0</i><!-- Army Upkeep -->
+ <i>0</i><!-- Navy Upkeep -->
+ <s>FULL</s><!-- Campaign AI Manager Behaviour (patch.pack) -->
+ <s>continental_progressive</s><!-- Campaign AI Personalities (patch.pack) -->
+ <flag_and_colours path="data\ui\flags\united_states" color1="#002868" color2="#ffffff" color3="#002053"/>
+ <flag_and_colours path="data\ui\flags\us_monarchy" color1="#002868" color2="#ffffff" color3="#002053"/>
+ <rec type="CAMPAIGN_BONUS_VALUES">
+  <ary type="CAMPAIGN_BONUS_VALUE_BLOCK">
+   <campaign_bonus_0 subtype="2" value="1.0" agent="Eastern_Scholar"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="rake"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="assassin"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="gentleman"/>
+  </ary>
+ </rec>
+ <rec type="CAMPAIGN_BONUS_VALUES">
+  <ary type="CAMPAIGN_BONUS_VALUE_BLOCK">
+   <campaign_bonus_0 subtype="2" value="1.0" agent="Eastern_Scholar"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="rake"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="assassin"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="gentleman"/>
+  </ary>
+ </rec>
+ <i>0</i><!-- Protectorate ID -->
+ <no/>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <no/>
+ <yes/>
+ <no/>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <no/>
+ <no/>
+ <u>0</u>
+ <no/>
+ <no/>
+</rec>

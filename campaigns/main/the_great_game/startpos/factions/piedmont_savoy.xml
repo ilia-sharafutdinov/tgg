@@ -1,0 +1,217 @@
+<?xml version="1.0"?>
+<rec type="FACTION">
+ <ancillary_uniqueness_monitor/>
+ <rec type="CAMPAIGN_PLAYER_SETUP">
+  <victory_conditions year="0" region_count="0" prestige_victory="no" campaign_type="4 (Unplayable)"/>
+  <rec type="CAMPAIGN_PLAYER_SETUP_INGAME_MODIFIABLES">
+   <i>0</i>
+   <i>0</i>
+   <i>0</i>
+   <no/>
+  </rec>
+  <s>piedmont_savoy</s>
+  <no/>
+  <yes/><!-- Playable -->
+  <no/>
+ </rec>
+ <rec type="FACTION_ECONOMICS">
+  <ary type="history">
+   <rec type="history">
+    <rec type="ECONOMICS_DATA">
+     <i4_ary>0 0 0 0 0</i4_ary>
+     <i4_ary>0 0 319</i4_ary>
+     <i4_ary>0 0 0 1750</i4_ary>
+     <i4_ary>0</i4_ary>
+     <i4_ary>0 0 0 0 0</i4_ary>
+     <i4_ary>0 0 0 0 0 0 0</i4_ary>
+    </rec>
+   </rec>
+  </ary>
+  <i>7500</i>
+  <bin6>01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01</bin6>
+  <u>0</u>
+ </rec>
+ <xml_include path="diplomacy/piedmont_savoy.xml"/>
+ <rec type="ARMY_REINFORCEMENT_MANAGER">
+  <ary type="CHARACTER_REINFORCEMENTS_ARRAY"/>
+  <ary type="UNIT_REINFORCEMENTS_ARRAY"/>
+ </rec>
+ <xml_include path="government/piedmont_savoy-gov_absolute_monarchy.xml"/>
+ <xml_include path="family/piedmont_savoy.xml"/>
+ <i>582265664</i><!-- Faction ID -->
+ <s>piedmont_savoy</s><!-- Faction Name -->
+ <s>Savoy</s><!-- On Screen Name -->
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>192</u>
+  <u>1575740574</u>
+  <u2_ary>20 35 83 53 97 24 169 63 3 146 136 104 37 60 188 57 92 12 30 189 40 160 187 139 126 132 166 158 87 46 0 119 147 117 154 181 74 150 182 157 86 108 156 48 22 167 11 15 184 143 45 88 180 43 14 141 13 122 7 174 66 79 105 144 70 140 18 2 109 101 1 118 51 170 67 129 155 28 90 69 106 9 191 10 161 124 34 75 148 55 115 73 76 62 17 135 113 103 142 110 131 186 112 107 96 123 33 137 54 6 164 175 38 190 116 42 8 4 100 85 149 153 133 32 29 23 94 82 44 25 26 134 19 27 68 59 127 121 36 64 95 93 56 177 145 98 80 168 41 47 179 81 172 77 176 159 58 91 130 65 125 102 49 21 50 151 171 120 128 71 111 173 152 61 185 163 78</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>137</u>
+  <u>1025572752</u>
+  <u2_ary>101 134 117 82 43 107 56 38 19 119 18 85 31 88 12 59 53 105 115 135 124 70 28 109 45 76 6 46 102 42 21 67 24 3 95 1 86 74 15 10 121 60 77 84 52 129 114 118 120 39 87 75 7 62 98 14 81 47 41 36 103 13 32 64 20 73 90 99 89 55 69 34 131 33 26 133 35 8 126 49 61 29 112 100 25 58 27 110 17 80 48 116 50 2 9 92 96 54 72 93 66 123 57 104 16 22 44 51 78 94 23 136 30 91 113 0 97 79 37 68 132 4 65 40 71 63 83 128 106 125 108 122 111 11 5 127 130</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>536339034</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>3245684013</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>139</u>
+  <u>2226245283</u>
+  <u2_ary>65 128 23 119 36 42 90 5 8 89 51 72 125 49 50 121 84 78 98 11 85 96 104 76 10 86 57 56 79 136 60 24 114 30 91 25 12 55 7 33 61 67 16 83 135 0 22 59 43 81 4 39 102 88 124 138 46 94 106 44 127 108 32 62 93 6 54 21 82 31 133 35 74 26 66 95 113 64 120 137 97 52 77 101 126 110 73 99 75 80 123 112 118 87 38 131 58 27 53 15 103 47 3 100 29 28 68 111 132 92 109 63 115 34 71 129 40 17 1 37 69 9 70 13</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>2</u>
+  <u>2998130573</u>
+  <u2_ary>0 1</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>1942832470</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>7</u>
+  <u>1774190226</u>
+  <u2_ary>3 6 0 2 1 4 5</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>2</u>
+  <u>3212511998</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>990046594</u>
+  <u2_ary/>
+ </rec>
+ <yes/>
+ <rec type="LAND_UNIT_NAME_ALLOCATOR">
+  <ary type="LAND_UNIT_NAMES_MAP">
+   <xml_include path="unit_name_alloc/piedmont_savoy-land-0001.xml"/>
+   <xml_include path="unit_name_alloc/piedmont_savoy-land-0002.xml"/>
+   <xml_include path="unit_name_alloc/piedmont_savoy-land-0003.xml"/>
+   <xml_include path="unit_name_alloc/piedmont_savoy-land-0004.xml"/>
+   <xml_include path="unit_name_alloc/piedmont_savoy-land-0005.xml"/>
+   <xml_include path="unit_name_alloc/piedmont_savoy-land-0006.xml"/>
+   <xml_include path="unit_name_alloc/piedmont_savoy-land-0007.xml"/>
+   <xml_include path="unit_name_alloc/piedmont_savoy-land-0008.xml"/>
+   <xml_include path="unit_name_alloc/piedmont_savoy-land-0009.xml"/>
+   <xml_include path="unit_name_alloc/piedmont_savoy-land-0010.xml"/>
+   <xml_include path="unit_name_alloc/piedmont_savoy-land-0011.xml"/>
+   <xml_include path="unit_name_alloc/piedmont_savoy-land-0012.xml"/>
+   <xml_include path="unit_name_alloc/piedmont_savoy-land-0013.xml"/>
+   <xml_include path="unit_name_alloc/piedmont_savoy-land-0014.xml"/>
+   <xml_include path="unit_name_alloc/piedmont_savoy-land-0015.xml"/>
+   <xml_include path="unit_name_alloc/piedmont_savoy-land-0016.xml"/>
+   <xml_include path="unit_name_alloc/piedmont_savoy-land-0017.xml"/>
+   <xml_include path="unit_name_alloc/piedmont_savoy-land-0018.xml"/>
+   <xml_include path="unit_name_alloc/piedmont_savoy-land-0019.xml"/>
+   <xml_include path="unit_name_alloc/piedmont_savoy-land-0020.xml"/>
+   <xml_include path="unit_name_alloc/piedmont_savoy-land-0021.xml"/>
+   <xml_include path="unit_name_alloc/piedmont_savoy-land-0022.xml"/>
+   <xml_include path="unit_name_alloc/piedmont_savoy-land-0023.xml"/>
+  </ary>
+ </rec>
+ <yes/>
+ <xml_include path="unit_name_alloc/piedmont_savoy-naval-0001.xml"/>
+ <no/><!-- True - Major, False - Minor -->
+ <ary type="CHARACTER_ARRAY">
+  <xml_include path="character/piedmont_savoy-minister-0001.xml"/>
+  <xml_include path="character/piedmont_savoy-rake-0001.xml"/>
+  <xml_include path="character/piedmont_savoy-General-0001.xml"/>
+  <xml_include path="character/piedmont_savoy-gentleman-0001.xml"/>
+  <xml_include path="character/piedmont_savoy-minister-0002.xml"/>
+  <xml_include path="character/piedmont_savoy-minister-0003.xml"/>
+  <xml_include path="character/piedmont_savoy-minister-0004.xml"/>
+  <xml_include path="character/piedmont_savoy-minister-0005.xml"/>
+  <xml_include path="character/piedmont_savoy-minister-0006.xml"/>
+  <xml_include path="character/piedmont_savoy-minister-0007.xml"/>
+  <xml_include path="character/piedmont_savoy-minister-0008.xml"/>
+  <xml_include path="character/piedmont_savoy-minister-0009.xml"/>
+  <xml_include path="character/piedmont_savoy-minister-0010.xml"/>
+  <xml_include path="character/piedmont_savoy-minister-0011.xml"/>
+  <xml_include path="character/piedmont_savoy-minister-0012.xml"/>
+  <xml_include path="character/piedmont_savoy-minister-0013.xml"/>
+ </ary>
+ <xml_include path="technology/piedmont_savoy-piedmont_savoy.xml"/>
+ <ary type="ARMY_ARRAY">
+  <xml_include path="army/piedmont_savoy-0001.xml"/>
+ </ary>
+ <ary type="MORGUE"/>
+ <u4_ary>587116680</u4_ary><!-- Governor ID For Each Theatre -->
+ <no/>
+ <s>rel_catholic</s><!-- Religion -->
+ <no/>
+ <rec type="FORT_UPGRADE_MANAGER">
+  <ary type="FORT_UPGRADES_ARRAY"/>
+ </rec>
+ <rec type="FORT_UPGRADE_MANAGER">
+  <ary type="FORT_REPAIRS_ARRAY"/>
+ </rec>
+ <i>587108904</i><!-- Current Capital ID Else 0 If Faction Destroyed -->
+ <i>587108904</i><!-- Original Capital ID -->
+ <ary type="EXPOSED_CHARACTERS"/>
+ <no/>
+ <rec type="PRESTIGE">
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <u>20</u>
+ </rec>
+ <no/><!-- Emergent -->
+ <u>0</u>
+ <bool_ary>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</bool_ary>
+ <i>0</i><!-- Army Upkeep -->
+ <i>0</i><!-- Navy Upkeep -->
+ <s>MAINTAINANCE</s><!-- Campaign AI Manager Behaviour (patch.pack) -->
+ <s>default</s><!-- Campaign AI Personalities (patch.pack) -->
+ <flag_and_colours path="data\ui\flags\piedmont_savoy" color1="#9193ad" color2="#901d1b" color3="#425f6c"/>
+ <flag_and_colours path="data\ui\flags\piedmont_savoy" color1="#9193ad" color2="#901d1b" color3="#425f6c"/>
+ <rec type="CAMPAIGN_BONUS_VALUES">
+  <ary type="CAMPAIGN_BONUS_VALUE_BLOCK">
+   <campaign_bonus_0 subtype="2" value="1.0" agent="Eastern_Scholar"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="rake"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="assassin"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="gentleman"/>
+  </ary>
+ </rec>
+ <rec type="CAMPAIGN_BONUS_VALUES">
+  <ary type="CAMPAIGN_BONUS_VALUE_BLOCK">
+   <campaign_bonus_0 subtype="2" value="1.0" agent="Eastern_Scholar"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="rake"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="assassin"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="gentleman"/>
+  </ary>
+ </rec>
+ <i>0</i><!-- Protectorate ID -->
+ <no/>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <no/>
+ <yes/>
+ <no/>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <no/>
+ <no/>
+ <u>0</u>
+ <no/>
+ <no/>
+</rec>

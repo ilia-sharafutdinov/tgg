@@ -1,0 +1,223 @@
+<?xml version="1.0"?>
+<rec type="FACTION">
+ <ancillary_uniqueness_monitor/>
+ <rec type="CAMPAIGN_PLAYER_SETUP">
+  <victory_conditions year="0" region_count="0" prestige_victory="no" campaign_type="4 (Unplayable)"/>
+  <rec type="CAMPAIGN_PLAYER_SETUP_INGAME_MODIFIABLES">
+   <i>0</i>
+   <i>0</i>
+   <i>0</i>
+   <no/>
+  </rec>
+  <s>venice</s>
+  <no/>
+  <yes/><!-- Playable -->
+  <no/>
+ </rec>
+ <rec type="FACTION_ECONOMICS">
+  <ary type="history">
+   <rec type="history">
+    <rec type="ECONOMICS_DATA">
+     <i4_ary>0 0 0 0 0</i4_ary>
+     <i4_ary>0 0 625</i4_ary>
+     <i4_ary>0 0 0 1750</i4_ary>
+     <i4_ary>0</i4_ary>
+     <i4_ary>0 0 0 0 0</i4_ary>
+     <i4_ary>0 0 0 0 0 0 0</i4_ary>
+    </rec>
+   </rec>
+  </ary>
+  <i>7500</i>
+  <bin6>01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01</bin6>
+  <u>0</u>
+ </rec>
+ <xml_include path="diplomacy/venice.xml"/>
+ <rec type="ARMY_REINFORCEMENT_MANAGER">
+  <ary type="CHARACTER_REINFORCEMENTS_ARRAY"/>
+  <ary type="UNIT_REINFORCEMENTS_ARRAY"/>
+ </rec>
+ <xml_include path="government/venice-gov_republic.xml"/>
+ <xml_include path="family/venice.xml"/>
+ <i>583492000</i><!-- Faction ID -->
+ <s>venice</s><!-- Faction Name -->
+ <s>Venice</s><!-- On Screen Name -->
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>192</u>
+  <u>178081272</u>
+  <u2_ary>9 163 153 46 168 108 174 99 186 151 37 170 28 11 10 100 80 133 94 140 71 91 7 166 85 21 191 3 59 122 117 93 74 76 67 173 104 50 175 164 42 63 15 70 101 130 86 8 176 115 61 136 138 156 14 60 25 52 157 167 75 147 54 148 26 31 127 118 45 64 6 41 137 51 152 161 83 114 95 78 154 189 89 143 120 66 19 159 131 17 107 181 92 18 29 190 47 103 23 39 69 105 165 102 73 145 16 155 169 53 158 27 72 24 96 35 187 5 79 90 88 57 182 77 87 65 116 129 43 109 44 98 13 112 149 84 178 30 180 56 184 40 55 36 121 4 2 185 0 172 12 62 160 111 22 126 113 179 171 128</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>137</u>
+  <u>2420569087</u>
+  <u2_ary>85 34 37 72 74 128 68 126 55 1 88 120 107 125 100 95 127 46 79 110 13 15 115 43 70 10 52 135 86 24 38 26 77 105 118 96 3 28 122 66 25 112 41 14 99 18 134 63 4 91 81 113 73 87 109 84 76 36 106 50 33 114 92 21 39 23 117 64 71 35 20 136 54 108 0 57 62 132 40 82 53 60 104 27 32 111 17 98 11 129 22 6 80 93 16 49 65 47 83 61 123 45 31 119 29 90 121 67 133 12 75 69 89 9 8 116 102 59 124 5 97 30 44 48 7 103 42 56 130 2 101 19 58 131 94 51</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>3562114429</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>636770732</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>139</u>
+  <u>2407300281</u>
+  <u2_ary>51 1 20 113 73 135 3 5 23 15 67 66 69 0 124 82 111 10 50 108 126 121 64 76 117 61 31 95 8 56 131 118 123 84 86 52 101 104 46 39 7 85 2 72 9 59 78 106 48 132 122 25 102 89 6 35 134 13 4 74 119 17 71 75 49 63 44 112 137 96 53 68 100 107 27 70 12 79 125 40 54 47 21 55 77 24 138 92 128 114 30 41 103 93 94 81 38 65 99 37 11 110 28 62 88 90 129 22 18 34 43 36 120 42</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>2</u>
+  <u>870995765</u>
+  <u2_ary>1 0</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>4174072407</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>7</u>
+  <u>1974934420</u>
+  <u2_ary>1 5 2 0 4 6 3</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>2003826175</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>3647933642</u>
+  <u2_ary/>
+ </rec>
+ <yes/>
+ <rec type="LAND_UNIT_NAME_ALLOCATOR">
+  <ary type="LAND_UNIT_NAMES_MAP">
+   <xml_include path="unit_name_alloc/venice-land-0001.xml"/>
+   <xml_include path="unit_name_alloc/venice-land-0002.xml"/>
+   <xml_include path="unit_name_alloc/venice-land-0003.xml"/>
+   <xml_include path="unit_name_alloc/venice-land-0004.xml"/>
+   <xml_include path="unit_name_alloc/venice-land-0005.xml"/>
+   <xml_include path="unit_name_alloc/venice-land-0006.xml"/>
+   <xml_include path="unit_name_alloc/venice-land-0007.xml"/>
+   <xml_include path="unit_name_alloc/venice-land-0008.xml"/>
+   <xml_include path="unit_name_alloc/venice-land-0009.xml"/>
+   <xml_include path="unit_name_alloc/venice-land-0010.xml"/>
+   <xml_include path="unit_name_alloc/venice-land-0011.xml"/>
+   <xml_include path="unit_name_alloc/venice-land-0012.xml"/>
+   <xml_include path="unit_name_alloc/venice-land-0013.xml"/>
+   <xml_include path="unit_name_alloc/venice-land-0014.xml"/>
+   <xml_include path="unit_name_alloc/venice-land-0015.xml"/>
+   <xml_include path="unit_name_alloc/venice-land-0016.xml"/>
+   <xml_include path="unit_name_alloc/venice-land-0017.xml"/>
+   <xml_include path="unit_name_alloc/venice-land-0018.xml"/>
+   <xml_include path="unit_name_alloc/venice-land-0019.xml"/>
+   <xml_include path="unit_name_alloc/venice-land-0020.xml"/>
+   <xml_include path="unit_name_alloc/venice-land-0021.xml"/>
+   <xml_include path="unit_name_alloc/venice-land-0022.xml"/>
+   <xml_include path="unit_name_alloc/venice-land-0023.xml"/>
+  </ary>
+ </rec>
+ <yes/>
+ <xml_include path="unit_name_alloc/venice-naval-0001.xml"/>
+ <no/><!-- True - Major, False - Minor -->
+ <ary type="CHARACTER_ARRAY">
+  <xml_include path="character/venice-gentleman-0001.xml"/>
+  <xml_include path="character/venice-admiral-0001.xml"/>
+  <xml_include path="character/venice-rake-0001.xml"/>
+  <xml_include path="character/venice-General-0001.xml"/>
+  <xml_include path="character/venice-General-0002.xml"/>
+  <xml_include path="character/venice-minister-0001.xml"/>
+  <xml_include path="character/venice-captain-0001.xml"/>
+  <xml_include path="character/venice-minister-0002.xml"/>
+  <xml_include path="character/venice-minister-0003.xml"/>
+  <xml_include path="character/venice-minister-0004.xml"/>
+  <xml_include path="character/venice-minister-0005.xml"/>
+  <xml_include path="character/venice-minister-0006.xml"/>
+  <xml_include path="character/venice-minister-0007.xml"/>
+  <xml_include path="character/venice-minister-0008.xml"/>
+  <xml_include path="character/venice-minister-0009.xml"/>
+  <xml_include path="character/venice-minister-0010.xml"/>
+  <xml_include path="character/venice-minister-0011.xml"/>
+  <xml_include path="character/venice-minister-0012.xml"/>
+  <xml_include path="character/venice-minister-0013.xml"/>
+ </ary>
+ <xml_include path="technology/venice-venice.xml"/>
+ <ary type="ARMY_ARRAY">
+  <xml_include path="army/venice-0001.xml"/>
+  <xml_include path="army/venice-0002.xml"/>
+  <xml_include path="army/venice-0003.xml"/>
+  <xml_include path="army/venice-0004.xml"/>
+ </ary>
+ <ary type="MORGUE"/>
+ <u4_ary>585883552</u4_ary><!-- Governor ID For Each Theatre -->
+ <no/>
+ <s>rel_catholic</s><!-- Religion -->
+ <no/>
+ <rec type="FORT_UPGRADE_MANAGER">
+  <ary type="FORT_UPGRADES_ARRAY"/>
+ </rec>
+ <rec type="FORT_UPGRADE_MANAGER">
+  <ary type="FORT_REPAIRS_ARRAY"/>
+ </rec>
+ <i>585872360</i><!-- Current Capital ID Else 0 If Faction Destroyed -->
+ <i>585872360</i><!-- Original Capital ID -->
+ <ary type="EXPOSED_CHARACTERS"/>
+ <no/>
+ <rec type="PRESTIGE">
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <u>15</u>
+ </rec>
+ <no/><!-- Emergent -->
+ <u>0</u>
+ <bool_ary>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</bool_ary>
+ <i>0</i><!-- Army Upkeep -->
+ <i>0</i><!-- Navy Upkeep -->
+ <s>MAINTAINANCE</s><!-- Campaign AI Manager Behaviour (patch.pack) -->
+ <s>trader</s><!-- Campaign AI Personalities (patch.pack) -->
+ <flag_and_colours path="data\ui\flags\venice" color1="#962e4a" color2="#4c6e8e" color3="#713b4d"/>
+ <flag_and_colours path="data\ui\flags\venice" color1="#962e4a" color2="#4c6e8e" color3="#713b4d"/>
+ <rec type="CAMPAIGN_BONUS_VALUES">
+  <ary type="CAMPAIGN_BONUS_VALUE_BLOCK">
+   <campaign_bonus_0 subtype="2" value="1.0" agent="Eastern_Scholar"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="rake"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="assassin"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="gentleman"/>
+  </ary>
+ </rec>
+ <rec type="CAMPAIGN_BONUS_VALUES">
+  <ary type="CAMPAIGN_BONUS_VALUE_BLOCK">
+   <campaign_bonus_0 subtype="2" value="1.0" agent="Eastern_Scholar"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="rake"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="assassin"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="gentleman"/>
+  </ary>
+ </rec>
+ <i>0</i><!-- Protectorate ID -->
+ <no/>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <no/>
+ <yes/>
+ <no/>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <no/>
+ <no/>
+ <u>0</u>
+ <no/>
+ <no/>
+</rec>

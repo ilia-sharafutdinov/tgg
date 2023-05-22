@@ -1,0 +1,220 @@
+<?xml version="1.0"?>
+<rec type="FACTION">
+ <ancillary_uniqueness_monitor/>
+ <rec type="CAMPAIGN_PLAYER_SETUP">
+  <victory_conditions year="0" region_count="0" prestige_victory="no" campaign_type="4 (Unplayable)"/>
+  <rec type="CAMPAIGN_PLAYER_SETUP_INGAME_MODIFIABLES">
+   <i>0</i>
+   <i>0</i>
+   <i>0</i>
+   <no/>
+  </rec>
+  <s>louisiana</s>
+  <no/>
+  <no/><!-- Playable -->
+  <no/>
+ </rec>
+ <rec type="FACTION_ECONOMICS">
+  <ary type="history">
+   <rec type="history">
+    <rec type="ECONOMICS_DATA">
+     <i4_ary>0 0 0 0 0</i4_ary>
+     <i4_ary>0 0 709</i4_ary>
+     <i4_ary>0 0 0 1750</i4_ary>
+     <i4_ary>0</i4_ary>
+     <i4_ary>0 0 0 0 0</i4_ary>
+     <i4_ary>0 1640 0 0 0 0 141</i4_ary>
+    </rec>
+   </rec>
+  </ary>
+  <i>8500</i>
+  <bin6>01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01</bin6>
+  <u>0</u>
+ </rec>
+ <xml_include path="diplomacy/louisiana.xml"/>
+ <rec type="ARMY_REINFORCEMENT_MANAGER">
+  <ary type="CHARACTER_REINFORCEMENTS_ARRAY"/>
+  <ary type="UNIT_REINFORCEMENTS_ARRAY"/>
+ </rec>
+ <xml_include path="government/louisiana-gov_absolute_monarchy.xml"/>
+ <xml_include path="family/louisiana.xml"/>
+ <i>582076152</i><!-- Faction ID -->
+ <s>louisiana</s><!-- Faction Name -->
+ <s>Louisiana</s><!-- On Screen Name -->
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>176</u>
+  <u>1525447519</u>
+  <u2_ary>155 71 166 25 46 43 109 98 22 143 27 53 60 48 111 122 159 12 156 172 97 173 124 125 5 171 139 90 106 94 89 42 165 3 1 39 148 67 91 77 112 101 79 145 114 47 174 95 4 121 19 129 147 142 118 144 88 50 87 52 149 81 146 11 54 75 104 28 45 40 61 62 153 23 96 161 152 157 8 55 0 41 72 99 58 78 169 73 66 170 127 64 113 38 65 117 17 150 93 132 175 44 16 135 130 21 20 32 26 18 138 133 49 31 158 103 10 110 100 68 35 168 29 9 63 83 82 86 128 115 13 70 2 84 151 57 107 36 7 154 24 85 59 51 102 116 137 105 162 160 141 6 92 33 140</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>182</u>
+  <u>2087933284</u>
+  <u2_ary>132 13 70 144 65 2 166 129 162 68 102 52 53 39 118 160 137 91 168 6 73 176 156 15 90 30 75 174 130 27 119 142 79 4 151 125 107 63 44 42 84 97 146 153 58 0 60 48 35 99 101 74 111 106 3 36 54 46 131 148 134 72 98 14 56 33 161 59 171 19 26 141 16 23 50 116 177 1 127 82 124 20 45 120 138 150 47 154 57 96 143 112 136 41 31 152 172 158 92 12 8 64 103 43 108 159 85 21 117 100 24 149 61 94 80 165 11 140 128 164 178 5 22 69 81 180 122 71 181 86 76 113 115 77 88 135 62 155 29 93 7 10 104 51 66 179 40 55 133 25 78 28 157 147 121 175 89 32 17 67 173 123 105 37 18 114 38 87 170 145 109 9 167 34 95 110 126 83 169 139 163 49</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>1</u>
+  <u>1700569754</u>
+  <u2_ary>0</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>2193869719</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>230</u>
+  <u>182147519</u>
+  <u2_ary>37 137 59 155 227 205 226 68 95 207 103 108 53 173 153 120 48 196 228 0 15 167 209 79 20 148 174 30 39 47 1 201 141 220 12 185 157 74 34 177 115 43 80 168 189 217 126 127 96 88 49 187 98 33 85 223 4 18 171 89 27 101 45 100 50 65 71 147 179 67 5 170 122 136 69 138 93 78 75 139 36 112 149 181 31 145 72 119 150 8 83 144 142 219 160 183 28 51 124 208 225 202 107 54 215 14 199 7 194 10 222 159 166 117 87 110 61 2 175 52 154 204 40 91 133 82 6 84 210 104 109 90 44 164 32 73 131 184 81 134 41 161 97 132 158 180 99 190 162 55 221 135 42 198 94 178 176 46 229 113 121 106 35 213 186 118 211 130 29 86 111 16 58 22 192 214 169 13 102 203 197 38 195 172 11 92 193 66 26 70 105 165 21 188 56 143 146 200 76 114 62 9 64 206 63 151 77 57 224 123</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>22</u>
+  <u>760957873</u>
+  <u2_ary>5 21 12 11 14 9 2 15 13 0 10 1 20 18 16 19 6 3 17 4 7 8</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>900101533</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>39</u>
+  <u>919208291</u>
+  <u2_ary>31 34 23 7 10 18 8 3 35 9 25 12 38 1 30 15 28 24 11 16 2 5 29 33 0 20 32 19 14 22 17 6 27 26 13 36 37 21 4</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>2699000000</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>1551771118</u>
+  <u2_ary/>
+ </rec>
+ <yes/>
+ <rec type="LAND_UNIT_NAME_ALLOCATOR">
+  <ary type="LAND_UNIT_NAMES_MAP">
+   <xml_include path="unit_name_alloc/louisiana-land-0001.xml"/>
+   <xml_include path="unit_name_alloc/louisiana-land-0002.xml"/>
+   <xml_include path="unit_name_alloc/louisiana-land-0003.xml"/>
+   <xml_include path="unit_name_alloc/louisiana-land-0004.xml"/>
+   <xml_include path="unit_name_alloc/louisiana-land-0005.xml"/>
+   <xml_include path="unit_name_alloc/louisiana-land-0006.xml"/>
+   <xml_include path="unit_name_alloc/louisiana-land-0007.xml"/>
+   <xml_include path="unit_name_alloc/louisiana-land-0008.xml"/>
+   <xml_include path="unit_name_alloc/louisiana-land-0009.xml"/>
+   <xml_include path="unit_name_alloc/louisiana-land-0010.xml"/>
+   <xml_include path="unit_name_alloc/louisiana-land-0011.xml"/>
+   <xml_include path="unit_name_alloc/louisiana-land-0012.xml"/>
+   <xml_include path="unit_name_alloc/louisiana-land-0013.xml"/>
+   <xml_include path="unit_name_alloc/louisiana-land-0014.xml"/>
+   <xml_include path="unit_name_alloc/louisiana-land-0015.xml"/>
+   <xml_include path="unit_name_alloc/louisiana-land-0016.xml"/>
+   <xml_include path="unit_name_alloc/louisiana-land-0017.xml"/>
+   <xml_include path="unit_name_alloc/louisiana-land-0018.xml"/>
+   <xml_include path="unit_name_alloc/louisiana-land-0019.xml"/>
+   <xml_include path="unit_name_alloc/louisiana-land-0020.xml"/>
+   <xml_include path="unit_name_alloc/louisiana-land-0021.xml"/>
+   <xml_include path="unit_name_alloc/louisiana-land-0022.xml"/>
+   <xml_include path="unit_name_alloc/louisiana-land-0023.xml"/>
+  </ary>
+ </rec>
+ <yes/>
+ <xml_include path="unit_name_alloc/louisiana-naval-0001.xml"/>
+ <no/><!-- True - Major, False - Minor -->
+ <ary type="CHARACTER_ARRAY">
+  <xml_include path="character/louisiana-General-0001.xml"/>
+  <xml_include path="character/louisiana-catholic_missionary-0001.xml"/>
+  <xml_include path="character/louisiana-minister-0001.xml"/>
+  <xml_include path="character/louisiana-colonel-0001.xml"/>
+  <xml_include path="character/louisiana-minister-0002.xml"/>
+  <xml_include path="character/louisiana-minister-0003.xml"/>
+  <xml_include path="character/louisiana-minister-0004.xml"/>
+  <xml_include path="character/louisiana-minister-0005.xml"/>
+  <xml_include path="character/louisiana-minister-0006.xml"/>
+  <xml_include path="character/louisiana-minister-0007.xml"/>
+  <xml_include path="character/louisiana-minister-0008.xml"/>
+  <xml_include path="character/louisiana-minister-0009.xml"/>
+  <xml_include path="character/louisiana-minister-0010.xml"/>
+  <xml_include path="character/louisiana-minister-0011.xml"/>
+  <xml_include path="character/louisiana-minister-0012.xml"/>
+  <xml_include path="character/louisiana-minister-0013.xml"/>
+  <xml_include path="character/louisiana-colonel-0002.xml"/>
+ </ary>
+ <xml_include path="technology/louisiana-louisiana.xml"/>
+ <ary type="ARMY_ARRAY">
+  <xml_include path="army/louisiana-0001.xml"/>
+  <xml_include path="army/louisiana-0002.xml"/>
+  <xml_include path="army/louisiana-0003.xml"/>
+ </ary>
+ <ary type="MORGUE"/>
+ <u4_ary>585689112</u4_ary><!-- Governor ID For Each Theatre -->
+ <no/>
+ <s>rel_catholic</s><!-- Religion -->
+ <no/>
+ <rec type="FORT_UPGRADE_MANAGER">
+  <ary type="FORT_UPGRADES_ARRAY"/>
+ </rec>
+ <rec type="FORT_UPGRADE_MANAGER">
+  <ary type="FORT_REPAIRS_ARRAY"/>
+ </rec>
+ <i>585671432</i><!-- Current Capital ID Else 0 If Faction Destroyed -->
+ <i>585671432</i><!-- Original Capital ID -->
+ <ary type="EXPOSED_CHARACTERS"/>
+ <no/>
+ <rec type="PRESTIGE">
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <u>10</u>
+ </rec>
+ <no/><!-- Emergent -->
+ <u>0</u>
+ <bool_ary>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</bool_ary>
+ <i>1640</i><!-- Army Upkeep -->
+ <i>0</i><!-- Navy Upkeep -->
+ <s>MAINTAINANCE</s><!-- Campaign AI Manager Behaviour (patch.pack) -->
+ <s>default</s><!-- Campaign AI Personalities (patch.pack) -->
+ <flag_and_colours path="data\ui\flags\louisiana" color1="#f4ecd4" color2="#e4b409" color3="#fffff0"/>
+ <flag_and_colours path="data\ui\flags\louisiana" color1="#f4ecd4" color2="#e4b409" color3="#fffff0"/>
+ <rec type="CAMPAIGN_BONUS_VALUES">
+  <ary type="CAMPAIGN_BONUS_VALUE_BLOCK">
+   <campaign_bonus_0 subtype="2" value="1.0" agent="Eastern_Scholar"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="rake"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="assassin"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="gentleman"/>
+  </ary>
+ </rec>
+ <rec type="CAMPAIGN_BONUS_VALUES">
+  <ary type="CAMPAIGN_BONUS_VALUE_BLOCK">
+   <campaign_bonus_0 subtype="2" value="1.0" agent="Eastern_Scholar"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="rake"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="assassin"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="gentleman"/>
+  </ary>
+ </rec>
+ <i>573864472</i><!-- Protectorate ID -->
+ <no/>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <no/>
+ <yes/>
+ <no/>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <no/>
+ <no/>
+ <u>0</u>
+ <no/>
+ <no/>
+</rec>

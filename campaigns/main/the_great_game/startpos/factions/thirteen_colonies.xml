@@ -1,0 +1,222 @@
+<?xml version="1.0"?>
+<rec type="FACTION">
+ <ancillary_uniqueness_monitor/>
+ <rec type="CAMPAIGN_PLAYER_SETUP">
+  <victory_conditions year="0" region_count="0" prestige_victory="no" campaign_type="4 (Unplayable)"/>
+  <rec type="CAMPAIGN_PLAYER_SETUP_INGAME_MODIFIABLES">
+   <i>0</i>
+   <i>0</i>
+   <i>0</i>
+   <no/>
+  </rec>
+  <s>thirteen_colonies</s>
+  <no/>
+  <no/><!-- Playable -->
+  <no/>
+ </rec>
+ <rec type="FACTION_ECONOMICS">
+  <ary type="history">
+   <rec type="history">
+    <rec type="ECONOMICS_DATA">
+     <i4_ary>0 0 0 0 0</i4_ary>
+     <i4_ary>0 0 509</i4_ary>
+     <i4_ary>0 0 0 1750</i4_ary>
+     <i4_ary>0</i4_ary>
+     <i4_ary>0 0 0 0 0</i4_ary>
+     <i4_ary>0 0 0 0 0 0 101</i4_ary>
+    </rec>
+   </rec>
+  </ary>
+  <i>9000</i>
+  <bin6>01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01</bin6>
+  <u>0</u>
+ </rec>
+ <xml_include path="diplomacy/thirteen_colonies.xml"/>
+ <rec type="ARMY_REINFORCEMENT_MANAGER">
+  <ary type="CHARACTER_REINFORCEMENTS_ARRAY"/>
+  <ary type="UNIT_REINFORCEMENTS_ARRAY"/>
+ </rec>
+ <xml_include path="government/thirteen_colonies-gov_constitutional_monarchy.xml"/>
+ <xml_include path="family/thirteen_colonies.xml"/>
+ <i>581977584</i><!-- Faction ID -->
+ <s>thirteen_colonies</s><!-- Faction Name -->
+ <s>Thirteen Colonies</s><!-- On Screen Name -->
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>352</u>
+  <u>1684946805</u>
+  <u2_ary>133 340 279 94 83 315 45 288 111 132 159 121 181 135 6 302 153 55 230 172 262 339 219 46 255 164 241 311 140 261 41 350 323 104 263 273 348 33 58 349 305 281 66 222 75 309 231 108 131 43 59 185 11 220 50 107 211 214 190 53 1 327 91 51 226 168 225 102 213 3 239 170 242 119 275 36 81 178 217 145 113 287 324 264 16 221 144 186 162 179 85 336 284 268 345 199 245 267 321 338 166 72 20 141 200 317 22 149 212 329 52 260 137 303 14 205 93 138 216 294 306 298 150 341 35 198 146 347 122 54 13 299 301 128 169 127 277 87 229 346 39 312 237 147 10 60 314 120 283 57 67 280 204 152 49 125 28 290 253 8 351 7 70 328 19 156 259 112 17 246 155 27 31 308 139 300 227 88 21 285 69 251 68 163 286 78 129 319 258 118 310 276 297 235 210 228 9 269 265 236 187 79 100 180 272 271 344 42 337 234 174 325 270 15 307 143 256 71 171 98 34 148 223 24 65 240 289 175 151 105 296 29 62 197 103 96 335 191 316 215 38 101 61 184 318 304 177 134 189 173 92 247 99 124 278 201 254 74 4 232 196 331 114 115 110 195 250 0 206 342 56 332 333 40 326 343 26 167 82 183 77 193 165 2 244 188 176 266 322 95 86 207 76 313 320 80 126 249 334 160 209 291 30 330 202 97 109 73 252 90 243 25 161 89 32 238 182 116 37 248 64 5 47 106 224 130 63 84</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>265</u>
+  <u>2837192797</u>
+  <u2_ary>146 188 71 213 29 161 193 130 1 23 44 64 216 241 41 204 173 91 36 25 21 18 203 219 192 165 75 185 239 164 215 4 238 198 37 14 246 231 119 255 125 230 221 142 8 19 86 114 43 147 70 40 149 61 256 88 10 160 186 220 103 118 181 5 163 157 175 190 51 111 222 254 226 128 11 99 218 174 143 229 9 141 72 59 27 224 202 232 34 207 50 250 63 166 182 139 244 148 69 123 65 248 168 240 132 81 84 33 233 140 32 115 135 124 206 13 225 249 211 131 121 12 158 252 260 60 145 156 144 7 56 52 170 197 178 109 24 262 201 113 28 112 95 35 98 258 49 66 107 150 30 263 68 243 0 259 129 76 20 223 236 57 97 179 172 176 80 53 227 46 195 22 38 237 90 92 167 217 104 245 120 15 253 191 116 26 55 62 134 94 31 105 171 2 261 96 77 212 169 228 133 47 54 89 3 199 17 126 242 108 6 189 100 93 117 214 235 184 205 251 16 78 45 153 200 234 106 159 74 155 208 137 73 138 48 42 180 136 79 87 101 152 177 194 196 257 127 187 264 162 154 209 82 247 122 210 102 85 83 183 67 151 110 39 58</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>3815814645</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>1</u>
+  <u>632858897</u>
+  <u2_ary>0</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>635</u>
+  <u>3072607097</u>
+  <u2_ary>263 430 352 87 301 172 270 577 188 257 346 488 399 602 520 52 100 487 542 527 622 171 14 550 36 217 350 549 305 341 351 79 364 398 402 317 169 137 433 247 153 481 251 436 279 497 420 147 533 61 72 633 86 231 224 149 151 349 92 291 161 51 616 415 425 46 465 394 387 321 418 226 2 453 568 560 382 423 195 474 490 104 564 375 307 8 178 23 461 296 504 507 255 511 343 216 244 417 39 43 538 397 186 378 159 368 554 459 353 607 89 328 11 426 381 95 200 278 592 374 187 438 480 444 304 113 392 102 484 510 201 272 292 29 5 440 93 223 20 142 110 342 194 580 384 536 47 400 409 551 136 599 283 457 493 19 299 347 600 203 163 421 107 588 109 214 134 295 261 450 103 293 65 331 470 514 383 413 234 385 606 168 228 427 455 339 496 225 473 548 540 181 13 235 327 460 598 68 266 243 70 435 619 74 532 127 314 429 547 32 122 471 335 97 259 579 310 284 582 380 545 254 156 586 338 34 239 227 406 121 44 519 612 393 219 617 563 500 356 552 175 574 614 505 443 25 211 541 106 625 126 141 620 63 565 587 630 288 33 258 477 193 412 58 376 24 140 38 57 632 610 300 4 119 466 337 623 212 21 401 388 535 615 237 489 207 567 358 285 248 499 419 521 448 357 245 133 80 544 469 410 233 90 468 447 210 537 183 508 464 482 82 75 627 407 449 6 332 176 506 162 297 458 205 498 491 361 232 494 396 308 59 441 40 208 269 276 442 78 309 246 189 174 202 432 286 340 629 608 265 179 462 125 154 88 135 379 10 575 199 360 634 260 170 525 302 555 566 15 160 48 197 146 273 501 128 389 56 221 35 478 405 573 16 105 250 177 98 99 584 495 583 456 517 329 621 7 503 69 486 626 463 277 287 96 467 101 312 362 601 318 191 611 572 118 41 452 236 115 53 85 336 180 64 230 355 311 366 111 238 437 562 585 323 131 54 282 139 483 49 439 569 492 333 209 148 124 595 609 391 31 298 9 344 513 229 512 604 262 596 345 303 445 150 348 215 294 589 108 386 422 485 206 185 411 518 522 192 593 123 320 37 252 369 28 60 249 618 326 454 241 319 570 116 196 530 373 475 408 17 268 571 581 367 534 526 165 289 524 528 316 144 597 561 84 218 324 354 0 363 546 157 45 446 213 559 117 83 77 594 414 94 416 1 182 472 509 30 158 138 129 120 543 62 184 240 26 624 155 198 50 372 114 330 12 502 325 539 476 167 390 18 403 73 576 152 434 166 516 130 424 558 370 359 578 112 553 280 371 479 55 431 515 204 529 173 71 145 306 81 274 264 271 220 557 591 590 365 67 256 253 377 242 290 631 143 27 91 322 395 531 556</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>3159008748</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>1901313948</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>56</u>
+  <u>3451196094</u>
+  <u2_ary>20 1 5 49 46 39 36 4 53 13 19 32 3 47 37 40 52 25 17 55 0 10 21 30 50 45 8 27 54 7 34 41 43 23 2 26 11 6 48 44 29 51 9 35 14 22 42 12 24 15 31 33 28 18 16 38</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>149035105</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>56735901</u>
+  <u2_ary/>
+ </rec>
+ <yes/>
+ <rec type="LAND_UNIT_NAME_ALLOCATOR">
+  <ary type="LAND_UNIT_NAMES_MAP">
+   <xml_include path="unit_name_alloc/thirteen_colonies-land-0001.xml"/>
+   <xml_include path="unit_name_alloc/thirteen_colonies-land-0002.xml"/>
+   <xml_include path="unit_name_alloc/thirteen_colonies-land-0003.xml"/>
+   <xml_include path="unit_name_alloc/thirteen_colonies-land-0004.xml"/>
+   <xml_include path="unit_name_alloc/thirteen_colonies-land-0005.xml"/>
+   <xml_include path="unit_name_alloc/thirteen_colonies-land-0006.xml"/>
+   <xml_include path="unit_name_alloc/thirteen_colonies-land-0007.xml"/>
+   <xml_include path="unit_name_alloc/thirteen_colonies-land-0008.xml"/>
+   <xml_include path="unit_name_alloc/thirteen_colonies-land-0009.xml"/>
+   <xml_include path="unit_name_alloc/thirteen_colonies-land-0010.xml"/>
+   <xml_include path="unit_name_alloc/thirteen_colonies-land-0011.xml"/>
+   <xml_include path="unit_name_alloc/thirteen_colonies-land-0012.xml"/>
+   <xml_include path="unit_name_alloc/thirteen_colonies-land-0013.xml"/>
+   <xml_include path="unit_name_alloc/thirteen_colonies-land-0014.xml"/>
+   <xml_include path="unit_name_alloc/thirteen_colonies-land-0015.xml"/>
+   <xml_include path="unit_name_alloc/thirteen_colonies-land-0016.xml"/>
+   <xml_include path="unit_name_alloc/thirteen_colonies-land-0017.xml"/>
+   <xml_include path="unit_name_alloc/thirteen_colonies-land-0018.xml"/>
+   <xml_include path="unit_name_alloc/thirteen_colonies-land-0019.xml"/>
+   <xml_include path="unit_name_alloc/thirteen_colonies-land-0020.xml"/>
+   <xml_include path="unit_name_alloc/thirteen_colonies-land-0021.xml"/>
+   <xml_include path="unit_name_alloc/thirteen_colonies-land-0022.xml"/>
+   <xml_include path="unit_name_alloc/thirteen_colonies-land-0023.xml"/>
+  </ary>
+ </rec>
+ <yes/>
+ <xml_include path="unit_name_alloc/thirteen_colonies-naval-0001.xml"/>
+ <no/><!-- True - Major, False - Minor -->
+ <ary type="CHARACTER_ARRAY">
+  <xml_include path="character/thirteen_colonies-Protestant_Missionary-0001.xml"/>
+  <xml_include path="character/thirteen_colonies-General-0001.xml"/>
+  <xml_include path="character/thirteen_colonies-colonel-0001.xml"/>
+  <xml_include path="character/thirteen_colonies-minister-0001.xml"/>
+  <xml_include path="character/thirteen_colonies-rake-0001.xml"/>
+  <xml_include path="character/thirteen_colonies-colonel-0002.xml"/>
+  <xml_include path="character/thirteen_colonies-minister-0002.xml"/>
+  <xml_include path="character/thirteen_colonies-Protestant_Missionary-0002.xml"/>
+  <xml_include path="character/thirteen_colonies-minister-0003.xml"/>
+  <xml_include path="character/thirteen_colonies-minister-0004.xml"/>
+  <xml_include path="character/thirteen_colonies-minister-0005.xml"/>
+  <xml_include path="character/thirteen_colonies-minister-0006.xml"/>
+  <xml_include path="character/thirteen_colonies-minister-0007.xml"/>
+  <xml_include path="character/thirteen_colonies-minister-0008.xml"/>
+  <xml_include path="character/thirteen_colonies-minister-0009.xml"/>
+  <xml_include path="character/thirteen_colonies-minister-0010.xml"/>
+  <xml_include path="character/thirteen_colonies-minister-0011.xml"/>
+  <xml_include path="character/thirteen_colonies-minister-0012.xml"/>
+  <xml_include path="character/thirteen_colonies-minister-0013.xml"/>
+ </ary>
+ <xml_include path="technology/thirteen_colonies-thirteen_colonies.xml"/>
+ <ary type="ARMY_ARRAY">
+  <xml_include path="army/thirteen_colonies-0001.xml"/>
+  <xml_include path="army/thirteen_colonies-0002.xml"/>
+  <xml_include path="army/thirteen_colonies-0003.xml"/>
+ </ary>
+ <ary type="MORGUE"/>
+ <u4_ary>585513976</u4_ary><!-- Governor ID For Each Theatre -->
+ <no/>
+ <s>rel_protestant</s><!-- Religion -->
+ <no/>
+ <rec type="FORT_UPGRADE_MANAGER">
+  <ary type="FORT_UPGRADES_ARRAY"/>
+ </rec>
+ <rec type="FORT_UPGRADE_MANAGER">
+  <ary type="FORT_REPAIRS_ARRAY"/>
+ </rec>
+ <i>586783552</i><!-- Current Capital ID Else 0 If Faction Destroyed -->
+ <i>586783552</i><!-- Original Capital ID -->
+ <ary type="EXPOSED_CHARACTERS"/>
+ <no/>
+ <rec type="PRESTIGE">
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <u>100</u>
+ </rec>
+ <no/><!-- Emergent -->
+ <u>0</u>
+ <bool_ary>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</bool_ary>
+ <i>0</i><!-- Army Upkeep -->
+ <i>0</i><!-- Navy Upkeep -->
+ <s>MAINTAINANCE</s><!-- Campaign AI Manager Behaviour (patch.pack) -->
+ <s>default</s><!-- Campaign AI Personalities (patch.pack) -->
+ <flag_and_colours path="data\ui\flags\george_washington" color1="#e54e4e" color2="#122e56" color3="#711313"/>
+ <flag_and_colours path="data\ui\flags\united_states" color1="#e54e4e" color2="#122e56" color3="#711313"/>
+ <rec type="CAMPAIGN_BONUS_VALUES">
+  <ary type="CAMPAIGN_BONUS_VALUE_BLOCK">
+   <campaign_bonus_0 subtype="2" value="1.0" agent="Eastern_Scholar"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="rake"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="assassin"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="gentleman"/>
+  </ary>
+ </rec>
+ <rec type="CAMPAIGN_BONUS_VALUES">
+  <ary type="CAMPAIGN_BONUS_VALUE_BLOCK">
+   <campaign_bonus_0 subtype="2" value="1.0" agent="Eastern_Scholar"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="rake"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="assassin"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="gentleman"/>
+  </ary>
+ </rec>
+ <i>580018960</i><!-- Protectorate ID -->
+ <no/>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <no/>
+ <yes/>
+ <no/>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <no/>
+ <no/>
+ <u>0</u>
+ <no/>
+ <no/>
+</rec>

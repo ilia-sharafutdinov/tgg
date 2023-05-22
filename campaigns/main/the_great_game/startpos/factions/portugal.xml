@@ -1,0 +1,229 @@
+<?xml version="1.0"?>
+<rec type="FACTION">
+ <ancillary_uniqueness_monitor/>
+ <rec type="CAMPAIGN_PLAYER_SETUP">
+  <victory_conditions year="0" region_count="0" prestige_victory="no" campaign_type="4 (Unplayable)"/>
+  <rec type="CAMPAIGN_PLAYER_SETUP_INGAME_MODIFIABLES">
+   <i>0</i>
+   <i>0</i>
+   <i>0</i>
+   <no/>
+  </rec>
+  <s>portugal</s>
+  <no/>
+  <yes/><!-- Playable -->
+  <no/>
+ </rec>
+ <rec type="FACTION_ECONOMICS">
+  <ary type="history">
+   <rec type="history">
+    <rec type="ECONOMICS_DATA">
+     <i4_ary>0 0 0 0 0</i4_ary>
+     <i4_ary>0 0 2122</i4_ary>
+     <i4_ary>0 0 0 1750</i4_ary>
+     <i4_ary>0</i4_ary>
+     <i4_ary>0 0 0 0 0</i4_ary>
+     <i4_ary>0 0 0 0 0 0 0</i4_ary>
+    </rec>
+   </rec>
+  </ary>
+  <i>7500</i>
+  <bin6>01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01</bin6>
+  <u>0</u>
+ </rec>
+ <xml_include path="diplomacy/portugal.xml"/>
+ <rec type="ARMY_REINFORCEMENT_MANAGER">
+  <ary type="CHARACTER_REINFORCEMENTS_ARRAY"/>
+  <ary type="UNIT_REINFORCEMENTS_ARRAY"/>
+ </rec>
+ <xml_include path="government/portugal-gov_constitutional_monarchy.xml"/>
+ <xml_include path="family/portugal.xml"/>
+ <i>583268040</i><!-- Faction ID -->
+ <s>portugal</s><!-- Faction Name -->
+ <s>Portugal</s><!-- On Screen Name -->
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>196</u>
+  <u>298784604</u>
+  <u2_ary>187 185 151 0 83 13 15 178 9 115 2 12 167 16 149 50 4 17 189 175 34 164 180 47 193 141 142 70 176 75 131 87 49 119 132 100 71 147 26 123 114 42 74 55 85 7 6 51 62 63 194 76 136 23 113 108 146 52 73 188 89 111 90 104 77 155 174 53 35 148 54 57 117 20 177 137 10 33 162 3 138 97 11 116 86 19 29 80 99 118 24 112 41 79 126 67 184 44 139 96 81 156 93 165 43 170 158 160 37 58 143 169 105 21 183 127 68 60 152 128 154 135 145 78 121 106 94 192 40 46 28 186 159 64 124 98 31 1 88 171 153 129 32 172 140 27 191 56 38 190 181 133 103 179 166 39 48 150 122 163 25 134 110</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>145</u>
+  <u>2216341084</u>
+  <u2_ary>48 103 135 107 22 3 43 109 31 20 55 89 112 83 85 139 40 61 23 46 129 91 8 81 33 92 59 71 144 130 90 47 99 73 133 56 24 86 116 119 94 34 101 77 78 123 127 132 114 37 32 97 134 64 1 19 44 53 28 72 16 80 121 84 36 125 104 54 60 41 49 131 12 45 128 6 115 68 102 29 118 117 4 136 25 18 88 111 52 14 57 66 13 39 96 108 113 137 17 30 140 93 95 106 51 0 10 100 5 58 142 143 2 11 38 124 70 87 138 26 7 42 141 62 21 15 126 63 82 79 74 75 9 27 98 50 120 67 35 110 69 105 122 65 76</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>1065652784</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>2089704989</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>283</u>
+  <u>1113591696</u>
+  <u2_ary>116 50 40 150 238 218 72 206 171 159 155 177 29 237 191 270 216 94 99 232 107 37 134 147 223 77 56 260 148 172 11 235 66 96 49 240 68 205 253 117 251 156 225 140 126 248 203 4 133 233 268 98 118 33 219 262 275 27 247 215 273 75 154 79 170 165 64 197 1 103 173 35 104 31 97 222 186 69 201 74 52 243 226 161 276 9 125 102 38 57 43 257 185 28 24 46 131 280 7 151 234 256 183 184 174 101 229 91 61 132 114 282 41 204 124 108 231 175 221 76 213 141 246 278 277 188 265 189 181 193 199 82 187 8 227 47 267 78 34 121 190 106 70 176 120 200 83 19 119 23 128 157 168 48 254 211 73 86 146 271 25 242 166 178 84 236 179 245 30 80 55 164 113 279 15 261 228 53 26 194 210 136 109 153 65 10 16 137 3 20 6 45 129 14 21 239 59 22 144 135 241 17 58 51 13 63 250 255 36 88 198 143 244 62 139 105 2 152 42 145 5 192 93 130 266 272 180 92 269 163 71 209 212 110 32 0 160 54 138 111 217 127 207 281 149 112 230 67 263 162</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>393283539</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>3509407630</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>7</u>
+  <u>2636234590</u>
+  <u2_ary>4 2 0 6 1 3 5</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>14</u>
+  <u>521144111</u>
+  <u2_ary>9 3 10 0 5 4 7 6 2 12 11 13 1</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>11</u>
+  <u>756618012</u>
+  <u2_ary>3 9 4 10 2 0 1 7 6 8</u2_ary>
+ </rec>
+ <yes/>
+ <rec type="LAND_UNIT_NAME_ALLOCATOR">
+  <ary type="LAND_UNIT_NAMES_MAP">
+   <xml_include path="unit_name_alloc/portugal-land-0001.xml"/>
+   <xml_include path="unit_name_alloc/portugal-land-0002.xml"/>
+   <xml_include path="unit_name_alloc/portugal-land-0003.xml"/>
+   <xml_include path="unit_name_alloc/portugal-land-0004.xml"/>
+   <xml_include path="unit_name_alloc/portugal-land-0005.xml"/>
+   <xml_include path="unit_name_alloc/portugal-land-0006.xml"/>
+   <xml_include path="unit_name_alloc/portugal-land-0007.xml"/>
+   <xml_include path="unit_name_alloc/portugal-land-0008.xml"/>
+   <xml_include path="unit_name_alloc/portugal-land-0009.xml"/>
+   <xml_include path="unit_name_alloc/portugal-land-0010.xml"/>
+   <xml_include path="unit_name_alloc/portugal-land-0011.xml"/>
+   <xml_include path="unit_name_alloc/portugal-land-0012.xml"/>
+   <xml_include path="unit_name_alloc/portugal-land-0013.xml"/>
+   <xml_include path="unit_name_alloc/portugal-land-0014.xml"/>
+   <xml_include path="unit_name_alloc/portugal-land-0015.xml"/>
+   <xml_include path="unit_name_alloc/portugal-land-0016.xml"/>
+   <xml_include path="unit_name_alloc/portugal-land-0017.xml"/>
+   <xml_include path="unit_name_alloc/portugal-land-0018.xml"/>
+   <xml_include path="unit_name_alloc/portugal-land-0019.xml"/>
+   <xml_include path="unit_name_alloc/portugal-land-0020.xml"/>
+   <xml_include path="unit_name_alloc/portugal-land-0021.xml"/>
+   <xml_include path="unit_name_alloc/portugal-land-0022.xml"/>
+   <xml_include path="unit_name_alloc/portugal-land-0023.xml"/>
+  </ary>
+ </rec>
+ <yes/>
+ <xml_include path="unit_name_alloc/portugal-naval-0001.xml"/>
+ <no/><!-- True - Major, False - Minor -->
+ <ary type="CHARACTER_ARRAY">
+  <xml_include path="character/portugal-gentleman-0001.xml"/>
+  <xml_include path="character/portugal-captain-0001.xml"/>
+  <xml_include path="character/portugal-General-0001.xml"/>
+  <xml_include path="character/portugal-admiral-0001.xml"/>
+  <xml_include path="character/portugal-General-0002.xml"/>
+  <xml_include path="character/portugal-admiral-0002.xml"/>
+  <xml_include path="character/portugal-minister-0001.xml"/>
+  <xml_include path="character/portugal-rake-0001.xml"/>
+  <xml_include path="character/portugal-rake-0002.xml"/>
+  <xml_include path="character/portugal-captain-0002.xml"/>
+  <xml_include path="character/portugal-minister-0002.xml"/>
+  <xml_include path="character/portugal-minister-0003.xml"/>
+  <xml_include path="character/portugal-minister-0004.xml"/>
+  <xml_include path="character/portugal-minister-0005.xml"/>
+  <xml_include path="character/portugal-minister-0006.xml"/>
+  <xml_include path="character/portugal-minister-0007.xml"/>
+  <xml_include path="character/portugal-minister-0008.xml"/>
+  <xml_include path="character/portugal-minister-0009.xml"/>
+  <xml_include path="character/portugal-minister-0010.xml"/>
+  <xml_include path="character/portugal-minister-0011.xml"/>
+  <xml_include path="character/portugal-minister-0012.xml"/>
+  <xml_include path="character/portugal-minister-0013.xml"/>
+  <xml_include path="character/portugal-minister-0014.xml"/>
+ </ary>
+ <xml_include path="technology/portugal-portugal.xml"/>
+ <ary type="ARMY_ARRAY">
+  <xml_include path="army/portugal-0001.xml"/>
+  <xml_include path="army/portugal-0002.xml"/>
+  <xml_include path="army/portugal-0003.xml"/>
+  <xml_include path="army/portugal-0004.xml"/>
+  <xml_include path="army/portugal-0005.xml"/>
+  <xml_include path="army/portugal-0006.xml"/>
+ </ary>
+ <ary type="MORGUE"/>
+ <u4_ary>586850608 586964496</u4_ary><!-- Governor ID For Each Theatre -->
+ <no/>
+ <s>rel_catholic</s><!-- Religion -->
+ <no/>
+ <rec type="FORT_UPGRADE_MANAGER">
+  <ary type="FORT_UPGRADES_ARRAY"/>
+ </rec>
+ <rec type="FORT_UPGRADE_MANAGER">
+  <ary type="FORT_REPAIRS_ARRAY"/>
+ </rec>
+ <i>586837072</i><!-- Current Capital ID Else 0 If Faction Destroyed -->
+ <i>586837072</i><!-- Original Capital ID -->
+ <ary type="EXPOSED_CHARACTERS"/>
+ <no/>
+ <rec type="PRESTIGE">
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <u>30</u>
+ </rec>
+ <no/><!-- Emergent -->
+ <u>0</u>
+ <bool_ary>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</bool_ary>
+ <i>0</i><!-- Army Upkeep -->
+ <i>0</i><!-- Navy Upkeep -->
+ <s>MAINTAINANCE</s><!-- Campaign AI Manager Behaviour (patch.pack) -->
+ <s>maritime_repressive</s><!-- Campaign AI Personalities (patch.pack) -->
+ <flag_and_colours path="data\ui\flags\portugal" color1="#eef2f8" color2="#78b3cc" color3="#86a5c0"/>
+ <flag_and_colours path="data\ui\flags\portugal" color1="#eef2f8" color2="#78b3cc" color3="#86a5c0"/>
+ <rec type="CAMPAIGN_BONUS_VALUES">
+  <ary type="CAMPAIGN_BONUS_VALUE_BLOCK">
+   <campaign_bonus_0 subtype="2" value="1.0" agent="Eastern_Scholar"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="rake"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="assassin"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="gentleman"/>
+  </ary>
+ </rec>
+ <rec type="CAMPAIGN_BONUS_VALUES">
+  <ary type="CAMPAIGN_BONUS_VALUE_BLOCK">
+   <campaign_bonus_0 subtype="2" value="1.0" agent="Eastern_Scholar"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="rake"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="assassin"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="gentleman"/>
+  </ary>
+ </rec>
+ <i>0</i><!-- Protectorate ID -->
+ <no/>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <no/>
+ <yes/>
+ <no/>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <no/>
+ <no/>
+ <u>0</u>
+ <no/>
+ <no/>
+</rec>

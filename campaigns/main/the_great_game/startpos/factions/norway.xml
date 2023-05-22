@@ -1,0 +1,198 @@
+<?xml version="1.0"?>
+<rec type="FACTION">
+ <ancillary_uniqueness_monitor/>
+ <rec type="CAMPAIGN_PLAYER_SETUP">
+  <victory_conditions year="0" region_count="0" prestige_victory="no" campaign_type="4 (Unplayable)"/>
+  <rec type="CAMPAIGN_PLAYER_SETUP_INGAME_MODIFIABLES">
+   <i>0</i>
+   <i>0</i>
+   <i>0</i>
+   <no/>
+  </rec>
+  <s>norway</s>
+  <no/>
+  <no/><!-- Playable -->
+  <no/>
+ </rec>
+ <rec type="FACTION_ECONOMICS">
+  <ary type="history">
+   <rec type="history">
+    <rec type="ECONOMICS_DATA">
+     <i4_ary>0 0 0 0 0</i4_ary>
+     <i4_ary>0 0 0</i4_ary>
+     <i4_ary>0 0 0 1750</i4_ary>
+     <i4_ary>0</i4_ary>
+     <i4_ary>0 0 0 0 0</i4_ary>
+     <i4_ary>0 0 0 0 0 0 0</i4_ary>
+    </rec>
+   </rec>
+  </ary>
+  <i>7500</i>
+  <bin6>01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01</bin6>
+  <u>0</u>
+ </rec>
+ <xml_include path="diplomacy/norway.xml"/>
+ <rec type="ARMY_REINFORCEMENT_MANAGER">
+  <ary type="CHARACTER_REINFORCEMENTS_ARRAY"/>
+  <ary type="UNIT_REINFORCEMENTS_ARRAY"/>
+ </rec>
+ <xml_include path="government/norway-gov_constitutional_monarchy.xml"/>
+ <xml_include path="family/norway.xml"/>
+ <i>584612448</i><!-- Faction ID -->
+ <s>norway</s><!-- Faction Name -->
+ <s>Norway</s><!-- On Screen Name -->
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>376</u>
+  <u>3204498706</u>
+  <u2_ary>253 271 365 239 183 267 215 110 310 349 307 313 217 227 198 344 327 354 86 132 39 245 230 372 45 221 333 4 363 258 0 374 251 237 304 22 229 246 214 296 287 145 44 38 103 341 83 250 303 20 347 301 35 291 277 107 337 238 247 295 226 315 69 234 373 46 75 197 264 182 3 242 37 47 147 362 190 284 356 87 279 305 9 353 60 71 232 269 109 136 174 82 202 370 80 260 53 66 18 188 316 93 255 79 254 278 364 332 143 114 127 308 118 152 164 1 360 155 17 268 100 172 113 13 261 289 6 30 351 120 213 146 340 187 173 59 175 317 95 10 358 343 273 7 272 115 89 65 280 129 208 366 179 241 122 321 369 228 348 51 64 342 149 125 14 138 15 23 201 40 266 338 76 156 319 288 323 357 302 218 361 298 2 336 42 282 50 104 212 293 72 98 286 94 142 186 81 292 33 97 371 112 314 329 25 170 171 367 106 249 5 70 368 117 294 144 281 101 225 352 324 119 240 12 74 84 196 102 231 131 200 335 325 34 252 167 359 345 256 163 28 48 326 139 194 56 233 135 111 63 184 160 134 105 328 185 206 312 116 68 235 16 223 141 306 54 32 375 180 300 88 108 158 189 49 151 90 27 96 248 203 204 270 8 159 150 210 123 29 128 43 58 178 85 133 19 322 52 299 67 91 257 320 219 11 216 211 243 192 318 77 330 355 165 137 209 205 222 199 176 339 166 121 259 169 285 153 36 124 24 162 236 195 73 55 290 126 220 130 334 148 275 311 244 57 262 92 283 224 274 26 350 181 157 191 154 61 276 346 177 263 78 297 31 309 21 62 161 193 168 207 140 99 265 331 41</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>309</u>
+  <u>3599566704</u>
+  <u2_ary>273 15 114 105 33 247 265 87 129 23 136 186 177 86 35 26 184 59 167 303 283 164 170 217 46 57 43 99 126 58 298 281 284 220 137 183 224 16 299 172 53 292 252 88 60 263 198 270 22 11 192 185 267 249 225 21 61 153 91 73 193 44 274 98 127 148 195 256 245 107 231 120 146 278 41 96 52 151 255 237 0 174 199 289 25 110 92 119 264 101 103 93 63 288 17 32 258 280 304 94 262 8 42 207 13 48 272 194 49 176 163 277 67 209 308 102 116 20 121 95 160 260 161 104 72 162 240 47 295 30 109 157 243 139 275 197 297 279 68 5 125 290 108 111 173 301 2 141 306 150 294 269 222 268 241 131 201 29 118 219 196 223 291 202 152 165 236 259 253 159 254 9 55 28 142 190 89 154 286 250 56 79 84 123 106 50 149 257 3 179 246 77 285 134 266 138 39 34 90 156 27 227 117 147 229 158 182 6 215 232 169 135 45 128 307 144 4 69 211 82 18 180 113 205 178 31 81 293 7 287 171 64 85 208 203 296 66 145 80 200 248 62 122 212 1 218 214 206 239 166 234 175 24 14 65 226 19 51 302 230 244 112 40 83 140 213 276 300 261 191 216 305 124 187 189 143 251 71 74 210 155 271 78 54 75 238 115 181 133 233 221 132 228 204 235 282 37 76 100 97 36 38 168 12 188 130 70</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>2</u>
+  <u>3438937752</u>
+  <u2_ary>1 0</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>951678666</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>625</u>
+  <u>4201953698</u>
+  <u2_ary>562 421 597 14 299 36 31 371 512 599 214 513 51 374 553 485 227 204 475 531 466 576 356 412 27 525 600 100 125 536 433 533 289 292 418 493 567 372 198 43 320 545 305 86 84 490 209 486 1 606 173 251 44 456 507 23 390 255 134 233 151 197 83 32 616 476 183 20 522 529 295 309 380 110 206 256 141 225 546 238 38 107 515 388 495 30 315 368 417 73 353 304 226 65 87 26 359 438 541 327 498 499 526 488 379 477 196 48 373 229 444 311 552 464 532 383 500 543 461 349 405 130 103 300 223 13 19 211 468 604 481 400 570 508 113 491 446 177 220 41 340 135 234 202 143 575 369 425 99 222 396 122 228 46 547 265 566 240 217 244 326 39 139 554 280 74 187 121 307 579 286 430 404 34 174 179 90 136 407 281 593 96 505 114 154 555 605 603 285 551 93 10 472 424 18 561 471 129 133 381 563 159 231 395 492 172 312 171 504 9 588 548 296 236 278 25 538 510 257 530 92 581 523 271 104 619 243 53 427 618 325 283 594 3 91 319 152 459 274 97 453 434 473 414 252 439 306 331 516 168 232 578 436 457 237 595 328 539 467 303 344 308 511 213 366 124 330 574 556 509 132 208 239 294 192 261 42 106 450 589 487 190 298 496 75 88 624 11 268 345 207 270 470 419 147 150 398 248 290 480 386 178 201 22 157 277 518 17 422 316 56 378 76 587 181 559 502 591 67 199 263 149 184 607 0 592 365 145 77 423 601 494 568 432 452 350 351 186 389 341 445 558 408 57 613 469 66 602 501 253 463 401 572 185 55 318 156 362 62 313 460 623 347 357 279 482 333 314 478 126 64 403 155 276 580 188 364 138 540 275 392 537 503 94 269 435 210 323 334 194 79 7 291 384 620 221 153 175 60 585 235 514 447 519 245 123 118 200 180 622 322 224 415 455 564 78 382 542 164 332 111 80 614 608 49 137 521 33 524 144 571 101 59 61 273 474 82 442 89 282 189 336 249 527 29 162 52 247 586 437 358 272 528 489 411 148 140 109 12 120 339 354 293 428 163 8 37 193 158 169 21 215 520 4 497 535 68 544 443 230 387 297 246 288 203 429 69 583 337 420 391 6 483 218 560 573 584 361 161 54 342 50 582 216 260 310 176 108 377 426 441 58 615 449 131 182 212 385 416 431 621 454 612 112 219 205 262 440 376 370 301 24 577 343 406 402 191 15 165 462 16 71 127 241 195 335 611 557 506 119 610 479 565 534 375 102 116 2 63 484 363 28 166 367 258 413 284 448 170 517 167 128 360 355 85 569 451 394 287 596 160 598 142 115 254 329 72 346 250 45 35 264 393 409 590 549 338 95 117 321 40 397 465 348 259 98 458 105 146 267 399 317 81 266 5 550 47 609 242 324 352 410 302 617 70</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>2</u>
+  <u>2116765438</u>
+  <u2_ary>0 1</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>4041170334</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>17</u>
+  <u>1415016811</u>
+  <u2_ary>3 12 9 2 4 8 10 13 6 14 5 11 15 16 0 1 7</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>4</u>
+  <u>2710086781</u>
+  <u2_ary>2</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>1050089436</u>
+  <u2_ary/>
+ </rec>
+ <yes/>
+ <rec type="LAND_UNIT_NAME_ALLOCATOR">
+  <ary type="LAND_UNIT_NAMES_MAP">
+   <xml_include path="unit_name_alloc/norway-land-0001.xml"/>
+   <xml_include path="unit_name_alloc/norway-land-0002.xml"/>
+   <xml_include path="unit_name_alloc/norway-land-0003.xml"/>
+   <xml_include path="unit_name_alloc/norway-land-0004.xml"/>
+   <xml_include path="unit_name_alloc/norway-land-0005.xml"/>
+   <xml_include path="unit_name_alloc/norway-land-0006.xml"/>
+   <xml_include path="unit_name_alloc/norway-land-0007.xml"/>
+   <xml_include path="unit_name_alloc/norway-land-0008.xml"/>
+   <xml_include path="unit_name_alloc/norway-land-0009.xml"/>
+   <xml_include path="unit_name_alloc/norway-land-0010.xml"/>
+   <xml_include path="unit_name_alloc/norway-land-0011.xml"/>
+   <xml_include path="unit_name_alloc/norway-land-0012.xml"/>
+   <xml_include path="unit_name_alloc/norway-land-0013.xml"/>
+   <xml_include path="unit_name_alloc/norway-land-0014.xml"/>
+   <xml_include path="unit_name_alloc/norway-land-0015.xml"/>
+   <xml_include path="unit_name_alloc/norway-land-0016.xml"/>
+   <xml_include path="unit_name_alloc/norway-land-0017.xml"/>
+   <xml_include path="unit_name_alloc/norway-land-0018.xml"/>
+   <xml_include path="unit_name_alloc/norway-land-0019.xml"/>
+   <xml_include path="unit_name_alloc/norway-land-0020.xml"/>
+   <xml_include path="unit_name_alloc/norway-land-0021.xml"/>
+   <xml_include path="unit_name_alloc/norway-land-0022.xml"/>
+   <xml_include path="unit_name_alloc/norway-land-0023.xml"/>
+  </ary>
+ </rec>
+ <yes/>
+ <xml_include path="unit_name_alloc/norway-naval-0001.xml"/>
+ <no/><!-- True - Major, False - Minor -->
+ <ary type="CHARACTER_ARRAY"/>
+ <xml_include path="technology/norway-norway.xml"/>
+ <ary type="ARMY_ARRAY"/>
+ <ary type="MORGUE"/>
+ <u4_ary/><!-- Governor ID For Each Theatre -->
+ <no/>
+ <s>rel_protestant</s><!-- Religion -->
+ <no/>
+ <rec type="FORT_UPGRADE_MANAGER">
+  <ary type="FORT_UPGRADES_ARRAY"/>
+ </rec>
+ <rec type="FORT_UPGRADE_MANAGER">
+  <ary type="FORT_REPAIRS_ARRAY"/>
+ </rec>
+ <i>0</i><!-- Current Capital ID Else 0 If Faction Destroyed -->
+ <i>0</i><!-- Original Capital ID -->
+ <ary type="EXPOSED_CHARACTERS"/>
+ <no/>
+ <rec type="PRESTIGE">
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+ </rec>
+ <yes/><!-- Emergent -->
+ <u>0</u>
+ <bool_ary>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</bool_ary>
+ <i>0</i><!-- Army Upkeep -->
+ <i>0</i><!-- Navy Upkeep -->
+ <s>MAINTAINANCE</s><!-- Campaign AI Manager Behaviour (patch.pack) -->
+ <s>default</s><!-- Campaign AI Personalities (patch.pack) -->
+ <flag_and_colours path="data\ui\flags\norway" color1="#2b3a52" color2="#8f2b2d" color3="#942826"/>
+ <flag_and_colours path="data\ui\flags\norway" color1="#2b3a52" color2="#8f2b2d" color3="#942826"/>
+ <rec type="CAMPAIGN_BONUS_VALUES">
+  <ary type="CAMPAIGN_BONUS_VALUE_BLOCK">
+   <campaign_bonus_0 subtype="2" value="1.0" agent="Eastern_Scholar"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="rake"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="assassin"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="gentleman"/>
+  </ary>
+ </rec>
+ <rec type="CAMPAIGN_BONUS_VALUES">
+  <ary type="CAMPAIGN_BONUS_VALUE_BLOCK">
+   <campaign_bonus_0 subtype="2" value="1.0" agent="Eastern_Scholar"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="rake"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="assassin"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="gentleman"/>
+  </ary>
+ </rec>
+ <i>0</i><!-- Protectorate ID -->
+ <no/>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <no/>
+ <yes/>
+ <no/>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <no/>
+ <no/>
+ <u>0</u>
+ <no/>
+ <no/>
+</rec>
