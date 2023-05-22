@@ -1,0 +1,221 @@
+<?xml version="1.0"?>
+<rec type="FACTION">
+ <ancillary_uniqueness_monitor/>
+ <rec type="CAMPAIGN_PLAYER_SETUP">
+  <victory_conditions year="0" region_count="0" prestige_victory="no" campaign_type="4 (Unplayable)"/>
+  <rec type="CAMPAIGN_PLAYER_SETUP_INGAME_MODIFIABLES">
+   <i>0</i>
+   <i>0</i>
+   <i>0</i>
+   <no/>
+  </rec>
+  <s>morocco</s>
+  <no/>
+  <yes/><!-- Playable -->
+  <no/>
+ </rec>
+ <rec type="FACTION_ECONOMICS">
+  <ary type="history">
+   <rec type="history">
+    <rec type="ECONOMICS_DATA">
+     <i4_ary>0 0 0 0 0</i4_ary>
+     <i4_ary>0 0 823</i4_ary>
+     <i4_ary>0 0 0 1750</i4_ary>
+     <i4_ary>0</i4_ary>
+     <i4_ary>0 0 0 0 0</i4_ary>
+     <i4_ary>0 0 0 0 0 0 0</i4_ary>
+    </rec>
+   </rec>
+  </ary>
+  <i>5000</i>
+  <bin6>01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01</bin6>
+  <u>0</u>
+ </rec>
+ <xml_include path="diplomacy/morocco.xml"/>
+ <rec type="ARMY_REINFORCEMENT_MANAGER">
+  <ary type="CHARACTER_REINFORCEMENTS_ARRAY"/>
+  <ary type="UNIT_REINFORCEMENTS_ARRAY"/>
+ </rec>
+ <xml_include path="government/morocco-gov_absolute_monarchy.xml"/>
+ <xml_include path="family/morocco.xml"/>
+ <i>605970496</i><!-- Faction ID -->
+ <s>morocco</s><!-- Faction Name -->
+ <s>Morocco</s><!-- On Screen Name -->
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>24</u>
+  <u>3383294372</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>71</u>
+  <u>20900919</u>
+  <u2_ary>22 49 65 25 10 12 44 8 64 59 48 0 35 57 54 37 62 24 1 13 21 33 45 42 46 69 15 16 41 47 56 70 5 36 7 66 29 27 17 23 6 38 9 67 61 58 43 53 68 14 51 30 52 4 32 28 20 26 3 19 31 50 55 34 18 2 63 40 60 11 39</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>366044287</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>1811214475</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>107</u>
+  <u>468865338</u>
+  <u2_ary>60 1 93 70 74 27 44 53 43 84 11 80 40 75 7 81 34 67 66 72 25 9 14 45 51 102 94 106 28 48 105 2 29 64 35 97 89 99 30 98 47 101 33 69 5 76 26 21 71 83 88 100 57 58 36 20 104 96 12 85 0 92 13 90 18 3 46 59 63 24 50 23 4 78 16 54 62 79 22 42 17 15 52</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>888878046</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>39555260</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>16</u>
+  <u>3881790250</u>
+  <u2_ary>12 0 3 4 6 1 10 7 2 14 13 11 5 9 15 8</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>10</u>
+  <u>2274493019</u>
+  <u2_ary>3 7 8 0 2 9 1 5 4</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>1421984429</u>
+  <u2_ary/>
+ </rec>
+ <yes/>
+ <rec type="LAND_UNIT_NAME_ALLOCATOR">
+  <ary type="LAND_UNIT_NAMES_MAP">
+   <xml_include path="unit_name_alloc/morocco-land-0001.xml"/>
+   <xml_include path="unit_name_alloc/morocco-land-0002.xml"/>
+   <xml_include path="unit_name_alloc/morocco-land-0003.xml"/>
+   <xml_include path="unit_name_alloc/morocco-land-0004.xml"/>
+   <xml_include path="unit_name_alloc/morocco-land-0005.xml"/>
+   <xml_include path="unit_name_alloc/morocco-land-0006.xml"/>
+   <xml_include path="unit_name_alloc/morocco-land-0007.xml"/>
+   <xml_include path="unit_name_alloc/morocco-land-0008.xml"/>
+   <xml_include path="unit_name_alloc/morocco-land-0009.xml"/>
+   <xml_include path="unit_name_alloc/morocco-land-0010.xml"/>
+   <xml_include path="unit_name_alloc/morocco-land-0011.xml"/>
+   <xml_include path="unit_name_alloc/morocco-land-0012.xml"/>
+   <xml_include path="unit_name_alloc/morocco-land-0013.xml"/>
+   <xml_include path="unit_name_alloc/morocco-land-0014.xml"/>
+   <xml_include path="unit_name_alloc/morocco-land-0015.xml"/>
+   <xml_include path="unit_name_alloc/morocco-land-0016.xml"/>
+   <xml_include path="unit_name_alloc/morocco-land-0017.xml"/>
+   <xml_include path="unit_name_alloc/morocco-land-0018.xml"/>
+   <xml_include path="unit_name_alloc/morocco-land-0019.xml"/>
+   <xml_include path="unit_name_alloc/morocco-land-0020.xml"/>
+   <xml_include path="unit_name_alloc/morocco-land-0021.xml"/>
+   <xml_include path="unit_name_alloc/morocco-land-0022.xml"/>
+   <xml_include path="unit_name_alloc/morocco-land-0023.xml"/>
+  </ary>
+ </rec>
+ <yes/>
+ <xml_include path="unit_name_alloc/morocco-naval-0001.xml"/>
+ <no/><!-- True - Major, False - Minor -->
+ <ary type="CHARACTER_ARRAY">
+  <xml_include path="character/morocco-admiral-0001.xml"/>
+  <xml_include path="character/morocco-Eastern_Scholar-0001.xml"/>
+  <xml_include path="character/morocco-General-0001.xml"/>
+  <xml_include path="character/morocco-colonel-0001.xml"/>
+  <xml_include path="character/morocco-assassin-0001.xml"/>
+  <xml_include path="character/morocco-minister-0001.xml"/>
+  <xml_include path="character/morocco-minister-0002.xml"/>
+  <xml_include path="character/morocco-minister-0003.xml"/>
+  <xml_include path="character/morocco-minister-0004.xml"/>
+  <xml_include path="character/morocco-minister-0005.xml"/>
+  <xml_include path="character/morocco-minister-0006.xml"/>
+  <xml_include path="character/morocco-minister-0007.xml"/>
+  <xml_include path="character/morocco-minister-0008.xml"/>
+  <xml_include path="character/morocco-minister-0009.xml"/>
+  <xml_include path="character/morocco-minister-0010.xml"/>
+  <xml_include path="character/morocco-minister-0011.xml"/>
+  <xml_include path="character/morocco-minister-0012.xml"/>
+  <xml_include path="character/morocco-minister-0013.xml"/>
+ </ary>
+ <xml_include path="technology/morocco-morocco.xml"/>
+ <ary type="ARMY_ARRAY">
+  <xml_include path="army/morocco-0001.xml"/>
+  <xml_include path="army/morocco-0002.xml"/>
+  <xml_include path="army/morocco-0003.xml"/>
+ </ary>
+ <ary type="MORGUE"/>
+ <u4_ary>667264376</u4_ary><!-- Governor ID For Each Theatre -->
+ <no/>
+ <s>rel_islamic</s><!-- Religion -->
+ <no/>
+ <rec type="FORT_UPGRADE_MANAGER">
+  <ary type="FORT_UPGRADES_ARRAY"/>
+ </rec>
+ <rec type="FORT_UPGRADE_MANAGER">
+  <ary type="FORT_REPAIRS_ARRAY"/>
+ </rec>
+ <i>606855200</i><!-- Current Capital ID Else 0 If Faction Destroyed -->
+ <i>606855200</i><!-- Original Capital ID -->
+ <ary type="EXPOSED_CHARACTERS"/>
+ <no/>
+ <rec type="PRESTIGE">
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <u>10</u>
+ </rec>
+ <no/><!-- Emergent -->
+ <u>0</u>
+ <bool_ary>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</bool_ary>
+ <i>0</i><!-- Army Upkeep -->
+ <i>0</i><!-- Navy Upkeep -->
+ <s>MAINTAINANCE</s><!-- Campaign AI Manager Behaviour (patch.pack) -->
+ <s>non_euro</s><!-- Campaign AI Personalities (patch.pack) -->
+ <flag_and_colours path="data\ui\flags\morocco" color1="#cc6753" color2="#d2940e" color3="#5f2725"/>
+ <flag_and_colours path="data\ui\flags\morocco" color1="#cc6753" color2="#d2940e" color3="#5f2725"/>
+ <rec type="CAMPAIGN_BONUS_VALUES">
+  <ary type="CAMPAIGN_BONUS_VALUE_BLOCK">
+   <campaign_bonus_0 subtype="2" value="1.0" agent="Eastern_Scholar"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="rake"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="assassin"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="gentleman"/>
+  </ary>
+ </rec>
+ <rec type="CAMPAIGN_BONUS_VALUES">
+  <ary type="CAMPAIGN_BONUS_VALUE_BLOCK">
+   <campaign_bonus_0 subtype="2" value="1.0" agent="Eastern_Scholar"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="rake"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="assassin"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="gentleman"/>
+  </ary>
+ </rec>
+ <i>0</i><!-- Protectorate ID -->
+ <no/>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <no/>
+ <no/>
+ <no/>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <no/>
+ <no/>
+ <u>0</u>
+ <no/>
+ <no/>
+</rec>

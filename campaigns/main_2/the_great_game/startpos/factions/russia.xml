@@ -1,0 +1,237 @@
+<?xml version="1.0"?>
+<rec type="FACTION">
+ <ancillary_uniqueness_monitor/>
+ <rec type="CAMPAIGN_PLAYER_SETUP">
+  <victory_conditions year="0" region_count="0" prestige_victory="no" campaign_type="4 (Unplayable)"/>
+  <rec type="CAMPAIGN_PLAYER_SETUP_INGAME_MODIFIABLES">
+   <i>0</i>
+   <i>0</i>
+   <i>0</i>
+   <no/>
+  </rec>
+  <s>russia</s>
+  <no/>
+  <yes/><!-- Playable -->
+  <no/>
+ </rec>
+ <rec type="FACTION_ECONOMICS">
+  <ary type="history">
+   <rec type="history">
+    <rec type="ECONOMICS_DATA">
+     <i4_ary>0 0 0 0 0</i4_ary>
+     <i4_ary>0 0 1730</i4_ary>
+     <i4_ary>0 0 232 3000</i4_ary>
+     <i4_ary>0</i4_ary>
+     <i4_ary>0 0 0 0 0</i4_ary>
+     <i4_ary>0 0 0 0 0 0 0</i4_ary>
+    </rec>
+   </rec>
+  </ary>
+  <i>5000</i>
+  <bin6>01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01</bin6>
+  <u>0</u>
+ </rec>
+ <xml_include path="diplomacy/russia.xml"/>
+ <rec type="ARMY_REINFORCEMENT_MANAGER">
+  <ary type="CHARACTER_REINFORCEMENTS_ARRAY"/>
+  <ary type="UNIT_REINFORCEMENTS_ARRAY"/>
+ </rec>
+ <xml_include path="government/russia-gov_absolute_monarchy.xml"/>
+ <xml_include path="family/russia.xml"/>
+ <i>884475672</i><!-- Faction ID -->
+ <s>russia</s><!-- Faction Name -->
+ <s>Russia</s><!-- On Screen Name -->
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>85</u>
+  <u>931989470</u>
+  <u2_ary>26 60 29 65 64 77 4 79 66 15 9 67 21 28 78 1 43 31 42 7 11 49 51 6 20 53 58 75 70</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>74</u>
+  <u>1293243414</u>
+  <u2_ary>50 46 59 53 61 68 55 22 42 44 3 72 23 0 33 62 8 14 40 25 18 15 56 31 13 11 9 17 57 52 10 64 37 70 26 19 20 29 69 12 63 54 67 43 27 47 58 32 5 60 39 16 41 2 24 51 30 34 7 45 49 48 4 36 6 65 73 1 38 35 71 21 28 66</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>1056759049</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>1</u>
+  <u>2652927604</u>
+  <u2_ary>0</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>1133</u>
+  <u>402949334</u>
+  <u2_ary>731 223 543 1082 927 207 624 35 579 292 402 1084 1045 866 626 756 64 238 339 253 329 94 906 386 377 545 1062 177 1063 335 96 435 1020 245 672 501 231 773 81 620 284 858 709 783 214 1059 741 877 243 730 42 1112 811 111 449 720 946 443 437 810 433 679 992 334 790 874 818 533 235 696 459 52 885 487 821 1042 644 1036 303 66 79 414 781 850 968 206 65 1053 673 751 502 891 908 628 758 191 558 195 208 938 867 5 979 193 894 596 889 916 115 633 676 621 51 116 528 947 595 983 233 760 615 855 368 293 110 984 614 1099 856 883 572 331 133 171 925 548 702 217 1049 973 1076 964 827 496 114 88 312 426 518 591 704 779 1006 734 962 344 350 1015 342 952 1054 1003 669 1073 809 278 845 559 842 109 1094 623 58 166 203 733 799 985 272 656 691 899 808 525 1013 920 976 201 780 1068 62 296 82 632 837 574 72 1115 128 1106 479 1057 424 753 170 275 616 18 50 363 281 289 764 460 1029 85 642 1120 38 597 202 932 901 813 662 529 940 49 1090 965 862 859 511 175 408 106 911 254 974 70 385 864 378 260 374 1007 835 744 323 740 857 663 546 1032 841 868 185 499 288 442 1102 163 348 215 823 552 550 99 563 421 972 728 120 307 265 454 892 897 667 798 715 224 119 467 141 84 423 1047 494 40 763 409 321 948 826 1132 269 553 895 534 539 422 941 999 369 428 690 668 100 896 613 57 935 1069 500 174 757 958 419 655 839 619 401 22 887 1071 147 592 882 319 735 1064 703 564 678 366 903 770 754 1077 95 246 910 527 549 716 488 131 446 561 112 286 229 71 73 761 1041 395 32 102 362 854 87 132 961 802 909 285 530 689 315 242 970 83 379 394 622 219 346 1131 143 583 413 86 179 1097 950 787 266 241 471 945 975 48 1080 343 745 1122 169 436 390 991 749 91 844 357 439 349 585 723 928 54 358 1083 1118 627 167 37 1002 1034 124 654 643 144 711 1079 412 995 1055 469 429 898 853 261 310 248 913 306 725 577 209 547 136 236 462 638 447 785 330 332 954 149 316 282 653 1021 869 23 544 418 407 847 486 659 74 580 587 63 949 535 670 648 383 825 609 227 495 276 710 78 1070 520 1011 251 425 930 806 485 846 1009 635 918 660 967 762 531 190 216 639 658 510 9 886 11 566 371 1061 263 192 417 617 666 256 603 183 123 557 309 237 148 298 220 30 7 481 228 509 944 434 819 475 211 376 187 922 474 900 606 1035 586 127 164 980 581 765 1012 333 576 907 327 455 777 226 244 829 21 273 879 1074 146 1024 848 686 880 796 12 625 791 461 1096 994 456 684 937 562 498 794 605 17 706 966 993 182 156 1030 515 160 431 165 836 451 1017 800 1100 140 287 569 602 1078 137 213 681 860 727 324 1060 1065 221 352 565 1043 536 159 604 301 736 977 328 902 873 121 274 769 1072 186 611 398 674 20 13 1126 318 1103 370 567 444 953 345 951 646 403 724 516 1105 152 142 43 299 540 537 225 92 39 739 697 1031 399 313 601 828 176 212 924 157 743 936 388 960 878 695 755 1127 347 178 990 453 804 578 440 732 789 517 404 67 145 752 304 1095 290 138 631 568 234 584 645 478 998 959 981 795 14 249 505 838 59 396 772 863 1046 870 268 747 989 782 784 129 1128 957 1022 694 93 1058 122 851 194 384 1098 657 1086 634 767 570 1026 1005 1067 931 400 541 151 1028 815 326 1027 259 302 812 729 1130 1108 397 320 969 1125 470 16 786 355 492 162 792 489 687 69 353 915 988 629 665 308 480 593 232 688 512 294 465 464 1116 373 458 714 126 117 497 283 526 750 491 218 80 807 805 300 457 172 27 359 801 746 652 113 55 589 1018 1123 210 1075 680 708 890 311 222 104 101 881 484 118 849 230 971 240 1000 1093 682 375 905 852 707 1081 8 360 98 1088 250 721 817 1008 351 831 28 771 871 482 445 89 588 997 759 571 60 1107 1038 317 1023 168 295 340 277 490 415 270 926 476 1 1051 25 943 389 10 262 239 933 503 594 267 473 271 573 153 1110 173 365 1109 717 1085 356 33 483 196 705 919 107 1066 1111 382 1033 380 441 2 640 189 6 184 955 180 291 1056 364 814 354 737 468 1114 1016 677 135 718 26 797 45 338 830 514 607 279 252 523 1004 90 872 125 199 15 1050 41 612 44 661 1048 46 411 448 53 188 139 504 255 3 1119 963 865 1092 205 934 923 392 893 452 1087 280 610 1019 1039 200 532 1117 161 1124 154 361 840 542 181 341 636 68 675 820 381 406 649 198 76 204 524 367 387 685 722 155 24 1101 693 522 134 1089 712 788 987 61 322 1091 75 1040 776 463 939 337 618 31 1044 888 701 450 1014 1104 921 336 477 4 1129 325 555 420 506 600 1113 77 130 651 247 647 803 556 834 650 884 105 391 982 590 432 664 824 513 427 29 1037 1010 637 551 598 97 876 438 36 700 748 197 698 719 393 108 410 521 766 372 472 305 833 671 843 466 560 103 641 519</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>2895772758</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>91465608</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>6</u>
+  <u>3946481777</u>
+  <u2_ary>0 1 2 5 3 4</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>7</u>
+  <u>4277345875</u>
+  <u2_ary>0 3 4 6 1 2 5</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>8</u>
+  <u>1181861843</u>
+  <u2_ary>2 7 5 1 6 3</u2_ary>
+ </rec>
+ <yes/>
+ <rec type="LAND_UNIT_NAME_ALLOCATOR">
+  <ary type="LAND_UNIT_NAMES_MAP">
+   <xml_include path="unit_name_alloc/russia-land-0001.xml"/>
+   <xml_include path="unit_name_alloc/russia-land-0002.xml"/>
+   <xml_include path="unit_name_alloc/russia-land-0003.xml"/>
+   <xml_include path="unit_name_alloc/russia-land-0004.xml"/>
+   <xml_include path="unit_name_alloc/russia-land-0005.xml"/>
+   <xml_include path="unit_name_alloc/russia-land-0006.xml"/>
+   <xml_include path="unit_name_alloc/russia-land-0007.xml"/>
+   <xml_include path="unit_name_alloc/russia-land-0008.xml"/>
+   <xml_include path="unit_name_alloc/russia-land-0009.xml"/>
+   <xml_include path="unit_name_alloc/russia-land-0010.xml"/>
+   <xml_include path="unit_name_alloc/russia-land-0011.xml"/>
+   <xml_include path="unit_name_alloc/russia-land-0012.xml"/>
+   <xml_include path="unit_name_alloc/russia-land-0013.xml"/>
+   <xml_include path="unit_name_alloc/russia-land-0014.xml"/>
+   <xml_include path="unit_name_alloc/russia-land-0015.xml"/>
+   <xml_include path="unit_name_alloc/russia-land-0016.xml"/>
+   <xml_include path="unit_name_alloc/russia-land-0017.xml"/>
+   <xml_include path="unit_name_alloc/russia-land-0018.xml"/>
+   <xml_include path="unit_name_alloc/russia-land-0019.xml"/>
+   <xml_include path="unit_name_alloc/russia-land-0020.xml"/>
+   <xml_include path="unit_name_alloc/russia-land-0021.xml"/>
+   <xml_include path="unit_name_alloc/russia-land-0022.xml"/>
+   <xml_include path="unit_name_alloc/russia-land-0023.xml"/>
+  </ary>
+ </rec>
+ <yes/>
+ <xml_include path="unit_name_alloc/russia-naval-0001.xml"/>
+ <yes/><!-- True - Major, False - Minor -->
+ <ary type="CHARACTER_ARRAY">
+  <xml_include path="character/russia-colonel-0001.xml"/>
+  <xml_include path="character/russia-colonel-0002.xml"/>
+  <xml_include path="character/russia-admiral-0001.xml"/>
+  <xml_include path="character/russia-rake-0001.xml"/>
+  <xml_include path="character/russia-colonel-0003.xml"/>
+  <xml_include path="character/russia-General-0001.xml"/>
+  <xml_include path="character/russia-admiral-0002.xml"/>
+  <xml_include path="character/russia-colonel-0004.xml"/>
+  <xml_include path="character/russia-gentleman-0001.xml"/>
+  <xml_include path="character/russia-colonel-0005.xml"/>
+  <xml_include path="character/russia-rake-0002.xml"/>
+  <xml_include path="character/russia-General-0002.xml"/>
+  <xml_include path="character/russia-colonel-0006.xml"/>
+  <xml_include path="character/russia-minister-0001.xml"/>
+  <xml_include path="character/russia-minister-0002.xml"/>
+  <xml_include path="character/russia-gentleman-0002.xml"/>
+  <xml_include path="character/russia-minister-0003.xml"/>
+  <xml_include path="character/russia-minister-0004.xml"/>
+  <xml_include path="character/russia-minister-0005.xml"/>
+  <xml_include path="character/russia-minister-0006.xml"/>
+  <xml_include path="character/russia-minister-0007.xml"/>
+  <xml_include path="character/russia-minister-0008.xml"/>
+  <xml_include path="character/russia-minister-0009.xml"/>
+  <xml_include path="character/russia-minister-0010.xml"/>
+  <xml_include path="character/russia-minister-0011.xml"/>
+  <xml_include path="character/russia-minister-0012.xml"/>
+  <xml_include path="character/russia-minister-0013.xml"/>
+ </ary>
+ <xml_include path="technology/russia-russia.xml"/>
+ <ary type="ARMY_ARRAY">
+  <xml_include path="army/russia-0001.xml"/>
+  <xml_include path="army/russia-0002.xml"/>
+  <xml_include path="army/russia-0003.xml"/>
+  <xml_include path="army/russia-0004.xml"/>
+  <xml_include path="army/russia-0005.xml"/>
+  <xml_include path="army/russia-0006.xml"/>
+  <xml_include path="army/russia-0007.xml"/>
+  <xml_include path="army/russia-0008.xml"/>
+  <xml_include path="army/russia-0009.xml"/>
+  <xml_include path="army/russia-0010.xml"/>
+ </ary>
+ <ary type="MORGUE"/>
+ <u4_ary>641317936</u4_ary><!-- Governor ID For Each Theatre -->
+ <no/>
+ <s>rel_orthodox</s><!-- Religion -->
+ <no/>
+ <rec type="FORT_UPGRADE_MANAGER">
+  <ary type="FORT_UPGRADES_ARRAY"/>
+ </rec>
+ <rec type="FORT_UPGRADE_MANAGER">
+  <ary type="FORT_REPAIRS_ARRAY"/>
+ </rec>
+ <i>621603112</i><!-- Current Capital ID Else 0 If Faction Destroyed -->
+ <i>621603112</i><!-- Original Capital ID -->
+ <ary type="EXPOSED_CHARACTERS"/>
+ <no/>
+ <rec type="PRESTIGE">
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <u>20</u>
+  <u>5</u>
+  <u>0</u>
+  <u>5</u>
+  <u>130</u>
+ </rec>
+ <no/><!-- Emergent -->
+ <u>0</u>
+ <bool_ary>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</bool_ary>
+ <i>0</i><!-- Army Upkeep -->
+ <i>0</i><!-- Navy Upkeep -->
+ <s>FULL</s><!-- Campaign AI Manager Behaviour (patch.pack) -->
+ <s>continental_repressive</s><!-- Campaign AI Personalities (patch.pack) -->
+ <flag_and_colours path="data\ui\flags\russia" color1="#226a22" color2="#ffffff" color3="#226a22"/>
+ <flag_and_colours path="data\ui\flags\russia_republic" color1="#226a22" color2="#ffffff" color3="#226a22"/>
+ <rec type="CAMPAIGN_BONUS_VALUES">
+  <ary type="CAMPAIGN_BONUS_VALUE_BLOCK">
+   <campaign_bonus_0 subtype="2" value="1.0" agent="Eastern_Scholar"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="rake"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="assassin"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="gentleman"/>
+  </ary>
+ </rec>
+ <rec type="CAMPAIGN_BONUS_VALUES">
+  <ary type="CAMPAIGN_BONUS_VALUE_BLOCK">
+   <campaign_bonus_0 subtype="2" value="1.0" agent="Eastern_Scholar"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="rake"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="assassin"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="gentleman"/>
+  </ary>
+ </rec>
+ <i>0</i><!-- Protectorate ID -->
+ <no/>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <no/>
+ <yes/>
+ <no/>
+ <i>20</i>
+ <i>5</i>
+ <i>5</i>
+ <i>0</i>
+ <no/>
+ <no/>
+ <u>0</u>
+ <no/>
+ <no/>
+</rec>

@@ -1,0 +1,245 @@
+<?xml version="1.0"?>
+<rec type="FACTION">
+ <ancillary_uniqueness_monitor/>
+ <rec type="CAMPAIGN_PLAYER_SETUP">
+  <victory_conditions year="0" region_count="0" prestige_victory="no" campaign_type="4 (Unplayable)"/>
+  <rec type="CAMPAIGN_PLAYER_SETUP_INGAME_MODIFIABLES">
+   <i>0</i>
+   <i>0</i>
+   <i>0</i>
+   <no/>
+  </rec>
+  <s>ottomans</s>
+  <no/>
+  <yes/><!-- Playable -->
+  <no/>
+ </rec>
+ <rec type="FACTION_ECONOMICS">
+  <ary type="history">
+   <rec type="history">
+    <rec type="ECONOMICS_DATA">
+     <i4_ary>0 0 0 0 0</i4_ary>
+     <i4_ary>0 0 1551</i4_ary>
+     <i4_ary>0 0 314 3000</i4_ary>
+     <i4_ary>0</i4_ary>
+     <i4_ary>0 0 0 0 0</i4_ary>
+     <i4_ary>0 0 0 0 0 0 0</i4_ary>
+    </rec>
+   </rec>
+  </ary>
+  <i>5000</i>
+  <bin6>01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01</bin6>
+  <u>0</u>
+ </rec>
+ <xml_include path="diplomacy/ottomans.xml"/>
+ <rec type="ARMY_REINFORCEMENT_MANAGER">
+  <ary type="CHARACTER_REINFORCEMENTS_ARRAY"/>
+  <ary type="UNIT_REINFORCEMENTS_ARRAY"/>
+ </rec>
+ <xml_include path="government/ottomans-gov_absolute_monarchy.xml"/>
+ <xml_include path="family/ottomans.xml"/>
+ <i>619725520</i><!-- Faction ID -->
+ <s>ottomans</s><!-- Faction Name -->
+ <s>Ottoman Empire</s><!-- On Screen Name -->
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>118</u>
+  <u>1310792480</u>
+  <u2_ary>84 75 0 24 26 29 95 102 85 92 51 86 91 88 98 46 117 28 56 50 59 13 17 23 81 73 16 101 48 47 53 67 36 113 110 49 44 35 18 1 89 103 99 115 27 66 25 100 65 15 20 111 42 22 5 64</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>99</u>
+  <u>248003922</u>
+  <u2_ary>60 51 14 3 35 93 13 76 88 89 27 90 30 22 9 53 18 59 2 52 16 91 72 4 81 87 39 19 73 45 95 84 48 29 54 11 28 43 49 10 46 40 64 83 42 79 82 31 68 77 85 17 96 21 32 20 24 5 97 69 15 1 71 62 58 41 56 75 98 37 70 12 63 66 80 25 57 34 92 78 0 94 44 26 36 65 50 86 23 8 55 67 74 47 6 33 61 38 7</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>1</u>
+  <u>2037152602</u>
+  <u2_ary>0</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>455287708</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>54</u>
+  <u>1788690282</u>
+  <u2_ary>24 43 44 46 16 39 38 45 6 3 53 51 27 19 12 41 23 32 20 48 33 26 34 13 37 31 47 35 11 25 4 36 5 9 52 22 15 49 7 10 21 14 17 50 28 30</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>3484796135</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>2266206113</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>5</u>
+  <u>405791104</u>
+  <u2_ary>0 2 4 3 1</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>8</u>
+  <u>84497990</u>
+  <u2_ary>5 7 4 6 1 0</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>1139368067</u>
+  <u2_ary/>
+ </rec>
+ <yes/>
+ <rec type="LAND_UNIT_NAME_ALLOCATOR">
+  <ary type="LAND_UNIT_NAMES_MAP">
+   <xml_include path="unit_name_alloc/ottomans-land-0001.xml"/>
+   <xml_include path="unit_name_alloc/ottomans-land-0002.xml"/>
+   <xml_include path="unit_name_alloc/ottomans-land-0003.xml"/>
+   <xml_include path="unit_name_alloc/ottomans-land-0004.xml"/>
+   <xml_include path="unit_name_alloc/ottomans-land-0005.xml"/>
+   <xml_include path="unit_name_alloc/ottomans-land-0006.xml"/>
+   <xml_include path="unit_name_alloc/ottomans-land-0007.xml"/>
+   <xml_include path="unit_name_alloc/ottomans-land-0008.xml"/>
+   <xml_include path="unit_name_alloc/ottomans-land-0009.xml"/>
+   <xml_include path="unit_name_alloc/ottomans-land-0010.xml"/>
+   <xml_include path="unit_name_alloc/ottomans-land-0011.xml"/>
+   <xml_include path="unit_name_alloc/ottomans-land-0012.xml"/>
+   <xml_include path="unit_name_alloc/ottomans-land-0013.xml"/>
+   <xml_include path="unit_name_alloc/ottomans-land-0014.xml"/>
+   <xml_include path="unit_name_alloc/ottomans-land-0015.xml"/>
+   <xml_include path="unit_name_alloc/ottomans-land-0016.xml"/>
+   <xml_include path="unit_name_alloc/ottomans-land-0017.xml"/>
+   <xml_include path="unit_name_alloc/ottomans-land-0018.xml"/>
+   <xml_include path="unit_name_alloc/ottomans-land-0019.xml"/>
+   <xml_include path="unit_name_alloc/ottomans-land-0020.xml"/>
+   <xml_include path="unit_name_alloc/ottomans-land-0021.xml"/>
+   <xml_include path="unit_name_alloc/ottomans-land-0022.xml"/>
+   <xml_include path="unit_name_alloc/ottomans-land-0023.xml"/>
+  </ary>
+ </rec>
+ <yes/>
+ <xml_include path="unit_name_alloc/ottomans-naval-0001.xml"/>
+ <yes/><!-- True - Major, False - Minor -->
+ <ary type="CHARACTER_ARRAY">
+  <xml_include path="character/ottomans-captain-0001.xml"/>
+  <xml_include path="character/ottomans-General-0001.xml"/>
+  <xml_include path="character/ottomans-admiral-0001.xml"/>
+  <xml_include path="character/ottomans-Eastern_Scholar-0001.xml"/>
+  <xml_include path="character/ottomans-colonel-0001.xml"/>
+  <xml_include path="character/ottomans-captain-0002.xml"/>
+  <xml_include path="character/ottomans-General-0002.xml"/>
+  <xml_include path="character/ottomans-colonel-0002.xml"/>
+  <xml_include path="character/ottomans-assassin-0001.xml"/>
+  <xml_include path="character/ottomans-colonel-0003.xml"/>
+  <xml_include path="character/ottomans-admiral-0002.xml"/>
+  <xml_include path="character/ottomans-minister-0001.xml"/>
+  <xml_include path="character/ottomans-assassin-0002.xml"/>
+  <xml_include path="character/ottomans-Eastern_Scholar-0002.xml"/>
+  <xml_include path="character/ottomans-admiral-0003.xml"/>
+  <xml_include path="character/ottomans-captain-0003.xml"/>
+  <xml_include path="character/ottomans-colonel-0004.xml"/>
+  <xml_include path="character/ottomans-captain-0004.xml"/>
+  <xml_include path="character/ottomans-colonel-0005.xml"/>
+  <xml_include path="character/ottomans-minister-0002.xml"/>
+  <xml_include path="character/ottomans-minister-0003.xml"/>
+  <xml_include path="character/ottomans-minister-0004.xml"/>
+  <xml_include path="character/ottomans-minister-0005.xml"/>
+  <xml_include path="character/ottomans-minister-0006.xml"/>
+  <xml_include path="character/ottomans-minister-0007.xml"/>
+  <xml_include path="character/ottomans-minister-0008.xml"/>
+  <xml_include path="character/ottomans-minister-0009.xml"/>
+  <xml_include path="character/ottomans-minister-0010.xml"/>
+  <xml_include path="character/ottomans-minister-0011.xml"/>
+  <xml_include path="character/ottomans-minister-0012.xml"/>
+  <xml_include path="character/ottomans-minister-0013.xml"/>
+ </ary>
+ <xml_include path="technology/ottomans-ottomans.xml"/>
+ <ary type="ARMY_ARRAY">
+  <xml_include path="army/ottomans-0001.xml"/>
+  <xml_include path="army/ottomans-0002.xml"/>
+  <xml_include path="army/ottomans-0003.xml"/>
+  <xml_include path="army/ottomans-0004.xml"/>
+  <xml_include path="army/ottomans-0005.xml"/>
+  <xml_include path="army/ottomans-0006.xml"/>
+  <xml_include path="army/ottomans-0007.xml"/>
+  <xml_include path="army/ottomans-0008.xml"/>
+  <xml_include path="army/ottomans-0009.xml"/>
+  <xml_include path="army/ottomans-0010.xml"/>
+  <xml_include path="army/ottomans-0011.xml"/>
+  <xml_include path="army/ottomans-0012.xml"/>
+  <xml_include path="army/ottomans-0013.xml"/>
+  <xml_include path="army/ottomans-0014.xml"/>
+ </ary>
+ <ary type="MORGUE"/>
+ <u4_ary>638655864</u4_ary><!-- Governor ID For Each Theatre -->
+ <no/>
+ <s>rel_islamic</s><!-- Religion -->
+ <no/>
+ <rec type="FORT_UPGRADE_MANAGER">
+  <ary type="FORT_UPGRADES_ARRAY"/>
+ </rec>
+ <rec type="FORT_UPGRADE_MANAGER">
+  <ary type="FORT_REPAIRS_ARRAY"/>
+ </rec>
+ <i>587147488</i><!-- Current Capital ID Else 0 If Faction Destroyed -->
+ <i>587147488</i><!-- Original Capital ID -->
+ <ary type="EXPOSED_CHARACTERS"/>
+ <no/>
+ <rec type="PRESTIGE">
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <u>20</u>
+  <u>5</u>
+  <u>0</u>
+  <u>20</u>
+  <u>170</u>
+ </rec>
+ <no/><!-- Emergent -->
+ <u>0</u>
+ <bool_ary>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</bool_ary>
+ <i>0</i><!-- Army Upkeep -->
+ <i>0</i><!-- Navy Upkeep -->
+ <s>FULL</s><!-- Campaign AI Manager Behaviour (patch.pack) -->
+ <s>non_euro</s><!-- Campaign AI Personalities (patch.pack) -->
+ <flag_and_colours path="data\ui\flags\ottomans" color1="#860000" color2="#078607" color3="#078607"/>
+ <flag_and_colours path="data\ui\flags\ottoman_republic" color1="#860000" color2="#078607" color3="#078607"/>
+ <rec type="CAMPAIGN_BONUS_VALUES">
+  <ary type="CAMPAIGN_BONUS_VALUE_BLOCK">
+   <campaign_bonus_0 subtype="2" value="1.0" agent="Eastern_Scholar"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="rake"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="assassin"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="gentleman"/>
+  </ary>
+ </rec>
+ <rec type="CAMPAIGN_BONUS_VALUES">
+  <ary type="CAMPAIGN_BONUS_VALUE_BLOCK">
+   <campaign_bonus_0 subtype="2" value="1.0" agent="Eastern_Scholar"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="rake"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="assassin"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="gentleman"/>
+  </ary>
+ </rec>
+ <i>0</i><!-- Protectorate ID -->
+ <no/>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <no/>
+ <yes/>
+ <no/>
+ <i>20</i>
+ <i>5</i>
+ <i>20</i>
+ <i>0</i>
+ <no/>
+ <no/>
+ <u>0</u>
+ <no/>
+ <no/>
+</rec>

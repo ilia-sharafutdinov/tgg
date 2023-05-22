@@ -1,0 +1,231 @@
+<?xml version="1.0"?>
+<rec type="FACTION">
+ <ancillary_uniqueness_monitor/>
+ <rec type="CAMPAIGN_PLAYER_SETUP">
+  <victory_conditions year="0" region_count="0" prestige_victory="no" campaign_type="4 (Unplayable)"/>
+  <rec type="CAMPAIGN_PLAYER_SETUP_INGAME_MODIFIABLES">
+   <i>0</i>
+   <i>0</i>
+   <i>0</i>
+   <no/>
+  </rec>
+  <s>barbary_states</s>
+  <no/>
+  <yes/><!-- Playable -->
+  <no/>
+ </rec>
+ <rec type="FACTION_ECONOMICS">
+  <ary type="history">
+   <rec type="history">
+    <rec type="ECONOMICS_DATA">
+     <i4_ary>0 0 0 0 0</i4_ary>
+     <i4_ary>0 0 906</i4_ary>
+     <i4_ary>0 0 0 1750</i4_ary>
+     <i4_ary>0</i4_ary>
+     <i4_ary>0 0 0 0 0</i4_ary>
+     <i4_ary>0 0 0 0 0 0 130</i4_ary>
+    </rec>
+   </rec>
+  </ary>
+  <i>7500</i>
+  <bin6>01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01</bin6>
+  <u>0</u>
+ </rec>
+ <xml_include path="diplomacy/barbary_states.xml"/>
+ <rec type="ARMY_REINFORCEMENT_MANAGER">
+  <ary type="CHARACTER_REINFORCEMENTS_ARRAY"/>
+  <ary type="UNIT_REINFORCEMENTS_ARRAY"/>
+ </rec>
+ <xml_include path="government/barbary_states-gov_absolute_monarchy.xml"/>
+ <xml_include path="family/barbary_states.xml"/>
+ <i>666785096</i><!-- Faction ID -->
+ <s>barbary_states</s><!-- Faction Name -->
+ <s>Barbary States</s><!-- On Screen Name -->
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>24</u>
+  <u>4091429513</u>
+  <u2_ary>23 0 2 4 7 3 21 16 9 17 14 20 11 1 5 18</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>71</u>
+  <u>36737881</u>
+  <u2_ary>70 39 54 53 27 34 66 21 26 0 65 19 41 52 24 3 50 46 36 35 17 28 55 51 23 57 29 33 61 10 49 32 58 38 47 4 9 31 15 8 12 2 18 13 62 25 20 64 22 1 67 45 59 43 48 7 14 40 68 69 5 6 16 44 56 30 11 63 37 42 60</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>2962330801</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>2403662060</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>107</u>
+  <u>639707313</u>
+  <u2_ary>24 62 56 84 43 63 86 94 53 4 71 36 68 41 55 17 85 18 99 102 57 64 73 42 39 90 75 49 33 28 25 61 105 20 8 58 72 96 77 27 100 11 10 91 9 104 15 93 14 46 34 81 12 48 67 0 1 22 30 82 51 65 40 7 70 37 76 74 3 95 38 87 97 69 83</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>2481657603</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>4013990683</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>16</u>
+  <u>476320583</u>
+  <u2_ary>9 0 5 7 6 2 15 14 8 13 10 11 4 3 12 1</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>17</u>
+  <u>483965450</u>
+  <u2_ary>5 0 8 9 16 12 10 15 4 3 14 11 7 1 13</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>3984088464</u>
+  <u2_ary/>
+ </rec>
+ <yes/>
+ <rec type="LAND_UNIT_NAME_ALLOCATOR">
+  <ary type="LAND_UNIT_NAMES_MAP">
+   <xml_include path="unit_name_alloc/barbary_states-land-0001.xml"/>
+   <xml_include path="unit_name_alloc/barbary_states-land-0002.xml"/>
+   <xml_include path="unit_name_alloc/barbary_states-land-0003.xml"/>
+   <xml_include path="unit_name_alloc/barbary_states-land-0004.xml"/>
+   <xml_include path="unit_name_alloc/barbary_states-land-0005.xml"/>
+   <xml_include path="unit_name_alloc/barbary_states-land-0006.xml"/>
+   <xml_include path="unit_name_alloc/barbary_states-land-0007.xml"/>
+   <xml_include path="unit_name_alloc/barbary_states-land-0008.xml"/>
+   <xml_include path="unit_name_alloc/barbary_states-land-0009.xml"/>
+   <xml_include path="unit_name_alloc/barbary_states-land-0010.xml"/>
+   <xml_include path="unit_name_alloc/barbary_states-land-0011.xml"/>
+   <xml_include path="unit_name_alloc/barbary_states-land-0012.xml"/>
+   <xml_include path="unit_name_alloc/barbary_states-land-0013.xml"/>
+   <xml_include path="unit_name_alloc/barbary_states-land-0014.xml"/>
+   <xml_include path="unit_name_alloc/barbary_states-land-0015.xml"/>
+   <xml_include path="unit_name_alloc/barbary_states-land-0016.xml"/>
+   <xml_include path="unit_name_alloc/barbary_states-land-0017.xml"/>
+   <xml_include path="unit_name_alloc/barbary_states-land-0018.xml"/>
+   <xml_include path="unit_name_alloc/barbary_states-land-0019.xml"/>
+   <xml_include path="unit_name_alloc/barbary_states-land-0020.xml"/>
+   <xml_include path="unit_name_alloc/barbary_states-land-0021.xml"/>
+   <xml_include path="unit_name_alloc/barbary_states-land-0022.xml"/>
+   <xml_include path="unit_name_alloc/barbary_states-land-0023.xml"/>
+  </ary>
+ </rec>
+ <yes/>
+ <xml_include path="unit_name_alloc/barbary_states-naval-0001.xml"/>
+ <no/><!-- True - Major, False - Minor -->
+ <ary type="CHARACTER_ARRAY">
+  <xml_include path="character/barbary_states-admiral-0001.xml"/>
+  <xml_include path="character/barbary_states-admiral-0002.xml"/>
+  <xml_include path="character/barbary_states-captain-0001.xml"/>
+  <xml_include path="character/barbary_states-assassin-0001.xml"/>
+  <xml_include path="character/barbary_states-colonel-0001.xml"/>
+  <xml_include path="character/barbary_states-General-0001.xml"/>
+  <xml_include path="character/barbary_states-Eastern_Scholar-0001.xml"/>
+  <xml_include path="character/barbary_states-minister-0001.xml"/>
+  <xml_include path="character/barbary_states-colonel-0002.xml"/>
+  <xml_include path="character/barbary_states-admiral-0003.xml"/>
+  <xml_include path="character/barbary_states-minister-0002.xml"/>
+  <xml_include path="character/barbary_states-minister-0003.xml"/>
+  <xml_include path="character/barbary_states-minister-0004.xml"/>
+  <xml_include path="character/barbary_states-minister-0005.xml"/>
+  <xml_include path="character/barbary_states-minister-0006.xml"/>
+  <xml_include path="character/barbary_states-minister-0007.xml"/>
+  <xml_include path="character/barbary_states-minister-0008.xml"/>
+  <xml_include path="character/barbary_states-minister-0009.xml"/>
+  <xml_include path="character/barbary_states-minister-0010.xml"/>
+  <xml_include path="character/barbary_states-minister-0011.xml"/>
+  <xml_include path="character/barbary_states-minister-0012.xml"/>
+  <xml_include path="character/barbary_states-minister-0013.xml"/>
+ </ary>
+ <xml_include path="technology/barbary_states-barbary_states.xml"/>
+ <ary type="ARMY_ARRAY">
+  <xml_include path="army/barbary_states-0001.xml"/>
+  <xml_include path="army/barbary_states-0002.xml"/>
+  <xml_include path="army/barbary_states-0003.xml"/>
+  <xml_include path="army/barbary_states-0004.xml"/>
+  <xml_include path="army/barbary_states-0005.xml"/>
+  <xml_include path="army/barbary_states-0006.xml"/>
+  <xml_include path="army/barbary_states-0007.xml"/>
+ </ary>
+ <ary type="MORGUE"/>
+ <u4_ary>828223112</u4_ary><!-- Governor ID For Each Theatre -->
+ <no/>
+ <s>rel_islamic</s><!-- Religion -->
+ <no/>
+ <rec type="FORT_UPGRADE_MANAGER">
+  <ary type="FORT_UPGRADES_ARRAY"/>
+ </rec>
+ <rec type="FORT_UPGRADE_MANAGER">
+  <ary type="FORT_REPAIRS_ARRAY"/>
+ </rec>
+ <i>607474040</i><!-- Current Capital ID Else 0 If Faction Destroyed -->
+ <i>607474040</i><!-- Original Capital ID -->
+ <ary type="EXPOSED_CHARACTERS"/>
+ <no/>
+ <rec type="PRESTIGE">
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <u>20</u>
+ </rec>
+ <no/><!-- Emergent -->
+ <u>0</u>
+ <bool_ary>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</bool_ary>
+ <i>0</i><!-- Army Upkeep -->
+ <i>0</i><!-- Navy Upkeep -->
+ <s>pirates</s><!-- Campaign AI Manager Behaviour (patch.pack) -->
+ <s>pirates</s><!-- Campaign AI Personalities (patch.pack) -->
+ <flag_and_colours path="data\ui\flags\barbary_states" color1="#71685f" color2="#f2b978" color3="#aa7c3c"/>
+ <flag_and_colours path="data\ui\flags\barbary_republic" color1="#71685f" color2="#f2b978" color3="#aa7c3c"/>
+ <rec type="CAMPAIGN_BONUS_VALUES">
+  <ary type="CAMPAIGN_BONUS_VALUE_BLOCK">
+   <campaign_bonus_0 subtype="2" value="1.0" agent="Eastern_Scholar"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="rake"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="assassin"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="gentleman"/>
+   <campaign_bonus_1 subtype="63" value="-30.0"/>
+  </ary>
+ </rec>
+ <rec type="CAMPAIGN_BONUS_VALUES">
+  <ary type="CAMPAIGN_BONUS_VALUE_BLOCK">
+   <campaign_bonus_0 subtype="2" value="1.0" agent="Eastern_Scholar"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="rake"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="assassin"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="gentleman"/>
+   <campaign_bonus_1 subtype="63" value="-30.0"/>
+  </ary>
+ </rec>
+ <i>619725520</i><!-- Protectorate ID -->
+ <no/>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <no/>
+ <yes/>
+ <no/>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <no/>
+ <no/>
+ <u>0</u>
+ <no/>
+ <no/>
+</rec>

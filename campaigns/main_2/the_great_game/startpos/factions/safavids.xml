@@ -1,0 +1,219 @@
+<?xml version="1.0"?>
+<rec type="FACTION">
+ <ancillary_uniqueness_monitor/>
+ <rec type="CAMPAIGN_PLAYER_SETUP">
+  <victory_conditions year="0" region_count="0" prestige_victory="no" campaign_type="4 (Unplayable)"/>
+  <rec type="CAMPAIGN_PLAYER_SETUP_INGAME_MODIFIABLES">
+   <i>0</i>
+   <i>0</i>
+   <i>0</i>
+   <no/>
+  </rec>
+  <s>safavids</s>
+  <no/>
+  <yes/><!-- Playable -->
+  <no/>
+ </rec>
+ <rec type="FACTION_ECONOMICS">
+  <ary type="history">
+   <rec type="history">
+    <rec type="ECONOMICS_DATA">
+     <i4_ary>0 0 0 0 0</i4_ary>
+     <i4_ary>0 0 937</i4_ary>
+     <i4_ary>0 0 0 1750</i4_ary>
+     <i4_ary>0</i4_ary>
+     <i4_ary>0 0 0 0 0</i4_ary>
+     <i4_ary>0 0 0 0 0 0 0</i4_ary>
+    </rec>
+   </rec>
+  </ary>
+  <i>5000</i>
+  <bin6>01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01</bin6>
+  <u>0</u>
+ </rec>
+ <xml_include path="diplomacy/safavids.xml"/>
+ <rec type="ARMY_REINFORCEMENT_MANAGER">
+  <ary type="CHARACTER_REINFORCEMENTS_ARRAY"/>
+  <ary type="UNIT_REINFORCEMENTS_ARRAY"/>
+ </rec>
+ <xml_include path="government/safavids-gov_absolute_monarchy.xml"/>
+ <xml_include path="family/safavids.xml"/>
+ <i>597701888</i><!-- Faction ID -->
+ <s>safavids</s><!-- Faction Name -->
+ <s>Persia</s><!-- On Screen Name -->
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>432</u>
+  <u>1431341400</u>
+  <u2_ary>227 135 381 56 270 379 182 308 407 304 144 346 175 86 70 92 169 138 242 192 399 83 351 289 30 34 372 128 313 294 396 66 160 401 392 5 267 302 408 103 181 256 25 221 277 314 285 220 88 131 187 393 344 281 199 55 230 226 336 266 263 153 350 280 38 28 197 37 73 371 84 82 85 94 395 188 370 330 119 352 52 388 46 338 337 0 87 60 162 290 235 373 237 154 207 217 303 61 75 287 342 252 26 174 189 426 150 117 415 74 417 231 179 233 273 332 421 158 428 107 142 329 321 1 324 243 23 269 104 95 257 194 89 374 251 232 331 151 225 147 402 276 410 420 72 10 33 366 12 100 127 9 35 125 296 96 376 210 99 391 41 47 79 246 126 59 265 394 20 191 414 427 368 45 134 301 114 215 299 124 268 69 369 11 173 50 310 81 422 333 431 248 418 423 309 353 403 213 389 247 139 424 341 183 168 109 19 27 198 315 297 356 316 165 8 349 113 49 355 259 327 425 322 163 318 359 120 159 17 382 264 111 171 22 214 317 400 177 195 115 2 398 229 148 339 335 101 364 157 385 178 387 102 208 40 166 14 43 345 164 32 123 397 176 132 326 323 275 325 172 306 278 223 244 201 91 53 378 358 254 121 284 145 236 116 411 149 108 204 343 180 200 241 137 300 78 184 156 80 185 365 347 222 122 249 363 384 170 44 274 48 21 63 430 4 216 7 380 240 307 205 383 419 255 360 57 234 416 328 24 245 362 65 361 367 77 54 196 413 262 106 250 29 130 271 224 118 155 13 202 258 319 212 218 286 68 219 67 110 76 334 357 206 288 161 272 105 312 167 15 295 253 51 320 140 16 390 228 98 58 97 429 261 186 71 141 62 386 143 146 18 211 193 6 282 298 239 311 112 279 293 412 348 375 405 133 404 260 90</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>461</u>
+  <u>4135181642</u>
+  <u2_ary>191 341 258 94 106 124 72 4 52 273 243 133 26 220 125 286 152 251 422 351 90 335 389 100 437 242 55 147 107 98 360 49 7 164 366 154 88 65 343 402 256 176 382 74 391 305 344 393 246 241 417 284 148 356 35 267 198 332 175 287 446 73 118 146 70 255 272 171 451 144 143 77 354 221 213 14 137 197 408 5 128 84 40 168 411 388 224 185 407 419 132 307 71 250 114 149 130 217 423 261 409 43 301 127 374 102 68 308 45 320 327 85 36 456 110 11 113 121 364 180 244 333 363 207 233 329 33 234 47 228 23 380 387 392 428 245 290 297 34 262 296 415 216 395 274 304 353 31 120 67 138 236 434 321 157 46 111 91 334 385 458 336 292 349 361 140 279 131 350 459 438 271 15 145 3 414 285 87 86 129 375 215 362 319 13 188 303 103 310 384 123 340 416 182 169 358 109 401 441 394 412 16 379 371 445 346 454 331 342 410 186 203 183 165 167 406 299 97 17 330 57 37 265 2 163 64 338 430 142 323 60 159 179 390 66 212 266 337 442 105 196 460 232 424 367 457 432 300 8 170 21 440 237 209 239 426 252 195 418 6 312 108 326 315 429 61 119 345 151 400 257 291 181 201 184 29 75 48 104 0 194 92 386 1 76 318 227 348 431 235 405 282 444 231 18 369 226 325 225 373 378 27 187 404 22 192 249 317 58 79 53 93 397 277 139 51 420 240 173 136 161 126 83 211 269 189 398 450 328 306 425 44 339 214 309 81 174 253 25 259 295 95 199 229 359 436 270 433 280 222 210 24 41 204 455 78 247 193 254 322 435 30 89 368 288 294 59 62 278 50 135 275 223 96 421 19 383 160 447 101 427 20 264 158 452 10 112 372 376 347 99 190 177 448 311 82 150 153 443 42 39 289 200 281 316 63 403 202 219 268 166 355 396 115 205 260 12 38 172 54 155 365 32 141 28 302 69 9 248 178 293 399 56 283 381 117 162 156 80 218 238 357 122 453 230 413 324 314 298 313 370 206 276 449 263 439 134 116 208 377 352</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>2150579492</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>552390009</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>334</u>
+  <u>1208280253</u>
+  <u2_ary>55 105 114 171 64 5 7 97 9 47 226 82 136 325 137 241 191 270 154 209 69 250 222 143 0 89 265 287 310 99 160 91 269 35 225 186 173 113 185 256 161 275 223 187 22 201 16 142 59 129 207 156 240 112 65 107 248 146 233 258 323 199 284 268 70 319 57 303 183 140 309 75 249 2 128 130 330 79 197 28 144 10 217 165 93 18 261 194 92 102 118 246 327 229 85 239 292 174 271 324 282 188 260 308 24 71 276 215 317 251 31 234 262 34 45 40 302 224 296 66 166 168 86 321 17 288 108 131 119 291 294 206 237 202 190 313 145 298 60 49 110 196 219 163 216 133 177 218 152 273 90 77 167 266 328 94 117 63 121 176 98 38 235 138 135 153 169 32 123 43 280 58 122 53 106 285 210 305 147 83 172 76 255 72 252 124 232 195 50 264 155 61 33 81 48 126 200 272 274 208 39 278 46 74 96 193 36 127 312 301 211 88 80 78 111 84 283 6 293 281 316 100 175 21 20 242 320 306 51 297 254 181 311 3 104 300 221 52 164 120 326 178 62 227 12 203 134 230 245 279 236 192 125 179 141 220 87 159 257 333 184 11 214 212 170 44 41 295 299 332 158 109 73 13 157 162 151 30 244 314 37 322 115 329 149 267 29 290 204 253 289 25 139 56 318 286 27 205 231 54 132 14 23 68 67 331 148 243 103 228 15</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>2</u>
+  <u>3433004989</u>
+  <u2_ary>0 1</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>297774140</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>17</u>
+  <u>3234127311</u>
+  <u2_ary>8 0 2 6 14 12 10 9 1 15 16 11 13 7 4 3 5</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>17</u>
+  <u>1789753574</u>
+  <u2_ary>0 7 8 1 4 3 2 9 16 12 14 15 11 6 5</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>4174833648</u>
+  <u2_ary/>
+ </rec>
+ <yes/>
+ <rec type="LAND_UNIT_NAME_ALLOCATOR">
+  <ary type="LAND_UNIT_NAMES_MAP">
+   <xml_include path="unit_name_alloc/safavids-land-0001.xml"/>
+   <xml_include path="unit_name_alloc/safavids-land-0002.xml"/>
+   <xml_include path="unit_name_alloc/safavids-land-0003.xml"/>
+   <xml_include path="unit_name_alloc/safavids-land-0004.xml"/>
+   <xml_include path="unit_name_alloc/safavids-land-0005.xml"/>
+   <xml_include path="unit_name_alloc/safavids-land-0006.xml"/>
+   <xml_include path="unit_name_alloc/safavids-land-0007.xml"/>
+   <xml_include path="unit_name_alloc/safavids-land-0008.xml"/>
+   <xml_include path="unit_name_alloc/safavids-land-0009.xml"/>
+   <xml_include path="unit_name_alloc/safavids-land-0010.xml"/>
+   <xml_include path="unit_name_alloc/safavids-land-0011.xml"/>
+   <xml_include path="unit_name_alloc/safavids-land-0012.xml"/>
+   <xml_include path="unit_name_alloc/safavids-land-0013.xml"/>
+   <xml_include path="unit_name_alloc/safavids-land-0014.xml"/>
+   <xml_include path="unit_name_alloc/safavids-land-0015.xml"/>
+   <xml_include path="unit_name_alloc/safavids-land-0016.xml"/>
+   <xml_include path="unit_name_alloc/safavids-land-0017.xml"/>
+   <xml_include path="unit_name_alloc/safavids-land-0018.xml"/>
+   <xml_include path="unit_name_alloc/safavids-land-0019.xml"/>
+   <xml_include path="unit_name_alloc/safavids-land-0020.xml"/>
+   <xml_include path="unit_name_alloc/safavids-land-0021.xml"/>
+   <xml_include path="unit_name_alloc/safavids-land-0022.xml"/>
+   <xml_include path="unit_name_alloc/safavids-land-0023.xml"/>
+  </ary>
+ </rec>
+ <yes/>
+ <xml_include path="unit_name_alloc/safavids-naval-0001.xml"/>
+ <no/><!-- True - Major, False - Minor -->
+ <ary type="CHARACTER_ARRAY">
+  <xml_include path="character/safavids-General-0001.xml"/>
+  <xml_include path="character/safavids-colonel-0001.xml"/>
+  <xml_include path="character/safavids-minister-0001.xml"/>
+  <xml_include path="character/safavids-Eastern_Scholar-0001.xml"/>
+  <xml_include path="character/safavids-assassin-0001.xml"/>
+  <xml_include path="character/safavids-minister-0002.xml"/>
+  <xml_include path="character/safavids-minister-0003.xml"/>
+  <xml_include path="character/safavids-minister-0004.xml"/>
+  <xml_include path="character/safavids-minister-0005.xml"/>
+  <xml_include path="character/safavids-minister-0006.xml"/>
+  <xml_include path="character/safavids-minister-0007.xml"/>
+  <xml_include path="character/safavids-minister-0008.xml"/>
+  <xml_include path="character/safavids-minister-0009.xml"/>
+  <xml_include path="character/safavids-minister-0010.xml"/>
+  <xml_include path="character/safavids-minister-0011.xml"/>
+  <xml_include path="character/safavids-minister-0012.xml"/>
+  <xml_include path="character/safavids-minister-0013.xml"/>
+ </ary>
+ <xml_include path="technology/safavids-safavids.xml"/>
+ <ary type="ARMY_ARRAY">
+  <xml_include path="army/safavids-0001.xml"/>
+  <xml_include path="army/safavids-0002.xml"/>
+ </ary>
+ <ary type="MORGUE"/>
+ <u4_ary>625123928</u4_ary><!-- Governor ID For Each Theatre -->
+ <no/>
+ <s>rel_islamic</s><!-- Religion -->
+ <no/>
+ <rec type="FORT_UPGRADE_MANAGER">
+  <ary type="FORT_UPGRADES_ARRAY"/>
+ </rec>
+ <rec type="FORT_UPGRADE_MANAGER">
+  <ary type="FORT_REPAIRS_ARRAY"/>
+ </rec>
+ <i>600365192</i><!-- Current Capital ID Else 0 If Faction Destroyed -->
+ <i>600365192</i><!-- Original Capital ID -->
+ <ary type="EXPOSED_CHARACTERS"/>
+ <no/>
+ <rec type="PRESTIGE">
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <u>35</u>
+ </rec>
+ <no/><!-- Emergent -->
+ <u>0</u>
+ <bool_ary>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</bool_ary>
+ <i>0</i><!-- Army Upkeep -->
+ <i>0</i><!-- Navy Upkeep -->
+ <s>MAINTAINANCE</s><!-- Campaign AI Manager Behaviour (patch.pack) -->
+ <s>non_euro</s><!-- Campaign AI Personalities (patch.pack) -->
+ <flag_and_colours path="data\ui\flags\safavids" color1="#f7e383" color2="#fa83c6" color3="#8d905f"/>
+ <flag_and_colours path="data\ui\flags\safavids" color1="#f7e383" color2="#fa83c6" color3="#8d905f"/>
+ <rec type="CAMPAIGN_BONUS_VALUES">
+  <ary type="CAMPAIGN_BONUS_VALUE_BLOCK">
+   <campaign_bonus_0 subtype="2" value="1.0" agent="Eastern_Scholar"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="rake"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="assassin"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="gentleman"/>
+  </ary>
+ </rec>
+ <rec type="CAMPAIGN_BONUS_VALUES">
+  <ary type="CAMPAIGN_BONUS_VALUE_BLOCK">
+   <campaign_bonus_0 subtype="2" value="1.0" agent="Eastern_Scholar"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="rake"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="assassin"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="gentleman"/>
+  </ary>
+ </rec>
+ <i>0</i><!-- Protectorate ID -->
+ <no/>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <no/>
+ <yes/>
+ <no/>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <no/>
+ <no/>
+ <u>0</u>
+ <no/>
+ <no/>
+</rec>

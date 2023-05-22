@@ -1,0 +1,215 @@
+<?xml version="1.0"?>
+<rec type="FACTION">
+ <ancillary_uniqueness_monitor/>
+ <rec type="CAMPAIGN_PLAYER_SETUP">
+  <victory_conditions year="0" region_count="0" prestige_victory="no" campaign_type="4 (Unplayable)"/>
+  <rec type="CAMPAIGN_PLAYER_SETUP_INGAME_MODIFIABLES">
+   <i>0</i>
+   <i>0</i>
+   <i>0</i>
+   <no/>
+  </rec>
+  <s>punjab</s>
+  <no/>
+  <yes/><!-- Playable -->
+  <no/>
+ </rec>
+ <rec type="FACTION_ECONOMICS">
+  <ary type="history">
+   <rec type="history">
+    <rec type="ECONOMICS_DATA">
+     <i4_ary>0 0 0 0 0</i4_ary>
+     <i4_ary>0 0 0</i4_ary>
+     <i4_ary>0 0 0 1750</i4_ary>
+     <i4_ary>0</i4_ary>
+     <i4_ary>0 0 0 0 0</i4_ary>
+     <i4_ary>0 0 0 0 0 0 0</i4_ary>
+    </rec>
+   </rec>
+  </ary>
+  <i>5000</i>
+  <bin6>01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01</bin6>
+  <u>0</u>
+ </rec>
+ <xml_include path="diplomacy/punjab.xml"/>
+ <rec type="ARMY_REINFORCEMENT_MANAGER">
+  <ary type="CHARACTER_REINFORCEMENTS_ARRAY"/>
+  <ary type="UNIT_REINFORCEMENTS_ARRAY"/>
+ </rec>
+ <xml_include path="government/punjab-gov_absolute_monarchy.xml"/>
+ <xml_include path="family/punjab.xml"/>
+ <i>599599944</i><!-- Faction ID -->
+ <s>punjab</s><!-- Faction Name -->
+ <s>Punjab</s><!-- On Screen Name -->
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>201</u>
+  <u>1980772372</u>
+  <u2_ary>109 179 35 99 200 195 170 81 4 10 12 194 19 24 21 167 60 27 61 25 36 127 28 173 103 189 57 160 118 106 148 22 51 42 84 68 128 190 105 44 198 45 140 141 2 62 110 146 74 39 91 58 71 151 0 142 38 132 108 50 159 34 161 163 171 125 129 199 97 69 178 80 165 177 63 196 113 6 187 176 143 193 147 192 47 149 135 157 164 76 95 79 14 115 92 37 122 49 101 78 8 90 131 52 1 154 188 184 9 18 89 94 66 139 130 29 134 169 43 162 182 5 119 186 20 40 145 88 77 96 114 54 73 55 124 82 3 65 17 75 83 112 120 41 150 67 166 15 100 48 158 23 138 111 30 197 53 70 117 144 156 180 26 46 85 98 86 116 32 185 175 93 155 168 172 152 104 102 7 133 121 126 56 31</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>106</u>
+  <u>4245243925</u>
+  <u2_ary>69 2 92 62 81 8 66 24 103 38 86 7 13 89 97 43 102 83 41 9 32 56 78 100 64 61 4 60 87 28 76 3 48 74 72 18 14 23 93 71 96 30 70 57 77 33 16 80 67 39 31 10 27 22 49 36 5 53 50 79 21 44 47 84 6 105 90 12 91 55 42 11 0 82 95 25 17 63 65 45 101 58 19 20 37 29 104 75 88 15 99 68 59 34 35 26 85 1 51 98 46</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>1</u>
+  <u>3001400369</u>
+  <u2_ary>0</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>526768050</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>359</u>
+  <u>923428950</u>
+  <u2_ary>324 264 85 50 49 101 11 206 208 214 9 152 136 336 229 33 266 107 339 292 218 132 181 150 31 199 27 340 191 278 122 352 185 4 204 131 78 12 328 169 195 237 82 268 326 187 350 342 334 304 129 235 332 263 212 72 68 147 126 113 71 244 243 311 124 38 242 120 102 346 338 14 159 329 32 293 46 180 104 226 323 193 133 115 252 145 178 163 275 305 41 194 248 295 310 290 96 222 345 239 251 3 26 21 1 220 171 30 70 168 325 246 165 54 230 215 184 308 273 271 160 234 294 231 146 196 42 318 313 267 62 285 149 333 261 34 166 111 257 91 216 0 258 330 138 162 35 240 223 287 94 270 139 125 221 158 283 118 60 202 177 66 108 358 203 228 48 316 76 172 265 272 144 142 225 175 127 207 153 141 188 296 99 213 186 130 291 44 92 344 134 198 241 97 40 321 80 100 45 84 174 164 179 89 341 238 106 140 117 357 105 314 299 20 284 6 355 83 302 189 65 301 5 98 245 93 182 53 247 274 110 36 55 300 351 29 64 319 123 155 279 335 28 67 297 74 217 219 170 73 18 347 154 192 286 288 43 81 17 39 56 58 8 320 254 309 343 348 15 197 47 209 167 19 51 303 277 52 173 2 63 16 211 337 232 112 119 135 307 253 37 176 317 210 59 255 298 236 57 128 233 88 13 86 224 260 269 148 282 227 121 354 114 281 10 22 280 315 90 250 25 349 353 151 109 95 289 24 259 200 75 322 23 77 69 143 79 183 256 356 205 306</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>7</u>
+  <u>2042776541</u>
+  <u2_ary>6 2 4 5 3 0 1</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>153410176</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>18</u>
+  <u>1653332482</u>
+  <u2_ary>11 1 9 8 2 13 5 10 3 4 7 15 6 17 16 12 0 14</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>8</u>
+  <u>2378127322</u>
+  <u2_ary>4 1 7 0 5 6 2</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>2063321789</u>
+  <u2_ary/>
+ </rec>
+ <yes/>
+ <rec type="LAND_UNIT_NAME_ALLOCATOR">
+  <ary type="LAND_UNIT_NAMES_MAP">
+   <xml_include path="unit_name_alloc/punjab-land-0001.xml"/>
+   <xml_include path="unit_name_alloc/punjab-land-0002.xml"/>
+   <xml_include path="unit_name_alloc/punjab-land-0003.xml"/>
+   <xml_include path="unit_name_alloc/punjab-land-0004.xml"/>
+   <xml_include path="unit_name_alloc/punjab-land-0005.xml"/>
+   <xml_include path="unit_name_alloc/punjab-land-0006.xml"/>
+   <xml_include path="unit_name_alloc/punjab-land-0007.xml"/>
+   <xml_include path="unit_name_alloc/punjab-land-0008.xml"/>
+   <xml_include path="unit_name_alloc/punjab-land-0009.xml"/>
+   <xml_include path="unit_name_alloc/punjab-land-0010.xml"/>
+   <xml_include path="unit_name_alloc/punjab-land-0011.xml"/>
+   <xml_include path="unit_name_alloc/punjab-land-0012.xml"/>
+   <xml_include path="unit_name_alloc/punjab-land-0013.xml"/>
+   <xml_include path="unit_name_alloc/punjab-land-0014.xml"/>
+   <xml_include path="unit_name_alloc/punjab-land-0015.xml"/>
+   <xml_include path="unit_name_alloc/punjab-land-0016.xml"/>
+   <xml_include path="unit_name_alloc/punjab-land-0017.xml"/>
+   <xml_include path="unit_name_alloc/punjab-land-0018.xml"/>
+   <xml_include path="unit_name_alloc/punjab-land-0019.xml"/>
+   <xml_include path="unit_name_alloc/punjab-land-0020.xml"/>
+   <xml_include path="unit_name_alloc/punjab-land-0021.xml"/>
+   <xml_include path="unit_name_alloc/punjab-land-0022.xml"/>
+   <xml_include path="unit_name_alloc/punjab-land-0023.xml"/>
+  </ary>
+ </rec>
+ <yes/>
+ <xml_include path="unit_name_alloc/punjab-naval-0001.xml"/>
+ <no/><!-- True - Major, False - Minor -->
+ <ary type="CHARACTER_ARRAY">
+  <xml_include path="character/punjab-General-0001.xml"/>
+  <xml_include path="character/punjab-minister-0001.xml"/>
+  <xml_include path="character/punjab-minister-0002.xml"/>
+  <xml_include path="character/punjab-minister-0003.xml"/>
+  <xml_include path="character/punjab-minister-0004.xml"/>
+  <xml_include path="character/punjab-minister-0005.xml"/>
+  <xml_include path="character/punjab-minister-0006.xml"/>
+  <xml_include path="character/punjab-minister-0007.xml"/>
+  <xml_include path="character/punjab-minister-0008.xml"/>
+  <xml_include path="character/punjab-minister-0009.xml"/>
+  <xml_include path="character/punjab-minister-0010.xml"/>
+  <xml_include path="character/punjab-minister-0011.xml"/>
+  <xml_include path="character/punjab-minister-0012.xml"/>
+  <xml_include path="character/punjab-minister-0013.xml"/>
+ </ary>
+ <xml_include path="technology/punjab-punjab.xml"/>
+ <ary type="ARMY_ARRAY">
+  <xml_include path="army/punjab-0001.xml"/>
+ </ary>
+ <ary type="MORGUE"/>
+ <u4_ary>664458800</u4_ary><!-- Governor ID For Each Theatre -->
+ <no/>
+ <s>rel_sikh</s><!-- Religion -->
+ <no/>
+ <rec type="FORT_UPGRADE_MANAGER">
+  <ary type="FORT_UPGRADES_ARRAY"/>
+ </rec>
+ <rec type="FORT_UPGRADE_MANAGER">
+  <ary type="FORT_REPAIRS_ARRAY"/>
+ </rec>
+ <i>616211704</i><!-- Current Capital ID Else 0 If Faction Destroyed -->
+ <i>616211704</i><!-- Original Capital ID -->
+ <ary type="EXPOSED_CHARACTERS"/>
+ <no/>
+ <rec type="PRESTIGE">
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <u>15</u>
+ </rec>
+ <no/><!-- Emergent -->
+ <u>0</u>
+ <bool_ary>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</bool_ary>
+ <i>0</i><!-- Army Upkeep -->
+ <i>0</i><!-- Navy Upkeep -->
+ <s>MAINTAINANCE</s><!-- Campaign AI Manager Behaviour (patch.pack) -->
+ <s>non_euro</s><!-- Campaign AI Personalities (patch.pack) -->
+ <flag_and_colours path="data\ui\flags\punjab" color1="#ffeb97" color2="#5f0d11" color3="#415835"/>
+ <flag_and_colours path="data\ui\flags\punjab" color1="#ffeb97" color2="#5f0d11" color3="#415835"/>
+ <rec type="CAMPAIGN_BONUS_VALUES">
+  <ary type="CAMPAIGN_BONUS_VALUE_BLOCK">
+   <campaign_bonus_0 subtype="2" value="1.0" agent="Eastern_Scholar"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="rake"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="assassin"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="gentleman"/>
+  </ary>
+ </rec>
+ <rec type="CAMPAIGN_BONUS_VALUES">
+  <ary type="CAMPAIGN_BONUS_VALUE_BLOCK">
+   <campaign_bonus_0 subtype="2" value="1.0" agent="Eastern_Scholar"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="rake"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="assassin"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="gentleman"/>
+  </ary>
+ </rec>
+ <i>0</i><!-- Protectorate ID -->
+ <no/>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <no/>
+ <no/>
+ <no/>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <no/>
+ <no/>
+ <u>0</u>
+ <no/>
+ <no/>
+</rec>

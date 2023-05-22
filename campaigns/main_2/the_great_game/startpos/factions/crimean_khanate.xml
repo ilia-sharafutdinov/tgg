@@ -1,0 +1,219 @@
+<?xml version="1.0"?>
+<rec type="FACTION">
+ <ancillary_uniqueness_monitor/>
+ <rec type="CAMPAIGN_PLAYER_SETUP">
+  <victory_conditions year="0" region_count="0" prestige_victory="no" campaign_type="4 (Unplayable)"/>
+  <rec type="CAMPAIGN_PLAYER_SETUP_INGAME_MODIFIABLES">
+   <i>0</i>
+   <i>0</i>
+   <i>0</i>
+   <no/>
+  </rec>
+  <s>crimean_khanate</s>
+  <no/>
+  <yes/><!-- Playable -->
+  <no/>
+ </rec>
+ <rec type="FACTION_ECONOMICS">
+  <ary type="history">
+   <rec type="history">
+    <rec type="ECONOMICS_DATA">
+     <i4_ary>0 0 0 0 0</i4_ary>
+     <i4_ary>0 0 883</i4_ary>
+     <i4_ary>0 0 0 1750</i4_ary>
+     <i4_ary>0</i4_ary>
+     <i4_ary>0 0 0 0 0</i4_ary>
+     <i4_ary>0 0 0 0 0 0 50</i4_ary>
+    </rec>
+   </rec>
+  </ary>
+  <i>5000</i>
+  <bin6>01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01</bin6>
+  <u>0</u>
+ </rec>
+ <xml_include path="diplomacy/crimean_khanate.xml"/>
+ <rec type="ARMY_REINFORCEMENT_MANAGER">
+  <ary type="CHARACTER_REINFORCEMENTS_ARRAY"/>
+  <ary type="UNIT_REINFORCEMENTS_ARRAY"/>
+ </rec>
+ <xml_include path="government/crimean_khanate-gov_absolute_monarchy.xml"/>
+ <xml_include path="family/crimean_khanate.xml"/>
+ <i>644452408</i><!-- Faction ID -->
+ <s>crimean_khanate</s><!-- Faction Name -->
+ <s>Crimean Khanate</s><!-- On Screen Name -->
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>24</u>
+  <u>873469110</u>
+  <u2_ary>2 11 8 0 9 3</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>71</u>
+  <u>697336411</u>
+  <u2_ary>64 5 10 26 67 42 30 17 49 24 8 69 39 7 23 62 22 31 32 0 9 16 2 61 63 43 20 55 14 33 53 47 56 54 18 45 15 19 4 25 52 27 60 28 68 37 70 29 58 3 41 46 51 35 38 44 21 66 1 50 6 59 57 40 34 48 65 13 11 12 36</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>2506328699</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>1140985360</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>107</u>
+  <u>3387146606</u>
+  <u2_ary>79 13 20 14 23 58 105 1 92 46 64 41 8 32 48 75 82 63 10 40 73 22 3 7 29 84 30 24 26 54 81 47 65 31 50 44 27 33 68 83 60 102 70 37 85 11 49 93 51 69 0 94 45 61 4 62 38 90 2 88 76 100 103 53 36 25 87 16 5 98 42 89 55 21 19 66 59 12 91 28 57 17 71 80 95 106 74 67 77</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>1018415512</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>1202347490</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>16</u>
+  <u>4231119067</u>
+  <u2_ary>15 14 7 4 10 8 12 1 6 0 13 11 3 9 2 5</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>11</u>
+  <u>1042325367</u>
+  <u2_ary>3 7 0 8 1 10 6 9 4 2</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>3196948650</u>
+  <u2_ary/>
+ </rec>
+ <yes/>
+ <rec type="LAND_UNIT_NAME_ALLOCATOR">
+  <ary type="LAND_UNIT_NAMES_MAP">
+   <xml_include path="unit_name_alloc/crimean_khanate-land-0001.xml"/>
+   <xml_include path="unit_name_alloc/crimean_khanate-land-0002.xml"/>
+   <xml_include path="unit_name_alloc/crimean_khanate-land-0003.xml"/>
+   <xml_include path="unit_name_alloc/crimean_khanate-land-0004.xml"/>
+   <xml_include path="unit_name_alloc/crimean_khanate-land-0005.xml"/>
+   <xml_include path="unit_name_alloc/crimean_khanate-land-0006.xml"/>
+   <xml_include path="unit_name_alloc/crimean_khanate-land-0007.xml"/>
+   <xml_include path="unit_name_alloc/crimean_khanate-land-0008.xml"/>
+   <xml_include path="unit_name_alloc/crimean_khanate-land-0009.xml"/>
+   <xml_include path="unit_name_alloc/crimean_khanate-land-0010.xml"/>
+   <xml_include path="unit_name_alloc/crimean_khanate-land-0011.xml"/>
+   <xml_include path="unit_name_alloc/crimean_khanate-land-0012.xml"/>
+   <xml_include path="unit_name_alloc/crimean_khanate-land-0013.xml"/>
+   <xml_include path="unit_name_alloc/crimean_khanate-land-0014.xml"/>
+   <xml_include path="unit_name_alloc/crimean_khanate-land-0015.xml"/>
+   <xml_include path="unit_name_alloc/crimean_khanate-land-0016.xml"/>
+   <xml_include path="unit_name_alloc/crimean_khanate-land-0017.xml"/>
+   <xml_include path="unit_name_alloc/crimean_khanate-land-0018.xml"/>
+   <xml_include path="unit_name_alloc/crimean_khanate-land-0019.xml"/>
+   <xml_include path="unit_name_alloc/crimean_khanate-land-0020.xml"/>
+   <xml_include path="unit_name_alloc/crimean_khanate-land-0021.xml"/>
+   <xml_include path="unit_name_alloc/crimean_khanate-land-0022.xml"/>
+   <xml_include path="unit_name_alloc/crimean_khanate-land-0023.xml"/>
+  </ary>
+ </rec>
+ <yes/>
+ <xml_include path="unit_name_alloc/crimean_khanate-naval-0001.xml"/>
+ <no/><!-- True - Major, False - Minor -->
+ <ary type="CHARACTER_ARRAY">
+  <xml_include path="character/crimean_khanate-assassin-0001.xml"/>
+  <xml_include path="character/crimean_khanate-General-0001.xml"/>
+  <xml_include path="character/crimean_khanate-colonel-0001.xml"/>
+  <xml_include path="character/crimean_khanate-Eastern_Scholar-0001.xml"/>
+  <xml_include path="character/crimean_khanate-minister-0001.xml"/>
+  <xml_include path="character/crimean_khanate-minister-0002.xml"/>
+  <xml_include path="character/crimean_khanate-minister-0003.xml"/>
+  <xml_include path="character/crimean_khanate-minister-0004.xml"/>
+  <xml_include path="character/crimean_khanate-minister-0005.xml"/>
+  <xml_include path="character/crimean_khanate-minister-0006.xml"/>
+  <xml_include path="character/crimean_khanate-minister-0007.xml"/>
+  <xml_include path="character/crimean_khanate-minister-0008.xml"/>
+  <xml_include path="character/crimean_khanate-minister-0009.xml"/>
+  <xml_include path="character/crimean_khanate-minister-0010.xml"/>
+  <xml_include path="character/crimean_khanate-minister-0011.xml"/>
+  <xml_include path="character/crimean_khanate-minister-0012.xml"/>
+  <xml_include path="character/crimean_khanate-minister-0013.xml"/>
+ </ary>
+ <xml_include path="technology/crimean_khanate-crimean_khanate.xml"/>
+ <ary type="ARMY_ARRAY">
+  <xml_include path="army/crimean_khanate-0001.xml"/>
+  <xml_include path="army/crimean_khanate-0002.xml"/>
+ </ary>
+ <ary type="MORGUE"/>
+ <u4_ary>611387216</u4_ary><!-- Governor ID For Each Theatre -->
+ <no/>
+ <s>rel_islamic</s><!-- Religion -->
+ <no/>
+ <rec type="FORT_UPGRADE_MANAGER">
+  <ary type="FORT_UPGRADES_ARRAY"/>
+ </rec>
+ <rec type="FORT_UPGRADE_MANAGER">
+  <ary type="FORT_REPAIRS_ARRAY"/>
+ </rec>
+ <i>611373472</i><!-- Current Capital ID Else 0 If Faction Destroyed -->
+ <i>611373472</i><!-- Original Capital ID -->
+ <ary type="EXPOSED_CHARACTERS"/>
+ <no/>
+ <rec type="PRESTIGE">
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <u>15</u>
+ </rec>
+ <no/><!-- Emergent -->
+ <u>0</u>
+ <bool_ary>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</bool_ary>
+ <i>0</i><!-- Army Upkeep -->
+ <i>0</i><!-- Navy Upkeep -->
+ <s>MAINTAINANCE</s><!-- Campaign AI Manager Behaviour (patch.pack) -->
+ <s>default</s><!-- Campaign AI Personalities (patch.pack) -->
+ <flag_and_colours path="data\ui\flags\crimean_khanate" color1="#748691" color2="#4d586e" color3="#5d2725"/>
+ <flag_and_colours path="data\ui\flags\crimean_khanate" color1="#748691" color2="#4d586e" color3="#5d2725"/>
+ <rec type="CAMPAIGN_BONUS_VALUES">
+  <ary type="CAMPAIGN_BONUS_VALUE_BLOCK">
+   <campaign_bonus_0 subtype="2" value="1.0" agent="Eastern_Scholar"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="rake"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="assassin"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="gentleman"/>
+  </ary>
+ </rec>
+ <rec type="CAMPAIGN_BONUS_VALUES">
+  <ary type="CAMPAIGN_BONUS_VALUE_BLOCK">
+   <campaign_bonus_0 subtype="2" value="1.0" agent="Eastern_Scholar"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="rake"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="assassin"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="gentleman"/>
+  </ary>
+ </rec>
+ <i>884475672</i><!-- Protectorate ID -->
+ <no/>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <no/>
+ <no/>
+ <no/>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <no/>
+ <no/>
+ <u>0</u>
+ <no/>
+ <no/>
+</rec>

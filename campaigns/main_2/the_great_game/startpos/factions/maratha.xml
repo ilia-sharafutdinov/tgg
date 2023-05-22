@@ -1,0 +1,229 @@
+<?xml version="1.0"?>
+<rec type="FACTION">
+ <ancillary_uniqueness_monitor/>
+ <rec type="CAMPAIGN_PLAYER_SETUP">
+  <victory_conditions year="0" region_count="0" prestige_victory="no" campaign_type="4 (Unplayable)"/>
+  <rec type="CAMPAIGN_PLAYER_SETUP_INGAME_MODIFIABLES">
+   <i>0</i>
+   <i>0</i>
+   <i>0</i>
+   <no/>
+  </rec>
+  <s>maratha</s>
+  <no/>
+  <yes/><!-- Playable -->
+  <no/>
+ </rec>
+ <rec type="FACTION_ECONOMICS">
+  <ary type="history">
+   <rec type="history">
+    <rec type="ECONOMICS_DATA">
+     <i4_ary>0 0 0 0 0</i4_ary>
+     <i4_ary>0 0 1904</i4_ary>
+     <i4_ary>0 0 0 3000</i4_ary>
+     <i4_ary>0</i4_ary>
+     <i4_ary>0 0 0 0 0</i4_ary>
+     <i4_ary>0 0 0 0 0 0 0</i4_ary>
+    </rec>
+   </rec>
+  </ary>
+  <i>5000</i>
+  <bin6>01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01</bin6>
+  <u>0</u>
+ </rec>
+ <xml_include path="diplomacy/maratha.xml"/>
+ <rec type="ARMY_REINFORCEMENT_MANAGER">
+  <ary type="CHARACTER_REINFORCEMENTS_ARRAY"/>
+  <ary type="UNIT_REINFORCEMENTS_ARRAY"/>
+ </rec>
+ <xml_include path="government/maratha-gov_absolute_monarchy.xml"/>
+ <xml_include path="family/maratha.xml"/>
+ <i>605272264</i><!-- Faction ID -->
+ <s>maratha</s><!-- Faction Name -->
+ <s>Maratha Confederacy</s><!-- On Screen Name -->
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>201</u>
+  <u>3800037284</u>
+  <u2_ary>88 126 73 49 18 25 99 163 166 40 133 192 104 101 96 94 179 95 132 109 134 140 158 41 81 148 57 11 17 129 68 195 120 6 128 122 8 147 156 87 97 39 0 54 116 20 123 154 43 77 198 136 62 51 16 85 13 180 108 53 27 186 190 137 24 103 184 191 14 70 21 167 182 34 144 193 189 105 196 115 84 175 32 80 141 75 146 138 153 152 177 74 125 110 194 33 56 178 59 91 28 114 89 197 30 124 172 29 52 79 199 188 170 58 164 71 174 118 9 44 150 5 19 155 69 60 64 171 151 72 42 135 131 100 46 66 48 83 143 82 161 93 38 10 187 162 22 111 176 102 169 168 76 157 78 12 98 106 47 139 45 50 4 65</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>106</u>
+  <u>244793727</u>
+  <u2_ary>11 12 75 104 18 0 93 57 82 47 68 21 105 96 13 20 92 78 26 50 36 85 52 102 62 97 9 30 60 16 43 53 42 37 74 23 80 22 4 84 8 41 32 31 25 10 7 94 40 14 79 58 83 90 88 65 59 3 61 63 70 2 17 34 100 15 72 19 35 33 44 55 29 39 51 46 28 101 45 54 86 87 95 89 27 38 24 99 49 103 56 91 66 1 67 64 5 98 71 48 76 81 73 6 69 77</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>1</u>
+  <u>1425289435</u>
+  <u2_ary>0</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>638423235</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>359</u>
+  <u>1580080435</u>
+  <u2_ary>6 78 259 32 269 318 109 36 94 278 280 97 343 92 314 62 145 323 192 141 272 57 199 215 264 79 334 77 65 227 47 133 51 299 226 178 358 103 183 239 247 88 295 54 258 156 234 139 55 3 344 106 168 187 214 105 89 191 333 354 303 28 72 288 325 93 306 353 151 116 117 81 245 209 82 177 152 86 113 348 24 276 243 300 205 292 129 111 146 279 189 169 13 224 262 15 19 250 142 296 96 147 90 73 99 165 175 337 76 252 134 336 203 220 263 171 342 219 7 186 193 228 95 274 270 351 198 98 143 107 298 287 66 340 83 67 123 170 233 195 173 33 301 222 27 210 297 320 240 357 126 118 17 174 310 286 68 206 14 281 261 26 182 22 293 256 84 16 20 128 213 166 5 58 42 181 253 232 46 60 218 114 144 312 0 242 207 45 335 196 255 1 110 31 347 124 4 9 282 248 221 35 291 163 188 59 223 355 108 104 131 311 322 321 41 202 167 260 277 244 69 80 290 246 176 275 160 212 61 101 43 328 157 326 140 125 44 100 155 289 249 172 266 138 251 21 345 338 241 91 75 30 135 201 332 49 346 229 120 154 273 194 309 39 70 25 190 150 329 122 127 52 302 158 53 330 313 231 204 341 315 112 149 271 115 10 267 148 40 304 38 132 12 23 237 294 11 197 63 56 71 324 339 50 305 8 185 265 283 87 349 285 268 331 317 235 162 184 130 29 85 238</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>7</u>
+  <u>1548834537</u>
+  <u2_ary>4 2 3 0 5 6 1</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>424410235</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>18</u>
+  <u>2390274052</u>
+  <u2_ary>16 5 2 3 8 9 7 11 6 10 14 4 13 15 17 1 12 0</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>15</u>
+  <u>255827592</u>
+  <u2_ary>8 12 13 2 7 6 3 4 14 0 5 10 1 9</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>1</u>
+  <u>1876428839</u>
+  <u2_ary/>
+ </rec>
+ <yes/>
+ <rec type="LAND_UNIT_NAME_ALLOCATOR">
+  <ary type="LAND_UNIT_NAMES_MAP">
+   <xml_include path="unit_name_alloc/maratha-land-0001.xml"/>
+   <xml_include path="unit_name_alloc/maratha-land-0002.xml"/>
+   <xml_include path="unit_name_alloc/maratha-land-0003.xml"/>
+   <xml_include path="unit_name_alloc/maratha-land-0004.xml"/>
+   <xml_include path="unit_name_alloc/maratha-land-0005.xml"/>
+   <xml_include path="unit_name_alloc/maratha-land-0006.xml"/>
+   <xml_include path="unit_name_alloc/maratha-land-0007.xml"/>
+   <xml_include path="unit_name_alloc/maratha-land-0008.xml"/>
+   <xml_include path="unit_name_alloc/maratha-land-0009.xml"/>
+   <xml_include path="unit_name_alloc/maratha-land-0010.xml"/>
+   <xml_include path="unit_name_alloc/maratha-land-0011.xml"/>
+   <xml_include path="unit_name_alloc/maratha-land-0012.xml"/>
+   <xml_include path="unit_name_alloc/maratha-land-0013.xml"/>
+   <xml_include path="unit_name_alloc/maratha-land-0014.xml"/>
+   <xml_include path="unit_name_alloc/maratha-land-0015.xml"/>
+   <xml_include path="unit_name_alloc/maratha-land-0016.xml"/>
+   <xml_include path="unit_name_alloc/maratha-land-0017.xml"/>
+   <xml_include path="unit_name_alloc/maratha-land-0018.xml"/>
+   <xml_include path="unit_name_alloc/maratha-land-0019.xml"/>
+   <xml_include path="unit_name_alloc/maratha-land-0020.xml"/>
+   <xml_include path="unit_name_alloc/maratha-land-0021.xml"/>
+   <xml_include path="unit_name_alloc/maratha-land-0022.xml"/>
+   <xml_include path="unit_name_alloc/maratha-land-0023.xml"/>
+  </ary>
+ </rec>
+ <yes/>
+ <xml_include path="unit_name_alloc/maratha-naval-0001.xml"/>
+ <yes/><!-- True - Major, False - Minor -->
+ <ary type="CHARACTER_ARRAY">
+  <xml_include path="character/maratha-minister-0001.xml"/>
+  <xml_include path="character/maratha-indian_missionary-0001.xml"/>
+  <xml_include path="character/maratha-assassin-0001.xml"/>
+  <xml_include path="character/maratha-General-0001.xml"/>
+  <xml_include path="character/maratha-General-0002.xml"/>
+  <xml_include path="character/maratha-colonel-0001.xml"/>
+  <xml_include path="character/maratha-indian_missionary-0002.xml"/>
+  <xml_include path="character/maratha-minister-0002.xml"/>
+  <xml_include path="character/maratha-assassin-0002.xml"/>
+  <xml_include path="character/maratha-colonel-0002.xml"/>
+  <xml_include path="character/maratha-Eastern_Scholar-0001.xml"/>
+  <xml_include path="character/maratha-minister-0003.xml"/>
+  <xml_include path="character/maratha-General-0003.xml"/>
+  <xml_include path="character/maratha-Eastern_Scholar-0002.xml"/>
+  <xml_include path="character/maratha-minister-0004.xml"/>
+  <xml_include path="character/maratha-minister-0005.xml"/>
+  <xml_include path="character/maratha-minister-0006.xml"/>
+  <xml_include path="character/maratha-minister-0007.xml"/>
+  <xml_include path="character/maratha-minister-0008.xml"/>
+  <xml_include path="character/maratha-minister-0009.xml"/>
+  <xml_include path="character/maratha-minister-0010.xml"/>
+  <xml_include path="character/maratha-minister-0011.xml"/>
+  <xml_include path="character/maratha-minister-0012.xml"/>
+  <xml_include path="character/maratha-minister-0013.xml"/>
+ </ary>
+ <xml_include path="technology/maratha-maratha.xml"/>
+ <ary type="ARMY_ARRAY">
+  <xml_include path="army/maratha-0001.xml"/>
+  <xml_include path="army/maratha-0002.xml"/>
+  <xml_include path="army/maratha-0003.xml"/>
+  <xml_include path="army/maratha-0004.xml"/>
+  <xml_include path="army/maratha-0005.xml"/>
+ </ary>
+ <ary type="MORGUE"/>
+ <u4_ary>863223504</u4_ary><!-- Governor ID For Each Theatre -->
+ <no/>
+ <s>rel_hindu</s><!-- Religion -->
+ <no/>
+ <rec type="FORT_UPGRADE_MANAGER">
+  <ary type="FORT_UPGRADES_ARRAY"/>
+ </rec>
+ <rec type="FORT_UPGRADE_MANAGER">
+  <ary type="FORT_REPAIRS_ARRAY"/>
+ </rec>
+ <i>612203304</i><!-- Current Capital ID Else 0 If Faction Destroyed -->
+ <i>612203304</i><!-- Original Capital ID -->
+ <ary type="EXPOSED_CHARACTERS"/>
+ <no/>
+ <rec type="PRESTIGE">
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <u>75</u>
+ </rec>
+ <no/><!-- Emergent -->
+ <u>0</u>
+ <bool_ary>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</bool_ary>
+ <i>0</i><!-- Army Upkeep -->
+ <i>0</i><!-- Navy Upkeep -->
+ <s>FULL</s><!-- Campaign AI Manager Behaviour (patch.pack) -->
+ <s>non_euro</s><!-- Campaign AI Personalities (patch.pack) -->
+ <flag_and_colours path="data\ui\flags\maratha" color1="#b56b1c" color2="#f9bb42" color3="#a56100"/>
+ <flag_and_colours path="data\ui\flags\maratha_republic" color1="#b56b1c" color2="#f9bb42" color3="#a56100"/>
+ <rec type="CAMPAIGN_BONUS_VALUES">
+  <ary type="CAMPAIGN_BONUS_VALUE_BLOCK">
+   <campaign_bonus_0 subtype="2" value="1.0" agent="Eastern_Scholar"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="rake"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="assassin"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="gentleman"/>
+  </ary>
+ </rec>
+ <rec type="CAMPAIGN_BONUS_VALUES">
+  <ary type="CAMPAIGN_BONUS_VALUE_BLOCK">
+   <campaign_bonus_0 subtype="2" value="1.0" agent="Eastern_Scholar"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="rake"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="assassin"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="gentleman"/>
+  </ary>
+ </rec>
+ <i>0</i><!-- Protectorate ID -->
+ <no/>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <no/>
+ <yes/>
+ <no/>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <no/>
+ <no/>
+ <u>0</u>
+ <no/>
+ <no/>
+</rec>

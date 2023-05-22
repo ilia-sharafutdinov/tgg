@@ -1,0 +1,225 @@
+<?xml version="1.0"?>
+<rec type="FACTION">
+ <ancillary_uniqueness_monitor/>
+ <rec type="CAMPAIGN_PLAYER_SETUP">
+  <victory_conditions year="0" region_count="0" prestige_victory="no" campaign_type="4 (Unplayable)"/>
+  <rec type="CAMPAIGN_PLAYER_SETUP_INGAME_MODIFIABLES">
+   <i>0</i>
+   <i>0</i>
+   <i>0</i>
+   <no/>
+  </rec>
+  <s>sweden</s>
+  <no/>
+  <yes/><!-- Playable -->
+  <no/>
+ </rec>
+ <rec type="FACTION_ECONOMICS">
+  <ary type="history">
+   <rec type="history">
+    <rec type="ECONOMICS_DATA">
+     <i4_ary>0 0 0 0 0</i4_ary>
+     <i4_ary>0 0 1352</i4_ary>
+     <i4_ary>0 0 0 3000</i4_ary>
+     <i4_ary>0</i4_ary>
+     <i4_ary>0 0 0 0 0</i4_ary>
+     <i4_ary>0 5940 1240 0 0 0 0</i4_ary>
+    </rec>
+   </rec>
+  </ary>
+  <i>10000</i>
+  <bin6>01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01</bin6>
+  <u>0</u>
+ </rec>
+ <xml_include path="diplomacy/sweden.xml"/>
+ <rec type="ARMY_REINFORCEMENT_MANAGER">
+  <ary type="CHARACTER_REINFORCEMENTS_ARRAY"/>
+  <ary type="UNIT_REINFORCEMENTS_ARRAY"/>
+ </rec>
+ <xml_include path="government/sweden-gov_absolute_monarchy.xml"/>
+ <xml_include path="family/sweden.xml"/>
+ <i>643465272</i><!-- Faction ID -->
+ <s>sweden</s><!-- Faction Name -->
+ <s>Sweden</s><!-- On Screen Name -->
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>376</u>
+  <u>1765261281</u>
+  <u2_ary>317 119 209 210 127 36 46 18 316 57 273 59 95 4 54 282 271 10 129 155 297 137 245 215 50 103 289 156 37 114 81 354 322 32 302 169 208 360 65 309 84 181 335 351 56 12 369 307 70 28 60 238 350 34 255 91 115 228 233 168 78 173 269 194 48 338 259 328 116 68 16 327 313 146 235 229 353 63 55 93 205 266 298 89 139 102 110 72 320 41 188 357 71 294 306 232 165 223 250 14 341 166 149 200 365 265 94 150 310 49 270 147 159 179 113 74 204 268 160 224 39 42 124 170 352 144 153 287 249 24 281 134 106 332 112 222 17 118 345 290 206 61 314 343 117 73 47 291 22 283 43 30 288 372 216 140 370 267 331 178 145 157 176 83 107 275 214 201 33 234 308 136 217 143 212 132 180 220 218 295 323 258 299 151 368 359 324 21 348 87 219 285 293 207 44 152 226 25 373 128 242 247 347 109 108 130 362 248 186 333 241 58 304 31 131 301 256 53 35 96 279 191 26 38 171 339 312 319 135 303 167 196 252 300 192 158 162 342 163 88 305 27 15 239 356 75 364 77 85 198 125 202 9 236 76 126 286 172 203 105 154 1 260 19 274 104 120 346 64 199 225 363 52 98 337 193 254 278 367 11 13 29 261 284 195 79 251 231 99 23 361 90 69 40 86 315 329 330 189 51 7 187 375 92 133 138 3 45 161 334 326 67 184 358 185 344 371 5 230 280 111 318 123 122 325 366 272 182 100 355 101 292 227 263 2 80 321 237 374</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>309</u>
+  <u>1018997950</u>
+  <u2_ary>89 18 47 97 265 257 272 157 261 308 64 193 295 48 273 299 75 164 14 255 144 169 15 286 182 105 30 83 214 281 109 251 300 245 219 166 87 302 95 93 285 196 58 199 10 205 116 141 125 223 195 8 57 81 52 270 274 178 70 26 145 151 252 73 167 174 232 124 175 296 306 147 203 79 156 24 248 264 221 268 217 202 211 82 123 220 122 4 37 127 21 262 32 5 69 103 84 0 225 239 233 35 197 90 276 137 207 210 184 68 96 20 55 176 94 275 246 278 131 39 254 28 189 54 159 218 7 142 243 104 106 280 234 41 46 40 99 34 117 135 133 290 305 51 222 140 216 229 134 154 25 307 298 201 44 279 160 263 60 284 92 186 153 29 50 282 190 33 244 253 152 72 249 138 23 237 181 304 301 42 130 215 224 191 78 158 241 17 212 62 66 194 209 180 118 77 269 226 291 56 27 22 161 85 256 45 16 143 250 114 88 74 267 187 198 200 188 266 31 13 36 129 294 71 236 177 119 61 63 173 168 80 260 170 242 49 67 172 150 126 213 59 277 162 108 247 293 271 240 120 98 1 297 110 292 115 289 91 65 102 287 206 100 128 101 185 113 136 3 19 165 163 76 146 283 149 132 288 43 112 53 107 148 171 227 12 139 121 204 208 9 258 38 11 111 259 155 238 2 235 179 183 86 303 192 230 228 231 6</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>2</u>
+  <u>2845907729</u>
+  <u2_ary>1 0</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>3477091667</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>625</u>
+  <u>1111451566</u>
+  <u2_ary>393 209 511 436 316 160 184 54 348 234 469 80 173 70 303 102 256 567 398 446 570 158 248 370 7 596 569 396 577 233 559 162 474 485 353 270 522 220 213 473 390 455 185 149 574 326 22 335 380 443 60 489 133 17 282 193 358 547 37 77 357 430 98 211 271 624 454 555 538 299 336 261 101 216 237 12 356 371 583 449 308 423 97 205 571 481 265 267 441 89 529 142 545 159 544 313 438 585 492 344 20 274 388 62 291 183 539 392 30 317 157 546 1 52 241 315 351 114 187 287 352 82 240 384 85 460 90 429 147 168 462 584 424 565 374 588 118 404 179 64 478 309 463 619 229 92 432 130 165 290 38 294 509 31 286 16 254 104 536 182 593 262 4 363 360 202 108 75 405 258 395 32 431 604 453 606 400 576 361 250 27 581 519 601 578 103 212 264 79 310 306 563 257 385 470 334 372 74 580 552 36 170 188 81 498 517 442 253 106 288 214 279 35 354 172 284 15 433 543 582 2 252 614 123 156 324 409 389 422 40 586 387 13 127 318 24 200 420 534 418 312 415 401 228 176 556 242 513 221 500 471 325 246 397 68 609 47 319 465 623 138 88 131 550 516 281 359 347 448 362 421 376 164 23 154 125 190 427 145 338 146 394 487 520 532 203 227 207 518 277 238 222 566 51 527 297 10 42 494 78 151 598 505 300 346 342 295 428 573 186 49 383 321 305 618 191 18 132 3 381 39 141 174 572 112 611 109 259 403 208 243 194 523 28 482 56 148 472 180 537 96 189 91 175 304 368 406 591 204 540 493 95 340 120 217 119 542 280 29 439 251 199 417 541 414 0 155 553 314 510 219 115 55 94 413 263 34 499 99 167 495 508 530 272 236 137 461 247 298 296 93 531 245 134 111 589 307 597 504 14 285 5 140 153 486 166 302 587 289 71 475 480 122 224 232 11 617 502 476 330 6 87 83 218 608 564 616 178 575 450 579 276 526 528 410 171 613 425 411 364 525 447 43 278 275 603 86 350 327 599 25 198 375 607 84 196 260 551 458 206 595 33 533 223 328 365 192 605 379 621 126 378 497 445 231 100 333 161 19 440 292 366 602 468 169 512 562 73 144 343 557 244 152 477 143 457 76 600 269 377 226 341 129 612 177 373 268 554 615 322 61 622 456 135 558 345 150 561 386 59 594 331 58 225 399 568 521 72 44 117 69 402 339 181 320 620 503 391 105 266 273 41 416 610 444 283 451 116 349 53 65 8 491 488 382 515 408 239 337 507 45 63 107 230 590 9 355 163 437 549 66 57 235 514 435 195 466 496 139 464 329 501 479 483 311 215 467 484</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>2</u>
+  <u>473419212</u>
+  <u2_ary>0 1</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>54750183</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>17</u>
+  <u>2257371979</u>
+  <u2_ary>8 0 2 7 15 11 16 10 14 1 4 6 12 9 3 5 13</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>7</u>
+  <u>2931418118</u>
+  <u2_ary>5 0 4 2 1 3</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>9</u>
+  <u>3406193763</u>
+  <u2_ary>3 4 1 5 2 7 6 0</u2_ary>
+ </rec>
+ <yes/>
+ <rec type="LAND_UNIT_NAME_ALLOCATOR">
+  <ary type="LAND_UNIT_NAMES_MAP">
+   <xml_include path="unit_name_alloc/sweden-land-0001.xml"/>
+   <xml_include path="unit_name_alloc/sweden-land-0002.xml"/>
+   <xml_include path="unit_name_alloc/sweden-land-0003.xml"/>
+   <xml_include path="unit_name_alloc/sweden-land-0004.xml"/>
+   <xml_include path="unit_name_alloc/sweden-land-0005.xml"/>
+   <xml_include path="unit_name_alloc/sweden-land-0006.xml"/>
+   <xml_include path="unit_name_alloc/sweden-land-0007.xml"/>
+   <xml_include path="unit_name_alloc/sweden-land-0008.xml"/>
+   <xml_include path="unit_name_alloc/sweden-land-0009.xml"/>
+   <xml_include path="unit_name_alloc/sweden-land-0010.xml"/>
+   <xml_include path="unit_name_alloc/sweden-land-0011.xml"/>
+   <xml_include path="unit_name_alloc/sweden-land-0012.xml"/>
+   <xml_include path="unit_name_alloc/sweden-land-0013.xml"/>
+   <xml_include path="unit_name_alloc/sweden-land-0014.xml"/>
+   <xml_include path="unit_name_alloc/sweden-land-0015.xml"/>
+   <xml_include path="unit_name_alloc/sweden-land-0016.xml"/>
+   <xml_include path="unit_name_alloc/sweden-land-0017.xml"/>
+   <xml_include path="unit_name_alloc/sweden-land-0018.xml"/>
+   <xml_include path="unit_name_alloc/sweden-land-0019.xml"/>
+   <xml_include path="unit_name_alloc/sweden-land-0020.xml"/>
+   <xml_include path="unit_name_alloc/sweden-land-0021.xml"/>
+   <xml_include path="unit_name_alloc/sweden-land-0022.xml"/>
+   <xml_include path="unit_name_alloc/sweden-land-0023.xml"/>
+  </ary>
+ </rec>
+ <yes/>
+ <xml_include path="unit_name_alloc/sweden-naval-0001.xml"/>
+ <yes/><!-- True - Major, False - Minor -->
+ <ary type="CHARACTER_ARRAY">
+  <xml_include path="character/sweden-rake-0001.xml"/>
+  <xml_include path="character/sweden-admiral-0001.xml"/>
+  <xml_include path="character/sweden-colonel-0001.xml"/>
+  <xml_include path="character/sweden-minister-0001.xml"/>
+  <xml_include path="character/sweden-General-0001.xml"/>
+  <xml_include path="character/sweden-gentleman-0001.xml"/>
+  <xml_include path="character/sweden-General-0002.xml"/>
+  <xml_include path="character/sweden-minister-0002.xml"/>
+  <xml_include path="character/sweden-minister-0003.xml"/>
+  <xml_include path="character/sweden-minister-0004.xml"/>
+  <xml_include path="character/sweden-minister-0005.xml"/>
+  <xml_include path="character/sweden-minister-0006.xml"/>
+  <xml_include path="character/sweden-minister-0007.xml"/>
+  <xml_include path="character/sweden-minister-0008.xml"/>
+  <xml_include path="character/sweden-minister-0009.xml"/>
+  <xml_include path="character/sweden-minister-0010.xml"/>
+  <xml_include path="character/sweden-minister-0011.xml"/>
+  <xml_include path="character/sweden-minister-0012.xml"/>
+  <xml_include path="character/sweden-minister-0013.xml"/>
+  <xml_include path="character/sweden-colonel-0002.xml"/>
+ </ary>
+ <xml_include path="technology/sweden-sweden.xml"/>
+ <ary type="ARMY_ARRAY">
+  <xml_include path="army/sweden-0001.xml"/>
+  <xml_include path="army/sweden-0002.xml"/>
+  <xml_include path="army/sweden-0003.xml"/>
+  <xml_include path="army/sweden-0004.xml"/>
+  <xml_include path="army/sweden-0005.xml"/>
+ </ary>
+ <ary type="MORGUE"/>
+ <u4_ary>643143392</u4_ary><!-- Governor ID For Each Theatre -->
+ <no/>
+ <s>rel_protestant</s><!-- Religion -->
+ <no/>
+ <rec type="FORT_UPGRADE_MANAGER">
+  <ary type="FORT_UPGRADES_ARRAY"/>
+ </rec>
+ <rec type="FORT_UPGRADE_MANAGER">
+  <ary type="FORT_REPAIRS_ARRAY"/>
+ </rec>
+ <i>677106240</i><!-- Current Capital ID Else 0 If Faction Destroyed -->
+ <i>677106240</i><!-- Original Capital ID -->
+ <ary type="EXPOSED_CHARACTERS"/>
+ <no/>
+ <rec type="PRESTIGE">
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <u>10</u>
+  <u>5</u>
+  <u>5</u>
+  <u>5</u>
+  <u>50</u>
+ </rec>
+ <no/><!-- Emergent -->
+ <u>0</u>
+ <bool_ary>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</bool_ary>
+ <i>5940</i><!-- Army Upkeep -->
+ <i>1240</i><!-- Navy Upkeep -->
+ <s>FULL</s><!-- Campaign AI Manager Behaviour (patch.pack) -->
+ <s>default</s><!-- Campaign AI Personalities (patch.pack) -->
+ <flag_and_colours path="data\ui\flags\sweden" color1="#0f5b99" color2="#b5b5b5" color3="#0f5b99"/>
+ <flag_and_colours path="data\ui\flags\sweden_republic" color1="#0f5b99" color2="#b5b5b5" color3="#0f5b99"/>
+ <rec type="CAMPAIGN_BONUS_VALUES">
+  <ary type="CAMPAIGN_BONUS_VALUE_BLOCK">
+   <campaign_bonus_0 subtype="2" value="1.0" agent="Eastern_Scholar"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="rake"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="assassin"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="gentleman"/>
+  </ary>
+ </rec>
+ <rec type="CAMPAIGN_BONUS_VALUES">
+  <ary type="CAMPAIGN_BONUS_VALUE_BLOCK">
+   <campaign_bonus_0 subtype="2" value="1.0" agent="Eastern_Scholar"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="rake"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="assassin"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="gentleman"/>
+  </ary>
+ </rec>
+ <i>0</i><!-- Protectorate ID -->
+ <no/>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <no/>
+ <yes/>
+ <no/>
+ <i>10</i>
+ <i>5</i>
+ <i>5</i>
+ <i>5</i>
+ <no/>
+ <no/>
+ <u>0</u>
+ <no/>
+ <no/>
+</rec>

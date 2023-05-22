@@ -1,0 +1,219 @@
+<?xml version="1.0"?>
+<rec type="FACTION">
+ <ancillary_uniqueness_monitor/>
+ <rec type="CAMPAIGN_PLAYER_SETUP">
+  <victory_conditions year="0" region_count="0" prestige_victory="no" campaign_type="4 (Unplayable)"/>
+  <rec type="CAMPAIGN_PLAYER_SETUP_INGAME_MODIFIABLES">
+   <i>0</i>
+   <i>0</i>
+   <i>0</i>
+   <no/>
+  </rec>
+  <s>iroquoi</s>
+  <no/>
+  <yes/><!-- Playable -->
+  <no/>
+ </rec>
+ <rec type="FACTION_ECONOMICS">
+  <ary type="history">
+   <rec type="history">
+    <rec type="ECONOMICS_DATA">
+     <i4_ary>0 0 0 0 0</i4_ary>
+     <i4_ary>0 0 0</i4_ary>
+     <i4_ary>0 0 0 1750</i4_ary>
+     <i4_ary>0</i4_ary>
+     <i4_ary>0 0 0 0 0</i4_ary>
+     <i4_ary>0 0 0 0 0 0 0</i4_ary>
+    </rec>
+   </rec>
+  </ary>
+  <i>7500</i>
+  <bin6>01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01</bin6>
+  <u>0</u>
+ </rec>
+ <xml_include path="diplomacy/iroquoi.xml"/>
+ <rec type="ARMY_REINFORCEMENT_MANAGER">
+  <ary type="CHARACTER_REINFORCEMENTS_ARRAY"/>
+  <ary type="UNIT_REINFORCEMENTS_ARRAY"/>
+ </rec>
+ <xml_include path="government/iroquoi-gov_absolute_monarchy.xml"/>
+ <xml_include path="family/iroquoi.xml"/>
+ <i>639303224</i><!-- Faction ID -->
+ <s>iroquoi</s><!-- Faction Name -->
+ <s>Iroquois Confederacy</s><!-- On Screen Name -->
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>124</u>
+  <u>1350872512</u>
+  <u2_ary>5 113 63 78 35 102 111 108 29 18 42 72 2 119 69 39 104 82 90 25 106 60 17 50 8 46 52 61 101 1 91 58 94 36 105 77 49 73 45 115 59 11 95 123 75 98 76 100 118 4 66 21 97 110 48 103 14 121 28 93 10 99 107 43 84 55 65 114 109 15 24 68 62 53 19 3 57 81 31 87 32 34 120 89 30 64 122 86 51 41 16 20 67 33 47 6 80 116 26</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>17</u>
+  <u>453635205</u>
+  <u2_ary>10 1 7 13 9 16 14 8 11 15 5 6 0</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>14</u>
+  <u>2011530643</u>
+  <u2_ary>7 11 1 9 13 5 4 10 2 6 0 12 3 8</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>3</u>
+  <u>2928148322</u>
+  <u2_ary>0 2 1</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>3173193207</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>4216352170</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>3742467787</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>9</u>
+  <u>501300503</u>
+  <u2_ary>2 3 6 1 0 5 4 7 8</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>8</u>
+  <u>3784140721</u>
+  <u2_ary>4 7</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>3037140540</u>
+  <u2_ary/>
+ </rec>
+ <yes/>
+ <rec type="LAND_UNIT_NAME_ALLOCATOR">
+  <ary type="LAND_UNIT_NAMES_MAP">
+   <xml_include path="unit_name_alloc/iroquoi-land-0001.xml"/>
+   <xml_include path="unit_name_alloc/iroquoi-land-0002.xml"/>
+   <xml_include path="unit_name_alloc/iroquoi-land-0003.xml"/>
+   <xml_include path="unit_name_alloc/iroquoi-land-0004.xml"/>
+   <xml_include path="unit_name_alloc/iroquoi-land-0005.xml"/>
+   <xml_include path="unit_name_alloc/iroquoi-land-0006.xml"/>
+   <xml_include path="unit_name_alloc/iroquoi-land-0007.xml"/>
+   <xml_include path="unit_name_alloc/iroquoi-land-0008.xml"/>
+   <xml_include path="unit_name_alloc/iroquoi-land-0009.xml"/>
+   <xml_include path="unit_name_alloc/iroquoi-land-0010.xml"/>
+   <xml_include path="unit_name_alloc/iroquoi-land-0011.xml"/>
+   <xml_include path="unit_name_alloc/iroquoi-land-0012.xml"/>
+   <xml_include path="unit_name_alloc/iroquoi-land-0013.xml"/>
+   <xml_include path="unit_name_alloc/iroquoi-land-0014.xml"/>
+   <xml_include path="unit_name_alloc/iroquoi-land-0015.xml"/>
+   <xml_include path="unit_name_alloc/iroquoi-land-0016.xml"/>
+   <xml_include path="unit_name_alloc/iroquoi-land-0017.xml"/>
+   <xml_include path="unit_name_alloc/iroquoi-land-0018.xml"/>
+   <xml_include path="unit_name_alloc/iroquoi-land-0019.xml"/>
+   <xml_include path="unit_name_alloc/iroquoi-land-0020.xml"/>
+   <xml_include path="unit_name_alloc/iroquoi-land-0021.xml"/>
+   <xml_include path="unit_name_alloc/iroquoi-land-0022.xml"/>
+   <xml_include path="unit_name_alloc/iroquoi-land-0023.xml"/>
+  </ary>
+ </rec>
+ <yes/>
+ <xml_include path="unit_name_alloc/iroquoi-naval-0001.xml"/>
+ <no/><!-- True - Major, False - Minor -->
+ <ary type="CHARACTER_ARRAY">
+  <xml_include path="character/iroquoi-colonel-0001.xml"/>
+  <xml_include path="character/iroquoi-colonel-0002.xml"/>
+  <xml_include path="character/iroquoi-General-0001.xml"/>
+  <xml_include path="character/iroquoi-minister-0001.xml"/>
+  <xml_include path="character/iroquoi-minister-0002.xml"/>
+  <xml_include path="character/iroquoi-minister-0003.xml"/>
+  <xml_include path="character/iroquoi-minister-0004.xml"/>
+  <xml_include path="character/iroquoi-minister-0005.xml"/>
+  <xml_include path="character/iroquoi-minister-0006.xml"/>
+  <xml_include path="character/iroquoi-minister-0007.xml"/>
+  <xml_include path="character/iroquoi-minister-0008.xml"/>
+  <xml_include path="character/iroquoi-minister-0009.xml"/>
+  <xml_include path="character/iroquoi-minister-0010.xml"/>
+  <xml_include path="character/iroquoi-minister-0011.xml"/>
+  <xml_include path="character/iroquoi-minister-0012.xml"/>
+  <xml_include path="character/iroquoi-minister-0013.xml"/>
+ </ary>
+ <xml_include path="technology/iroquoi-iroquoi.xml"/>
+ <ary type="ARMY_ARRAY">
+  <xml_include path="army/iroquoi-0001.xml"/>
+  <xml_include path="army/iroquoi-0002.xml"/>
+  <xml_include path="army/iroquoi-0003.xml"/>
+ </ary>
+ <ary type="MORGUE"/>
+ <u4_ary>611866296</u4_ary><!-- Governor ID For Each Theatre -->
+ <no/>
+ <s>rel_animist</s><!-- Religion -->
+ <no/>
+ <rec type="FORT_UPGRADE_MANAGER">
+  <ary type="FORT_UPGRADES_ARRAY"/>
+ </rec>
+ <rec type="FORT_UPGRADE_MANAGER">
+  <ary type="FORT_REPAIRS_ARRAY"/>
+ </rec>
+ <i>609546920</i><!-- Current Capital ID Else 0 If Faction Destroyed -->
+ <i>609546920</i><!-- Original Capital ID -->
+ <ary type="EXPOSED_CHARACTERS"/>
+ <no/>
+ <rec type="PRESTIGE">
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <u>15</u>
+ </rec>
+ <no/><!-- Emergent -->
+ <u>0</u>
+ <bool_ary>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</bool_ary>
+ <i>0</i><!-- Army Upkeep -->
+ <i>0</i><!-- Navy Upkeep -->
+ <s>MAINTAINANCE</s><!-- Campaign AI Manager Behaviour (patch.pack) -->
+ <s>default</s><!-- Campaign AI Personalities (patch.pack) -->
+ <flag_and_colours path="data\ui\flags\iroquois" color1="#69779f" color2="#e1dcd9" color3="#324751"/>
+ <flag_and_colours path="data\ui\flags\iroquois" color1="#69779f" color2="#e1dcd9" color3="#324751"/>
+ <rec type="CAMPAIGN_BONUS_VALUES">
+  <ary type="CAMPAIGN_BONUS_VALUE_BLOCK">
+   <campaign_bonus_0 subtype="2" value="1.0" agent="Eastern_Scholar"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="rake"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="assassin"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="gentleman"/>
+  </ary>
+ </rec>
+ <rec type="CAMPAIGN_BONUS_VALUES">
+  <ary type="CAMPAIGN_BONUS_VALUE_BLOCK">
+   <campaign_bonus_0 subtype="2" value="1.0" agent="Eastern_Scholar"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="rake"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="assassin"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="gentleman"/>
+  </ary>
+ </rec>
+ <i>0</i><!-- Protectorate ID -->
+ <no/>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <no/>
+ <yes/>
+ <no/>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <no/>
+ <no/>
+ <u>0</u>
+ <no/>
+ <no/>
+</rec>

@@ -1,0 +1,198 @@
+<?xml version="1.0"?>
+<rec type="FACTION">
+ <ancillary_uniqueness_monitor/>
+ <rec type="CAMPAIGN_PLAYER_SETUP">
+  <victory_conditions year="0" region_count="0" prestige_victory="no" campaign_type="4 (Unplayable)"/>
+  <rec type="CAMPAIGN_PLAYER_SETUP_INGAME_MODIFIABLES">
+   <i>0</i>
+   <i>0</i>
+   <i>0</i>
+   <no/>
+  </rec>
+  <s>ireland</s>
+  <no/>
+  <no/><!-- Playable -->
+  <no/>
+ </rec>
+ <rec type="FACTION_ECONOMICS">
+  <ary type="history">
+   <rec type="history">
+    <rec type="ECONOMICS_DATA">
+     <i4_ary>0 0 0 0 0</i4_ary>
+     <i4_ary>0 0 0</i4_ary>
+     <i4_ary>0 0 0 1750</i4_ary>
+     <i4_ary>0</i4_ary>
+     <i4_ary>0 0 0 0 0</i4_ary>
+     <i4_ary>0 0 0 0 0 0 0</i4_ary>
+    </rec>
+   </rec>
+  </ary>
+  <i>5000</i>
+  <bin6>01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01</bin6>
+  <u>0</u>
+ </rec>
+ <xml_include path="diplomacy/ireland.xml"/>
+ <rec type="ARMY_REINFORCEMENT_MANAGER">
+  <ary type="CHARACTER_REINFORCEMENTS_ARRAY"/>
+  <ary type="UNIT_REINFORCEMENTS_ARRAY"/>
+ </rec>
+ <xml_include path="government/ireland-gov_absolute_monarchy.xml"/>
+ <xml_include path="family/ireland.xml"/>
+ <i>843249424</i><!-- Faction ID -->
+ <s>ireland</s><!-- Faction Name -->
+ <s>Ireland</s><!-- On Screen Name -->
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>37</u>
+  <u>2106183990</u>
+  <u2_ary>11 35 8 18 1 16 30 21 2 32 5 19 7 20 29 0 10 6 26 33 15 22 23 4 3 24 12 36 31 28 14 27 17 25 13 9 34</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>8</u>
+  <u>3403839620</u>
+  <u2_ary>5 1 7 6 3</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>154967868</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>2664757920</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>67</u>
+  <u>532118375</u>
+  <u2_ary>40 6 9 53 25 46 36 17 28 20 39 38 61 51 3 0 63 66 21 8 34 11 47 19 14 1 65 12 48 5 29 13 50 4 30 22 64 52 49 60 15 55 10 44 26 58 37 62 7 23 35 56 43 41 16 32 18 57 54 24 2 31 27 42 45 59 33</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>2521678034</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>2307879047</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>63370304</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>6</u>
+  <u>3849736099</u>
+  <u2_ary>5 4 1</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>938623873</u>
+  <u2_ary/>
+ </rec>
+ <yes/>
+ <rec type="LAND_UNIT_NAME_ALLOCATOR">
+  <ary type="LAND_UNIT_NAMES_MAP">
+   <xml_include path="unit_name_alloc/ireland-land-0001.xml"/>
+   <xml_include path="unit_name_alloc/ireland-land-0002.xml"/>
+   <xml_include path="unit_name_alloc/ireland-land-0003.xml"/>
+   <xml_include path="unit_name_alloc/ireland-land-0004.xml"/>
+   <xml_include path="unit_name_alloc/ireland-land-0005.xml"/>
+   <xml_include path="unit_name_alloc/ireland-land-0006.xml"/>
+   <xml_include path="unit_name_alloc/ireland-land-0007.xml"/>
+   <xml_include path="unit_name_alloc/ireland-land-0008.xml"/>
+   <xml_include path="unit_name_alloc/ireland-land-0009.xml"/>
+   <xml_include path="unit_name_alloc/ireland-land-0010.xml"/>
+   <xml_include path="unit_name_alloc/ireland-land-0011.xml"/>
+   <xml_include path="unit_name_alloc/ireland-land-0012.xml"/>
+   <xml_include path="unit_name_alloc/ireland-land-0013.xml"/>
+   <xml_include path="unit_name_alloc/ireland-land-0014.xml"/>
+   <xml_include path="unit_name_alloc/ireland-land-0015.xml"/>
+   <xml_include path="unit_name_alloc/ireland-land-0016.xml"/>
+   <xml_include path="unit_name_alloc/ireland-land-0017.xml"/>
+   <xml_include path="unit_name_alloc/ireland-land-0018.xml"/>
+   <xml_include path="unit_name_alloc/ireland-land-0019.xml"/>
+   <xml_include path="unit_name_alloc/ireland-land-0020.xml"/>
+   <xml_include path="unit_name_alloc/ireland-land-0021.xml"/>
+   <xml_include path="unit_name_alloc/ireland-land-0022.xml"/>
+   <xml_include path="unit_name_alloc/ireland-land-0023.xml"/>
+  </ary>
+ </rec>
+ <yes/>
+ <xml_include path="unit_name_alloc/ireland-naval-0001.xml"/>
+ <no/><!-- True - Major, False - Minor -->
+ <ary type="CHARACTER_ARRAY"/>
+ <xml_include path="technology/ireland-ireland.xml"/>
+ <ary type="ARMY_ARRAY"/>
+ <ary type="MORGUE"/>
+ <u4_ary/><!-- Governor ID For Each Theatre -->
+ <no/>
+ <s>rel_catholic</s><!-- Religion -->
+ <no/>
+ <rec type="FORT_UPGRADE_MANAGER">
+  <ary type="FORT_UPGRADES_ARRAY"/>
+ </rec>
+ <rec type="FORT_UPGRADE_MANAGER">
+  <ary type="FORT_REPAIRS_ARRAY"/>
+ </rec>
+ <i>0</i><!-- Current Capital ID Else 0 If Faction Destroyed -->
+ <i>0</i><!-- Original Capital ID -->
+ <ary type="EXPOSED_CHARACTERS"/>
+ <no/>
+ <rec type="PRESTIGE">
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+ </rec>
+ <yes/><!-- Emergent -->
+ <u>0</u>
+ <bool_ary>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</bool_ary>
+ <i>0</i><!-- Army Upkeep -->
+ <i>0</i><!-- Navy Upkeep -->
+ <s>MAINTAINANCE</s><!-- Campaign AI Manager Behaviour (patch.pack) -->
+ <s>default</s><!-- Campaign AI Personalities (patch.pack) -->
+ <flag_and_colours path="data\ui\flags\ireland" color1="#315113" color2="#a77516" color3="#212c14"/>
+ <flag_and_colours path="data\ui\flags\ireland" color1="#315113" color2="#a77516" color3="#212c14"/>
+ <rec type="CAMPAIGN_BONUS_VALUES">
+  <ary type="CAMPAIGN_BONUS_VALUE_BLOCK">
+   <campaign_bonus_0 subtype="2" value="1.0" agent="Eastern_Scholar"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="rake"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="assassin"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="gentleman"/>
+  </ary>
+ </rec>
+ <rec type="CAMPAIGN_BONUS_VALUES">
+  <ary type="CAMPAIGN_BONUS_VALUE_BLOCK">
+   <campaign_bonus_0 subtype="2" value="1.0" agent="Eastern_Scholar"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="rake"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="assassin"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="gentleman"/>
+  </ary>
+ </rec>
+ <i>0</i><!-- Protectorate ID -->
+ <no/>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <no/>
+ <no/>
+ <no/>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <no/>
+ <no/>
+ <u>0</u>
+ <no/>
+ <no/>
+</rec>
