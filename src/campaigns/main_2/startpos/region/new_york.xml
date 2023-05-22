@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<rec type="REGION">
+ <s>new_york</s><!-- Region Name -->
+ <xml_include path="population/new_york.xml"/>
+ <traits/>
+ <rec type="REGION_SLOT_MANAGER">
+  <ary type="REGION_SLOT_ARRAY">
+   <xml_include path="region_slot/settlement-new_york-albany-settlement_minor.xml"/>
+   <xml_include path="region_slot/fur-new_york-north.xml"/>
+   <xml_include path="region_slot/iron-new_york-north.xml"/>
+   <xml_include path="region_slot/corn-new_york-long_island.xml"/>
+   <xml_include path="region_slot/port-new_york-new_york.xml"/>
+   <xml_include path="region_slot/town-new_york-saratoga.xml"/>
+  </ary>
+  <xml_include path="region_slot/new_york-road.xml"/>
+  <xml_include path="region_slot/new_york-walls.xml"/>
+ </rec>
+ <i>634429496</i><!-- Region ID -->
+ <xml_include path="region_slot/settlement-new_york-albany.xml"/>
+ <u>1</u>
+ <no/>
+ <no/>
+ <u>0</u><!-- Subsistence Agricultural (SA) -->
+ <u>1452</u><!-- Industrial Wealth Plus (SA) -->
+ <u>1452</u><!-- Industrial Wealth Plus (SA) Minus Trading Losses -->
+ <u>125</u><!-- Town Wealth -->
+ <u>125</u><!-- Minimum Town Wealth -->
+ <u>125</u><!-- Town Wealth -->
+ <i>-4</i><!-- Town Monetary Growth -->
+ <u>0</u>
+ <u>0</u>
+ <no/><!-- Exempt From Tax -->
+ <u>619077896</u><!-- Controlling Faction ID -->
+ <rec type="LINE_OF_SIGHT">
+  <yes/>
+  <v2 x="-557.5" y="271.25"/>
+  <v2 x="-500.0" y="325.0"/>
+  <xml_include path="quadtree/new_york-0001.xml"/>
+ </rec>
+ <u>618531512</u><!-- Governor ID -->
+ <s>america</s><!-- Theatre -->
+ <s>american_rebels</s><!-- Emergent Nation -->
+ <s>Loyalist Rebels</s><!-- Region Rebels -->
+ <s>sc_european_west</s><!-- Region Culture For Types Of Buildings -->
+ <rec type="REGION_RECRUITMENT_MANAGER">
+  <ary type="REGION_RECRUITMENT_ITEM_ARRAY"/>
+  <no/>
+  <i>665498496</i>
+ </rec>
+ <no/>
+ <u4_ary>0 0 0 0 0 0 0 0</u4_ary>
+ <u4_ary>0 0 0 0 0 0 0 0</u4_ary>
+ <u4_ary>0 0 0 0 0 0 0 15</u4_ary>
+ <u4_ary>324 946 1256 168 790 784 790 478</u4_ary>
+ <bool_ary>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1</bool_ary>
+ <i4_ary/>
+ <ary type="RELIGIOUS_MISSION_BUILDING_ARRAY"/>
+ <ary type="FORT_ARRAY">
+  <xml_include path="region_slot/new_york-fort-0001.xml"/>
+ </ary>
+ <resources_array>
+  colonial_euro_factions
+  africa_west_indies
+  usa
+  eua_new_york
+  displaced_scots
+  americas
+  global
+  americas_coastal
+ </resources_array>
+ <s/><!-- Latest Constuction -->
+ <u>20</u><!-- One Of These 5/10/15/20/25/30/40 Amount Of Prestige When Conquered -->
+ <u>2043433861</u><!-- Region Array. From Top To Bottom. 1st 62 Regions 881206575. 2nd 15 Regions 1771634741. 3rd 32 Regions 1928099569. 4th 28 Regions 688200897. Why???? -->
+ <loc>regions_onscreen_new_york</loc>
+ <flt>-0.0013270393246784806</flt>
+</rec>

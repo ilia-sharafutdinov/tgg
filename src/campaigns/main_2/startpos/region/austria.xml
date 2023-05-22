@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<rec type="REGION">
+ <s>austria</s><!-- Region Name -->
+ <xml_include path="population/austria.xml"/>
+ <traits/>
+ <rec type="REGION_SLOT_MANAGER">
+  <ary type="REGION_SLOT_ARRAY">
+   <xml_include path="region_slot/settlement-austria-vienna-settlement_army-admin.xml"/>
+   <xml_include path="region_slot/settlement-austria-vienna-settlement_government.xml"/>
+   <xml_include path="region_slot/settlement-austria-vienna-settlement_culture.xml"/>
+   <xml_include path="region_slot/settlement-austria-vienna-settlement_navy-admin.xml"/>
+   <xml_include path="region_slot/settlement-austria-vienna-settlement_ordnance.xml"/>
+   <xml_include path="region_slot/iron-austria-central.xml"/>
+   <xml_include path="region_slot/sheep-austria-tyrol.xml"/>
+   <xml_include path="region_slot/wheat-austria-north.xml"/>
+   <xml_include path="region_slot/gold-austria-rauris.xml"/>
+   <xml_include path="region_slot/town-austria-salzburg.xml"/>
+   <xml_include path="region_slot/town-austria-graz.xml"/>
+   <xml_include path="region_slot/port-austria-triest.xml"/>
+   <xml_include path="region_slot/town-austria-innsbruck.xml"/>
+  </ary>
+  <xml_include path="region_slot/austria-road.xml"/>
+  <xml_include path="region_slot/austria-walls.xml"/>
+ </rec>
+ <i>596560256</i><!-- Region ID -->
+ <xml_include path="region_slot/settlement-austria-vienna.xml"/>
+ <u>1</u>
+ <no/>
+ <no/>
+ <u>500</u><!-- Subsistence Agricultural (SA) -->
+ <u>5525</u><!-- Industrial Wealth Plus (SA) -->
+ <u>5525</u><!-- Industrial Wealth Plus (SA) Minus Trading Losses -->
+ <u>1000</u><!-- Town Wealth -->
+ <u>1000</u><!-- Minimum Town Wealth -->
+ <u>1000</u><!-- Town Wealth -->
+ <i>7</i><!-- Town Monetary Growth -->
+ <u>0</u>
+ <u>0</u>
+ <no/><!-- Exempt From Tax -->
+ <u>580985040</u><!-- Controlling Faction ID -->
+ <rec type="LINE_OF_SIGHT">
+  <yes/>
+  <v2 x="53.75" y="307.5"/>
+  <v2 x="130.0" y="360.0"/>
+  <xml_include path="quadtree/austria-0001.xml"/>
+ </rec>
+ <u>611325376</u><!-- Governor ID -->
+ <s>europe</s><!-- Theatre -->
+ <s>austria</s><!-- Emergent Nation -->
+ <s>Austrian Rebels</s><!-- Region Rebels -->
+ <s>sc_european_west</s><!-- Region Culture For Types Of Buildings -->
+ <rec type="REGION_RECRUITMENT_MANAGER">
+  <ary type="REGION_RECRUITMENT_ITEM_ARRAY"/>
+  <no/>
+  <i>600578152</i>
+ </rec>
+ <no/>
+ <u4_ary>0 0 0 0 0 0 0 0</u4_ary>
+ <u4_ary>0 0 0 0 0 0 0 0</u4_ary>
+ <u4_ary>0 0 0 0 0 0 0 0</u4_ary>
+ <u4_ary>1243 3661 4869 639 3056 3040 3056 1847</u4_ary>
+ <bool_ary>0 1 0 0 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bool_ary>
+ <i4_ary/>
+ <ary type="RELIGIOUS_MISSION_BUILDING_ARRAY"/>
+ <ary type="FORT_ARRAY"/>
+ <resources_array>
+  austria_home_regions
+  global
+  balkans
+  middle_east_and_europe
+  europe
+  med_coast
+  galleys
+ </resources_array>
+ <s/><!-- Latest Constuction -->
+ <u>40</u><!-- One Of These 5/10/15/20/25/30/40 Amount Of Prestige When Conquered -->
+ <u>2043433861</u><!-- Region Array. From Top To Bottom. 1st 62 Regions 881206575. 2nd 15 Regions 1771634741. 3rd 32 Regions 1928099569. 4th 28 Regions 688200897. Why???? -->
+ <loc>regions_onscreen_austria</loc>
+ <flt>-0.0013270393246784806</flt>
+</rec>

@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<rec type="REGION_SLOT_ARRAY">
+ <rec type="REGION_SLOT">
+  <rec type="SIEGEABLE_GARRISON_RESIDENCE">
+   <garrison_residence>619725520</garrison_residence><!-- Faction ID -->
+   <u>618782272</u><!-- Building Slot ID -->
+   <u>0</u>
+   <u>0</u>
+   <u>0</u>
+   <u>0</u>
+   <i>0</i>
+   <no/>
+   <no/>
+   <no/>
+   <v2x x="0.0" y="0.0"/>
+   <u>0</u><!-- Army ID -->
+   <u4_ary/>
+   <u4_ary/><!-- Character ID Of Garrison -->
+   <rec type="LINE_OF_SIGHT">
+    <no/>
+   </rec>
+   <no/>
+   <ary type="FORTIFICATIONS_BLOCK"/>
+  </rec>
+  <rec type="BUILDING_MANAGER">
+   <yes/>
+   <building health="100" name="governors_mansion" faction="ottomans" government="gov_absolute_monarchy"/>
+   <no/>
+  </rec>
+  <u>618782272</u><!-- Building Slot ID -->
+  <s>settlement:egypt:cairo:settlement_government</s><!-- Building Slot Name -->
+  <i>0</i>
+  <i>0</i>
+  <v2x x="222.5290069580078" y="212.3333282470703"/>
+  <i>0</i><!-- 1=Meagre 2=Low 3=Average 4=High 5=Abundant Yeilds For Commodities -->
+  <i>2</i><!-- 1=Very Poor 2=Poor 3=Growing 4=Prosperous 5=Wealthy For Town/Port/Road/Wall -->
+  <no/><!-- Town or Port Emerged -->
+  <i>1</i><!-- Commodities = 0; Town/Port/Road/Wall = 1 -->
+  <i>1</i><!-- Commodities = 2; Town/Port/Road/Wall = 1 -->
+  <u>4294967295</u><!-- 4294967295 Trade/Finance ID -->
+  <u>0</u><!-- Town Or Port Emergence Order -->
+  <no/><!-- Available To Build -->
+  <no/>
+ </rec>
+</rec>

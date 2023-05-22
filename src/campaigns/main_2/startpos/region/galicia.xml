@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<rec type="REGION">
+ <s>galicia</s><!-- Region Name -->
+ <xml_include path="population/galicia.xml"/>
+ <traits/>
+ <rec type="REGION_SLOT_MANAGER">
+  <ary type="REGION_SLOT_ARRAY">
+   <xml_include path="region_slot/settlement-galicia-lwow-settlement_minor.xml"/>
+   <xml_include path="region_slot/wheat-galicia-east.xml"/>
+   <xml_include path="region_slot/timber-galicia-carpatians.xml"/>
+   <xml_include path="region_slot/town-galicia-brody.xml"/>
+   <xml_include path="region_slot/town-galicia-rzeszow.xml"/>
+   <xml_include path="region_slot/town-galicia-latyczov.xml"/>
+   <xml_include path="region_slot/town-galicia-kaminiec.xml"/>
+  </ary>
+  <xml_include path="region_slot/galicia-road.xml"/>
+  <xml_include path="region_slot/galicia-walls.xml"/>
+ </rec>
+ <i>615554656</i><!-- Region ID -->
+ <xml_include path="region_slot/settlement-galicia-lwow.xml"/>
+ <u>1</u>
+ <no/>
+ <no/>
+ <u>750</u><!-- Subsistence Agricultural (SA) -->
+ <u>1750</u><!-- Industrial Wealth Plus (SA) -->
+ <u>1750</u><!-- Industrial Wealth Plus (SA) Minus Trading Losses -->
+ <u>250</u><!-- Town Wealth -->
+ <u>250</u><!-- Minimum Town Wealth -->
+ <u>250</u><!-- Town Wealth -->
+ <i>-6</i><!-- Town Monetary Growth -->
+ <u>0</u>
+ <u>0</u>
+ <no/><!-- Exempt From Tax -->
+ <u>580985040</u><!-- Controlling Faction ID -->
+ <rec type="LINE_OF_SIGHT">
+  <yes/>
+  <v2 x="131.25" y="330.0"/>
+  <v2 x="228.75" y="372.5"/>
+  <xml_include path="quadtree/galicia-0001.xml"/>
+ </rec>
+ <u>611325376</u><!-- Governor ID -->
+ <s>europe</s><!-- Theatre -->
+ <s>slavic_rebels</s><!-- Emergent Nation -->
+ <s>Galician Rebels</s><!-- Region Rebels -->
+ <s>sc_european_east</s><!-- Region Culture For Types Of Buildings -->
+ <rec type="REGION_RECRUITMENT_MANAGER">
+  <ary type="REGION_RECRUITMENT_ITEM_ARRAY"/>
+  <no/>
+  <i>600713720</i>
+ </rec>
+ <no/>
+ <u4_ary>0 0 0 0 0 0 0 0</u4_ary>
+ <u4_ary>0 0 0 0 0 0 0 0</u4_ary>
+ <u4_ary>0 0 0 0 0 0 0 0</u4_ary>
+ <u4_ary>398 1162 1543 208 970 962 970 590</u4_ary>
+ <bool_ary>0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0</bool_ary>
+ <i4_ary/>
+ <ary type="RELIGIOUS_MISSION_BUILDING_ARRAY"/>
+ <ary type="FORT_ARRAY">
+  <xml_include path="region_slot/galicia-fort-0001.xml"/>
+ </ary>
+ <resources_array>
+  europe
+  middle_east_and_europe
+  uhlans
+  poland_home_regions
+  balkans
+  global
+ </resources_array>
+ <s/><!-- Latest Constuction -->
+ <u>15</u><!-- One Of These 5/10/15/20/25/30/40 Amount Of Prestige When Conquered -->
+ <u>2043433861</u><!-- Region Array. From Top To Bottom. 1st 62 Regions 881206575. 2nd 15 Regions 1771634741. 3rd 32 Regions 1928099569. 4th 28 Regions 688200897. Why???? -->
+ <loc>regions_onscreen_galicia</loc>
+ <flt>-0.0013270393246784806</flt>
+</rec>

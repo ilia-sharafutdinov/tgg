@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<rec type="REGION">
+ <s>pennsylvania</s><!-- Region Name -->
+ <xml_include path="population/pennsylvania.xml"/>
+ <traits/>
+ <rec type="REGION_SLOT_MANAGER">
+  <ary type="REGION_SLOT_ARRAY">
+   <xml_include path="region_slot/settlement-pennsylvania-philadelphia-settlement_army-admin.xml"/>
+   <xml_include path="region_slot/settlement-pennsylvania-philadelphia-settlement_government.xml"/>
+   <xml_include path="region_slot/settlement-pennsylvania-philadelphia-settlement_culture.xml"/>
+   <xml_include path="region_slot/settlement-pennsylvania-philadelphia-settlement_navy-admin.xml"/>
+   <xml_include path="region_slot/settlement-pennsylvania-philadelphia-settlement_ordnance.xml"/>
+   <xml_include path="region_slot/iron-pennsylvania-west.xml"/>
+   <xml_include path="region_slot/sheep-pennsylvania-scranton.xml"/>
+   <xml_include path="region_slot/port-pennsylvania-lewes.xml"/>
+   <xml_include path="region_slot/town-pennsylvania-harrisburg.xml"/>
+   <xml_include path="region_slot/town-pennsylvania-dover.xml"/>
+  </ary>
+  <xml_include path="region_slot/pennsylvania-road.xml"/>
+  <xml_include path="region_slot/pennsylvania-walls.xml"/>
+ </rec>
+ <i>639784504</i><!-- Region ID -->
+ <xml_include path="region_slot/settlement-pennsylvania-philadelphia.xml"/>
+ <u>1</u>
+ <no/>
+ <no/>
+ <u>0</u><!-- Subsistence Agricultural (SA) -->
+ <u>1800</u><!-- Industrial Wealth Plus (SA) -->
+ <u>1800</u><!-- Industrial Wealth Plus (SA) Minus Trading Losses -->
+ <u>500</u><!-- Town Wealth -->
+ <u>500</u><!-- Minimum Town Wealth -->
+ <u>500</u><!-- Town Wealth -->
+ <i>0</i><!-- Town Monetary Growth -->
+ <u>0</u>
+ <u>0</u>
+ <no/><!-- Exempt From Tax -->
+ <u>619077896</u><!-- Controlling Faction ID -->
+ <rec type="LINE_OF_SIGHT">
+  <yes/>
+  <v2 x="-571.25" y="262.5"/>
+  <v2 x="-516.25" y="310.0"/>
+  <xml_include path="quadtree/pennsylvania-0001.xml"/>
+ </rec>
+ <u>618531512</u><!-- Governor ID -->
+ <s>america</s><!-- Theatre -->
+ <s>united_states</s><!-- Emergent Nation -->
+ <s>Loyalist Rebels</s><!-- Region Rebels -->
+ <s>sc_european_west</s><!-- Region Culture For Types Of Buildings -->
+ <rec type="REGION_RECRUITMENT_MANAGER">
+  <ary type="REGION_RECRUITMENT_ITEM_ARRAY"/>
+  <no/>
+  <i>639749376</i>
+ </rec>
+ <no/>
+ <u4_ary>0 0 0 0 0 0 0 0</u4_ary>
+ <u4_ary>0 0 0 0 0 0 0 0</u4_ary>
+ <u4_ary>0 0 0 0 0 0 0 0</u4_ary>
+ <u4_ary>415 1198 1589 220 1002 990 1002 611</u4_ary>
+ <bool_ary>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1</bool_ary>
+ <i4_ary/>
+ <ary type="RELIGIOUS_MISSION_BUILDING_ARRAY"/>
+ <ary type="FORT_ARRAY"/>
+ <resources_array>
+  africa_west_indies
+  americas_inland
+  eua_pennsylvania
+  usa
+  global
+  displaced_scots
+  americas
+  colonial_euro_factions
+ </resources_array>
+ <s/><!-- Latest Constuction -->
+ <u>30</u><!-- One Of These 5/10/15/20/25/30/40 Amount Of Prestige When Conquered -->
+ <u>2043433861</u><!-- Region Array. From Top To Bottom. 1st 62 Regions 881206575. 2nd 15 Regions 1771634741. 3rd 32 Regions 1928099569. 4th 28 Regions 688200897. Why???? -->
+ <loc>regions_onscreen_pennsylvania</loc>
+ <flt>-0.0013270393246784806</flt>
+</rec>

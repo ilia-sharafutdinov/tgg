@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<rec type="CAI_WORLD_REGIONS">
+ <owned_indirect>3557</owned_indirect><!-- CAI_WORLD_REGIONS = Settlement AI ID. CAI_WORLD_REGION_SLOTS = Region AI ID. CAI_WORLD_CHARACTERS = Faction AI ID -->
+ <rec type="CAI_BDI_COMPONENT_PROPERTY_SET">
+  <u>0</u>
+ </rec>
+ <u>1255</u><!-- Region AI ID -->
+ <flt>100.0</flt>
+ <flt>100.0</flt>
+ <flt>0.0</flt>
+ <flt>100.0</flt>
+ <u>1</u>
+ <no/>
+ <u4_ary/>
+ <u4_ary>10478 0 12239 0 13222 0 14404 0 14420 0 14421 0 14475 0 15359 0 18079 0 18307 0 18308 0 18309 0 18310 0 18311 0 18532 0 19849 0 22191 0 24276 0 29020 0 32245 0 33385 0 35124 0 37493 0 43808 0 46834 0 51979 0 55476 0 60506 0 63801 0 68860 0 71689 0 74292 0</u4_ary><!-- BDI Information -->
+ <u>0</u>
+ <u>32</u>
+ <u4_ary/>
+ <u4_ary>10478 15 12239 8223 13222 4 14404 13620 14420 13621 14421 13637 14475 13635 15359 18079 18307 18308 18309 18310 18311 18532 13628 19849 13626 22191 20020 24276 22758 29020 28332 32245 30312 33385 32825 35124 34562 37493 36296 43808 43255 46834 46306 51979 50481 55476 54872 60506 59017 63801 61796 68860 67348 71689 70928 74292 72874</u4_ary><!-- BDI Information -->
+ <ary type="CAI_BDI_COMPONENT_BLOCK_OWNS"/>
+ <u>0</u>
+ <u>0</u>
+ <u4_ary/>
+ <u4_ary/>
+ <u4_ary/>
+ <u4_ary>7818 7817 7792 10479 10480 11818 12240 12239 13222 13224 13227 14404 14419 15383 15359 15473 18307 18308 18309 18310 18311 18532 19849 22191 24276 29020 32245 33385 35124 37493 43808 46834 51979 55476 60506 63801 68860 71689 74292</u4_ary><!-- BDI Information -->
+ <no/>
+ <u>0</u>
+ <no/>
+ <rec type="CAI_REGION">
+  <u4_ary>33</u4_ary><!-- Theatre IDs -->
+  <u4_ary>1256 1257 1258 1259 1260</u4_ary><!-- HLCIS IDs -->
+  <u>3557</u><!-- Settlement AI ID -->
+  <u4_ary>3559 3561 3563 3565</u4_ary><!-- Region Slot AI IDs Of Region Slots In This Region -->
+  <flt>-430.06854</flt><!-- X Coordinate -->
+  <flt>393.18951</flt><!-- Y Coordinate -->
+  <u4_ary/>
+  <u4_ary>7597 7602 7704</u4_ary><!-- Boundary IDs -->
+  <yes/>
+  <u4_ary/><!-- Character Resource AI IDs -->
+  <s>labrador</s><!-- Region Name -->
+  <u>637123952</u><!-- Region ID -->
+  <u>7825</u><!-- Governor AI ID -->
+  <u4_ary/><!-- Faction AI IDs -->
+ </rec>
+</rec>

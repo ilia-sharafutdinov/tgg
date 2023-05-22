@@ -1,0 +1,217 @@
+<?xml version="1.0"?>
+<rec type="FACTION">
+ <ancillary_uniqueness_monitor/>
+ <rec type="CAMPAIGN_PLAYER_SETUP">
+  <victory_conditions year="0" region_count="0" prestige_victory="no" campaign_type="4 (Unplayable)"/>
+  <rec type="CAMPAIGN_PLAYER_SETUP_INGAME_MODIFIABLES">
+   <i>0</i>
+   <i>0</i>
+   <i>0</i>
+   <no/>
+  </rec>
+  <s>knights_stjohn</s>
+  <no/>
+  <yes/><!-- Playable -->
+  <no/>
+ </rec>
+ <rec type="FACTION_ECONOMICS">
+  <ary type="history">
+   <rec type="history">
+    <rec type="ECONOMICS_DATA">
+     <i4_ary>0 0 0 0 0</i4_ary>
+     <i4_ary>0 0 0</i4_ary>
+     <i4_ary>0 0 0 1750</i4_ary>
+     <i4_ary>0</i4_ary>
+     <i4_ary>0 0 0 0 0</i4_ary>
+     <i4_ary>0 0 0 0 0 0 0</i4_ary>
+    </rec>
+   </rec>
+  </ary>
+  <i>7500</i>
+  <bin6>01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01</bin6>
+  <u>0</u>
+ </rec>
+ <xml_include path="diplomacy/knights_stjohn.xml"/>
+ <rec type="ARMY_REINFORCEMENT_MANAGER">
+  <ary type="CHARACTER_REINFORCEMENTS_ARRAY"/>
+  <ary type="UNIT_REINFORCEMENTS_ARRAY"/>
+ </rec>
+ <xml_include path="government/knights_stjohn-gov_absolute_monarchy.xml"/>
+ <xml_include path="family/knights_stjohn.xml"/>
+ <i>624053248</i><!-- Faction ID -->
+ <s>knights_stjohn</s><!-- Faction Name -->
+ <s>Knights of St John</s><!-- On Screen Name -->
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>192</u>
+  <u>2407086268</u>
+  <u2_ary>78 26 157 39 129 63 141 71 40 116 1 49 25 175 42 177 52 169 31 161 83 188 158 134 84 155 123 34 146 54 99 130 38 101 191 19 62 76 77 21 6 178 172 150 48 131 47 137 127 70 138 122 91 5 115 174 153 43 156 117 140 41 12 103 114 133 164 50 135 45 144 105 86 8 189 106 67 23 126 87 37 94 10 64 110 124 112 165 136 46 15 184 125 149 90 173 176 107 79 170 159 27 95 7 2 56 119 128 55 24 85 73 59 139 113 166 163 108 147 9 151 179 28 120 152 185 148 82 186 13 17 180 88 142 66 44 36 65 51 171 0 29 60 96 118 111 3 72 181 97 100 162 74 92 168 89 69 183 80 143 11 187 61 104 57 16 109 68 167 20 190 132 18 58 14 32</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>137</u>
+  <u>3557132529</u>
+  <u2_ary>82 127 8 101 129 57 119 83 96 131 29 100 41 80 5 94 86 53 75 91 77 70 13 60 61 90 106 99 81 123 25 3 116 72 95 67 93 6 87 117 89 74 112 104 109 42 27 24 22 51 103 46 9 110 7 136 18 47 26 34 17 36 49 107 4 102 118 15 0 79 114 98 130 126 11 115 31 63 32 121 50 88 28 37 92 12 52 76 59 125 21 23 84 124 38 78 44 30 1 111 65 128 58 19 105 85 71 43 120 134 55 68 133 54 73 45 14 16 20 39 40 48 122 66 135 97 33 62 108 132 10 35 113 69 56 64 2</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>1018510323</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>2223189500</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>139</u>
+  <u>240787081</u>
+  <u2_ary>7 30 119 42 59 77 27 39 117 96 98 85 65 16 111 10 61 23 21 87 25 126 120 11 15 18 19 62 41 123 17 70 69 56 71 128 43 93 53 24 76 47 121 125 35 34 106 136 107 67 84 135 72 66 115 109 122 58 78 12 105 75 114 40 20 81 74 51 32 92 37 91 55 103 2 26 80 101 6 118 52 22 110 50 138 68 83 48 137 82 88 108 132 46 113 131 134 127 63 44 90 4 112 64 33 124 60 31 28 36 99 0 45 79 102 9 29 129 57 89 5 49 38</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>2</u>
+  <u>360325537</u>
+  <u2_ary>1 0</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>2227041734</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>7</u>
+  <u>1106897692</u>
+  <u2_ary>5 0 3 6 4 1 2</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>11</u>
+  <u>4020958301</u>
+  <u2_ary>10 6 7 2 1 0 3 5 8</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>2415527586</u>
+  <u2_ary/>
+ </rec>
+ <yes/>
+ <rec type="LAND_UNIT_NAME_ALLOCATOR">
+  <ary type="LAND_UNIT_NAMES_MAP">
+   <xml_include path="unit_name_alloc/knights_stjohn-land-0001.xml"/>
+   <xml_include path="unit_name_alloc/knights_stjohn-land-0002.xml"/>
+   <xml_include path="unit_name_alloc/knights_stjohn-land-0003.xml"/>
+   <xml_include path="unit_name_alloc/knights_stjohn-land-0004.xml"/>
+   <xml_include path="unit_name_alloc/knights_stjohn-land-0005.xml"/>
+   <xml_include path="unit_name_alloc/knights_stjohn-land-0006.xml"/>
+   <xml_include path="unit_name_alloc/knights_stjohn-land-0007.xml"/>
+   <xml_include path="unit_name_alloc/knights_stjohn-land-0008.xml"/>
+   <xml_include path="unit_name_alloc/knights_stjohn-land-0009.xml"/>
+   <xml_include path="unit_name_alloc/knights_stjohn-land-0010.xml"/>
+   <xml_include path="unit_name_alloc/knights_stjohn-land-0011.xml"/>
+   <xml_include path="unit_name_alloc/knights_stjohn-land-0012.xml"/>
+   <xml_include path="unit_name_alloc/knights_stjohn-land-0013.xml"/>
+   <xml_include path="unit_name_alloc/knights_stjohn-land-0014.xml"/>
+   <xml_include path="unit_name_alloc/knights_stjohn-land-0015.xml"/>
+   <xml_include path="unit_name_alloc/knights_stjohn-land-0016.xml"/>
+   <xml_include path="unit_name_alloc/knights_stjohn-land-0017.xml"/>
+   <xml_include path="unit_name_alloc/knights_stjohn-land-0018.xml"/>
+   <xml_include path="unit_name_alloc/knights_stjohn-land-0019.xml"/>
+   <xml_include path="unit_name_alloc/knights_stjohn-land-0020.xml"/>
+   <xml_include path="unit_name_alloc/knights_stjohn-land-0021.xml"/>
+   <xml_include path="unit_name_alloc/knights_stjohn-land-0022.xml"/>
+   <xml_include path="unit_name_alloc/knights_stjohn-land-0023.xml"/>
+  </ary>
+ </rec>
+ <yes/>
+ <xml_include path="unit_name_alloc/knights_stjohn-naval-0001.xml"/>
+ <no/><!-- True - Major, False - Minor -->
+ <ary type="CHARACTER_ARRAY">
+  <xml_include path="character/knights_stjohn-minister-0001.xml"/>
+  <xml_include path="character/knights_stjohn-General-0001.xml"/>
+  <xml_include path="character/knights_stjohn-gentleman-0001.xml"/>
+  <xml_include path="character/knights_stjohn-rake-0001.xml"/>
+  <xml_include path="character/knights_stjohn-minister-0002.xml"/>
+  <xml_include path="character/knights_stjohn-minister-0003.xml"/>
+  <xml_include path="character/knights_stjohn-minister-0004.xml"/>
+  <xml_include path="character/knights_stjohn-minister-0005.xml"/>
+  <xml_include path="character/knights_stjohn-minister-0006.xml"/>
+  <xml_include path="character/knights_stjohn-minister-0007.xml"/>
+  <xml_include path="character/knights_stjohn-minister-0008.xml"/>
+  <xml_include path="character/knights_stjohn-minister-0009.xml"/>
+  <xml_include path="character/knights_stjohn-minister-0010.xml"/>
+  <xml_include path="character/knights_stjohn-minister-0011.xml"/>
+  <xml_include path="character/knights_stjohn-minister-0012.xml"/>
+  <xml_include path="character/knights_stjohn-minister-0013.xml"/>
+ </ary>
+ <xml_include path="technology/knights_stjohn-knights_stjohn.xml"/>
+ <ary type="ARMY_ARRAY">
+  <xml_include path="army/knights_stjohn-0001.xml"/>
+ </ary>
+ <ary type="MORGUE"/>
+ <u4_ary>880594472</u4_ary><!-- Governor ID For Each Theatre -->
+ <no/>
+ <s>rel_catholic</s><!-- Religion -->
+ <no/>
+ <rec type="FORT_UPGRADE_MANAGER">
+  <ary type="FORT_UPGRADES_ARRAY"/>
+ </rec>
+ <rec type="FORT_UPGRADE_MANAGER">
+  <ary type="FORT_REPAIRS_ARRAY"/>
+ </rec>
+ <i>617153528</i><!-- Current Capital ID Else 0 If Faction Destroyed -->
+ <i>617153528</i><!-- Original Capital ID -->
+ <ary type="EXPOSED_CHARACTERS"/>
+ <no/>
+ <rec type="PRESTIGE">
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <u>10</u>
+ </rec>
+ <no/><!-- Emergent -->
+ <u>0</u>
+ <bool_ary>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</bool_ary>
+ <i>0</i><!-- Army Upkeep -->
+ <i>0</i><!-- Navy Upkeep -->
+ <s>MAINTAINANCE</s><!-- Campaign AI Manager Behaviour (patch.pack) -->
+ <s>default</s><!-- Campaign AI Personalities (patch.pack) -->
+ <flag_and_colours path="data\ui\flags\knights_stjohn" color1="#c18685" color2="#510e08" color3="#56140c"/>
+ <flag_and_colours path="data\ui\flags\knights_stjohn" color1="#c18685" color2="#510e08" color3="#56140c"/>
+ <rec type="CAMPAIGN_BONUS_VALUES">
+  <ary type="CAMPAIGN_BONUS_VALUE_BLOCK">
+   <campaign_bonus_0 subtype="2" value="1.0" agent="Eastern_Scholar"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="rake"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="assassin"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="gentleman"/>
+  </ary>
+ </rec>
+ <rec type="CAMPAIGN_BONUS_VALUES">
+  <ary type="CAMPAIGN_BONUS_VALUE_BLOCK">
+   <campaign_bonus_0 subtype="2" value="1.0" agent="Eastern_Scholar"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="rake"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="assassin"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="gentleman"/>
+  </ary>
+ </rec>
+ <i>0</i><!-- Protectorate ID -->
+ <no/>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <no/>
+ <yes/>
+ <no/>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <no/>
+ <no/>
+ <u>0</u>
+ <no/>
+ <no/>
+</rec>

@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<rec type="REGION">
+ <s>dutch_guyana</s><!-- Region Name -->
+ <xml_include path="population/dutch_guyana.xml"/>
+ <traits/>
+ <rec type="REGION_SLOT_MANAGER">
+  <ary type="REGION_SLOT_ARRAY">
+   <xml_include path="region_slot/settlement-dutch_guyana-paramaribo-settlement_minor.xml"/>
+   <xml_include path="region_slot/gems-dutch_guyana-west.xml"/>
+   <xml_include path="region_slot/gold-dutch_guyana-central.xml"/>
+   <xml_include path="region_slot/tropical_humid-dutch_guyana-coast.xml"/>
+   <xml_include path="region_slot/timber-dutch_guyana-east.xml"/>
+   <xml_include path="region_slot/port-dutch_guyana-demerara.xml"/>
+  </ary>
+  <xml_include path="region_slot/dutch_guyana-road.xml"/>
+  <xml_include path="region_slot/dutch_guyana-walls.xml"/>
+ </rec>
+ <i>609484992</i><!-- Region ID -->
+ <xml_include path="region_slot/settlement-dutch_guyana-paramaribo.xml"/>
+ <u>0</u>
+ <no/>
+ <no/>
+ <u>0</u><!-- Subsistence Agricultural (SA) -->
+ <u>4620</u><!-- Industrial Wealth Plus (SA) -->
+ <u>4620</u><!-- Industrial Wealth Plus (SA) Minus Trading Losses -->
+ <u>0</u><!-- Town Wealth -->
+ <u>0</u><!-- Minimum Town Wealth -->
+ <u>0</u><!-- Town Wealth -->
+ <i>-7</i><!-- Town Monetary Growth -->
+ <u>0</u>
+ <u>0</u>
+ <no/><!-- Exempt From Tax -->
+ <u>662237240</u><!-- Controlling Faction ID -->
+ <rec type="LINE_OF_SIGHT">
+  <yes/>
+  <v2 x="-443.75" y="11.25"/>
+  <v2 x="-368.75" y="65.0"/>
+  <xml_include path="quadtree/dutch_guyana-0001.xml"/>
+ </rec>
+ <u>605152208</u><!-- Governor ID -->
+ <s>america</s><!-- Theatre -->
+ <s>amerind_rebels</s><!-- Emergent Nation -->
+ <s>Arawakan Rebels</s><!-- Region Rebels -->
+ <s>sc_european_west</s><!-- Region Culture For Types Of Buildings -->
+ <rec type="REGION_RECRUITMENT_MANAGER">
+  <ary type="REGION_RECRUITMENT_ITEM_ARRAY"/>
+  <no/>
+  <i>585994560</i>
+ </rec>
+ <no/>
+ <u4_ary>0 0 0 0 0 0 0 0</u4_ary>
+ <u4_ary>0 0 0 0 0 0 0 0</u4_ary>
+ <u4_ary>0 0 50 0 0 0 0 0</u4_ary>
+ <u4_ary>990 2970 3960 495 2475 2475 2475 1485</u4_ary>
+ <bool_ary>0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 0 0 0 1 0</bool_ary>
+ <i4_ary/>
+ <ary type="RELIGIOUS_MISSION_BUILDING_ARRAY"/>
+ <ary type="FORT_ARRAY"/>
+ <resources_array>
+  americas
+  colonial_euro_factions
+  africa_west_indies
+  americas_coastal
+  displaced_scots
+  global
+ </resources_array>
+ <s/><!-- Latest Constuction -->
+ <u>5</u><!-- One Of These 5/10/15/20/25/30/40 Amount Of Prestige When Conquered -->
+ <u>3283847689</u><!-- Region Array. From Top To Bottom. 1st 62 Regions 881206575. 2nd 15 Regions 1771634741. 3rd 32 Regions 1928099569. 4th 28 Regions 688200897. Why???? -->
+ <loc>regions_onscreen_dutch_guyana</loc>
+ <flt>-0.0013270393246784806</flt>
+</rec>

@@ -1,0 +1,123 @@
+<?xml version="1.0"?>
+<rec type="GOVERNMENT">
+ <i>897248464</i><!-- Government ID -->
+ <s>gov_constitutional_monarchy</s>
+ <i>0</i><!-- Government Popularity -->
+ <ary type="POSTS_ARRAY">
+  <rec type="POSTS_ARRAY">
+   <rec type="CHARACTER_POST">
+    <i>672587952</i><!-- Cabinet ID -->
+    <s>finance</s><!-- Cabinet Title -->
+    <u>913771344</u><!-- Character ID -->
+    <no/><!-- Governor -->
+    <i>897248464</i><!-- Government ID -->
+   </rec>
+  </rec>
+  <rec type="POSTS_ARRAY">
+   <rec type="CHARACTER_POST">
+    <i>672588048</i><!-- Cabinet ID -->
+    <s>faction_leader</s><!-- Cabinet Title -->
+    <u>607150736</u><!-- Character ID -->
+    <no/><!-- Governor -->
+    <i>897248464</i><!-- Government ID -->
+   </rec>
+  </rec>
+  <rec type="POSTS_ARRAY">
+   <rec type="CHARACTER_POST">
+    <i>672588144</i><!-- Cabinet ID -->
+    <s>navy</s><!-- Cabinet Title -->
+    <u>642650168</u><!-- Character ID -->
+    <no/><!-- Governor -->
+    <i>897248464</i><!-- Government ID -->
+   </rec>
+  </rec>
+  <rec type="POSTS_ARRAY">
+   <rec type="CHARACTER_POST">
+    <i>672588328</i><!-- Cabinet ID -->
+    <s>accident</s><!-- Cabinet Title -->
+    <u>666739032</u><!-- Character ID -->
+    <no/><!-- Governor -->
+    <i>897248464</i><!-- Government ID -->
+   </rec>
+  </rec>
+  <rec type="POSTS_ARRAY">
+   <rec type="CHARACTER_POST">
+    <i>672588424</i><!-- Cabinet ID -->
+    <s>justice</s><!-- Cabinet Title -->
+    <u>906300240</u><!-- Character ID -->
+    <no/><!-- Governor -->
+    <i>897248464</i><!-- Government ID -->
+   </rec>
+  </rec>
+  <rec type="POSTS_ARRAY">
+   <rec type="CHARACTER_POST">
+    <i>672588624</i><!-- Cabinet ID -->
+    <s>army</s><!-- Cabinet Title -->
+    <u>639274808</u><!-- Character ID -->
+    <no/><!-- Governor -->
+    <i>897248464</i><!-- Government ID -->
+   </rec>
+  </rec>
+  <rec type="POSTS_ARRAY">
+   <rec type="CHARACTER_POST">
+    <i>883739760</i><!-- Cabinet ID -->
+    <s>head_of_government</s><!-- Cabinet Title -->
+    <u>612058008</u><!-- Character ID -->
+    <no/><!-- Governor -->
+    <i>897248464</i><!-- Government ID -->
+   </rec>
+  </rec>
+  <rec type="POSTS_ARRAY">
+   <rec type="CHARACTER_POST">
+    <i>613643640</i><!-- Cabinet ID -->
+    <s>governor_europe</s><!-- Cabinet Title -->
+    <u>662902672</u><!-- Character ID -->
+    <yes/><!-- Governor -->
+    <rec type="GOVERNORSHIP">
+     <gov_taxes level_lower="2" level_upper="2" rate_lower="15" rate_upper="15"/>
+     <i>613643736</i><!-- Governor ID -->
+     <u4_ary>847055200 600997632 597597560 619702496</u4_ary><!-- Region IDs -->
+     <u>668419872</u><!-- Faction ID -->
+     <no/>
+     <no/>
+    </rec>
+    <i>897248464</i><!-- Government ID -->
+   </rec>
+  </rec>
+  <rec type="POSTS_ARRAY">
+   <rec type="CHARACTER_POST">
+    <i>660828064</i><!-- Cabinet ID -->
+    <s>governor_america</s><!-- Cabinet Title -->
+    <u>825817176</u><!-- Character ID -->
+    <yes/><!-- Governor -->
+    <rec type="GOVERNORSHIP">
+     <gov_taxes level_lower="2" level_upper="2" rate_lower="15" rate_upper="15"/>
+     <i>661870056</i><!-- Governor ID -->
+     <u4_ary>662774512 641003016 609505336 665534456 615372080 601541296 643878968 916013112 637123952 600517144</u4_ary><!-- Region IDs -->
+     <u>668419872</u><!-- Faction ID -->
+     <no/>
+     <no/>
+    </rec>
+    <i>897248464</i><!-- Government ID -->
+   </rec>
+  </rec>
+  <rec type="POSTS_ARRAY">
+   <rec type="CHARACTER_POST">
+    <i>608612936</i><!-- Cabinet ID -->
+    <s>governor_india</s><!-- Cabinet Title -->
+    <u>598429224</u><!-- Character ID -->
+    <yes/><!-- Governor -->
+    <rec type="GOVERNORSHIP">
+     <gov_taxes level_lower="2" level_upper="2" rate_lower="15" rate_upper="15"/>
+     <i>603567480</i><!-- Governor ID -->
+     <u4_ary>618104304 600571960</u4_ary><!-- Region IDs -->
+     <u>668419872</u><!-- Faction ID -->
+     <no/>
+     <no/>
+    </rec>
+    <i>897248464</i><!-- Government ID -->
+   </rec>
+  </rec>
+ </ary>
+ <gov_constitutional_monarchy minister_changes="0" had_elections="no" elections_due="10"/>
+</rec>

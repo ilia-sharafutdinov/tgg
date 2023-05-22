@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<rec type="SETTLEMENT">
+ <rec type="SIEGEABLE_GARRISON_RESIDENCE">
+  <garrison_residence>619077896</garrison_residence><!-- Faction ID -->
+  <u>665499152</u><!-- Building Slot ID -->
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <i>0</i>
+  <no/>
+  <no/>
+  <no/>
+  <v2x x="-525.1844482421875" y="302.8424072265625"/>
+  <u>604072800</u><!-- Army ID -->
+  <u4_ary/>
+  <u4_ary/><!-- Character ID Of Garrison -->
+  <rec type="LINE_OF_SIGHT">
+   <yes/>
+   <v2 x="-531.25" y="297.5"/>
+   <v2 x="-520.0" y="308.75"/>
+   <xml_include path="quadtree/settlement-new_york-albany-0001.xml"/>
+  </rec>
+  <no/>
+  <ary type="FORTIFICATIONS_BLOCK"/>
+ </rec>
+ <loc>start_pos_settlements_onscreen_name_settlement:new_york:albany338</loc>
+ <i>3</i>
+ <s>settlement:new_york:albany</s><!-- DB Table Campaign_map_settlements -->
+ <i>665499152</i><!-- Settlement ID -->
+ <s>settlement:new_york:albany</s><!-- DB Table Campaign_map_settlements -->
+</rec>

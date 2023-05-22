@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<rec type="REGION">
+ <s>sindh</s><!-- Region Name -->
+ <xml_include path="population/sindh.xml"/>
+ <traits/>
+ <rec type="REGION_SLOT_MANAGER">
+  <ary type="REGION_SLOT_ARRAY">
+   <xml_include path="region_slot/settlement-sindh-neroon_kot-settlement_minor.xml"/>
+   <xml_include path="region_slot/rice-sindh-south.xml"/>
+   <xml_include path="region_slot/wheat-sindh-central.xml"/>
+   <xml_include path="region_slot/town-sindh-larkana.xml"/>
+   <xml_include path="region_slot/town-sindh-umarkot.xml"/>
+   <xml_include path="region_slot/port-sindh-kolachi.xml"/>
+  </ary>
+  <xml_include path="region_slot/sindh-road.xml"/>
+  <xml_include path="region_slot/sindh-walls.xml"/>
+ </rec>
+ <i>592304976</i><!-- Region ID -->
+ <xml_include path="region_slot/settlement-sindh-neroon_kot.xml"/>
+ <u>0</u>
+ <no/>
+ <no/>
+ <u>0</u><!-- Subsistence Agricultural (SA) -->
+ <u>650</u><!-- Industrial Wealth Plus (SA) -->
+ <u>650</u><!-- Industrial Wealth Plus (SA) Minus Trading Losses -->
+ <u>0</u><!-- Town Wealth -->
+ <u>0</u><!-- Minimum Town Wealth -->
+ <u>0</u><!-- Town Wealth -->
+ <i>-7</i><!-- Town Monetary Growth -->
+ <u>0</u>
+ <u>0</u>
+ <no/><!-- Exempt From Tax -->
+ <u>616339296</u><!-- Controlling Faction ID -->
+ <rec type="LINE_OF_SIGHT">
+  <yes/>
+  <v2 x="461.25" y="153.75"/>
+  <v2 x="518.75" y="215.0"/>
+  <xml_include path="quadtree/sindh-0001.xml"/>
+ </rec>
+ <u>639826632</u><!-- Governor ID -->
+ <s>india</s><!-- Theatre -->
+ <s>mughal_rebels</s><!-- Emergent Nation -->
+ <s>Maratha Rebels</s><!-- Region Rebels -->
+ <s>sc_indian_hindu</s><!-- Region Culture For Types Of Buildings -->
+ <rec type="REGION_RECRUITMENT_MANAGER">
+  <ary type="REGION_RECRUITMENT_ITEM_ARRAY"/>
+  <no/>
+  <i>663828112</i>
+ </rec>
+ <no/>
+ <u4_ary>0 0 0 0 0 0 0 0</u4_ary>
+ <u4_ary>0 0 0 0 0 0 0 0</u4_ary>
+ <u4_ary>0 0 0 0 0 0 0 0</u4_ary>
+ <u4_ary>143 429 572 72 358 358 358 215</u4_ary>
+ <bool_ary>1 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0</bool_ary>
+ <i4_ary/>
+ <ary type="RELIGIOUS_MISSION_BUILDING_ARRAY"/>
+ <ary type="FORT_ARRAY"/>
+ <resources_array>
+  colonial_euro_factions
+  global
+  camels
+  india
+  islam
+ </resources_array>
+ <s/><!-- Latest Constuction -->
+ <u>10</u><!-- One Of These 5/10/15/20/25/30/40 Amount Of Prestige When Conquered -->
+ <u>2043433861</u><!-- Region Array. From Top To Bottom. 1st 62 Regions 881206575. 2nd 15 Regions 1771634741. 3rd 32 Regions 1928099569. 4th 28 Regions 688200897. Why???? -->
+ <loc>regions_onscreen_sindh</loc>
+ <flt>-0.0013270393246784806</flt>
+</rec>

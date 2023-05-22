@@ -1,0 +1,1088 @@
+<?xml version="1.0"?>
+<rec type="WORLD">
+ <ancillary_uniqueness_monitor/>
+ <u>0</u>
+ <u>1</u>
+ <ary type="FACTION_ARRAY">
+  <rec type="FACTION_ARRAY">
+   <xml_include path="factions/united_states.xml"/>
+  </rec>
+  <rec type="FACTION_ARRAY">
+   <xml_include path="factions/britain.xml"/>
+  </rec>
+  <rec type="FACTION_ARRAY">
+   <xml_include path="factions/netherlands.xml"/>
+  </rec>
+  <rec type="FACTION_ARRAY">
+   <xml_include path="factions/barbary_states.xml"/>
+  </rec>
+  <rec type="FACTION_ARRAY">
+   <xml_include path="factions/bavaria.xml"/>
+  </rec>
+  <rec type="FACTION_ARRAY">
+   <xml_include path="factions/cherokee.xml"/>
+  </rec>
+  <rec type="FACTION_ARRAY">
+   <xml_include path="factions/crimean_khanate.xml"/>
+  </rec>
+  <rec type="FACTION_ARRAY">
+   <xml_include path="factions/denmark.xml"/>
+  </rec>
+  <rec type="FACTION_ARRAY">
+   <xml_include path="factions/austria.xml"/>
+  </rec>
+  <rec type="FACTION_ARRAY">
+   <xml_include path="factions/genoa.xml"/>
+  </rec>
+  <rec type="FACTION_ARRAY">
+   <xml_include path="factions/hannover.xml"/>
+  </rec>
+  <rec type="FACTION_ARRAY">
+   <xml_include path="factions/france.xml"/>
+  </rec>
+  <rec type="FACTION_ARRAY">
+   <xml_include path="factions/prussia.xml"/>
+  </rec>
+  <rec type="FACTION_ARRAY">
+   <xml_include path="factions/iroquoi.xml"/>
+  </rec>
+  <rec type="FACTION_ARRAY">
+   <xml_include path="factions/knights_stjohn.xml"/>
+  </rec>
+  <rec type="FACTION_ARRAY">
+   <xml_include path="factions/naples_sicily.xml"/>
+  </rec>
+  <rec type="FACTION_ARRAY">
+   <xml_include path="factions/maratha.xml"/>
+  </rec>
+  <rec type="FACTION_ARRAY">
+   <xml_include path="factions/morocco.xml"/>
+  </rec>
+  <rec type="FACTION_ARRAY">
+   <xml_include path="factions/mughal.xml"/>
+  </rec>
+  <rec type="FACTION_ARRAY">
+   <xml_include path="factions/mysore.xml"/>
+  </rec>
+  <rec type="FACTION_ARRAY">
+   <xml_include path="factions/afghanistan.xml"/>
+  </rec>
+  <rec type="FACTION_ARRAY">
+   <xml_include path="factions/ottomans.xml"/>
+  </rec>
+  <rec type="FACTION_ARRAY">
+   <xml_include path="factions/papal_states.xml"/>
+  </rec>
+  <rec type="FACTION_ARRAY">
+   <xml_include path="factions/piedmont_savoy.xml"/>
+  </rec>
+  <rec type="FACTION_ARRAY">
+   <xml_include path="factions/plains.xml"/>
+  </rec>
+  <rec type="FACTION_ARRAY">
+   <xml_include path="factions/poland_lithuania.xml"/>
+  </rec>
+  <rec type="FACTION_ARRAY">
+   <xml_include path="factions/portugal.xml"/>
+  </rec>
+  <rec type="FACTION_ARRAY">
+   <xml_include path="factions/pueblo.xml"/>
+  </rec>
+  <rec type="FACTION_ARRAY">
+   <xml_include path="factions/russia.xml"/>
+  </rec>
+  <rec type="FACTION_ARRAY">
+   <xml_include path="factions/safavids.xml"/>
+  </rec>
+  <rec type="FACTION_ARRAY">
+   <xml_include path="factions/saxony.xml"/>
+  </rec>
+  <rec type="FACTION_ARRAY">
+   <xml_include path="factions/spain.xml"/>
+  </rec>
+  <rec type="FACTION_ARRAY">
+   <xml_include path="factions/sweden.xml"/>
+  </rec>
+  <rec type="FACTION_ARRAY">
+   <xml_include path="factions/venice.xml"/>
+  </rec>
+  <rec type="FACTION_ARRAY">
+   <xml_include path="factions/westphalia.xml"/>
+  </rec>
+  <rec type="FACTION_ARRAY">
+   <xml_include path="factions/wurttemberg.xml"/>
+  </rec>
+  <rec type="FACTION_ARRAY">
+   <xml_include path="factions/georgia.xml"/>
+  </rec>
+  <rec type="FACTION_ARRAY">
+   <xml_include path="factions/chechenya_dagestan.xml"/>
+  </rec>
+  <rec type="FACTION_ARRAY">
+   <xml_include path="factions/courland.xml"/>
+  </rec>
+  <rec type="FACTION_ARRAY">
+   <xml_include path="factions/mamelukes.xml"/>
+  </rec>
+  <rec type="FACTION_ARRAY">
+   <xml_include path="factions/greece.xml"/>
+  </rec>
+  <rec type="FACTION_ARRAY">
+   <xml_include path="factions/punjab.xml"/>
+  </rec>
+  <rec type="FACTION_ARRAY">
+   <xml_include path="factions/mexico.xml"/>
+  </rec>
+  <rec type="FACTION_ARRAY">
+   <xml_include path="factions/quebec.xml"/>
+  </rec>
+  <rec type="FACTION_ARRAY">
+   <xml_include path="factions/scotland.xml"/>
+  </rec>
+  <rec type="FACTION_ARRAY">
+   <xml_include path="factions/ireland.xml"/>
+  </rec>
+  <rec type="FACTION_ARRAY">
+   <xml_include path="factions/norway.xml"/>
+  </rec>
+  <rec type="FACTION_ARRAY">
+   <xml_include path="factions/colombia.xml"/>
+  </rec>
+  <rec type="FACTION_ARRAY">
+   <xml_include path="factions/huron.xml"/>
+  </rec>
+  <rec type="FACTION_ARRAY">
+   <xml_include path="factions/hungary.xml"/>
+  </rec>
+ </ary>
+ <rec type="REBEL_FACTION">
+  <xml_include path="factions/0001.xml"/>
+ </rec>
+ <rec type="REGION_MANAGER">
+  <ary type="REGIONS_ARRAY">
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/naples.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/netherlands.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/muscovy.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/new_england.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/ukraine.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/tejas.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/venice.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/virginia.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/ireland.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/new_spain.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/west_pommerania.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/jamaica.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/dutch_guyana.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/west_prussia.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/panama.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/don_voisko.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/bulgaria.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/tripoli.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/upper_louisiana.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/new_france.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/windward_islands.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/wurttemberg.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/new_grenada.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/florida.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/orissa.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/rumelia.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/afghanistan.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/algiers.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/great_plains.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/bijapur.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/berar.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/bashkira.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/finland.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/georgia.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/hispaniola.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/hyderabad.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/iceland.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/ingria.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/armenia.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/bengal.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/flanders.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/arkhangelsk.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/guatemala.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/huron_territory.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/iroquois_territory.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/komi.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/leeward_islands.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/lithuania.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/egypt.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/french_guyana.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/alsace.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/denmark.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/karelia.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/galicia.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/georgia_usa.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/azerbaijan.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/curacao.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/chechenya-dagestan.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/england.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/lower_louisiana.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/maine.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/gibraltar.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/hindustan.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/malta.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/malwa.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/maryland.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/michigan_territory.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/milan.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/morocco.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/anatolia.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/mysore.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/new_andalusia.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/new_york.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/northwest_territories.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/norway.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/ontario.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/palestine.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/pennsylvania.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/portugal.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/gujarat.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/prussia.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/punjab.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/belarus.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/courland.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/rajpootana.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/ruperts_land.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/kashmir.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/hannover.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/morea.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/sardinia.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/savoy.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/baluchistan.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/saxony.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/newfoundland.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/scotland.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/austria.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/carolinas.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/silesia.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/sindh.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/spain.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/syria.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/tatariya.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/acadia.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/transylvania.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/algonquin_territory.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/cuba.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/mesopotamia.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/poland.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/serbia.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/labrador.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/trinidad_tobago.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/moldavia.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/bosnia.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/bahamas.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/astrakhan.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/bohemia.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/corsica.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/estonia_and_livonia.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/bavaria.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/france.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/carnatica.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/genoa.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/persia.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/rhineland.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/crimea.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/greece.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/croatia.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/ahmadnagar.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/hungary.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/ceylon.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/kaintuck_territory.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/malabar.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/sweden.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/the_papal_states.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/cherokee_territory.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/tunis.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/new_mexico.xml"/>
+   </rec>
+  </ary>
+ </rec>
+ <no/>
+ <ary type="SPYING_ARRAY">
+  <rec type="SPYING_ARRAY">
+   <s>united_states</s>
+   <rec type="CAMPAIGN_SPYING">
+    <ary type="ARMY_DATA" version="0"/>
+    <ary type="NAVY_DATA" version="0"/>
+    <ary type="REGION_SLOT_DATA" version="0"/>
+    <ary type="FORT_DATA" version="0"/>
+    <ary type="SETTLEMENT_DATA" version="0"/>
+   </rec>
+  </rec>
+  <rec type="SPYING_ARRAY">
+   <s>britain</s>
+   <rec type="CAMPAIGN_SPYING">
+    <ary type="ARMY_DATA" version="0"/>
+    <ary type="NAVY_DATA" version="0"/>
+    <ary type="REGION_SLOT_DATA" version="0"/>
+    <ary type="FORT_DATA" version="0"/>
+    <ary type="SETTLEMENT_DATA" version="0"/>
+   </rec>
+  </rec>
+  <rec type="SPYING_ARRAY">
+   <s>netherlands</s>
+   <rec type="CAMPAIGN_SPYING">
+    <ary type="ARMY_DATA" version="0"/>
+    <ary type="NAVY_DATA" version="0"/>
+    <ary type="REGION_SLOT_DATA" version="0"/>
+    <ary type="FORT_DATA" version="0"/>
+    <ary type="SETTLEMENT_DATA" version="0"/>
+   </rec>
+  </rec>
+  <rec type="SPYING_ARRAY">
+   <s>barbary_states</s>
+   <rec type="CAMPAIGN_SPYING">
+    <ary type="ARMY_DATA" version="0"/>
+    <ary type="NAVY_DATA" version="0"/>
+    <ary type="REGION_SLOT_DATA" version="0"/>
+    <ary type="FORT_DATA" version="0"/>
+    <ary type="SETTLEMENT_DATA" version="0"/>
+   </rec>
+  </rec>
+  <rec type="SPYING_ARRAY">
+   <s>bavaria</s>
+   <rec type="CAMPAIGN_SPYING">
+    <ary type="ARMY_DATA" version="0"/>
+    <ary type="NAVY_DATA" version="0"/>
+    <ary type="REGION_SLOT_DATA" version="0"/>
+    <ary type="FORT_DATA" version="0"/>
+    <ary type="SETTLEMENT_DATA" version="0"/>
+   </rec>
+  </rec>
+  <rec type="SPYING_ARRAY">
+   <s>cherokee</s>
+   <rec type="CAMPAIGN_SPYING">
+    <ary type="ARMY_DATA" version="0"/>
+    <ary type="NAVY_DATA" version="0"/>
+    <ary type="REGION_SLOT_DATA" version="0"/>
+    <ary type="FORT_DATA" version="0"/>
+    <ary type="SETTLEMENT_DATA" version="0"/>
+   </rec>
+  </rec>
+  <rec type="SPYING_ARRAY">
+   <s>crimean_khanate</s>
+   <rec type="CAMPAIGN_SPYING">
+    <ary type="ARMY_DATA" version="0"/>
+    <ary type="NAVY_DATA" version="0"/>
+    <ary type="REGION_SLOT_DATA" version="0"/>
+    <ary type="FORT_DATA" version="0"/>
+    <ary type="SETTLEMENT_DATA" version="0"/>
+   </rec>
+  </rec>
+  <rec type="SPYING_ARRAY">
+   <s>denmark</s>
+   <rec type="CAMPAIGN_SPYING">
+    <ary type="ARMY_DATA" version="0"/>
+    <ary type="NAVY_DATA" version="0"/>
+    <ary type="REGION_SLOT_DATA" version="0"/>
+    <ary type="FORT_DATA" version="0"/>
+    <ary type="SETTLEMENT_DATA" version="0"/>
+   </rec>
+  </rec>
+  <rec type="SPYING_ARRAY">
+   <s>austria</s>
+   <rec type="CAMPAIGN_SPYING">
+    <ary type="ARMY_DATA" version="0"/>
+    <ary type="NAVY_DATA" version="0"/>
+    <ary type="REGION_SLOT_DATA" version="0"/>
+    <ary type="FORT_DATA" version="0"/>
+    <ary type="SETTLEMENT_DATA" version="0"/>
+   </rec>
+  </rec>
+  <rec type="SPYING_ARRAY">
+   <s>genoa</s>
+   <rec type="CAMPAIGN_SPYING">
+    <ary type="ARMY_DATA" version="0"/>
+    <ary type="NAVY_DATA" version="0"/>
+    <ary type="REGION_SLOT_DATA" version="0"/>
+    <ary type="FORT_DATA" version="0"/>
+    <ary type="SETTLEMENT_DATA" version="0"/>
+   </rec>
+  </rec>
+  <rec type="SPYING_ARRAY">
+   <s>hannover</s>
+   <rec type="CAMPAIGN_SPYING">
+    <ary type="ARMY_DATA" version="0"/>
+    <ary type="NAVY_DATA" version="0"/>
+    <ary type="REGION_SLOT_DATA" version="0"/>
+    <ary type="FORT_DATA" version="0"/>
+    <ary type="SETTLEMENT_DATA" version="0"/>
+   </rec>
+  </rec>
+  <rec type="SPYING_ARRAY">
+   <s>france</s>
+   <rec type="CAMPAIGN_SPYING">
+    <ary type="ARMY_DATA" version="0"/>
+    <ary type="NAVY_DATA" version="0"/>
+    <ary type="REGION_SLOT_DATA" version="0"/>
+    <ary type="FORT_DATA" version="0"/>
+    <ary type="SETTLEMENT_DATA" version="0"/>
+   </rec>
+  </rec>
+  <rec type="SPYING_ARRAY">
+   <s>prussia</s>
+   <rec type="CAMPAIGN_SPYING">
+    <ary type="ARMY_DATA" version="0"/>
+    <ary type="NAVY_DATA" version="0"/>
+    <ary type="REGION_SLOT_DATA" version="0"/>
+    <ary type="FORT_DATA" version="0"/>
+    <ary type="SETTLEMENT_DATA" version="0"/>
+   </rec>
+  </rec>
+  <rec type="SPYING_ARRAY">
+   <s>iroquoi</s>
+   <rec type="CAMPAIGN_SPYING">
+    <ary type="ARMY_DATA" version="0"/>
+    <ary type="NAVY_DATA" version="0"/>
+    <ary type="REGION_SLOT_DATA" version="0"/>
+    <ary type="FORT_DATA" version="0"/>
+    <ary type="SETTLEMENT_DATA" version="0"/>
+   </rec>
+  </rec>
+  <rec type="SPYING_ARRAY">
+   <s>knights_stjohn</s>
+   <rec type="CAMPAIGN_SPYING">
+    <ary type="ARMY_DATA" version="0"/>
+    <ary type="NAVY_DATA" version="0"/>
+    <ary type="REGION_SLOT_DATA" version="0"/>
+    <ary type="FORT_DATA" version="0"/>
+    <ary type="SETTLEMENT_DATA" version="0"/>
+   </rec>
+  </rec>
+  <rec type="SPYING_ARRAY">
+   <s>naples_sicily</s>
+   <rec type="CAMPAIGN_SPYING">
+    <ary type="ARMY_DATA" version="0"/>
+    <ary type="NAVY_DATA" version="0"/>
+    <ary type="REGION_SLOT_DATA" version="0"/>
+    <ary type="FORT_DATA" version="0"/>
+    <ary type="SETTLEMENT_DATA" version="0"/>
+   </rec>
+  </rec>
+  <rec type="SPYING_ARRAY">
+   <s>maratha</s>
+   <rec type="CAMPAIGN_SPYING">
+    <ary type="ARMY_DATA" version="0"/>
+    <ary type="NAVY_DATA" version="0"/>
+    <ary type="REGION_SLOT_DATA" version="0"/>
+    <ary type="FORT_DATA" version="0"/>
+    <ary type="SETTLEMENT_DATA" version="0"/>
+   </rec>
+  </rec>
+  <rec type="SPYING_ARRAY">
+   <s>morocco</s>
+   <rec type="CAMPAIGN_SPYING">
+    <ary type="ARMY_DATA" version="0"/>
+    <ary type="NAVY_DATA" version="0"/>
+    <ary type="REGION_SLOT_DATA" version="0"/>
+    <ary type="FORT_DATA" version="0"/>
+    <ary type="SETTLEMENT_DATA" version="0"/>
+   </rec>
+  </rec>
+  <rec type="SPYING_ARRAY">
+   <s>mughal</s>
+   <rec type="CAMPAIGN_SPYING">
+    <ary type="ARMY_DATA" version="0"/>
+    <ary type="NAVY_DATA" version="0"/>
+    <ary type="REGION_SLOT_DATA" version="0"/>
+    <ary type="FORT_DATA" version="0"/>
+    <ary type="SETTLEMENT_DATA" version="0"/>
+   </rec>
+  </rec>
+  <rec type="SPYING_ARRAY">
+   <s>mysore</s>
+   <rec type="CAMPAIGN_SPYING">
+    <ary type="ARMY_DATA" version="0"/>
+    <ary type="NAVY_DATA" version="0"/>
+    <ary type="REGION_SLOT_DATA" version="0"/>
+    <ary type="FORT_DATA" version="0"/>
+    <ary type="SETTLEMENT_DATA" version="0"/>
+   </rec>
+  </rec>
+  <rec type="SPYING_ARRAY">
+   <s>afghanistan</s>
+   <rec type="CAMPAIGN_SPYING">
+    <ary type="ARMY_DATA" version="0"/>
+    <ary type="NAVY_DATA" version="0"/>
+    <ary type="REGION_SLOT_DATA" version="0"/>
+    <ary type="FORT_DATA" version="0"/>
+    <ary type="SETTLEMENT_DATA" version="0"/>
+   </rec>
+  </rec>
+  <rec type="SPYING_ARRAY">
+   <s>ottomans</s>
+   <rec type="CAMPAIGN_SPYING">
+    <ary type="ARMY_DATA" version="0"/>
+    <ary type="NAVY_DATA" version="0"/>
+    <ary type="REGION_SLOT_DATA" version="0"/>
+    <ary type="FORT_DATA" version="0"/>
+    <ary type="SETTLEMENT_DATA" version="0"/>
+   </rec>
+  </rec>
+  <rec type="SPYING_ARRAY">
+   <s>papal_states</s>
+   <rec type="CAMPAIGN_SPYING">
+    <ary type="ARMY_DATA" version="0"/>
+    <ary type="NAVY_DATA" version="0"/>
+    <ary type="REGION_SLOT_DATA" version="0"/>
+    <ary type="FORT_DATA" version="0"/>
+    <ary type="SETTLEMENT_DATA" version="0"/>
+   </rec>
+  </rec>
+  <rec type="SPYING_ARRAY">
+   <s>piedmont_savoy</s>
+   <rec type="CAMPAIGN_SPYING">
+    <ary type="ARMY_DATA" version="0"/>
+    <ary type="NAVY_DATA" version="0"/>
+    <ary type="REGION_SLOT_DATA" version="0"/>
+    <ary type="FORT_DATA" version="0"/>
+    <ary type="SETTLEMENT_DATA" version="0"/>
+   </rec>
+  </rec>
+  <rec type="SPYING_ARRAY">
+   <s>plains</s>
+   <rec type="CAMPAIGN_SPYING">
+    <ary type="ARMY_DATA" version="0"/>
+    <ary type="NAVY_DATA" version="0"/>
+    <ary type="REGION_SLOT_DATA" version="0"/>
+    <ary type="FORT_DATA" version="0"/>
+    <ary type="SETTLEMENT_DATA" version="0"/>
+   </rec>
+  </rec>
+  <rec type="SPYING_ARRAY">
+   <s>poland_lithuania</s>
+   <rec type="CAMPAIGN_SPYING">
+    <ary type="ARMY_DATA" version="0"/>
+    <ary type="NAVY_DATA" version="0"/>
+    <ary type="REGION_SLOT_DATA" version="0"/>
+    <ary type="FORT_DATA" version="0"/>
+    <ary type="SETTLEMENT_DATA" version="0"/>
+   </rec>
+  </rec>
+  <rec type="SPYING_ARRAY">
+   <s>portugal</s>
+   <rec type="CAMPAIGN_SPYING">
+    <ary type="ARMY_DATA" version="0"/>
+    <ary type="NAVY_DATA" version="0"/>
+    <ary type="REGION_SLOT_DATA" version="0"/>
+    <ary type="FORT_DATA" version="0"/>
+    <ary type="SETTLEMENT_DATA" version="0"/>
+   </rec>
+  </rec>
+  <rec type="SPYING_ARRAY">
+   <s>pueblo</s>
+   <rec type="CAMPAIGN_SPYING">
+    <ary type="ARMY_DATA" version="0"/>
+    <ary type="NAVY_DATA" version="0"/>
+    <ary type="REGION_SLOT_DATA" version="0"/>
+    <ary type="FORT_DATA" version="0"/>
+    <ary type="SETTLEMENT_DATA" version="0"/>
+   </rec>
+  </rec>
+  <rec type="SPYING_ARRAY">
+   <s>russia</s>
+   <rec type="CAMPAIGN_SPYING">
+    <ary type="ARMY_DATA" version="0"/>
+    <ary type="NAVY_DATA" version="0"/>
+    <ary type="REGION_SLOT_DATA" version="0"/>
+    <ary type="FORT_DATA" version="0"/>
+    <ary type="SETTLEMENT_DATA" version="0"/>
+   </rec>
+  </rec>
+  <rec type="SPYING_ARRAY">
+   <s>safavids</s>
+   <rec type="CAMPAIGN_SPYING">
+    <ary type="ARMY_DATA" version="0"/>
+    <ary type="NAVY_DATA" version="0"/>
+    <ary type="REGION_SLOT_DATA" version="0"/>
+    <ary type="FORT_DATA" version="0"/>
+    <ary type="SETTLEMENT_DATA" version="0"/>
+   </rec>
+  </rec>
+  <rec type="SPYING_ARRAY">
+   <s>saxony</s>
+   <rec type="CAMPAIGN_SPYING">
+    <ary type="ARMY_DATA" version="0"/>
+    <ary type="NAVY_DATA" version="0"/>
+    <ary type="REGION_SLOT_DATA" version="0"/>
+    <ary type="FORT_DATA" version="0"/>
+    <ary type="SETTLEMENT_DATA" version="0"/>
+   </rec>
+  </rec>
+  <rec type="SPYING_ARRAY">
+   <s>spain</s>
+   <rec type="CAMPAIGN_SPYING">
+    <ary type="ARMY_DATA" version="0"/>
+    <ary type="NAVY_DATA" version="0"/>
+    <ary type="REGION_SLOT_DATA" version="0"/>
+    <ary type="FORT_DATA" version="0"/>
+    <ary type="SETTLEMENT_DATA" version="0"/>
+   </rec>
+  </rec>
+  <rec type="SPYING_ARRAY">
+   <s>sweden</s>
+   <rec type="CAMPAIGN_SPYING">
+    <ary type="ARMY_DATA" version="0"/>
+    <ary type="NAVY_DATA" version="0"/>
+    <ary type="REGION_SLOT_DATA" version="0"/>
+    <ary type="FORT_DATA" version="0"/>
+    <ary type="SETTLEMENT_DATA" version="0"/>
+   </rec>
+  </rec>
+  <rec type="SPYING_ARRAY">
+   <s>venice</s>
+   <rec type="CAMPAIGN_SPYING">
+    <ary type="ARMY_DATA" version="0"/>
+    <ary type="NAVY_DATA" version="0"/>
+    <ary type="REGION_SLOT_DATA" version="0"/>
+    <ary type="FORT_DATA" version="0"/>
+    <ary type="SETTLEMENT_DATA" version="0"/>
+   </rec>
+  </rec>
+  <rec type="SPYING_ARRAY">
+   <s>westphalia</s>
+   <rec type="CAMPAIGN_SPYING">
+    <ary type="ARMY_DATA" version="0"/>
+    <ary type="NAVY_DATA" version="0"/>
+    <ary type="REGION_SLOT_DATA" version="0"/>
+    <ary type="FORT_DATA" version="0"/>
+    <ary type="SETTLEMENT_DATA" version="0"/>
+   </rec>
+  </rec>
+  <rec type="SPYING_ARRAY">
+   <s>wurttemberg</s>
+   <rec type="CAMPAIGN_SPYING">
+    <ary type="ARMY_DATA" version="0"/>
+    <ary type="NAVY_DATA" version="0"/>
+    <ary type="REGION_SLOT_DATA" version="0"/>
+    <ary type="FORT_DATA" version="0"/>
+    <ary type="SETTLEMENT_DATA" version="0"/>
+   </rec>
+  </rec>
+  <rec type="SPYING_ARRAY">
+   <s>georgia</s>
+   <rec type="CAMPAIGN_SPYING">
+    <ary type="ARMY_DATA" version="0"/>
+    <ary type="NAVY_DATA" version="0"/>
+    <ary type="REGION_SLOT_DATA" version="0"/>
+    <ary type="FORT_DATA" version="0"/>
+    <ary type="SETTLEMENT_DATA" version="0"/>
+   </rec>
+  </rec>
+  <rec type="SPYING_ARRAY">
+   <s>chechenya_dagestan</s>
+   <rec type="CAMPAIGN_SPYING">
+    <ary type="ARMY_DATA" version="0"/>
+    <ary type="NAVY_DATA" version="0"/>
+    <ary type="REGION_SLOT_DATA" version="0"/>
+    <ary type="FORT_DATA" version="0"/>
+    <ary type="SETTLEMENT_DATA" version="0"/>
+   </rec>
+  </rec>
+  <rec type="SPYING_ARRAY">
+   <s>courland</s>
+   <rec type="CAMPAIGN_SPYING">
+    <ary type="ARMY_DATA" version="0"/>
+    <ary type="NAVY_DATA" version="0"/>
+    <ary type="REGION_SLOT_DATA" version="0"/>
+    <ary type="FORT_DATA" version="0"/>
+    <ary type="SETTLEMENT_DATA" version="0"/>
+   </rec>
+  </rec>
+  <rec type="SPYING_ARRAY">
+   <s>mamelukes</s>
+   <rec type="CAMPAIGN_SPYING">
+    <ary type="ARMY_DATA" version="0"/>
+    <ary type="NAVY_DATA" version="0"/>
+    <ary type="REGION_SLOT_DATA" version="0"/>
+    <ary type="FORT_DATA" version="0"/>
+    <ary type="SETTLEMENT_DATA" version="0"/>
+   </rec>
+  </rec>
+  <rec type="SPYING_ARRAY">
+   <s>greece</s>
+   <rec type="CAMPAIGN_SPYING">
+    <ary type="ARMY_DATA" version="0"/>
+    <ary type="NAVY_DATA" version="0"/>
+    <ary type="REGION_SLOT_DATA" version="0"/>
+    <ary type="FORT_DATA" version="0"/>
+    <ary type="SETTLEMENT_DATA" version="0"/>
+   </rec>
+  </rec>
+  <rec type="SPYING_ARRAY">
+   <s>punjab</s>
+   <rec type="CAMPAIGN_SPYING">
+    <ary type="ARMY_DATA" version="0"/>
+    <ary type="NAVY_DATA" version="0"/>
+    <ary type="REGION_SLOT_DATA" version="0"/>
+    <ary type="FORT_DATA" version="0"/>
+    <ary type="SETTLEMENT_DATA" version="0"/>
+   </rec>
+  </rec>
+  <rec type="SPYING_ARRAY">
+   <s>mexico</s>
+   <rec type="CAMPAIGN_SPYING">
+    <ary type="ARMY_DATA" version="0"/>
+    <ary type="NAVY_DATA" version="0"/>
+    <ary type="REGION_SLOT_DATA" version="0"/>
+    <ary type="FORT_DATA" version="0"/>
+    <ary type="SETTLEMENT_DATA" version="0"/>
+   </rec>
+  </rec>
+  <rec type="SPYING_ARRAY">
+   <s>quebec</s>
+   <rec type="CAMPAIGN_SPYING">
+    <ary type="ARMY_DATA" version="0"/>
+    <ary type="NAVY_DATA" version="0"/>
+    <ary type="REGION_SLOT_DATA" version="0"/>
+    <ary type="FORT_DATA" version="0"/>
+    <ary type="SETTLEMENT_DATA" version="0"/>
+   </rec>
+  </rec>
+  <rec type="SPYING_ARRAY">
+   <s>scotland</s>
+   <rec type="CAMPAIGN_SPYING">
+    <ary type="ARMY_DATA" version="0"/>
+    <ary type="NAVY_DATA" version="0"/>
+    <ary type="REGION_SLOT_DATA" version="0"/>
+    <ary type="FORT_DATA" version="0"/>
+    <ary type="SETTLEMENT_DATA" version="0"/>
+   </rec>
+  </rec>
+  <rec type="SPYING_ARRAY">
+   <s>ireland</s>
+   <rec type="CAMPAIGN_SPYING">
+    <ary type="ARMY_DATA" version="0"/>
+    <ary type="NAVY_DATA" version="0"/>
+    <ary type="REGION_SLOT_DATA" version="0"/>
+    <ary type="FORT_DATA" version="0"/>
+    <ary type="SETTLEMENT_DATA" version="0"/>
+   </rec>
+  </rec>
+  <rec type="SPYING_ARRAY">
+   <s>norway</s>
+   <rec type="CAMPAIGN_SPYING">
+    <ary type="ARMY_DATA" version="0"/>
+    <ary type="NAVY_DATA" version="0"/>
+    <ary type="REGION_SLOT_DATA" version="0"/>
+    <ary type="FORT_DATA" version="0"/>
+    <ary type="SETTLEMENT_DATA" version="0"/>
+   </rec>
+  </rec>
+  <rec type="SPYING_ARRAY">
+   <s>colombia</s>
+   <rec type="CAMPAIGN_SPYING">
+    <ary type="ARMY_DATA" version="0"/>
+    <ary type="NAVY_DATA" version="0"/>
+    <ary type="REGION_SLOT_DATA" version="0"/>
+    <ary type="FORT_DATA" version="0"/>
+    <ary type="SETTLEMENT_DATA" version="0"/>
+   </rec>
+  </rec>
+  <rec type="SPYING_ARRAY">
+   <s>huron</s>
+   <rec type="CAMPAIGN_SPYING">
+    <ary type="ARMY_DATA" version="0"/>
+    <ary type="NAVY_DATA" version="0"/>
+    <ary type="REGION_SLOT_DATA" version="0"/>
+    <ary type="FORT_DATA" version="0"/>
+    <ary type="SETTLEMENT_DATA" version="0"/>
+   </rec>
+  </rec>
+  <rec type="SPYING_ARRAY">
+   <s>hungary</s>
+   <rec type="CAMPAIGN_SPYING">
+    <ary type="ARMY_DATA" version="0"/>
+    <ary type="NAVY_DATA" version="0"/>
+    <ary type="REGION_SLOT_DATA" version="0"/>
+    <ary type="FORT_DATA" version="0"/>
+    <ary type="SETTLEMENT_DATA" version="0"/>
+   </rec>
+  </rec>
+ </ary>
+ <rec type="REBEL_SPYING">
+  <rec type="CAMPAIGN_SPYING">
+   <ary type="ARMY_DATA" version="0"/>
+   <ary type="NAVY_DATA" version="0"/>
+   <ary type="REGION_SLOT_DATA" version="0"/>
+   <ary type="FORT_DATA" version="0"/>
+   <ary type="SETTLEMENT_DATA" version="0"/>
+  </rec>
+ </rec>
+</rec>

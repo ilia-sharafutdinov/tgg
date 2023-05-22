@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<rec type="REGION">
+ <s>orissa</s><!-- Region Name -->
+ <xml_include path="population/orissa.xml"/>
+ <traits/>
+ <rec type="REGION_SLOT_MANAGER">
+  <ary type="REGION_SLOT_ARRAY">
+   <xml_include path="region_slot/settlement-orissa-cuttack-settlement_minor.xml"/>
+   <xml_include path="region_slot/rice-orissa-coastsouth.xml"/>
+   <xml_include path="region_slot/rice-orissa-east.xml"/>
+   <xml_include path="region_slot/iron-orissa-north.xml"/>
+   <xml_include path="region_slot/port-orissa-yanaon.xml"/>
+   <xml_include path="region_slot/town-orissa-vizianagram.xml"/>
+   <xml_include path="region_slot/town-orissa-sambalpur.xml"/>
+   <xml_include path="region_slot/port-orissa-puri.xml"/>
+   <xml_include path="region_slot/town-orissa-masulipatnam.xml"/>
+  </ary>
+  <xml_include path="region_slot/orissa-road.xml"/>
+  <xml_include path="region_slot/orissa-walls.xml"/>
+ </rec>
+ <i>618104304</i><!-- Region ID -->
+ <xml_include path="region_slot/settlement-orissa-cuttack.xml"/>
+ <u>0</u>
+ <no/>
+ <no/>
+ <u>0</u><!-- Subsistence Agricultural (SA) -->
+ <u>2962</u><!-- Industrial Wealth Plus (SA) -->
+ <u>2962</u><!-- Industrial Wealth Plus (SA) Minus Trading Losses -->
+ <u>0</u><!-- Town Wealth -->
+ <u>0</u><!-- Minimum Town Wealth -->
+ <u>0</u><!-- Town Wealth -->
+ <i>-1</i><!-- Town Monetary Growth -->
+ <u>0</u>
+ <u>0</u>
+ <no/><!-- Exempt From Tax -->
+ <u>668419872</u><!-- Controlling Faction ID -->
+ <rec type="LINE_OF_SIGHT">
+  <yes/>
+  <v2 x="555.0" y="97.5"/>
+  <v2 x="630.0" y="166.25"/>
+  <xml_include path="quadtree/orissa-0001.xml"/>
+ </rec>
+ <u>603567480</u><!-- Governor ID -->
+ <s>india</s><!-- Theatre -->
+ <s>maratha_rebels</s><!-- Emergent Nation -->
+ <s>Maratha Rebels</s><!-- Region Rebels -->
+ <s>sc_indian_hindu</s><!-- Region Culture For Types Of Buildings -->
+ <rec type="REGION_RECRUITMENT_MANAGER">
+  <ary type="REGION_RECRUITMENT_ITEM_ARRAY"/>
+  <no/>
+  <i>640172488</i>
+ </rec>
+ <no/>
+ <u4_ary>0 0 0 0 0 0 0 0</u4_ary>
+ <u4_ary>0 0 0 0 0 0 0 0</u4_ary>
+ <u4_ary>0 0 0 0 0 0 0 0</u4_ary>
+ <u4_ary>652 1955 2607 326 1629 1629 1629 977</u4_ary>
+ <bool_ary>1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1</bool_ary>
+ <i4_ary/>
+ <ary type="RELIGIOUS_MISSION_BUILDING_ARRAY"/>
+ <ary type="FORT_ARRAY"/>
+ <resources_array>
+  camels
+  india
+  colonial_euro_factions
+  hindu
+  islam
+  global
+ </resources_array>
+ <s/><!-- Latest Constuction -->
+ <u>10</u><!-- One Of These 5/10/15/20/25/30/40 Amount Of Prestige When Conquered -->
+ <u>2043433861</u><!-- Region Array. From Top To Bottom. 1st 62 Regions 881206575. 2nd 15 Regions 1771634741. 3rd 32 Regions 1928099569. 4th 28 Regions 688200897. Why???? -->
+ <loc>regions_onscreen_orissa</loc>
+ <flt>-0.0013270393246784806</flt>
+</rec>

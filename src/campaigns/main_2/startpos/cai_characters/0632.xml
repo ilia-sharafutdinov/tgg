@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<rec type="CAI_WORLD_CHARACTERS">
+ <owned_indirect>1358</owned_indirect><!-- CAI_WORLD_REGIONS = Settlement AI ID. CAI_WORLD_REGION_SLOTS = Region AI ID. CAI_WORLD_CHARACTERS = Faction AI ID -->
+ <rec type="CAI_BDI_COMPONENT_PROPERTY_SET">
+  <u>0</u>
+ </rec>
+ <u>6883</u><!-- Character AI ID -->
+ <flt>100.0</flt>
+ <flt>100.0</flt>
+ <flt>0.0</flt>
+ <flt>100.0</flt>
+ <u>1</u>
+ <no/>
+ <u4_ary/>
+ <u4_ary/>
+ <u>0</u>
+ <u>0</u>
+ <u4_ary/>
+ <u4_ary/>
+ <ary type="CAI_BDI_COMPONENT_BLOCK_OWNS"/>
+ <u>0</u>
+ <u>0</u>
+ <u4_ary/>
+ <u4_ary/>
+ <u4_ary/>
+ <u4_ary/>
+ <no/>
+ <u>0</u>
+ <no/>
+ <rec type="CAI_CHARACTER">
+  <u>6884</u><!-- Character Resource AI ID For Leader. If 0 then Character Is Not Leader -->
+  <u>6885</u><!-- Character Unit AI ID -->
+  <u>6884</u><!-- Character Resource AI ID -->
+  <u>896545232</u><!-- Character ID -->
+  <u>0</u><!-- Governor AI ID -->
+ </rec>
+</rec>

@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<rec type="CAI_INTERFACE_MANAGERS">
+ <xml_include path="bdi_pool/0021.xml"/>
+ <rec type="CAI_FACTION_BDI_POOL">
+  <no/>
+  <no/>
+  <u>49063</u><!-- All these u records are BDI Information -->
+  <u>49064</u>
+  <u>49065</u>
+  <u>49067</u>
+  <u>49018</u>
+  <u>49019</u>
+  <u>49020</u>
+  <u>49021</u>
+  <u>49022</u>
+  <u>49023</u>
+  <u>49024</u>
+  <u>49025</u>
+  <u>49026</u>
+  <u>49027</u>
+  <u>49028</u>
+  <u>49029</u>
+  <u>49030</u>
+  <u>49031</u>
+  <u>49032</u>
+  <u>49033</u>
+  <u>49034</u>
+  <u>49035</u>
+  <u>49036</u>
+  <u>49037</u>
+  <u>49038</u>
+  <u>49039</u>
+  <u>49040</u>
+  <u>49041</u>
+  <u>49042</u>
+  <u>49043</u>
+  <u>49044</u>
+  <u>49045</u>
+  <u>49046</u>
+  <u>49047</u>
+  <u>49048</u>
+  <u>49049</u>
+  <u>49050</u>
+  <u>49051</u>
+  <u>49052</u>
+  <u>49053</u>
+  <u>49054</u>
+  <u>49055</u>
+  <u>49056</u>
+  <u>49057</u>
+  <u>49058</u>
+  <u>49059</u>
+  <u>49060</u>
+  <u>49061</u>
+  <u>49062</u>
+ </rec>
+ <rec type="CAI_FACTION_MANAGER">
+  <u>1322</u><!-- Faction AI ID -->
+  <u>11</u>
+  <rec type="CAI_FACTION_LEARNT_PARAMETERS">
+   <ary type="CAI_FACTION_LEARNT_PARAMETERS_INFO_ARRAY">
+    <rec type="CAI_FACTION_LEARNT_PARAMETERS_INFO_ARRAY">
+     <rec type="CAI_FACTION_LEARNT_PARAMETERS_INFO">
+      <u>0</u><!-- Faction AI ID -->
+      <i>0</i>
+      <flt>0.8</flt>
+      <i>0</i>
+      <flt>0.8</flt>
+      <i>0</i>
+      <flt>0.8</flt>
+      <i>0</i>
+      <flt>0.8</flt>
+     </rec>
+    </rec>
+   </ary>
+  </rec>
+  <yes/>
+  <u>0</u>
+  <u>0</u>
+ </rec>
+</rec>

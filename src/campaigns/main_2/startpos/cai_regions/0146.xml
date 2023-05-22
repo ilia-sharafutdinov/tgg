@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<rec type="CAI_WORLD_REGIONS">
+ <owned_indirect>2985</owned_indirect><!-- CAI_WORLD_REGIONS = Settlement AI ID. CAI_WORLD_REGION_SLOTS = Region AI ID. CAI_WORLD_CHARACTERS = Faction AI ID -->
+ <rec type="CAI_BDI_COMPONENT_PROPERTY_SET">
+  <u>0</u>
+ </rec>
+ <u>964</u><!-- Region AI ID -->
+ <flt>100.0</flt>
+ <flt>100.0</flt>
+ <flt>0.0</flt>
+ <flt>100.0</flt>
+ <u>1</u>
+ <no/>
+ <u4_ary/>
+ <u4_ary>9137 0 12682 0 15814 0 16387 0 20627 0 24506 0 29312 0 32428 0 33688 0 35421 0 37754 0 44113 0 45435 0 45465 0 47145 0 48250 0 49818 0 52170 0 55770 0 60725 0 63993 0 69121 0 71965 0 74524 0 82756 0 82757 0 82759 0 82916 0 83181 0 83182 0 83183 0 83184 0 83185 0 82957 1 83227 0 82938 1 82942 1 82940 1 83230 0 82950 1</u4_ary><!-- BDI Information -->
+ <u>0</u>
+ <u>40</u>
+ <u4_ary/>
+ <u4_ary>9137 14 12682 8223 15814 13620 16387 4 20627 20020 24506 22758 29312 28332 32428 30312 33688 32825 35421 34562 37754 36296 44113 43255 45435 15 45465 45009 47145 46306 48250 48044 49818 49661 52170 50481 55770 54872 60725 59017 63993 61796 69121 67348 71965 70928 74524 72874 82756 82626 82757 82642 82759 82625 82916 83181 83182 83183 83184 83185 82957 83227 82633 82938 82942 82940 83230 82631 82950</u4_ary><!-- BDI Information -->
+ <ary type="CAI_BDI_COMPONENT_BLOCK_OWNS"/>
+ <u>0</u>
+ <u>0</u>
+ <u4_ary/>
+ <u4_ary/>
+ <u4_ary/>
+ <u4_ary>7789 7788 7785 7742 9137 12683 12682 15814 16387 16389 16391 16393 16395 20627 24506 29312 32428 33688 35421 37754 44113 45436 45465 47145 48088 48250 48694 48695 49818 52170 55770 60725 63993 69121 71965 74524 82755 82759 82954 82916 82960 83181 83182 83183 83184 83185 83227 83230</u4_ary><!-- BDI Information -->
+ <no/>
+ <u>0</u>
+ <no/>
+ <rec type="CAI_REGION">
+  <u4_ary>35</u4_ary><!-- Theatre IDs -->
+  <u4_ary>965</u4_ary><!-- HLCIS IDs -->
+  <u>2985</u><!-- Settlement AI ID -->
+  <u4_ary>2987 2989 2991 2993 2995 2997 2999 3001</u4_ary><!-- Region Slot AI IDs Of Region Slots In This Region -->
+  <flt>528.56</flt><!-- X Coordinate -->
+  <flt>224.56003</flt><!-- Y Coordinate -->
+  <u4_ary/>
+  <u4_ary>7336 7344 7572 7575 7576 7578</u4_ary><!-- Boundary IDs -->
+  <no/>
+  <u4_ary>7240</u4_ary><!-- Character Resource AI IDs -->
+  <s>punjab</s><!-- Region Name -->
+  <u>616211704</u><!-- Region ID -->
+  <u>7869</u><!-- Governor AI ID -->
+  <u4_ary/><!-- Faction AI IDs -->
+ </rec>
+</rec>

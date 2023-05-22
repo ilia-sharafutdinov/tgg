@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<rec type="CAI_WORLD_BUILDING_SLOTS">
+ <rec type="CAI_BDI_COMPONENT_PROPERTY_SET">
+  <u>0</u>
+ </rec>
+ <u>2917</u><!-- Building Slot AI ID -->
+ <flt>100.0</flt>
+ <flt>100.0</flt>
+ <flt>0.0</flt>
+ <flt>100.0</flt>
+ <u>1</u>
+ <no/>
+ <u4_ary/>
+ <u4_ary>18589 0</u4_ary><!-- BDI Information -->
+ <u>0</u>
+ <u>1</u><!-- 0 = Unemerged, 1 = Emerged -->
+ <u4_ary/>
+ <u4_ary>18589 13641</u4_ary><!-- BDI Information -->
+ <ary type="CAI_BDI_COMPONENT_BLOCK_OWNS"/>
+ <u>0</u>
+ <u>0</u>
+ <u4_ary/>
+ <u4_ary/>
+ <u4_ary/>
+ <u4_ary>18589</u4_ary><!-- BDI Information -->
+ <no/>
+ <u>0</u>
+ <no/>
+ <rec type="CAI_BUILDING_SLOT">
+  <u>581376952</u><!-- Building Slot ID -->
+  <u>2</u><!-- Bulding type: 0 = Settlement, 1 = Wall/Road, 2 = Town, 3 = Port, 4 = Mine, 5 = Farm, 6 = Trade Resource, 7 = Multiple Trade Resources -->
+  <u>2918</u><!-- Settlement AI ID OR Region Slot AI ID If Not Part Of The Settlement -->
+ </rec>
+</rec>

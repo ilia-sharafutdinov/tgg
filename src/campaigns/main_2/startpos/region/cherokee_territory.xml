@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<rec type="REGION">
+ <s>cherokee_territory</s><!-- Region Name -->
+ <xml_include path="population/cherokee_territory.xml"/>
+ <traits/>
+ <rec type="REGION_SLOT_MANAGER">
+  <ary type="REGION_SLOT_ARRAY">
+   <xml_include path="region_slot/settlement-cherokee_territory-tellico-settlement_minor.xml"/>
+   <xml_include path="region_slot/southern_usa-cherokee_territory-south.xml"/>
+   <xml_include path="region_slot/iron-cherokee_territory-northeast.xml"/>
+   <xml_include path="region_slot/corn-cherokee_territory-north.xml"/>
+   <xml_include path="region_slot/town-cherokee_territory-autiamique.xml"/>
+   <xml_include path="region_slot/town-cherokee_territory-tuckabatchee.xml"/>
+   <xml_include path="region_slot/town-cherokee_territory-casseta.xml"/>
+  </ary>
+  <xml_include path="region_slot/cherokee_territory-road.xml"/>
+  <xml_include path="region_slot/cherokee_territory-walls.xml"/>
+ </rec>
+ <i>892674104</i><!-- Region ID -->
+ <xml_include path="region_slot/settlement-cherokee_territory-tellico.xml"/>
+ <u>0</u>
+ <no/>
+ <no/>
+ <u>0</u><!-- Subsistence Agricultural (SA) -->
+ <u>1927</u><!-- Industrial Wealth Plus (SA) -->
+ <u>1927</u><!-- Industrial Wealth Plus (SA) Minus Trading Losses -->
+ <u>0</u><!-- Town Wealth -->
+ <u>0</u><!-- Minimum Town Wealth -->
+ <u>0</u><!-- Town Wealth -->
+ <i>0</i><!-- Town Monetary Growth -->
+ <u>0</u>
+ <u>0</u>
+ <no/><!-- Exempt From Tax -->
+ <u>826167352</u><!-- Controlling Faction ID -->
+ <rec type="LINE_OF_SIGHT">
+  <yes/>
+  <v2 x="-658.75" y="212.5"/>
+  <v2 x="-575.0" y="281.25"/>
+  <xml_include path="quadtree/cherokee_territory-0001.xml"/>
+ </rec>
+ <u>638624976</u><!-- Governor ID -->
+ <s>america</s><!-- Theatre -->
+ <s>cherokee</s><!-- Emergent Nation -->
+ <s>Creek Rebels</s><!-- Region Rebels -->
+ <s>sc_tribal_american</s><!-- Region Culture For Types Of Buildings -->
+ <rec type="REGION_RECRUITMENT_MANAGER">
+  <ary type="REGION_RECRUITMENT_ITEM_ARRAY"/>
+  <no/>
+  <i>609195952</i>
+ </rec>
+ <no/>
+ <u4_ary>0 0 0 0 0 0 0 0</u4_ary>
+ <u4_ary>0 0 0 0 0 0 0 0</u4_ary>
+ <u4_ary>0 0 0 0 0 22 0 0</u4_ary>
+ <u4_ary>413 1238 1650 206 1031 1031 1031 619</u4_ary>
+ <bool_ary>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1</bool_ary>
+ <i4_ary/>
+ <ary type="RELIGIOUS_MISSION_BUILDING_ARRAY"/>
+ <ary type="FORT_ARRAY"/>
+ <resources_array>
+  usa
+  colonial_euro_factions
+  global
+  displaced_scots
+  africa_west_indies
+  americas
+  americas_inland
+ </resources_array>
+ <s/><!-- Latest Constuction -->
+ <u>5</u><!-- One Of These 5/10/15/20/25/30/40 Amount Of Prestige When Conquered -->
+ <u>3219575671</u><!-- Region Array. From Top To Bottom. 1st 62 Regions 881206575. 2nd 15 Regions 1771634741. 3rd 32 Regions 1928099569. 4th 28 Regions 688200897. Why???? -->
+ <loc>regions_onscreen_cherokee_territory</loc>
+ <flt>-0.0013270393246784806</flt>
+</rec>

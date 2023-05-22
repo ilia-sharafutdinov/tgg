@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<rec type="REGION">
+ <s>georgia_usa</s><!-- Region Name -->
+ <xml_include path="population/georgia_usa.xml"/>
+ <traits/>
+ <rec type="REGION_SLOT_MANAGER">
+  <ary type="REGION_SLOT_ARRAY">
+   <xml_include path="region_slot/settlement-georgia_usa-savannah-settlement_minor.xml"/>
+   <xml_include path="region_slot/southern_usa-georgia_usa-central.xml"/>
+   <xml_include path="region_slot/port-georgia_usa-st_marys.xml"/>
+  </ary>
+  <xml_include path="region_slot/georgia_usa-road.xml"/>
+  <xml_include path="region_slot/georgia_usa-walls.xml"/>
+ </rec>
+ <i>598121688</i><!-- Region ID -->
+ <xml_include path="region_slot/settlement-georgia_usa-savannah.xml"/>
+ <u>0</u>
+ <no/>
+ <no/>
+ <u>0</u><!-- Subsistence Agricultural (SA) -->
+ <u>45</u><!-- Industrial Wealth Plus (SA) -->
+ <u>45</u><!-- Industrial Wealth Plus (SA) Minus Trading Losses -->
+ <u>0</u><!-- Town Wealth -->
+ <u>0</u><!-- Minimum Town Wealth -->
+ <u>0</u><!-- Town Wealth -->
+ <i>-8</i><!-- Town Monetary Growth -->
+ <u>0</u>
+ <u>0</u>
+ <no/><!-- Exempt From Tax -->
+ <u>619077896</u><!-- Controlling Faction ID -->
+ <rec type="LINE_OF_SIGHT">
+  <yes/>
+  <v2 x="-603.75" y="207.5"/>
+  <v2 x="-565.0" y="260.0"/>
+  <xml_include path="quadtree/georgia_usa-0001.xml"/>
+ </rec>
+ <u>618531512</u><!-- Governor ID -->
+ <s>america</s><!-- Theatre -->
+ <s>american_rebels</s><!-- Emergent Nation -->
+ <s>Loyalist Rebels</s><!-- Region Rebels -->
+ <s>sc_european_west</s><!-- Region Culture For Types Of Buildings -->
+ <rec type="REGION_RECRUITMENT_MANAGER">
+  <ary type="REGION_RECRUITMENT_ITEM_ARRAY"/>
+  <no/>
+  <i>598319664</i>
+ </rec>
+ <no/>
+ <u4_ary>0 0 0 0 0 0 0 0</u4_ary>
+ <u4_ary>0 0 0 0 0 0 0 0</u4_ary>
+ <u4_ary>0 0 0 0 0 19 0 0</u4_ary>
+ <u4_ary>0 0 0 0 0 0 0 0</u4_ary>
+ <bool_ary>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</bool_ary>
+ <i4_ary/>
+ <ary type="RELIGIOUS_MISSION_BUILDING_ARRAY"/>
+ <ary type="FORT_ARRAY"/>
+ <resources_array>
+  global
+  africa_west_indies
+  usa
+  americas_coastal
+  displaced_scots
+  colonial_euro_factions
+  americas
+ </resources_array>
+ <s/><!-- Latest Constuction -->
+ <u>10</u><!-- One Of These 5/10/15/20/25/30/40 Amount Of Prestige When Conquered -->
+ <u>2043433861</u><!-- Region Array. From Top To Bottom. 1st 62 Regions 881206575. 2nd 15 Regions 1771634741. 3rd 32 Regions 1928099569. 4th 28 Regions 688200897. Why???? -->
+ <loc>regions_onscreen_georgia_usa</loc>
+ <flt>-0.0013270393246784806</flt>
+</rec>

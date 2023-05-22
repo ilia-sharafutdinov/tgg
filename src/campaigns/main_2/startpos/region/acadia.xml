@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<rec type="REGION">
+ <s>acadia</s><!-- Region Name -->
+ <xml_include path="population/acadia.xml"/>
+ <traits/>
+ <rec type="REGION_SLOT_MANAGER">
+  <ary type="REGION_SLOT_ARRAY">
+   <xml_include path="region_slot/settlement-acadia-fort_nashwaak-settlement_minor.xml"/>
+   <xml_include path="region_slot/silver-acadia-central.xml"/>
+   <xml_include path="region_slot/corn-acadia-nova_scotia.xml"/>
+   <xml_include path="region_slot/port-acadia-cap_fourchu.xml"/>
+   <xml_include path="region_slot/town-acadia-bathurst.xml"/>
+   <xml_include path="region_slot/port-acadia-louisbourg.xml"/>
+  </ary>
+  <xml_include path="region_slot/acadia-road.xml"/>
+  <xml_include path="region_slot/acadia-walls.xml"/>
+ </rec>
+ <i>916013112</i><!-- Region ID -->
+ <xml_include path="region_slot/settlement-acadia-fort_nashwaak.xml"/>
+ <u>0</u>
+ <no/>
+ <no/>
+ <u>0</u><!-- Subsistence Agricultural (SA) -->
+ <u>2062</u><!-- Industrial Wealth Plus (SA) -->
+ <u>2062</u><!-- Industrial Wealth Plus (SA) Minus Trading Losses -->
+ <u>0</u><!-- Town Wealth -->
+ <u>0</u><!-- Minimum Town Wealth -->
+ <u>0</u><!-- Town Wealth -->
+ <i>-3</i><!-- Town Monetary Growth -->
+ <u>0</u>
+ <u>0</u>
+ <no/><!-- Exempt From Tax -->
+ <u>668419872</u><!-- Controlling Faction ID -->
+ <rec type="LINE_OF_SIGHT">
+  <yes/>
+  <v2 x="-497.5" y="298.75"/>
+  <v2 x="-415.0" y="352.5"/>
+  <xml_include path="quadtree/acadia-0001.xml"/>
+ </rec>
+ <u>661870056</u><!-- Governor ID -->
+ <s>america</s><!-- Theatre -->
+ <s>american_rebels</s><!-- Emergent Nation -->
+ <s>Canadian Rebels</s><!-- Region Rebels -->
+ <s>sc_european_america</s><!-- Region Culture For Types Of Buildings -->
+ <rec type="REGION_RECRUITMENT_MANAGER">
+  <ary type="REGION_RECRUITMENT_ITEM_ARRAY"/>
+  <no/>
+  <i>619729864</i>
+ </rec>
+ <no/>
+ <u4_ary>0 0 0 0 0 0 0 0</u4_ary>
+ <u4_ary>0 0 0 0 0 0 0 0</u4_ary>
+ <u4_ary>0 0 0 0 0 0 0 0</u4_ary>
+ <u4_ary>454 1361 1815 227 1134 1134 1134 680</u4_ary>
+ <bool_ary>0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 0 0 0</bool_ary>
+ <i4_ary/>
+ <ary type="RELIGIOUS_MISSION_BUILDING_ARRAY"/>
+ <ary type="FORT_ARRAY">
+  <xml_include path="region_slot/acadia-fort-0001.xml"/>
+ </ary>
+ <resources_array>
+  americas_coastal
+  americas
+  colonial_euro_factions
+  africa_west_indies
+  global
+  usa
+  displaced_irish
+  displaced_scots
+ </resources_array>
+ <s/><!-- Latest Constuction -->
+ <u>5</u><!-- One Of These 5/10/15/20/25/30/40 Amount Of Prestige When Conquered -->
+ <u>2043433861</u><!-- Region Array. From Top To Bottom. 1st 62 Regions 881206575. 2nd 15 Regions 1771634741. 3rd 32 Regions 1928099569. 4th 28 Regions 688200897. Why???? -->
+ <loc>regions_onscreen_acadia</loc>
+ <flt>-0.0013270393246784806</flt>
+</rec>
