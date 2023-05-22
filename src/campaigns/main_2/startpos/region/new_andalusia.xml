@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<rec type="REGION">
+ <s>new_andalusia</s><!-- Region Name -->
+ <xml_include path="population/new_andalusia.xml"/>
+ <traits/>
+ <rec type="REGION_SLOT_MANAGER">
+  <ary type="REGION_SLOT_ARRAY">
+   <xml_include path="region_slot/settlement-new_andalusia-caracas-settlement_army-admin.xml"/>
+   <xml_include path="region_slot/settlement-new_andalusia-caracas-settlement_ordnance.xml"/>
+   <xml_include path="region_slot/settlement-new_andalusia-caracas-settlement_government.xml"/>
+   <xml_include path="region_slot/settlement-new_andalusia-caracas-settlement_culture.xml"/>
+   <xml_include path="region_slot/gems-new_andalusia-el_dorado.xml"/>
+   <xml_include path="region_slot/caribbean-new_andalusia-barinas.xml"/>
+   <xml_include path="region_slot/corn-new_andalusia-coast.xml"/>
+   <xml_include path="region_slot/port-new_andalusia-puerto_cabello.xml"/>
+   <xml_include path="region_slot/town-new_andalusia-cumana.xml"/>
+   <xml_include path="region_slot/port-new_andalusia-coro.xml"/>
+  </ary>
+  <xml_include path="region_slot/new_andalusia-road.xml"/>
+  <xml_include path="region_slot/new_andalusia-walls.xml"/>
+ </rec>
+ <i>606394560</i><!-- Region ID -->
+ <xml_include path="region_slot/settlement-new_andalusia-caracas.xml"/>
+ <u>1</u>
+ <no/>
+ <no/>
+ <u>0</u><!-- Subsistence Agricultural (SA) -->
+ <u>1199</u><!-- Industrial Wealth Plus (SA) -->
+ <u>1199</u><!-- Industrial Wealth Plus (SA) Minus Trading Losses -->
+ <u>0</u><!-- Town Wealth -->
+ <u>0</u><!-- Minimum Town Wealth -->
+ <u>0</u><!-- Town Wealth -->
+ <i>-5</i><!-- Town Monetary Growth -->
+ <u>0</u>
+ <u>0</u>
+ <no/><!-- Exempt From Tax -->
+ <u>611116824</u><!-- Controlling Faction ID -->
+ <rec type="LINE_OF_SIGHT">
+  <yes/>
+  <v2 x="-518.75" y="35.0"/>
+  <v2 x="-418.75" y="97.5"/>
+  <xml_include path="quadtree/new_andalusia-0001.xml"/>
+ </rec>
+ <u>623908992</u><!-- Governor ID -->
+ <s>america</s><!-- Theatre -->
+ <s>colombia</s><!-- Emergent Nation -->
+ <s>Colombian Rebels</s><!-- Region Rebels -->
+ <s>sc_european_south</s><!-- Region Culture For Types Of Buildings -->
+ <rec type="REGION_RECRUITMENT_MANAGER">
+  <ary type="REGION_RECRUITMENT_ITEM_ARRAY"/>
+  <no/>
+  <i>596374992</i>
+ </rec>
+ <no/>
+ <u4_ary>0 0 0 0 0 0 0 0</u4_ary>
+ <u4_ary>0 0 0 0 0 0 0 0</u4_ary>
+ <u4_ary>0 0 0 0 0 0 31 0</u4_ary>
+ <u4_ary>253 759 1012 127 632 632 632 380</u4_ary>
+ <bool_ary>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0</bool_ary>
+ <i4_ary/>
+ <ary type="RELIGIOUS_MISSION_BUILDING_ARRAY"/>
+ <ary type="FORT_ARRAY"/>
+ <resources_array>
+  americas
+  displaced_scots
+  americas_coastal
+  colonial_euro_factions
+  global
+  africa_west_indies
+ </resources_array>
+ <s/><!-- Latest Constuction -->
+ <u>5</u><!-- One Of These 5/10/15/20/25/30/40 Amount Of Prestige When Conquered -->
+ <u>2043433861</u><!-- Region Array. From Top To Bottom. 1st 62 Regions 881206575. 2nd 15 Regions 1771634741. 3rd 32 Regions 1928099569. 4th 28 Regions 688200897. Why???? -->
+ <loc>regions_onscreen_new_andalusia</loc>
+ <flt>-0.0013270393246784806</flt>
+</rec>

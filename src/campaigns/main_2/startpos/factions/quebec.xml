@@ -1,0 +1,198 @@
+<?xml version="1.0"?>
+<rec type="FACTION">
+ <ancillary_uniqueness_monitor/>
+ <rec type="CAMPAIGN_PLAYER_SETUP">
+  <victory_conditions year="0" region_count="0" prestige_victory="no" campaign_type="4 (Unplayable)"/>
+  <rec type="CAMPAIGN_PLAYER_SETUP_INGAME_MODIFIABLES">
+   <i>0</i>
+   <i>0</i>
+   <i>0</i>
+   <no/>
+  </rec>
+  <s>quebec</s>
+  <no/>
+  <no/><!-- Playable -->
+  <no/>
+ </rec>
+ <rec type="FACTION_ECONOMICS">
+  <ary type="history">
+   <rec type="history">
+    <rec type="ECONOMICS_DATA">
+     <i4_ary>0 0 0 0 0</i4_ary>
+     <i4_ary>0 0 0</i4_ary>
+     <i4_ary>0 0 0 1750</i4_ary>
+     <i4_ary>0</i4_ary>
+     <i4_ary>0 0 0 0 0</i4_ary>
+     <i4_ary>0 0 0 0 0 0 0</i4_ary>
+    </rec>
+   </rec>
+  </ary>
+  <i>5000</i>
+  <bin6>01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01</bin6>
+  <u>0</u>
+ </rec>
+ <xml_include path="diplomacy/quebec.xml"/>
+ <rec type="ARMY_REINFORCEMENT_MANAGER">
+  <ary type="CHARACTER_REINFORCEMENTS_ARRAY"/>
+  <ary type="UNIT_REINFORCEMENTS_ARRAY"/>
+ </rec>
+ <xml_include path="government/quebec-gov_absolute_monarchy.xml"/>
+ <xml_include path="family/quebec.xml"/>
+ <i>685891640</i><!-- Faction ID -->
+ <s>quebec</s><!-- Faction Name -->
+ <s>Québec</s><!-- On Screen Name -->
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>176</u>
+  <u>1743431955</u>
+  <u2_ary>96 40 62 102 13 42 27 126 45 76 90 150 160 147 17 37 175 173 82 8 65 25 81 105 56 113 117 22 122 55 32 163 6 73 110 19 145 140 48 43 115 58 158 143 170 0 88 7 77 164 112 167 33 114 11 74 135 109 161 69 152 154 156 78 21 5 144 116 108 63 104 157 123 132 28 46 75 15 100 83 138 3 36 39 118 14 89 66 64 44 52 95 91 98 12 120 51 31 99 57 165 10 169 34 119 41 106 35 71 166 80 159 131 129 124 26 16 107 47 97 127 133 24 61 148 168 125 38 68 139 151 146 172 86 30 101 137 94 67 29 79 155 162 70 18 85 174 142 111 93 9 128 59 103 50 60 23 171 20 1 136 84 49 134 87 72 141 4 2</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>182</u>
+  <u>841854787</u>
+  <u2_ary>173 103 179 172 161 87 38 86 49 20 80 55 25 32 113 178 10 19 160 81 163 0 148 142 2 41 106 101 170 69 92 123 125 121 177 22 149 6 60 63 58 68 35 147 48 30 115 31 76 71 62 75 158 176 52 3 93 79 59 175 140 141 34 36 29 78 24 1 129 145 11 23 74 120 54 132 73 53 12 174 130 50 167 164 44 8 122 105 97 137 153 65 157 91 83 39 114 118 27 104 46 136 16 135 127 134 124 72 47 17 77 33 98 171 42 56 133 100 126 180 154 117 151 138 111 15 143 102 40 4 21 152 85 131 95 14 107 82 26 37 13 169 61 109 5 144 7 110 96 166 57 84 155 90 45 116 168 18 156 112 70 139 162 128 89 99 150 88 119 159 94 108 181 51 64 43 165 28 66 146 9</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>1</u>
+  <u>1703078309</u>
+  <u2_ary>0</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>1267039017</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>230</u>
+  <u>2897818077</u>
+  <u2_ary>103 203 85 28 119 63 155 128 144 27 89 187 87 34 229 124 31 209 120 136 201 138 53 129 2 32 21 182 190 186 38 40 206 24 105 225 197 86 221 205 61 126 167 46 96 49 172 218 30 56 145 207 113 121 148 216 132 43 178 123 107 36 147 110 199 217 67 213 91 109 227 204 16 92 146 161 44 19 8 97 93 156 12 15 60 222 174 55 23 20 45 162 131 59 25 33 11 116 149 88 198 78 157 66 112 133 224 210 6 69 115 135 159 42 57 73 41 226 158 79 192 122 215 104 74 191 100 94 169 70 52 170 219 75 140 47 193 17 51 151 165 111 118 200 150 171 208 184 181 7 90 163 202 62 4 80 108 117 179 0 50 77 76 188 194 39 166 72 26 176 95 9 14 173 58 175 211 139 54 114 84 1 101 177 183 164 5 220 102 214 98 127 143 3 106 10 64 137 196 125 228 68 189 223 134 168 37 22 18 82 83 141 185 212 195 142 99 81 180 160 35 71 153 152 29 130 154 65 13 48</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>22</u>
+  <u>792881020</u>
+  <u2_ary>5 17 6 14 11 7 15 3 13 9 10 18 21 12 8 0 4 1 16 19 20 2</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>751541301</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>39</u>
+  <u>4017534093</u>
+  <u2_ary>25 16 38 36 24 7 9 34 19 11 0 4 14 20 35 6 3 33 29 31 37 32 1 22 2 13 21 30 23 27 17 10 15 8 18 26 28 5 12</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>2909802805</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>939230702</u>
+  <u2_ary/>
+ </rec>
+ <yes/>
+ <rec type="LAND_UNIT_NAME_ALLOCATOR">
+  <ary type="LAND_UNIT_NAMES_MAP">
+   <xml_include path="unit_name_alloc/quebec-land-0001.xml"/>
+   <xml_include path="unit_name_alloc/quebec-land-0002.xml"/>
+   <xml_include path="unit_name_alloc/quebec-land-0003.xml"/>
+   <xml_include path="unit_name_alloc/quebec-land-0004.xml"/>
+   <xml_include path="unit_name_alloc/quebec-land-0005.xml"/>
+   <xml_include path="unit_name_alloc/quebec-land-0006.xml"/>
+   <xml_include path="unit_name_alloc/quebec-land-0007.xml"/>
+   <xml_include path="unit_name_alloc/quebec-land-0008.xml"/>
+   <xml_include path="unit_name_alloc/quebec-land-0009.xml"/>
+   <xml_include path="unit_name_alloc/quebec-land-0010.xml"/>
+   <xml_include path="unit_name_alloc/quebec-land-0011.xml"/>
+   <xml_include path="unit_name_alloc/quebec-land-0012.xml"/>
+   <xml_include path="unit_name_alloc/quebec-land-0013.xml"/>
+   <xml_include path="unit_name_alloc/quebec-land-0014.xml"/>
+   <xml_include path="unit_name_alloc/quebec-land-0015.xml"/>
+   <xml_include path="unit_name_alloc/quebec-land-0016.xml"/>
+   <xml_include path="unit_name_alloc/quebec-land-0017.xml"/>
+   <xml_include path="unit_name_alloc/quebec-land-0018.xml"/>
+   <xml_include path="unit_name_alloc/quebec-land-0019.xml"/>
+   <xml_include path="unit_name_alloc/quebec-land-0020.xml"/>
+   <xml_include path="unit_name_alloc/quebec-land-0021.xml"/>
+   <xml_include path="unit_name_alloc/quebec-land-0022.xml"/>
+   <xml_include path="unit_name_alloc/quebec-land-0023.xml"/>
+  </ary>
+ </rec>
+ <yes/>
+ <xml_include path="unit_name_alloc/quebec-naval-0001.xml"/>
+ <no/><!-- True - Major, False - Minor -->
+ <ary type="CHARACTER_ARRAY"/>
+ <xml_include path="technology/quebec-quebec.xml"/>
+ <ary type="ARMY_ARRAY"/>
+ <ary type="MORGUE"/>
+ <u4_ary/><!-- Governor ID For Each Theatre -->
+ <no/>
+ <s>rel_catholic</s><!-- Religion -->
+ <no/>
+ <rec type="FORT_UPGRADE_MANAGER">
+  <ary type="FORT_UPGRADES_ARRAY"/>
+ </rec>
+ <rec type="FORT_UPGRADE_MANAGER">
+  <ary type="FORT_REPAIRS_ARRAY"/>
+ </rec>
+ <i>0</i><!-- Current Capital ID Else 0 If Faction Destroyed -->
+ <i>0</i><!-- Original Capital ID -->
+ <ary type="EXPOSED_CHARACTERS"/>
+ <no/>
+ <rec type="PRESTIGE">
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+ </rec>
+ <yes/><!-- Emergent -->
+ <u>0</u>
+ <bool_ary>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</bool_ary>
+ <i>0</i><!-- Army Upkeep -->
+ <i>0</i><!-- Navy Upkeep -->
+ <s>MAINTAINANCE</s><!-- Campaign AI Manager Behaviour (patch.pack) -->
+ <s>default</s><!-- Campaign AI Personalities (patch.pack) -->
+ <flag_and_colours path="data\ui\flags\quebec" color1="#72cadc" color2="#e4b409" color3="#fffff0"/>
+ <flag_and_colours path="data\ui\flags\quebec" color1="#72cadc" color2="#e4b409" color3="#fffff0"/>
+ <rec type="CAMPAIGN_BONUS_VALUES">
+  <ary type="CAMPAIGN_BONUS_VALUE_BLOCK">
+   <campaign_bonus_0 subtype="2" value="1.0" agent="Eastern_Scholar"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="rake"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="assassin"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="gentleman"/>
+  </ary>
+ </rec>
+ <rec type="CAMPAIGN_BONUS_VALUES">
+  <ary type="CAMPAIGN_BONUS_VALUE_BLOCK">
+   <campaign_bonus_0 subtype="2" value="1.0" agent="Eastern_Scholar"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="rake"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="assassin"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="gentleman"/>
+  </ary>
+ </rec>
+ <i>0</i><!-- Protectorate ID -->
+ <no/>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <no/>
+ <no/>
+ <no/>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <no/>
+ <no/>
+ <u>0</u>
+ <no/>
+ <no/>
+</rec>

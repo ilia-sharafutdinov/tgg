@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<rec type="SETTLEMENT">
+ <rec type="SIEGEABLE_GARRISON_RESIDENCE">
+  <garrison_residence>619077896</garrison_residence><!-- Faction ID -->
+  <u>640796848</u><!-- Building Slot ID -->
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <i>0</i>
+  <no/>
+  <no/>
+  <no/>
+  <v2x x="-569.8822021484375" y="234.41494750976562"/>
+  <u>599706456</u><!-- Army ID -->
+  <u4_ary/>
+  <u4_ary/><!-- Character ID Of Garrison -->
+  <rec type="LINE_OF_SIGHT">
+   <yes/>
+   <v2 x="-575.0" y="228.75"/>
+   <v2 x="-563.75" y="240.0"/>
+   <xml_include path="quadtree/settlement-carolinas-charleston-0001.xml"/>
+  </rec>
+  <no/>
+  <ary type="FORTIFICATIONS_BLOCK"/>
+ </rec>
+ <loc>start_pos_settlements_onscreen_name_settlement:carolinas:charleston367</loc>
+ <i>2</i>
+ <s>settlement:carolinas:charleston</s><!-- DB Table Campaign_map_settlements -->
+ <i>640796848</i><!-- Settlement ID -->
+ <s>settlement:carolinas:charleston</s><!-- DB Table Campaign_map_settlements -->
+</rec>

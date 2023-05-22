@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<rec type="PATHFINDING_GRID">
+ <u>0</u><!-- Grid Paths -->
+ <grid_paths>
+ </grid_paths>
+ <xml_include path="campaign-pathfinder/obstacle_boundary/0005.xml"/>
+ <obstacle_boundaries>
+ </obstacle_boundaries>
+ <ary type="OBSTACLE_BASE_GRID_NODE"/>
+ <cell_id_coords>
+ </cell_id_coords>
+ <rec type="OBSTACLE_LISTS">
+  <u4_ary/>
+  <ary type="BARRIER_OBSTACLE"/>
+  <u4_ary/>
+  <ary type="CHARACTER_OBSTACLE"/>
+  <u4_ary/>
+  <ary type="FORT_OBSTACLE"/>
+ </rec>
+ <u4_ary/>
+ <bool_ary>1 1</bool_ary>
+ <yes/>
+ <u4_ary/>
+ <flt_ary>0.67 0.6</flt_ary>
+ <ary type="BARRIER_NAMES"/>
+</rec>

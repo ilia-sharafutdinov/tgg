@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<rec type="REGION">
+ <s>trinidad_tobago</s><!-- Region Name -->
+ <xml_include path="population/trinidad_tobago.xml"/>
+ <traits/>
+ <rec type="REGION_SLOT_MANAGER">
+  <ary type="REGION_SLOT_ARRAY">
+   <xml_include path="region_slot/settlement-trinidad_tobago-san_jose_de_oruna-settlement_minor.xml"/>
+   <xml_include path="region_slot/caribbean-trinidad_tobago-south.xml"/>
+   <xml_include path="region_slot/port-trinidad_tobago-puerto_de_espana.xml"/>
+  </ary>
+  <xml_include path="region_slot/trinidad_tobago-road.xml"/>
+  <xml_include path="region_slot/trinidad_tobago-walls.xml"/>
+ </rec>
+ <i>598397232</i><!-- Region ID -->
+ <xml_include path="region_slot/settlement-trinidad_tobago-san_jose_de_oruna.xml"/>
+ <u>0</u>
+ <no/>
+ <no/>
+ <u>0</u><!-- Subsistence Agricultural (SA) -->
+ <u>324</u><!-- Industrial Wealth Plus (SA) -->
+ <u>324</u><!-- Industrial Wealth Plus (SA) Minus Trading Losses -->
+ <u>0</u><!-- Town Wealth -->
+ <u>0</u><!-- Minimum Town Wealth -->
+ <u>0</u><!-- Town Wealth -->
+ <i>-7</i><!-- Town Monetary Growth -->
+ <u>0</u>
+ <u>0</u>
+ <no/><!-- Exempt From Tax -->
+ <u>611116824</u><!-- Controlling Faction ID -->
+ <rec type="LINE_OF_SIGHT">
+  <yes/>
+  <v2 x="-451.25" y="61.25"/>
+  <v2 x="-421.25" y="88.75"/>
+  <xml_include path="quadtree/trinidad_tobago-0001.xml"/>
+ </rec>
+ <u>623908992</u><!-- Governor ID -->
+ <s>america</s><!-- Theatre -->
+ <s>amerind_rebels</s><!-- Emergent Nation -->
+ <s>Arawakan Rebels</s><!-- Region Rebels -->
+ <s>sc_european_south</s><!-- Region Culture For Types Of Buildings -->
+ <rec type="REGION_RECRUITMENT_MANAGER">
+  <ary type="REGION_RECRUITMENT_ITEM_ARRAY"/>
+  <no/>
+  <i>637141552</i>
+ </rec>
+ <no/>
+ <u4_ary>0 0 0 0 0 0 0 0</u4_ary>
+ <u4_ary>0 0 0 0 0 0 0 0</u4_ary>
+ <u4_ary>0 0 31 0 0 0 0 0</u4_ary>
+ <u4_ary>55 165 220 28 138 138 138 82</u4_ary>
+ <bool_ary>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</bool_ary>
+ <i4_ary/>
+ <ary type="RELIGIOUS_MISSION_BUILDING_ARRAY"/>
+ <ary type="FORT_ARRAY"/>
+ <resources_array>
+  global
+  west_indies
+  colonial_euro_factions
+  africa_west_indies
+  americas_coastal
+ </resources_array>
+ <s/><!-- Latest Constuction -->
+ <u>5</u><!-- One Of These 5/10/15/20/25/30/40 Amount Of Prestige When Conquered -->
+ <u>2043433861</u><!-- Region Array. From Top To Bottom. 1st 62 Regions 881206575. 2nd 15 Regions 1771634741. 3rd 32 Regions 1928099569. 4th 28 Regions 688200897. Why???? -->
+ <loc>regions_onscreen_trinidad_tobago</loc>
+ <flt>-0.0013270393246784806</flt>
+</rec>

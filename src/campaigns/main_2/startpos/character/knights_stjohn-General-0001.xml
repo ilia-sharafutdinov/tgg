@@ -1,0 +1,131 @@
+<?xml version="1.0"?>
+<rec type="CHARACTER_ARRAY">
+ <rec type="CHARACTER">
+  <rec type="LOCOMOTABLE">
+   <v2x x="101.7010269165039" y="256.2696533203125"/>
+   <v2x x="101.7010269165039" y="256.2696533203125"/>
+   <flt>3.1415927410125732</flt><!-- Character Facing Direction -->
+   <flt>3.1415927410125732</flt><!-- Character Facing Direction -->
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <i>26</i><!-- Movement Points Left -->
+   <i>24</i><!-- Movement Points Total -->
+   <no/>
+   <i>0</i>
+   <i>0</i>
+   <angle>0.0</angle>
+   <u>12</u>
+   <u>0</u>
+   <flt>0.0</flt>
+  </rec>
+  <rec type="CHARACTER_DETAILS">
+   <traits/>
+   <loc>names_name_names_italianRenato</loc>
+   <loc>names_name_names_italianTestore</loc>
+   <loc/>
+   <s/><!-- Head Of State -->
+   <date>summer 1735</date>
+   <date/>
+   <i>0</i>
+   <portrait_details card="ui/portraits/european/Cards/general/old/272.tga" info="ui/portraits/european/Info/general/old/272.jpg" number="272"/>
+   <s>knights_stjohn</s>
+   <u>611288608</u><!-- Character ID -->
+   <agent_ancillaries/>
+   <agent_attributes>
+    command_land=2
+    command_sea=-1
+    duelling_pistols=-1
+    duelling_swords=-1
+    management=-1
+    subterfuge=-1
+    research=-1
+    zeal=-1
+    land_defence_engineering=-1
+    land_siege_engineering=-1
+    morale_land=1
+    morale_sea=-1
+    movement_points_land=1
+    trade=-1
+   </agent_attributes>
+   <ary type="AgentAbilities">
+    <agent_ability ability="can_assassinate" level="-1" attribute=""/>
+    <agent_ability ability="can_convert" level="-1" attribute=""/>
+    <agent_ability ability="can_build_religious" level="-1" attribute=""/>
+    <agent_ability ability="can_build_fort" level="1" attribute="command_land"/>
+    <agent_ability ability="can_sabotage" level="-1" attribute=""/>
+    <agent_ability ability="can_spy" level="-1" attribute=""/>
+    <agent_ability ability="can_duel" level="-1" attribute=""/>
+    <agent_ability ability="can_receive_duel" level="-1" attribute=""/>
+    <agent_ability ability="can_research" level="-1" attribute=""/>
+    <agent_ability ability="can_attack_land" level="1" attribute="command_land"/>
+    <agent_ability ability="can_attack_naval" level="-1" attribute=""/>
+    <agent_ability ability="can_sabotage_army" level="-1" attribute=""/>
+   </ary>
+   <agent_attribute_bonuses>
+    dummy=0
+   </agent_attribute_bonuses>
+   <no/>
+   <loc>agent_culture_details_onscreen_name_Generaleuropean</loc>
+  </rec>
+  <i>611288608</i><!-- Character ID -->
+  <s>General</s><!-- Character Type -->
+  <u>598003128</u><!-- Army ID -->
+  <u>598003632</u><!-- Unit ID -->
+  <u>0</u>
+  <u>0</u><!-- Character In Building Slot ID -->
+  <u>0</u><!-- Cabinet ID -->
+  <no/>
+  <no/><!-- Government Opposition -->
+  <v2x_ary>
+   104.60438537597656,253.12890625
+   104.58435153961182,253.35794734954834
+   104.5625057220459,253.6076946258545
+   104.5290412902832,253.99028778076172
+   104.52819156646729,254.0
+   104.52596282958984,254.02548217773438
+   104.22665214538574,254.27664375305176
+   104.18320751190186,254.87959957122803
+   104.0,255.30397033691406
+   103.69951343536377,256.0
+   103.52139663696289,256.4125804901123
+   102.0,257.81781005859375
+   101.9598617553711,257.8548831939697
+   101.8547887802124,257.813157081604
+   101.7010269165039,257.9669189453125
+   101.3447036743164,257.610595703125
+   100.39548110961914,257.2336483001709
+   100.0,256.3458137512207
+   99.9782485961914,256.29698371887207
+   100.0,256.2373046875
+   100.08649253845215,256.0
+   100.25780773162842,255.52996826171875
+   100.98874759674072,254.9507417678833
+   101.85299873352051,254.0
+   102.0,253.83828735351562
+   102.4922227859497,253.2968053817749
+   102.68018913269043,253.32264614105225
+   102.71161651611328,252.96334838867188
+   104.0,253.07604122161865
+  </v2x_ary>
+  <rec type="LINE_OF_SIGHT">
+   <no/>
+  </rec>
+  <no/>
+  <u>0</u>
+  <no/>
+  <flt>10.0</flt><!-- 10 - Land Leader / 15 - Navy Leader -->
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <no/>
+  <no/>
+  <u>0</u>
+  <no/>
+  <u>0</u>
+  <no/>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+ </rec>
+</rec>

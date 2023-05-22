@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<rec type="INTERNATIONAL_TRADE_ROUTES">
+ <s>courland</s>
+ <ary type="FACTION_INTERNATIONAL_TRADE_ROUTES_ARRAY">
+  <rec type="FACTION_INTERNATIONAL_TRADE_ROUTES_ARRAY">
+   <rec type="INTERNATIONAL_TRADE_ROUTE">
+    <u>2</u><!-- Number Of Connections -->
+    <i>623657280</i><!-- Region ID Of Home Faction -->
+    <v2 x="0.0" y="0.0"/>
+    <u>18</u><!-- Port OR Settlement Indice Start Point (port:courland:liepaja) -->
+    <u>71</u><!-- Port OR Settlement Indice End Point (port:denmark:aarhus) -->
+    <yes/><!-- Trading Over Sea -->
+    <i>611522120</i><!-- Region ID Of Home Faction -->
+    <v2 x="0.0" y="0.0"/>
+    <u>4294967295</u>
+    <u>4294967295</u>
+    <no/><!-- Trading Over Sea -->
+    <yes/>
+    <u4_ary>0 0 0 0 0 0 0 0</u4_ary><!-- Commodities Quantity -->
+    <u>301</u>
+    <u>0</u>
+    <u>0</u>
+    <u>301</u>
+    <u>0</u>
+    <u>0</u>
+    <u>0</u>
+    <u4_ary>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</u4_ary><!-- Resources Quantity -->
+    <u>0</u>
+    <i>652486240</i>
+   </rec>
+   <u>652486240</u><!-- Route ID -->
+  </rec>
+  <rec type="FACTION_INTERNATIONAL_TRADE_ROUTES_ARRAY">
+   <rec type="INTERNATIONAL_TRADE_ROUTE">
+    <u>3</u><!-- Number Of Connections -->
+    <i>623657280</i><!-- Region ID Of Home Faction -->
+    <v2 x="0.0" y="0.0"/>
+    <u>212</u><!-- Port OR Settlement Indice Start Point (courland) -->
+    <u>207</u><!-- Port OR Settlement Indice End Point (lithuania) -->
+    <no/><!-- Trading Over Sea -->
+    <i>605986928</i><!-- Region ID Of Trading Faction -->
+    <v2 x="0.0" y="0.0"/>
+    <u>207</u><!-- Port OR Settlement Indice Start Point (lithuania) -->
+    <u>208</u><!-- Port OR Settlement Indice End Point (poland) -->
+    <no/><!-- Trading Over Sea -->
+    <i>619555080</i><!-- Region ID Of Trading Faction -->
+    <v2 x="0.0" y="0.0"/>
+    <u>4294967295</u>
+    <u>4294967295</u>
+    <no/><!-- Trading Over Sea -->
+    <no/>
+    <u4_ary>0 0 0 0 0 0 0 0</u4_ary><!-- Commodities Quantity -->
+    <u>263</u>
+    <u>0</u>
+    <u>0</u>
+    <u>263</u>
+    <u>0</u>
+    <u>0</u>
+    <u>0</u>
+    <u4_ary>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</u4_ary><!-- Resources Quantity -->
+    <u>0</u>
+    <i>652486372</i>
+   </rec>
+   <u>652486372</u><!-- Route ID -->
+  </rec>
+ </ary>
+</rec>

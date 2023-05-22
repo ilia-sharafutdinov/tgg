@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<rec type="REGION">
+ <s>norway</s><!-- Region Name -->
+ <xml_include path="population/norway.xml"/>
+ <traits/>
+ <rec type="REGION_SLOT_MANAGER">
+  <ary type="REGION_SLOT_ARRAY">
+   <xml_include path="region_slot/settlement-norway-christiania-settlement_minor.xml"/>
+   <xml_include path="region_slot/iron-norway-mo_i_randa.xml"/>
+   <xml_include path="region_slot/iron-norway-north.xml"/>
+   <xml_include path="region_slot/sheep-norway-south.xml"/>
+   <xml_include path="region_slot/timber-norway-oslo.xml"/>
+   <xml_include path="region_slot/timber-norway-trondheim.xml"/>
+   <xml_include path="region_slot/port-norway-bergen.xml"/>
+   <xml_include path="region_slot/town-norway-stavanger.xml"/>
+   <xml_include path="region_slot/town-norway-trondheim.xml"/>
+  </ary>
+  <xml_include path="region_slot/norway-road.xml"/>
+  <xml_include path="region_slot/norway-walls.xml"/>
+ </rec>
+ <i>624590664</i><!-- Region ID -->
+ <xml_include path="region_slot/settlement-norway-christiania.xml"/>
+ <u>1</u>
+ <no/>
+ <no/>
+ <u>50</u><!-- Subsistence Agricultural (SA) -->
+ <u>4975</u><!-- Industrial Wealth Plus (SA) -->
+ <u>4975</u><!-- Industrial Wealth Plus (SA) Minus Trading Losses -->
+ <u>0</u><!-- Town Wealth -->
+ <u>0</u><!-- Minimum Town Wealth -->
+ <u>0</u><!-- Town Wealth -->
+ <i>0</i><!-- Town Monetary Growth -->
+ <u>0</u>
+ <u>0</u>
+ <no/><!-- Exempt From Tax -->
+ <u>874944288</u><!-- Controlling Faction ID -->
+ <rec type="LINE_OF_SIGHT">
+  <yes/>
+  <v2 x="22.5" y="401.25"/>
+  <v2 x="232.5" y="516.25"/>
+  <xml_include path="quadtree/norway-0001.xml"/>
+ </rec>
+ <u>603943952</u><!-- Governor ID -->
+ <s>europe</s><!-- Theatre -->
+ <s>norway</s><!-- Emergent Nation -->
+ <s>Danish Rebels</s><!-- Region Rebels -->
+ <s>sc_european_north</s><!-- Region Culture For Types Of Buildings -->
+ <rec type="REGION_RECRUITMENT_MANAGER">
+  <ary type="REGION_RECRUITMENT_ITEM_ARRAY"/>
+  <no/>
+  <i>618000488</i>
+ </rec>
+ <no/>
+ <u4_ary>0 0 0 0 0 0 0 0</u4_ary>
+ <u4_ary>0 0 0 0 0 0 0 0</u4_ary>
+ <u4_ary>0 0 0 0 0 0 0 0</u4_ary>
+ <u4_ary>1095 3284 4378 547 2736 2737 2736 1642</u4_ary>
+ <bool_ary>0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1</bool_ary>
+ <i4_ary/>
+ <ary type="RELIGIOUS_MISSION_BUILDING_ARRAY"/>
+ <ary type="FORT_ARRAY">
+  <xml_include path="region_slot/norway-fort-0001.xml"/>
+ </ary>
+ <resources_array>
+  denmark_home_regions
+  middle_east_and_europe
+  norway
+  europe
+  global
+ </resources_array>
+ <s/><!-- Latest Constuction -->
+ <u>10</u><!-- One Of These 5/10/15/20/25/30/40 Amount Of Prestige When Conquered -->
+ <u>2043433861</u><!-- Region Array. From Top To Bottom. 1st 62 Regions 881206575. 2nd 15 Regions 1771634741. 3rd 32 Regions 1928099569. 4th 28 Regions 688200897. Why???? -->
+ <loc>regions_onscreen_norway</loc>
+ <flt>-0.0013270393246784806</flt>
+</rec>

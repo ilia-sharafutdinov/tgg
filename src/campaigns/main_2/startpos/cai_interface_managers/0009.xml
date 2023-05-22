@@ -1,0 +1,107 @@
+<?xml version="1.0"?>
+<rec type="CAI_INTERFACE_MANAGERS">
+ <xml_include path="bdi_pool/0010.xml"/>
+ <rec type="CAI_FACTION_BDI_POOL">
+  <no/>
+  <no/>
+  <u>30348</u><!-- All these u records are BDI Information -->
+  <u>30349</u>
+  <u>30350</u>
+  <u>30352</u>
+  <u>30303</u>
+  <u>30304</u>
+  <u>30305</u>
+  <u>30306</u>
+  <u>30307</u>
+  <u>30308</u>
+  <u>30309</u>
+  <u>30310</u>
+  <u>30311</u>
+  <u>30312</u>
+  <u>30313</u>
+  <u>30314</u>
+  <u>30315</u>
+  <u>30316</u>
+  <u>30317</u>
+  <u>30318</u>
+  <u>30319</u>
+  <u>30320</u>
+  <u>30321</u>
+  <u>30322</u>
+  <u>30323</u>
+  <u>30324</u>
+  <u>30325</u>
+  <u>30326</u>
+  <u>30327</u>
+  <u>30328</u>
+  <u>30329</u>
+  <u>30330</u>
+  <u>30331</u>
+  <u>30332</u>
+  <u>30333</u>
+  <u>30334</u>
+  <u>30335</u>
+  <u>30336</u>
+  <u>30337</u>
+  <u>30338</u>
+  <u>30339</u>
+  <u>30340</u>
+  <u>30341</u>
+  <u>30342</u>
+  <u>30343</u>
+  <u>30344</u>
+  <u>30345</u>
+  <u>30346</u>
+  <u>30347</u>
+ </rec>
+ <rec type="CAI_FACTION_MANAGER">
+  <u>1289</u><!-- Faction AI ID -->
+  <u>11</u>
+  <rec type="CAI_FACTION_LEARNT_PARAMETERS">
+   <ary type="CAI_FACTION_LEARNT_PARAMETERS_INFO_ARRAY">
+    <rec type="CAI_FACTION_LEARNT_PARAMETERS_INFO_ARRAY">
+     <rec type="CAI_FACTION_LEARNT_PARAMETERS_INFO">
+      <u>0</u><!-- Faction AI ID -->
+      <i>0</i>
+      <flt>0.8</flt>
+      <i>0</i>
+      <flt>0.8</flt>
+      <i>0</i>
+      <flt>0.8</flt>
+      <i>0</i>
+      <flt>0.8</flt>
+     </rec>
+    </rec>
+    <rec type="CAI_FACTION_LEARNT_PARAMETERS_INFO_ARRAY">
+     <rec type="CAI_FACTION_LEARNT_PARAMETERS_INFO">
+      <u>1298</u><!-- Faction AI ID -->
+      <i>0</i>
+      <flt>0.8</flt>
+      <i>0</i>
+      <flt>0.8</flt>
+      <i>0</i>
+      <flt>0.8</flt>
+      <i>0</i>
+      <flt>0.8</flt>
+     </rec>
+    </rec>
+    <rec type="CAI_FACTION_LEARNT_PARAMETERS_INFO_ARRAY">
+     <rec type="CAI_FACTION_LEARNT_PARAMETERS_INFO">
+      <u>1274</u><!-- Faction AI ID -->
+      <i>0</i>
+      <flt>0.8</flt>
+      <i>0</i>
+      <flt>0.8</flt>
+      <i>0</i>
+      <flt>0.8</flt>
+      <i>0</i>
+      <flt>0.8</flt>
+     </rec>
+    </rec>
+   </ary>
+  </rec>
+  <yes/>
+  <u>1</u>
+  <u>1</u>
+ </rec>
+</rec>

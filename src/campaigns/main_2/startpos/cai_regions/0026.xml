@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<rec type="CAI_WORLD_REGIONS">
+ <owned_indirect>0</owned_indirect><!-- CAI_WORLD_REGIONS = Settlement AI ID. CAI_WORLD_REGION_SLOTS = Region AI ID. CAI_WORLD_CHARACTERS = Faction AI ID -->
+ <rec type="CAI_BDI_COMPONENT_PROPERTY_SET">
+  <u>0</u>
+ </rec>
+ <u>234</u><!-- Region AI ID -->
+ <flt>100.0</flt>
+ <flt>100.0</flt>
+ <flt>0.0</flt>
+ <flt>100.0</flt>
+ <u>1</u>
+ <no/>
+ <u4_ary/>
+ <u4_ary>9281 0 12274 0 15602 0 22207 0 24295 0 29037 0 32263 0 33404 0 35143 0 37509 0 43827 0 46852 0 50798 0 55495 0 60522 0 63819 0 68874 0 71707 0 74311 0</u4_ary><!-- BDI Information -->
+ <u>0</u>
+ <u>19</u>
+ <u4_ary/>
+ <u4_ary>9281 14 12274 8223 15602 13620 22207 20020 24295 22758 29037 28332 32263 30312 33404 32825 35143 34562 37509 36296 43827 43255 46852 46306 50798 50481 55495 54872 60522 59017 63819 61796 68874 67348 71707 70928 74311 72874</u4_ary><!-- BDI Information -->
+ <ary type="CAI_BDI_COMPONENT_BLOCK_OWNS"/>
+ <u>0</u>
+ <u>0</u>
+ <u4_ary/>
+ <u4_ary/>
+ <u4_ary/>
+ <u4_ary>7728 7740 7736 9281 12275 16429 21092 23272 25118 27347 29328 31377 33698 35432 38243 40072 42314 44119 47151 52176 53402 53443 53930 55776 58085 59493 62872 64985 66402 69381 71971 73296 75029 76355 77630 78923 80224 81543</u4_ary><!-- BDI Information -->
+ <no/>
+ <u>0</u>
+ <no/>
+ <rec type="CAI_REGION">
+  <u4_ary>34</u4_ary><!-- Theatre IDs -->
+  <u4_ary>235 236</u4_ary><!-- HLCIS IDs -->
+  <u>0</u><!-- Settlement AI ID -->
+  <u4_ary/><!-- Region Slot AI IDs Of Region Slots In This Region -->
+  <flt>264.06433</flt><!-- X Coordinate -->
+  <flt>166.11168</flt><!-- Y Coordinate -->
+  <u4_ary/>
+  <u4_ary>7310 7311 7312</u4_ary><!-- Boundary IDs -->
+  <yes/>
+  <u4_ary/><!-- Character Resource AI IDs -->
+  <s>red_sea</s><!-- Region Name -->
+  <u>0</u><!-- Region ID -->
+  <u>0</u><!-- Governor AI ID -->
+  <u4_ary/><!-- Faction AI IDs -->
+ </rec>
+</rec>

@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<rec type="CAI_WORLD_REGIONS">
+ <owned_indirect>3386</owned_indirect><!-- CAI_WORLD_REGIONS = Settlement AI ID. CAI_WORLD_REGION_SLOTS = Region AI ID. CAI_WORLD_CHARACTERS = Faction AI ID -->
+ <rec type="CAI_BDI_COMPONENT_PROPERTY_SET">
+  <u>0</u>
+ </rec>
+ <u>1176</u><!-- Region AI ID -->
+ <flt>100.0</flt>
+ <flt>100.0</flt>
+ <flt>0.0</flt>
+ <flt>100.0</flt>
+ <u>1</u>
+ <no/>
+ <u4_ary/>
+ <u4_ary>8328 0 10424 0 10577 0 10681 0 10687 0 11696 0 11824 0 14364 0 22164 0 24235 0 26417 0 28979 0 32204 0 33344 0 35083 0 36923 0 41209 0 41352 0 41353 0 41420 0 41868 0 41422 1 41910 0 41911 0 41912 0 41913 0 41914 0 41455 1 41438 1 41969 0 41448 1 43767 0 46793 0 51938 0 55435 0 60465 0 63760 0 68825 0 71648 0 74251 0</u4_ary><!-- BDI Information -->
+ <u>0</u>
+ <u>40</u>
+ <u4_ary/>
+ <u4_ary>8328 14 10424 15 10577 8223 10681 8242 10687 4 11696 11697 11824 8263 14364 13620 22164 20020 24235 22758 26417 26104 28979 28332 32204 30312 33344 32825 35083 34562 36923 36296 41209 41048 41352 41049 41353 41065 41420 41868 41056 41422 41910 41911 41912 41913 41914 41455 41438 41969 41054 41448 43767 43255 46793 46306 51938 50481 55435 54872 60465 59017 63760 61796 68825 67348 71648 70928 74251 72874</u4_ary><!-- BDI Information -->
+ <ary type="CAI_BDI_COMPONENT_BLOCK_OWNS"/>
+ <u>0</u>
+ <u>0</u>
+ <u4_ary/>
+ <u4_ary/>
+ <u4_ary/>
+ <u4_ary>7813 8268 8328 7814 7812 7811 7792 10425 10578 10577 10687 10689 10691 11696 11744 11824 14364 22164 24235 26417 26504 28979 32204 33344 35083 36923 41209 41351 41452 41420 41508 41868 41910 41911 41912 41913 41914 41969 43767 46793 51938 55435 60465 63760 68825 71648 74251</u4_ary><!-- BDI Information -->
+ <no/>
+ <u>0</u>
+ <no/>
+ <rec type="CAI_REGION">
+  <u4_ary>33</u4_ary><!-- Theatre IDs -->
+  <u4_ary>1177 1178 1179 1180 1181 1182</u4_ary><!-- HLCIS IDs -->
+  <u>3386</u><!-- Settlement AI ID -->
+  <u4_ary>3388 3390 3392 3394</u4_ary><!-- Region Slot AI IDs Of Region Slots In This Region -->
+  <flt>-557.59106</flt><!-- X Coordinate -->
+  <flt>305.65103</flt><!-- Y Coordinate -->
+  <u4_ary/>
+  <u4_ary>7665 7668 7670 7672 7674 7675 7676</u4_ary><!-- Boundary IDs -->
+  <yes/>
+  <u4_ary>6109</u4_ary><!-- Character Resource AI IDs -->
+  <s>algonquin_territory</s><!-- Region Name -->
+  <u>640733240</u><!-- Region ID -->
+  <u>7840</u><!-- Governor AI ID -->
+  <u4_ary/><!-- Faction AI IDs -->
+ </rec>
+</rec>

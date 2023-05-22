@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<rec type="FORT_ARRAY">
+ <i>619077896</i>
+ <rec type="SIEGEABLE_GARRISON_RESIDENCE">
+  <garrison_residence>619077896</garrison_residence><!-- Faction ID -->
+  <u>639102952</u><!-- Building Slot ID -->
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <i>0</i>
+  <no/>
+  <no/>
+  <no/>
+  <v2x x="-516.4000244140625" y="304.79998779296875"/>
+  <u>575110120</u><!-- Army ID -->
+  <u4_ary/>
+  <u4_ary/><!-- Character ID Of Garrison -->
+  <rec type="LINE_OF_SIGHT">
+   <yes/>
+   <v2 x="-522.5" y="298.75"/>
+   <v2 x="-511.25" y="310.0"/>
+   <xml_include path="quadtree/new_york-0002.xml"/>
+  </rec>
+  <no/>
+  <ary type="FORTIFICATIONS_BLOCK">
+   <rec type="FORTIFICATIONS_BLOCK">
+    <rec type="FORTIFICATION_DAMAGE_INFO" version="1">
+     <ary type="HIT_POINTS_BLOCK"/>
+     <flt>1.0</flt>
+     <u>4</u>
+    </rec>
+   </rec>
+  </ary>
+ </rec>
+ <rec type="FORT">
+  <v2x x="-516.4000244140625" y="304.79998779296875"/>
+  <i>0</i>
+  <loc>start_pos_forts_fort_name_42000915</loc>
+  <s>42000915</s>
+  <i>639102952</i><!-- Fort Building Slot ID -->
+  <i>619077896</i><!-- Faction ID -->
+ </rec>
+</rec>

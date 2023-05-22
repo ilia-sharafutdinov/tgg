@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<rec type="CAI_WORLD_REGION_SLOTS">
+ <owned_indirect>934</owned_indirect><!-- CAI_WORLD_REGIONS = Settlement AI ID. CAI_WORLD_REGION_SLOTS = Region AI ID. CAI_WORLD_CHARACTERS = Faction AI ID -->
+ <cai_situated x="557.226318359375" y="130.13485717773438" region_id="934" theatre_id="35" area_id="13"/>
+ <rec type="CAI_BDI_COMPONENT_PROPERTY_SET">
+  <u>0</u>
+ </rec>
+ <u>2822</u><!-- Region Slot AI ID -->
+ <flt>100.0</flt>
+ <flt>100.0</flt>
+ <flt>0.0</flt>
+ <flt>100.0</flt>
+ <u>1</u>
+ <no/>
+ <u4_ary/>
+ <u4_ary>11539 0 16217 0 16218 0 16235 0 22392 0 38132 0 45498 0 48184 0 48875 0 48985 3 48988 0 48589 1 48587 1 49453 0 50225 0 60782 0 83062 0</u4_ary><!-- BDI Information -->
+ <u>0</u>
+ <u>17</u>
+ <u4_ary/>
+ <u4_ary>11539 16 16217 4 16218 15 16235 13612 22392 20012 38132 36288 45498 45001 48184 48036 48875 48985 48052 48988 48989 48080 48589 48587 49453 49019 50225 49653 60782 59009 83062 82617</u4_ary><!-- BDI Information -->
+ <ary type="CAI_BDI_COMPONENT_BLOCK_OWNS"/>
+ <u>0</u>
+ <u>0</u>
+ <u4_ary/>
+ <u4_ary/>
+ <u4_ary/>
+ <u4_ary>11481 11483 11504 11505 11507 11508 11510 11511 11512 11513 11514 11515 11516 11517 11519 11520 11521 11522 11523 11524 11525 11527 11528 11530 11536 11537 11538 11539 11540 11541 11542 11543 11545 11546 11547 11549 11553 11554 11555 11556 11557 11558 11559 11561 11563 11564 11565 11568 11569 11571 11573 11575 11576 11577 11582 11583 11585 16217 16218 16235 22392 38132 45498 48184 48869 48873 49453 50225 60782 83062</u4_ary><!-- BDI Information -->
+ <no/>
+ <u>0</u>
+ <no/>
+ <rec type="CAI_GARRISONABLE">
+  <u>0</u><!-- Character Resource AI ID -->
+  <u>0</u>
+  <u4_ary/><!-- Character Resource AI IDs -->
+  <u4_ary/>
+  <u>0</u>
+ </rec>
+ <rec type="CAI_THREATENED_GARRISONABLE">
+  <no/>
+ </rec>
+ <rec type="CAI_REGION_SLOT">
+  <i>1</i>
+  <u>2821</u><!-- Building Slot AI ID -->
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <no/><!-- True = Port, False = Town (ports have extra set of coordinates for their sea part following) -->
+ </rec>
+</rec>

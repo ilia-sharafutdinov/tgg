@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<rec type="FORT_ARRAY">
+ <i>840460064</i>
+ <rec type="SIEGEABLE_GARRISON_RESIDENCE">
+  <garrison_residence>840460064</garrison_residence><!-- Faction ID -->
+  <u>624037792</u><!-- Building Slot ID -->
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <i>0</i>
+  <no/>
+  <no/>
+  <no/>
+  <v2x x="19.600000381469727" y="353.8800048828125"/>
+  <u>0</u><!-- Army ID -->
+  <u4_ary/>
+  <u4_ary/><!-- Character ID Of Garrison -->
+  <rec type="LINE_OF_SIGHT">
+   <no/>
+  </rec>
+  <no/>
+  <ary type="FORTIFICATIONS_BLOCK">
+   <rec type="FORTIFICATIONS_BLOCK">
+    <rec type="FORTIFICATION_DAMAGE_INFO" version="1">
+     <ary type="HIT_POINTS_BLOCK"/>
+     <flt>1.0</flt>
+     <u>4</u>
+    </rec>
+   </rec>
+  </ary>
+ </rec>
+ <rec type="FORT">
+  <v2x x="19.600000381469727" y="353.8800048828125"/>
+  <i>2</i>
+  <loc>start_pos_forts_fort_name_1196160080</loc>
+  <s>1196160080</s>
+  <i>624037792</i><!-- Fort Building Slot ID -->
+  <i>840460064</i><!-- Faction ID -->
+ </rec>
+</rec>

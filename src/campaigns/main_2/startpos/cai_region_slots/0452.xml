@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<rec type="CAI_WORLD_REGION_SLOTS">
+ <owned_indirect>926</owned_indirect><!-- CAI_WORLD_REGIONS = Settlement AI ID. CAI_WORLD_REGION_SLOTS = Region AI ID. CAI_WORLD_CHARACTERS = Faction AI ID -->
+ <cai_situated x="532.506103515625" y="91.83614349365234" region_id="926" theatre_id="35" area_id="13"/>
+ <rec type="CAI_BDI_COMPONENT_PROPERTY_SET">
+  <u>0</u>
+ </rec>
+ <u>2770</u><!-- Region Slot AI ID -->
+ <flt>100.0</flt>
+ <flt>100.0</flt>
+ <flt>0.0</flt>
+ <flt>100.0</flt>
+ <u>1</u>
+ <no/>
+ <u4_ary/>
+ <u4_ary>11566 0 16124 0 16125 0 16138 0 22365 0 38086 0 45892 0 48716 0 49162 0 49580 2 49645 0 49358 1 49360 1 50181 0 60760 0 83012 0</u4_ary><!-- BDI Information -->
+ <u>0</u>
+ <u>16</u>
+ <u4_ary/>
+ <u4_ary>11566 16 16124 4 16125 15 16138 13612 22365 20012 38086 36288 45892 45001 48716 48036 49162 49019 49580 49035 49645 49646 49063 49358 49360 50181 49653 60760 59009 83012 82617</u4_ary><!-- BDI Information -->
+ <ary type="CAI_BDI_COMPONENT_BLOCK_OWNS"/>
+ <u>0</u>
+ <u>0</u>
+ <u4_ary/>
+ <u4_ary/>
+ <u4_ary/>
+ <u4_ary>11510 11511 11512 11513 11514 11515 11520 11521 11522 11523 11524 11525 11536 11537 11538 11540 11541 11542 11543 11545 11546 11547 11553 11554 11555 11557 11558 11559 11562 11563 11564 11565 11566 11567 11568 11569 11570 11571 11572 11574 11579 11580 11581 11587 11588 11589 11590 11591 11596 11597 11604 16124 16125 16138 22365 38086 45892 48716 49162 49375 49381 50181 60760 83012</u4_ary><!-- BDI Information -->
+ <no/>
+ <u>0</u>
+ <no/>
+ <rec type="CAI_GARRISONABLE">
+  <u>0</u><!-- Character Resource AI ID -->
+  <u>0</u>
+  <u4_ary/><!-- Character Resource AI IDs -->
+  <u4_ary/>
+  <u>0</u>
+ </rec>
+ <rec type="CAI_THREATENED_GARRISONABLE">
+  <no/>
+ </rec>
+ <rec type="CAI_REGION_SLOT">
+  <i>1</i>
+  <u>2769</u><!-- Building Slot AI ID -->
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <yes/><!-- True = Port, False = Town (ports have extra set of coordinates for their sea part following) -->
+  <cai_situated x="531.0288696289062" y="91.57566833496094" region_id="56" theatre_id="35" area_id="31"/>
+ </rec>
+</rec>
