@@ -1,0 +1,217 @@
+<?xml version="1.0"?>
+<rec type="FACTION">
+ <ancillary_uniqueness_monitor/>
+ <rec type="CAMPAIGN_PLAYER_SETUP">
+  <victory_conditions year="0" region_count="0" prestige_victory="no" campaign_type="4 (Unplayable)"/>
+  <rec type="CAMPAIGN_PLAYER_SETUP_INGAME_MODIFIABLES">
+   <i>0</i>
+   <i>0</i>
+   <i>0</i>
+   <no/>
+  </rec>
+  <s>mamelukes</s>
+  <no/>
+  <yes/><!-- Playable -->
+  <no/>
+ </rec>
+ <rec type="FACTION_ECONOMICS">
+  <ary type="history">
+   <rec type="history">
+    <rec type="ECONOMICS_DATA">
+     <i4_ary>0 0 0 0 0</i4_ary>
+     <i4_ary>0 0 922</i4_ary>
+     <i4_ary>0 0 0 1750</i4_ary>
+     <i4_ary>0</i4_ary>
+     <i4_ary>0 0 0 0 0</i4_ary>
+     <i4_ary>0 0 0 0 0 0 184</i4_ary>
+    </rec>
+   </rec>
+  </ary>
+  <i>5000</i>
+  <bin6>01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01</bin6>
+  <u>0</u>
+ </rec>
+ <xml_include path="diplomacy/mamelukes.xml"/>
+ <rec type="ARMY_REINFORCEMENT_MANAGER">
+  <ary type="CHARACTER_REINFORCEMENTS_ARRAY"/>
+  <ary type="UNIT_REINFORCEMENTS_ARRAY"/>
+ </rec>
+ <xml_include path="government/mamelukes-gov_absolute_monarchy.xml"/>
+ <xml_include path="family/mamelukes.xml"/>
+ <i>617402424</i><!-- Faction ID -->
+ <s>mamelukes</s><!-- Faction Name -->
+ <s>Mamelukes</s><!-- On Screen Name -->
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>24</u>
+  <u>305966235</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>71</u>
+  <u>2828691878</u>
+  <u2_ary>5 43 49 14 10 16 18 28 64 29 21 0 59 12 26 25 51 61 52 37 58 42 57 27 60 32 2 38 13 33 67 34 55 69 68 41 53 23 30 20 45 1 66 70 62 65 35 44 56 46 7 31 11 9 4 19 63 50 8 22 15 6 3 54 40 24 47</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>1870769690</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>2526719535</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>107</u>
+  <u>2430996123</u>
+  <u2_ary>7 48 10 68 73 16 56 50 12 59 37 14 105 36 31 66 64 38 101 55 80 24 63 11 78 41 62 6 22 25 103 35 93 19 104 76 54 60 75 23 49 8 2 0 79 43 39 102 18 83 92 20 17 98 51 71 9 70 69 90 94 81 15 86 42 106 72 45 99 82 87 74 77 84 52 88 44 34 65 100 3 67 57 95 27 91 29 1 61 85</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>185048890</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>1518076266</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>16</u>
+  <u>2531368220</u>
+  <u2_ary>0 11 5 2 6 1 3 10 8 9 4 15 13 12 7 14</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>3090952614</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>193763822</u>
+  <u2_ary/>
+ </rec>
+ <yes/>
+ <rec type="LAND_UNIT_NAME_ALLOCATOR">
+  <ary type="LAND_UNIT_NAMES_MAP">
+   <xml_include path="unit_name_alloc/mamelukes-land-0001.xml"/>
+   <xml_include path="unit_name_alloc/mamelukes-land-0002.xml"/>
+   <xml_include path="unit_name_alloc/mamelukes-land-0003.xml"/>
+   <xml_include path="unit_name_alloc/mamelukes-land-0004.xml"/>
+   <xml_include path="unit_name_alloc/mamelukes-land-0005.xml"/>
+   <xml_include path="unit_name_alloc/mamelukes-land-0006.xml"/>
+   <xml_include path="unit_name_alloc/mamelukes-land-0007.xml"/>
+   <xml_include path="unit_name_alloc/mamelukes-land-0008.xml"/>
+   <xml_include path="unit_name_alloc/mamelukes-land-0009.xml"/>
+   <xml_include path="unit_name_alloc/mamelukes-land-0010.xml"/>
+   <xml_include path="unit_name_alloc/mamelukes-land-0011.xml"/>
+   <xml_include path="unit_name_alloc/mamelukes-land-0012.xml"/>
+   <xml_include path="unit_name_alloc/mamelukes-land-0013.xml"/>
+   <xml_include path="unit_name_alloc/mamelukes-land-0014.xml"/>
+   <xml_include path="unit_name_alloc/mamelukes-land-0015.xml"/>
+   <xml_include path="unit_name_alloc/mamelukes-land-0016.xml"/>
+   <xml_include path="unit_name_alloc/mamelukes-land-0017.xml"/>
+   <xml_include path="unit_name_alloc/mamelukes-land-0018.xml"/>
+   <xml_include path="unit_name_alloc/mamelukes-land-0019.xml"/>
+   <xml_include path="unit_name_alloc/mamelukes-land-0020.xml"/>
+   <xml_include path="unit_name_alloc/mamelukes-land-0021.xml"/>
+   <xml_include path="unit_name_alloc/mamelukes-land-0022.xml"/>
+   <xml_include path="unit_name_alloc/mamelukes-land-0023.xml"/>
+  </ary>
+ </rec>
+ <yes/>
+ <xml_include path="unit_name_alloc/mamelukes-naval-0001.xml"/>
+ <no/><!-- True - Major, False - Minor -->
+ <ary type="CHARACTER_ARRAY">
+  <xml_include path="character/mamelukes-Eastern_Scholar-0001.xml"/>
+  <xml_include path="character/mamelukes-assassin-0001.xml"/>
+  <xml_include path="character/mamelukes-General-0001.xml"/>
+  <xml_include path="character/mamelukes-minister-0001.xml"/>
+  <xml_include path="character/mamelukes-minister-0002.xml"/>
+  <xml_include path="character/mamelukes-minister-0003.xml"/>
+  <xml_include path="character/mamelukes-minister-0004.xml"/>
+  <xml_include path="character/mamelukes-minister-0005.xml"/>
+  <xml_include path="character/mamelukes-minister-0006.xml"/>
+  <xml_include path="character/mamelukes-minister-0007.xml"/>
+  <xml_include path="character/mamelukes-minister-0008.xml"/>
+  <xml_include path="character/mamelukes-minister-0009.xml"/>
+  <xml_include path="character/mamelukes-minister-0010.xml"/>
+  <xml_include path="character/mamelukes-minister-0011.xml"/>
+  <xml_include path="character/mamelukes-minister-0012.xml"/>
+  <xml_include path="character/mamelukes-minister-0013.xml"/>
+ </ary>
+ <xml_include path="technology/mamelukes-mamelukes.xml"/>
+ <ary type="ARMY_ARRAY">
+  <xml_include path="army/mamelukes-0001.xml"/>
+ </ary>
+ <ary type="MORGUE"/>
+ <u4_ary>647214456</u4_ary><!-- Governor ID For Each Theatre -->
+ <no/>
+ <s>rel_islamic</s><!-- Religion -->
+ <no/>
+ <rec type="FORT_UPGRADE_MANAGER">
+  <ary type="FORT_UPGRADES_ARRAY"/>
+ </rec>
+ <rec type="FORT_UPGRADE_MANAGER">
+  <ary type="FORT_REPAIRS_ARRAY"/>
+ </rec>
+ <i>641397480</i><!-- Current Capital ID Else 0 If Faction Destroyed -->
+ <i>641397480</i><!-- Original Capital ID -->
+ <ary type="EXPOSED_CHARACTERS"/>
+ <no/>
+ <rec type="PRESTIGE">
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <u>10</u>
+ </rec>
+ <no/><!-- Emergent -->
+ <u>0</u>
+ <bool_ary>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</bool_ary>
+ <i>0</i><!-- Army Upkeep -->
+ <i>0</i><!-- Navy Upkeep -->
+ <s>MAINTAINANCE</s><!-- Campaign AI Manager Behaviour (patch.pack) -->
+ <s>non_euro</s><!-- Campaign AI Personalities (patch.pack) -->
+ <flag_and_colours path="data\ui\flags\mamelukes" color1="#d1b671" color2="#31481e" color3="#ae8944"/>
+ <flag_and_colours path="data\ui\flags\mamelukes" color1="#d1b671" color2="#31481e" color3="#ae8944"/>
+ <rec type="CAMPAIGN_BONUS_VALUES">
+  <ary type="CAMPAIGN_BONUS_VALUE_BLOCK">
+   <campaign_bonus_0 subtype="2" value="1.0" agent="Eastern_Scholar"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="rake"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="assassin"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="gentleman"/>
+  </ary>
+ </rec>
+ <rec type="CAMPAIGN_BONUS_VALUES">
+  <ary type="CAMPAIGN_BONUS_VALUE_BLOCK">
+   <campaign_bonus_0 subtype="2" value="1.0" agent="Eastern_Scholar"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="rake"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="assassin"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="gentleman"/>
+  </ary>
+ </rec>
+ <i>619725520</i><!-- Protectorate ID -->
+ <no/>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <no/>
+ <no/>
+ <no/>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <no/>
+ <no/>
+ <u>0</u>
+ <no/>
+ <no/>
+</rec>

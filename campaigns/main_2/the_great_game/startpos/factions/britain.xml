@@ -1,0 +1,263 @@
+<?xml version="1.0"?>
+<rec type="FACTION">
+ <ancillary_uniqueness_monitor>
+  Ancillary_Amusing_Cad
+ </ancillary_uniqueness_monitor>
+ <rec type="CAMPAIGN_PLAYER_SETUP">
+  <victory_conditions year="0" region_count="0" prestige_victory="no" campaign_type="4 (Unplayable)"/>
+  <rec type="CAMPAIGN_PLAYER_SETUP_INGAME_MODIFIABLES">
+   <i>0</i>
+   <i>0</i>
+   <i>0</i>
+   <no/>
+  </rec>
+  <s>britain</s>
+  <no/>
+  <yes/><!-- Playable -->
+  <no/>
+ </rec>
+ <rec type="FACTION_ECONOMICS">
+  <ary type="history">
+   <rec type="history">
+    <rec type="ECONOMICS_DATA">
+     <i4_ary>0 0 0 0 0</i4_ary>
+     <i4_ary>0 0 2205</i4_ary>
+     <i4_ary>0 0 0 3000</i4_ary>
+     <i4_ary>0</i4_ary>
+     <i4_ary>0 0 0 0 0</i4_ary>
+     <i4_ary>0 10060 11240 0 0 0 0</i4_ary>
+    </rec>
+   </rec>
+  </ary>
+  <i>5000</i>
+  <bin6>01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01</bin6>
+  <u>0</u>
+ </rec>
+ <xml_include path="diplomacy/britain.xml"/>
+ <rec type="ARMY_REINFORCEMENT_MANAGER">
+  <ary type="CHARACTER_REINFORCEMENTS_ARRAY"/>
+  <ary type="UNIT_REINFORCEMENTS_ARRAY"/>
+ </rec>
+ <xml_include path="government/britain-gov_constitutional_monarchy.xml"/>
+ <xml_include path="family/britain.xml"/>
+ <i>668419872</i><!-- Faction ID -->
+ <s>britain</s><!-- Faction Name -->
+ <s>Great Britain</s><!-- On Screen Name -->
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>352</u>
+  <u>106506119</u>
+  <u2_ary>210 205 269 329 302 202 12 230 235 248 321 68 203 129 189 13 77 336 341 111 131 225 234 339 35 290 214 293 27 220 324 249 14 170 185 266 122 208 286 102 251 285 190 167 56 112 161 15 301 92 19 330 65 143 186 36 4 135 153 221 245 11 304 139 86 48 242 254 120 124 349 41 123 311 335 146 51 187 315 200 115 282 191 144 297 223 134 198 32 287 226 168 196 177 99 316 152 81 183 343 182 28 218 117 145 260 244 163 201 125 59 350 318 61 119 96 147 133 294 184 93 17 156 33 342 314 116 229 337 270 100 25 108 259 83 333 206 253 255 325 278 239 3 328 284 37 236 228 22 238 149 84 154 132 256 252 5 303 105 310 89 309 34 20 90 18 271 136 45 320 313 298 38 166 49 104 97 281 140 280 126 171 80 275 0 338 82 137 317 213 340 23 91 165 66 54 332 351 217 64 250 312 195 240 307 267 71 346 277 46 159 9 113 55 94 24 180 114 209 26 78 2 261 50 241 193 52 39 262 87 194 308 306 150 331 268 157 95 300 272 85 73 155 44 283 296 53 326 76 158 138 110 101 258 204 207 10 175 216 57 72 29 148 118 247 63 98 211 263 75 181 224</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>265</u>
+  <u>2714289734</u>
+  <u2_ary>44 23 50 3 177 141 86 227 5 66 258 195 111 230 176 207 12 75 107 70 146 241 162 98 211 97 191 164 92 264 181 235 82 139 189 165 8 171 81 203 206 186 244 17 178 160 85 102 166 38 154 130 232 71 116 145 41 183 158 33 60 124 76 93 79 4 108 53 0 192 140 170 68 243 143 112 77 131 120 148 135 224 194 184 198 54 209 208 126 236 78 260 32 238 163 168 210 240 247 2 35 204 190 259 11 7 251 100 237 133 40 89 36 137 43 202 88 174 105 73 245 57 123 151 117 253 229 167 46 26 24 249 172 69 205 16 99 214 61 201 118 257 263 103 122 114 62 10 9 262 196 19 34 109 31 152 37 129 14 104 261 56 94 127 22 51 199 142 250 113 90 65 45 20 63 59 255 226 28 25 6 115 223 15 83 169 161 193 187 84 101 242 233 182 39 30 185 150 52 147 49 157 175 121 47 228 254 220 67 179 58 234 80 173 197 136 188 119 106 21 222 225 91 64 74 180 144 96 13 27 18 153 132 87 72 155 29 221 256 252 125 239 149 216 212 95 1 218 110 138 55 217 42 231 134 200 219 156 246 213 215 248 159 128 48</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>2579366733</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>1</u>
+  <u>3874454207</u>
+  <u2_ary>0</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>635</u>
+  <u>1017012232</u>
+  <u2_ary>445 406 223 442 462 243 217 282 434 363 416 429 504 609 241 54 399 253 581 248 375 201 321 196 625 230 480 355 500 284 286 560 467 418 274 244 53 44 131 542 615 33 278 36 503 64 507 231 590 351 448 424 157 367 148 593 366 219 601 15 162 587 361 481 174 266 411 548 246 112 335 479 579 153 449 14 281 594 376 115 50 595 118 200 23 511 403 368 192 277 93 473 464 518 38 386 572 396 95 338 439 470 137 285 79 91 82 261 177 509 150 78 124 307 451 360 379 494 145 605 308 384 149 582 71 132 47 489 215 74 531 185 48 129 164 557 90 2 465 327 293 51 240 547 631 400 222 147 65 113 401 501 116 135 20 392 45 380 119 27 251 211 270 349 275 329 62 447 620 566 154 320 383 562 443 182 87 40 273 259 397 574 29 340 513 3 515 499 42 256 111 186 529 469 128 187 388 316 474 165 260 578 102 163 69 374 561 395 454 298 598 410 358 184 414 21 629 537 101 493 621 564 155 426 559 234 312 459 311 577 204 370 488 247 378 81 265 571 466 134 170 354 527 67 194 458 551 9 140 502 508 66 258 43 487 377 608 229 336 85 212 569 117 161 452 565 220 576 417 209 146 120 616 573 263 108 353 156 476 555 331 207 534 362 575 255 441 478 193 552 56 198 364 332 519 475 221 337 83 586 57 485 180 109 483 126 420 617 295 0 521 77 26 597 183 80 556 22 339 178 468 324 602 267 306 171 607 107 328 216 524 546 294 440 296 438 299 97 614 599 453 28 72 618 167 385 334 34 210 70 302 457 139 17 84 213 347 626 159 522 89 352 632 46 208 540 98 227 359 613 305 151 412 326 121 550 603 543 138 633 333 456 24 342 619 533 318 539 430 228 133 536 39 350 538 319 461 12 525 421 520 634 591 272 526 158 517 583 423 558 541 76 391 188 11 190 544 276 289 514 323 195 264 553 254 630 530 271 425 143 492 535 214 136 588 373 300 13 304 523 460 191 175 104 341 313 408 606 288 203 25 68 172 317 398 563 484 86 110 291 35 610 245 365 624 176 437 404 372 356 627 471 482 166 290 382 622 604 394 283 322 516 52 405 73 152 142 250 239 589 427 75 506 292 232 314 181 238 249 450 106 31 41 94 446 444 490 310 268 371 623 5 130 189 628 498 199 330 393 7 6 105 387 235 4 8 567 409 472 61 433 325 179 63 512 510 554 32 269 463 262 287 237 419 345 58 122 357 233 348 169 225 580 303 123</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>1757283199</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>2973305065</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>56</u>
+  <u>157322011</u>
+  <u2_ary>45 3 48 0 34 43 6 51 44 31 35 16 52 54 2 15 23 32 47 19 55 39 41 21 12 22 53 40 38 7 25 5 8 13 10 42 24 9 50 30 37 4 28 36 20 14 1 33 18 17 26 29 27 11 46 49</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>7</u>
+  <u>369314083</u>
+  <u2_ary>3 0 5 1 6 4</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>13</u>
+  <u>222715178</u>
+  <u2_ary>6 7 2 3 8 9 0 12 1 10 4 5</u2_ary>
+ </rec>
+ <yes/>
+ <rec type="LAND_UNIT_NAME_ALLOCATOR">
+  <ary type="LAND_UNIT_NAMES_MAP">
+   <xml_include path="unit_name_alloc/britain-land-0001.xml"/>
+   <xml_include path="unit_name_alloc/britain-land-0002.xml"/>
+   <xml_include path="unit_name_alloc/britain-land-0003.xml"/>
+   <xml_include path="unit_name_alloc/britain-land-0004.xml"/>
+   <xml_include path="unit_name_alloc/britain-land-0005.xml"/>
+   <xml_include path="unit_name_alloc/britain-land-0006.xml"/>
+   <xml_include path="unit_name_alloc/britain-land-0007.xml"/>
+   <xml_include path="unit_name_alloc/britain-land-0008.xml"/>
+   <xml_include path="unit_name_alloc/britain-land-0009.xml"/>
+   <xml_include path="unit_name_alloc/britain-land-0010.xml"/>
+   <xml_include path="unit_name_alloc/britain-land-0011.xml"/>
+   <xml_include path="unit_name_alloc/britain-land-0012.xml"/>
+   <xml_include path="unit_name_alloc/britain-land-0013.xml"/>
+   <xml_include path="unit_name_alloc/britain-land-0014.xml"/>
+   <xml_include path="unit_name_alloc/britain-land-0015.xml"/>
+   <xml_include path="unit_name_alloc/britain-land-0016.xml"/>
+   <xml_include path="unit_name_alloc/britain-land-0017.xml"/>
+   <xml_include path="unit_name_alloc/britain-land-0018.xml"/>
+   <xml_include path="unit_name_alloc/britain-land-0019.xml"/>
+   <xml_include path="unit_name_alloc/britain-land-0020.xml"/>
+   <xml_include path="unit_name_alloc/britain-land-0021.xml"/>
+   <xml_include path="unit_name_alloc/britain-land-0022.xml"/>
+   <xml_include path="unit_name_alloc/britain-land-0023.xml"/>
+  </ary>
+ </rec>
+ <yes/>
+ <xml_include path="unit_name_alloc/britain-naval-0001.xml"/>
+ <yes/><!-- True - Major, False - Minor -->
+ <ary type="CHARACTER_ARRAY">
+  <xml_include path="character/britain-admiral-0001.xml"/>
+  <xml_include path="character/britain-Protestant_Missionary-0001.xml"/>
+  <xml_include path="character/britain-colonel-0001.xml"/>
+  <xml_include path="character/britain-gentleman-0001.xml"/>
+  <xml_include path="character/britain-minister-0001.xml"/>
+  <xml_include path="character/britain-rake-0001.xml"/>
+  <xml_include path="character/britain-captain-0001.xml"/>
+  <xml_include path="character/britain-admiral-0002.xml"/>
+  <xml_include path="character/britain-General-0001.xml"/>
+  <xml_include path="character/britain-General-0002.xml"/>
+  <xml_include path="character/britain-minister-0002.xml"/>
+  <xml_include path="character/britain-Protestant_Missionary-0002.xml"/>
+  <xml_include path="character/britain-admiral-0003.xml"/>
+  <xml_include path="character/britain-captain-0002.xml"/>
+  <xml_include path="character/britain-minister-0003.xml"/>
+  <xml_include path="character/britain-minister-0004.xml"/>
+  <xml_include path="character/britain-captain-0003.xml"/>
+  <xml_include path="character/britain-colonel-0002.xml"/>
+  <xml_include path="character/britain-minister-0005.xml"/>
+  <xml_include path="character/britain-Protestant_Missionary-0003.xml"/>
+  <xml_include path="character/britain-colonel-0003.xml"/>
+  <xml_include path="character/britain-minister-0006.xml"/>
+  <xml_include path="character/britain-gentleman-0002.xml"/>
+  <xml_include path="character/britain-captain-0004.xml"/>
+  <xml_include path="character/britain-gentleman-0003.xml"/>
+  <xml_include path="character/britain-Protestant_Missionary-0004.xml"/>
+  <xml_include path="character/britain-General-0003.xml"/>
+  <xml_include path="character/britain-General-0004.xml"/>
+  <xml_include path="character/britain-General-0005.xml"/>
+  <xml_include path="character/britain-minister-0007.xml"/>
+  <xml_include path="character/britain-minister-0008.xml"/>
+  <xml_include path="character/britain-minister-0009.xml"/>
+  <xml_include path="character/britain-minister-0010.xml"/>
+  <xml_include path="character/britain-minister-0011.xml"/>
+  <xml_include path="character/britain-minister-0012.xml"/>
+  <xml_include path="character/britain-minister-0013.xml"/>
+  <xml_include path="character/britain-minister-0014.xml"/>
+  <xml_include path="character/britain-minister-0015.xml"/>
+  <xml_include path="character/britain-colonel-0004.xml"/>
+  <xml_include path="character/britain-colonel-0005.xml"/>
+ </ary>
+ <xml_include path="technology/britain-britain.xml"/>
+ <ary type="ARMY_ARRAY">
+  <xml_include path="army/britain-0001.xml"/>
+  <xml_include path="army/britain-0002.xml"/>
+  <xml_include path="army/britain-0003.xml"/>
+  <xml_include path="army/britain-0004.xml"/>
+  <xml_include path="army/britain-0005.xml"/>
+  <xml_include path="army/britain-0006.xml"/>
+  <xml_include path="army/britain-0007.xml"/>
+  <xml_include path="army/britain-0008.xml"/>
+  <xml_include path="army/britain-0009.xml"/>
+  <xml_include path="army/britain-0010.xml"/>
+  <xml_include path="army/britain-0011.xml"/>
+  <xml_include path="army/britain-0012.xml"/>
+  <xml_include path="army/britain-0013.xml"/>
+  <xml_include path="army/britain-0014.xml"/>
+  <xml_include path="army/britain-0015.xml"/>
+  <xml_include path="army/britain-0016.xml"/>
+  <xml_include path="army/britain-0017.xml"/>
+ </ary>
+ <ary type="MORGUE"/>
+ <u4_ary>603567480 613643736 661870056</u4_ary><!-- Governor ID For Each Theatre -->
+ <no/>
+ <s>rel_protestant</s><!-- Religion -->
+ <no/>
+ <rec type="FORT_UPGRADE_MANAGER">
+  <ary type="FORT_UPGRADES_ARRAY"/>
+ </rec>
+ <rec type="FORT_UPGRADE_MANAGER">
+  <ary type="FORT_REPAIRS_ARRAY"/>
+ </rec>
+ <i>600997632</i><!-- Current Capital ID Else 0 If Faction Destroyed -->
+ <i>600997632</i><!-- Original Capital ID -->
+ <ary type="EXPOSED_CHARACTERS"/>
+ <no/>
+ <rec type="PRESTIGE">
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <u>20</u>
+  <u>40</u>
+  <u>30</u>
+  <u>30</u>
+  <u>155</u>
+ </rec>
+ <no/><!-- Emergent -->
+ <u>0</u>
+ <bool_ary>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</bool_ary>
+ <i>10060</i><!-- Army Upkeep -->
+ <i>11240</i><!-- Navy Upkeep -->
+ <s>FULL</s><!-- Campaign AI Manager Behaviour (patch.pack) -->
+ <s>maritime_progressive</s><!-- Campaign AI Personalities (patch.pack) -->
+ <flag_and_colours path="data\ui\flags\britain" color1="#de0000" color2="#122e56" color3="#c01610"/>
+ <flag_and_colours path="data\ui\flags\british_republic" color1="#de0000" color2="#122e56" color3="#c01610"/>
+ <rec type="CAMPAIGN_BONUS_VALUES">
+  <ary type="CAMPAIGN_BONUS_VALUE_BLOCK">
+   <campaign_bonus_0 subtype="2" value="1.0" agent="Eastern_Scholar"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="rake"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="assassin"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="gentleman"/>
+   <campaign_bonus_1 subtype="7" value="10.0"/>
+   <campaign_bonus_1 subtype="63" value="-10.0"/>
+  </ary>
+ </rec>
+ <rec type="CAMPAIGN_BONUS_VALUES">
+  <ary type="CAMPAIGN_BONUS_VALUE_BLOCK">
+   <campaign_bonus_0 subtype="2" value="1.0" agent="Eastern_Scholar"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="rake"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="assassin"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="gentleman"/>
+   <campaign_bonus_1 subtype="7" value="10.0"/>
+   <campaign_bonus_1 subtype="63" value="-10.0"/>
+  </ary>
+ </rec>
+ <i>0</i><!-- Protectorate ID -->
+ <no/>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <no/>
+ <yes/>
+ <no/>
+ <i>20</i>
+ <i>40</i>
+ <i>30</i>
+ <i>30</i>
+ <no/>
+ <no/>
+ <u>0</u>
+ <no/>
+ <no/>
+</rec>
