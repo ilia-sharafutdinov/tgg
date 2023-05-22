@@ -23,7 +23,8 @@
    <ary type="FORTIFICATIONS_BLOCK"/>
   </rec>
   <rec type="BUILDING_MANAGER">
-   <no/>
+   <yes/>
+   <building health="100" name="shipyard" faction="denmark" government="gov_constitutional_monarchy"/>
    <no/>
   </rec>
   <u>586832568</u><!-- Building Slot ID -->
@@ -32,13 +33,23 @@
   <i>0</i>
   <v2x x="74.98712158203125" y="385.7272033691406"/>
   <i>0</i><!-- 1=Meagre 2=Low 3=Average 4=High 5=Abundant Yeilds For Commodities -->
-  <i>0</i><!-- 1=Very Poor 2=Poor 3=Growing 4=Prosperous 5=Wealthy For Town/Port/Road/Wall -->
-  <no/><!-- Town or Port Emerged -->
+  <i>1</i><!-- 1=Very Poor 2=Poor 3=Growing 4=Prosperous 5=Wealthy For Town/Port/Road/Wall -->
+  <yes/><!-- Town or Port Emerged -->
   <i>1</i><!-- Commodities = 0; Town/Port/Road/Wall = 1 -->
   <i>1</i><!-- Commodities = 2; Town/Port/Road/Wall = 1 -->
   <u>4294967295</u><!-- 4294967295 Trade/Finance ID -->
   <u>3</u><!-- Town Or Port Emergence Order -->
   <no/><!-- Available To Build -->
+  <rec type="REGION_RECRUITMENT_MANAGER">
+   <ary type="REGION_RECRUITMENT_ITEM_ARRAY"/>
+   <no/>
+   <i>594640999</i>
+  </rec>
+  <rec type="PORT_GARRISON_MANAGER">
+   <u>0</u>
+   <u>0</u>
+   <no/>
+  </rec>
   <no/>
  </rec>
 </rec>
