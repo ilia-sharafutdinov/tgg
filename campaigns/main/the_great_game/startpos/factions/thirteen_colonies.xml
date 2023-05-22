@@ -11,7 +11,7 @@
   </rec>
   <s>thirteen_colonies</s>
   <no/>
-  <no/><!-- Playable -->
+  <yes/><!-- Playable -->
   <no/>
  </rec>
  <rec type="FACTION_ECONOMICS">
@@ -181,7 +181,7 @@
  <bool_ary>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</bool_ary>
  <i>0</i><!-- Army Upkeep -->
  <i>0</i><!-- Navy Upkeep -->
- <s>MAINTAINANCE</s><!-- Campaign AI Manager Behaviour (patch.pack) -->
+ <s>FULL</s><!-- Campaign AI Manager Behaviour (patch.pack) -->
  <s>default</s><!-- Campaign AI Personalities (patch.pack) -->
  <flag_and_colours path="data\ui\flags\george_washington" color1="#e54e4e" color2="#122e56" color3="#711313"/>
  <flag_and_colours path="data\ui\flags\united_states" color1="#e54e4e" color2="#122e56" color3="#711313"/>
