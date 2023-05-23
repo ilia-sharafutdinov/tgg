@@ -1,0 +1,22 @@
+version 1, schema units_to_exclusive_faction_permissions_tables
+Unit_IDRef(string)	Faction_IDRef(string)	Availability(boolean)
+"armed_citizenry_africa"	"barbary_rebels"	false
+"armed_citizenry_africa"	"barbary_states"	false
+"armed_citizenry_matchlocks_africa"	"barbary_rebels"	false
+"armed_citizenry_matchlocks_africa"	"barbary_states"	false
+"barbary_xebec"	"barbary_rebels"	false
+"barbary_xebec"	"barbary_states"	false
+"barbary_xebec"	"morocco"	false
+"barbary_xebec_buffed"	"barbary_rebels"	true
+"barbary_xebec_buffed"	"barbary_states"	true
+"barbary_xebec_buffed"	"morocco"	true
+"desert_warriors_garrison"	"barbary_rebels"	true
+"desert_warriors_garrison"	"barbary_states"	true
+"east_ethnic_warriors_barbary_pirates_with_grenades_garrison"	"barbary_rebels"	true
+"east_ethnic_warriors_barbary_pirates_with_grenades_garrison"	"barbary_states"	true
+"east_ethnic_warriors_barbary_pirates"	"barbary_rebels"	false
+"east_ethnic_warriors_barbary_pirates"	"barbary_states"	false
+"east_ethnic_warriors_barbary_pirates"	"morocco"	false
+"pirates"	"pirates"	false
+"pirates_garrison"	"pirates"	false
+"pirates_with_grenades"	"pirates"	true
