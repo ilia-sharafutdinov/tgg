@@ -1,0 +1,20 @@
+version 1, schema units_to_exclusive_faction_permissions_tables
+Unit_IDRef(string)	Faction_IDRef(string)	Availability(boolean)
+"east_afghan_sherbacha"	"afghanistan"	true
+"east_ethnic_swordsmen_hindu_warriors"	"mysore"	true
+"east_ethnic_musketmen_jazayerchi"	"safavids"	true
+"east_guard_cavalry_qurchi"	"afghanistan"	false
+"east_sikh_infantry_musketeers"	"india_settler_rebels"	false
+"east_sikh_infantry_musketeers"	"maratha_rebels"	false
+"east_sikh_infantry_musketeers"	"maratha"	false
+"east_sikh_infantry_musketeers"	"punjab"	false
+"east_sikh_infantry_musketeers"	"sikh_rebels"	false
+"east_sipahi_cavalry"	"india_settler_rebels"	false
+"east_sipahi_cavalry"	"maratha_rebels"	false
+"east_sipahi_cavalry"	"maratha"	false
+"east_sipahi_cavalry"	"mughal_rebels"	false
+"east_sipahi_cavalry"	"mughal"	false
+"east_sipahi_cavalry"	"mysore"	false
+"east_sipahi_cavalry"	"punjab"	false
+"east_sipahi_cavalry"	"sikh_rebels"	false
+"eue_armenian_archers"	"safavids"	true
