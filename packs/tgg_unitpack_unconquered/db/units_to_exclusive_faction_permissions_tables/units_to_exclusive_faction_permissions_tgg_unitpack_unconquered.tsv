@@ -1,0 +1,18 @@
+version 1, schema units_to_exclusive_faction_permissions_tables
+Unit_IDRef(string)	Faction_IDRef(string)	Availability(boolean)
+"armed_citizenry_matchlocks_middle_east"	"chechenya_dagestan"	false
+"armed_citizenry_matchlocks_middle_east"	"crimean_khanate"	false
+"armed_citizenry_matchlocks_middle_east"	"georgia"	false
+"armed_citizenry_middle_east"	"chechenya_dagestan"	false
+"armed_citizenry_middle_east"	"crimean_khanate"	false
+"armed_citizenry_middle_east"	"georgia"	false
+"armed_citizenry_india"	"afghanistan"	false
+"armed_citizenry_matchlocks_india"	"afghanistan"	false
+"east_ethnic_hillmen_musketeers_afghan_garrison"	"afghanistan"	true
+"east_ethnic_hillmen_musketeers_caucasian_garrison"	"chechenya_dagestan"	true
+"east_ethnic_hillmen_musketeers_caucasian_garrison"	"georgia"	true
+"east_ethnic_musketmen_tufekci_garrison"	"crimean_khanate"	true
+"east_ethnic_swordsmen_caucasian_garrison"	"chechenya_dagestan"	true
+"east_ethnic_swordsmen_caucasian_garrison"	"georgia"	true
+"east_ethnic_swordsmen_islamic_garrison"	"afghanistan"	true
+"steppe_cavalry_tatars_crimean_garrison"	"crimean_khanate"	true
