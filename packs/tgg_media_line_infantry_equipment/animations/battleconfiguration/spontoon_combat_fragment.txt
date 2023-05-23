@@ -1,0 +1,178 @@
+
+version 1
+
+//Combat Ready
+COMBAT_READY						filename = "Animations/MEN/PIKE/PIK_High_Guard/PIK_HGUARD.anim",													primary_weapon = off, secondary_weapon = off, personal = on
+COMBAT_READY_TO_STAND				filename = "Animations/MEN/PIKE/PIK_High_Guard/PIK_HGUARD_to_standa.anim",											primary_weapon = off, secondary_weapon = off, personal = on
+COMBAT_READY_TO_STAND_TRAINED		filename = "Animations/MEN/PIKE/PIK_High_Guard/PIK_HGUARD_to_standa.anim",											primary_weapon = off, secondary_weapon = off, personal = on
+COMBAT_READY_TO_COMBAT_READY_KNEEL	filename = "Animations/MEN/FLAG_BEARER/FLA_TAKING_COVER/FLA_Stand_to_Cover.anim",					 blend_in_time = 0, primary_weapon = off, secondary_weapon = off, personal = on
+
+COMBAT_READY_ADVANCE				filename = "animations/men/pike/pik_hguard_walk/pik_hgwalk.anim",															
+COMBAT_READY_RETREAT				filename = "animations/men/pike/pik_high_guard/pik_hg_retire.anim",					blend_in_time = 0.25,	primary_weapon = off, secondary_weapon = off, personal = on
+COMBAT_READY_STEP_LEFT				filename = "Animations/MEN/PIKE/PIK_High_Guard/PIK_HG_Step_Left.anim",					blend_in_time = 0.25,	primary_weapon = off, secondary_weapon = off, personal = on
+COMBAT_READY_STEP_RIGHT				filename = "Animations/MEN/PIKE/PIK_High_Guard/PIK_HG_Step_Right.anim",				blend_in_time = 0.25,	primary_weapon = off, secondary_weapon = off, personal = on
+
+COMBAT_READY_TURN_LEFT_45			filename = "Animations/MEN/PIKE/PIK_High_Guard/PIK_HG_ccw45.anim",				blend_in_time = 0.25,	primary_weapon = off, secondary_weapon = off, personal = on
+COMBAT_READY_TURN_RIGHT_45			filename = "Animations/MEN/PIKE/PIK_High_Guard/PIK_HG_cw45.anim",					blend_in_time = 0.25,	primary_weapon = off, secondary_weapon = off, personal = on
+COMBAT_READY_TURN_LEFT_90			filename = "Animations/MEN/PIKE/PIK_High_Guard/PIK_HG_ccw90.anim",				blend_in_time = 0.25,	primary_weapon = off, secondary_weapon = off, personal = on
+COMBAT_READY_TURN_RIGHT_90			filename = "Animations/MEN/PIKE/PIK_High_Guard/PIK_HG_cw90.anim",					blend_in_time = 0.25,	primary_weapon = off, secondary_weapon = off, personal = on
+COMBAT_READY_TURN_LEFT_180			filename = "Animations/MEN/FLAG_BEARER/FLA_MEDIUM_GUARD/FLA_Mguard_turn_cw180.anim",				blend_in_time = 0.25,	primary_weapon = off, secondary_weapon = off, personal = on
+
+COMBAT_READY_TO_COMBAT_READY_KNEEL	filename = "Animations/MEN/FLAG_BEARER/FLA_TAKING_COVER/FLA_Stand_to_Cover.anim",					 blend_in_time = 0, primary_weapon = off, secondary_weapon = off, personal = on
+COMBAT_READY_KNEEL					filename = "Animations/MEN/FLAG_BEARER/FLA_TAKING_COVER/FLA_Cover.anim",							blend_in_time = 0.25, primary_weapon = off, secondary_weapon = off, personal = on
+COMBAT_READY_KNEEL_TO_COMBAT_READY	filename = "Animations/MEN/FLAG_BEARER/FLA_TAKING_COVER/Fla_Cover_to_Stand.anim", 
+COMBAT_READY_KNEEL_TO_PRONE			filename = "Animations/MEN/MUSKET/MUS_PRONE/MUS_GKnee_to_prone.anim",							blend_in_time = 0.25, primary_weapon = off, secondary_weapon = off, personal = on
+COMBAT_READY_KNEEL_TO_KNEEL_RELOAD	filename = "Animations/MEN/MUSKET/MUS_KNEEL/MUS_Gkneel_to_Kreload_01.anim",  					blend_in_time = 0.25, primary_weapon = off, secondary_weapon = off, personal = on
+COMBAT_READY_KNEEL_TO_KNEEL_RELOAD	filename = "Animations/MEN/MUSKET/MUS_KNEEL/MUS_Gkneel_to_Kreload_01.anim",
+
+PRONE								filename = "Animations/MEN/MUSKET/MUS_PRONE/MUS_prone.anim",						
+PRONE_TO_STAND						filename = "Animations/MEN/MUSKET/MUS_PRONE/MUS_prone_to_stand.anim",							
+PRONE_TO_COMBAT_READY_KNEEL			filename = "Animations/MEN/MUSKET/MUS_PRONE/MUS_prone_to_GKneel.anim",								
+
+SMASH_WINDOW						filename = "Animations/MEN/MUSKET/MUS_UNIQUE_ACTIONS/MUS_Window_Butt_Bash.anim",							equipment_usage = rifle_butt
+
+// CHARGE ---------------------------------------------------------------------------------------------------------------------------------------------
+CHARGE								filename = "Animations/MEN/SABRE/SAB_CHARGE/SAB_Charge.anim",						blend_in_time = 0.5,	primary_weapon = on, secondary_weapon = off, personal = off
+CHARGE								filename = "Animations/MEN/SABRE/SAB_CHARGE/SAB_Charge_alt1.anim",					blend_in_time = 0.5,	primary_weapon = on, secondary_weapon = off, personal = off
+CHARGE								filename = "Animations/MEN/SABRE/SAB_CHARGE/SAB_Charge_alt2.anim",					blend_in_time = 0.5,	primary_weapon = on, secondary_weapon = off, personal = off
+CHARGE								filename = "Animations/MEN/SABRE/SAB_CHARGE/SAB_Charge_alt3.anim",					blend_in_time = 0.5,	primary_weapon = on, secondary_weapon = off, personal = off
+CHARGE								filename = "Animations/MEN/SABRE/SAB_CHARGE/SAB_Charge_alt4.anim",					blend_in_time = 0.5,	primary_weapon = on, secondary_weapon = off, personal = off
+
+
+//FIRE----------------------------------------------------------------------------------------------------------------------------------------------------
+COMBAT_READY_TO_AIM					filename = "Animations/MEN/AXE/AXE_Pistol/Axe_Stand_To_Pistol_Aim_M.anim",			blend_in_time = 0		primary_weapon = off, secondary_weapon = on, personal = off
+COMBAT_READY_TO_RELOAD_1			filename = "Animations/MEN/MUSKET/MUS_POISED/MUS_HG_to_Reload_01.anim",				blend_in_time = 0		primary_weapon = off, secondary_weapon = on, personal = off
+COMBAT_READY_TO_RELOAD_2			filename = "Animations/MEN/MUSKET/MUS_POISED/MUS_HG_to_Reload_02.anim",				blend_in_time = 0		primary_weapon = off, secondary_weapon = on, personal = off
+
+PRONE								filename = "Animations/MEN/MUSKET/MUS_PRONE/MUS_prone.anim",						
+PRONE_TO_STAND						filename = "Animations/MEN/MUSKET/MUS_PRONE/MUS_prone_to_stand.anim",							
+PRONE_TO_COMBAT_READY_KNEEL			filename = "Animations/MEN/MUSKET/MUS_PRONE/MUS_prone_to_GKneel.anim",								
+
+
+AIM									filename = "Animations/MEN/AXE/AXE_Pistol/Axe_Pistol_Aim_M.anim",											primary_weapon = off, secondary_weapon = on, personal = off
+AIM_TO_COMBAT_READY					filename = "Animations/MEN/AXE/AXE_Pistol/Axe_Pistol_Aim_M_to_Stand.anim",				blend_in_time = 0,	primary_weapon = off, secondary_weapon = on, personal = off
+
+KNEEL_AIM							filename = "Animations/MEN/AXE/AXE_Pistol_Kneel/Axe_PistolK_Aim_M.anim",							primary_weapon = off, secondary_weapon = on, personal = off
+KNEEL_AIM_TO_COMBAT_READY_KNEEL		filename = "Animations/MEN/AXE/AXE_Pistol_Kneel/Axe_PistolK_Aim_M_to_Stand.anim",		blend_in_time = 0,	primary_weapon = off, secondary_weapon = off, personal = on
+
+FIRE								filename = "Animations/MEN/AXE/AXE_Pistol/Axe_Pistol_Fire_M.anim",						blend_in_time = 0,	primary_weapon = off, secondary_weapon = on, personal = off
+
+KNEEL_FIRE							filename = "Animations/MEN/AXE/AXE_Pistol_Kneel/Axe_PistolK_Fire_M.anim",				blend_in_time = 0,	primary_weapon = off, secondary_weapon = on, personal = off
+
+RELOAD_1							filename = "Animations/MEN/MUSKET/MUS_POISED/MUS_Reload_01.anim",								primary_weapon = off, secondary_weapon = on, personal = off
+RELOAD_2							filename = "Animations/MEN/MUSKET/MUS_POISED/MUS_Reload_02.anim",								primary_weapon = off, secondary_weapon = on, personal = off
+RELOAD_TO_COMBAT_READY				filename = "Animations/MEN/MUSKET/MUS_POISED/MUS_Reload_to_HG.anim",					blend_in_time = 0, primary_weapon = off, secondary_weapon = off, personal = on
+
+KNEEL_RELOAD						filename = "Animations/MEN/MUSKET/MUS_KNEEL/MUS_Kreload.anim",							primary_weapon = off, secondary_weapon = on, personal = off
+KNEEL_RELOAD_TO_COMBAT_READY_KNEEL	filename = "Animations/MEN/MUSKET/MUS_KNEEL/MUS_Kreload_to_GKneel.anim",				blend_in_time = 0	primary_weapon = off, secondary_weapon = on, personal = off
+
+// SABRE BIT-------------------------------------------------------------------------------------------------------------------------------------------
+
+ATTACK_1							filename = "Animations/MEN/SABRE/SAB_MG_STAB_KILLS/SAB_MG_STAB_KILL_01.anim",				primary_weapon = on, secondary_weapon = off, personal = off		equipment_usage = sword
+
+DEFEND_1							filename = "Animations/MEN/SABRE/SAB_MEDIUM_GUARDS/SAB_MGuard_Block.anim",					primary_weapon = on, secondary_weapon = off, personal = off		equipment_usage = sword
+
+// MATCHED COMBAT ------------------------------------------------------------------------------------------------------------------------
+COMBAT_1							filename = "Animations/Matched_Combat/Kill/SAB-MG_Kill_01_SAB-MG_01_A.anim",		blend_in_time = 0.25		primary_weapon = on, secondary_weapon = off, personal = off
+COMBAT_2							filename = "Animations/Matched_Combat/Kill/SAB-MG_Kill_01_SAB-MG_01_B.anim",		blend_in_time = 0.25		primary_weapon = on, secondary_weapon = off, personal = off
+
+COMBAT_3							filename = "Animations/Matched_Combat/Kill/SAB-MG_Kill_02_SAB-MG_01_A.anim",		blend_in_time = 0.25		primary_weapon = on, secondary_weapon = off, personal = off
+COMBAT_4							filename = "Animations/Matched_Combat/Kill/SAB-MG_Kill_02_SAB-MG_01_B.anim",		blend_in_time = 0.25		primary_weapon = on, secondary_weapon = off, personal = off
+
+COMBAT_5							filename = "Animations/Matched_Combat/Kill/SAB-MG_KILL_01_AXE-OG_01_A.anim",		blend_in_time = 0.25		primary_weapon = on, secondary_weapon = off, personal = off
+COMBAT_6							filename = "Animations/Matched_Combat/Kill/SAB-MG_KILL_02_AXE-OG_01_A.anim",		blend_in_time = 0.25		primary_weapon = on, secondary_weapon = off, personal = off
+COMBAT_7							filename = "Animations/Matched_Combat/Kill/SAB-MG_KILL_03_AXE-OG_01_A.anim",		blend_in_time = 0.25		primary_weapon = on, secondary_weapon = off, personal = off
+COMBAT_8							filename = "Animations/Matched_Combat/Kill/SAB-MG_KILL_04_AXE-OG_01_A.anim",		blend_in_time = 0.25		primary_weapon = on, secondary_weapon = off, personal = off
+COMBAT_9							filename = "Animations/Matched_Combat/Kill/SAB-MG_Kill_01_MUS-HG_01_A.anim",		blend_in_time = 0.25		primary_weapon = on, secondary_weapon = off, personal = off
+COMBAT_10							filename = "Animations/Matched_Combat/Kill/SAB-MG_Kill_02_MUS-HG_01_A.anim",		blend_in_time = 0.25		primary_weapon = on, secondary_weapon = off, personal = off
+COMBAT_11							filename = "Animations/Matched_Combat/Kill/SAB-MG_Kill_03_MUS-HG_01_A.anim",		blend_in_time = 0.25		primary_weapon = on, secondary_weapon = off, personal = off
+COMBAT_12							filename = "Animations/Matched_Combat/Kill/SAB-MG_Kill_04_MUS-HG_01_A.anim",		blend_in_time = 0.25		primary_weapon = on, secondary_weapon = off, personal = off
+COMBAT_13							filename = "Animations/Matched_Combat/Kill/SAB-MG_KILL_01_SWS-OG_01_A.anim",		blend_in_time = 0.25		primary_weapon = on, secondary_weapon = off, personal = off
+COMBAT_14							filename = "Animations/Matched_Combat/Kill/AXE-OG_KILL_01_SAB-MG_01_B.anim",		blend_in_time = 0.25		primary_weapon = on, secondary_weapon = off, personal = off
+COMBAT_15							filename = "Animations/Matched_Combat/Kill/MUS-HG_KILL_01_SAB-MG_01_B.anim",		blend_in_time = 0.25		primary_weapon = on, secondary_weapon = off, personal = off
+COMBAT_16							filename = "Animations/Matched_Combat/Kill/MUS-HG_KILL_02_SAB-MG_01_B.anim",		blend_in_time = 0.25		primary_weapon = on, secondary_weapon = off, personal = off
+COMBAT_17							filename = "Animations/Matched_Combat/Kill/MUS-HG_KILL_03_SAB-MG_01_B.anim",		blend_in_time = 0.25		primary_weapon = on, secondary_weapon = off, personal = off
+COMBAT_18							filename = "Animations/Matched_Combat/Kill/MUS-HG_KILL_04_SAB-MG_01_B.anim",		blend_in_time = 0.25		primary_weapon = on, secondary_weapon = off, personal = off
+COMBAT_19							filename = "Animations/Matched_Combat/Kill/SAB-MG_KILL_01_FLA-MG_01_A.anim",		blend_in_time = 0.25		primary_weapon = on, secondary_weapon = off, personal = off
+COMBAT_20							filename = "Animations/Matched_Combat/Kill/FLA-MG_KILL_01_SAB-MG_01_B.anim",		blend_in_time = 0.25		primary_weapon = on, secondary_weapon = off, personal = off
+COMBAT_21							filename = "Animations/Matched_Combat/Kill/SWS-OG_KILL_01_SAB-HG_01_B.anim",		blend_in_time = 0.25		primary_weapon = on, secondary_weapon = off, personal = off
+
+COMBAT_22							filename = "Animations/Matched_Combat/Parry/SAB_MG_TO_PARRY_01_A.anim",				blend_in_time = 0.25	primary_weapon = on, secondary_weapon = off, personal = off
+COMBAT_23							filename = "Animations/Matched_Combat/Parry/SAB_MG_TO_PARRY_01_B.anim",				blend_in_time = 0.25	primary_weapon = on, secondary_weapon = off, personal = off
+
+COMBAT_24							filename = "Animations/Matched_Combat/Parry/SAB_MG_PARRY_TO_MG_01_A.anim",			blend_in_time = 0.25	primary_weapon = on, secondary_weapon = off, personal = off
+COMBAT_25							filename = "Animations/Matched_Combat/Parry/SAB_MG_PARRY_TO_MG_01_B.anim",			blend_in_time = 0.25	primary_weapon = on, secondary_weapon = off, personal = off
+
+COMBAT_26							filename = "Animations/Matched_Combat/Parry/SAB_MG_PARRY_01_A.anim",				blend_in_time = 0.25	primary_weapon = on, secondary_weapon = off, personal = off
+COMBAT_27							filename = "Animations/Matched_Combat/Parry/SAB_MG_PARRY_01_B.anim",				blend_in_time = 0.25	primary_weapon = on, secondary_weapon = off, personal = off
+
+COMBAT_28   						filename = "Animations/Matched_Combat/Draw/SAB-MG_AXE-OG_01_B.anim",				blend_in_time = 0.25		primary_weapon = on, secondary_weapon = off, personal = off
+COMBAT_29   						filename = "Animations/Matched_Combat/Draw/SAB-MG_AXE-OG_02_B.anim",				blend_in_time = 0.25		primary_weapon = on, secondary_weapon = off, personal = off
+COMBAT_30   						filename = "Animations/Matched_Combat/Draw/SAB-MG_AXE-OG_03_A.anim",				blend_in_time = 0.25		primary_weapon = on, secondary_weapon = off, personal = off
+
+COMBAT_31   						filename = "Animations/Matched_Combat/Draw/SAB-MG_SAB-MG_01_A.anim",				blend_in_time = 0.25		primary_weapon = on, secondary_weapon = off, personal = off
+COMBAT_32   						filename = "Animations/Matched_Combat/Draw/SAB-MG_SAB-MG_01_B.anim",				blend_in_time = 0.25		primary_weapon = on, secondary_weapon = off, personal = off
+
+COMBAT_33   						filename = "Animations/Matched_Combat/Draw/SAB-MG_SAB-MG_02_A.anim",				blend_in_time = 0.25		primary_weapon = on, secondary_weapon = off, personal = off
+COMBAT_34   						filename = "Animations/Matched_Combat/Draw/SAB-MG_SAB-MG_02_B.anim",				blend_in_time = 0.25		primary_weapon = on, secondary_weapon = off, personal = off
+                                                                                                                                         
+COMBAT_35   						filename = "Animations/Matched_Combat/Draw/SAB-MG_SAB-MG_03_A.anim",				blend_in_time = 0.25		primary_weapon = on, secondary_weapon = off, personal = off
+COMBAT_36							filename = "Animations/Matched_Combat/Draw/SAB-MG_SAB-MG_03_B.anim",				blend_in_time = 0.25  	primary_weapon = on, secondary_weapon = off, personal = off
+
+COMBAT_37   						filename = "Animations/Matched_Combat/Draw/SAB-MG_SAB-MG_04_A.anim",				blend_in_time = 0.25		primary_weapon = on, secondary_weapon = off, personal = off
+COMBAT_38							filename = "Animations/Matched_Combat/Draw/SAB-MG_SAB-MG_04_B.anim",				blend_in_time = 0.25 	primary_weapon = on, secondary_weapon = off, personal = off
+
+COMBAT_39   						filename = "Animations/Matched_Combat/Draw/SAB-MG_SAB-MG_05_A.anim",				blend_in_time = 0.25		primary_weapon = on, secondary_weapon = off, personal = off
+COMBAT_40							filename = "Animations/Matched_Combat/Draw/SAB-MG_SAB-MG_05_B.anim",				blend_in_time = 0.25	primary_weapon = on, secondary_weapon = off, personal = off
+
+COMBAT_41	  						filename = "Animations/Matched_Combat/Draw/SAB-MG_SAB-MG_06_A.anim",				blend_in_time = 0.25	primary_weapon = on, secondary_weapon = off, personal = off
+COMBAT_42							filename = "Animations/Matched_Combat/Draw/SAB-MG_SAB-MG_06_B.anim",				blend_in_time = 0.25	primary_weapon = on, secondary_weapon = off, personal = off
+
+COMBAT_43   						filename = "Animations/Matched_Combat/Draw/SAB-MG_SAB-MG_07_A.anim",				blend_in_time = 0.25		primary_weapon = on, secondary_weapon = off, personal = off
+COMBAT_44							filename = "Animations/Matched_Combat/Draw/SAB-MG_SAB-MG_07_B.anim",				blend_in_time = 0.25	primary_weapon = on, secondary_weapon = off, personal = off
+
+COMBAT_45   						filename = "Animations/Matched_Combat/Draw/SAB-MG_SAB-MG_08_A.anim",				blend_in_time = 0.25		primary_weapon = on, secondary_weapon = off, personal = off
+COMBAT_46							filename = "Animations/Matched_Combat/Draw/SAB-MG_SAB-MG_08_B.anim",				blend_in_time = 0.25	primary_weapon = on, secondary_weapon = off, personal = off
+
+COMBAT_47   						filename = "Animations/Matched_Combat/Draw/SAB-MG_SAB-MG_09_A.anim",				blend_in_time = 0.25		primary_weapon = on, secondary_weapon = off, personal = off
+COMBAT_48							filename = "Animations/Matched_Combat/Draw/SAB-MG_SAB-MG_09_B.anim",				blend_in_time = 0.25	primary_weapon = on, secondary_weapon = off, personal = off
+
+COMBAT_49   						filename = "Animations/Matched_Combat/Draw/SAB-MG_SAB-MG_10_A.anim",				blend_in_time = 0.25		primary_weapon = on, secondary_weapon = off, personal = off
+COMBAT_50							filename = "Animations/Matched_Combat/Draw/SAB-MG_SAB-MG_10_B.anim",				blend_in_time = 0.25	primary_weapon = on, secondary_weapon = off, personal = off
+
+COMBAT_51	  						filename = "Animations/Matched_Combat/Draw/SAB-MG_SAB-MG_11_A.anim",				blend_in_time = 0.25	primary_weapon = on, secondary_weapon = off, personal = off		
+COMBAT_52							filename = "Animations/Matched_Combat/Draw/SAB-MG_SAB-MG_11_B.anim",				blend_in_time = 0.25	primary_weapon = on, secondary_weapon = off, personal = off
+
+COMBAT_53							filename = "Animations/Matched_Combat/Draw/MUS-HG_SAB-MG_01_B.anim",				blend_in_time = 0.25	primary_weapon = on, secondary_weapon = off, personal = off
+COMBAT_54							filename = "Animations/Matched_Combat/Draw/MUS-HG_SAB-MG_02_B.anim",				blend_in_time = 0.25	primary_weapon = on, secondary_weapon = off, personal = off
+COMBAT_55							filename = "Animations/Matched_Combat/Draw/MUS-HG_SAB-MG_03_B.anim",				blend_in_time = 0.25	primary_weapon = on, secondary_weapon = off, personal = off
+COMBAT_56							filename = "Animations/Matched_Combat/Draw/MUS-HG_SAB-MG_04_B.anim",				blend_in_time = 0.25	primary_weapon = on, secondary_weapon = off, personal = off
+COMBAT_57							filename = "Animations/Matched_Combat/Draw/MUS-HG_SAB-MG_05_B.anim",				blend_in_time = 0.25	primary_weapon = on, secondary_weapon = off, personal = off
+COMBAT_58							filename = "Animations/Matched_Combat/Draw/MUS-HG_SAB-MG_06_B.anim",				blend_in_time = 0.25	primary_weapon = on, secondary_weapon = off, personal = off
+COMBAT_59							filename = "Animations/Matched_Combat/Draw/MUS-HG_SAB-MG_07_B.anim",				blend_in_time = 0.25	primary_weapon = on, secondary_weapon = off, personal = off
+COMBAT_60							filename = "Animations/Matched_Combat/Draw/SAB-MG_FLAG-MG_01_A.anim",				blend_in_time = 0.25	primary_weapon = on, secondary_weapon = off, personal = off
+COMBAT_61							filename = "Animations/Matched_Combat/Draw/SAB-MG_FLAG-MG_02_A.anim",				blend_in_time = 0.25	primary_weapon = on, secondary_weapon = off, personal = off
+COMBAT_62							filename = "Animations/Matched_Combat/Draw/SAB-MG_FLAG-MG_03_A.anim",				blend_in_time = 0.25	primary_weapon = on, secondary_weapon = off, personal = off
+COMBAT_63							filename = "Animations/Matched_Combat/Draw/SAB-MG_SWS-OG_01_A.anim",				blend_in_time = 0.25	primary_weapon = on, secondary_weapon = off, personal = off
+COMBAT_64							filename = "Animations/Matched_Combat/Draw/SAB-MG_SWS-OG_02_A.anim",				blend_in_time = 0.25	primary_weapon = on, secondary_weapon = off, personal = off
+
+CHARGE_COMBAT_1						filename = "Animations/Matched_Combat/Kill/SAB-CH_KILL_01_SAB-MG_01_A.anim",		blend_in_time = 0.25	primary_weapon = on, secondary_weapon = off, personal = off
+CHARGE_COMBAT_2						filename = "Animations/Matched_Combat/Kill/SAB-CH_KILL_01_SAB-MG_01_B.anim",		blend_in_time = 0.25	primary_weapon = on, secondary_weapon = off, personal = off
+
+CHARGE_COMBAT_3						filename = "Animations/Matched_Combat/Kill/SAB-MG_KILL_01_SAB-CH_01_A.anim",		blend_in_time = 0.25	primary_weapon = on, secondary_weapon = off, personal = off
+CHARGE_COMBAT_4						filename = "Animations/Matched_Combat/Kill/SAB-MG_KILL_01_SAB-CH_01_B.anim",		blend_in_time = 0.25	primary_weapon = on, secondary_weapon = off, personal = off
+
+
+COMBAT_READY_MELEE						filename = "Animations/MEN/SABRE/SAB_MEDIUM_GUARDS/SAB_MGuard.anim",			blend_in_time = 0.25 	primary_weapon = on, secondary_weapon = off, personal = off                 
+
+COMBAT_READY_MELEE_ADVANCE				filename = "Animations/MEN/SABRE/SAB_MEDIUM_GUARDS/SAB_MGuard_Advance.anim",			blend_in_time = 0.25	primary_weapon = on, secondary_weapon = off, personal = off   
+COMBAT_READY_MELEE_RETREAT				filename = "Animations/MEN/SABRE/SAB_MEDIUM_GUARDS/SAB_MGuard_Retire.anim",			blend_in_time = 0.25	primary_weapon = on, secondary_weapon = off, personal = off
+COMBAT_READY_MELEE_STEP_LEFT			filename = "Animations/MEN/SABRE/SAB_MEDIUM_GUARDS/SAB_MGuard_Step_Left.anim",			blend_in_time = 0.25		primary_weapon = on, secondary_weapon = off, personal = off
+COMBAT_READY_MELEE_STEP_RIGHT			filename = "Animations/MEN/SABRE/SAB_MEDIUM_GUARDS/SAB_MGuard_Step_Right.anim",				blend_in_time = 0.25	primary_weapon = on, secondary_weapon = off, personal = off
+
+COMBAT_READY_MELEE_TURN_LEFT_45			filename = "Animations/MEN/SABRE/SAB_MEDIUM_GUARDS/SAB_MGuard_45_ccw.anim",			blend_in_time = 0.25		primary_weapon = on, secondary_weapon = off, personal = off
+COMBAT_READY_MELEE_TURN_RIGHT_45		filename = "Animations/MEN/SABRE/SAB_MEDIUM_GUARDS/SAB_MGuard_45_cw.anim",			blend_in_time = 0.25		primary_weapon = on, secondary_weapon = off, personal = off
+COMBAT_READY_MELEE_TURN_LEFT_90			filename = "Animations/MEN/SABRE/SAB_MEDIUM_GUARDS/SAB_MGUARD_90_CCW.anim",			blend_in_time = 0.25		primary_weapon = on, secondary_weapon = off, personal = off
+COMBAT_READY_MELEE_TURN_RIGHT_90		filename = "Animations/MEN/SABRE/SAB_MEDIUM_GUARDS/SAB_MGUARD_90_CW.anim",			blend_in_time = 0.25		primary_weapon = on, secondary_weapon = off, personal = off
+COMBAT_READY_MELEE_TURN_LEFT_180		filename = "Animations/MEN/SABRE/SAB_MEDIUM_GUARDS/SAB_MGUARD_180ccw.anim",			blend_in_time = 0.25		primary_weapon = on, secondary_weapon = off, personal = off
+COMBAT_READY_MELEE_TURN_RIGHT_180		filename = "Animations/MEN/SABRE/SAB_MEDIUM_GUARDS/SAB_MGuard_180cw.anim",			blend_in_time = 0.25		primary_weapon = on, secondary_weapon = off, personal = off

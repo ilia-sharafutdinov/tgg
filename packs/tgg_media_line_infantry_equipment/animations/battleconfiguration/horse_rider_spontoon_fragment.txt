@@ -1,0 +1,87 @@
+version 1
+
+RIDER_STAND								filename = "Animations/MEN/HORSE_RIDER/H_Rider_Stand.anim", 							personal = off
+RIDER_STAND_TO_WALK						filename = "Animations/MEN/HORSE_RIDER/H_Rider_Stand_to_Walk.anim",							personal = off
+
+RIDER_WALK								filename = "Animations/MEN/HORSE_RIDER/H_Rider_Walk.anim",							personal = off
+RIDER_WALK_TO_STAND						filename = "Animations/MEN/HORSE_RIDER/H_Rider_Walk_to_Stand.anim",							personal = off
+RIDER_WALK_TO_TROT						filename = "Animations/MEN/HORSE_RIDER/H_Rider_Walk_to_Trot.anim",							personal = off
+RIDER_WALK_JUMP							filename = "Animations/MEN/HORSE_RIDER/H_Rider_Walk_Jump.anim",							blend_in_time =	0.5,							personal = off
+
+RIDER_TROT								filename = "Animations/MEN/HORSE_RIDER/H_Rider_Trot.anim",							personal = off
+RIDER_TROT_TO_STAND						filename = "Animations/MEN/HORSE_RIDER/H_Rider_Trot_to_Stand.anim",							personal = off
+RIDER_TROT_TO_WALK						filename = "Animations/MEN/HORSE_RIDER/H_Rider_Trot_to_Walk.anim",							personal = off
+RIDER_TROT_TO_CANTER					filename = "Animations/MEN/HORSE_RIDER/H_Rider_Trot_to_Canter.anim",							personal = off
+
+RIDER_CANTER							filename = "Animations/MEN/HORSE_RIDER/H_Rider_Canter.anim",							personal = off
+RIDER_CANTER_TO_STAND					filename = "Animations/MEN/HORSE_RIDER/H_Rider_Canter_to_Stand.anim",							personal = off
+RIDER_CANTER_TO_TROT					filename = "Animations/MEN/HORSE_RIDER/H_Rider_Canter_to_Trot.anim",							personal = off
+RIDER_CANTER_TO_GALLOP					filename = "Animations/MEN/HORSE_RIDER/H_Rider_Canter_to_Gallop.anim",							personal = off
+RIDER_CANTER_JUMP						filename = "Animations/MEN/HORSE_RIDER/H_Rider_Canter_Jump.anim",						blend_in_time =	0.5,							personal = off
+
+RIDER_GALLOP							filename = "Animations/MEN/HORSE_RIDER/H_Rider_Gallop.anim",							personal = off
+RIDER_GALLOP_TO_STAND					filename = "Animations/MEN/HORSE_RIDER/H_Rider_Gallop_to_Stand.anim",							personal = off
+RIDER_GALLOP_TO_CANTER					filename = "Animations/MEN/HORSE_RIDER/H_Rider_Gallop_to_Canter.anim",							personal = off
+RIDER_GALLOP_JUMP						filename = "Animations/MEN/HORSE_RIDER/H_Rider_Gallop_Jump.anim",						blend_in_time =	0.5,							personal = off
+
+RIDER_STEP_FORWARD						filename = "Animations/MEN/HORSE_RIDER/H_Rider_Step_Forward.anim",							personal = off
+RIDER_STEP_BACKWARD						filename = "Animations/MEN/HORSE_RIDER/H_Rider_Step_Back.anim",							personal = off
+RIDER_STEP_LEFT							filename = "Animations/MEN/HORSE_RIDER/H_Rider_Step_Left.anim",							personal = off
+RIDER_STEP_RIGHT						filename = "Animations/MEN/HORSE_RIDER/H_Rider_Step_Right.anim",							personal = off
+
+RIDER_TURN_LEFT_45						filename = "Animations/MEN/HORSE_RIDER/H_Rider_Turn_ccw_45.anim",							personal = off
+RIDER_TURN_RIGHT_45						filename = "Animations/MEN/HORSE_RIDER/H_Rider_Turn_cw_45.anim",							personal = off
+RIDER_TURN_LEFT_90						filename = "Animations/MEN/HORSE_RIDER/H_Rider_Turn_ccw_90.anim",							personal = off
+RIDER_TURN_RIGHT_90						filename = "Animations/MEN/HORSE_RIDER/H_Rider_Turn_cw_90.anim",							personal = off
+RIDER_TURN_LEFT_180						filename = "Animations/MEN/HORSE_RIDER/H_Rider_Turn_ccw_180.anim",							personal = off
+RIDER_TURN_RIGHT_180					filename = "Animations/MEN/HORSE_RIDER/H_Rider_Turn_cw_180.anim",							personal = off
+
+
+// RIDER IDLES ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+RIDER_STAND_IDLE_1						filename = "Animations/MEN/HORSE_RIDER/H_Rider_Idle_1.anim",							personal = off
+RIDER_STAND_IDLE_2						filename = "Animations/MEN/HORSE_RIDER/H_Rider_Idle_2.anim",							personal = off
+RIDER_STAND_IDLE_3						filename = "Animations/MEN/HORSE_RIDER/H_Rider_Idle_3.anim",							personal = off
+RIDER_STAND_IDLE_4						filename = "Animations/MEN/HORSE_RIDER/H_Rider_Idle_4.anim",							personal = off
+RIDER_STAND_IDLE_5						filename = "Animations/MEN/HORSE_RIDER/H_Rider_Stand.anim",							personal = off
+
+// RIDER DEATHS -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+RIDER_DEATH_STAND_1						filename = "Animations/MEN/HORSE_RIDER/Impacts_and_Deaths/Rider_Stand_Collapse_001.anim",							personal = off
+RIDER_DEATH_STAND_2						filename = "Animations/MEN/HORSE_RIDER/Impacts_and_Deaths/Rider_Stand_Collapse_002.anim",							personal = off
+RIDER_DEATH_STAND_3						filename = "Animations/MEN/HORSE_RIDER/Impacts_and_Deaths/Rider_Stand_Collapse_003.anim",							personal = off
+RIDER_DEATH_STAND_4						filename = "Animations/MEN/HORSE_RIDER/Impacts_and_Deaths/Rider_Stand_Collapse_004.anim",							personal = off
+
+RIDER_DEATH_JUMP_1						filename = "Animations/MEN/HORSE_RIDER/Impacts_and_Deaths/Rider_Cheval_001.anim",							personal = off
+RIDER_DEATH_JUMP_2						filename = "Animations/MEN/HORSE_RIDER/Impacts_and_Deaths/Rider_Cheval_002.anim",							personal = off
+RIDER_DEATH_JUMP_3						filename = "Animations/MEN/HORSE_RIDER/Impacts_and_Deaths/Rider_Cheval_003.anim",							personal = off
+RIDER_DEATH_JUMP_4						filename = "Animations/MEN/HORSE_RIDER/Impacts_and_Deaths/Rider_Cheval_004.anim",							personal = off
+RIDER_DEATH_JUMP_5						filename = "Animations/MEN/HORSE_RIDER/Impacts_and_Deaths/Rider_Cheval_005.anim",							personal = off
+RIDER_DEATH_JUMP_6						filename = "Animations/MEN/HORSE_RIDER/Impacts_and_Deaths/Rider_Cheval_005.anim",							personal = off
+RIDER_DEATH_JUMP_7						filename = "Animations/MEN/HORSE_RIDER/Impacts_and_Deaths/Rider_Cheval_007.anim",							personal = off
+RIDER_DEATH_JUMP_8						filename = "Animations/MEN/HORSE_RIDER/Impacts_and_Deaths/Rider_Cheval_008.anim",							personal = off
+
+RIDER_STAND_CHEVAUX_DE_FRISE_DEATH_1	filename = "Animations/MEN/HORSE_RIDER/Impacts_and_Deaths/H_Rider_Stand_to_Jump_Cheval.anim",							personal = off
+RIDER_WALK_CHEVAUX_DE_FRISE_DEATH_1		filename = "Animations/MEN/HORSE_RIDER/Impacts_and_Deaths/Rider_Walk_to_Jump_Cheval.anim",							personal = off
+RIDER_CANTER_CHEVAUX_DE_FRISE_DEATH_1	filename = "Animations/MEN/HORSE_RIDER/Impacts_and_Deaths/Rider_Canter_to_Jump_Cheval.anim",							personal = off
+RIDER_GALLOP_CHEVAUX_DE_FRISE_DEATH_1	filename = "Animations/MEN/HORSE_RIDER/Impacts_and_Deaths/Rider_Gallop_to_Jump_Cheval.anim",							personal = off
+
+// RIDER JUMP OVER OBSTACLE --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+RIDER_CROSS_OBSTACLE_STAND_TO_STAND		filename = "Animations/MEN/HORSE_RIDER/H_Rider_Stand_to_Jump_Stand.anim",							personal = off
+
+
+// RIDER REFUSE --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+RIDER_REFUSE_1							filename = "Animations/MEN/HORSE_RIDER/H_Rider_Refuse_to_Jump.anim",					blend_in_time = 0.5,							personal = off
+RIDER_REFUSE_2							filename = "Animations/MEN/HORSE_RIDER/H_Rider_Refuse_to_Jump_02.anim",					blend_in_time = 0.5,							personal = off
+RIDER_REFUSE_3							filename = "Animations/MEN/HORSE_RIDER/H_Rider_Refuse_to_Jump_03.anim",					blend_in_time = 0.5,							personal = off
+RIDER_REFUSE_4							filename = "Animations/MEN/HORSE_RIDER/H_Rider_Refuse_to_Jump_04.anim",					blend_in_time = 0.5,							personal = off
+
+// RIDER MOUNT --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+RIDER_MOUNT_LEFT						filename = "Animations/MEN/HORSE_RIDER/H_Rider_Mount.anim"															primary_weapon = off, secondary_weapon = off, defensive = off, ambient = on, personal = off								
+RIDER_MOUNT_RIGHT						filename = "Animations/MEN/HORSE_RIDER/H_Rider_Mount_Right.anim"													primary_weapon = off, secondary_weapon = off, defensive = off, ambient = on, personal = off
+
+RIDER_DISMOUNT_LEFT						filename = "Animations/MEN/HORSE_RIDER/H_Rider_Dismount.anim"														primary_weapon = off, secondary_weapon = off, defensive = off, ambient = on, personal = off
+RIDER_DISMOUNT_RIGHT					filename = "Animations/MEN/HORSE_RIDER/H_Rider_Dismount_Right.anim"													primary_weapon = off, secondary_weapon = off, defensive = off, ambient = on, personal = off
