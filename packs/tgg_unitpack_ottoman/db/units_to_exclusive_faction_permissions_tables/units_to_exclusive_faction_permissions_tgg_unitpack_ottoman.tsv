@@ -1,0 +1,20 @@
+version 1, schema units_to_exclusive_faction_permissions_tables
+Unit_IDRef(string)	Faction_IDRef(string)	Availability(boolean)
+"east_ethnic_musketmen_fellahin_musketeers"	"mamelukes"	true
+"east_ethnic_swordsmen_fellahin"	"mamelukes"	true
+"mameluks"	"mamelukes"	false
+"mameluks"	"middle_east_settler_rebels"	false
+"mameluks"	"ottoman_rebels"	false
+"mameluks"	"ottomans"	false
+"nizam_I_cedit_infantry"	"mamelukes"	false
+"nizam_I_cedit_infantry"	"middle_east_settler_rebels"	false
+"nizam_I_cedit_infantry"	"ottoman_rebels"	false
+"nizam_I_cedit_light_infantry"	"mamelukes"	false
+"nizam_I_cedit_light_infantry"	"middle_east_settler_rebels"	false
+"nizam_I_cedit_light_infantry"	"ottoman_rebels"	false
+"nizam_I_cedit_rifles"	"mamelukes"	false
+"nizam_I_cedit_rifles"	"middle_east_settler_rebels"	false
+"nizam_I_cedit_rifles"	"ottoman_rebels"	false
+"eue_mounted_nizam_i_cedit"	"mamelukes"	false
+"eue_mounted_nizam_i_cedit"	"middle_east_settler_rebels"	false
+"eue_mounted_nizam_i_cedit"	"ottoman_rebels"	false
