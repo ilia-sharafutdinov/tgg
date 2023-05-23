@@ -1,0 +1,39 @@
+version 1
+
+COMBAT_READY_KNEEL			filename = "Animations/MEN/AXE/AXE_Taking_Cover/Axe_cover.anim",		
+COMBAT_READY_KNEEL_TO_COMBAT_READY	filename = "Animations/MEN/SABRE/SAB_TAKING_COVER/SAB_Cover_to_MGuard.anim",						
+COMBAT_READY_KNEEL_TO_PRONE		filename = "Animations/MEN/AXE/AXE_Taking_Cover/Axe_cover.anim",							
+COMBAT_READY_KNEEL_TO_KNEEL_AIM		filename = "Animations/MEN/AXE/AXE_Taking_Cover/Axe_cover.anim",						
+COMBAT_READY_KNEEL_TO_KNEEL_RELOAD	filename = "Animations/MEN/AXE/AXE_Taking_Cover/Axe_cover.anim",							
+
+COMBAT_READY_TO_COMBAT_READY_KNEEL	filename = "Animations/MEN/SABRE/SAB_TAKING_COVER/SAB_MGuard_to_Cover.anim",		blend_in_time = 0
+
+COMBAT_READY_TO_AIM				filename = "Animations/MEN/AXE/AXE_Pistol/Axe_Stand_To_Pistol_Aim_M.anim",			blend_in_time = 0		secondary_weapon = on
+COMBAT_READY_TO_RELOAD_1			filename = "Animations/MEN/SABRE/SAB_STAND_TRAINED/SAB_T_IDLE_1.anim",				blend_in_time = 0.35
+COMBAT_READY_TO_RELOAD_2			filename = "Animations/MEN/SABRE/SAB_STAND_TRAINED/SAB_T_IDLE_2.anim",				blend_in_time = 0.35
+
+PRONE						filename = "Animations/MEN/MUSKET/MUS_PRONE/MUS_prone.anim",						
+PRONE_TO_STAND					filename = "Animations/MEN/MUSKET/MUS_PRONE/MUS_prone_to_stand.anim",							
+PRONE_TO_COMBAT_READY_KNEEL			filename = "Animations/MEN/MUSKET/MUS_PRONE/MUS_prone_to_GKneel.anim",								
+
+
+AIM							filename = "Animations/MEN/AXE/AXE_Pistol/Axe_Pistol_Aim_M.anim",											secondary_weapon = on
+AIM_TO_COMBAT_READY					filename = "Animations/MEN/AXE/AXE_Pistol/Axe_Pistol_Aim_M_to_Stand.anim",		blend_in_time = 0,	secondary_weapon = on
+
+KNEEL_AIM						filename = "Animations/MEN/AXE/AXE_Pistol_Kneel/Axe_PistolK_Aim_M.anim",							
+KNEEL_AIM_TO_COMBAT_READY_KNEEL				filename = "Animations/MEN/AXE/AXE_Pistol_Kneel/Axe_PistolK_Aim_M_to_Stand.anim",		blend_in_time = 0,	secondary_weapon = on
+
+FIRE								filename = "Animations/MEN/AXE/AXE_Pistol/Axe_Pistol_Fire_M.anim",						blend_in_time = 0,	secondary_weapon = on
+
+KNEEL_FIRE							filename = "Animations/MEN/AXE/AXE_Pistol_Kneel/Axe_PistolK_Fire_M.anim",				blend_in_time = 0,	secondary_weapon = on
+
+RELOAD_1							filename = "Animations/MEN/SABRE/SAB_STAND_TRAINED/SAB_T_IDLE_3.anim",	blend_in_time = 0.35								
+RELOAD_2							filename = "Animations/MEN/SABRE/SAB_STAND_TRAINED/SAB_T_IDLE_4.anim",	blend_in_time = 0.35							
+RELOAD_TO_COMBAT_READY						filename = "Animations/MEN/AXE/AXE_Pistol/Axe_Stand_To_Pistol_Aim_M.anim",		blend_in_time = 0
+
+KNEEL_RELOAD								filename = "Animations/MEN/AXE/AXE_Taking_Cover/Axe_cover.anim",						
+KNEEL_RELOAD_TO_COMBAT_READY_KNEEL					filename = "Animations/MEN/AXE/AXE_Taking_Cover/Axe_cover_to_OGuard.anim",			blend_in_time = 0
+
+CROSS_OBSTACLE_STAND_TO_STAND						filename = "Animations/MEN/SABRE/SAB_CLIMB/SAB_Climb_obsracle1.anim",					
+
+SMASH_WINDOW									filename = "Animations/MEN/MUSKET/MUS_UNIQUE_ACTIONS/MUS_Window_Butt_Bash.anim",							equipment_usage = rifle_butt
