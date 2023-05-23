@@ -418,6 +418,9 @@ end
 local function OnWorldCreated()
 	scripting.game_interface:technology_osmosis_for_playables_enable_culture("european")
 	scripting.game_interface:technology_osmosis_for_playables_enable_all()
+	-- scripting.game_interface:set_campaign_ai_force_all_factions_boardering_humans_to_have_invasion_behaviour(false)
+	-- scripting.game_interface:set_campaign_ai_force_all_factions_boardering_human_protectorates_to_have_invasion_behaviour(false)
+	-- scripting.game_interface:show_shroud(false)
 end
 
 --------------------------------------------------------------------------------------------------------------------
