@@ -1,0 +1,12 @@
+version 1, schema units_to_exclusive_faction_permissions_tables
+Unit_IDRef(string)	Faction_IDRef(string)	Availability(boolean)
+"galleon"	"colombia"	false
+"galleon"	"mexico"	false
+"galleon"	"new_spain"	false
+"galleon"	"pirates"	false
+"galleon"	"portugal"	false
+"galleon"	"portugese_rebels"	false
+"galleon"	"spain"	false
+"galleon"	"spanish_rebels"	false
+"galleon"	"spanish_settler_rebels"	false
+"galleon_nerfed"	"pirates"	true
