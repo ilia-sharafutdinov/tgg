@@ -1,0 +1,18 @@
+
+version 1
+
+animation_table man_spontoon
+{
+	skeleton_type	man
+
+	fragment		man_common_fragment
+	fragment		swordsman_death_fragment
+	fragment		spontoon_movement_fragment				default_equipment_display = personal
+	fragment		spontoon_combat_fragment		default_equipment_display = personal
+	fragment		climb_fragment
+
+	fragment		horse_rider_spontoon_fragment		default_equipment_display = primary_weapon
+	fragment		officer_spontoon_pistol_horse_rider_fragment		default_equipment_display = secondary_weapon
+
+	mount_table		mount_horse
+}
