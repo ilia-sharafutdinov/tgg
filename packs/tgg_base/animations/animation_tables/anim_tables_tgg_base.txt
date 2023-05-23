@@ -1,0 +1,75 @@
+
+version 1
+
+
+animation_table man_sword_pistol_ugly
+{
+	skeleton_type	man
+
+	fragment		man_common_fragment
+	fragment		swordsman_death_fragment			default_equipment_display = primary_weapon, ambient
+	fragment		swordsman_stab_combat_fragment		default_equipment_display = primary_weapon, ambient
+	fragment		swordsman_movement_fragment			default_equipment_display = primary_weapon, ambient
+	fragment		officer_fragment					default_equipment_display = secondary_weapon
+	fragment		climb_fragment
+
+	mount_table		mount_horse
+}
+
+animation_table man_sword_pistol_mfr
+{
+	skeleton_type	man
+	
+	fragment		man_common_fragment
+	fragment		swordsman_death_fragment		default_equipment_display = primary_weapon, secondary_weapon
+	fragment		climb_fragment
+	fragment		warband_fragment				default_equipment_display = primary_weapon
+	fragment		warband_pistol_fragment				default_equipment_display = primary_weapon, secondary_weapon
+
+	mount_table		mount_horse
+}
+
+animation_table man_sword_pistol
+{
+	skeleton_type	man
+
+	fragment		man_common_fragment
+	fragment		swordsman_death_fragment			default_equipment_display = primary_weapon, ambient
+	fragment		swordsman_stab_combat_fragment		default_equipment_display = primary_weapon, ambient
+	fragment		swordsman_movement_fragment			default_equipment_display = primary_weapon, ambient
+	fragment		pistol_fragment					default_equipment_display = primary_weapon
+	fragment		climb_fragment
+
+	mount_table		mount_horse
+}
+
+animation_table man_sword_shield_archer
+{
+	skeleton_type	man
+
+	fragment		man_common_fragment
+	fragment		archer_fragment					default_equipment_display = primary_weapon
+	fragment		swordsman_death_fragment			default_equipment_display = secondary_weapon
+	fragment		sword_and_shield_combat_fragment	default_equipment_display = secondary_weapon, defensive, ambient
+	fragment		sword_and_shield_movement_fragment	default_equipment_display = secondary_weapon, defensive, ambient
+
+	fragment		climb_fragment
+
+	mount_table		mount_horse
+}
+
+animation_table rider_archer_lance
+{
+	skeleton_type	man
+
+	fragment		man_common_fragment
+	fragment		musket_death_fragment			default_equipment_display = ambient
+	fragment		climb_fragment					default_equipment_display = ambient
+	fragment		musket_fragment					default_equipment_display = primary_weapon, ambient
+
+	fragment		horse_rider_base_fragment		
+	fragment		archer_horse_rider_fragment		default_equipment_display = primary_weapon
+	fragment		lancer_horse_rider_fragment		default_equipment_display = secondary_weapon
+
+	mount_table		mount_horse
+}
