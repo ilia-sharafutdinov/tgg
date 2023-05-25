@@ -269,9 +269,16 @@ local function OnAdviceDismissed(context)
 	end
 end
 
+local function OnWorldCreated()
+	-- scripting.game_interface:set_campaign_ai_force_all_factions_boardering_humans_to_have_invasion_behaviour(false)
+	-- scripting.game_interface:set_campaign_ai_force_all_factions_boardering_human_protectorates_to_have_invasion_behaviour(false)
+	-- scripting.game_interface:show_shroud(false)
+end
 
 
 
+
+scripting.AddEventCallBack("WorldCreated", OnWorldCreated)
 scripting.AddEventCallBack("FactionTurnStart", OnFactionTurnStart)
 scripting.AddEventCallBack("PanelOpenedCampaign", OnPanelOpenedCampaign)
 scripting.AddEventCallBack("AdviceIssued", OnAdviceIssued)
