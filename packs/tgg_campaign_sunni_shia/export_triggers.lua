@@ -456,7 +456,7 @@ end
 
 events.CharacterTurnEnd[#events.CharacterTurnEnd+1] =
 function (context)
-	if conditions.NoActionThisTurn(context) and conditions.InSettlement(context) and not conditions.CharacterType("catholic_missionary", context) and not conditions.CharacterType("indian_missionary", context) and not conditions.CharacterType("middle_east_missionary", context) and not conditions.CharacterType("orthodox_missionary", context) and not conditions.CharacterType("Protestant_Missionary", context) and not conditions.CharacterType("minister", context) and not conditions.CharacterType("colonel", context) and not conditions.CharacterType("captain", context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not conditions.CharacterCultureType("tribal", context) and not conditions.CharacterCultureType("tribal_playable", context) then
+	if conditions.NoActionThisTurn(context) and conditions.InSettlement(context) and not conditions.CharacterType("catholic_missionary", context) and not conditions.CharacterType("indian_missionary", context) and not conditions.CharacterType("middle_east_missionary", context) and not conditions.CharacterType("shaman", context) and not conditions.CharacterType("orthodox_missionary", context) and not conditions.CharacterType("Protestant_Missionary", context) and not conditions.CharacterType("minister", context) and not conditions.CharacterType("colonel", context) and not conditions.CharacterType("captain", context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not conditions.CharacterCultureType("tribal", context) and not conditions.CharacterCultureType("tribal_playable", context) then
 		effect.trait("C_Feck_Vice", "agent", 1, 1, context)
 		return true
 	end
@@ -1891,7 +1891,7 @@ end
 
 events.CharacterCreated[#events.CharacterCreated+1] =
 function (context)
-	if (conditions.CharacterType("catholic_missionary", context) or conditions.CharacterType("indian_missionary", context) or conditions.CharacterType("middle_east_missionary", context) or conditions.CharacterType("orthodox_missionary", context) or conditions.CharacterType("Protestant_Missionary", context)) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) then
+	if (conditions.CharacterType("catholic_missionary", context) or conditions.CharacterType("indian_missionary", context) or conditions.CharacterType("middle_east_missionary", context) or conditions.CharacterType("shaman", context) or conditions.CharacterType("orthodox_missionary", context) or conditions.CharacterType("Protestant_Missionary", context)) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) then
 		effect.trait("C_Missionary_Touched_By_God", "agent", 1, 17, context)
 		effect.trait("C_Personal_Piety", "agent", 1, 17, context)
 		effect.trait("C_Personal_Piety", "agent", 1, 33, context)
@@ -1905,7 +1905,7 @@ end
 
 events.CharacterTurnEnd[#events.CharacterTurnEnd+1] =
 function (context)
-	if conditions.CharacterInTheatre(1, context) and (conditions.CharacterType("catholic_missionary", context) or conditions.CharacterType("indian_missionary", context) or conditions.CharacterType("middle_east_missionary", context) or conditions.CharacterType("orthodox_missionary", context) or conditions.CharacterType("Protestant_Missionary", context)) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) then
+	if conditions.CharacterInTheatre(1, context) and (conditions.CharacterType("catholic_missionary", context) or conditions.CharacterType("indian_missionary", context) or conditions.CharacterType("middle_east_missionary", context) or conditions.CharacterType("shaman", context) or conditions.CharacterType("orthodox_missionary", context) or conditions.CharacterType("Protestant_Missionary", context)) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) then
 		effect.trait("C_Missionary_Gone_Native", "agent", 1, 4, context)
 		return true
 	end
@@ -1916,7 +1916,7 @@ end
 
 events.CharacterTurnEnd[#events.CharacterTurnEnd+1] =
 function (context)
-	if conditions.CharacterInTheatre(1, context) and (conditions.CharacterType("catholic_missionary", context) or conditions.CharacterType("indian_missionary", context) or conditions.CharacterType("middle_east_missionary", context) or conditions.CharacterType("orthodox_missionary", context) or conditions.CharacterType("Protestant_Missionary", context)) and conditions.RandomPercentCampaign(15, context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) then
+	if conditions.CharacterInTheatre(1, context) and (conditions.CharacterType("catholic_missionary", context) or conditions.CharacterType("indian_missionary", context) or conditions.CharacterType("middle_east_missionary", context) or conditions.CharacterType("shaman", context) or conditions.CharacterType("orthodox_missionary", context) or conditions.CharacterType("Protestant_Missionary", context)) and conditions.RandomPercentCampaign(15, context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) then
 		effect.trait("C_Missionary_Hate_America", "agent", 1, 8, context)
 		return true
 	end
@@ -1927,7 +1927,7 @@ end
 
 events.CharacterTurnEnd[#events.CharacterTurnEnd+1] =
 function (context)
-	if conditions.CharacterInTheatre(2, context) and (conditions.CharacterType("indian_missionary", context) or conditions.CharacterType("middle_east_missionary", context)) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) then
+	if conditions.CharacterInTheatre(2, context) and (conditions.CharacterType("indian_missionary", context) or conditions.CharacterType("middle_east_missionary", context) or conditions.CharacterType("shaman", context)) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) then
 		effect.trait("C_Missionary_Hate_Europe", "agent", 1, 8, context)
 		return true
 	end
@@ -1938,7 +1938,7 @@ end
 
 events.CharacterTurnEnd[#events.CharacterTurnEnd+1] =
 function (context)
-	if conditions.CharacterInTheatre(3, context) and (conditions.CharacterType("catholic_missionary", context) or conditions.CharacterType("middle_east_missionary", context) or conditions.CharacterType("orthodox_missionary", context) or conditions.CharacterType("Protestant_Missionary", context)) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) then
+	if conditions.CharacterInTheatre(3, context) and (conditions.CharacterType("catholic_missionary", context) or conditions.CharacterType("middle_east_missionary", context) or conditions.CharacterType("shaman", context) or conditions.CharacterType("orthodox_missionary", context) or conditions.CharacterType("Protestant_Missionary", context)) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) then
 		effect.trait("C_Missionary_Hate_India", "agent", 1, 8, context)
 		return true
 	end
@@ -1949,7 +1949,7 @@ end
 
 events.CharacterTurnEnd[#events.CharacterTurnEnd+1] =
 function (context)
-	if conditions.CharacterInTheatre(1, context) and (conditions.CharacterType("catholic_missionary", context) or conditions.CharacterType("indian_missionary", context) or conditions.CharacterType("middle_east_missionary", context) or conditions.CharacterType("orthodox_missionary", context) or conditions.CharacterType("Protestant_Missionary", context)) and conditions.RandomPercentCampaign(50, context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) then
+	if conditions.CharacterInTheatre(1, context) and (conditions.CharacterType("catholic_missionary", context) or conditions.CharacterType("indian_missionary", context) or conditions.CharacterType("middle_east_missionary", context) or conditions.CharacterType("shaman", context) or conditions.CharacterType("orthodox_missionary", context) or conditions.CharacterType("Protestant_Missionary", context)) and conditions.RandomPercentCampaign(50, context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) then
 		effect.trait("C_Missionary_Like_America", "agent", 1, 17, context)
 		return true
 	end
@@ -1960,7 +1960,7 @@ end
 
 events.CharacterTurnEnd[#events.CharacterTurnEnd+1] =
 function (context)
-	if conditions.CharacterInTheatre(2, context) and (conditions.CharacterType("indian_missionary", context) or conditions.CharacterType("middle_east_missionary", context)) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) then
+	if conditions.CharacterInTheatre(2, context) and (conditions.CharacterType("indian_missionary", context) or conditions.CharacterType("middle_east_missionary", context) or conditions.CharacterType("shaman", context)) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) then
 		effect.trait("C_Missionary_Like_Europe", "agent", 1, 17, context)
 		return true
 	end
@@ -1971,7 +1971,7 @@ end
 
 events.CharacterTurnEnd[#events.CharacterTurnEnd+1] =
 function (context)
-	if conditions.CharacterInTheatre(3, context) and (conditions.CharacterType("catholic_missionary", context) or conditions.CharacterType("middle_east_missionary", context) or conditions.CharacterType("orthodox_missionary", context) or conditions.CharacterType("Protestant_Missionary", context)) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) then
+	if conditions.CharacterInTheatre(3, context) and (conditions.CharacterType("catholic_missionary", context) or conditions.CharacterType("middle_east_missionary", context) or conditions.CharacterType("shaman", context) or conditions.CharacterType("orthodox_missionary", context) or conditions.CharacterType("Protestant_Missionary", context)) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) then
 		effect.trait("C_Missionary_Like_India", "agent", 1, 17, context)
 		return true
 	end
@@ -2742,7 +2742,7 @@ end
 
 events.ResearchCompleted[#events.ResearchCompleted+1] =
 function (context)
-	if conditions.CharacterType("shaman", context) and (conditions.ResearchType("industry_agriculture_natives_culture_dreamwalking", context) or conditions.ResearchType("industry_agriculture_natives_culture_riding_the_winds", context) or conditions.ResearchType("industry_agriculture_natives_culture_spirit_medicine", context) or conditions.ResearchType("industry_agriculture_natives_culture_spirit_of_the_forest", context)) and conditions.CampaignName("natives", context) then
+	if conditions.CharacterType("medicine_man", context) and (conditions.ResearchType("industry_agriculture_natives_culture_dreamwalking", context) or conditions.ResearchType("industry_agriculture_natives_culture_riding_the_winds", context) or conditions.ResearchType("industry_agriculture_natives_culture_spirit_medicine", context) or conditions.ResearchType("industry_agriculture_natives_culture_spirit_of_the_forest", context)) and conditions.CampaignName("natives", context) then
 		effect.trait("C_Tribal_Shaman_Likes_Mushrooms", "agent", 2, 8, context)
 		effect.trait("C_Tribal_Shaman_Likes_Mushrooms", "agent", 3, 4, context)
 		effect.trait("C_Tribal_Shaman_Likes_Mushrooms", "agent", 1, 17, context)
@@ -2755,7 +2755,7 @@ end
 
 events.CharacterCreated[#events.CharacterCreated+1] =
 function (context)
-	if conditions.CharacterType("shaman", context) and conditions.CharacterFactionName("plains_playable", context) and conditions.CampaignName("natives", context) then
+	if conditions.CharacterType("medicine_man", context) and conditions.CharacterFactionName("plains_playable", context) and conditions.CampaignName("natives", context) then
 		effect.trait("C_Tribal_Shaman_Plains_Buffalo_Dancer", "agent", 2, 8, context)
 		effect.trait("C_Tribal_Shaman_Plains_Buffalo_Dancer", "agent", 3, 4, context)
 		effect.trait("C_Tribal_Shaman_Plains_Buffalo_Dancer", "agent", 1, 17, context)
@@ -2768,7 +2768,7 @@ end
 
 events.CharacterTurnEnd[#events.CharacterTurnEnd+1] =
 function (context)
-	if conditions.CharacterType("shaman", context) and conditions.WarEndedCharacterFaction(context) and conditions.CampaignName("natives", context) then
+	if conditions.CharacterType("medicine_man", context) and conditions.WarEndedCharacterFaction(context) and conditions.CampaignName("natives", context) then
 		effect.trait("C_Tribal_Shaman_Powwow", "agent", 2, 8, context)
 		effect.trait("C_Tribal_Shaman_Powwow", "agent", 3, 4, context)
 		effect.trait("C_Tribal_Shaman_Powwow", "agent", 1, 17, context)
@@ -2781,7 +2781,7 @@ end
 
 events.CharacterCreated[#events.CharacterCreated+1] =
 function (context)
-	if conditions.CharacterType("shaman", context) and conditions.CharacterFactionName("pueblo_playable", context) and conditions.CampaignName("natives", context) then
+	if conditions.CharacterType("medicine_man", context) and conditions.CharacterFactionName("pueblo_playable", context) and conditions.CampaignName("natives", context) then
 		effect.trait("C_Tribal_Shaman_Pueblo_Sun_Dancer", "agent", 2, 8, context)
 		effect.trait("C_Tribal_Shaman_Pueblo_Sun_Dancer", "agent", 3, 4, context)
 		effect.trait("C_Tribal_Shaman_Pueblo_Sun_Dancer", "agent", 1, 17, context)
