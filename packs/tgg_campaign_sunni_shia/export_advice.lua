@@ -3173,7 +3173,7 @@ end
 
 events.CharacterSelected[#events.CharacterSelected+1] =
 function (context)
-	if conditions.CharacterIsLocalCampaign(context) and conditions.CharacterType("middle_east_missionary", context) and not conditions.CampaignName("natives", context) then
+	if conditions.CharacterIsLocalCampaign(context) and (conditions.CharacterType("middle_east_missionary", context) or conditions.CharacterType("shaman", context)) and not conditions.CampaignName("natives", context) then
 		effect.advance_contextual_advice_thread("1073_Campaign_Advice_Character_Selected_Thread", 1, context)
 		return true
 	end
@@ -3216,7 +3216,7 @@ end
 
 events.CharacterSelected[#events.CharacterSelected+1] =
 function (context)
-	if not conditions.CharacterIsLocalCampaign(context) and (conditions.CharacterType("General", context) or conditions.CharacterType("colonel", context) or conditions.CharacterType("admiral", context) or conditions.CharacterType("captain", context) or conditions.CharacterType("gentleman", context) or conditions.CharacterType("rake", context) or conditions.CharacterType("Eastern_Scholar", context) or conditions.CharacterType("assassin", context) or conditions.CharacterType("catholic_missionary", context) or conditions.CharacterType("Protestant_Missionary", context) or conditions.CharacterType("orthodox_missionary", context) or conditions.CharacterType("middle_east_missionary", context) or conditions.CharacterType("indian_missionary", context)) and not conditions.CampaignName("natives", context) then
+	if not conditions.CharacterIsLocalCampaign(context) and (conditions.CharacterType("General", context) or conditions.CharacterType("colonel", context) or conditions.CharacterType("admiral", context) or conditions.CharacterType("captain", context) or conditions.CharacterType("gentleman", context) or conditions.CharacterType("rake", context) or conditions.CharacterType("Eastern_Scholar", context) or conditions.CharacterType("assassin", context) or conditions.CharacterType("catholic_missionary", context) or conditions.CharacterType("Protestant_Missionary", context) or conditions.CharacterType("orthodox_missionary", context) or conditions.CharacterType("middle_east_missionary", context) or conditions.CharacterType("shaman", context) or conditions.CharacterType("indian_missionary", context)) and not conditions.CampaignName("natives", context) then
 		effect.advance_contextual_advice_thread("1077_Campaign_Advice_Character_Selected_Thread", 1, context)
 		return true
 	end
@@ -4687,7 +4687,7 @@ end
 
 events.CharacterSelected[#events.CharacterSelected+1] =
 function (context)
-	if conditions.CharacterIsLocalCampaign(context) and conditions.CharacterType("shaman", context) then
+	if conditions.CharacterIsLocalCampaign(context) and conditions.CharacterType("medicine_man", context) then
 		effect.advance_contextual_advice_thread("2007_Campaign_Advice_Shaman_Agent_Thread", 1, context)
 		return true
 	end

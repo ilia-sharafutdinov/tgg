@@ -1,0 +1,4 @@
+version 1, schema agents_tables
+Agent_ID(string)	Movement_points_in_campaign(int)	Unknown2(int)	Unknown3(int)	Is_Playable(boolean)	Model_type(string)	Portraits_and_names_IDRef(optstring)	Unknown6(boolean)	Attribute(string)	Agent_related_to_religion_type(optstring)	Unknown8(int)
+"shaman"	24	10	0	true	"human"	"imam"	true	"zeal"	"rel_nonconformist"	12
+"medicine_man"	24	10	0	true	"human"	"general"	true	"zeal"	"rel_animist"	12

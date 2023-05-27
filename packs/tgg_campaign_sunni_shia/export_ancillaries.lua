@@ -1556,7 +1556,7 @@ end
 
 events.CharacterTurnEnd[#events.CharacterTurnEnd+1] =
 function (context)
-	if (conditions.CharacterType("middle_east_missionary", context) or conditions.CharacterType("indian_missionary", context)) and not conditions.CharacterInTheatre(1, context) and not conditions.CharacterInTheatre(2, context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) then
+	if (conditions.CharacterType("middle_east_missionary", context) or conditions.CharacterType("shaman", context) or conditions.CharacterType("indian_missionary", context)) and not conditions.CharacterInTheatre(1, context) and not conditions.CharacterInTheatre(2, context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) then
 		if conditions.DateInRange(1700, 1900, context) then 
 			effect.ancillary("Ancillary_Mystic_Useful", 1,  context)
 		end
