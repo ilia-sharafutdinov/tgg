@@ -1,0 +1,21 @@
+version 1, schema agent_spawning_to_government_types_tables
+Agent_IDRef(string)	Government_IDRef(string)	Chance(float)
+"assassin"	"gov_absolute_monarchy"	1.5
+"assassin"	"gov_constitutional_monarchy"	0.75
+"assassin"	"gov_republic"	0.5
+"catholic_missionary"	"gov_absolute_monarchy"	0.75
+"catholic_missionary"	"gov_constitutional_monarchy"	1.1
+"catholic_missionary"	"gov_republic"	1.5
+"Eastern_Scholar"	"gov_absolute_monarchy"	0.5
+"Eastern_Scholar"	"gov_republic"	1
+"gentleman"	"gov_absolute_monarchy"	0.5
+"gentleman"	"gov_republic"	1.2
+"indian_missionary"	"gov_absolute_monarchy"	0.5
+"indian_missionary"	"gov_constitutional_monarchy"	0
+"indian_missionary"	"gov_republic"	1.2
+"middle_east_missionary"	"gov_republic"	1.2
+"orthodox_missionary"	"gov_absolute_monarchy"	0.5
+"orthodox_missionary"	"gov_constitutional_monarchy"	1.1
+"orthodox_missionary"	"gov_republic"	1.5
+"Protestant_Missionary"	"gov_absolute_monarchy"	1.2
+"Protestant_Missionary"	"gov_republic"	0.5
