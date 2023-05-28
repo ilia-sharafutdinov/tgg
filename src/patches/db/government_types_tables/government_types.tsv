@@ -1,0 +1,5 @@
+version 1, schema government_types_tables
+Government_ID(string)	Unknown1(boolean)	Unknown2(boolean)	Unknown3(int)	Upper_Class(string)	Lower_Class(string)
+"gov_absolute_monarchy"	false	true	3	"upper"	"lower"
+"gov_constitutional_monarchy"	false	false	2	"upper"	"middle"
+"gov_republic"	true	false	1	"middle"	"lower"

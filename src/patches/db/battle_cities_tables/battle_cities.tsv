@@ -1,0 +1,6 @@
+version 1, schema battle_cities_tables
+Culture(string)	minimum_building_scale(float)	maximum_building_scale(float)	town_min_distance(float)	city_min_distance(float)	town_radius(float)	city_radius(float)	number_of_town_buildings(int)	number_of_city_buildings(int)
+"European"	0.75	1.25	2100	3000	500	1500	400	900
+"American"	0.75	1.25	2100	3000	500	1500	400	900
+"Native"	1	1	2000	2000	600	600	15	15
+"Eastern"	0.75	1.25	2100	3000	500	1500	400	900

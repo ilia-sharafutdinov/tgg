@@ -1,0 +1,20 @@
+version 1, schema agents_tables
+Agent_ID(string)	Movement_points_in_campaign(int)	Unknown2(int)	Unknown3(int)	Is_Playable(boolean)	Model_type(string)	Portraits_and_names_IDRef(optstring)	Unknown6(boolean)	Attribute(string)	Agent_related_to_religion_type(optstring)	Unknown8(int)
+"admiral"	90	25	20	true	"ship"	"General"	false	"command_sea"	nil	0
+"assassin"	25	17	0	true	"human"	nil	true	"subterfuge"	nil	9
+"bandit"	26	25	10	false	"human"	nil	false	"command_land"	nil	0
+"captain"	90	20	15	true	"ship"	nil	false	"command_sea"	nil	0
+"catholic_missionary"	24	10	0	true	"human"	"missionary_catholic"	true	"zeal"	"rel_catholic"	12
+"colonel"	25	10	10	true	"human"	nil	false	"command_land"	nil	0
+"Eastern_Scholar"	25	10	0	true	"human"	"scholar"	true	"research"	nil	6
+"General"	26	15	15	true	"human"	nil	false	"command_land"	nil	0
+"gentleman"	25	10	0	true	"human"	"minister"	true	"research"	nil	6
+"indian_missionary"	24	10	0	true	"human"	"Brahmin"	true	"zeal"	"rel_hindu"	12
+"middle_east_missionary"	24	10	0	true	"human"	"imam"	true	"zeal"	"rel_islamic"	12
+"minister"	0	0	0	false	"human"	nil	false	"management"	nil	0
+"orthodox_missionary"	24	10	0	true	"human"	"missionary_orthodox"	true	"zeal"	"rel_orthodox"	12
+"pirate"	90	25	10	true	"ship"	nil	false	"command_sea"	nil	0
+"Protestant_Missionary"	24	10	0	true	"human"	"missionary_protestant"	true	"zeal"	"rel_protestant"	12
+"rake"	25	17	0	true	"human"	nil	true	"subterfuge"	nil	9
+"scout"	25	17	0	true	"human"	"general"	true	"subterfuge"	nil	9
+"shaman"	24	10	0	true	"human"	"general"	true	"zeal"	"rel_animist"	12

@@ -1,0 +1,9 @@
+version 1, schema disasters_tables
+Disaster_ID(string)	unknown2(float)	Disaster_to_season(string)	unknown4(boolean)	unknown5(string)	unknown6(string)	unknown7(float)	unknown8(float)
+"dustbowl"	0	"both"	false	"n"	"hot_dry"	2	5
+"earthquake"	20	"both"	false	"n"	"n"	2	5
+"flood"	10	"summer"	false	"rivers"	"n"	2	5
+"hurricane"	10	"summer"	false	"n"	"tropical"	2	5
+"locusts"	0	"both"	false	"n"	"hot_dry"	2	5
+"storm"	4	"both"	false	"n"	"n"	2	5
+"volcano"	50	"both"	true	"volcano"	"n"	2	5
