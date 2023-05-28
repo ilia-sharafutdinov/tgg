@@ -1,0 +1,12 @@
+version 1, schema unit_stats_naval_crew_tables
+Crew_ID(string)	unknown1(int)	Accuracy(int)	Melee_Skill(int)	Melee_defence(int)	Melee_Weapon(string)	unknown5(boolean)	unknown6(int)	unknown7(string)	Model(string)	Animation(string)	Warscape_Equipment_Theme(string)	unknown10(string)	unknown11(int)	unknown12(float)	unknown13(int)
+"barbary_guncrew"	5	40	8	5	"pike"	false	0	"infantry_euro_light"	"barbary_pirates"	"man_naval_cannon_crew"	"x_euro_naval_gunner"	"ph"	1	1.5	3
+"barbary_marine"	4	40	22	12	"cutlass"	true	10	"infantry_euro_medium"	"barbary_pirates"	"man_musket"	"euro_naval_marine"	"ph"	1	1.1	5
+"barbary_seaman"	5	40	8	5	"cutlass"	false	0	"infantry_euro_light"	"barbary_pirates"	"man_seaman"	"euro_naval_seaman"	"ph"	1	1.5	3
+"euro_guncrew"	5	40	4	3	"pike"	false	0	"infantry_euro_light"	"euro_naval_gunner"	"man_naval_cannon_crew"	"x_euro_naval_gunner"	"ph"	1	1.5	3
+"euro_marine"	5	45	13	7	"bayonet"	true	18	"infantry_euro_medium"	"euro_marines"	"man_musket"	"euro_naval_marine"	"ph"	3	1.2	5
+"euro_seaman"	5	40	4	3	"cutlass"	false	0	"infantry_euro_light"	"euro_able_seamen"	"man_seaman"	"euro_naval_seaman"	"ph"	1	1.5	3
+"pirate_guncrew"	5	40	8	5	"pike"	false	0	"infantry_euro_heavy"	"euro_naval_gunner"	"man_naval_cannon_crew"	"x_euro_naval_gunner"	"ph"	1	1.5	3
+"pirate_marine"	4	40	17	7	"cutlass"	true	10	"infantry_euro_heavy"	"euro_pirate"	"man_musket"	"euro_naval_marine"	"ph"	1	1.1	5
+"pirate_seaman"	5	40	8	5	"cutlass"	false	0	"infantry_euro_heavy"	"euro_pirate"	"man_seaman"	"euro_naval_seaman"	"ph"	1	1.5	3
+"pr_custom_crate_dudes"	0	0	0	0	"cutlass"	false	0	"infantry_euro_heavy"	"Episodic_Euro_American"	"man_seaman"	"euro_naval_seaman"	"ph"	0	1.5	0

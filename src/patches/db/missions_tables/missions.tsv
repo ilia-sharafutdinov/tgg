@@ -1,0 +1,22 @@
+version 1, schema missions_tables
+Mission_ID(string)	Heading(string)	Type(string)	Government(string)	Type2(string)	Localisation(string)	Unknown1(blob:5)	Effect_IDRef(optstring)	Unknown2(blob:2)	Unknown3(int)
+"ep1_build_farm"	"ep1_build_a_farm_heading"	"build"	"constitutional_monarchy"	"development"	"ep1_build_a_farm_text"	"\x01\x00\x00\x00\x00"	"T+500"	"\x00\x00"	0
+"ep1_build_fishery"	"ep1_build_fishery_heading"	"build"	"constitutional_monarchy"	"development"	"ep1_build_fishery_text"	"\x01\x00\x00\x00\x00"	nil	"\x00\x00"	0
+"ep1_build_tobacco_plantation"	"ep1_build_tobacco_plantation_heading"	"build"	"constitutional_monarchy"	"development"	"ep1_build_tobacco_plantation_text"	"\x01\x00\x00\x00\x00"	"T+500"	"\x00\x00"	10
+"ep1_capture_settlement_maryland"	"ep1_capture_enemy_village_heading"	"capture_city"	"constitutional_monarchy"	"military"	"ep1_capture_enemy_village_text"	"\x01\x00\x00\x00\x00"	"T+1000"	"\x00\x00"	0
+"ep1_capture_settlement_pennsylvania"	"ep1_capture_enemy_city_heading"	"capture_city"	"constitutional_monarchy"	"military"	"ep1_capture_enemy_city_text"	"\x01\x00\x00\x00\x00"	nil	"\x00\x00"	0
+"ep1_recruit_unit"	"ep1_recruit_unit_heading"	"recruit"	"constitutional_monarchy"	"military"	"ep1_recruit_unit_text"	"\x01\x00\x00\x00\x00"	nil	"\x00\x00"	20
+"ep2_build_gov"	"ep2_build_gov_upgrade_heading"	"build"	"constitutional_monarchy"	"development"	"ep2_build_gov_upgrade_text"	"\x01\x00\x00\x00\x00"	nil	"\x00\x00"	10
+"ep2_build_shipyard"	"ep2_build_shipyard_heading"	"build"	"constitutional_monarchy"	"development"	"ep2_build_shipyard_text"	"\x01\x00\x00\x00\x00"	nil	"\x00\x00"	20
+"ep2_capture_fort_beausejour"	"ep2_capture_fort_beausejour_heading"	"capture_city"	"constitutional_monarchy"	"military"	"ep2_capture_fort_beausejour_text"	"\x01\x00\x00\x00\x00"	nil	"\x00\x00"	10
+"ep2_capture_fort_duquesne_1"	"ep2_capture_fort_duquesne_1_heading"	"capture_city"	"constitutional_monarchy"	"military"	"ep2_capture_fort_duquesne_1_text"	"\x01\x00\x00\x00\x00"	nil	"\x00\x00"	15
+"ep2_capture_fort_frontenac"	"ep2_capture_fort_frontenac_heading"	"capture_city"	"constitutional_monarchy"	"military"	"ep2_capture_fort_frontenac_text"	"\x01\x00\x00\x00\x00"	nil	"\x00\x00"	10
+"ep2_capture_fort_oswego"	"ep2_capture_fort_oswego_heading"	"capture_city"	"constitutional_monarchy"	"military"	"ep2_capture_fort_oswego_text"	"\x01\x00\x00\x00\x00"	nil	"\x00\x00"	10
+"ep2_capture_fortniagara"	"ep2_capture_fort_niagara_heading"	"capture_city"	"constitutional_monarchy"	"military"	"ep2_capture_fort_niagara_text"	"\x01\x00\x00\x00\x00"	nil	"\x00\x00"	0
+"ep2_capture_louisbourg"	"ep2_capture_louisbourg_heading"	"capture_city"	"constitutional_monarchy"	"military"	"ep2_capture_louisbourg_text"	"\x01\x00\x00\x00\x00"	nil	"\x00\x00"	0
+"ep2_capture_montreal"	"ep2_capture_montreal_heading"	"capture_city"	"constitutional_monarchy"	"military"	"ep2_capture_montreal_text"	"\x01\x00\x00\x00\x00"	nil	"\x00\x00"	0
+"ep2_capture_quebec"	"ep2_capture_quebec_heading"	"capture_city"	"constitutional_monarchy"	"military"	"ep2_capture_quebec_text"	"\x01\x00\x00\x00\x00"	nil	"\x00\x00"	0
+"ep2_make_alliance_iroquois"	"ep2_make_alliance_iroquois_heading"	"make_alliance"	"constitutional_monarchy"	"diplomatic"	"ep2_make_alliance_iroquois_text"	"\x01\x00\x00\x00\x00"	nil	"\x00\x00"	20
+"ep2_recruit_naval_unit"	"ep2_recruit_ship_of_the_line_heading"	"build"	"constitutional_monarchy"	"military"	"ep2_recruit_ship_of_the_line_text"	"\x01\x00\x00\x00\x00"	nil	"\x00\x00"	10
+"ep3_capture_albany"	"main_mission_capture_city_heading"	"capture_city"	"republic"	"military"	"main_mission_capture_city_text"	"\x01\x00\x00\x00\x00"	nil	"\x00\x00"	0
+"main_protectorate_thirteen_colonies"	"main_protectorate_thirteen_colonies_text"	"protectorate_region_capture"	"constitutional_monarchy"	"military"	"main_protectorate_thirteen_colonies_text"	"\x01\x00\x00\x00\x00"	nil	"\x00\x00"	0

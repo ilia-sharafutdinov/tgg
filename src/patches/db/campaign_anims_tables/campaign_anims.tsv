@@ -1,0 +1,18 @@
+version 1, schema campaign_anims_tables
+Animation_ID(string)	Animation_filepath(string)	unknown1(boolean)	unknown2(boolean)	Animation_Set_IDRef(string)
+"attack"	"animations/MUS_STAND_IRREGULAR/MUS_stand.anim"	false	false	"human"
+"build_fort"	"animations/MUS_WALK/MUS_Walk.anim"	false	false	"human"
+"combat_ready"	"animations/MUS_HIGH_GUARD/MUS_Hguard.anim"	true	false	"human"
+"duel"	"Animations/MUS_HIGH_GUARD/MUS_Hguard.anim"	true	false	"human"
+"idle"	"animations/MEN/CAMPAIGN/CAM_OFFICER_ON_FOOT/CAM_O_Stand.anim"	true	false	"human"
+"mid_walk_to_stand"	"Animations/MEN/CAMPAIGN/CAM_OFFICER_ON_FOOT/CAM_O_MidWalk_to_stand_p1.anim"	true	false	"human"
+"mid_walk_to_stand_static"	"Animations/MEN/CAMPAIGN/CAM_OFFICER_ON_FOOT/CAM_O_MidWalk_to_stand_p2.anim"	true	false	"human"
+"run"	"animations/MUS_RUN_TRAINED/MUS_runT_363cm.anim"	true	false	"human"
+"stand_to_walk"	"Animations/MEN/CAMPAIGN/CAM_OFFICER_ON_FOOT/CAM_O_stand_to_Fast_Walk_p2.anim"	false	false	"human"
+"stand_to_walk_static"	"Animations/MEN/CAMPAIGN/CAM_OFFICER_ON_FOOT/CAM_O_stand_to_Fast_Walk_p1.anim"	false	false	"human"
+"step_fwd"	"Animations/MEN/CAMPAIGN/CAM_OFFICER_ON_FOOT/CAM_O_Step_Forward.anim"	true	false	"human"
+"turn_left"	"animations/MUS_STAND_IRREGULAR/MUS_ccw45.anim"	true	true	"human"
+"turn_right"	"animations/MUS_STAND_IRREGULAR/MUS_cw45.anim"	true	true	"human"
+"walk"	"Animations/MEN/CAMPAIGN/CAM_OFFICER_ON_FOOT/CAM_O_Fast_Walk_No_Z_Translation.anim"	true	false	"human"
+"walk_to_stand"	"Animations/MEN/CAMPAIGN/CAM_OFFICER_ON_FOOT/CAM_O_Fast_Walk_to_stand_p1.anim"	false	false	"human"
+"walk_to_stand_static"	"Animations/MEN/CAMPAIGN/CAM_OFFICER_ON_FOOT/CAM_O_Fast_Walk_to_stand_p2.anim"	false	false	"human"

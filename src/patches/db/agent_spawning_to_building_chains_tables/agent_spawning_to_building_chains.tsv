@@ -1,0 +1,13 @@
+version 1, schema agent_spawning_to_building_chains_tables
+Agent_IDRef(string)	Building_Chain_IDRef(string)	Chance(float)
+"assassin"	"happiness"	0.02
+"catholic_missionary"	"culture"	0.01
+"Eastern_Scholar"	"culture"	0.01
+"Eastern_Scholar"	"education"	0.01
+"gentleman"	"army-admin"	0.01
+"gentleman"	"education"	0.01
+"indian_missionary"	"education"	0.01
+"indian_missionary"	"happiness"	0.01
+"middle_east_missionary"	"education"	0
+"orthodox_missionary"	"education"	0.01
+"Protestant_Missionary"	"education"	0

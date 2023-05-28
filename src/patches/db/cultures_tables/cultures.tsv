@@ -1,0 +1,10 @@
+version 1, schema cultures_tables
+Culture_ID(string)	Unknown1(int)	Culture_IDRef(optstring)
+"european"	1	nil
+"indian"	5	"middle_east"
+"middle_east"	2	"indian"
+"PIR_european"	1239187140	"european"
+"PIR_natives"	-1238887790	"european"
+"PIR_pirates"	-223977355	"european"
+"tribal"	3	"european"
+"tribal_playable"	1241515181	"tribal"
