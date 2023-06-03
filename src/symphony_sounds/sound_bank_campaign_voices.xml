@@ -1,0 +1,588 @@
+<sound_bank>
+	<sound_bank_event sound_event_name="campaign_voices_selected_army">
+		<agent>colonel</agent>
+		<agent>General</agent>
+		<event>unknown</event>
+		<event>campaign_voices_selected_republic</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="campaign_voices_selected_army_monarchy">
+		<agent>colonel</agent>
+		<agent>General</agent>
+		<event>unknown</event>
+		<event>campaign_voices_selected_monarchy</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="campaign_voices_selected_navy_monarchy">
+		<agent>admiral</agent>
+		<agent>captain</agent>
+		<agent>pirate</agent>
+		<event>unknown</event>
+		<event>campaign_voices_selected_monarchy</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="campaign_voices_selected_navy_republic">
+		<agent>admiral</agent>
+		<agent>captain</agent>
+		<agent>pirate</agent>
+		<event>unknown</event>
+		<event>campaign_voices_selected_republic</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="campaign_voices_selected_spy">
+		<agent>assassin</agent>
+		<agent>bandit</agent>
+		<agent>rake</agent>
+		<event>unknown</event>
+		<event>campaign_voices_selected_monarchy</event>
+		<event>campaign_voices_selected_republic</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="campaign_voices_selected_religion">
+		<agent>catholic_missionary</agent>
+		<agent>indian_missionary</agent>
+		<agent>middle_east_missionary</agent>
+		<agent>minister</agent>
+		<agent>orthodox_missionary</agent>
+		<agent>Protestant_Missionary</agent>
+		<agent>shaman</agent>
+		<event>unknown</event>
+		<event>campaign_voices_selected_republic</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="campaign_voices_selected_scholar_monarchy">
+		<agent>Eastern_Scholar</agent>
+		<agent>gentleman</agent>
+		<event>unknown</event>
+		<event>campaign_voices_selected_monarchy</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="campaign_voices_selected_religion_monarchy">
+		<agent>catholic_missionary</agent>
+		<agent>indian_missionary</agent>
+		<agent>middle_east_missionary</agent>
+		<agent>minister</agent>
+		<agent>orthodox_missionary</agent>
+		<agent>Protestant_Missionary</agent>
+		<agent>shaman</agent>
+		<event>unknown</event>
+		<event>campaign_voices_selected_monarchy</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="campaign_voices_selected_scholar">
+		<agent>Eastern_Scholar</agent>
+		<agent>gentleman</agent>
+		<event>unknown</event>
+		<event>campaign_voices_selected_republic</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="campaign_voices_selected_army_monarchy">
+		<agent>colonel</agent>
+		<agent>General</agent>
+		<event>campaign_voices_selected_monarchy</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="campaign_voices_selected_navy_monarchy">
+		<agent>admiral</agent>
+		<agent>captain</agent>
+		<agent>pirate</agent>
+		<event>campaign_voices_selected_monarchy</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="campaign_voices_selected_religion_monarchy">
+		<agent>catholic_missionary</agent>
+		<agent>indian_missionary</agent>
+		<agent>middle_east_missionary</agent>
+		<agent>minister</agent>
+		<agent>orthodox_missionary</agent>
+		<agent>Protestant_Missionary</agent>
+		<agent>shaman</agent>
+		<event>campaign_voices_selected_monarchy</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="campaign_voices_selected_scholar_monarchy">
+		<agent>Eastern_Scholar</agent>
+		<agent>gentleman</agent>
+		<event>campaign_voices_selected_monarchy</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="campaign_voices_selected_navy_republic">
+		<agent>admiral</agent>
+		<agent>captain</agent>
+		<agent>pirate</agent>
+		<event>campaign_voices_selected_republic</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="campaign_voices_selected_navy_damaged">
+		<agent>admiral</agent>
+		<agent>captain</agent>
+		<agent>pirate</agent>
+		<event>campaign_voices_selected_damaged</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="campaign_voices_move_order_army">
+		<agent>colonel</agent>
+		<agent>General</agent>
+		<event>unknown</event>
+		<event>campaign_voices_move_order_monarchy</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="campaign_voices_move_order_navy">
+		<agent>admiral</agent>
+		<agent>captain</agent>
+		<agent>pirate</agent>
+		<event>unknown</event>
+		<event>campaign_voices_move_order_monarchy</event>
+		<event>campaign_voices_move_order_republic</event>
+		<event>campaign_voices_move_order_again</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="campaign_voices_move_order_religion">
+		<agent>catholic_missionary</agent>
+		<agent>indian_missionary</agent>
+		<agent>middle_east_missionary</agent>
+		<agent>minister</agent>
+		<agent>orthodox_missionary</agent>
+		<agent>Protestant_Missionary</agent>
+		<agent>shaman</agent>
+		<event>unknown</event>
+		<event>campaign_voices_move_order_republic</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="campaign_voices_move_order_army_camped">
+		<agent>colonel</agent>
+		<agent>General</agent>
+		<event>campaign_voices_move_order_camped</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="campaign_voices_move_order_army_out_of_city">
+		<agent>colonel</agent>
+		<agent>General</agent>
+		<event>campaign_voices_move_order_out_of_city</event>
+		<event>campaign_voices_leave_settlement</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="campaign_voices_move_order_army_again">
+		<agent>colonel</agent>
+		<agent>General</agent>
+		<event>campaign_voices_move_order_again</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="campaign_voices_move_order_religion_again">
+		<agent>catholic_missionary</agent>
+		<agent>indian_missionary</agent>
+		<agent>middle_east_missionary</agent>
+		<agent>minister</agent>
+		<agent>orthodox_missionary</agent>
+		<agent>Protestant_Missionary</agent>
+		<agent>shaman</agent>
+		<event>campaign_voices_move_order_again</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="campaign_voices_move_order_scholar_again">
+		<agent>Eastern_Scholar</agent>
+		<agent>gentleman</agent>
+		<event>campaign_voices_move_order_again</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="campaign_voices_move_order_army_republic">
+		<agent>colonel</agent>
+		<agent>General</agent>
+		<event>campaign_voices_move_order_republic</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="campaign_voices_move_order_navy_from_port">
+		<agent>admiral</agent>
+		<agent>captain</agent>
+		<agent>pirate</agent>
+		<event>campaign_voices_move_order_from_port</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="campaign_voices_move_order_religion_monarchy">
+		<agent>catholic_missionary</agent>
+		<agent>indian_missionary</agent>
+		<agent>middle_east_missionary</agent>
+		<agent>minister</agent>
+		<agent>orthodox_missionary</agent>
+		<agent>Protestant_Missionary</agent>
+		<agent>shaman</agent>
+		<event>campaign_voices_move_order_monarchy</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="campaign_voices_move_order_scholar_monarchy">
+		<agent>Eastern_Scholar</agent>
+		<agent>gentleman</agent>
+		<event>campaign_voices_move_order_monarchy</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="campaign_voices_move_order_spy">
+		<agent>assassin</agent>
+		<agent>bandit</agent>
+		<agent>rake</agent>
+		<agent>scout</agent>
+		<event>unknown</event>
+		<event>campaign_voices_move_order_again</event>
+		<event>campaign_voices_move_order_monarchy</event>
+		<event>campaign_voices_move_order_republic</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="campaign_voices_move_completed_army">
+		<agent>colonel</agent>
+		<agent>General</agent>
+		<event>campaign_voices_move_completed</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="campaign_voices_move_completed_navy">
+		<agent>admiral</agent>
+		<agent>captain</agent>
+		<agent>pirate</agent>
+		<event>campaign_voices_move_completed</event>
+		<event>campaign_voices_move_completed_monarchy</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="campaign_voices_move_completed_spy">
+		<agent>assassin</agent>
+		<agent>bandit</agent>
+		<agent>rake</agent>
+		<agent>scout</agent>
+		<event>campaign_voices_move_completed</event>
+		<event>campaign_voices_move_completed_monarchy</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="campaign_voices_move_completed_religion">
+		<agent>catholic_missionary</agent>
+		<agent>indian_missionary</agent>
+		<agent>middle_east_missionary</agent>
+		<agent>minister</agent>
+		<agent>orthodox_missionary</agent>
+		<agent>Protestant_Missionary</agent>
+		<agent>shaman</agent>
+		<event>campaign_voices_move_completed</event>
+		<event>campaign_voices_move_completed_monarchy</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="campaign_voices_move_completed_scholar">
+		<agent>Eastern_Scholar</agent>
+		<agent>gentleman</agent>
+		<event>campaign_voices_move_completed</event>
+		<event>campaign_voices_move_completed_monarchy</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="campaign_voices_move_completed_army_monarchy">
+		<agent>colonel</agent>
+		<agent>General</agent>
+		<event>campaign_voices_move_completed_monarchy</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="campaign_voices_move_completed_scholar_university">
+		<agent>Eastern_Scholar</agent>
+		<agent>gentleman</agent>
+		<event>campaign_voices_move_completed_university</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="campaign_voices_move_still_availible_army">
+		<agent>colonel</agent>
+		<agent>General</agent>
+		<event>campaign_voices_move_still_availible</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="campaign_voices_move_still_availible_navy">
+		<agent>admiral</agent>
+		<agent>captain</agent>
+		<agent>pirate</agent>
+		<event>campaign_voices_move_still_availible</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="campaign_voices_move_still_availible_spy">
+		<agent>assassin</agent>
+		<agent>bandit</agent>
+		<agent>rake</agent>
+		<agent>scout</agent>
+		<event>campaign_voices_move_still_availible</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="campaign_voices_move_still_availible_religion">
+		<agent>catholic_missionary</agent>
+		<agent>indian_missionary</agent>
+		<agent>middle_east_missionary</agent>
+		<agent>minister</agent>
+		<agent>orthodox_missionary</agent>
+		<agent>Protestant_Missionary</agent>
+		<agent>shaman</agent>
+		<event>campaign_voices_move_still_availible</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="campaign_voices_move_still_availible_scholar">
+		<agent>Eastern_Scholar</agent>
+		<agent>gentleman</agent>
+		<event>campaign_voices_move_still_availible</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="campaign_voices_move_still_availible_army_monarchy">
+		<agent>colonel</agent>
+		<agent>General</agent>
+		<event>unknown</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="campaign_voices_move_illegal_army">
+		<agent>colonel</agent>
+		<agent>General</agent>
+		<event>campaign_voices_move_illegal</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="campaign_voices_move_illegal_navy">
+		<agent>admiral</agent>
+		<agent>captain</agent>
+		<agent>pirate</agent>
+		<event>campaign_voices_move_illegal</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="campaign_voices_move_illegal_spy">
+		<agent>assassin</agent>
+		<agent>bandit</agent>
+		<agent>rake</agent>
+		<agent>scout</agent>
+		<event>campaign_voices_move_illegal</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="campaign_voices_move_illegal_religion">
+		<agent>catholic_missionary</agent>
+		<agent>indian_missionary</agent>
+		<agent>middle_east_missionary</agent>
+		<agent>minister</agent>
+		<agent>orthodox_missionary</agent>
+		<agent>Protestant_Missionary</agent>
+		<agent>shaman</agent>
+		<event>campaign_voices_move_illegal</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="campaign_voices_move_illegal_scholar">
+		<agent>Eastern_Scholar</agent>
+		<agent>gentleman</agent>
+		<event>campaign_voices_move_illegal</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="campaign_voices_move_illegal_army_to_sea">
+		<agent>colonel</agent>
+		<agent>General</agent>
+		<event>campaign_voices_move_illegal_army_to_sea</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="campaign_voices_move_embark_army">
+		<agent>colonel</agent>
+		<agent>General</agent>
+		<event>campaign_voices_move_embark</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="campaign_voices_move_embark_spy">
+		<agent>assassin</agent>
+		<agent>bandit</agent>
+		<agent>rake</agent>
+		<agent>scout</agent>
+		<event>campaign_voices_move_embark</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="campaign_voices_move_embark_religion">
+		<agent>catholic_missionary</agent>
+		<agent>indian_missionary</agent>
+		<agent>middle_east_missionary</agent>
+		<agent>minister</agent>
+		<agent>orthodox_missionary</agent>
+		<agent>Protestant_Missionary</agent>
+		<agent>shaman</agent>
+		<event>campaign_voices_move_embark</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="campaign_voices_move_embark_scholar">
+		<agent>Eastern_Scholar</agent>
+		<agent>gentleman</agent>
+		<event>campaign_voices_move_embark</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="campaign_voices_move_disembark_army">
+		<agent>colonel</agent>
+		<agent>General</agent>
+		<event>campaign_voices_move_disembark</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="campaign_voices_move_disembark_spy">
+		<agent>assassin</agent>
+		<agent>bandit</agent>
+		<agent>rake</agent>
+		<agent>scout</agent>
+		<event>campaign_voices_move_disembark</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="campaign_voices_move_disembark_religion">
+		<agent>catholic_missionary</agent>
+		<agent>indian_missionary</agent>
+		<agent>middle_east_missionary</agent>
+		<agent>minister</agent>
+		<agent>orthodox_missionary</agent>
+		<agent>Protestant_Missionary</agent>
+		<agent>shaman</agent>
+		<event>campaign_voices_move_disembark</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="campaign_voices_move_disembark_scholar">
+		<agent>Eastern_Scholar</agent>
+		<agent>gentleman</agent>
+		<event>campaign_voices_move_disembark</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="campaign_voices_assassinated_generic">
+		<agent>colonel</agent>
+		<agent>General</agent>
+		<agent>admiral</agent>
+		<agent>captain</agent>
+		<agent>pirate</agent>
+		<agent>shaman</agent>
+		<event>campaign_voices_assassinated</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="campaign_voices_assassination">
+		<agent>assassin</agent>
+		<agent>bandit</agent>
+		<agent>rake</agent>
+		<agent>scout</agent>
+		<agent>shaman</agent>
+		<event>campaign_voices_assassination</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="campaign_voices_assassinated_spy">
+		<agent>assassin</agent>
+		<agent>bandit</agent>
+		<agent>rake</agent>
+		<agent>scout</agent>
+		<event>campaign_voices_assassinated</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="campaign_voices_assassinated_religion">
+		<agent>catholic_missionary</agent>
+		<agent>indian_missionary</agent>
+		<agent>middle_east_missionary</agent>
+		<agent>minister</agent>
+		<agent>orthodox_missionary</agent>
+		<agent>Protestant_Missionary</agent>
+		<agent>shaman</agent>
+		<event>campaign_voices_assassinated</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="campaign_voices_assassinated_scholar">
+		<agent>Eastern_Scholar</agent>
+		<agent>gentleman</agent>
+		<event>campaign_voices_assassinated</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="campaign_voices_duel_ordered">
+		<agent>Eastern_Scholar</agent>
+		<agent>gentleman</agent>
+		<agent>shaman</agent>
+		<event>campaign_voices_duel_ordered</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="campaign_voices_blackops">
+		<event>campaign_voices_blackops</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="campaign_voices_capture_settlement">
+		<event>campaign_voices_capture_settlement</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="campaign_voices_placed_ambush">
+		<event>campaign_voices_placed_ambush</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="campaign_voices_spring_ambush">
+		<event>campaign_voices_spring_ambush</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="campaign_voices_ambushed">
+		<event>campaign_voices_ambushed</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="campaign_voices_build_fort">
+		<agent>admiral</agent>
+		<agent>captain</agent>
+		<agent>pirate</agent>
+		<agent>colonel</agent>
+		<agent>General</agent>
+		<event>campaign_voices_build_fort</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="campaign_voices_attack_army">
+		<agent>colonel</agent>
+		<agent>General</agent>
+		<event>campaign_voices_attack</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="campaign_voices_attack_navy">
+		<agent>admiral</agent>
+		<agent>captain</agent>
+		<agent>pirate</agent>
+		<event>campaign_voices_attack</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="campaign_voices_attack_weaker_army">
+		<agent>colonel</agent>
+		<agent>General</agent>
+		<event>campaign_voices_attack_weaker</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="campaign_voices_attack_weaker_navy">
+		<agent>admiral</agent>
+		<agent>captain</agent>
+		<agent>pirate</agent>
+		<event>campaign_voices_attack_weaker</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="campaign_voices_attack_stronger_army">
+		<agent>colonel</agent>
+		<agent>General</agent>
+		<event>campaign_voices_attack_stronger</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="campaign_voices_attack_stronger_navy">
+		<agent>admiral</agent>
+		<agent>captain</agent>
+		<agent>pirate</agent>
+		<event>campaign_voices_attack_stronger</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="campaign_voices_attacked">
+		<agent>admiral</agent>
+		<agent>captain</agent>
+		<agent>pirate</agent>
+		<agent>colonel</agent>
+		<agent>General</agent>
+		<event>campaign_voices_attacked</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="campaign_voices_retreat_army">
+		<agent>colonel</agent>
+		<agent>General</agent>
+		<event>campaign_voices_retreat</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="campaign_voices_retreat_navy">
+		<agent>admiral</agent>
+		<agent>captain</agent>
+		<agent>pirate</agent>
+		<event>campaign_voices_retreat</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="campaign_voices_win_battle_army">
+		<agent>colonel</agent>
+		<agent>General</agent>
+		<event>campaign_voices_win_battle</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="campaign_voices_win_battle_navy">
+		<agent>admiral</agent>
+		<agent>captain</agent>
+		<agent>pirate</agent>
+		<event>campaign_voices_win_battle</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="campaign_voices_persue_retreating_army">
+		<agent>colonel</agent>
+		<agent>General</agent>
+		<event>campaign_voices_persue_retreating_army</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="campaign_voices_persue_retreating_navy">
+		<agent>admiral</agent>
+		<agent>captain</agent>
+		<agent>pirate</agent>
+		<event>campaign_voices_persue_retreating_army</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="campaign_voices_sunk_navy">
+		<agent>admiral</agent>
+		<agent>captain</agent>
+		<agent>pirate</agent>
+		<event>campaign_voices_sunk</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="campaign_voices_siege_begin">
+		<event>campaign_voices_siege_begin</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="campaign_voices_siege_ongoing">
+		<event>campaign_voices_siege_ongoing</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="campaign_voices_siege_lifted">
+		<event>campaign_voices_siege_lifted</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="campaign_voices_leave_settlement">
+		<agent>colonel</agent>
+		<agent>General</agent>
+		<agent>catholic_missionary</agent>
+		<agent>indian_missionary</agent>
+		<agent>middle_east_missionary</agent>
+		<agent>minister</agent>
+		<agent>orthodox_missionary</agent>
+		<agent>Protestant_Missionary</agent>
+		<agent>Eastern_Scholar</agent>
+		<agent>gentleman</agent>
+		<event>campaign_voices_leave_settlement</event>
+		<event>campaign_voices_move_order_out_of_city</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="campaign_voices_army_destroyed">
+		<agent>colonel</agent>
+		<agent>General</agent>
+		<event>campaign_voices_army_destroyed</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="campaign_voices_siege_besieged">
+		<agent>colonel</agent>
+		<agent>General</agent>
+		<event>unknown</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="campaign_voices_army_settlement_capture_antagonistic">
+		<agent>colonel</agent>
+		<agent>General</agent>
+		<event>unknown</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="campaign_voices_army_settlement_capture">
+		<agent>colonel</agent>
+		<agent>General</agent>
+		<event>unknown</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="campaign_voices_army_settlement_recapture">
+		<agent>colonel</agent>
+		<agent>General</agent>
+		<event>unknown</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="campaign_voices_join_army">
+		<agent>colonel</agent>
+		<agent>General</agent>
+		<event>campaign_voices_join_army</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="campaign_voices_join_navy">
+		<agent>admiral</agent>
+		<agent>captain</agent>
+		<agent>pirate</agent>
+		<event>campaign_voices_join_navy</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="campaign_voices_generic">
+		<event>campaign_voices_generic</event>
+	</sound_bank_event>
+</sound_bank>
