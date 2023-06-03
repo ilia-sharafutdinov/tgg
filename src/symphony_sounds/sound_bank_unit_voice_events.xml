@@ -1,0 +1,2015 @@
+<sound_bank>
+	<sound_bank_event sound_event_name="unit_voices_selected_gen">
+		<event>unit_voices_selected_generals_unit</event>
+		<unit>euro_generals_bodyguard</unit>
+		<unit_class>general</unit_class>
+		<general>true</general>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_gen">
+		<event>unit_voices_selected</event>
+		<unit>euro_generals_bodyguard</unit>
+		<unit_class>general</unit_class>
+		<general>true</general>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_single_click_melee_attack_gen">
+		<event>Unit_Voices_Single_Click_Melee_Attack</event>
+		<unit_class>general</unit_class>
+		<general>true</general>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_double_click_melee_attack_gen">
+		<event>Unit_Voices_Double_Click_Melee_Attack</event>
+		<unit_class>general</unit_class>
+		<general>true</general>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_move_slow_gen">
+		<event>Unit_Voices_Move_Slow</event>
+		<unit_class>general</unit_class>
+		<general>true</general>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_move_fast_gen">
+		<event>Unit_Voices_Move_Fast</event>
+		<unit_class>general</unit_class>
+		<general>true</general>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_melee_on_gen">
+		<event>Unit_Voices_Melee_On</event>
+		<unit_class>general</unit_class>
+		<general>true</general>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_melee_off_gen">
+		<event>Unit_Voices_Melee_Off</event>
+		<unit_class>general</unit_class>
+		<general>true</general>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_special_ability_plug_bayonets_true_gen">
+		<event>plug_bayonets_true</event>
+		<unit_class>general</unit_class>
+		<general>true</general>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_special_ability_plug_bayonets_false_gen">
+		<event>plug_bayonets_false</event>
+		<unit_class>general</unit_class>
+		<general>true</general>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_halt_gen">
+		<event>Unit_Voices_Halt</event>
+		<unit_class>general</unit_class>
+		<general>true</general>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_halt_off_gen">
+		<event>Unit_Voices_Halt_Off</event>
+		<unit_class>general</unit_class>
+		<general>true</general>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_guard_on_gen">
+		<event>Unit_Voices_Guard_On</event>
+		<unit_class>general</unit_class>
+		<general>true</general>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_guard_off_gen">
+		<event>Unit_Voices_Guard_Off</event>
+		<unit_class>general</unit_class>
+		<general>true</general>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_skirmish_on_gen">
+		<event>Unit_Voices_Skirmish_On</event>
+		<unit_class>general</unit_class>
+		<general>true</general>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_skirmish_off_gen">
+		<event>Unit_Voices_Skirmish_Off</event>
+		<unit_class>general</unit_class>
+		<general>true</general>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_special_ability_loose_formation_gen">
+		<event>loose_formation</event>
+		<unit_class>general</unit_class>
+		<general>true</general>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_special_ability_tight_formation_gen">
+		<event>tight_formation</event>
+		<unit_class>general</unit_class>
+		<general>true</general>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_withdraw_gen">
+		<event>Unit_Voices_Withdraw</event>
+		<unit_class>general</unit_class>
+		<general>true</general>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_rally_gen">
+		<event>Unit_Voices_Rally</event>
+		<unit_class>general</unit_class>
+		<general>true</general>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_special_ability_square_formation_gen">
+		<event>square_formation</event>
+		<unit>euro_republican_guard</unit>
+		<unit>revolutionary_guard</unit>
+		<unit>guard_infantry</unit>
+		<unit_class>general</unit_class>
+		<general>true</general>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_special_ability_diamond_formation_gen">
+		<event>diamond_formation</event>
+		<unit_class>general</unit_class>
+		<general>true</general>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_special_ability_wedge_formation_gen">
+		<event>wedge_formation</event>
+		<unit_class>general</unit_class>
+		<general>true</general>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_formation_double_line_standard_gen">
+		<event>Unit_voices_formation_double_line_standard</event>
+		<unit_class>general</unit_class>
+		<general>true</general>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_completed_orders_gen">
+		<event>Unit_Voices_completed_orders</event>
+		<unit_class>general</unit_class>
+		<general>true</general>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_death_gen">
+		<event>Unit_Voices_Death_By_Missile</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_death_gen">
+		<event>Unit_Voices_Death_By_Melee</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_death_gen">
+		<event>Unit_Voices_Death</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_generic_gen">
+		<event>Unit_Voices_Generic</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_charge_gen">
+		<event>Unit_Voices_Charge</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_withdraw_gen">
+		<event>Unit_Voices_Withdraw</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_victory_gen">
+		<event>Unit_Voices_Victory</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_defeat_gen">
+		<event>Unit_Voices_Defeat</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_engage_at_will">
+		<event>Unit_Voices_Engage_At_Will</event>
+		<unit_class>general</unit_class>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_group_guard_on">
+		<event>Unit_Voices_Group_Guard_Off</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_group_guard_off">
+		<event>Unit_Voices_Group_Guard_On</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_group_skirmish_on">
+		<event>Unit_Voices_Group_Skirmish_On</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_group_skirmish_off">
+		<event>Unit_Voices_Group_Skirmish_Off</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_group_withdraw">
+		<event>Unit_Voices_Withdraw</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_group_rally">
+		<event>unknown</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_group_double_click_attack">
+		<event>Unit_Voices_Group_Double_Click_Attack</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_group_single_click_attack">
+		<event>Unit_Voices_Group_Single_Click_Attack</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_group_single_click_missile_attack">
+		<event>Unit_Voices_Group_Double_Click_Missile_Attack</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_group_single_click_missile_attack">
+		<event>Unit_Voices_Group_Single_Click_Missile_Attack</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_group_double_click_attack">
+		<event>Unit_Voices_Group_Double_Click_Melee_Attack</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_group_single_click_attack">
+		<event>Unit_Voices_Group_Single_Click_Melee_Attack</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_group_move_fast">
+		<event>Unit_Voices_Group_Move_Fast</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_group_move_slow">
+		<event>Unit_Voices_Group_Move_Slow</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_group_attack_weaker">
+		<event>Unit_Voices_Group_Attack_Weaker</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_group_attack_stronger">
+		<event>Unit_Voices_Group_Attack_Stronger</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_group_created">
+		<event>group_created</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_disband_group">
+		<event>Unit_Voices_Disband_Group</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_group_selected_artillary">
+		<event>group_selected_artillary</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_group_selected_infantry">
+		<event>group_selected_infantry</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_group_selected_cavalry">
+		<event>unit_voices_selected</event>
+		<event>group_selected_cavalry</event>
+		<unit>americas_provincial_cavalry</unit>
+		<unit>euro_provincial_cavalry_gendarmerie</unit>
+		<unit_class>cavalry_standard</unit_class>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_group_fire_at_will_on">
+		<event>Unit_Voices_Group_Fire_At_Will_On</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_group_fire_at_will_off">
+		<event>Unit_Voices_Group_Fire_At_Will_Off</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_group_selected">
+		<event>group_selected</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_group_engage_at_will">
+		<event>Unit_Voices_Group_Engage_At_Will</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_formation_single_line">
+		<event>Unit_voices_formation_single_standard</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_formation_sorted_line">
+		<event>unknown</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_formation_double_line">
+		<event>unknown</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_formation_sorted_double_line">
+		<event>unknown</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_formation_foot_first_three_lines">
+		<event>unknown</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_formation_cavalry_first_three_lines">
+		<event>unknown</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_formation_cavalry_screen">
+		<event>unknown</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_formation_column">
+		<event>unknown</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_formation_line">
+		<event>unknown</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_formation_oblique">
+		<event>unknown</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_formation_oblique_left">
+		<event>unknown</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_formation_oblique_right">
+		<event>unknown</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_formation_line_of_battle">
+		<event>unknown</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_formation_column_infantry">
+		<event>Unit_voices_formation_collum_infantry</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_formation_double_line_infantry">
+		<event>unknown</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_formation_double_line_screened">
+		<event>Unit_voices_formation_double_line_screened</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_formation_double_pincer">
+		<event>unknown</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_formation_double_line_mixed">
+		<event>unknown</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_formation_echelon_left">
+		<event>unknown</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_formation_echelon_right">
+		<event>unknown</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_formation_triple_line">
+		<event>Unit_voices_formation_triple_standard</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_formation_triple_line_artillery">
+		<event>Unit_voices_formation_tripple_int_artilery</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_formation_triple_line_grand_battery_left">
+		<event>Unit_voices_formation_triple_grand_battery</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_formation_triple_line_grand_battery_right">
+		<event>unknown</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_formation_cavalry_centre">
+		<event>unknown</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_formation_single_cavalry_left">
+		<event>Unit_voices_formation_single_cavalry_left</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_formation_single_cavalry_right">
+		<event>Unit_voices_formation_single_cavalry_right</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_formation_infantry_charge">
+		<event>unknown</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_formation_cavalry">
+		<event>unknown</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_formation_cavalry_skirmish">
+		<event>unknown</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_formation_infantry_skirmish">
+		<event>unknown</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_formation_three_line_defence">
+		<event>unknown</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_formation_half_square">
+		<event>unknown</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_formation_square">
+		<event>unknown</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_formation_weak_centre">
+		<event>unknown</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_formation_strong_centre">
+		<event>unknown</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_formation_unit_reply">
+		<event>unknown</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_heavy_cavalry_officer">
+		<event>unit_voices_selected</event>
+		<unit_class>cavalry_heavy</unit_class>
+		<unit_voice>cavalry_generic</unit_voice>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_light_cavalry_officer">
+		<event>unit_voices_selected</event>
+		<unit_class>cavalry_light</unit_class>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_camel_cavalry_officer">
+		<event>unit_voices_selected</event>
+		<unit_class>cavalry_camels</unit_class>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_lancer_cavalry_officer">
+		<event>unit_voices_selected</event>
+		<unit_class>cavalry_lancers</unit_class>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_missile_cavalry_officer">
+		<event>unit_voices_selected</event>
+		<unit_class>cavalry_missile</unit_class>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_elephant_cavalry_officer">
+		<event>unit_voices_selected</event>
+		<unit_class>elephants</unit_class>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_guards_cavalry_officer">
+		<event>unit_voices_selected</event>
+		<unit_voice>cavalry_generic</unit_voice>
+		<unit_voice>cavalry_life_guards</unit_voice>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_cuirassiers_cavalry_officer">
+		<event>unit_voices_selected</event>
+		<unit_voice>cavalry_cuirassiers</unit_voice>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_colonial_cavalry_officer">
+		<event>unit_voices_selected</event>
+		<unit_voice>cavalry_colonial</unit_voice>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_household_cavalry_officer">
+		<event>unit_voices_selected</event>
+		<unit_voice>cavalry_household</unit_voice>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_hussars_cavalry_officer">
+		<event>unit_voices_selected</event>
+		<unit_voice>cavalry_hussars</unit_voice>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_regiment_of_horse_cavalry_officer">
+		<event>unit_voices_selected</event>
+		<unit>regiment_horse_light</unit>
+		<unit>americas_regiment_of_horse</unit>
+		<unit>euro_regiment_of_horse_sweden</unit>
+		<unit>euro_regiment_of_horse</unit>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_yeoman_cavalry_officer">
+		<event>unit_voices_selected</event>
+		<unit_voice>cavalry_yeoman</unit_voice>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_single_click_melee_attack_cavalry_officer">
+		<event>Unit_Voices_Single_Click_Melee_Attack</event>
+		<unit_class>cavalry_standard</unit_class>
+		<unit_class>cavalry_heavy</unit_class>
+		<unit_class>cavalry_lancers</unit_class>
+		<unit_class>cavalry_camels</unit_class>
+		<unit_class>cavalry_irregular</unit_class>
+		<unit_class>cavalry_light</unit_class>
+		<unit_class>elephants</unit_class>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_double_click_melee_attack_cavalry_officer">
+		<event>Unit_Voices_Double_Click_Melee_Attack</event>
+		<unit_class>cavalry_standard</unit_class>
+		<unit_class>cavalry_heavy</unit_class>
+		<unit_class>cavalry_lancers</unit_class>
+		<unit_class>cavalry_camels</unit_class>
+		<unit_class>cavalry_irregular</unit_class>
+		<unit_class>cavalry_light</unit_class>
+		<unit_class>elephants</unit_class>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_single_click_missile_attack_cavalry_officer">
+		<event>Unit_Voices_Single_Click_Missile_Attack</event>
+		<unit_class>cavalry_missile</unit_class>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_single_click_missile_attack_cavalry_officer">
+		<event>Unit_Voices_Double_Click_Missile_Attack</event>
+		<unit_class>cavalry_missile</unit_class>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_move_slow_cavalry_officer">
+		<event>Unit_Voices_Move_Slow</event>
+		<unit_class>cavalry_standard</unit_class>
+		<unit_class>cavalry_heavy</unit_class>
+		<unit_class>cavalry_lancers</unit_class>
+		<unit_class>cavalry_camels</unit_class>
+		<unit_class>cavalry_irregular</unit_class>
+		<unit_class>cavalry_light</unit_class>
+		<unit_class>elephants</unit_class>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_move_fast_cavalry_officer">
+		<event>Unit_Voices_Move_Fast</event>
+		<unit_class>cavalry_standard</unit_class>
+		<unit_class>cavalry_heavy</unit_class>
+		<unit_class>cavalry_lancers</unit_class>
+		<unit_class>cavalry_camels</unit_class>
+		<unit_class>cavalry_irregular</unit_class>
+		<unit_class>cavalry_light</unit_class>
+		<unit_class>elephants</unit_class>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_move_slow_missile_cavalry_officer">
+		<event>Unit_Voices_Move_Slow</event>
+		<unit_class>cavalry_missile</unit_class>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_move_fast_missile_cavalry_officer">
+		<event>Unit_Voices_Move_Fast</event>
+		<unit_class>cavalry_missile</unit_class>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_fire_at_will_on_cavalry_officer">
+		<event>Unit_Voices_Fire_At_Will_On</event>
+		<unit_class>cavalry_missile</unit_class>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_fire_at_will_off_cavalry_officer">
+		<event>Unit_Voices_Fire_At_Will_Off</event>
+		<unit_class>cavalry_missile</unit_class>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_melee_on_cavalry_officer">
+		<event>Unit_Voices_Melee_On</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_melee_off_cavalry_officer">
+		<event>Unit_Voices_Melee_Off</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_halt_cavalry_officer">
+		<event>Unit_Voices_Halt</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_halt_off_cavalry_officer">
+		<event>Unit_Voices_Halt_Off</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_engage_at_will_cavalry_officer">
+		<event>Unit_Voices_Engage_At_Will</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_guard_on_cavalry_officer">
+		<event>Unit_Voices_Guard_On</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_guard_off_cavalry_officer">
+		<event>Unit_Voices_Guard_Off</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_skirmish_on_cavalry_officer">
+		<event>Unit_Voices_Skirmish_On</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_skirmish_off_cavalry_officer">
+		<event>Unit_Voices_Skirmish_Off</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_special_ability_loose_formation_cavalry_officer">
+		<event>loose_formation</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_special_ability_tight_formation_cavalry_officer">
+		<event>tight_formation</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_withdraw_cavalry_officer">
+		<event>Unit_Voices_Withdraw</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_rally_cavalry_officer">
+		<event>Unit_Voices_Rally</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_special_ability_mount_cavalry_officer">
+		<event>Mount</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_special_ability_dismount_cavalry_officer">
+		<event>dismount</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_special_ability_diamond_formation_cavalry_officer">
+		<event>diamond_formation</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_special_ability_wedge_formation_cavalry_officer">
+		<event>wedge_formation</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_completed_orders_cavalry_officer">
+		<event>Unit_Voices_completed_orders</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_dragoons">
+		<event>unit_voices_selected</event>
+		<unit_voice>dragoons</unit_voice>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_light_dragoons">
+		<event>unit_voices_selected</event>
+		<unit_voice>dragoons_light</unit_voice>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_single_click_melee_attack_dragoons">
+		<event>Unit_Voices_Single_Click_Melee_Attack</event>
+		<unit_class>dragoons</unit_class>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_double_click_melee_attack_dragoons">
+		<event>Unit_Voices_Double_Click_Melee_Attack</event>
+		<unit_class>dragoons</unit_class>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_single_click_missile_attack_dragoons">
+		<event>Unit_Voices_Single_Click_Missile_Attack</event>
+		<unit_class>dragoons</unit_class>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_single_click_missile_attack_dragoons">
+		<event>Unit_Voices_Double_Click_Missile_Attack</event>
+		<unit_class>dragoons</unit_class>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_move_slow_dragoons">
+		<event>Unit_Voices_Move_Slow</event>
+		<unit_class>dragoons</unit_class>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_move_fast_dragoons">
+		<event>Unit_Voices_Move_Fast</event>
+		<unit_class>dragoons</unit_class>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_fire_at_will_on_dragoons">
+		<event>Unit_Voices_Fire_At_Will_On</event>
+		<unit_class>dragoons</unit_class>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_fire_at_will_off_dragoons">
+		<event>Unit_Voices_Fire_At_Will_Off</event>
+		<unit_class>dragoons</unit_class>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_melee_on_dragoons">
+		<event>Unit_Voices_Melee_On</event>
+		<unit_class>dragoons</unit_class>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_melee_off_dragoons">
+		<event>Unit_Voices_Melee_Off</event>
+		<unit_class>dragoons</unit_class>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_special_ability_plug_bayonets_true_dragoons">
+		<event>plug_bayonets_true</event>
+		<unit_class>dragoons</unit_class>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_special_ability_plug_bayonets_false_dragoons">
+		<event>plug_bayonets_false</event>
+		<unit_class>dragoons</unit_class>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_halt_dragoons">
+		<event>Unit_Voices_Halt</event>
+		<unit_class>dragoons</unit_class>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_halt_off_dragoons">
+		<event>Unit_Voices_Halt_Off</event>
+		<unit_class>dragoons</unit_class>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_engage_at_will_dragoons">
+		<event>Unit_Voices_Engage_At_Will</event>
+		<unit_class>dragoons</unit_class>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_guard_on_dragoons">
+		<event>Unit_Voices_Guard_On</event>
+		<unit_class>dragoons</unit_class>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_guard_off_dragoons">
+		<event>Unit_Voices_Guard_Off</event>
+		<unit_class>dragoons</unit_class>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_skirmish_on_dragoons">
+		<event>Unit_Voices_Skirmish_On</event>
+		<unit_class>dragoons</unit_class>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_skirmish_off_dragoons">
+		<event>Unit_Voices_Skirmish_Off</event>
+		<unit_class>dragoons</unit_class>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_special_ability_loose_formation_dragoons">
+		<event>loose_formation</event>
+		<unit_class>dragoons</unit_class>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_special_ability_tight_formation_dragoons">
+		<event>tight_formation</event>
+		<unit_class>dragoons</unit_class>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_withdraw_dragoons">
+		<event>Unit_Voices_Withdraw</event>
+		<unit_class>dragoons</unit_class>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_rally_dragoons">
+		<event>Unit_Voices_Rally</event>
+		<unit_class>dragoons</unit_class>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_special_ability_mount_dragoons">
+		<event>Mount</event>
+		<unit_class>dragoons</unit_class>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_special_ability_dismount_dragoons">
+		<event>dismount</event>
+		<unit_class>dragoons</unit_class>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_special_ability_diamond_formation_dragoons">
+		<event>diamond_formation</event>
+		<unit_class>dragoons</unit_class>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_special_ability_wedge_formation_dragoons">
+		<event>wedge_formation</event>
+		<unit_class>dragoons</unit_class>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_completed_orders_dragoons">
+		<event>Unit_Voices_completed_orders</event>
+		<unit_class>dragoons</unit_class>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_shot_type_grappling_hook_dragoons">
+		<event>unit_voices_shot_type_grappling_hook</event>
+		<unit_class>dragoons</unit_class>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_artillery_generic">
+		<event>unit_voices_selected</event>
+		<unit_voice>artillery_rockets</unit_voice>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_artillery_horse">
+		<event>unit_voices_selected</event>
+		<unit_class>artillery_horse</unit_class>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_artillery_medium_cannon">
+		<event>unit_voices_selected</event>
+		<unit_voice>artillery_medium_cannon</unit_voice>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_artillery_garrison">
+		<event>unit_voices_selected</event>
+		<unit_voice>artillery_garrison</unit_voice>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_artillery_medium_howitzers">
+		<event>unit_voices_selected</event>
+		<unit_voice>artillery_howitzer</unit_voice>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_artillery_heavy_cannon">
+		<event>unit_voices_selected</event>
+		<unit_voice>artillery_heavy_cannon</unit_voice>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_artillery_guards">
+		<event>unit_voices_selected</event>
+		<unit_voice>artillery_guards</unit_voice>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_artillery_heavy_howitzers">
+		<event>unit_voices_selected</event>
+		<unit_voice>artillery_puckle_gun</unit_voice>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_artillery_light_horse">
+		<event>unit_voices_selected</event>
+		<unit_voice>artillery_light_horse</unit_voice>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_artillery_light_mortars">
+		<event>unit_voices_selected</event>
+		<unit_voice>artillery_light_mortar</unit_voice>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_artillery_heavy_mortars">
+		<event>unit_voices_selected</event>
+		<unit_voice>artillery_heavy_mortar</unit_voice>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_single_click_missile_attack_artillery">
+		<event>Unit_Voices_Single_Click_Missile_Attack</event>
+		<event>Unit_Voices_Double_Click_Missile_Attack</event>
+		<event>Unit_Voices_Single_Click_Attack</event>
+		<event>Unit_Voices_Double_Click_Attack</event>
+		<unit_class>artillery_fixed</unit_class>
+		<unit_voice>artillery_heavy_mortar</unit_voice>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_artillery_siege_guns">
+		<event>unit_voices_selected</event>
+		<unit_voice>artillery_siege_guns</unit_voice>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_artillery_demi_cannon">
+		<event>unit_voices_selected</event>
+		<unit_voice>artillery_demi_cannon</unit_voice>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_artillery_great_cannon">
+		<event>unit_voices_selected</event>
+		<unit_voice>artillery_great_cannon</unit_voice>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_artillery_sakers">
+		<event>unit_voices_selected</event>
+		<unit_voice>artillery_sakers</unit_voice>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_artillery_puckle">
+		<event>unit_voices_selected</event>
+		<unit_voice>artillery_medium_howitzer</unit_voice>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_artillery_rocket_camels">
+		<event>unit_voices_selected</event>
+		<unit_voice>artillery_rocket_camels</unit_voice>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_single_click_melee_attack_artillery">
+		<event>Unit_Voices_Single_Click_Melee_Attack</event>
+		<unit_voice>artillery_rockets</unit_voice>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_double_click_melee_attack_artillery">
+		<event>Unit_Voices_Double_Click_Melee_Attack</event>
+		<unit_voice>artillery_rockets</unit_voice>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_single_click_missile_attack_artillery">
+		<event>Unit_Voices_Single_Click_Missile_Attack</event>
+		<unit_voice>artillery_rockets</unit_voice>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_single_click_missile_attack_artillery">
+		<event>Unit_Voices_Double_Click_Missile_Attack</event>
+		<unit_voice>artillery_rockets</unit_voice>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_move_slow_artillery">
+		<event>Unit_Voices_Move_Slow</event>
+		<unit_voice>artillery_rockets</unit_voice>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_move_fast_artillery">
+		<event>Unit_Voices_Move_Fast</event>
+		<unit_voice>artillery_rockets</unit_voice>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_fire_at_will_on_artillery">
+		<event>Unit_Voices_Fire_At_Will_On</event>
+		<unit_voice>artillery_rockets</unit_voice>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_fire_at_will_off_artillery">
+		<event>Unit_Voices_Fire_At_Will_Off</event>
+		<unit_voice>artillery_rockets</unit_voice>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_melee_on_artillery">
+		<event>Unit_Voices_Melee_On</event>
+		<unit_voice>artillery_rockets</unit_voice>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_melee_off_artillery">
+		<event>Unit_Voices_Melee_Off</event>
+		<unit_voice>artillery_rockets</unit_voice>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_halt_artillery">
+		<event>Unit_Voices_Halt</event>
+		<unit_voice>artillery_rockets</unit_voice>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_halt_off_artillery">
+		<event>Unit_Voices_Halt_Off</event>
+		<unit_voice>artillery_rockets</unit_voice>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_engage_at_will_artillery">
+		<event>Unit_Voices_Engage_At_Will</event>
+		<unit_voice>artillery_rockets</unit_voice>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_guard_on_artillery">
+		<event>Unit_Voices_Guard_On</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_guard_off_artillery">
+		<event>Unit_Voices_Guard_Off</event>
+		<unit_voice>artillery_rockets</unit_voice>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_skirmish_off_artillery">
+		<event>Unit_Voices_Skirmish_Off</event>
+		<unit_voice>artillery_rockets</unit_voice>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_special_ability_loose_formation_artillery">
+		<event>loose_formation</event>
+		<unit_voice>artillery_rockets</unit_voice>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_special_ability_tight_formation_artillery">
+		<event>tight_formation</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_withdraw_artillery">
+		<event>Unit_Voices_Withdraw</event>
+		<unit_voice>artillery_rockets</unit_voice>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_rally_artillery">
+		<event>Unit_Voices_Rally</event>
+		<unit_voice>artillery_rockets</unit_voice>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_special_ability_unlimber_artillery">
+		<event>unlimber</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_special_ability_limber_artillery">
+		<event>Limber</event>
+		<unit_voice>artillery_rockets</unit_voice>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_special_ability_gambionade_artillery">
+		<event>Unit_Voices_Gabionade</event>
+		<unit_voice>artillery_rockets</unit_voice>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_completed_orders_artillery">
+		<event>Unit_Voices_completed_orders</event>
+		<unit_voice>artillery_rockets</unit_voice>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_shot_type_round_artillery">
+		<event>unit_voices_shot_type_round</event>
+		<unit_voice>artillery_rockets</unit_voice>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_shot_type_percussive_artillery">
+		<event>unit_voices_shot_type_percussive</event>
+		<unit_voice>artillery_rockets</unit_voice>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_shot_type_canister_artillery">
+		<event>unit_voices_shot_type_canister</event>
+		<unit_voice>artillery_rockets</unit_voice>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_shot_type_shrapnel_artillery">
+		<event>unit_voices_shot_type_shrapnel</event>
+		<unit_voice>artillery_rockets</unit_voice>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_shot_type_carcass_artillery">
+		<event>unit_voices_shot_type_carcass</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_shot_type_quicklime_artillery">
+		<event>unit_voices_shot_type_quicklime</event>
+		<unit_voice>artillery_rockets</unit_voice>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_shot_type_grape_artillery">
+		<event>unit_voices_shot_type_grape</event>
+		<unit_voice>artillery_rockets</unit_voice>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_single_click_melee_attack_infantry">
+		<event>Unit_Voices_Single_Click_Melee_Attack</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_double_click_melee_attack_infantry">
+		<event>Unit_Voices_Double_Click_Melee_Attack</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_single_click_missile_attack_infantry">
+		<event>Unit_Voices_Single_Click_Missile_Attack</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_single_click_missile_attack_infantry">
+		<event>Unit_Voices_Double_Click_Missile_Attack</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_move_slow_infantry">
+		<event>Unit_Voices_Move_Slow</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_move_fast_infantry">
+		<event>Unit_Voices_Move_Fast</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_fire_at_will_on_infantry">
+		<event>Unit_Voices_Fire_At_Will_On</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_fire_at_will_on_infantry_grenadiers">
+		<event>Unit_Voices_Fire_At_Will_On</event>
+		<unit_class>infantry_grenadiers</unit_class>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_fire_at_will_off_infantry">
+		<event>Unit_Voices_Fire_At_Will_Off</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_melee_on_infantry">
+		<event>Unit_Voices_Melee_On</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_melee_off_infantry">
+		<event>Unit_Voices_Melee_Off</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_special_ability_plug_bayonets_true_infantry">
+		<event>plug_bayonets_true</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_special_ability_plug_bayonets_false_infantry">
+		<event>plug_bayonets_false</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_halt_infantry">
+		<event>Unit_Voices_Halt</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_halt_off_infantry">
+		<event>Unit_Voices_Halt_Off</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_engage_at_will_infantry">
+		<event>Unit_Voices_Engage_At_Will</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_guard_on_infantry">
+		<event>Unit_Voices_Guard_On</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_guard_off_infantry">
+		<event>Unit_Voices_Guard_Off</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_skirmish_on_infantry">
+		<event>Unit_Voices_Skirmish_On</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_skirmish_off_infantry">
+		<event>Unit_Voices_Skirmish_Off</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_special_ability_loose_formation_infantry">
+		<event>loose_formation</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_special_ability_tight_formation_infantry">
+		<event>tight_formation</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_withdraw_infantry">
+		<event>Unit_Voices_Withdraw</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_rally_infantry">
+		<event>Unit_Voices_Rally</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_special_ability_pike_square_formation_infantry">
+		<event>pike_square_formation</event>
+		<event>square_formation</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_formation_line_infantry">
+		<event>unknown</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_formation_column_inf">
+		<event>Unit_voices_formation_collum_infantry</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_special_ability_wooden_stakes_infantry">
+		<event>wooden_stakes</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_special_ability_earthworks_infantry">
+		<event>earthworks</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_shot_type_grenade_infantry">
+		<event>unit_voices_shot_type_grenade</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_special_ability_fougasse_infantry">
+		<event>fougasse_basic</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_special_ability_fougasse_infantry">
+		<event>fougasse_improved</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_shot_type_fougasse_infantry">
+		<event>unit_voices_shot_type_fougasse</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_special_ability_chevaux_de_frise_infantry">
+		<event>chevaux_de_frise</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_shot_type_grappling_hook_infantry">
+		<event>unit_voices_shot_type_grappling_hook</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_infantry">
+		<event>unit_voices_selected</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_infantry_elite">
+		<event>unit_voices_selected</event>
+		<unit_class>infantry_elite</unit_class>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_infantry_grenadiers">
+		<event>unit_voices_selected</event>
+		<unit_class>infantry_grenadiers</unit_class>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_infantry_irregulars">
+		<event>unit_voices_selected</event>
+		<unit_class>infantry_irregulars</unit_class>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_infantry_light_foot">
+		<event>unit_voices_selected</event>
+		<unit_class>infantry_light</unit_class>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_infantry_line">
+		<event>unit_voices_selected</event>
+		<unit_class>infantry_line</unit_class>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_infantry_melee">
+		<event>unit_voices_selected</event>
+		<unit_class>infantry_melee</unit_class>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_infantry_militia">
+		<event>unit_voices_selected</event>
+		<unit_class>infantry_militia</unit_class>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_infantry_skirmishers">
+		<event>unit_voices_selected</event>
+		<unit_class>infantry_skirmishers</unit_class>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_infantry_armed_citizenry">
+		<event>unit_voices_selected</event>
+		<unit_voice>infantry_citizen</unit_voice>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_infantry_armed_peasantry">
+		<event>unit_voices_selected</event>
+		<unit_voice>infantry_peasant</unit_voice>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_infantry_bowmen">
+		<event>unit_voices_selected</event>
+		<unit_voice>infantry_bowmen</unit_voice>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_infantry_pikemen">
+		<event>unit_voices_selected</event>
+		<unit_voice>infantry_pikemen</unit_voice>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_infantry_coldstream_guard">
+		<event>unit_voices_selected</event>
+		<unit>euro_superior_line_infantry_coldstream</unit>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_infantry_colonial_light_foot">
+		<event>unit_voices_selected</event>
+		<unit_class>infantry_light</unit_class>
+		<unit_voice>infantry_colonial</unit_voice>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_infantry_colonial_line">
+		<event>unit_voices_selected</event>
+		<unit_class>infantry_line</unit_class>
+		<unit_voice>infantry_colonial</unit_voice>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_infantry_colonial_militia">
+		<event>unit_voices_selected</event>
+		<unit_class>infantry_militia</unit_class>
+		<unit_voice>infantry_colonial</unit_voice>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_infantry_company">
+		<event>unit_voices_selected</event>
+		<unit_voice>infantry_company</unit_voice>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_infantry_conscripts">
+		<event>unit_voices_selected</event>
+		<unit>euro_republican_conscript_infantry</unit>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_infantry_elite_light_foot">
+		<event>unit_voices_selected</event>
+		<unit>euro_elite_light_infantry_green_jackets</unit>
+		<unit>euro_elite_light_infantry_tirailleurs</unit>
+		<unit>euro_elite_light_infantry_croatian_grenzers</unit>
+		<unit>euro_elite_light_infantry</unit>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_infantry_expatriates">
+		<event>unit_voices_selected</event>
+		<unit>euro_expat_infantry_irish_brigade</unit>
+		<unit>euro_expat_infantry_regiments_etrangeres</unit>
+		<unit>euro_expat_infantry_chasseurs_britannique</unit>
+		<unit>euro_expat_infantry</unit>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_infantry_ferguson_rifles">
+		<event>unit_voices_selected</event>
+		<unit>ferguson_riflemen</unit>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_infantry_firelock_citizen">
+		<event>unit_voices_selected</event>
+		<unit>armed_citizenry_matchlocks_europe</unit>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_infantry_firelock_peasant">
+		<event>unit_voices_selected</event>
+		<unit>east_ethnic_peasants_firelocks</unit>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_infantry_frontiersmen">
+		<event>unit_voices_selected</event>
+		<unit>euro_rangers_frontiersmen</unit>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_infantry_green_jacket">
+		<event>unit_voices_selected</event>
+		<unit>euro_elite_light_infantry_green_jackets</unit>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_infantry_guards">
+		<event>unit_voices_selected</event>
+		<unit>euro_republican_guard</unit>
+		<unit>revolutionary_guard</unit>
+		<unit>guard_infantry</unit>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_infantry_rabble">
+		<event>unit_voices_selected</event>
+		<unit>landless_rabble_bhumiya</unit>
+		<unit>landless_rabble</unit>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_infantry_long_rifles">
+		<event>unit_voices_selected</event>
+		<unit>americas_long_rifle_men</unit>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_infantry_maroons">
+		<event>unit_voices_selected</event>
+		<unit>maroon_rebels</unit>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_infantry_musketeers">
+		<event>unit_voices_selected</event>
+		<unit_voice>infantry_musketeers</unit_voice>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_infantry_mountain_troops">
+		<event>unit_voices_selected</event>
+		<unit_voice>infantry_mountain</unit_voice>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_infantry_musketmen">
+		<event>unit_voices_selected</event>
+		<unit_voice>infantry_musketmen</unit_voice>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_infantry_provincial">
+		<event>unit_voices_selected</event>
+		<unit>euro_provincial_line_infantry</unit>
+		<unit>euro_militia_infantry_provincial_infantry</unit>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_infantry_rangers">
+		<event>unit_voices_selected</event>
+		<unit>euro_expat_infantry_regiments_etrangeres</unit>
+		<unit>euro_rangers_siberian_hunters</unit>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_infantry_republican_guard">
+		<event>unit_voices_selected</event>
+		<unit>euro_republican_guard</unit>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_infantry_revolutionary_guard">
+		<event>unit_voices_selected</event>
+		<unit>revolutionary_guard</unit>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_infantry_riflemen">
+		<event>unit_voices_selected</event>
+		<unit_voice>infantry_riflemen</unit_voice>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_infantry_highlanders">
+		<event>unit_voices_selected</event>
+		<unit_voice>highlander</unit_voice>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_infantry_clansmen">
+		<event>unit_voices_selected</event>
+		<unit>highland_clansmen</unit>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_infantry_black_watch">
+		<event>unit_voices_selected</event>
+		<unit>euro_superior_line_infantry_blackwatch</unit>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_infantry_irish_brigade">
+		<event>unit_voices_selected</event>
+		<unit>euro_expat_infantry_irish_brigade</unit>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_infantry_rapparees">
+		<event>unit_voices_selected</event>
+		<unit>rapparees</unit>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_infantry_hunters">
+		<event>unit_voices_selected</event>
+		<unit>euro_rangers_siberian_hunters</unit>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_infantry_cossack_foot">
+		<event>unit_voices_selected</event>
+		<unit>cossack_infantry</unit>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_infantry_azzars">
+		<event>unit_voices_selected</event>
+		<unit>azzars</unit>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_infantry_bargir">
+		<event>unit_voices_selected</event>
+		<unit>east_ethnic_musketeers_bargir</unit>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_infantry_barbets">
+		<event>unit_voices_selected</event>
+		<unit>euro_light_infantry_barbets</unit>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_infantry_beylik_janissaries">
+		<event>unit_voices_selected</event>
+		<unit>janissaries_beylik</unit>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_infantry_beylik_grenadiers">
+		<event>unit_voices_selected</event>
+		<unit>janissaries_beylik_grenadiers</unit>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_infantry_beylik_musketeers">
+		<event>unit_voices_selected</event>
+		<unit>janissaries_beylik_musketeers</unit>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_infantry_cemaat">
+		<event>unit_voices_selected</event>
+		<unit>janissaries_cemaat</unit>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_infantry_cemaat_grenadiers">
+		<event>unit_voices_selected</event>
+		<unit>janissaries_cemaat_grenadiers</unit>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_infantry_riskers_of_souls">
+		<event>unit_voices_selected</event>
+		<unit>riskers_of_souls</unit>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_infantry_sekban">
+		<event>unit_voices_selected</event>
+		<unit>janissaries_sekban</unit>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_infantry_light_nizam">
+		<event>unit_voices_selected</event>
+		<unit>nizam_I_cedit_light_infantry</unit>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_infantry_nizam_line">
+		<event>unit_voices_selected</event>
+		<unit>nizam_I_cedit_infantry</unit>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_infantry_nizam_rifles">
+		<event>unit_voices_selected</event>
+		<unit>nizam_I_cedit_rifles</unit>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_infantry_semenys">
+		<event>unit_voices_selected</event>
+		<unit>armed_peasantry_semenys</unit>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_infantry_kurds">
+		<event>unit_voices_selected</event>
+		<unit>east_ethnic_hillmen_musketeers_kurdish</unit>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_infantry_persian_hillmen">
+		<event>unit_voices_selected</event>
+		<unit>east_ethnic_hillmen_musketeers</unit>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_infantry_zamindari">
+		<event>unit_voices_selected</event>
+		<unit>east_pikemen_zamindari</unit>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_infantry_persian_musketeers">
+		<event>unit_voices_selected</event>
+		<unit>east_ethnic_musketmen_mughal_musketeers</unit>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_infantry_tufangis">
+		<event>unit_voices_selected</event>
+		<unit>armed_peasantry_tufangis</unit>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_infantry_isarelys">
+		<event>unit_voices_selected</event>
+		<unit>east_ethnic_musketmen_isarelys</unit>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_infantry_dervishes">
+		<event>unit_voices_selected</event>
+		<unit>east_ethnic_warriors_dervishes</unit>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_infantry_desert_warriors">
+		<event>unit_voices_selected</event>
+		<unit>desert_warriors</unit>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_infantry_fellahin">
+		<event>unit_voices_selected</event>
+		<unit>east_ethnic_swordsmen_fellahin</unit>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_infantry_fellahin_musketeers">
+		<event>unit_voices_selected</event>
+		<unit>east_ethnic_musketmen_fellahin_musketeers</unit>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_infantry_african_musketeers">
+		<event>unit_voices_selected</event>
+		<unit>african_slaver_musketeers</unit>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_infantry_african">
+		<event>unit_voices_selected</event>
+		<unit>euro_african_infantry</unit>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_infantry_african_spearmen">
+		<event>unit_voices_selected</event>
+		<unit>african_tribal_spearmen</unit>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_infantry_cazadores">
+		<event>unit_voices_selected</event>
+		<unit>cazadores</unit>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_infantry_guerillas">
+		<event>unit_voices_selected</event>
+		<unit>sp_ed_guerillas</unit>
+		<unit>guerillas</unit>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_infantry_miquelets">
+		<event>unit_voices_selected</event>
+		<unit>euro_light_infantry_miquelets</unit>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_infantry_chasseurs">
+		<event>unit_voices_selected</event>
+		<unit>euro_light_infantry_chasseur_a_pied</unit>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_infantry_courers">
+		<event>unit_voices_selected</event>
+		<unit>euro_rangers_courers_de_bois</unit>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_infantry_eic">
+		<event>unit_voices_selected</event>
+		<unit>euro_company_infantry_e_india_co</unit>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_infantry_maison_du_roi">
+		<event>unit_voices_selected</event>
+		<unit>maison_du_roi</unit>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_infantry_etrangers">
+		<event>unit_voices_selected</event>
+		<unit>euro_expat_infantry_regiments_etrangeres</unit>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_infantry_vieux">
+		<event>unit_voices_selected</event>
+		<unit>euro_superior_line_infantry_vieux</unit>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_infantry_voltigeurs">
+		<event>unit_voices_selected</event>
+		<unit>voltigeur</unit>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_infantry_tirailleurs">
+		<event>unit_voices_selected</event>
+		<unit>euro_elite_light_infantry_tirailleurs</unit>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_infantry_petits_viuex">
+		<event>unit_voices_selected</event>
+		<unit>euro_superior_line_infantry_petits_vieux</unit>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_infantry_grenzers">
+		<event>unit_voices_selected</event>
+		<unit>euro_elite_light_infantry_croatian_grenzers</unit>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_infantry_hessians">
+		<event>unit_voices_selected</event>
+		<unit>americas_hessian_infantry</unit>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_infantry_jaegers">
+		<event>unit_voices_selected</event>
+		<unit>euro_light_infantry_jaegers</unit>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_infantry_prussian_jaegers">
+		<event>unit_voices_selected</event>
+		<unit>euro_elite_light_infantry_prussian_jaegers</unit>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_infantry_pandours">
+		<event>unit_voices_selected</event>
+		<unit>pandours</unit>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_infantry_windbusche_jaegers">
+		<event>unit_voices_selected</event>
+		<unit>euro_elite_light_infantry_windbuchse_jaegers</unit>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_infantry_turkish_hillmen">
+		<event>unit_voices_selected</event>
+		<unit>east_ethnic_hillmen_musketeers</unit>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_artillery_elephant_cannon">
+		<event>unit_voices_selected</event>
+		<unit>64_lber_land_cannon_elephant</unit>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_dragoon_viborniye_streltsy">
+		<event>unit_voices_selected</event>
+		<unit>viborniye_streltsy</unit>
+		<unit_class>dragoons</unit_class>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_dragoon_streltsy">
+		<event>unit_voices_selected</event>
+		<unit>gorodskiye_streltsy</unit>
+		<unit_class>dragoons</unit_class>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_dragoon_carribiniers">
+		<event>unit_voices_selected</event>
+		<unit>euro_carabiniers</unit>
+		<unit_class>dragoons</unit_class>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_load_ready">
+		<event>Unit_Voices_Weapon_Load_Ready</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_weapon_aim">
+		<event>Unit_Voices_Weapon_Aim</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_load_sequence_fire">
+		<event>Unit_Voices_Weapon_Fire</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_single_click_melee_attack_cavalry_officer_sergeant">
+		<event>unknown</event>
+		<unit_class>cavalry_standard</unit_class>
+		<unit_class>cavalry_heavy</unit_class>
+		<unit_class>cavalry_lancers</unit_class>
+		<unit_class>cavalry_camels</unit_class>
+		<unit_class>cavalry_irregular</unit_class>
+		<unit_class>cavalry_light</unit_class>
+		<unit_class>elephants</unit_class>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_double_click_melee_attack_cavalry_officer_sergeant">
+		<event>unknown</event>
+		<unit_class>cavalry_standard</unit_class>
+		<unit_class>cavalry_heavy</unit_class>
+		<unit_class>cavalry_lancers</unit_class>
+		<unit_class>cavalry_camels</unit_class>
+		<unit_class>cavalry_irregular</unit_class>
+		<unit_class>cavalry_light</unit_class>
+		<unit_class>elephants</unit_class>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_single_click_missile_attack_cavalry_officer_sergeant">
+		<event>unknown</event>
+		<unit_class>cavalry_missile</unit_class>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_single_click_missile_attack_cavalry_officer_sergeant">
+		<event>unknown</event>
+		<unit_class>cavalry_missile</unit_class>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_move_slow_cavalry_officer_sergeant">
+		<event>unknown</event>
+		<unit_class>cavalry_standard</unit_class>
+		<unit_class>cavalry_heavy</unit_class>
+		<unit_class>cavalry_lancers</unit_class>
+		<unit_class>cavalry_camels</unit_class>
+		<unit_class>cavalry_irregular</unit_class>
+		<unit_class>cavalry_light</unit_class>
+		<unit_class>elephants</unit_class>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_move_fast_cavalry_officer_sergeant">
+		<event>unknown</event>
+		<unit_class>cavalry_standard</unit_class>
+		<unit_class>cavalry_heavy</unit_class>
+		<unit_class>cavalry_lancers</unit_class>
+		<unit_class>cavalry_camels</unit_class>
+		<unit_class>cavalry_irregular</unit_class>
+		<unit_class>cavalry_light</unit_class>
+		<unit_class>elephants</unit_class>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_move_slow_missile_cavalry_officer_sergeant">
+		<event>unknown</event>
+		<unit_class>cavalry_missile</unit_class>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_move_fast_missile_cavalry_officer_sergeant">
+		<event>unknown</event>
+		<unit_class>cavalry_missile</unit_class>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_fire_at_will_on_cavalry_officer_sergeant">
+		<event>unknown</event>
+		<unit_class>cavalry_missile</unit_class>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_fire_at_will_off_cavalry_officer_sergeant">
+		<event>unknown</event>
+		<unit_class>cavalry_missile</unit_class>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_melee_on_cavalry_officer_sergeant">
+		<event>unknown</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_melee_off_cavalry_officer_sergeant">
+		<event>unknown</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_halt_cavalry_officer_sergeant">
+		<event>unknown</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_halt_off_cavalry_officer_sergeant">
+		<event>unknown</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_engage_at_will_cavalry_officer_sergeant">
+		<event>unknown</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_guard_on_cavalry_officer_sergeant">
+		<event>unknown</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_guard_off_cavalry_officer_sergeant">
+		<event>unknown</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_skirmish_on_cavalry_officer_sergeant">
+		<event>unknown</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_skirmish_off_cavalry_officer_sergeant">
+		<event>unknown</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_special_ability_loose_formation_cavalry_officer_sergeant">
+		<event>unknown</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_special_ability_tight_formation_cavalry_officer_sergeant">
+		<event>unknown</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_withdraw_cavalry_officer_sergeant">
+		<event>unknown</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_rally_cavalry_officer_sergeant">
+		<event>unknown</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_special_ability_mount_cavalry_officer_sergeant">
+		<event>unknown</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_special_ability_dismount_cavalry_officer_sergeant">
+		<event>unknown</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_special_ability_diamond_formation_cavalry_officer_sergeant">
+		<event>unknown</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_special_ability_wedge_formation_cavalry_officer_sergeant">
+		<event>unknown</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_completed_orders_cavalry_officer_sergeant">
+		<event>unknown</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_single_click_melee_attack_dragoons_sergeant">
+		<event>unknown</event>
+		<unit_class>dragoons</unit_class>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_double_click_melee_attack_dragoons_sergeant">
+		<event>unknown</event>
+		<unit_class>dragoons</unit_class>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_single_click_missile_attack_dragoons_sergeant">
+		<event>unknown</event>
+		<unit_class>dragoons</unit_class>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_single_click_missile_attack_dragoons_sergeant">
+		<event>unknown</event>
+		<unit_class>dragoons</unit_class>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_move_slow_dragoons_sergeant">
+		<event>unknown</event>
+		<unit_class>dragoons</unit_class>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_move_fast_dragoons_sergeant">
+		<event>unknown</event>
+		<unit_class>dragoons</unit_class>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_fire_at_will_on_dragoons_sergeant">
+		<event>unknown</event>
+		<unit_class>dragoons</unit_class>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_fire_at_will_off_dragoons_sergeant">
+		<event>unknown</event>
+		<unit_class>dragoons</unit_class>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_melee_on_dragoons_sergeant">
+		<event>unknown</event>
+		<unit_class>dragoons</unit_class>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_melee_off_dragoons_sergeant">
+		<event>unknown</event>
+		<unit_class>dragoons</unit_class>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_special_ability_plug_bayonets_true_dragoons_sergeant">
+		<event>unknown</event>
+		<unit_class>dragoons</unit_class>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_special_ability_plug_bayonets_false_dragoons_sergeant">
+		<event>unknown</event>
+		<unit_class>dragoons</unit_class>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_halt_dragoons_sergeant">
+		<event>unknown</event>
+		<unit_class>dragoons</unit_class>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_halt_off_dragoons_sergeant">
+		<event>unknown</event>
+		<unit_class>dragoons</unit_class>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_engage_at_will_dragoons_sergeant">
+		<event>unknown</event>
+		<unit_class>dragoons</unit_class>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_guard_on_dragoons_sergeant">
+		<event>unknown</event>
+		<unit_class>dragoons</unit_class>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_guard_off_dragoons_sergeant">
+		<event>unknown</event>
+		<unit_class>dragoons</unit_class>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_skirmish_on_dragoons_sergeant">
+		<event>unknown</event>
+		<unit_class>dragoons</unit_class>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_skirmish_off_dragoons_sergeant">
+		<event>unknown</event>
+		<unit_class>dragoons</unit_class>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_special_ability_loose_formation_dragoons_sergeant">
+		<event>unknown</event>
+		<unit_class>dragoons</unit_class>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_special_ability_tight_formation_dragoons_sergeant">
+		<event>unknown</event>
+		<unit_class>dragoons</unit_class>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_withdraw_dragoons_sergeant">
+		<event>unknown</event>
+		<unit_class>dragoons</unit_class>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_rally_dragoons_sergeant">
+		<event>unknown</event>
+		<unit_class>dragoons</unit_class>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_special_ability_mount_dragoons_sergeant">
+		<event>unknown</event>
+		<unit_class>dragoons</unit_class>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_special_ability_dismount_dragoons_sergeant">
+		<event>unknown</event>
+		<unit_class>dragoons</unit_class>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_special_ability_diamond_formation_dragoons_sergeant">
+		<event>unknown</event>
+		<unit_class>dragoons</unit_class>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_special_ability_wedge_formation_dragoons_sergeant">
+		<event>unknown</event>
+		<unit_class>dragoons</unit_class>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_completed_orders_dragoons_sergeant">
+		<event>unknown</event>
+		<unit_class>dragoons</unit_class>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_shot_type_grappling_hook_dragoons_sergeant">
+		<event>unknown</event>
+		<unit_class>dragoons</unit_class>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_single_click_melee_attack_artillery_sergeant">
+		<event>unknown</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_double_click_melee_attack_artillery_sergeant">
+		<event>unknown</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_single_click_missile_attack_artillery_sergeant">
+		<event>unknown</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_single_click_missile_attack_artillery_sergeant">
+		<event>unknown</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_move_slow_artillery_sergeant">
+		<event>unknown</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_move_fast_artillery_sergeant">
+		<event>unknown</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_fire_at_will_on_artillery_sergeant">
+		<event>unknown</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_fire_at_will_off_artillery_sergeant">
+		<event>unknown</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_melee_on_artillery_sergeant">
+		<event>unknown</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_melee_off_artillery_sergeant">
+		<event>unknown</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_halt_artillery_sergeant">
+		<event>unknown</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_halt_off_artillery_sergeant">
+		<event>unknown</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_engage_at_will_artillery_sergeant">
+		<event>unknown</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_guard_on_artillery_sergeant">
+		<event>unknown</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_guard_off_artillery_sergeant">
+		<event>unknown</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_skirmish_off_artillery_sergeant">
+		<event>unknown</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_special_ability_loose_formation_artillery_sergeant">
+		<event>unknown</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_special_ability_tight_formation_artillery_sergeant">
+		<event>unknown</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_withdraw_artillery_sergeant">
+		<event>unknown</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_rally_artillery_sergeant">
+		<event>unknown</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_special_ability_unlimber_artillery_sergeant">
+		<event>unknown</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_special_ability_limber_artillery_sergeant">
+		<event>unknown</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_special_ability_gambionade_artillery_sergeant">
+		<event>unknown</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_completed_orders_artillery_sergeant">
+		<event>unknown</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_shot_type_round_artillery_sergeant">
+		<event>unknown</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_shot_type_percussive_artillery_sergeant">
+		<event>unknown</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_shot_type_canister_artillery_sergeant">
+		<event>unknown</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_shot_type_shrapnel_artillery_sergeant">
+		<event>unknown</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_shot_type_carcass_artillery_sergeant">
+		<event>unknown</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_shot_type_quicklime_artillery_sergeant">
+		<event>unknown</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_shot_type_grape_artillery_sergeant">
+		<event>unknown</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_single_click_melee_attack_infantry_sergeant">
+		<event>unknown</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_double_click_melee_attack_infantry_sergeant">
+		<event>unknown</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_single_click_missile_attack_infantry_sergeant">
+		<event>unknown</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_single_click_missile_attack_infantry_sergeant">
+		<event>unknown</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_move_slow_infantry_sergeant">
+		<event>unknown</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_move_fast_infantry_sergeant">
+		<event>unknown</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_fire_at_will_on_infantry_sergeant">
+		<event>unknown</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_fire_at_will_off_infantry_sergeant">
+		<event>unknown</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_melee_on_infantry_sergeant">
+		<event>unknown</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_melee_off_infantry_sergeant">
+		<event>unknown</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_special_ability_plug_bayonets_true_infantry_sergeant">
+		<event>unknown</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_special_ability_plug_bayonets_false_infantry_sergeant">
+		<event>unknown</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_halt_infantry_sergeant">
+		<event>unknown</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_halt_off_infantry_sergeant">
+		<event>unknown</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_engage_at_will_infantry_sergeant">
+		<event>unknown</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_guard_on_infantry_sergeant">
+		<event>unknown</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_guard_off_infantry_sergeant">
+		<event>unknown</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_skirmish_on_infantry_sergeant">
+		<event>unknown</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_skirmish_off_infantry_sergeant">
+		<event>unknown</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_special_ability_loose_formation_infantry_sergeant">
+		<event>unknown</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_special_ability_tight_formation_infantry_sergeant">
+		<event>unknown</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_withdraw_infantry_sergeant">
+		<event>unknown</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_rally_infantry_sergeant">
+		<event>unknown</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_special_ability_pike_square_formation_infantry_sergeant">
+		<event>unknown</event>
+		<event>square_formation</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_formation_line_infantry_sergeant">
+		<event>unknown</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_formation_column_inf_sergeant">
+		<event>unknown</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_special_ability_wooden_stakes_infantry_sergeant">
+		<event>unknown</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_special_ability_earthworks_infantry_sergeant">
+		<event>unknown</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_shot_type_grenade_infantry_sergeant">
+		<event>unknown</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_special_ability_fougasse_infantry_sergeant">
+		<event>unknown</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_special_ability_fougasse_infantry_sergeant">
+		<event>unknown</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_shot_type_fougasse_infantry_sergeant">
+		<event>unknown</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_special_ability_chevaux_de_frise_infantry_sergeant">
+		<event>unknown</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_shot_type_grappling_hook_infantry_sergeant">
+		<event>unknown</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_defend_on_gen">
+		<event>Unit_Voices_defend_On</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_defend_off_gen">
+		<event>Unit_Voices_defend_Off</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_group">
+		<event>Unit_Voices_Group</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_draw">
+		<event>Unit_Voices_Draw</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_shot_type_chain">
+		<event>unit_voices_shot_type_chain</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_shot_type_explosive">
+		<event>unit_voices_shot_type_explosive</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_shot_type_rocket">
+		<event>unit_voices_shot_type_rocket</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_shot_type_air_pellet">
+		<event>unit_voices_shot_type_air_pellet</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_shot_type_arrow">
+		<event>unit_voices_shot_type_arrow</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_shot_type_throwing_axe">
+		<event>unit_voices_shot_type_throwing_axe</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_shot_type_chakkar_ring">
+		<event>unit_voices_shot_type_chakkar_ring</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_special_ability_pike_wall_formation">
+		<event>pike_wall_formation</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_special_ability_light_infantry_behaviour">
+		<event>light_infantry_behaviour</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_special_ability_fire_and_advance">
+		<event>fire_and_advance</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_taunt">
+		<event>Taunt</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_individual_retreating">
+		<event>Unit_Voices_Retreat</event>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_native_bowmen">
+		<event>unit_voices_selected</event>
+		<unit>nan_huron_archers</unit>
+		<unit>nan_pueblo_archers</unit>
+		<unit>nan_cherokee_archers</unit>
+		<unit>nan_plains_archers</unit>
+		<unit>nan_iroquois_archers</unit>
+		<unit_voice>infantry_bowmen</unit_voice>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_native_artillery">
+		<event>unit_voices_selected</event>
+		<unit>nan_huron_artillery</unit>
+		<unit>nan_plains_artillery</unit>
+		<unit>nan_cherokee_artillery</unit>
+		<unit>nan_iroquois_artillery</unit>
+		<unit>nan_pueblo_artillery</unit>
+		<unit_voice>artillery_generic</unit_voice>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_native_cavalry">
+		<event>unit_voices_selected</event>
+		<unit>nan_huron_mounted_musketeers</unit>
+		<unit>nan_pueblo_mounted_lancers</unit>
+		<unit>nan_cherokee_mounted_musketeers</unit>
+		<unit>nan_cherokee_mounted_lancers</unit>
+		<unit>nan_iroquois_mounted_lancers</unit>
+		<unit>nan_pueblo_mounted_musketeers</unit>
+		<unit>nan_huron_mounted_lancers</unit>
+		<unit>nan_plains_mounted_musketeers</unit>
+		<unit>nan_plains_mounted_lancers</unit>
+		<unit>nan_iroquois_mounted_musketeers</unit>
+		<unit_voice>cavalry_generic</unit_voice>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_native_warriors">
+		<event>unit_voices_selected</event>
+		<unit>nan_pueblo_warriors</unit>
+		<unit>nan_pueblo_elite</unit>
+		<unit>nan_plains_warriors</unit>
+		<unit>nan_huron_ojibwa_warriors</unit>
+		<unit>nan_huron_elite</unit>
+		<unit>nan_cherokee_warriors</unit>
+		<unit>nan_cherokee_elite</unit>
+		<unit>nan_plains_elite</unit>
+		<unit>nan_huron_warriors</unit>
+		<unit>nan_iroquois_warriors</unit>
+		<unit>nan_iroquois_elite</unit>
+		<unit_voice>infantry_warrior_native</unit_voice>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_native_musketmen">
+		<event>unit_voices_selected</event>
+		<unit>nan_plains_musketeers</unit>
+		<unit>nan_cherokee_musketeers</unit>
+		<unit>nan_huron_musketeers</unit>
+		<unit>nan_pueblo_musketeers</unit>
+		<unit>nan_iroquois_musketeers</unit>
+		<unit_voice>infantry_musketeers</unit_voice>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_native_tribal">
+		<event>unit_voices_selected</event>
+		<unit>nan_huron_medicine_men</unit>
+		<unit>nan_iroquois_medicine_men</unit>
+		<unit>nan_pueblo_medicine_men</unit>
+		<unit>nan_plains_medicine_men</unit>
+		<unit>nan_cherokee_medicine_men</unit>
+		<unit>nan_plains_tribesmen</unit>
+		<unit>nan_iroquois_tribesmen</unit>
+		<unit>nan_pueblo_tribesmen</unit>
+		<unit>nan_huron_tribesmen</unit>
+		<unit>nan_cherokee_tribesmen</unit>
+		<unit_class>infantry_militia</unit_class>
+		<unit_voice>infantry_tribal</unit_voice>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_cherokee_atakapa_elite_warriors">
+		<event>unit_voices_selected</event>
+		<unit>nan_cherokee_atakapa_elite_warriors</unit>
+		<unit_class>infantry_irregulars</unit_class>
+		<unit_voice>infantry_bowmen</unit_voice>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_iroquois_mohawk_elite_warriors">
+		<event>unit_voices_selected</event>
+		<unit>nan_iroquois_mohawk_elite_warriors</unit>
+		<unit_class>infantry_elite</unit_class>
+		<unit_voice>infantry_warrior_native</unit_voice>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_huron_petun_wolf_warriors">
+		<event>unit_voices_selected</event>
+		<unit>nan_huron_petun_wolf_warriors</unit>
+		<unit_class>infantry_melee</unit_class>
+		<unit_voice>infantry_warrior_native</unit_voice>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_plains_blackfoot">
+		<event>unit_voices_selected</event>
+		<unit>nan_plains_blackfoot_blood_warriors</unit>
+		<unit_class>infantry_melee</unit_class>
+		<unit_voice>infantry_warrior_native</unit_voice>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_pueblo_apache_mescalero_warriors">
+		<event>unit_voices_selected</event>
+		<unit>nan_pueblo_apache_mescalero_warriors</unit>
+		<unit_class>cavalry_missile</unit_class>
+		<unit_voice>cavalry_generic</unit_voice>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_plains_cheyenne_dog_soldiers">
+		<event>unit_voices_selected</event>
+		<unit>nan_plains_cheyenne_dog_soldiers</unit>
+		<unit_class>dragoons</unit_class>
+		<unit_voice>cavalry_generic</unit_voice>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_huron_ojibwa_warriors">
+		<event>unit_voices_selected</event>
+		<unit>nan_huron_ojibwa_warriors</unit>
+		<unit_class>infantry_melee</unit_class>
+		<unit_voice>infantry_warrior_native</unit_voice>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_iroquois_winnebago_warriors">
+		<event>unit_voices_selected</event>
+		<unit>nan_iroquois_winnebago_warriors</unit>
+		<unit_class>infantry_melee</unit_class>
+		<unit_voice>infantry_warrior_native</unit_voice>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_muscogee_tribesmen">
+		<event>unit_voices_selected</event>
+		<unit>nan_cherokee_muscogee_tribesmen</unit>
+		<unit_class>cavalry_missile</unit_class>
+		<unit_voice>infantry_musketeers</unit_voice>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_pueblo_navajo_scout_warriors">
+		<event>unit_voices_selected</event>
+		<unit>nan_pueblo_navajo_scout_warriors</unit>
+		<unit_class>cavalry_missile</unit_class>
+		<unit_voice>cavalry_generic</unit_voice>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_iroquois_onondaga_fire_keepers">
+		<event>unit_voices_selected</event>
+		<unit>nan_iroquois_onondaga_fire_keepers</unit>
+		<unit_class>cavalry_missile</unit_class>
+		<unit_voice>cavalry_generic</unit_voice>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_huron_ojibwa_horse_warriors">
+		<event>unit_voices_selected</event>
+		<unit>nan_huron_ojibwa_horse_warriors</unit>
+		<unit_class>cavalry_missile</unit_class>
+		<unit_voice>cavalry_generic</unit_voice>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_plains_comanche_mounted_warriors">
+		<event>unit_voices_selected</event>
+		<unit>nan_plains_comanche_mounted_warriors</unit>
+		<unit_class>cavalry_missile</unit_class>
+		<unit_voice>cavalry_generic</unit_voice>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_cherokee_creek_horse_riders">
+		<event>unit_voices_selected</event>
+		<unit>nan_cherokee_creek_horse_riders</unit>
+		<unit_class>cavalry_irregular</unit_class>
+		<unit_voice>cavalry_generic</unit_voice>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_pueblo_crow_horse_warriors">
+		<event>unit_voices_selected</event>
+		<unit>nan_pueblo_crow_horse_warriors</unit>
+		<unit_class>cavalry_irregular</unit_class>
+		<unit_voice>cavalry_generic</unit_voice>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_chiefs_bodyguard">
+		<event>unit_voices_selected</event>
+		<unit>nan_pueblo_generals_bodyguard</unit>
+		<unit>nan_cherokee_generals_bodyguard</unit>
+		<unit>nan_iroquois_generals_bodyguard</unit>
+		<unit>nan_huron_generals_bodyguard</unit>
+		<unit>nan_plains_generals_bodyguard</unit>
+		<unit_class>general</unit_class>
+	</sound_bank_event>
+	<sound_bank_event sound_event_name="unit_voices_selected_generic_natives">
+		<event>unit_voices_selected</event>
+		<unit>nan_iroquois_armed_citizenry</unit>
+		<unit>nan_plains_armed_citizenry</unit>
+		<unit>nan_pueblo_armed_citizenry</unit>
+		<unit>nan_huron_armed_citizenry</unit>
+		<unit>nan_cherokee_armed_citizenry</unit>
+		<unit>nan_american_pioneer_militia</unit>
+	</sound_bank_event>
+</sound_bank>
