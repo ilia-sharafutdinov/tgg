@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<rec type="REGION">
+ <s>tunis</s><!-- Region Name -->
+ <xml_include path="population/tunis.xml"/>
+ <traits/>
+ <rec type="REGION_SLOT_MANAGER">
+  <ary type="REGION_SLOT_ARRAY">
+   <xml_include path="region_slot/settlement-tunis-tunis-settlement_army-admin.xml"/>
+   <xml_include path="region_slot/settlement-tunis-tunis-settlement_ordnance.xml"/>
+   <xml_include path="region_slot/settlement-tunis-tunis-settlement_government.xml"/>
+   <xml_include path="region_slot/settlement-tunis-tunis-settlement_culture.xml"/>
+   <xml_include path="region_slot/wheat-tunis-coast.xml"/>
+   <xml_include path="region_slot/iron-tunis-djerissa.xml"/>
+   <xml_include path="region_slot/port-tunis-safaqis.xml"/>
+   <xml_include path="region_slot/town-tunis-kasserine.xml"/>
+   <xml_include path="region_slot/town-tunis-tataouine.xml"/>
+  </ary>
+  <xml_include path="region_slot/tunis-road.xml"/>
+  <xml_include path="region_slot/tunis-walls.xml"/>
+ </rec>
+ <i>676806712</i><!-- Region ID -->
+ <xml_include path="region_slot/settlement-tunis-tunis.xml"/>
+ <u>1</u>
+ <no/>
+ <no/>
+ <u>125</u><!-- Subsistence Agricultural (SA) -->
+ <u>1150</u><!-- Industrial Wealth Plus (SA) -->
+ <u>1150</u><!-- Industrial Wealth Plus (SA) Minus Trading Losses -->
+ <u>25</u><!-- Town Wealth -->
+ <u>25</u><!-- Minimum Town Wealth -->
+ <u>25</u><!-- Town Wealth -->
+ <i>-6</i><!-- Town Monetary Growth -->
+ <u>0</u>
+ <u>0</u>
+ <no/><!-- Exempt From Tax -->
+ <u>666785096</u><!-- Controlling Faction ID -->
+ <rec type="LINE_OF_SIGHT">
+  <yes/>
+  <v2 x="43.75" y="191.25"/>
+  <v2 x="98.75" y="276.25"/>
+  <xml_include path="quadtree/tunis-0001.xml"/>
+ </rec>
+ <u>828223112</u><!-- Governor ID -->
+ <s>europe</s><!-- Theatre -->
+ <s>barbary_rebels</s><!-- Emergent Nation -->
+ <s>Tunisian Rebels</s><!-- Region Rebels -->
+ <s>sc_mideast_islamic</s><!-- Region Culture For Types Of Buildings -->
+ <rec type="REGION_RECRUITMENT_MANAGER">
+  <ary type="REGION_RECRUITMENT_ITEM_ARRAY"/>
+  <no/>
+  <i>631207600</i>
+ </rec>
+ <no/>
+ <u4_ary>0 0 0 0 0 0 0 0</u4_ary>
+ <u4_ary>0 0 0 0 0 0 0 0</u4_ary>
+ <u4_ary>0 0 0 0 0 0 0 0</u4_ary>
+ <u4_ary>257 761 1013 132 635 632 635 384</u4_ary>
+ <bool_ary>0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1</bool_ary>
+ <i4_ary/>
+ <ary type="RELIGIOUS_MISSION_BUILDING_ARRAY"/>
+ <ary type="FORT_ARRAY"/>
+ <resources_array>
+  africa_west_indies
+  colonial_euro_factions
+  dahomey
+  galleys
+  global
+  north_africa
+  camels
+  desert
+  med_coast
+ </resources_array>
+ <s/><!-- Latest Constuction -->
+ <u>5</u><!-- One Of These 5/10/15/20/25/30/40 Amount Of Prestige When Conquered -->
+ <u>3219575671</u><!-- Region Array. From Top To Bottom. 1st 62 Regions 881206575. 2nd 15 Regions 1771634741. 3rd 32 Regions 1928099569. 4th 28 Regions 688200897. Why???? -->
+ <loc>regions_onscreen_tunis</loc>
+ <flt>-0.0013270393246784806</flt>
+</rec>
