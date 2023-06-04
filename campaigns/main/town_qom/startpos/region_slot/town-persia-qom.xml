@@ -23,7 +23,8 @@
    <ary type="FORTIFICATIONS_BLOCK"/>
   </rec>
   <rec type="BUILDING_MANAGER">
-   <no/>
+   <yes/>
+   <building health="100" name="school" faction="safavids" government="gov_absolute_monarchy"/>
    <no/>
   </rec>
   <u>586800592</u><!-- Building Slot ID -->
@@ -32,8 +33,8 @@
   <i>0</i>
   <v2x x="361.3999938964844" y="245.5"/>
   <i>0</i><!-- 1=Meagre 2=Low 3=Average 4=High 5=Abundant Yeilds For Commodities -->
-  <i>0</i><!-- 1=Very Poor 2=Poor 3=Growing 4=Prosperous 5=Wealthy For Town/Port/Road/Wall -->
-  <no/><!-- Town or Port Emerged -->
+  <i>1</i><!-- 1=Very Poor 2=Poor 3=Growing 4=Prosperous 5=Wealthy For Town/Port/Road/Wall -->
+  <yes/><!-- Town or Port Emerged -->
   <i>1</i><!-- Commodities = 0; Town/Port/Road/Wall = 1 -->
   <i>1</i><!-- Commodities = 2; Town/Port/Road/Wall = 1 -->
   <u>4294967295</u><!-- 4294967295 Trade/Finance ID -->
