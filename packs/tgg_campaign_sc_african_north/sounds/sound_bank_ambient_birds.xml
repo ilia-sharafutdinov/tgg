@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" generated="2008-03-03T10:23:07">
+
+  <!-- For complete up to date list of sound bank event parameters please refer to:
+    \Empire\data\sounds\sound_bank_log.rtf
+    
+    This file is created every time the game is loaded with the following in the following file:
+    \Empire\ApplicationData\scripts\user.empire_script.txt
+    
+    enable_sound true;
+    sound_debug true;
+  
+  -->
+
+  <sound_bank_event sound_event_name ="SILENT">
+    <subculture>sc_european_east</subculture>
+    <subculture>sc_european_north</subculture>
+    <subculture>sc_european_south</subculture>
+    <subculture>sc_european_west</subculture>
+    <subculture>sc_indian_hindu</subculture> 
+    <subculture>sc_indian_islamic</subculture>
+    <subculture>sc_indian_sikh</subculture>
+    <subculture>sc_mideast_islamic</subculture>
+    <subculture>sc_european_america</subculture>
+    <subculture>sc_tribal_american</subculture>
+    <subculture>sc_tribal_steppe</subculture>
+    <precipitation_type>dust</precipitation_type>
+  </sound_bank_event>
+
+  <sound_bank_event sound_event_name ="SILENT">
+    <subculture>sc_european_east</subculture>
+    <subculture>sc_european_north</subculture>
+    <subculture>sc_european_south</subculture>
+    <subculture>sc_european_west</subculture>
+    <subculture>sc_indian_hindu</subculture> 
+    <subculture>sc_indian_islamic</subculture>
+    <subculture>sc_indian_sikh</subculture>
+    <subculture>sc_mideast_islamic</subculture>
+    <subculture>sc_european_america</subculture>
+    <subculture>sc_tribal_american</subculture>
+    <subculture>sc_tribal_steppe</subculture>
+    <time_of_day>night</time_of_day>
+  </sound_bank_event>
+
+<!--DAY BIRDS-->
+  
+  <sound_bank_event sound_event_name ="EUROPEAN_BIRDS">
+    <subculture>sc_european_east</subculture>
+    <subculture>sc_european_north</subculture>
+    <subculture>sc_european_south</subculture>
+    <subculture>sc_european_west</subculture>
+    <precipitation_type>none</precipitation_type>
+    <time_of_day>morning</time_of_day>
+    <time_of_day>midday</time_of_day>
+    <time_of_day>afternoon</time_of_day>    
+  </sound_bank_event>
+
+  <sound_bank_event sound_event_name ="NORTH_AFRICAN_BIRDS">
+    <subculture>sc_indian_hindu</subculture> 
+    <subculture>sc_indian_islamic</subculture>
+    <subculture>sc_indian_sikh</subculture>
+    <precipitation_type>none</precipitation_type>
+    <time_of_day>morning</time_of_day>
+    <time_of_day>midday</time_of_day>
+    <time_of_day>afternoon</time_of_day>    
+  </sound_bank_event>
+
+  <sound_bank_event sound_event_name ="MIDDLE_EASTERN_BIRDS">
+    <subculture>sc_mideast_islamic</subculture>
+    <precipitation_type>none</precipitation_type>
+    <time_of_day>morning</time_of_day>
+    <time_of_day>midday</time_of_day>
+    <time_of_day>afternoon</time_of_day>    
+  </sound_bank_event>
+
+  <sound_bank_event sound_event_name ="NORTH_AMERICAN_BIRDS">
+    <subculture>sc_european_america</subculture>
+    <precipitation_type>none</precipitation_type>
+    <time_of_day>morning</time_of_day>
+    <time_of_day>midday</time_of_day>
+    <time_of_day>afternoon</time_of_day>    
+  </sound_bank_event>
+
+  <sound_bank_event sound_event_name ="TROPICAL_BIRDS">
+    <subculture>sc_tribal_american</subculture>
+    <subculture>sc_tribal_steppe</subculture>
+    <precipitation_type>none</precipitation_type>
+    <time_of_day>morning</time_of_day>
+    <time_of_day>midday</time_of_day>
+    <time_of_day>afternoon</time_of_day>    
+  </sound_bank_event>
+
+<!--EVENING BIRDS-->
+
+  <sound_bank_event sound_event_name ="EUROPEAN_BIRDS_EVENING">
+    <subculture>sc_european_east</subculture>
+    <subculture>sc_european_north</subculture>
+    <subculture>sc_european_south</subculture>
+    <subculture>sc_european_west</subculture>
+    <precipitation_type>none</precipitation_type>
+    <time_of_day>evening</time_of_day>    
+  </sound_bank_event>
+
+  <sound_bank_event sound_event_name ="NORTH_AFRICAN_BIRDS_EVENING">
+    <subculture>sc_indian_hindu</subculture> 
+    <subculture>sc_indian_islamic</subculture>
+    <subculture>sc_indian_sikh</subculture>
+    <precipitation_type>none</precipitation_type>
+    <time_of_day>evening</time_of_day>   
+  </sound_bank_event>
+
+  <sound_bank_event sound_event_name ="MIDDLE_EASTERN_BIRDS_EVENING">
+    <subculture>sc_mideast_islamic</subculture>
+    <precipitation_type>none</precipitation_type>
+    <time_of_day>evening</time_of_day>  
+  </sound_bank_event>
+
+  <sound_bank_event sound_event_name ="NORTH_AMERICAN_BIRDS_EVENING">
+    <subculture>sc_european_america</subculture>
+    <precipitation_type>none</precipitation_type>
+    <time_of_day>evening</time_of_day>  
+  </sound_bank_event>
+
+  <sound_bank_event sound_event_name ="TROPICAL_BIRDS_EVENING">
+    <subculture>sc_tribal_american</subculture>
+    <subculture>sc_tribal_steppe</subculture>
+    <precipitation_type>none</precipitation_type>
+    <time_of_day>evening</time_of_day>   
+  </sound_bank_event>
+
+<!--RAIN BIRDS-->
+
+<sound_bank_event sound_event_name ="EUROPEAN_BIRDS_RAIN">
+    <subculture>sc_european_east</subculture>
+    <subculture>sc_european_north</subculture>
+    <subculture>sc_european_south</subculture>
+    <subculture>sc_european_west</subculture>
+    <precipitation_type>rain</precipitation_type>
+    <time_of_day>morning</time_of_day>
+    <time_of_day>midday</time_of_day> 
+    <time_of_day>afternoon</time_of_day> 
+    <time_of_day>evening</time_of_day>     
+  </sound_bank_event>
+
+  <sound_bank_event sound_event_name ="NORTH_AFRICAN_BIRDS_RAIN">
+    <subculture>sc_indian_hindu</subculture> 
+    <subculture>sc_indian_islamic</subculture>
+    <subculture>sc_indian_sikh</subculture>
+    <precipitation_type>rain</precipitation_type>
+    <time_of_day>morning</time_of_day>
+    <time_of_day>midday</time_of_day> 
+    <time_of_day>afternoon</time_of_day> 
+    <time_of_day>evening</time_of_day>   
+  </sound_bank_event>
+
+  <sound_bank_event sound_event_name ="MIDDLE_EASTERN_BIRDS_RAIN">
+    <subculture>sc_mideast_islamic</subculture>
+    <precipitation_type>rain</precipitation_type>
+    <time_of_day>morning</time_of_day>
+    <time_of_day>midday</time_of_day> 
+    <time_of_day>afternoon</time_of_day> 
+    <time_of_day>evening</time_of_day> 
+  </sound_bank_event>
+
+  <sound_bank_event sound_event_name ="NORTH_AMERICAN_BIRDS_RAIN">
+    <subculture>sc_european_america</subculture>
+    <precipitation_type>rain</precipitation_type>
+    <time_of_day>morning</time_of_day>
+    <time_of_day>midday</time_of_day> 
+    <time_of_day>afternoon</time_of_day> 
+    <time_of_day>evening</time_of_day>  
+  </sound_bank_event>
+
+  <sound_bank_event sound_event_name ="TROPICAL_BIRDS_RAIN">
+    <subculture>sc_tribal_american</subculture>
+    <subculture>sc_tribal_steppe</subculture>
+    <precipitation_type>rain</precipitation_type>
+    <time_of_day>morning</time_of_day>
+    <time_of_day>midday</time_of_day> 
+    <time_of_day>afternoon</time_of_day> 
+    <time_of_day>evening</time_of_day>   
+  </sound_bank_event>
+
+<!--SNOW WILDLIFE-->
+
+  <sound_bank_event sound_event_name ="SNOW_WILDLIFE">
+    <precipitation_type>snow</precipitation_type>
+  </sound_bank_event>
+
+</dataroot>
