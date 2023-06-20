@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" generated="2008-03-03T10:23:07">
+
+  <!-- For complete up to date list of sound bank event parameters please refer to:
+    \Empire\data\sounds\sound_bank_log.rtf
+    
+    This file is created every time the game is loaded with the following in the following file:
+    \Empire\ApplicationData\scripts\user.empire_script.txt
+    
+    enable_sound true;
+    sound_debug true;
+  
+  -->
+
+  <sound_bank_event sound_event_name ="Music_Frontend">
+    <music_state>Music_Front_End</music_state>
+ </sound_bank_event>
+
+  <sound_bank_event sound_event_name ="Music_Credits">
+    <music_state>Music_Credits</music_state>
+  </sound_bank_event>
+
+  <sound_bank_event sound_event_name ="Music_Campaign_Europe_North">
+    <music_state>Music_Campaign</music_state>
+    <subculture>sc_european_north</subculture>
+  </sound_bank_event>
+
+  <sound_bank_event sound_event_name ="Music_Campaign_Europe_South">
+    <music_state>Music_Campaign</music_state>
+    <subculture>sc_european_south</subculture>
+  </sound_bank_event>
+
+<sound_bank_event sound_event_name ="Music_Campaign_Europe_West">
+    <music_state>Music_Campaign</music_state>
+    <subculture>sc_european_west</subculture>
+  </sound_bank_event>
+
+<sound_bank_event sound_event_name ="Music_Campaign_America">
+    <music_state>Music_Campaign</music_state>
+    <subculture>sc_european_america</subculture>
+  </sound_bank_event>
+
+  <sound_bank_event sound_event_name ="Music_Campaign_Eastern">
+    <music_state>Music_Campaign</music_state>
+    <subculture>sc_european_east</subculture>
+    <subculture>sc_mideast_islamic</subculture>
+  </sound_bank_event>
+  
+  <sound_bank_event sound_event_name ="Music_Campaign_Indian">
+    <music_state>Music_Campaign</music_state>
+    <subculture>sc_indian_hindu</subculture> 
+    <subculture>sc_indian_islamic</subculture>
+    <subculture>sc_indian_sikh</subculture>
+  </sound_bank_event>
+
+  <sound_bank_event sound_event_name ="Music_Campaign_Tribal">
+    <music_state>Music_Campaign</music_state>
+    <subculture>sc_tribal_american</subculture>
+    <subculture>sc_tribal_steppe</subculture>
+  </sound_bank_event>
+
+  <sound_bank_event sound_event_name ="Music_Prebattle_naval">
+    <music_state>Music_PreBattle_Naval</music_state>
+  </sound_bank_event>
+
+<sound_bank_event sound_event_name ="Music_Prebattle_pirates">
+    <music_state>Music_PreBattle_Naval</music_state>
+    <faction>pirates</faction>
+  </sound_bank_event>
+
+<sound_bank_event sound_event_name ="Music_Prebattle_western">
+    <music_state>Music_PreBattle_Land</music_state>
+    <subculture>sc_european_america</subculture>
+    <subculture>sc_european_east</subculture>
+    <subculture>sc_european_north</subculture>
+    <subculture>sc_european_south</subculture>
+    <subculture>sc_european_west</subculture>
+  </sound_bank_event>
+
+<sound_bank_event sound_event_name ="Music_Prebattle_eastern">
+    <music_state>Music_PreBattle_Land</music_state>
+    <subculture>sc_mideast_islamic</subculture>
+  </sound_bank_event>
+
+<sound_bank_event sound_event_name ="Music_Prebattle_indian">
+    <music_state>Music_PreBattle_Land</music_state>
+    <subculture>sc_indian_hindu</subculture> 
+    <subculture>sc_indian_islamic</subculture>
+    <subculture>sc_indian_sikh</subculture>
+  </sound_bank_event>
+
+<sound_bank_event sound_event_name ="Music_Prebattle_tribal">
+    <music_state>Music_PreBattle_Land</music_state>
+    <subculture>sc_tribal_american</subculture>
+    <subculture>sc_tribal_steppe</subculture>
+  </sound_bank_event>
+
+  <sound_bank_event sound_event_name ="Music_End_Turn_western">
+    <music_state>Music_End_Turn</music_state>
+    <subculture>sc_european_america</subculture>
+    <subculture>sc_european_east</subculture>
+    <subculture>sc_european_north</subculture>
+    <subculture>sc_european_south</subculture>
+    <subculture>sc_european_west</subculture>
+  </sound_bank_event>
+
+<sound_bank_event sound_event_name ="Music_End_Turn_eastern">
+    <music_state>Music_End_Turn</music_state>
+    <subculture>sc_mideast_islamic</subculture>
+  </sound_bank_event>
+
+<sound_bank_event sound_event_name ="Music_End_Turn_indian">
+    <music_state>Music_End_Turn</music_state>
+    <subculture>sc_indian_hindu</subculture> 
+    <subculture>sc_indian_islamic</subculture>
+    <subculture>sc_indian_sikh</subculture>
+  </sound_bank_event>
+
+<sound_bank_event sound_event_name ="Music_End_Turn_tribal">
+    <music_state>Music_End_Turn</music_state>
+    <subculture>sc_tribal_american</subculture>
+    <subculture>sc_tribal_steppe</subculture>
+  </sound_bank_event>
+
+  <sound_bank_event sound_event_name ="Music_battle_deployment_naval">
+    <music_state>Music_Naval_Deployment</music_state>
+  </sound_bank_event>
+
+  <sound_bank_event sound_event_name ="Music_battle_deployment_western">
+    <music_state>Music_Land_Deployment</music_state>
+    <subculture>sc_european_america</subculture>
+    <subculture>sc_european_east</subculture>
+    <subculture>sc_european_north</subculture>
+    <subculture>sc_european_south</subculture>
+    <subculture>sc_european_west</subculture>
+  </sound_bank_event>
+
+  <sound_bank_event sound_event_name ="Music_battle_deployment_eastern">
+    <music_state>Music_Land_Deployment</music_state>
+    <subculture>sc_mideast_islamic</subculture>
+  </sound_bank_event>
+
+  <sound_bank_event sound_event_name ="Music_battle_deployment_indian">
+    <music_state>Music_Land_Deployment</music_state>
+    <subculture>sc_indian_hindu</subculture> 
+    <subculture>sc_indian_islamic</subculture>
+    <subculture>sc_indian_sikh</subculture>
+  </sound_bank_event>
+
+  <sound_bank_event sound_event_name ="Music_battle_deployment_tribal">
+    <music_state>Music_Land_Deployment</music_state>
+    <subculture>sc_tribal_american</subculture>
+    <subculture>sc_tribal_steppe</subculture>
+  </sound_bank_event>
+
+  <sound_bank_event sound_event_name ="Music_battle_naval_1">
+    <music_state>Music_Naval_Battle</music_state>
+    <random_number_selection>0</random_number_selection>
+  </sound_bank_event>
+
+  <sound_bank_event sound_event_name ="Music_battle_naval_2">
+    <music_state>Music_Naval_Battle</music_state>
+    <random_number_selection>1</random_number_selection>
+  </sound_bank_event>
+
+  <sound_bank_event sound_event_name ="Music_battle_naval_3">
+    <music_state>Music_Naval_Battle</music_state>
+    <random_number_selection>2</random_number_selection>
+  </sound_bank_event>
+  
+  <sound_bank_event sound_event_name ="Music_battle_naval_4">
+    <music_state>Music_Naval_Battle</music_state>
+    <random_number_selection>3</random_number_selection>
+  </sound_bank_event>
+
+<sound_bank_event sound_event_name ="Music_battle_pirates_1">
+    <music_state>Music_Naval_Battle</music_state>
+    <faction>pirates</faction>
+  <random_number_selection>0</random_number_selection>
+  </sound_bank_event>
+
+  <sound_bank_event sound_event_name ="Music_battle_pirates_2">
+    <music_state>Music_Naval_Battle</music_state>
+    <faction>pirates</faction>
+    <random_number_selection>1</random_number_selection>
+  </sound_bank_event>
+
+  <sound_bank_event sound_event_name ="Music_battle_western_1">
+    <music_state>Music_Land_Battle</music_state>
+    <subculture>sc_european_america</subculture>
+    <subculture>sc_european_east</subculture>
+    <subculture>sc_european_north</subculture>
+    <subculture>sc_european_south</subculture>
+    <subculture>sc_european_west</subculture>
+    <random_number_selection>0</random_number_selection>
+  </sound_bank_event>
+  
+  <sound_bank_event sound_event_name ="Music_battle_western_2">
+    <music_state>Music_Land_Battle</music_state>
+    <subculture>sc_european_america</subculture>
+    <subculture>sc_european_east</subculture>
+    <subculture>sc_european_north</subculture>
+    <subculture>sc_european_south</subculture>
+    <subculture>sc_european_west</subculture>
+    <random_number_selection>1</random_number_selection>
+  </sound_bank_event>
+
+  <sound_bank_event sound_event_name ="Music_battle_western_3">
+    <music_state>Music_Land_Battle</music_state>
+    <subculture>sc_european_america</subculture>
+    <subculture>sc_european_east</subculture>
+    <subculture>sc_european_north</subculture>
+    <subculture>sc_european_south</subculture>
+    <subculture>sc_european_west</subculture>
+    <random_number_selection>2</random_number_selection>
+  </sound_bank_event>
+
+<sound_bank_event sound_event_name ="Music_battle_eastern_1">
+    <music_state>Music_Land_Battle</music_state>
+    <subculture>sc_mideast_islamic</subculture>
+  <random_number_selection>0</random_number_selection>
+</sound_bank_event>
+
+<sound_bank_event sound_event_name ="Music_battle_eastern_2">
+  <music_state>Music_Land_Battle</music_state>
+  <subculture>sc_mideast_islamic</subculture>
+  <random_number_selection>1</random_number_selection>
+  </sound_bank_event>
+
+  <sound_bank_event sound_event_name ="Music_battle_eastern_3">
+    <music_state>Music_Land_Battle</music_state>
+    <subculture>sc_mideast_islamic</subculture>
+    <random_number_selection>2</random_number_selection>
+  </sound_bank_event>
+  
+<sound_bank_event sound_event_name ="Music_battle_indian_1">
+    <music_state>Music_Land_Battle</music_state>
+    <subculture>sc_indian_hindu</subculture> 
+    <subculture>sc_indian_islamic</subculture>
+    <subculture>sc_indian_sikh</subculture>
+  <random_number_selection>0</random_number_selection>
+</sound_bank_event>
+
+<sound_bank_event sound_event_name ="Music_battle_indian_2">
+  <music_state>Music_Land_Battle</music_state>
+  <subculture>sc_indian_hindu</subculture>
+  <subculture>sc_indian_islamic</subculture>
+  <subculture>sc_indian_sikh</subculture>
+  <random_number_selection>1</random_number_selection>
+  </sound_bank_event>
+
+  <sound_bank_event sound_event_name ="Music_battle_indian_3">
+    <music_state>Music_Land_Battle</music_state>
+    <subculture>sc_indian_hindu</subculture>
+    <subculture>sc_indian_islamic</subculture>
+    <subculture>sc_indian_sikh</subculture>
+    <random_number_selection>2</random_number_selection>
+  </sound_bank_event>
+
+<sound_bank_event sound_event_name ="Music_battle_tribal_1">
+    <music_state>Music_Land_Battle</music_state>
+    <subculture>sc_tribal_american</subculture>
+    <subculture>sc_tribal_steppe</subculture>
+  <random_number_selection>0</random_number_selection>
+</sound_bank_event>
+
+<sound_bank_event sound_event_name ="Music_battle_tribal_2">
+  <music_state>Music_Land_Battle</music_state>
+  <subculture>sc_tribal_american</subculture>
+  <subculture>sc_tribal_steppe</subculture>
+  <random_number_selection>1</random_number_selection>
+  </sound_bank_event>
+
+  <sound_bank_event sound_event_name ="Music_battle_tribal_3">
+    <music_state>Music_Land_Battle</music_state>
+    <subculture>sc_tribal_american</subculture>
+    <subculture>sc_tribal_steppe</subculture>
+    <random_number_selection>2</random_number_selection>
+  </sound_bank_event>
+
+  <sound_bank_event sound_event_name ="Music_battle_results_western">
+    <music_state>Music_Land_Battle_Results</music_state>
+    <subculture>sc_european_america</subculture>
+    <subculture>sc_european_east</subculture>
+    <subculture>sc_european_north</subculture>
+    <subculture>sc_european_south</subculture>
+    <subculture>sc_european_west</subculture>
+  </sound_bank_event>
+
+  <sound_bank_event sound_event_name ="Music_battle_results_tribal">
+    <music_state>Music_Land_Battle_Results</music_state>
+    <subculture>sc_tribal_american</subculture>
+    <subculture>sc_tribal_steppe</subculture>
+  </sound_bank_event>
+
+  <sound_bank_event sound_event_name ="Music_battle_results_ottoman">
+    <music_state>Music_Land_Battle_Results</music_state>
+    <subculture>sc_mideast_islamic</subculture>
+  </sound_bank_event>
+
+  <sound_bank_event sound_event_name ="Music_battle_results_indian">
+    <music_state>Music_Land_Battle_Results</music_state>
+    <subculture>sc_indian_hindu</subculture>
+    <subculture>sc_indian_islamic</subculture>
+    <subculture>sc_indian_sikh</subculture>
+  </sound_bank_event>
+
+  <sound_bank_event sound_event_name ="Music_battle_results_naval">
+    <music_state>Music_Naval_Battle_Results</music_state>
+  </sound_bank_event>
+
+</dataroot>

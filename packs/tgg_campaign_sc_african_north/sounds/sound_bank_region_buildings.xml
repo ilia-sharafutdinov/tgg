@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" generated="2008-03-03T10:23:07">
+
+  <!-- For complete up to date list of sound bank event parameters please refer to:
+    \Empire\data\sounds\sound_bank_log.rtf
+    
+    This file is created every time the game is loaded with the following in the following file:
+    \Empire\ApplicationData\scripts\user.empire_script.txt
+    
+    enable_sound true;
+    sound_debug true;
+  
+  -->
+
+  <sound_bank_event sound_event_name ="BUILDING_SELECTED">
+  </sound_bank_event>
+
+   <sound_bank_event sound_event_name ="CITY_BUILDING_SELECTED_AMERICA_LATIN_CAPITAL">
+     <capital>1</capital>
+    <ambience>0</ambience>
+  </sound_bank_event>
+
+  <sound_bank_event sound_event_name ="CITY_BUILDING_SELECTED_AMERICA_NORTH_CAPITAL">
+    <subculture>sc_european_america</subculture>
+    <capital>1</capital>
+    <ambience>0</ambience>
+  </sound_bank_event>
+
+ 
+
+  <sound_bank_event sound_event_name ="CITY_BUILDING_SELECTED_EUROPE_CAPITAL">
+    <subculture>sc_european_north</subculture>
+    <subculture>sc_european_east</subculture>
+    <capital>1</capital>
+    <ambience>0</ambience>
+  </sound_bank_event>
+
+
+  <sound_bank_event sound_event_name ="CITY_BUILDING_SELECTED_SOUTHERN_EUROPE_CAPITAL">
+    <subculture>sc_european_south</subculture>
+    <subculture>sc_european_west</subculture>
+    <capital>1</capital>
+    <ambience>0</ambience>
+  </sound_bank_event>
+
+  <sound_bank_event sound_event_name ="CITY_BUILDING_SELECTED_INDIA_CAPITAL">
+    <subculture>sc_indian_hindu</subculture>
+    <subculture>sc_indian_islamic</subculture>
+    <subculture>sc_indian_sikh</subculture>
+    <capital>1</capital>
+    <ambience>0</ambience>
+  </sound_bank_event>
+
+
+  <sound_bank_event sound_event_name ="CITY_BUILDING_SELECTED_MIDDLE_EAST_CAPITAL">
+    <subculture>sc_mideast_islamic</subculture>
+    <capital>1</capital>
+    <ambience>0</ambience>
+  </sound_bank_event>
+
+  <sound_bank_event sound_event_name ="CITY_BUILDING_SELECTED_SE_ASIA_CAPITAL">
+    <capital>1</capital>
+    <ambience>0</ambience>
+  </sound_bank_event>
+
+  <sound_bank_event sound_event_name ="CITY_BUILDING_SELECTED_TRIBAL_CAPITAL">
+    <subculture>sc_tribal_steppe</subculture>
+    <subculture>sc_tribal_american</subculture>
+    <capital>1</capital>
+    <ambience>0</ambience>
+  </sound_bank_event>
+
+  
+
+  <sound_bank_event sound_event_name ="VILLAGE_BUILDING_SELECTED_AMERICA_LATIN">
+    <capital>0</capital>
+    <ambience>0</ambience>
+  </sound_bank_event>
+
+  <sound_bank_event sound_event_name ="VILLAGE_BUILDING_SELECTED_AMERICA_NORTH">
+    <subculture>sc_european_america</subculture>
+    <capital>0</capital>
+    <ambience>0</ambience>
+  </sound_bank_event>
+
+  <sound_bank_event sound_event_name ="VILLAGE_BUILDING_SELECTED_EUROPE">
+    <subculture>sc_european_north</subculture>
+    <subculture>sc_european_east</subculture>
+    <capital>0</capital>
+    <ambience>0</ambience>
+  </sound_bank_event>
+
+
+  <sound_bank_event sound_event_name ="VILLAGE_BUILDING_SELECTED_SOUTHERN_EUROPE">
+    <subculture>sc_european_south</subculture>
+    <subculture>sc_european_west</subculture>
+    <capital>0</capital>
+    <ambience>0</ambience>
+  </sound_bank_event>
+
+  <sound_bank_event sound_event_name ="VILLAGE_BUILDING_SELECTED_INDIA">
+    <subculture>sc_indian_hindu</subculture>
+    <subculture>sc_indian_islamic</subculture>
+    <subculture>sc_indian_sikh</subculture>
+    <capital>0</capital>
+    <ambience>0</ambience>
+  </sound_bank_event>
+
+
+  <sound_bank_event sound_event_name ="VILLAGE_BUILDING_SELECTED_MIDDLE_EAST">
+    <subculture>sc_mideast_islamic</subculture>
+    <capital>0</capital>
+    <ambience>0</ambience>
+  </sound_bank_event>
+
+  <sound_bank_event sound_event_name ="VILLAGE_BUILDING_SELECTED_SE_ASIA">
+    <capital>0</capital>
+    <ambience>0</ambience>
+  </sound_bank_event>
+
+  <sound_bank_event sound_event_name ="VILLAGE_BUILDING_SELECTED_TRIBAL">
+    <subculture>sc_tribal_steppe</subculture>
+    <subculture>sc_tribal_american</subculture>
+    <capital>0</capital>
+    <ambience>0</ambience>
+  </sound_bank_event>
+
+
+
+  <sound_bank_event sound_event_name ="CITY_BUILDING_AMERICA_LATIN_CAPITAL_AMBIENCE">
+    <capital>1</capital>
+    <ambience>1</ambience>
+  </sound_bank_event>
+
+  <sound_bank_event sound_event_name ="CITY_BUILDING_AMERICA_NORTH_CAPITAL_AMBIENCE">
+    <subculture>sc_european_america</subculture>
+    <capital>1</capital>
+    <ambience>1</ambience>
+  </sound_bank_event>
+
+
+  <sound_bank_event sound_event_name ="CITY_BUILDING_EUROPE_CAPITAL_AMBIENCE">
+    <subculture>sc_european_north</subculture>
+    <subculture>sc_european_east</subculture>
+    <capital>1</capital>
+    <ambience>1</ambience>
+  </sound_bank_event>
+
+
+  <sound_bank_event sound_event_name ="CITY_BUILDING_SOUTHERN_EUROPE_CAPITAL_AMBIENCE">
+    <subculture>sc_european_south</subculture>
+    <subculture>sc_european_west</subculture>
+    <capital>1</capital>
+    <ambience>1</ambience>
+  </sound_bank_event>
+
+  <sound_bank_event sound_event_name ="CITY_BUILDING_INDIA_CAPITAL_AMBIENCE">
+    <subculture>sc_indian_hindu</subculture>
+    <subculture>sc_indian_islamic</subculture>
+    <subculture>sc_indian_sikh</subculture>
+    <capital>1</capital>
+    <ambience>1</ambience>
+  </sound_bank_event>
+
+
+  <sound_bank_event sound_event_name ="CITY_BUILDING_MIDDLE_EAST_CAPITAL_AMBIENCE">
+    <subculture>sc_mideast_islamic</subculture>
+    <capital>1</capital>
+    <ambience>1</ambience>
+  </sound_bank_event>
+
+  <sound_bank_event sound_event_name ="CITY_BUILDING_SE_ASIA_CAPITAL_AMBIENCE">
+    <capital>1</capital>
+    <ambience>1</ambience>
+  </sound_bank_event>
+
+  <sound_bank_event sound_event_name ="CITY_BUILDING_TRIBAL_CAPITAL_AMBIENCE">
+    <subculture>sc_tribal_steppe</subculture>
+    <subculture>sc_tribal_american</subculture>
+    <capital>1</capital>
+    <ambience>1</ambience>
+  </sound_bank_event>
+
+
+  <sound_bank_event sound_event_name ="VILLAGE_BUILDING_AMERICA_LATIN_AMBIENCE">
+    <capital>0</capital>
+    <ambience>1</ambience>
+  </sound_bank_event>
+
+  <sound_bank_event sound_event_name ="VILLAGE_BUILDING_AMERICA_NORTH_AMBIENCE">
+    <subculture>sc_european_america</subculture>
+    <capital>0</capital>
+    <ambience>1</ambience>
+  </sound_bank_event>
+
+  <sound_bank_event sound_event_name ="VILLAGE_BUILDING_EUROPE_AMBIENCE">
+    <subculture>sc_european_north</subculture>
+    <subculture>sc_european_east</subculture>
+    <capital>0</capital>
+    <ambience>1</ambience>
+  </sound_bank_event>
+
+
+  <sound_bank_event sound_event_name ="VILLAGE_BUILDING_SOUTHERN_EUROPE_AMBIENCE">
+    <subculture>sc_european_south</subculture>
+    <subculture>sc_european_west</subculture>
+    <capital>0</capital>
+    <ambience>1</ambience>
+  </sound_bank_event>
+
+  <sound_bank_event sound_event_name ="VILLAGE_BUILDING_INDIA_AMBIENCE">
+    <subculture>sc_indian_hindu</subculture>
+    <subculture>sc_indian_islamic</subculture>
+    <subculture>sc_indian_sikh</subculture>
+    <capital>0</capital>
+    <ambience>1</ambience>
+  </sound_bank_event>
+
+
+  <sound_bank_event sound_event_name ="VILLAGE_BUILDING_MIDDLE_EAST_AMBIENCE">
+    <subculture>sc_mideast_islamic</subculture>
+    <capital>0</capital>
+    <ambience>1</ambience>
+  </sound_bank_event>
+
+  <sound_bank_event sound_event_name ="VILLAGE_BUILDING_SE_ASIA_AMBIENCE">
+    <capital>0</capital>
+    <ambience>1</ambience>
+  </sound_bank_event>
+
+  <sound_bank_event sound_event_name ="VILLAGE_BUILDING_TRIBAL_AMBIENCE">
+    <subculture>sc_tribal_steppe</subculture>
+    <subculture>sc_tribal_american</subculture>
+    <capital>0</capital>
+    <ambience>1</ambience>
+  </sound_bank_event>
+  
+
+</dataroot>

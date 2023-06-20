@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" generated="2008-03-03T10:23:07">
+  <!-- For complete up to date list of sound bank event parameters please refer to:
+    \Empire\data\sounds\sound_bank_log.rtf
+    
+    This file is created every time the game is loaded with the following in the following file:
+    \Empire\ApplicationData\scripts\user.empire_script.txt
+    
+    enable_sound true;
+    sound_debug true;
+  
+
+  -->
+
+  <sound_bank_event sound_event_name ="CAMPAIGN_AMBIENCE_MANAFACTURING_CRAFT_WORKSHOPS">
+    <building>craft_workshops_metal</building>
+    <building>craft_workshops_textiles</building>
+    <building>craft_workshops_pottery</building>
+    <building>ordnance_factory</building>
+  </sound_bank_event>
+
+  <sound_bank_event sound_event_name ="CAMPAIGN_AMBIENCE_CLOTH_CHAIN">
+    <building>weavers_cottages</building>
+    <building>water-powered_cloth_mill</building>
+    <building>steam-powered_cloth_mill</building>
+  </sound_bank_event>
+
+  <sound_bank_event sound_event_name ="CAMPAIGN_AMBIENCE_METAL_CHAIN">
+    <building>iron_workshops</building>
+    <building>ironmasters_works</building>
+    <building>steam_engine_factory</building>
+    <building>tribal_gunsmith</building>
+  </sound_bank_event>
+
+  <sound_bank_event sound_event_name ="CAMPAIGN_AMBIENCE_POTTERY_CHAIN">
+    <building>pottery_workshops</building>
+    <building>kilns</building>
+    <building>ceramics_factory</building>
+  </sound_bank_event>
+
+  <sound_bank_event sound_event_name ="CAMPAIGN_AMBIENCE_PORT">
+    <building>trading_port</building>
+    <building>commercial_port</building>
+    <building>shipyard</building>
+    <building>dockyard</building>
+    <building>drydock</building>
+    <building>steam_drydock</building>
+    <building>naval_hospital</building>
+    <building>naval_board</building>
+  </sound_bank_event>
+
+  <sound_bank_event sound_event_name ="CAMPAIGN_AMBIENCE_MILITARY_CHAIN">
+    <building>military_academy</building>
+    <building>minor_governors_barracks</building>
+    <building>admiralty</building>
+  </sound_bank_event>
+
+  <sound_bank_event sound_event_name ="CAMPAIGN_AMBIENCE_TRADE_CHAIN">
+    <building>commercial_basin</building>
+    <building>trading_company</building>
+  </sound_bank_event>
+
+  <sound_bank_event sound_event_name ="CAMPAIGN_AMBIENCE_FISHING_CHAIN">
+    <building>major_fishery</building>
+  </sound_bank_event>
+
+  <sound_bank_event sound_event_name ="CAMPAIGN_AMBIENCE_MILITARY_LEVEL_1_BARRACKS_WESTERN">
+    <building>army_barracks</building>
+    <building>drill_school</building>
+    <building>army_encampment</building>
+    <building>settlement_fortifications</building>
+    <building>tribal_warrior_lodge</building>
+    <building>tribal_confederation_of_tribes</building>
+    <building>stockade</building>
+    <building>minor_governors_encampment</building>
+    <building>minor_governors_barracks</building>
+    <building>minor_governors_encampment</building>
+    <subculture>sc_european_america</subculture>
+    <subculture>sc_european_east</subculture>
+    <subculture>sc_european_north</subculture>
+    <subculture>sc_european_south</subculture>
+    <subculture>sc_european_west</subculture>
+  </sound_bank_event>
+
+  <sound_bank_event sound_event_name ="CAMPAIGN_AMBIENCE_MILITARY_LEVEL_1_BARRACKS_EASTERN">
+    <building>army_barracks</building>
+    <building>drill_school</building>
+    <building>army_encampment</building>
+    <building>settlement_fortifications</building>
+    <building>tribal_warrior_lodge</building>
+    <building>tribal_confederation_of_tribes</building>
+    <building>stockade</building>
+    <building>minor_governors_encampment</building>
+    <building>minor_governors_barracks</building>
+    <building>minor_governors_encampment</building>
+    <subculture>sc_mideast_islamic</subculture>
+    <subculture>sc_indian_hindu</subculture>
+    <subculture>sc_indian_islamic</subculture>
+    <subculture>sc_indian_sikh</subculture>
+  </sound_bank_event>
+
+  <sound_bank_event sound_event_name ="CAMPAIGN_AMBIENCE_INFANTRY_BARRACKS_WESTERN">
+    <building>improved_settlement_fortifications</building>
+    <building>star_fort</building>
+    <building>army_board</building>
+    <subculture>sc_european_america</subculture>
+    <subculture>sc_european_east</subculture>
+    <subculture>sc_european_north</subculture>
+    <subculture>sc_european_south</subculture>
+    <subculture>sc_european_west</subculture>
+  </sound_bank_event>
+
+  <sound_bank_event sound_event_name ="CAMPAIGN_AMBIENCE_INFANTRY_BARRACKS_EASTERN">
+    <building>improved_settlement_fortifications</building>
+    <building>star_fort</building>
+    <building>army_board</building>
+    <subculture>sc_mideast_islamic</subculture>
+    <subculture>sc_indian_hindu</subculture>
+    <subculture>sc_indian_islamic</subculture>
+    <subculture>sc_indian_sikh</subculture>
+  </sound_bank_event>
+
+  <sound_bank_event sound_event_name ="CAMPAIGN_AMBIENCE_ARMOURY">
+    <building>great_arsenal</building>
+  </sound_bank_event>
+
+  <sound_bank_event sound_event_name ="CAMPAIGN_AMBIENCE_CAVALRY_BARRACKS">
+    <building>tribal_horse_breeder</building>
+  </sound_bank_event>
+
+  <sound_bank_event sound_event_name ="CAMPAIGN_AMBIENCE_ARTILLERY_BARRACKS">
+    <building>wooden_artillery_fort</building>
+    <building>western_artillery_fort</building>
+    <building>gunnery_school</building>
+  </sound_bank_event>
+
+  <sound_bank_event sound_event_name ="CAMPAIGN_AMBIENCE_SMALL_ARMS_FACTORY">
+    <building>cannon_foundry</building>
+  </sound_bank_event>
+
+  <sound_bank_event sound_event_name ="CAMPAIGN_AMBIENCE_PEASANT_FARM">
+    <building>wheat_peasant_farms</building>
+    <building>corn_peasant_farms</building>
+  </sound_bank_event>
+
+  <sound_bank_event sound_event_name ="CAMPAIGN_AMBIENCE_ARABLE_FARM">
+    <building>wheat_tenanted_farms</building>
+    <building>corn_tenanted_farms</building>
+    <building>tribal_corn_communal_farms</building>
+  </sound_bank_event>
+
+  <sound_bank_event sound_event_name ="CAMPAIGN_AMBIENCE_LIVESTOCK_FARM">
+    <building>sheep_tenanted_farms</building>
+  </sound_bank_event>
+
+  <sound_bank_event sound_event_name ="CAMPAIGN_AMBIENCE_LAND_CLEARANCE_ARABLE">
+    <building>wheat_clearances</building>
+    <building>corn_clearances</building>
+  </sound_bank_event>
+
+  <sound_bank_event sound_event_name ="CAMPAIGN_AMBIENCE_LAND_CLEARANCE_LIVESTOCK">
+    <building>sheep_clearances</building>
+  </sound_bank_event>
+
+  <sound_bank_event sound_event_name ="CAMPAIGN_AMBIENCE_ESTATES_PALACE_WESTERN">
+    <building>corn_great_estates</building>
+    <building>wheat_great_estates</building>
+    <building>sheep_great_estates</building>
+    <building>corn_great_royal_palace</building>
+    <building>minor_governors_palace</building>
+    <building>royal_palace</building>
+    <building>wheat_great_royal_palace</building>
+    <building>prest_russia_winter_palace</building>
+    <building>governors_palace</building>
+    <building>prest_britain_blenheim_palace</building>
+    <building>prest_poland_rogalin_palace</building>
+    <building>prest_denmark_ledrebord_palace</building>
+    <building>sheep_great_royal_palace</building>
+    <building>imperial_palace</building>
+    <building>minor_governors_palace</building>
+    <building>minor_governors_residence</building>
+    <building>governors_residence</building>
+    <building>tribal_high_chiefs_lodge</building>
+    <building>magistrate</building>
+    <building>magistrate</building>
+    <building>minor_governors_mansion</building>
+    <building>tribal_chiefs_lodge</building>
+    <building>minor_magistrate</building>
+    <building>minor_governors_mansion</building>
+    <building>governors_mansion</building>
+    <building>prest_france_palais_bourbon</building>
+    <building>prest_austria_hofburg</building>
+    <building>prest_russia_kunstkamara</building>
+    <building>prest_austria_karslkirche</building>
+    <building>prest_spain_la_granja</building>
+    <building>prest_spain_palacio_real_de_madrid</building>
+    <building>prest_sweden_swedish_academy</building>
+    <building>prest_britain_somerset_house</building>
+    <building>prest_usa_white_house</building>
+    <building>prest_usa_capitol</building>
+    <subculture>sc_european_america</subculture>
+    <subculture>sc_european_east</subculture>
+    <subculture>sc_european_north</subculture>
+    <subculture>sc_european_south</subculture>
+    <subculture>sc_european_west</subculture>
+  </sound_bank_event>
+
+  <sound_bank_event sound_event_name ="CAMPAIGN_AMBIENCE_ESTATES_PALACE_EASTERN">
+    <building>corn_great_estates</building>
+    <building>wheat_great_estates</building>
+    <building>sheep_great_estates</building>
+    <building>corn_great_royal_palace</building>
+    <building>minor_governors_palace</building>
+    <building>royal_palace</building>
+    <building>wheat_great_royal_palace</building>
+    <building>prest_russia_winter_palace</building>
+    <building>governors_palace</building>
+    <building>prest_britain_blenheim_palace</building>
+    <building>prest_poland_rogalin_palace</building>
+    <building>prest_denmark_ledrebord_palace</building>
+    <building>sheep_great_royal_palace</building>
+    <building>imperial_palace</building>
+    <building>minor_governors_palace</building>
+    <building>minor_governors_residence</building>
+    <building>governors_residence</building>
+    <building>tribal_high_chiefs_lodge</building>
+    <building>magistrate</building>
+    <building>magistrate</building>
+    <building>minor_governors_mansion</building>
+    <building>tribal_chiefs_lodge</building>
+    <building>minor_magistrate</building>
+    <building>minor_governors_mansion</building>
+    <building>governors_mansion</building>
+    <building>prest_france_palais_bourbon</building>
+    <building>prest_austria_hofburg</building>
+    <building>prest_russia_kunstkamara</building>
+    <building>prest_austria_karslkirche</building>
+    <building>prest_spain_la_granja</building>
+    <building>prest_spain_palacio_real_de_madrid</building>
+    <building>prest_sweden_swedish_academy</building>
+    <building>prest_britain_somerset_house</building>
+    <building>prest_usa_white_house</building>
+    <building>prest_usa_capitol</building>
+    <subculture>sc_mideast_islamic</subculture>
+    <subculture>sc_indian_hindu</subculture>
+    <subculture>sc_indian_islamic</subculture>
+    <subculture>sc_indian_sikh</subculture>
+  </sound_bank_event>
+
+  <sound_bank_event sound_event_name ="CAMPAIGN_AMBIENCE_EDUCATION_SCHOOL">
+    <building>school</building>
+  </sound_bank_event>
+
+  <sound_bank_event sound_event_name ="CAMPAIGN_AMBIENCE_LARGER_SCHOOL_UPPER_LEVELS_WESTERN">
+    <building>college</building>
+    <building>army_staff_college</building>
+    <building>university</building>
+    <building>enlightened_university</building>
+    <building>naval_college</building>
+    <building>engineer_school</building>
+    <building>military_academy</building>
+    <building>prest_ottomans_naval_engineering_school</building>
+    <subculture>sc_european_america</subculture>
+    <subculture>sc_european_east</subculture>
+    <subculture>sc_european_north</subculture>
+    <subculture>sc_european_south</subculture>
+    <subculture>sc_european_west</subculture>
+  </sound_bank_event>
+
+  <sound_bank_event sound_event_name ="CAMPAIGN_AMBIENCE_LARGER_SCHOOL_UPPER_LEVELS_EASTERN">
+    <building>college</building>
+    <building>army_staff_college</building>
+    <building>university</building>
+    <building>enlightened_university</building>
+    <building>naval_college</building>
+    <building>engineer_school</building>
+    <building>military_academy</building>
+    <building>prest_ottomans_naval_engineering_school</building>
+    <subculture>sc_mideast_islamic</subculture>
+    <subculture>sc_indian_hindu</subculture>
+    <subculture>sc_indian_islamic</subculture>
+    <subculture>sc_indian_sikh</subculture>
+  </sound_bank_event>
+
+  <sound_bank_event sound_event_name ="CAMPAIGN_AMBIENCE_ENTERTAINMENT_INN_COFFEE_HOUSE_TAVERN">
+    <building>coaching_inn</building>
+  </sound_bank_event>
+
+  <sound_bank_event sound_event_name ="CAMPAIGN_AMBIENCE_BAWDY_HOUSE_WESTERN">
+    <building>bawdy_house</building>
+    <subculture>sc_european_america</subculture>
+    <subculture>sc_european_east</subculture>
+    <subculture>sc_european_north</subculture>
+    <subculture>sc_european_south</subculture>
+    <subculture>sc_european_west</subculture>
+  </sound_bank_event>
+
+  <sound_bank_event sound_event_name ="CAMPAIGN_AMBIENCE_TURKISH_BATHS_EASTERN">
+    <building>bawdy_house</building>
+    <subculture>sc_mideast_islamic</subculture>
+    <subculture>sc_indian_hindu</subculture>
+    <subculture>sc_indian_islamic</subculture>
+    <subculture>sc_indian_sikh</subculture>
+  </sound_bank_event>
+
+  <sound_bank_event sound_event_name ="CAMPAIGN_AMBIENCE_THEATRE_WESTERN">
+    <building>theatre</building>
+    <building>grand_opera_house</building>
+    <building>opera_house</building>
+  </sound_bank_event>
+
+  <sound_bank_event sound_event_name ="CAMPAIGN_AMBIENCE_BROTHEL_EASTERN">
+  </sound_bank_event>
+
+  <sound_bank_event sound_event_name ="CAMPAIGN_AMBIENCE_PLEASURE_GARDENS">
+    <building>pleasure_gardens</building>
+    <building>prest_poland_lazienki_park</building>
+  </sound_bank_event>
+
+  <sound_bank_event sound_event_name ="CAMPAIGN_AMBIENCE_PLANTATION_CHAIN">
+    <building>large_cotton_plantation</building>
+    <building>large_spices_plantation</building>
+    <building>small_cotton_plantation</building>
+    <building>small_spices_plantation</building>
+    <building>large_sugar_plantation</building>
+    <building>large_tea_plantation</building>
+    <building>small_sugar_plantation</building>
+    <building>small_tea_plantation</building>
+    <building>large_coffee_plantation</building>
+    <building>small_coffee_plantation</building>
+    <building>small_coffee_plantation</building>
+    <building>large_tobacco_plantation</building>
+    <building>small_tobacco_plantation</building>
+    <building>tobacco_warehouse</building>
+    <building>cotton_warehouse</building>
+    <building>spices_warehouse</building>
+    <building>sugar_warehouse</building>
+    <building>tea_warehouse</building>
+    <building>coffee_warehouse</building>
+    <building>steam-powered_sugar_mill</building>
+  </sound_bank_event>
+
+  <sound_bank_event sound_event_name ="CAMPAIGN_AMBIENCE_MINE_CHAIN_SMALL">
+    <building>steam-pumped_iron_mine</building>
+    <building>steam-pumped_gold_mine</building>
+    <building>steam-pumped_silver_mine</building>
+    <building>deep_gem_shaft</building>
+  </sound_bank_event>
+
+  <sound_bank_event sound_event_name ="CAMPAIGN_AMBIENCE_MINE_CHAIN_LARGE">
+    <building>industrial_iron_mining_complex</building>
+    <building>industrial_gold_mining_complex</building>
+    <building>industrial_silver_mining_complex</building>
+  </sound_bank_event>
+
+  <sound_bank_event sound_event_name ="CAMPAIGN_AMBIENCE_MINING_GEM_PIT">
+    <building>open_gem_pit</building>
+  </sound_bank_event>
+
+  <sound_bank_event sound_event_name ="CAMPAIGN_AMBIENCE_RICE_GROWING_CHAIN">
+    <building>rice_paddies</building>
+    <building>rice_farms</building>
+    <building>rice_farming_commune</building>
+  </sound_bank_event>
+
+  <sound_bank_event sound_event_name ="CAMPAIGN_AMBIENCE_WINE_CHAIN">
+    <building>wine_estates</building>
+    <building>wineries</building>
+    <building>vineyards</building>
+  </sound_bank_event>
+
+  <sound_bank_event sound_event_name ="CAMPAIGN_AMBIENCE_FURS_CHAIN">
+    <building>fur_merchant</building>
+    <building>fur_market</building>
+    <building>fur_exchange</building>
+  </sound_bank_event>
+
+  <sound_bank_event sound_event_name ="CAMPAIGN_AMBIENCE_TIMBER">
+    <building>timber_logging_camp</building>
+    <building>timber_lumber_mill</building>
+    <building>timber_logging_camp</building>
+  </sound_bank_event>
+
+  <sound_bank_event sound_event_name ="CAMPAIGN_AMBIENCE_WORKSHOP">
+  </sound_bank_event>
+
+  <sound_bank_event sound_event_name ="CAMPAIGN_AMBIENCE_VILLAGE_HALL">
+    <building>tribal_meeting_hall</building>
+    <building>royal_academy</building>
+    <building>tribal_village_longhouse</building>
+    <building>ordnance_board</building>
+    <building>conservatorium</building>
+    <building>royal_observatory</building>
+    <building>great_museum</building>
+    <building>prest_prussia_berlin_academy</building>
+    <building>prest_sweden_konglig_museum</building>
+    <building>prest_unitedprovinces_teylers_museum</building>
+  </sound_bank_event>
+
+  <sound_bank_event sound_event_name ="CAMPAIGN_AMBIENCE_SPIRITUAL_GATEWAY">
+    <building>tribal_spiritual_circle</building>
+    <building>tribal_shamanic_gateway</building>
+    <building>tribal_holy_ground</building>
+    <building>tribal_council_of_elders</building>
+    <building>tribal_ancestral_ground</building>
+  </sound_bank_event>
+
+  <sound_bank_event sound_event_name ="CAMPAIGN_AMBIENCE_WARRIOR_TRAINING">
+    <building>tribal_drill_grounds</building>
+    <building>tribal_hunting_grounds</building>
+    <building>tribal_practice_fields</building>
+  </sound_bank_event>
+
+
+  <sound_bank_event sound_event_name ="CAMPAIGN_AMBIENCE_SMALL_ARABLE_FARMING_PLANTATIONS">
+    <building>tribal_wheat_subsistence_farms</building>
+    <building>tribal_wheat_communal_farms</building>
+    <building>tribal_corn_subsistence_farms</building>
+  </sound_bank_event>
+
+  <sound_bank_event sound_event_name ="CAMPAIGN_AMBIENCE_SMALL_LIVESTOCK_FARMING">
+    <building>sheep_peasant_farms</building>
+  </sound_bank_event>
+
+  <sound_bank_event sound_event_name ="CAMPAIGN_AMBIENCE_MINING_PIT">
+    <building>gold_mine</building>
+    <building>silver_mine</building>
+    <building>iron_mine</building>
+  </sound_bank_event>
+
+  <sound_bank_event sound_event_name ="CAMPAIGN_AMBIENCE_SMALL_FISHING_AREA">
+    <building>local_fishery</building>
+    <building>fishing_fleet</building>
+  </sound_bank_event>
+
+</dataroot>
