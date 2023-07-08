@@ -1,7 +1,7 @@
 version 1, schema _kv_fatigue_tables
 Key(string)	Value(float)
-"charging"	16
-"combat"	12
+"charging"	15
+"combat"	10
 "fatigue_resistant_delta"	-1
 "gradient_shallow"	5
 "gradient_shallow_movement_multiplier"	133
@@ -17,10 +17,10 @@ Key(string)	Value(float)
 "ready"	2
 "reloading"	8
 "reloading_artillery"	10
-"running"	8
-"running_artillery_horse"	6
-"running_cavalry"	2
-"running_cavalry_light"	1
+"running"	9
+"running_artillery_horse"	9
+"running_cavalry"	0
+"running_cavalry_light"	0
 "shooting"	8
 "threshold_active"	1800
 "threshold_exhausted"	21600
@@ -30,7 +30,7 @@ Key(string)	Value(float)
 "threshold_very_tired"	10800
 "threshold_winded"	3600
 "tight_formation"	6
-"under_fire_artillery"	8
+"under_fire_artillery"	6
 "under_fire_small_arms"	5
 "walking"	0
 "walking_artillery"	12
