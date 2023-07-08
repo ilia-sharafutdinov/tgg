@@ -1,7 +1,7 @@
 version 1, schema fatigue_effects_tables
 Threshold_IDRef(string)	Unit_type(string)	Movement_x0020_Speed(float)	Morale(float)	Accuracy(float)	Reload(float)
 "threshold_exhausted"	"artillery"	-0.5	-0.5	-0.15	-0.5
-"threshold_exhausted"	"cavalry"	-0.5	-0.5	-0.15	-0.5
+"threshold_exhausted"	"cavalry"	-0.35	-0.35	-0.15	-0.35
 "threshold_exhausted"	"dragoons"	-0.5	-0.5	-0.15	-0.5
 "threshold_exhausted"	"elephants"	-0.5	-0.5	-0.15	-0.5
 "threshold_exhausted"	"infantry"	-0.5	-0.5	-0.15	-0.5
@@ -20,8 +20,8 @@ Threshold_IDRef(string)	Unit_type(string)	Movement_x0020_Speed(float)	Morale(flo
 "threshold_tired"	"naval_galley"	-0.1	-0.1	0	-0.1
 "threshold_tired"	"naval_line_of_battle"	0	0	0	-0.1
 "threshold_tired"	"naval_specialist"	0	0	0	-0.1
-"threshold_very_tired"	"artillery"	-0.25	-0.25	0	-0.25
-"threshold_very_tired"	"cavalry"	-0.25	-0.25	-0.1	-0.25
+"threshold_very_tired"	"artillery"	-0.25	-0.25	-0.1	-0.25
+"threshold_very_tired"	"cavalry"	-0.2	-0.2	-0.1	-0.2
 "threshold_very_tired"	"dragoons"	-0.25	-0.25	-0.1	-0.25
 "threshold_very_tired"	"elephants"	-0.25	-0.25	-0.1	-0.25
 "threshold_very_tired"	"infantry"	-0.25	-0.25	-0.1	-0.25
