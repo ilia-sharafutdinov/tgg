@@ -1,0 +1,24 @@
+version 1, schema missions_tables
+Mission_ID(string)	Heading(string)	Type(string)	Government(string)	Type2(string)	Localisation(string)	Unknown1(blob:5)	Effect_IDRef(optstring)	Unknown2(blob:2)	Unknown3(int)
+"tut_build_school"	"tut_build_school_heading"	"build"	"absolute_monarchy"	"development"	"tut_build_school_text"	"\x01\x00\x00\x00\x00"	nil	"\x00\x00"	0
+"tut_research_technology"	"tut_trade_agreement_heading"	"research"	"absolute_monarchy"	"discovery"	"tut_research_technology_text"	"\x01\x00\x00\x00\x00"	nil	"\x00\x00"	0
+"ita_subjugate_piedmont"	"ita_subjugate_piedmont_heading"	"capture_city"	"republic"	"military"	"ita_subjugate_piedmont_text"	"\x01\x00\x00\x00\x00"	nil	"\x00\x00"	0
+"ita_liberate_modena"	"ita_liberate_modena_heading"	"capture_city"	"republic"	"military"	"ita_liberate_modena_text"	"\x01\x00\x00\x00\x00"	nil	"\x00\x00"	0
+"ita_liberate_milan"	"ita_liberate_milan_heading"	"capture_city"	"republic"	"military"	"ita_liberate_milan_text"	"\x01\x00\x00\x00\x00"	nil	"\x00\x00"	0
+"ita_invade_venice"	"ita_invade_venice_heading"	"capture_city"	"republic"	"military"	"ita_invade_venice_text"	"\x01\x00\x00\x00\x00"	nil	"\x00\x00"	0
+"ita_defy_pope"	"ita_defy_pope_heading"	"capture_city"	"republic"	"military"	"ita_defy_pope_text"	"\x01\x00\x00\x00\x00"	nil	"\x00\x00"	0
+"tut_recruit_dragoon"	"tut_recruit_dragoon_heading"	"recruit"	"absolute_monarchy"	"military"	"tut_recruit_dragoon_text"	"\x01\x00\x00\x00\x00"	nil	"\x00\x00"	0
+"tut_trade_agreement"	"tut_trade_agreement_heading"	"make_trade_agreement"	"absolute_monarchy"	"diplomatic"	"tut_trade_agreement_text"	"\x01\x00\x00\x00\x00"	nil	"\x00\x00"	0
+"tut_restore_public_order"	"tut_restore_public_order_heading"	"engage_faction"	"absolute_monarchy"	"diplomatic"	"tut_restore_public_order_text"	"\x01\x00\x00\x00\x00"	nil	"\x00\x00"	0
+"tut_build_foundry"	"tut_build_foundry_heading"	"build"	"absolute_monarchy"	"development"	"tut_build_foundry_text"	"\x01\x00\x00\x00\x00"	nil	"\x00\x00"	0
+"tut_recruit_cannon"	"tut_recruit_cannon_heading"	"recruit"	"absolute_monarchy"	"military"	"tut_recruit_cannon_text"	"\x01\x00\x00\x00\x00"	nil	"\x00\x00"	0
+"tut_build_factory"	"tut_build_factory_heading"	"build"	"absolute_monarchy"	"development"	"tut_build_factory_text"	"\x01\x00\x00\x00\x00"	nil	"\x00\x00"	0
+"tut_build_shipyard"	"tut_build_shipyard_heading"	"build"	"absolute_monarchy"	"development"	"tut_build_shipyard_text"	"\x01\x00\x00\x00\x00"	nil	"\x00\x00"	0
+"tut_recruit_3rd_rate"	"tut_recruit_3rd_rates_heading"	"recruit"	"absolute_monarchy"	"military"	"tut_recruit_3rd_rates_text"	"\x01\x00\x00\x00\x00"	nil	"\x00\x00"	0
+"tut_blockade_port"	"tut_blockade_port_heading"	"blockade_port"	"absolute_monarchy"	"military"	"tut_blockade_port_text"	"\x01\x00\x00\x00\x00"	nil	"\x00\x00"	0
+"tut_peace_treaty"	"tut_peace_treaty_heading"	"make_alliance"	"absolute_monarchy"	"diplomatic"	"tut_peace_treaty_text"	"\x01\x00\x00\x00\x00"	nil	"\x00\x00"	0
+"tut_capture_toulon"	"tut_capture_toulon_heading"	"capture_city"	"absolute_monarchy"	"military"	"tut_capture_toulon_text"	"\x01\x00\x00\x00\x00"	nil	"\x00\x00"	0
+"tut_infiltrate_city"	"tut_infiltrate_city_heading"	"spy_on_city"	"absolute_monarchy"	"espionage"	"tut_infiltrate_city_text"	"\x01\x00\x00\x00\x00"	nil	"\x00\x00"	0
+"ita_establish_supply"	"ita_establish_supply_heading"	"build"	"republic"	"military"	"ita_establish_supply_text"	"\x01\x00\x00\x00\x00"	nil	"\x00\x00"	0
+"ita_victory_capture_klagenfurt"	"ita_victory_capture_klagenfurt_heading"	"capture_city"	"republic"	"military"	"ita_victory_capture_klagenfurt_text"	"\x01\x00\x00\x00\x00"	nil	"\x00\x00"	0
+"ita_take_mantua"	"ita_take_mantua_heading"	"capture_city"	"republic"	"military"	"ita_take_mantua_text"	"\x01\x00\x00\x00\x00"	nil	"\x00\x00"	0

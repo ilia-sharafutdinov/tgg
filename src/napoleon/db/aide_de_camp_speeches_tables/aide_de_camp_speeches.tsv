@@ -1,0 +1,39 @@
+version 2, schema aide_de_camp_speeches_tables
+adc_idref(string)	speech_text(string)	unknown3(boolean)	unknown4(float)	unknown5(float)
+"adc_allied_fleet_destroyed"	"Sir, our allies are disengaging and running for safety!"	true	0	55
+"adc_allied_general_killed"	"Our brave ally has fallen, sir!"	true	0	11
+"adc_building_captured"	"We have taken a building, sir!"	true	0	11
+"adc_enemy_admiral_killed"	"Their admiral has fallen, sir! Now we will see their true colours!"	true	0	55
+"adc_enemy_allied_general_killed"	"The enemy have lost a vital ally, sir!"	true	0	11
+"adc_enemy_ally_destroyed"	"We have driven their allies from the field!"	false	0	11
+"adc_enemy_captured_building"	"This building has fallen to the enemy!"	true	0	11
+"adc_enemy_fort_about_to_be_captured"	"The fort is but moments from being ours, sir!"	true	0	11
+"adc_enemy_fort_getting_captured"	"Onwards, sir, onwards, the fort is falling!"	true	0	11
+"adc_enemy_gates_captured"	"The gates are ours!"	true	0	11
+"adc_enemy_general_killed"	"We have killed their general, sir! Now they must break! "	true	0	11
+"adc_enemy_reinforcements"	"Enemy reinforcements arrived"	true	0	11
+"adc_enemy_walls_breached"	"Their walls have been breached, sir!"	true	0	11
+"adc_losing"	"All hope is lost, sir! This battle is almost done!"	false	0	55
+"adc_own_admiral_attacked"	"Sir! Our admiral is mortal danger!"	true	0	55
+"adc_own_admiral_killed"	"Our admiral is dead, sir, at the hands of the foe! "	true	0	55
+"adc_own_ally_attacked"	"Sir, our ally is under attack!"	true	0	11
+"adc_own_ally_destroyed"	"Damn their eyes, sir, if our allies haven't fallen back!"	false	0	11
+"adc_own_fort_about_to_be_captured"	"Sir! We cannot hold this position much longer!"	true	0	11
+"adc_own_fort_getting_captured"	"Sir, our defences are breached and failing!"	true	0	11
+"adc_own_gates_lost"	"We have lost the gates!"	true	0	11
+"adc_own_general_attacked"	"Sir! Sir! Our general is under attack!"	true	0	11
+"adc_own_general_killed"	"Sir, your general has been killed! This is a black day!"	true	0	11
+"adc_own_reinforcements"	"Reinforcements Arrived"	true	0	11
+"adc_own_ship lost"	"The ship is lost, sir!"	true	0	55
+"adc_own_ship surrendered"	"The shame, sir, the shame! The ship has struck its colours!"	true	0	55
+"adc_own_ship_being_boarded"	"Sir, this crew needs to repel boarders!"	true	0	55
+"adc_own_ship_demasted"	"The ship's sails are shot away, sir!"	true	0	55
+"adc_own_ship_routed"	"One of our ships is withdrawing from the fight!"	true	0	55
+"adc_own_unit_exhausted"	"The men are fatigued, sir and must rest awhile."	true	0	11
+"adc_own_unit_lost"	"The entire unit is dead, sir!"	true	0	11
+"adc_own_unit_out_of_ammo"	"One of our units has used all its ammunition, sir."	true	0	11
+"adc_own_unit_routed"	"Our men are running, sir!"	true	0	11
+"adc_own_walls_breached"	"Our walls are breached!"	true	0	11
+"adc_weather_rain"	"Damn this weather, sir! Wet powder makes misfires a certainty!"	false	0	55
+"adc_winning"	"A glorious victory, sir, is soon to be yours!"	false	0	55
+"adc_own_general_injured"	"This is a black day!"	true	0	11
