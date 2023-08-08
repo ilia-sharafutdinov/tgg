@@ -1,0 +1,8 @@
+version 1, schema unit_stats_naval_crew_tables
+Crew_ID(string)	unknown1(int)	Accuracy(int)	Melee_Skill(int)	Melee_defence(int)	Melee_Weapon(string)	unknown5(boolean)	unknown6(int)	unknown7(string)	Model(string)	Animation(string)	Warscape_Equipment_Theme(string)	unknown10(string)	unknown11(int)	unknown12(float)	unknown13(int)
+"euro_guncrew"	5	40	4	3	"pike"	false	0	"infantry_euro_light"	"euro_naval_gunner"	"man_naval_cannon_crew"	"generic_naval_gunner"	"ph"	1	1.5	3
+"euro_marine"	35	45	13	7	"bayonet"	true	18	"infantry_euro_medium"	"euro_marines"	"man_musket"	"generic_naval_marine"	"ph"	3	1.2	5
+"euro_seaman"	5	40	4	3	"cutlass"	false	0	"infantry_euro_light"	"euro_able_seamen"	"man_seaman"	"generic_naval_seaman"	"ph"	1	1.5	3
+"ottoman_guncrew"	5	40	4	3	"pike"	false	0	"infantry_euro_light"	"barbary_pirates"	"man_naval_cannon_crew"	"generic_naval_gunner"	"ph"	1	1.5	3
+"ottoman_marine"	35	45	13	7	"bayonet"	true	18	"infantry_euro_medium"	"barbary_pirates"	"man_musket"	"generic_naval_marine"	"ph"	3	1.2	5
+"ottoman_seaman"	5	40	4	3	"cutlass"	false	0	"infantry_euro_light"	"barbary_pirates"	"man_seaman"	"generic_naval_seaman"	"ph"	1	1.5	3

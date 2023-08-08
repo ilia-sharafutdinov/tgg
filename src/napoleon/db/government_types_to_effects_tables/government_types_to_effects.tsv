@@ -1,0 +1,26 @@
+version 1, schema government_types_to_effects_tables
+Government_x0020_Type(string)	Effect_IDRef(string)	Magnitude(float)
+"gov_absolute_monarchy"	"happy_active_lower_gov_type"	-2
+"gov_absolute_monarchy"	"happy_active_upper_gov_type"	2
+"gov_absolute_monarchy"	"recruitment_cost_mod_land_all"	-5
+"gov_absolute_monarchy"	"recruitment_points_home_region"	1
+"gov_absolute_monarchy"	"repression_gov_type"	5
+"gov_absolute_monarchy"	"research_rate_mod"	-5
+"gov_absolute_monarchy"	"tw_growth_government"	-5
+"gov_constitutional_monarchy"	"education_happy_mod"	-25
+"gov_constitutional_monarchy"	"happy_active_lower_gov_type"	1
+"gov_constitutional_monarchy"	"happy_active_upper_gov_type"	1
+"gov_constitutional_monarchy"	"recruitment_points_home_region"	1
+"gov_constitutional_monarchy"	"repression_gov_type"	3
+"gov_constitutional_monarchy"	"tw_growth_government"	3
+"gov_republic"	"education_happy_mod"	-60
+"gov_republic"	"happy_active_lower_gov_type"	3
+"gov_republic"	"happy_active_upper_gov_type"	1
+"gov_republic"	"recruitment_points_home_region"	1
+"gov_republic"	"repression_gov_type"	2
+"gov_republic"	"tw_growth_government"	8
+"gov_empire"	"education_happy_mod"	-40
+"gov_empire"	"happy_active_upper_gov_type"	1
+"gov_empire"	"happy_active_lower_gov_type"	1
+"gov_empire"	"recruitment_points_home_region"	1
+"gov_empire"	"repression_gov_type"	3

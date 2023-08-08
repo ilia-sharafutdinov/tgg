@@ -1,0 +1,890 @@
+<shortcuts version = "32">
+  <mode>battle</mode>
+  <mode>campaign</mode>
+  <mode>all</mode>
+  <keyset name="fps">
+    <category name="universal">
+      <group name ="misc" order="2">
+        <func name="toggle_sfx" order="1">
+          <key modifier="ALT">S</key>
+        </func>
+        <func name="toggle_music" order="2">
+          <key modifier="ALT">M</key>
+        </func>
+        <func name="deselect_all" order="3">
+          <key>RETURN</key>
+        </func>
+        <func name="select_all" order="4">
+          <key modifier="CTRL">A</key>
+        </func>
+        <func name="select_next" order="5">
+          <key>PERIOD</key>
+        </func>
+        <func name="select_prev" order="6">
+          <key>COMMA</key>
+        </func>
+        <func name="current_selection_order_cancel" order="7">
+          <key modifier = "ALLOW_SHIFT">BACK</key>
+        </func>
+        <func name ="voice_chat" order="8" ignore_lock="1" repeating="1">
+          <key modifier="CTRL">Q</key>
+        </func>
+      </group>
+      <group name ="camera" order="1">
+        <func name="step_fwd_fast" repeating = "1" order="1">
+          <key modifier = "ALLOW_SHIFT">NUMPAD8</key>
+        </func>
+        <func name="rot_u" repeating = "1" order="2">
+          <key modifier = "ALLOW_SHIFT">V</key>
+          <key modifier = "ALLOW_SHIFT">ADD</key>
+        </func>
+        <func name="rot_d" repeating = "1" order="3">
+          <key modifier = "ALLOW_SHIFT">C</key>
+          <key modifier = "ALLOW_SHIFT">SUBTRACT</key>
+        </func>
+        <func name="cam_up" repeating = "1" order="4">
+          <key modifier = "ALLOW_SHIFT">X</key>
+          <key modifier = "ALLOW_SHIFT">MULTIPLY</key>
+        </func>
+        <func name="cam_down" repeating = "1" order="5">
+          <key modifier = "ALLOW_SHIFT">Z</key>
+          <key modifier = "ALLOW_SHIFT">DIVIDE</key>
+        </func>
+        <func name="toggle_move_fast" order="6">
+          <key modifier = "ALLOW_SHIFT">CAPITAL</key>
+        </func>
+        <func name="accel" repeating = "1" order="7">
+          <key>PAGE_UP</key>
+        </func>
+        <func name="decel" repeating = "1" order="8">
+          <key>PAGE_DOWN</key>
+        </func>
+        <func name="rot_l" repeating = "1" order="9">
+          <key modifier = "ALLOW_SHIFT">Q</key>
+          <key modifier = "ALLOW_SHIFT">NUMPAD4</key>
+        </func>
+        <func name="rot_r" repeating = "1" order="10">
+          <key modifier = "ALLOW_SHIFT">E</key>
+          <key modifier = "ALLOW_SHIFT">NUMPAD6</key>
+        </func>
+        <func name="step_l" repeating = "1" order="11">
+          <key modifier = "ALLOW_SHIFT">A</key>
+          <key modifier = "ALLOW_SHIFT">NUMPAD1</key>
+        </func>
+        <func name="step_r" repeating = "1" order="12">
+          <key modifier = "ALLOW_SHIFT">D</key>
+          <key modifier = "ALLOW_SHIFT">NUMPAD3</key>
+        </func>
+        <func name="step_fwd" repeating = "1" order="13">
+          <key modifier = "ALLOW_SHIFT">W</key>
+          <key modifier = "ALLOW_SHIFT">NUMPAD5</key>
+        </func>
+        <func name="step_bck" repeating = "1" order="14">
+          <key modifier = "ALLOW_SHIFT">S</key>
+          <key modifier = "ALLOW_SHIFT">NUMPAD2</key>
+        </func>
+        <func name="increase_camera_rot" repeating = "1" order="15">
+          <key modifier = "SHIFT">PAGE_UP</key>
+        </func>
+        <func name="decrease_camera_rot" repeating = "1" order="16">
+          <key modifier = "SHIFT">PAGE_DOWN</key>
+        </func>
+        <func name="home_zoom" order="17">
+          <key modifier = "ALLOW_SHIFT">HOME</key>
+        </func>
+        <func name="unit_zoom" order="18">
+          <key modifier = "ALLOW_SHIFT">END</key>
+        </func>
+        <func name="intelli_zoom" order="19">
+          <key modifier = "ALLOW_SHIFT">N</key>
+        </func>
+        <func name="toggle_tracking" order="20">
+          <key modifier = "ANY">DELETE</key>
+        </func>
+        <func name="context_camera" order="21">
+          <key modifier = "ANY">INSERT</key>
+        </func>
+      </group>
+      <group name = "hidden">
+        <func name="usegroup0" hidden="1">
+          <key modifier ="CTRL">0</key>
+          <key>0</key>
+        </func>
+        <func name="usegroup1" hidden="1">
+          <key modifier ="CTRL">1</key>
+          <key>1</key>
+        </func>
+        <func name="usegroup2" hidden="1">
+          <key modifier ="CTRL">2</key>
+          <key>2</key>
+        </func>
+        <func name="usegroup3" hidden="1">
+          <key modifier ="CTRL">3</key>
+          <key>3</key>
+        </func>
+        <func name="usegroup4" hidden="1">
+          <key modifier ="CTRL">4</key>
+          <key>4</key>
+        </func>
+        <func name="usegroup5" hidden="1">
+          <key modifier ="CTRL">5</key>
+          <key>5</key>
+        </func>
+        <func name="usegroup6" hidden="1">
+          <key modifier ="CTRL">6</key>
+          <key>6</key>
+        </func>
+        <func name="usegroup7" hidden="1">
+          <key modifier ="CTRL">7</key>
+          <key>7</key>
+        </func>
+        <func name="usegroup8" hidden="1">
+          <key modifier ="CTRL">8</key>
+          <key>8</key>
+        </func>
+        <func name="usegroup9" hidden="1">
+          <key modifier ="CTRL">9</key>
+          <key>9</key>
+        </func>
+        <func name="camera_bookmark_save0" hidden="1">
+          <key modifier ="SHIFT">F9</key>
+        </func>
+        <func name="camera_bookmark_save1" hidden="1">
+          <key modifier ="SHIFT">F10</key>
+        </func>
+        <func name="camera_bookmark_save2" hidden="1">
+          <key modifier="SHIFT">F11</key>
+        </func>
+        <func name="camera_bookmark_save3" hidden="1">
+          <key modifier="SHIFT">F12</key>
+        </func>
+        <func name="camera_bookmark_view0" hidden="1">
+          <key>F9</key>
+        </func>
+        <func name="camera_bookmark_view1" hidden="1">
+          <key>F10</key>
+        </func>
+        <func name="camera_bookmark_view2" hidden="1">
+          <key>F11</key>
+        </func>
+        <func name="camera_bookmark_view3" hidden="1">
+          <key>F12</key>
+        </func>
+        <func name="escape_menu" hidden="1" ignore_lock="1">
+          <key modifier ="ANY">ESCAPE</key>
+        </func>
+      </group>
+    </category>
+    <category name="campaign">
+      <group name ="information" order="1">
+        <func name ="show_gov" order="1">
+          <key>G</key>
+        </func>
+        <func name="show_missions" order="2">
+          <key>M</key>
+        </func>
+        <func name="show_diplomacy" order="3">
+          <key>I</key>
+        </func>
+        <func name="show_technologies" order="4">
+          <key>T</key>
+        </func>
+        <func name="show_lists" order="6">
+          <key>L</key>
+        </func>
+      </group>
+      <group name="game_play" order="2">
+        <func name="end_turn" order="1">
+          <key>RETURN</key>
+        </func>
+        <func name="toggle_move_speed" order="2" ignore_lock="1">
+          <key>SPACE</key>
+        </func>
+        <func name="current_selection_disband" order="3">
+          <key modifier ="CTRL">P</key>
+        </func>
+        <func name="quick_save" order="4" ignore_lock="1">
+          <key modifier ="CTRL">S</key>
+        </func>
+        <func name="quick_load" order="5">
+          <key modifier ="CTRL">L</key>
+        </func>
+        <func name="toggle_labels" order="6">
+          <key modifier ="CTRL">T</key>
+        </func>
+        <func name="toggle_flag_display" order="7">
+          <key>J</key>
+        </func>
+        <func name="auto_merge_units" order="8">
+          <key modifier="CTRL">M</key>
+        </func>
+      </group>
+    </category>
+    <category name="battle">
+      <group name ="selection_control" order="1">
+        <func name="select_all_artillery" order="1">
+          <key modifier="CTRL">B</key>
+        </func>
+        <func name="select_all_melee" order="2">
+          <key modifier="CTRL">H</key>
+        </func>
+        <func name="select_all_cavalry" order="3">
+          <key modifier="CTRL">C</key>
+        </func>
+        <func name="select_all_infantry" order="4">
+          <key modifier="CTRL">M</key>
+        </func>
+      </group>
+      <group name ="group_controls" order="2">
+        <func name="battle_both_fire_at_will_toggle" order="1">
+          <key>T</key>
+        </func>
+        <func name="battle_both_withdraw" order="2">
+          <key modifier ="CTRL">W</key>
+        </func>
+        <func name="toggle_group" order="3">
+          <key>G</key>
+        </func>
+        <func name="battle_land_melee" order="4">
+          <key>F</key>
+        </func>
+        <func name="battle_land_toggle_run" order="5">
+          <key>R</key>
+        </func>
+        <func name="battle_land_special_ability_2" order="6">
+          <key modifier="SHIFT">7</key>
+        </func>
+        <func name="battle_land_special_ability_3" order="7">
+          <key modifier="SHIFT">8</key>
+        </func>
+        <func name="battle_land_special_ability_4" order="8">
+          <key modifier="SHIFT">9</key>
+        </func>
+        <func name="battle_land_special_ability_5" order="9">
+          <key modifier="SHIFT">0</key>
+        </func>
+        <func name="battle_naval_activate_round_shot" order="11">
+          <key modifier="SHIFT">1</key>
+        </func>
+        <func name="battle_naval_activate_chain_shot" order="10">
+          <key modifier="SHIFT">2</key>
+        </func>
+        <func name="battle_naval_activate_grape_shot" order="12">
+          <key modifier="SHIFT">3</key>
+        </func>
+        <func name="battle_naval_toggle_boarding" order="13">
+          <key>B</key>
+        </func>
+        <func name="battle_land_increase_rank" repeating= "1" order="14">
+          <key modifier="ALLOW_SHIFT">LBRACKET</key>
+        </func>
+        <func name="battle_land_increase_file" repeating= "1" order="15">
+          <key modifier="ALLOW_SHIFT">RBRACKET</key>
+        </func>
+        <func name="battle_land_step_backwards" repeating= "1" order="16">
+          <key modifier="ALLOW_SHIFT">SLASH</key>
+        </func>
+        <func name="battle_land_step_forward" repeating= "1" order="17">
+          <key modifier="ALLOW_SHIFT">APOSTROPHE</key>
+        </func>
+        <func name="battle_both_rotate_left" repeating= "1" order="18">
+          <key modifier="ALLOW_SHIFT">L</key>
+        </func>
+        <func name="battle_both_rotate_right" repeating= "1" order="19">
+          <key modifier="ALLOW_SHIFT">SEMICOLON</key>
+        </func>
+        <func name="battle_naval_decrease_sail" order="20">
+          <key>LBRACKET</key>
+        </func>
+        <func name="battle_naval_increase_sail" order="21">
+          <key>RBRACKET</key>
+        </func>
+        <func name="battle_naval_sail_forward" order="22">
+          <key>APOSTROPHE</key>
+        </func>
+      </group>
+      <group name ="group_formations" order="3">
+        <func name="battle_land_formation_column" order="1">
+          <key modifier ="ALT">9</key>
+        </func>
+        <func name="battle_land_formation_single_line" order="4">
+          <key modifier ="ALT">1</key>
+        </func>
+        <func name="battle_land_formation_single_line_cav_left" order="5">
+          <key modifier ="ALT">2</key>
+        </func>
+        <func name="battle_land_formation_single_line_cav_right" order="6">
+          <key modifier ="ALT">3</key>
+        </func>
+        <func name="battle_land_formation_double_line" order="2">
+          <key modifier ="ALT">4</key>
+        </func>
+        <func name="battle_land_formation_double_line_screened" order="3">
+          <key modifier ="ALT">5</key>
+        </func>
+        <func name="battle_land_formation_triple_line" order="7">
+          <key modifier ="ALT">6</key>
+        </func>
+        <func name="battle_land_formation_triple_line_integrated" order="9">
+          <key modifier ="ALT">7</key>
+        </func>
+        <func name="battle_land_formation_triple_line_grand" order="8">
+          <key modifier ="ALT">8</key>
+        </func>
+        <func name="battle_naval_formation_line_abreast" order="15">
+          <key modifier ="ALT">1</key>
+        </func>
+        <func name="battle_naval_formation_line_astern" order="16">
+          <key modifier ="ALT">2</key>
+        </func>
+        <func name="battle_naval_formation_crescent" order="17">
+          <key modifier ="ALT">3</key>
+        </func>
+        <func name="battle_naval_formation_crescent_envelop" order="18">
+          <key modifier ="ALT">4</key>
+        </func>
+      </group>
+      <group name="game_controls" order="4">
+        <func name="toggle_pause" order="1">
+          <key>P</key>
+        </func>
+        <func name="cycle_battle_speed" order="1">
+          <key modifier ="CTRL">T</key>
+        </func>
+        <func name="change_minimap_size" order="1">
+          <key>J</key>
+        </func>
+        <!-- <func name="chat_with_all" order="2">
+          <key modifier="SHIFT">G</key>
+        </func>
+        <func name="chat_with_team" order="3">
+          <key modifier="SHIFT">T</key>
+        </func> -->
+        <func name="show_allied_units_proxies" repeating= "1" order="4">
+          <key modifier = "ANY">SPACE</key>
+        </func>
+        <func name="toggle_ship_firing_arcs" repeating= "1" order="5">
+          <key>H</key>
+        </func>
+        <func name="visibility_toggle_radar" order="6">
+          <key>F5</key>
+        </func>
+        <func name="visibility_toggle_buttons" order="7">
+          <key>F6</key>
+        </func>
+        <func name="visibility_toggle_cards" order="8">
+          <key>F7</key>
+        </func>
+      </group>
+    </category>
+  </keyset>
+  <keyset name="total_war">
+    <category name="universal">
+      <group name="misc" order="2">
+        <func name="toggle_sfx" order="1">
+          <key modifier="ALT">S</key>
+        </func>
+        <func name="toggle_music" order="2">
+          <key modifier="ALT">M</key>
+        </func>
+        <func name="deselect_all" order="3">
+          <key>RETURN</key>
+        </func>
+        <func name="select_all" order="4">
+          <key modifier="CTRL">A</key>
+        </func>
+        <func name="select_next" order="5">
+          <key>PERIOD</key>
+        </func>
+        <func name="select_prev" order="6">
+          <key>COMMA</key>
+        </func>
+        <func name="current_selection_order_cancel" order="7">
+          <key modifier = "ALLOW_SHIFT">BACK</key>
+        </func>
+        <func name ="voice_chat" order="8" ignore_lock="1" repeating="1">
+          <key modifier="CTRL">Q</key>
+        </func>
+      </group>
+      <group name ="camera" order="1">
+        <func name="step_fwd_fast" repeating = "1" order="1">
+          <key>NUMPAD8</key>
+        </func>
+        <func name="rot_u" repeating = "1" order="2">
+          <key modifier ="ALLOW_SHIFT">ADD</key>
+          <key modifier ="ALLOW_SHIFT">V</key>
+        </func>
+        <func name="rot_d" repeating = "1" order="3">
+          <key modifier ="ALLOW_SHIFT">SUBTRACT</key>
+          <key modifier ="ALLOW_SHIFT">C</key>
+        </func>
+        <func name="cam_up" repeating = "1" order="4">
+          <key modifier ="ALLOW_SHIFT">MULTIPLY</key>
+          <key modifier ="ALLOW_SHIFT">X</key>
+        </func>
+        <func name="cam_down" repeating = "1" order="5">
+          <key modifier ="ALLOW_SHIFT">DIVIDE</key>
+          <key modifier ="ALLOW_SHIFT">Z</key>
+        </func>
+        <func name="toggle_move_fast" order="6">
+          <key>CAPITAL</key>
+        </func>
+        <func name="accel" repeating = "1" order="7">
+          <key>PAGE_UP</key>
+        </func>
+        <func name="decel" repeating = "1" order="8">
+          <key>PAGE_DOWN</key>
+        </func>
+        <func name="rot_l" repeating = "1" order="9">
+          <key modifier ="ALLOW_SHIFT">NUMPAD1</key>
+          <key modifier ="ALLOW_SHIFT">LEFT</key>
+        </func>
+        <func name="rot_r" repeating = "1" order="10">
+          <key modifier ="ALLOW_SHIFT">NUMPAD3</key>
+          <key modifier ="ALLOW_SHIFT">RIGHT</key>
+        </func>
+        <func name="step_l" repeating = "1" order="11">
+          <key modifier ="ALLOW_SHIFT">NUMPAD4</key>
+        </func>
+        <func name="step_r" repeating = "1" order="12">
+          <key modifier ="ALLOW_SHIFT">NUMPAD6</key>
+        </func>
+        <func name="step_fwd" repeating = "1" order="13">
+          <key modifier ="ALLOW_SHIFT">UP</key>
+          <key modifier ="ALLOW_SHIFT">NUMPAD5</key>
+        </func>
+        <func name="step_bck" repeating = "1" order="14">
+          <key modifier ="ALLOW_SHIFT">DOWN</key>
+          <key modifier ="ALLOW_SHIFT">NUMPAD2</key>
+        </func>
+        <func name="increase_camera_rot" repeating = "1" order="15">
+          <key modifier = "SHIFT">PAGE_UP</key>
+        </func>
+        <func name="decrease_camera_rot" repeating = "1" order="16">
+          <key modifier = "SHIFT">PAGE_DOWN</key>
+        </func>
+        <func name="home_zoom" order="17">
+          <key modifier = "ALLOW_SHIFT">HOME</key>
+        </func>
+        <func name="unit_zoom" order="18">
+          <key modifier = "ALLOW_SHIFT">END</key>
+        </func>
+        <func name="intelli_zoom" order="19">
+          <key modifier ="ALLOW_SHIFT">N</key>
+        </func>
+        <func name="toggle_tracking" order="20">
+          <key modifier = "ANY">DELETE</key>
+        </func>
+        <func name="context_camera" order="21">
+          <key modifier = "ANY">INSERT</key>
+        </func>
+      </group>
+      <group name = "hidden">
+        <func name="usegroup0" hidden="1">
+          <key modifier ="CTRL">0</key>
+          <key>0</key>
+        </func>
+        <func name="usegroup1" hidden="1">
+          <key modifier ="CTRL">1</key>
+          <key>1</key>
+        </func>
+        <func name="usegroup2" hidden="1">
+          <key modifier ="CTRL">2</key>
+          <key>2</key>
+        </func>
+        <func name="usegroup3" hidden="1">
+          <key modifier ="CTRL">3</key>
+          <key>3</key>
+        </func>
+        <func name="usegroup4" hidden="1">
+          <key modifier ="CTRL">4</key>
+          <key>4</key>
+        </func>
+        <func name="usegroup5" hidden="1">
+          <key modifier ="CTRL">5</key>
+          <key>5</key>
+        </func>
+        <func name="usegroup6" hidden="1">
+          <key modifier ="CTRL">6</key>
+          <key>6</key>
+        </func>
+        <func name="usegroup7" hidden="1">
+          <key modifier ="CTRL">7</key>
+          <key>7</key>
+        </func>
+        <func name="usegroup8" hidden="1">
+          <key modifier ="CTRL">8</key>
+          <key>8</key>
+        </func>
+        <func name="usegroup9" hidden="1">
+          <key modifier ="CTRL">9</key>
+          <key>9</key>
+        </func>
+        <func name="camera_bookmark_save0" hidden="1">
+          <key modifier="SHIFT">F9</key>
+        </func>
+        <func name="camera_bookmark_save1" hidden="1">
+          <key modifier="SHIFT">F10</key>
+        </func>
+        <func name="camera_bookmark_save2" hidden="1">
+          <key modifier="SHIFT">F11</key>
+        </func>
+        <func name="camera_bookmark_save3" hidden="1">
+          <key modifier="SHIFT">F12</key>
+        </func>
+        <func name="camera_bookmark_view0" hidden="1">
+          <key>F9</key>
+        </func>
+        <func name="camera_bookmark_view1" hidden="1">
+          <key>F10</key>
+        </func>
+        <func name="camera_bookmark_view2" hidden="1">
+          <key>F11</key>
+        </func>
+        <func name="camera_bookmark_view3" hidden="1">
+          <key>F12</key>
+        </func>
+        <func name="escape_menu" hidden="1" ignore_lock ="1">
+          <key modifier ="ANY">ESCAPE</key>
+        </func>
+      </group>
+    </category>
+    <category name="campaign">
+      <group name="information" order="1">
+        <func name ="show_gov" order="1">
+          <key>G</key>
+        </func>
+        <func name="show_missions" order="2">
+          <key>M</key>
+        </func>
+        <func name="show_diplomacy" order="3">
+          <key>D</key>
+        </func>
+        <func name="show_technologies" order="4">
+          <key>T</key>
+        </func>
+        <func name="show_lists" order="6">
+          <key>L</key>
+        </func>
+      </group>
+      <group name ="game_play" order="2">
+        <func name="end_turn" order="1">
+          <key>RETURN</key>
+        </func>
+        <func name="toggle_move_speed" order="2" ignore_lock="1">
+          <key>SPACE</key>
+        </func>
+        <func name="current_selection_disband" order="3">
+          <key modifier ="CTRL">P</key>
+        </func>
+        <func name="quick_save" order="4" ignore_lock="1">
+          <key modifier ="CTRL">S</key>
+        </func>
+        <func name="quick_load" order="5">
+          <key modifier ="CTRL">L</key>
+        </func>
+        <func name="toggle_labels" order="6">
+          <key>H</key>
+        </func>
+        <func name="toggle_flag_display" order="7">
+          <key>J</key>
+        </func>
+        <func name="auto_merge_units" order="8">
+          <key modifier="CTRL">M</key>
+        </func>
+      </group>
+    </category>
+    <category name="battle">
+      <group name ="selection_control" order="1">
+        <func name="select_all_artillery" order="1">
+          <key modifier="CTRL">B</key>
+        </func>
+        <func name="select_all_melee" order="2">
+          <key modifier="CTRL">H</key>
+        </func>
+        <func name="select_all_cavalry" order="3">
+          <key modifier="CTRL">C</key>
+        </func>
+        <func name="select_all_infantry" order="4">
+          <key modifier="CTRL">M</key>
+        </func>
+      </group>
+      <group name ="group_controls" order="2">
+        <func name="battle_both_fire_at_will_toggle" order="1">
+          <key>T</key>
+        </func>
+        <func name="battle_both_withdraw" order="2">
+          <key modifier ="CTRL">W</key>
+        </func>
+        <func name="toggle_group" order="3">
+          <key>G</key>
+        </func>
+        <func name="battle_land_melee" order="4">
+          <key>F</key>
+        </func>
+        <func name="battle_land_toggle_run" order="5">
+          <key>R</key>
+        </func>
+        <func name="battle_land_special_ability_2" order="6">
+          <key modifier="SHIFT">7</key>
+        </func>
+        <func name="battle_land_special_ability_3" order="7">
+          <key modifier="SHIFT">8</key>
+        </func>
+        <func name="battle_land_special_ability_4" order="8">
+          <key modifier="SHIFT">9</key>
+        </func>
+        <func name="battle_land_special_ability_5" order="9">
+          <key modifier="SHIFT">0</key>
+        </func>
+        <func name="battle_naval_activate_round_shot" order="11">
+          <key modifier="SHIFT">1</key>
+        </func>
+        <func name="battle_naval_activate_chain_shot" order="10">
+          <key modifier="SHIFT">2</key>
+        </func>
+        <func name="battle_naval_activate_grape_shot" order="12">
+          <key modifier="SHIFT">3</key>
+        </func>
+        <func name="battle_naval_toggle_boarding" order="13">
+          <key>B</key>
+        </func>
+        <func name="battle_land_increase_rank" repeating= "1" order="14">
+          <key modifier="ALLOW_SHIFT">LBRACKET</key>
+        </func>
+        <func name="battle_land_increase_file" repeating= "1" order="15">
+          <key modifier="ALLOW_SHIFT">RBRACKET</key>
+        </func>
+        <func name="battle_land_step_backwards" repeating= "1" order="16">
+          <key modifier="ALLOW_SHIFT">SLASH</key>
+        </func>
+        <func name="battle_land_step_forward" repeating= "1" order="17">
+          <key modifier="ALLOW_SHIFT">APOSTROPHE</key>
+        </func>
+        <func name="battle_both_rotate_left" repeating= "1" order="18">
+          <key modifier="ALLOW_SHIFT">SEMICOLON</key>
+        </func>
+        <func name="battle_both_rotate_right" repeating= "1" order="19">
+          <key modifier="ALLOW_SHIFT">GRAVE</key>
+        </func>
+        <func name="battle_naval_decrease_sail" order="20">
+          <key>LBRACKET</key>
+        </func>
+        <func name="battle_naval_increase_sail" order="21">
+          <key>RBRACKET</key>
+        </func>
+        <func name="battle_naval_sail_forward" order="22">
+          <key>APOSTROPHE</key>
+        </func>
+      </group>
+      <group name ="group_formations" order="3">
+        <func name="battle_land_formation_column" order="1">
+          <key modifier ="ALT">9</key>
+        </func>
+        <func name="battle_land_formation_single_line" order="4">
+          <key modifier ="ALT">1</key>
+        </func>
+        <func name="battle_land_formation_single_line_cav_left" order="5">
+          <key modifier ="ALT">2</key>
+        </func>
+        <func name="battle_land_formation_single_line_cav_right" order="6">
+          <key modifier ="ALT">3</key>
+        </func>
+        <func name="battle_land_formation_double_line" order="2">
+          <key modifier ="ALT">4</key>
+        </func>
+        <func name="battle_land_formation_double_line_screened" order="3">
+          <key modifier ="ALT">5</key>
+        </func>
+        <func name="battle_land_formation_triple_line" order="7">
+          <key modifier ="ALT">6</key>
+        </func>
+        <func name="battle_land_formation_triple_line_integrated" order="9">
+          <key modifier ="ALT">7</key>
+        </func>
+        <func name="battle_land_formation_triple_line_grand" order="8">
+          <key modifier ="ALT">8</key>
+        </func>
+        <func name="battle_naval_formation_line_abreast" order="15">
+          <key modifier ="ALT">1</key>
+        </func>
+        <func name="battle_naval_formation_line_astern" order="16">
+          <key modifier ="ALT">2</key>
+        </func>
+        <func name="battle_naval_formation_crescent" order="17">
+          <key modifier ="ALT">3</key>
+        </func>
+        <func name="battle_naval_formation_crescent_envelop" order="18">
+          <key modifier ="ALT">4</key>
+        </func>
+      </group>
+      <group name="game_controls" order="4">
+        <func name="toggle_pause" order="1">
+          <key>P</key>
+        </func>
+        <func name="cycle_battle_speed" order="1">
+          <key modifier ="CTRL">T</key>
+        </func>
+        <func name="change_minimap_size" order="1">
+          <key>J</key>
+        </func>
+        <!-- <func name="chat_with_all" order="2">
+          <key modifier="SHIFT">G</key>
+        </func> -->
+        <!-- <func name="chat_with_team" order="3">
+          <key modifier="SHIFT">T</key>
+        </func> -->
+        <func name="show_allied_units_proxies" repeating="1" order="4">
+          <key modifier = "ANY">SPACE</key>
+        </func>
+        <func name="toggle_ship_firing_arcs" repeating="1" order="5">
+          <key>H</key>
+        </func>
+        <func name="visibility_toggle_radar" order="6">
+          <key>F5</key>
+        </func>
+        <func name="visibility_toggle_buttons" order="7">
+          <key>F6</key>
+        </func>
+        <func name="visibility_toggle_cards" order="8">
+          <key>F7</key>
+        </func>
+      </group>  
+    </category>
+  </keyset>
+  <mappings>
+    <mode name="battle">
+      <func name="step_fwd_fast"    		component="camera"/>
+      <func name="rot_u"            		component="camera"/>
+      <func name="rot_d"            		component="camera"/>
+      <func name="cam_up"           		component="camera"/>
+      <func name="cam_down"         		component="camera"/>
+      <func name="toggle_move_fast" 		component="camera"/>
+      <func name="accel"            		component="camera"/>
+      <func name="decel"            		component="camera"/>
+      <func name="increase_camera_rot"  component="camera"/>
+      <func name="decrease_camera_rot"  component="camera"/>
+      <func name="rot_l"            		component="camera"/>
+      <func name="rot_r"            		component="camera"/>
+      <func name="step_l"           		component="camera"/>
+      <func name="step_r"           		component="camera"/>
+      <func name="step_fwd"         		component="camera"/>
+      <func name="step_bck"         		component="camera"/>
+      <func name="toggle_tracking"  		component="camera"/>
+      <func name="intelli_zoom"     		component="camera"/>
+      <func name="context_camera"   		component="camera"/>
+      <func name="select_next"      		component="card_manager"/>
+      <func name="select_prev"      		component="card_manager"/>
+      <func name="usegroup0"        		component="card_manager"/>
+      <func name="usegroup1"        		component="card_manager"/>
+      <func name="usegroup2"        		component="card_manager"/>
+      <func name="usegroup3"        		component="card_manager"/>
+      <func name="usegroup4"        		component="card_manager"/>
+      <func name="usegroup5"        		component="card_manager"/>
+      <func name="usegroup6"        		component="card_manager"/>
+      <func name="usegroup7"        		component="card_manager"/>
+      <func name="usegroup8"        		component="card_manager"/>
+      <func name="usegroup9"        		component="card_manager"/>
+      <func name="select_all_artillery"                         component="root"/>
+      <func name="select_all_melee"                             component="root"/>
+      <func name="select_all_cavalry"                           component="root"/>
+      <func name="select_all_infantry"                          component="root"/>
+
+      <!--      <func name="battle_both_rotate_left"                      component="nav_UC_button_turn_left"/>
+      <func name="battle_both_rotate_right"                     component="nav_UC_button_turn_right"/>
+      -->
+      <func name="battle_both_rotate_left"                      component="UC_button_turn_left"/>
+      <func name="battle_both_rotate_right"                     component="UC_button_turn_right"/>
+      <func name="battle_both_fire_at_will_toggle"              component="button_fire_at_will"/>
+      <func name="battle_both_withdraw"                         component="button_withdraw"/>
+      <func name="toggle_group"     		                        component="button_group"/>
+      <func name="current_selection_order_cancel"               component="button_halt"/> 
+      
+      <func name="battle_land_increase_rank"                    component="UC_button_increase_rank"/>
+      <func name="battle_land_increase_file"                    component="UC_button_increase_file"/>
+      <func name="battle_land_step_backwards"                   component="UC_button_move_backwards"/>
+      <func name="battle_land_step_forward"                     component="UC_button_move_forwards"/> 
+      <func name="battle_land_melee"                            component="button_melee"/>
+      <func name="battle_land_toggle_run"                       component="button_movespeed"/>
+      <func name="battle_land_special_ability_2"                component="button_ability2_DY"/>
+      <func name="battle_land_special_ability_3"                component="button_ability3_DY"/>
+      <func name="battle_land_special_ability_4"                component="button_ability4_DY"/>
+      <func name="battle_land_special_ability_5"                component="button_ability5_DY"/>
+      <func name="battle_land_formation_single_line"            component="SingleLineStandard"/>
+      <func name="battle_land_formation_single_line_cav_left"   component="SingleLineCavalryLeftFlank"/>
+      <func name="battle_land_formation_single_line_cav_right"  component="SingleLineCavalryRightFlank"/>
+      <func name="battle_land_formation_double_line"            component="DoubleLineStandard"/>
+      <func name="battle_land_formation_double_line_screened"   component="DoubleLineScreened"/>
+      <func name="battle_land_formation_triple_line"            component="TripleLineStandard"/>
+      <func name="battle_land_formation_triple_line_grand"      component="TripleLineGrandBattery"/>
+      <func name="battle_land_formation_triple_line_integrated" component="TripleLineIntegratedArtillery"/>
+      <func name="battle_land_formation_column"                 component="ColumnInfantryVanguard"/>
+      
+      <func name="battle_naval_activate_round_shot"             component="nav_button_shot_standard"/>
+      <func name="battle_naval_activate_chain_shot"             component="nav_button_shot_chain"/>
+      <func name="battle_naval_activate_grape_shot"             component="nav_button_shot_grape"/>
+      <func name="battle_naval_toggle_boarding"                 component="nav_button_board"/>
+      <func name="battle_naval_formation_line_abreast"          component="line_abreast"/>
+      <func name="battle_naval_formation_line_astern"           component="line_astern"/>
+      <func name="battle_naval_formation_crescent"              component="crescent_attack"/>
+      <func name="battle_naval_formation_crescent_envelop"      component="crescent_envelop"/>
+      <func name="battle_naval_decrease_sail"                   component="nav_UC_button_speed-"/>
+      <func name="battle_naval_increase_sail"                   component="nav_UC_button_speed+"/>
+      <func name="battle_naval_sail_forward"                    component="nav_UC_button_hold_course"/>
+      <func name="toggle_pause"     		                        component="root"/>
+      <func name="cycle_battle_speed"                           component="root"/>
+      <func name="change_minimap_size"                          component="button_enlarge"/>
+      <func name="show_allied_units_proxies"                    component="root"/>
+      <func name="unit_zoom"     		                            component="root"/>
+      <func name="toggle_ship_firing_arcs"                      component="root"/>
+      <func name="visibility_toggle_radar"                      component="root"/>
+      <func name="visibility_toggle_buttons"                    component="root"/>
+      <func name="visibility_toggle_cards"                      component="root"/>
+    </mode>
+    <mode name="campaign">
+      <func name="step_l"            		component="camera"/>
+      <func name="step_r"            		component="camera"/>
+      <func name="step_fwd"          		component="camera"/>
+      <func name="step_bck"          		component="camera"/>
+      <func name="cam_up"            	  component="camera"/>
+      <func name="cam_down"             component="camera"/>
+      <func name="rot_l"             		component="camera"/>
+      <func name="rot_r"             		component="camera"/>
+      <func name="show_gov"          		component="button_government"/>
+      <func name="end_turn"          		component="button_end_turn"/>
+      <func name="current_selection_disband"      component="root"/>
+      <func name="toggle_move_speed" 		component="root"/>
+      <func name="quick_save"           component="root"/>
+      <func name="quick_load"           component="root"/>
+      <func name="select_next"      		component="root"/>
+      <func name="select_prev"      		component="root"/>
+      <func name="show_missions"        component="button_missions"/>
+      <func name="show_technologies"    component="button_tech"/>
+      <func name="show_lists"           component="button_lists"/>
+      <func name="show_diplomacy"       component="button_diplomacy"/>
+      <func name="current_selection_order_cancel" component="root"/>
+      <func name="toggle_labels"                  component="root"/>
+      <func name="toggle_flag_display"            component="root"/>
+      <func name="auto_merge_units"               component="root"/>
+    </mode>
+    <mode name="all">
+      <func name="select_all"       		                        component="card_manager"/>
+      <func name="deselect_all"     		                        component="card_manager"/>
+      <func name="escape_menu"                                  component="root"/>
+      <func name="home_zoom"        		                        component="root"/>
+      <func name="toggle_sfx"       		                        component="root"/>
+      <func name="toggle_music"     		                        component="root"/>
+      <func name="camera_bookmark_save0"                        component="camera"/>
+      <func name="camera_bookmark_save1"                        component="camera"/>
+      <func name="camera_bookmark_save2"                        component="camera"/>
+      <func name="camera_bookmark_save3"                        component="camera"/>
+      <func name="camera_bookmark_view0"                        component="camera"/>
+      <func name="camera_bookmark_view1"                        component="camera"/>
+      <func name="camera_bookmark_view2"                        component="camera"/>
+      <func name="camera_bookmark_view3"                        component="camera"/>
+      <!-- <func name="chat_with_all"                                component="chat_text_panel"/>
+      <func name="chat_with_team"                               component="chat_text_panel"/> -->
+      <!-- <func name="voice_chat"                                   component="root"/> -->
+    </mode>
+  </mappings>
+</shortcuts>
