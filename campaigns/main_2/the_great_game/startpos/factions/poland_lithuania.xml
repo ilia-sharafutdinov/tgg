@@ -121,7 +121,7 @@
  </rec>
  <yes/>
  <xml_include path="unit_name_alloc/poland_lithuania-naval-0001.xml"/>
- <no/><!-- True - Major, False - Minor -->
+ <yes/><!-- True - Major, False - Minor -->
  <ary type="CHARACTER_ARRAY">
   <xml_include path="character/poland_lithuania-General-0001.xml"/>
   <xml_include path="character/poland_lithuania-minister-0001.xml"/>
@@ -177,7 +177,7 @@
  <bool_ary>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</bool_ary>
  <i>0</i><!-- Army Upkeep -->
  <i>0</i><!-- Navy Upkeep -->
- <s>MAINTAINANCE</s><!-- Campaign AI Manager Behaviour (patch.pack) -->
+ <s>FULL</s><!-- Campaign AI Manager Behaviour (patch.pack) -->
  <s>continental_progressive</s><!-- Campaign AI Personalities (patch.pack) -->
  <flag_and_colours path="data\ui\flags\poland_lithuania" color1="#a03038" color2="#eedaa1" color3="#d42b3d"/>
  <flag_and_colours path="data\ui\flags\poland_republic" color1="#a03038" color2="#eedaa1" color3="#d42b3d"/>
