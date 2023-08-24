@@ -1,0 +1,13 @@
+version 1, schema honour_effects_tables, guid f1662480-b7f0-4fb8-8fa6-155f2e5f23e9
+unknown1(boolean)	unknown2(string)	unknown3(string)	unknown4(int)
+true	"acquired_vassal"	"acquired_vassal_clan"	1
+false	"bankruptcy"	"bankruptcy"	-1
+true	"becoming_christian"	"becoming_christian"	-2
+true	"being_christian"	"being_christian"	-1
+true	"battles"	"crushing_defeat"	-2
+false	"dishonouring_alliance"	"dishonouring_alliance"	-1
+true	"battles"	"heroic_victory"	1
+false	"looting_city"	"looting_city"	-1
+false	"bankruptcy"	"not_bankrupt"	1
+true	"being_christian"	"renouncing_christian"	1
+false	"threatening_with_empty_words"	"threatening_with_empty_words"	-1

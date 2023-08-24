@@ -1,0 +1,19 @@
+version 1, schema religion_conversion_mods_tables, guid b5a58f54-02eb-4372-aad4-6e5f6ad7b6d6
+Religion_1(string)	Religion_2(string)	Factor(float)
+"inf_bos_imperial"	"inf_bos_self"	2
+"inf_bos_imperial"	"inf_bos_shogunate"	2
+"inf_bos_self"	"inf_bos_imperial"	2
+"inf_bos_self"	"inf_bos_shogunate"	2
+"inf_bos_shogunate"	"inf_bos_imperial"	2
+"inf_bos_shogunate"	"inf_bos_self"	2
+"inf_gem_fujiwara"	"inf_gem_minamoto"	2
+"inf_gem_fujiwara"	"inf_gem_taira"	2
+"inf_gem_minamoto"	"inf_gem_fujiwara"	2
+"inf_gem_taira"	"inf_gem_fujiwara"	2
+"inf_gem_taira"	"inf_gem_minamoto"	2
+"rel_buddhist"	"rel_catholic"	0
+"rel_buddhist"	"rel_ikko"	0
+"rel_catholic"	"rel_buddhist"	0
+"rel_catholic"	"rel_ikko"	0
+"rel_ikko"	"rel_buddhist"	0
+"rel_ikko"	"rel_catholic"	0

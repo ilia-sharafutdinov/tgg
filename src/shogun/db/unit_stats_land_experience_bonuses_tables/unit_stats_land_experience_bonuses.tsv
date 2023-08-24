@@ -1,0 +1,12 @@
+version 1, schema unit_stats_land_experience_bonuses_tables, guid a3f25a2a-c69f-4ea7-8c49-d08d23ae9d58
+Experience_Level(string)	Melee_Bonus(int)	Defense_Bonus(int)	Reloading_Bonus(int)	Morale_Bonus(int)	Accuracy_Bonus(int)	unknown1(int)	unknown2(int)	unknown3(float)
+"0"	0	0	0	0	0	0	0	1
+"1"	1	1	2	1	2	0	20	1.1
+"2"	2	2	4	1	4	0	45	1.2
+"3"	3	2	6	2	6	0	75	1.3
+"4"	4	3	8	3	8	0	110	1.4
+"5"	4	5	10	3	10	-1	150	1.5
+"6"	5	5	12	4	12	-1	195	1.6
+"7"	6	6	14	4	14	-2	245	1.7
+"8"	6	7	16	5	16	-2	300	1.8
+"9"	7	7	18	6	18	-3	360	1.9

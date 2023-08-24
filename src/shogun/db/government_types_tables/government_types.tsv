@@ -1,0 +1,8 @@
+version 1, schema government_types_tables, guid 019fa7e2-1222-460a-b938-dc61d27ae5e7
+Government_ID(string)	Unknown1(boolean)	Unknown2(boolean)	Unknown3(int)	Upper_Class(string)	Lower_Class(string)
+"gov_absolute_monarchy"	false	true	3	"upper"	"upper"
+"gov_constitutional_monarchy"	false	false	2	"upper"	"middle"
+"gov_empire"	false	true	0	"middle"	"lower"
+"gov_jap_clan"	false	false	4	"lower"	"lower"
+"gov_jap_shogunate"	false	false	0	"lower"	"lower"
+"gov_republic"	true	false	1	"middle"	"lower"

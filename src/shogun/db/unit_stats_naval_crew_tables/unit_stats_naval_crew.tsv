@@ -1,0 +1,21 @@
+version 3, schema unit_stats_naval_crew_tables, guid 3adb951b-d052-4039-a332-38ea4b58591f
+Crew_ID(string)	unknown1(int)	Accuracy(int)	Melee_Skill(int)	Melee_defence(int)	Melee_Weapon(string)	unknown5(boolean)	unknown6(int)	unknown7(string)	Model(string)	Animation(string)	Warscape_Equipment_Theme(string)	unknown10(string)	unknown11(int)	unknown12(float)	unknown13(int)	unknown17(optstring)
+"arrow_marine"	0	30	4	1	"sabre"	false	30	"shogun_inf_missile_ashigaru_naval"	"euro_marines"	"shogun_man_bow_katana"	"shogun_yumi"	"ph"	1	1.5	5	"shogun_arrow_naval"
+"boshin_guncrew"	0	30	4	1	"sabre"	false	0	"shogun_inf_missile_ashigaru"	"euro_naval_gunner"	"shogun_man_katana"	"shogun_katana"	"ph"	3	1.5	3	"boshin_gatling_gun_bullet"
+"boshin_marine"	0	30	4	1	"sabre"	false	30	"shogun_inf_missile_ashigaru_naval"	"euro_marines"	"shogun_man_musket"	"shogun_teppo"	"ph"	1	1.5	5	"boshin_matchlock_naval"
+"boshin_seaman"	0	0	12	2	"sabre"	false	0	"shogun_inf_samurai"	"euro_able_seamen"	"shogun_man_katana"	"shogun_katana"	"ph"	3	1.5	3	nil
+"firebomb_marine"	0	0	4	1	"sabre"	false	30	"shogun_inf_missile_ashigaru_naval"	"euro_marines"	"shogun_man_sling"	"shogun_katana"	"ph"	1	1.5	5	"shogun_fire_bomb_naval"
+"genpei_attendant_arrow_marine"	0	10	8	5	"sabre"	false	30	"shogun_inf_missile_ashigaru_naval"	"euro_marines"	"shogun_man_bow_katana"	"shogun_yumi"	"ph"	2	1.5	5	"shogun_arrow_naval"
+"genpei_attendant_katana_seaman"	0	0	10	5	"sabre"	false	0	"shogun_inf_samurai"	"euro_able_seamen"	"shogun_man_katana"	"shogun_katana"	"ph"	2	1.5	3	nil
+"genpei_samurai_arrow_marine"	0	50	10	7	"sabre"	false	30	"shogun_inf_missile_ashigaru_naval"	"euro_marines"	"shogun_man_bow_katana"	"shogun_yumi"	"ph"	3	1.5	5	"shogun_arrow_naval"
+"genpei_samurai_firebomb_marine"	0	30	10	7	"sabre"	false	30	"shogun_inf_missile_ashigaru_naval"	"euro_marines"	"shogun_man_sling"	"shogun_katana"	"ph"	3	1.5	5	"shogun_fire_bomb_naval"
+"genpei_samurai_katana_seaman"	0	0	12	7	"sabre"	false	0	"shogun_inf_samurai"	"euro_able_seamen"	"shogun_man_katana"	"shogun_katana"	"ph"	3	1.5	5	nil
+"guncrew"	0	0	4	1	"sabre"	false	0	"shogun_inf_missile_ashigaru"	"euro_naval_gunner"	"shogun_man_katana"	"shogun_katana"	"ph"	3	1.5	3	nil
+"katana_seaman"	0	0	12	2	"sabre"	false	0	"shogun_inf_samurai"	"euro_able_seamen"	"shogun_man_katana"	"shogun_katana"	"ph"	3	1.5	3	nil
+"matchlock_marine"	0	30	4	1	"sabre"	false	30	"shogun_inf_missile_ashigaru_naval"	"euro_marines"	"shogun_man_musket"	"shogun_teppo"	"ph"	1	1.5	5	"shogun_matchlock_naval"
+"matchlock_marine_otomo"	0	40	4	1	"sabre"	false	30	"shogun_inf_missile_ashigaru_naval"	"euro_marines"	"shogun_man_musket"	"shogun_teppo"	"ph"	1	1.5	5	"shogun_matchlock_naval"
+"naval_admiral"	0	0	15	7	"sabre"	false	0	"shogun_inf_samurai"	"euro_admiral"	"shogun_man_katana"	"shogun_katana"	"ph"	1	1.5	5	nil
+"naval_commodore"	0	0	10	2	"sabre"	false	0	"shogun_inf_samurai"	"euro_commodore"	"shogun_man_katana"	"shogun_katana"	"ph"	3	1.5	5	nil
+"naval_flutist"	0	0	10	2	"sabre"	false	0	"shogun_inf_samurai"	"euro_able_seamen"	"shogun_man_katana"	"shogun_katana"	"ph"	3	1.5	5	nil
+"naval_officer"	0	0	10	2	"sabre"	false	0	"shogun_inf_samurai"	"euro_commodore"	"shogun_man_katana"	"shogun_katana"	"ph"	3	1.5	5	nil
+"spear_seaman"	0	0	12	2	"sabre"	false	0	"shogun_inf_yari_ash"	"euro_able_seamen"	"shogun_man_yari"	"shogun_yari"	"ph"	3	1.5	3	nil

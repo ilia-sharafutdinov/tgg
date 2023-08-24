@@ -1,0 +1,6 @@
+version 1, schema battle_weather_types_tables, guid e4f1091d-4c97-4f45-9265-a79f29743dc0
+Weather_ID(string)	level(int)	precipitation_type(int)	num_particles(int)	particle_size(float)	particle_speed(float)	list_order(int)	naval_appropriate(boolean)
+"dry"	0	0	0	0	0	0	true
+"fog"	0	3	0	0	0	0	true
+"rain"	0	1	0	0	0	0	true
+"snow"	0	2	0	0	0	0	true

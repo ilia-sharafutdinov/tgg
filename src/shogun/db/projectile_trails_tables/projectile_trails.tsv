@@ -1,0 +1,12 @@
+version 1, schema projectile_trails_tables, guid bc9e78ea-33f6-4ed6-8b82-699207040db0
+Projectile_Trail(string)	unknown1(string)	unknown2(float)	unknown3(float)	unknown4(float)	unknown5(float)	unknown6(float)	unknown7(float)	unknown8(float)	unknown9(float)	unknown10(float)	unknown11(float)
+"additive_rocket_trail"	"add"	0.3	0.1	70	255	38	8	150	300	0	0
+"additve_fire_arrow_trail"	"add"	0.2	0.08	70	255	100	8	100	300	0	0
+"alpha"	"alpha"	0.2	0.1	50	192	192	192	128	300	0	0
+"alpha_bullet"	"alpha"	0.1	0.05	50	192	192	192	128	300	0	0
+"alpha_grenade"	"alpha"	0.1	0.1	25	128	128	128	128	300	10	10
+"alpha_shrapnel"	"add"	0.05	0.05	25	192	192	192	128	300	0	0
+"arrow_trail"	"alpha"	0.1	0.1	25	48	48	48	128	300	20	10
+"hero_arrow_trail"	"alpha"	0.1	0.1	25	48	48	48	128	300	20	10
+"naval_arrow_trail"	"alpha"	0.1	0.1	25	255	255	255	128	300	20	10
+"none"	"none"	0	0	0	0	0	0	0	0	0	0

@@ -1,0 +1,58 @@
+version 3, schema aide_de_camp_speeches_tables, guid a28ba4f2-b0a3-4f88-99a1-6a679329e0d3
+adc_idref(string)	speech_text(string)	unknown3(boolean)	unknown4(float)	unknown5(float)	unknown6(boolean)
+"adc_allied_fleet_destroyed"	"Bah! Our esteemed ally has turned about, leaving us to the mercy of our foes!"	true	0	55	false
+"adc_allied_general_killed"	"Our ally has fallen to the enemy my lord! A terrible loss!"	true	0	11	false
+"adc_building_captured"	"We have captured a building, my lord!"	true	0	11	false
+"adc_enemy_admiral_killed"	"Their general has fallen! A devastating loss for the enemy!"	true	0	55	false
+"adc_enemy_allied_general_killed"	"The enemy has lost a vital ally, my lord!"	true	0	11	false
+"adc_enemy_ally_destroyed"	"Their ally has abandoned them! Now we have them!"	false	0	11	false
+"adc_enemy_captured_building"	"They have captured a building, my lord!"	true	0	11	false
+"adc_enemy_captured_strategic_point"	"They now control a key position, my lord!"	false	0	3	false
+"adc_enemy_fort_about_to_be_captured"	"The fort is but moments from being ours, sir!"	true	0	11	false
+"adc_enemy_fort_getting_captured"	"Onwards, sir, onwards, the fort is falling!"	true	0	11	false
+"adc_enemy_gates_captured"	"The gates are ours!"	true	0	11	false
+"adc_enemy_general_killed"	"My lord, their general has fallen! A cutting blow!"	true	0	11	false
+"adc_enemy_has_gatling_guns"	"My Lord; the enemy army contains the deadly gatling gun weapon"	false	0	3	false
+"adc_enemy_hidden_unit_spotted"	"Hidden units, my lord, treacherously meant to ambush us!"	true	0	20	false
+"adc_enemy_naval_bombardment"	"Naval bombardment incoming!"	false	0	3	false
+"adc_enemy_reinforcements"	"Beware! Enemy reinforcements have arrived my lord!"	true	0	11	false
+"adc_enemy_tower_captured"	"We have captured their tower, my lord!"	true	0	55	false
+"adc_enemy_tower_destroyed"	"Our weapons made short work of their tower!"	true	0	55	false
+"adc_enemy_walls_breached"	"The walls are destroyed! Into the breach!"	true	0	11	false
+"adc_losing"	"All hope is failing, my lord! The battle is almost done!"	false	0	55	false
+"adc_own_admiral_attacked"	"Our general is under threat, my lord! He is too important to lose!"	true	0	55	true
+"adc_own_admiral_killed"	"Our general has fallen, my lord! Our men are shaken by this terrible event!"	true	0	55	true
+"adc_own_allied_hidden_unit_spotted"	"The enemy has discovered our ally's hidden troops!"	false	0	3	false
+"adc_own_ally_attacked"	"Our allies are under attack!"	true	0	11	false
+"adc_own_ally_destroyed"	"My lord! Our ally has fled, abandoning us to the enemy!"	false	0	11	false
+"adc_own_fort_about_to_be_captured"	"Sir! We cannot hold this position much longer!"	true	0	11	false
+"adc_own_fort_getting_captured"	"Sir, our defences are breached and failing!"	true	0	11	false
+"adc_own_gates_lost"	"Our gate has fallen to the enemy!"	true	0	11	false
+"adc_own_general_attacked"	"Our general is in grave danger, my lord!"	true	0	11	true
+"adc_own_general_injured"	"Our general has been injured, my lord! He lives, but must leave the battle!"	true	0	11	true
+"adc_own_general_killed"	"This is a black day! Our general has fallen , my lord."	true	0	11	true
+"adc_own_hidden_unit_spotted"	"Our hidden units have been discovered my lord!"	true	0	20	false
+"adc_own_naval_bombardment"	"Sir! The enemy have called in a bombardment. It may target our position!"	false	0	3	false
+"adc_own_reinforcements"	"Reinforcements have arrived!"	true	0	11	false
+"adc_own_ship lost"	"Our ship has been destroyed! All hands are lost!"	true	0	55	false
+"adc_own_ship surrendered"	"One of our ships has chosen dishonour, my lord!"	true	0	55	false
+"adc_own_ship_being_boarded"	"Here they come! Prepare to repel boarders!"	true	0	55	false
+"adc_own_ship_boom"	"Our ship has exploded!"	false	0	55	false
+"adc_own_ship_demasted"	"One of our ships has lost its sails! It may not last much longer in such a state!"	true	0	55	false
+"adc_own_ship_on_fire"	"Fire! One of our ships has been set ablaze!"	true	0	3	false
+"adc_own_ship_routed"	"One of our ships is withdrawing!"	true	0	55	false
+"adc_own_ship_within_coastal_battery"	"Beware! Our ship is in range of a coastal battery"	false	0	3	false
+"adc_own_tower_destroyed"	"Our tower has fallen to their fire!"	true	0	55	false
+"adc_own_tower_lost"	"The enemy have taken a tower!"	true	0	55	false
+"adc_own_unit_exhausted"	"The men are fatigued, my lord, and some must rest!"	true	0	11	false
+"adc_own_unit_line_of_sight_obstructed"	"We cannot see our targets but will try to hit them"	false	0	3	false
+"adc_own_unit_lost"	"Our entire unit has perished, my lord!"	true	0	11	false
+"adc_own_unit_out_of_ammo"	"One of our units have used all its ammunition, my lord."	true	0	11	false
+"adc_own_unit_routed"	"Our men are running from the battlefield: a shameful display!"	true	0	11	false
+"adc_own_unit_suppressed"	"One of our units is under suppression fire!"	false	0	3	false
+"adc_own_walls_breached"	"Our walls crumble under the pounding of their weapons!"	true	0	11	false
+"adc_player_is_attacker"	"My Lord, a friendly reminder that you are the attacker"	false	0	3	false
+"adc_player_is_defender"	"My Lord, a friendly reminder that you are the defender"	false	0	3	false
+"adc_torpedo_near"	"Beware! A torpedo approaches our fleet"	false	0	3	false
+"adc_weather_rain"	"The weather looks ominous, my lord! We should be wary of misfires."	false	0	55	false
+"adc_winning"	"My lord, a glorious victory will soon be yours!"	false	0	55	true

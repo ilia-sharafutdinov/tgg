@@ -1,0 +1,15 @@
+version 1, schema loyalty_effects_tables, guid f2f73de5-e57c-46b5-8712-d918da5f8b31
+unknown1(boolean)	unknown2(string)	unknown3(string)	unknown4(int)
+true	"adoption"	"adoption"	1
+true	"heir"	"became_heir"	2
+true	"bribed"	"bribed"	-1
+true	"granted_office"	"granted_office"	1
+true	"greater_than_his_lord"	"greater_than_his_lord"	-1
+false	"lost_office_shortly_after_being_granted_it"	"lost_office_shortly_after_being_granted_it"	0
+true	"lower_level_character_granted_office"	"lower_level_character_granted_office"	-1
+true	"married_daughter"	"married_daughter"	1
+false	"removed_from_office"	"removed_from_office"	-1
+true	"granted_office"	"removed_from_office_2"	-1
+true	"heir"	"replaced_as_heir"	-3
+false	"upstart_generals"	"upstart_generals"	-1
+false	"upstart_sons"	"upstart_sons"	-1

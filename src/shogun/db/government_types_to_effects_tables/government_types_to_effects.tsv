@@ -1,0 +1,15 @@
+version 1, schema government_types_to_effects_tables, guid 8e26b607-bb65-4ba0-9ca7-7858d7d7adfd
+Government_x0020_Type(string)	Effect_IDRef(string)	Magnitude(float)
+"gov_absolute_monarchy"	"recruitment_cost_mod_land_all"	0
+"gov_absolute_monarchy"	"recruitment_points_home_region"	1
+"gov_absolute_monarchy"	"repression_gov_type"	0
+"gov_absolute_monarchy"	"research_rate_mod"	0
+"gov_absolute_monarchy"	"tw_growth_government"	0
+"gov_constitutional_monarchy"	"recruitment_points_home_region"	1
+"gov_constitutional_monarchy"	"repression_gov_type"	3
+"gov_constitutional_monarchy"	"tw_growth_government"	3
+"gov_empire"	"recruitment_points_home_region"	1
+"gov_empire"	"repression_gov_type"	3
+"gov_republic"	"recruitment_points_home_region"	1
+"gov_republic"	"repression_gov_type"	2
+"gov_republic"	"tw_growth_government"	8
