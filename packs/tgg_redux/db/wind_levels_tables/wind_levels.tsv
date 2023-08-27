@@ -1,0 +1,12 @@
+version 1, schema wind_levels_tables
+Wind_IDRef(string)	Level(string)	Westerly_x0020_intensity(float)	Northern_x0020_intensity(float)	unknown5(int)
+"calm_westerly"	"wind_level_0"	3	0	1
+"gale_northern"	"wind_level_3"	0	12	8
+"light_northern"	"wind_level_0"	0	3	5
+"light_westerly"	"wind_level_1"	6	0	2
+"moderate_northern"	"wind_level_1"	0	6	6
+"moderate_westerly"	"wind_level_2"	9	0	0
+"storm_northern"	"wind_level_4"	0	16	9
+"storm_westerly"	"wind_level_4"	16	0	4
+"strong_northern"	"wind_level_2"	0	9	7
+"strong_westerly"	"wind_level_3"	12	0	3
